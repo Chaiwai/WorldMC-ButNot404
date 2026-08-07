@@ -1,0 +1,1679 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+items: #[物品配置]**
+  cw_made_items_cw_made_items1:
+    display_name: "银矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore1.png
+
+  cw_made_items_cw_made_items2:
+    display_name: "魔矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore2.png
+
+  cw_made_items_cw_made_items3:
+    display_name: "陨石矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore3.png
+
+  cw_made_items_cw_made_items4:
+    display_name: "狱岩矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore4.png
+
+  cw_made_items_cw_made_items5:
+    display_name: "钴矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore5.png
+
+  cw_made_items_cw_made_items6:
+    display_name: "秘银矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore6.png
+
+  cw_made_items_cw_made_items7:
+    display_name: "精金矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore7.png
+
+  cw_made_items_cw_made_items8:
+    display_name: "钨矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore8.png
+
+  cw_made_items_cw_made_items9:
+    display_name: "铂金矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore9.png
+
+  cw_made_items_cw_made_items10:
+    display_name: "猩红矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore10.png
+
+  cw_made_items_cw_made_items11:
+    display_name: "叶绿矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore11.png
+
+  cw_made_items_cw_made_items12:
+    display_name: "钯金矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore12.png
+
+  cw_made_items_cw_made_items13:
+    display_name: "山铜矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore13.png
+
+  cw_made_items_cw_made_items14:
+    display_name: "钛金矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore14.png
+
+  cw_made_items_cw_made_items15:
+    display_name: "夜明矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore15.png
+
+  cw_made_items_cw_made_items16:
+    display_name: "蘑菇矿"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore16.png
+
+  cw_made_items_cw_made_items17:
+    display_name: "灵气"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ore17.png
+  cw_made_items_cw_made_items_ingot1:
+    display_name: "银锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot1.png
+
+  cw_made_items_cw_made_items_ingot2:
+    display_name: "魔锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot2.png
+
+  cw_made_items_cw_made_items_ingot3:
+    display_name: "陨石锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot3.png
+
+  cw_made_items_cw_made_items_ingot4:
+    display_name: "狱岩锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot4.png
+
+  cw_made_items_cw_made_items_ingot5:
+    display_name: "钴锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot5.png
+
+  cw_made_items_cw_made_items_ingot6:
+    display_name: "秘银锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot6.png
+
+  cw_made_items_cw_made_items_ingot7:
+    display_name: "精金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot7.png
+
+  cw_made_items_cw_made_items_ingot8:
+    display_name: "钨锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot8.png
+
+  cw_made_items_cw_made_items_ingot9:
+    display_name: "铂金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot9.png
+
+  cw_made_items_cw_made_items_ingot10:
+    display_name: "猩红锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot10.png
+
+  cw_made_items_cw_made_items_ingot11:
+    display_name: "叶绿锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot11.png
+
+  cw_made_items_cw_made_items_ingot12:
+    display_name: "钯金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot12.png
+
+  cw_made_items_cw_made_items_ingot13:
+    display_name: "山铜锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot13.png
+
+  cw_made_items_cw_made_items_ingot14:
+    display_name: "钛金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot14.png
+
+  cw_made_items_cw_made_items_ingot15:
+    display_name: "夜明锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot15.png
+
+  cw_made_items_cw_made_items_ingot16:
+    display_name: "蘑菇锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot16.png
+
+  cw_made_items_cw_made_items_ingot17:
+    display_name: "幽灵锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot17.png
+
+  cw_made_items_cw_made_items_ingot18:
+    display_name: "神圣锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - ore/tr_ingot18.png
+  ######宝藏袋
+  cw_made_items_cw_made_items_box1:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box1.png
+
+  cw_made_items_cw_made_items_box2:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box2.png
+
+  cw_made_items_cw_made_items_box3:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box3.png
+
+  cw_made_items_cw_made_items_box4:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box4.png
+
+  cw_made_items_cw_made_items_box5:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box5.png
+
+  cw_made_items_cw_made_items_box6:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box6.png
+
+  cw_made_items_cw_made_items_box7:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box7.png
+
+  cw_made_items_cw_made_items_box8:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box8.png
+
+  cw_made_items_cw_made_items_box9:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box9.png
+
+  cw_made_items_cw_made_items_box10:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box10.png
+
+  cw_made_items_cw_made_items_box11:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box11.png
+
+  cw_made_items_cw_made_items_box12:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box12.png
+
+  cw_made_items_cw_made_items_box13:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box13.png
+
+  cw_made_items_cw_made_items_box14:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box14.png
+
+  cw_made_items_cw_made_items_box15:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box15.png
+
+  cw_made_items_cw_made_items_box16:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box16.png
+
+  cw_made_items_cw_made_items_box17:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box17.png
+
+  cw_made_items_cw_made_items_box18:
+    display_name: "宝藏袋"
+    lore:
+      - "&7能开出神秘道具"
+    resource:
+      material: popped_chorus_fruit
+      generate: true
+      textures:
+        - box/tr_box18.png
+  ##副手1
+  cw_made_items_cw_made_items_off_hand1_1:
+    display_name: "饰品1_1"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_1.png
+
+  cw_made_items_cw_made_items_off_hand1_2:
+    display_name: "饰品1_2"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_2.png
+
+  cw_made_items_cw_made_items_off_hand1_3:
+    display_name: "饰品1_3"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_3.png
+
+  cw_made_items_cw_made_items_off_hand1_4:
+    display_name: "饰品1_4"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_4.png
+
+  cw_made_items_cw_made_items_off_hand1_5:
+    display_name: "饰品1_5"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_5.png
+
+  cw_made_items_cw_made_items_off_hand1_6:
+    display_name: "饰品1_6"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_6.png
+
+  cw_made_items_cw_made_items_off_hand1_7:
+    display_name: "饰品1_7"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_7.png
+
+  cw_made_items_cw_made_items_off_hand1_8:
+    display_name: "饰品1_8"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_8.png
+
+  cw_made_items_cw_made_items_off_hand1_9:
+    display_name: "饰品1_9"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_9.png
+
+  cw_made_items_cw_made_items_off_hand1_10:
+    display_name: "饰品1_10"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_10.png
+
+  cw_made_items_cw_made_items_off_hand1_11:
+    display_name: "饰品1_11"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_11.png
+
+  cw_made_items_cw_made_items_off_hand1_12:
+    display_name: "饰品1_12"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_12.png
+
+  cw_made_items_cw_made_items_off_hand1_13:
+    display_name: "饰品1_13"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_13.png
+
+  cw_made_items_cw_made_items_off_hand1_14:
+    display_name: "饰品1_14"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand1/off_hand_1_14.png
+
+  ##副手2
+  cw_made_items_cw_made_items_off_hand2_1:
+    display_name: "饰品2_1"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand2/off_hand_2_1.png
+
+  cw_made_items_cw_made_items_off_hand2_2:
+    display_name: "饰品2_2"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand2/off_hand_2_2.png
+
+  cw_made_items_cw_made_items_off_hand2_3:
+    display_name: "饰品2_3"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand2/off_hand_2_3.png
+
+  cw_made_items_cw_made_items_off_hand2_4:
+    display_name: "饰品2_4"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand2/off_hand_2_4.png
+
+  cw_made_items_cw_made_items_off_hand2_5:
+    display_name: "饰品2_5"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand2/off_hand_2_5.png
+
+  cw_made_items_cw_made_items_off_hand2_6:
+    display_name: "饰品2_6"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand2/off_hand_2_6.png
+
+  cw_made_items_cw_made_items_off_hand2_7:
+    display_name: "饰品2_7"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand2/off_hand_2_7.png
+
+  ##副手3
+  cw_made_items_cw_made_items_off_hand3_1:
+    display_name: "饰品3_1"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_1.png
+
+  cw_made_items_cw_made_items_off_hand3_2:
+    display_name: "饰品3_2"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_2.png
+
+  cw_made_items_cw_made_items_off_hand3_3:
+    display_name: "饰品3_3"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_3.png
+
+  cw_made_items_cw_made_items_off_hand3_4:
+    display_name: "饰品3_4"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_4.png
+
+  cw_made_items_cw_made_items_off_hand3_5:
+    display_name: "饰品3_5"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_5.png
+
+  cw_made_items_cw_made_items_off_hand3_6:
+    display_name: "饰品3_6"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_6.png
+
+  cw_made_items_cw_made_items_off_hand3_7:
+    display_name: "饰品3_7"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_7.png
+
+  cw_made_items_cw_made_items_off_hand3_8:
+    display_name: "饰品3_8"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_8.png
+
+  cw_made_items_cw_made_items_off_hand3_9:
+    display_name: "饰品3_9"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_9.png
+
+  cw_made_items_cw_made_items_off_hand3_10:
+    display_name: "饰品3_10"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_10.png
+
+  cw_made_items_cw_made_items_off_hand3_11:
+    display_name: "饰品3_11"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_11.png
+
+  cw_made_items_cw_made_items_off_hand3_12:
+    display_name: "饰品3_12"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_12.png
+
+  cw_made_items_cw_made_items_off_hand3_13:
+    display_name: "饰品3_13"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_13.png
+
+  cw_made_items_cw_made_items_off_hand3_14:
+    display_name: "饰品3_14"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_14.png
+
+  cw_made_items_cw_made_items_off_hand3_15:
+    display_name: "饰品3_15"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_15.png
+
+  cw_made_items_cw_made_items_off_hand3_16:
+    display_name: "饰品3_16"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand3/off_hand_3_16.png
+
+  ##副手4
+  cw_made_items_cw_made_items_off_hand4_1:
+    display_name: "饰品4_1"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_1.png
+
+  cw_made_items_cw_made_items_off_hand4_2:
+    display_name: "饰品4_2"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_2.png
+
+  cw_made_items_cw_made_items_off_hand4_3:
+    display_name: "饰品4_3"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_3.png
+
+  cw_made_items_cw_made_items_off_hand4_4:
+    display_name: "饰品4_4"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_4.png
+
+  cw_made_items_cw_made_items_off_hand4_5:
+    display_name: "饰品4_5"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_5.png
+
+  cw_made_items_cw_made_items_off_hand4_6:
+    display_name: "饰品4_6"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_6.png
+
+  cw_made_items_cw_made_items_off_hand4_7:
+    display_name: "饰品4_7"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_7.png
+
+  cw_made_items_cw_made_items_off_hand4_8:
+    display_name: "饰品4_8"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_8.png
+
+  cw_made_items_cw_made_items_off_hand4_9:
+    display_name: "饰品4_9"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_9.png
+
+  cw_made_items_cw_made_items_off_hand4_10:
+    display_name: "饰品4_10"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_10.png
+
+  cw_made_items_cw_made_items_off_hand4_11:
+    display_name: "饰品4_11"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_11.png
+
+  cw_made_items_cw_made_items_off_hand4_12:
+    display_name: "饰品4_12"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_12.png
+
+  cw_made_items_cw_made_items_off_hand4_13:
+    display_name: "饰品4_13"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_13.png
+
+  cw_made_items_cw_made_items_off_hand4_14:
+    display_name: "饰品4_14"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_14.png
+
+  cw_made_items_cw_made_items_off_hand4_15:
+    display_name: "饰品4_15"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_15.png
+
+  cw_made_items_cw_made_items_off_hand4_16:
+    display_name: "饰品4_16"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand4/off_hand_4_16.png
+
+  ##副手5
+  cw_made_items_cw_made_items_off_hand5_1:
+    display_name: "饰品5_1"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_1.png
+
+  cw_made_items_cw_made_items_off_hand5_2:
+    display_name: "饰品5_2"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_2.png
+
+  cw_made_items_cw_made_items_off_hand5_3:
+    display_name: "饰品5_3"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_3.png
+
+  cw_made_items_cw_made_items_off_hand5_4:
+    display_name: "饰品5_4"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_4.png
+
+  cw_made_items_cw_made_items_off_hand5_5:
+    display_name: "饰品5_5"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_5.png
+
+  cw_made_items_cw_made_items_off_hand5_6:
+    display_name: "饰品5_6"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_6.png
+
+  cw_made_items_cw_made_items_off_hand5_7:
+    display_name: "饰品5_7"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_7.png
+
+  cw_made_items_cw_made_items_off_hand5_8:
+    display_name: "饰品5_8"
+    lore:
+      - "&7饰品/也是一种材料"
+    resource:
+      material: phantom_membrane
+      generate: true
+      textures:
+        - off_hand5/off_hand_5_8.png
+  ##材料
+  cw_made_items_cw_made_items_item1:
+    display_name: "item1"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item1.png
+
+  cw_made_items_cw_made_items_item2:
+    display_name: "item2"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item2.png
+
+  cw_made_items_cw_made_items_item3:
+    display_name: "item3"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item3.png
+
+  cw_made_items_cw_made_items_item4:
+    display_name: "item4"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item4.png
+
+  cw_made_items_cw_made_items_item5:
+    display_name: "item5"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item5.png
+
+  cw_made_items_cw_made_items_item6:
+    display_name: "item6"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item6.png
+
+  cw_made_items_cw_made_items_item7:
+    display_name: "item7"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item7.png
+
+  cw_made_items_cw_made_items_item8:
+    display_name: "item8"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item8.png
+
+  cw_made_items_cw_made_items_item9:
+    display_name: "item9"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item9.png
+
+  cw_made_items_cw_made_items_item10:
+    display_name: "item10"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item10.png
+
+  cw_made_items_cw_made_items_item11:
+    display_name: "item11"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item11.png
+
+  cw_made_items_cw_made_items_item12:
+    display_name: "item12"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item12.png
+
+  cw_made_items_cw_made_items_item13:
+    display_name: "item13"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item13.png
+
+  cw_made_items_cw_made_items_item14:
+    display_name: "item14"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item14.png
+
+  cw_made_items_cw_made_items_item15:
+    display_name: "item15"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item15.png
+
+  cw_made_items_cw_made_items_item16:
+    display_name: "item16"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item16.png
+
+  cw_made_items_cw_made_items_item17:
+    display_name: "item17"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item17.png
+
+  cw_made_items_cw_made_items_item18:
+    display_name: "item18"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item18.png
+
+  cw_made_items_cw_made_items_item19:
+    display_name: "item19"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item19.png
+
+  cw_made_items_cw_made_items_item20:
+    display_name: "item20"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item20.png
+
+  cw_made_items_cw_made_items_item21:
+    display_name: "item21"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item21.png
+
+  cw_made_items_cw_made_items_item22:
+    display_name: "item22"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item22.png
+
+  cw_made_items_cw_made_items_item23:
+    display_name: "item23"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item23.png
+
+  cw_made_items_cw_made_items_item24:
+    display_name: "item24"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item24.png
+
+  cw_made_items_cw_made_items_item25:
+    display_name: "item25"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item25.png
+
+  cw_made_items_cw_made_items_item26:
+    display_name: "item26"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item26.png
+
+  cw_made_items_cw_made_items_item27:
+    display_name: "item27"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item27.png
+
+  cw_made_items_cw_made_items_item28:
+    display_name: "item28"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item28.png
+
+  cw_made_items_cw_made_items_item29:
+    display_name: "item29"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item29.png
+
+  cw_made_items_cw_made_items_item30:
+    display_name: "item30"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item30.png
+
+  cw_made_items_cw_made_items_item31:
+    display_name: "item31"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item31.png
+
+  cw_made_items_cw_made_items_item32:
+    display_name: "item32"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item32.png
+
+  cw_made_items_cw_made_items_item33:
+    display_name: "item33"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item33.png
+
+  cw_made_items_cw_made_items_item34:
+    display_name: "item34"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item34.png
+
+  cw_made_items_cw_made_items_item35:
+    display_name: "item35"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item35.png
+
+  cw_made_items_cw_made_items_item36:
+    display_name: "item36"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item36.png
+
+  cw_made_items_cw_made_items_item37:
+    display_name: "item37"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item37.png
+
+  cw_made_items_cw_made_items_item38:
+    display_name: "item38"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item38.png
+
+  cw_made_items_cw_made_items_item39:
+    display_name: "item39"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item39.png
+
+  cw_made_items_cw_made_items_item40:
+    display_name: "item40"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item40.png
+
+  cw_made_items_cw_made_items_item41:
+    display_name: "item41"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item41.png
+
+  cw_made_items_cw_made_items_item42:
+    display_name: "item42"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item42.png
+
+  cw_made_items_cw_made_items_item43:
+    display_name: "item43"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item43.png
+
+  cw_made_items_cw_made_items_item44:
+    display_name: "item44"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: ghast_tear
+      generate: true
+      textures:
+        - items/item44.png
+  #ui
+  cw_made_items_cw_made_items_ui_1:
+    display_name: "ui_1"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - ui/ui_1.png
+  cw_made_items_cw_made_items_ui_2:
+    display_name: "ui_2"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - ui/ui_2.png
+  cw_made_items_cw_made_items_ui_3:
+    display_name: "ui_3"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - ui/ui_3.png
+  cw_made_items_cw_made_items_ui_4:
+    display_name: "ui_4"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - ui/ui_4.png
+  cw_made_items_cw_made_items_ui_5:
+    display_name: "ui_5"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - ui/ui_5.png
+  cw_made_items_cw_made_items_ui_6:
+    display_name: "ui_6"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - ui/ui_6.png
+  cw_made_items_cw_made_items_ui_7:
+    display_name: "ui_7"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - ui/ui_7.png
+  cw_icon_money:
+    display_name: "cw_icon_money"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - img/icon/money.png
+  cw_icon_point:
+    display_name: "cw_icon_point"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - img/icon/point.png
+  cw_icon_point_pro:
+    display_name: "cw_icon_point_pro"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - img/icon/point_pro.png
+  cw_icon_level:
+    display_name: "cw_icon_level"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - img/icon/level.png
+  cw_icon_level_xp:
+    display_name: "cw_icon_level_xp"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - img/icon/level_xp.png
+  cw_icon_kill:
+    display_name: "cw_icon_kill"
+    resource:
+      material: amethyst_shard
+      generate: true
+      textures:
+        - img/icon/kill.png

@@ -1,0 +1,31 @@
+{
+	"credit": "Created by @JamieProbably on Twitter",
+	"textures": {
+		"0": "block/brown_mushroom_3d",
+		"particle": "block/brown_mushroom"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"east": {"uv": [2, 0, 0, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 4], "texture": "#0"},
+				"west": {"uv": [2, 0, 0, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 4, 4],
+			"to": [12, 6, 12],
+			"faces": {
+				"north": {"uv": [0, 6, 8, 8], "texture": "#0"},
+				"east": {"uv": [0, 6, 8, 8], "texture": "#0"},
+				"south": {"uv": [0, 6, 8, 8], "texture": "#0"},
+				"west": {"uv": [0, 6, 8, 8], "texture": "#0"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

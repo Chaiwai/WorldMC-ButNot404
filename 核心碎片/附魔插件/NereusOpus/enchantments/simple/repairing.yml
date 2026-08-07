@@ -1,0 +1,29 @@
+basic:
+  id: repairing
+  name: 自生
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 处于非手持状态时耐久度持续增加
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 稀世
+targets:
+- all
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+#- CONFLICT_ENCHANT:decay_curse
+variables:
+  ordinary:
+    repeat-ticks: 100
+  leveled:
+    durability-increase: :{level}

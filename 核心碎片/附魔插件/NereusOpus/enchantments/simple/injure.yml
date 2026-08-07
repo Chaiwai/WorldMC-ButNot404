@@ -1,0 +1,33 @@
+basic:
+  id: injure
+  name: 重伤
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 使得被攻击的玩家血量恢复速度降低
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- swords
+- axes
+- bow
+- crossbow
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    heal-multiplier: :1-0.25*{level}
+    duration: :80+20*{level}
+  ordinary:
+    require-full-charge: true

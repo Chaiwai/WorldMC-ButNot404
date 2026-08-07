@@ -1,0 +1,39 @@
+{
+  "samus.dragon_dash": {
+    "category": "master",
+    "sounds": [
+      "mount_1:samus/rpg_mount/dragon_dash"
+    ]
+  },
+  "samus.dragon_idle": {
+    "category": "master",
+    "sounds": [
+      "mount_1:samus/rpg_mount/dragon_idle"
+    ]
+  },
+  "samus.lizard_dash": {
+    "category": "master",
+    "sounds": [
+      "mount_1:samus/rpg_mount/lizard_dash"
+    ]
+  },
+  "samus.lizard_idle": {
+    "category": "master",
+    "sounds": [
+      "mount_1:samus/rpg_mount/lizard_idle"
+    ]
+  },
+  "samus.sabertooth_dash": {
+    "category": "master",
+    "sounds": [
+      "mount_1:samus/rpg_mount/sabertooth_dash_1",
+	  "mount_1:samus/rpg_mount/sabertooth_dash_2"
+    ]
+  },
+  "samus.sabertooth_idle": {
+    "category": "master",
+    "sounds": [
+      "mount_1:samus/rpg_mount/sabertooth_idle"
+    ]
+  }
+}

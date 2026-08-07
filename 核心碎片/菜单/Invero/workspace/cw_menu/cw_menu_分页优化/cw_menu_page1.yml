@@ -1,0 +1,245 @@
+title: ":offset_-9::cw_menu2:"
+rows: 6
+
+activators:
+  command:
+    name: "cd_test1"
+    permission: "menu.cd"
+
+events:
+  pre_open: sound entity_item_pickup by 1 0
+  close: sound entity_item_pickup by 1 1
+
+plt: &plt
+  ia: ancient_cloth
+  name: "&{#ffedb5}&l我&{#f5f37b}&l的&{#ebf941}&l称&{#e1ff07}&l号"
+  action: command "plt open" as player
+  lore: |-
+    &f
+    &f&7设置一个炫酷的称号, 如何?
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+name: &name
+  ia: gmk
+  name: "&{#35d3ff}&l改&{#226aff}&l名&{#0f00ff}&l卡"
+  action: msg "制作中"
+  lore: |-
+    &f
+    &f&7明天再做
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+coi: &coi
+  ia: icon_search
+  name: "&{#35d3ff}&l防&{#49b2cf}&l盗&{#5c91a0}&l查&{#707070}&l询"
+  action: |-
+    msg ":fuhao2:&e开启查询模式"
+    msg "%img_left_click% &7左键方块查询方块放置记录"
+    msg "%img_right_click% &7右键方块查询容器变更记录"
+    msg "&7如需关闭再次点击该功能即可"
+    command "co i" as player
+    menu close
+  lore: |-
+    &f
+    &f&7被熊孩子拆家了?看看谁干的,上报给下雪!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+res: &res
+  material: Wood_Hoe
+  name: "&{#975f59}&l领&{#877461}&l地&{#788968}&l设&{#689e70}&l置"
+  action: command "res set" as player
+  lore: |-
+    &f
+    &f&7领地设置(后续&8应该&7会编写一个更智能的)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+en: &en
+  ia: empty_dropper
+  name: "&x&F&B&0&2&A&B附魔拆解(拆解台)"
+  lore: |-
+    &r&b&l分解大部分道具&c(测试中)
+    &r&7如果出现等级为0可能是数据库正在同步,等待片刻即可
+    &r&7需要玩家分解等级&e>=&b1000
+    &r&7&l分解等级＝(钓鱼等级+修理等级)/2
+    &r&7&l当前钓鱼等级: %mcmmo_fishing%
+    &r&7&l当前修理等级: %mcmmo_repair%
+    &r&7&l当前分解等级: %math_({mcmmo_fishing}+{mcmmo_repair})/2%
+    &r
+    &f%img_left_click% &7点击打开
+    &f
+  action:
+    all: #条件判定
+      - check papi "%math_({mcmmo_fishing}+{mcmmo_repair})/2%" >= "1000"
+    then: |- #满足执行
+      msg ":fuhao3: &a已为您打开分解菜单&c这项功能正在测试中,出现任何bug请及时反馈"
+      command "salvage" as op
+    else: |- #不满足执行
+      msg ":fuhao3: &c请继续修炼你的分解等级!"
+      msg ":fuhao3: &c当前分解等级: %math_({mcmmo_fishing}+{mcmmo_repair})/2%"
+unen: &unen
+  ia: off_hand_4_8
+  name: "&{#FB7676}附魔祛除"
+  lore: |-
+    &f
+    &7点击后在聊天框内输入需要去除的附魔
+    &附魔名称需要&c完全一致&7!
+    &7此过程耗费&c200&7金币
+    &f
+    &f%img_left_click% &7点击使用
+    &f
+  action:
+    all: #条件判定
+      - check papi "%vault_eco_balance%" >= "200"
+    then: |- #满足执行
+      command "cmi money take %player_name% 200" as console
+      menu open 去除附魔
+      sleep 0.1s
+    else: |- #不满足执行
+      menu close
+      msg ":fuhao1: &c你不满足条件！"
+########################################
+check: &check
+  ia: check
+  name: "&7当前选择的菜单"
+  lore: |-
+    &f
+    &f&7再次点击返回主页面
+    &f
+    &f%img_left_click% &7点击返回
+    &f
+  action: |-
+    menu open cw_menu_page0
+#空
+nu: &nu
+  ia: cw_ui_1
+  name: "§x§F§F§0§0§0§0敬§x§F§F§0§0§0§0请§x§F§F§0§0§0§0期§x§F§F§0§0§0§0待"
+  lore: |-
+    &f
+    &f&7这个功能可能还没有上线~再等等吧
+    &f
+    &f&m%img_left_click% &7&m点击打开
+    &f
+########################################
+layout: |-
+  ########F
+  Hh#12345#
+  hh#6789a#
+  ###bcdef#
+  #########
+  `L1``L2``L3`#X#`R1``R2``R3`
+items:
+  "H":
+    update: 2000
+    head: "{{player name}}"
+    name: "&f"
+    customModelData: 10001
+  "h":
+    texture:
+      source: ni
+      value: air
+  "1":
+    <<: *plt
+  "2":
+    # <<: *name
+    <<: *nu
+  "3":
+    <<: *coi
+  "4":
+    <<: *res
+  "5":
+    # <<: *en
+    <<: *nu
+  "6":
+    <<: *unen
+    # <<: *nu
+  "7":
+    <<: *nu
+  "8":
+    <<: *nu
+  "9":
+    <<: *nu
+  "a":
+    <<: *nu
+  "b":
+    <<: *nu
+  "c":
+    <<: *nu
+  "d":
+    <<: *nu
+  "e":
+    <<: *nu
+  "f":
+    <<: *nu
+  "L1":
+    <<: *check
+  "L2":
+    ia: category
+    name: "§x§3§5§E§7§F§B更多功能"
+    action: |-
+      menu open cw_menu_page2
+    lore: |-
+      &f
+      &f&7可以大大增强你的游戏体验!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "L3":
+    ia: bought
+    name: "§x§F§B§6§C§6§C商店大全"
+    action: |-
+      menu open cw_menu_page3
+    lore: |-
+      &f
+      &f&7运用商店会使你更轻松游玩!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "R1":
+    material: Enchanted_Book
+    name: "§x§F§B§0§2§A§B更多附魔"
+    action: command "nereusopus menu" as op
+    lore: |-
+      &f
+      &f&7服务器新增了300+附魔
+      &f
+      &f%img_left_click% &7点击查询
+      &f
+  "R2":
+    material: Knowledge_Book
+    name: "§x§0§5§F§F§8§2插件配方"
+    action: command 'recipes' as player
+    lore: |-
+      &f
+      &f&7服务器增加了大量&m原创&r&7配方
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "R3":
+    ia: clear
+    name: "§x§9§C§9§C§9§C垃圾桶"
+    action: command 'dispose' as player
+    lore: |-
+      &f
+      &f&7你会失去他们,真的很久!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "X":
+    ia: gold_cog
+    name: "§x§F§B§E§C§0§5个人设置"
+    lore: |-
+      &7当前页面
+  "F":
+    ia: cancel
+    name: "§x§d§1§f§b§1§4返回主页面"
+    lore: |-
+      &f
+      &f&7返回上一级目录
+      &f
+      &f%img_left_click% &7点击返回
+      &f
+    action: |-
+      menu open cw_menu_page0

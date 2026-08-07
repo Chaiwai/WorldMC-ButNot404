@@ -1,0 +1,53 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_armor
+categories:
+  cw_armor:
+    enabled: true
+    name: cw_armor
+    items:
+    - cw_armor:amber_boots
+    - cw_armor:amber_chestplate
+    - cw_armor:amber_helmet
+    - cw_armor:amber_leggings
+    - cw_armor:amethyst_boots
+    - cw_armor:amethyst_chestplate
+    - cw_armor:amethyst_helmet
+    - cw_armor:amethyst_leggings
+    - cw_armor:ar1_boots
+    - cw_armor:ar1_chestplate
+    - cw_armor:ar1_helmet
+    - cw_armor:ar1_leggings
+    - cw_armor:enderite_boots
+    - cw_armor:enderite_chestplate
+    - cw_armor:enderite_helmet
+    - cw_armor:enderite_leggings
+    - cw_armor:iridium_boots
+    - cw_armor:iridium_chestplate
+    - cw_armor:iridium_helmet
+    - cw_armor:iridium_leggings
+    - cw_armor:jade_boots
+    - cw_armor:jade_chestplate
+    - cw_armor:jade_helmet
+    - cw_armor:jade_leggings
+    - cw_armor:malachite_boots
+    - cw_armor:malachite_chestplate
+    - cw_armor:malachite_helmet
+    - cw_armor:malachite_leggings
+    - cw_armor:mythril_boots
+    - cw_armor:mythril_chestplate
+    - cw_armor:mythril_helmet
+    - cw_armor:mythril_leggings
+    - cw_armor:ruby_boots
+    - cw_armor:ruby_chestplate
+    - cw_armor:ruby_helmet
+    - cw_armor:ruby_leggings
+    - cw_armor:silver_boots
+    - cw_armor:silver_chestplate
+    - cw_armor:silver_helmet
+    - cw_armor:silver_leggings
+    - cw_armor:warden_boots
+    - cw_armor:warden_chestplate
+    - cw_armor:warden_helmet
+    - cw_armor:warden_leggings
+    icon: cw_armor:amber_boots

@@ -1,0 +1,36 @@
+'1':
+  base:
+    material: STONE_SWORD
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    attack-damage: 10.0
+'2':
+  base:
+    material: STONE_SWORD
+    critical-strike-chance: 100.0
+    critical-strike-power: 200.0
+    attack-damage: 10.0
+    block-rating: 100.0
+    block-cooldown-reduction: 100.0
+'3':
+  base:
+    material: STONE_SWORD
+    ability:
+      ability1:
+        type: VOID_ARROW
+        mode: RIGHT_CLICK
+'&1寰宇支配之剑':
+  base:
+    material: STONE_SWORD
+    commands:
+      cmd0:
+        format: execute as %player_name% at @s anchored eyes run execute positioned
+          ^ ^ ^5 run execute as @e[limit=1,sort=nearest,distance=..5,name=!XAY4,name=!%player_name%] at @s run tellraw @a ["", {"text":"[击杀] ","color":"red"}, {"selector":"@s"}, {"text":" 被 "}, {"selector":"%player_name%"}, {"text":" 击败了！"}]
+        delay: 0.0
+        op: true
+      cmd1:
+        format: execute as %player_name% at @s anchored eyes run execute positioned
+          ^ ^ ^5 run execute as @e[limit=1,sort=nearest,distance=..5,name=!XAY4,name=!%player_name%] at @s run kill @s
+        delay: 0.0
+        op: true
+    name: '&a寰&b宇&c支&d配&e之&f剑'

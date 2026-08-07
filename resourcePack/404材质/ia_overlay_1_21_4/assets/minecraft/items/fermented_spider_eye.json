@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"model","model":"item/fermented_spider_eye"},"entries":[{"threshold":10000,"model":{"type":"model","model":"rpgitem:ia_auto_gen/reinforced_echo_shard"}},{"threshold":10001,"model":{"type":"model","model":"item/fermented_spider_eye"}}]}}

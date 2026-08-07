@@ -1,0 +1,184 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_items
+items:
+  apple:
+    display_name: apple
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/apple
+  apple_pie:
+    display_name: apple_pie
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/apple_pie
+  bacon:
+    display_name: bacon
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/bacon
+  banana:
+    display_name: banana
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/banana
+  banana_split:
+    display_name: banana_split
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/banana_split
+  carton_of_milk:
+    display_name: carton_of_milk
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/carton_of_milk
+  cherry:
+    display_name: cherry
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/cherry
+  coconut:
+    display_name: coconut
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/coconut
+  coffee:
+    display_name: coffee
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/coffee
+  dragon_fruit:
+    display_name: dragon_fruit
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/dragon_fruit
+  grapefruit:
+    display_name: grapefruit
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/grapefruit
+  grapes:
+    display_name: grapes
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/grapes
+  hotdog:
+    display_name: hotdog
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/hotdog
+  ice_cream:
+    display_name: ice_cream
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/ice_cream
+  life_crystal:
+    display_name: life_crystal
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/life_crystal
+  life_fruit:
+    display_name: life_fruit
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/life_fruit
+  mana_crystal:
+    display_name: mana_crystal
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/mana_crystal
+  mango:
+    display_name: mango
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/mango
+  milkshake:
+    display_name: milkshake
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/milkshake
+  mushroom:
+    display_name: mushroom
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/mushroom
+  peach:
+    display_name: peach
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/peach
+  pineapple:
+    display_name: pineapple
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/pineapple
+  plum:
+    display_name: plum
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/plum
+  potato_chips:
+    display_name: potato_chips
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/potato_chips
+  pumpkin:
+    display_name: pumpkin
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/pumpkin
+  rotten_chunk:
+    display_name: rotten_chunk
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/rotten_chunk
+  royal_delight:
+    display_name: royal_delight
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/royal_delight
+  shrimp_po_boy:
+    display_name: shrimp_po_boy
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/shrimp_po_boy
+  steak:
+    display_name: steak
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/steak
+  yellow_marigold:
+    display_name: yellow_marigold
+    resource:
+      material: apple
+      generate: false
+      model_path: items/apple/tr_food/yellow_marigold

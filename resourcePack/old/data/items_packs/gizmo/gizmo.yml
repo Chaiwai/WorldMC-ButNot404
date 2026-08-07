@@ -1,0 +1,96 @@
+﻿info:
+  namespace: "gizmo"
+font_images:
+  1:
+    path: "shift.png"
+    suggest_in_command: false
+    symbol: "\uE097"
+    scale_ratio: 48
+    y_position: -32768
+  2:
+    path: "shift.png"
+    suggest_in_command: false
+    symbol: "\uE098"
+    scale_ratio: -1013
+    y_position: -32768
+  3:
+    path: "shift.png"
+    suggest_in_command: false
+    symbol: "\uE099"
+    scale_ratio: -1536
+    y_position: -32768
+  4:
+    path: "welcome-screen.png"
+    suggest_in_command: false
+    symbol: "\uE100"
+    scale_ratio: 256
+    y_position: 25
+  5:
+    path: "background.png"
+    suggest_in_command: false
+    symbol: "\uE101"
+    scale_ratio: 2500
+    y_position: 256
+  6:
+    path: "logo.png"
+    suggest_in_command: false
+    symbol: "コ"
+    scale_ratio: 40
+    y_position: 0
+  7:
+    path: "background.png"
+    suggest_in_command: false
+    symbol: "\uE101"
+    scale_ratio: 2500
+    y_position: 256
+  8:
+    path: "logo.png"
+    suggest_in_command: false
+    symbol: "ウ"
+    scale_ratio: 20
+    y_position: 15
+  9:
+    path: "logo.png"
+    suggest_in_command: false
+    symbol: "ぬ"
+    scale_ratio: 30
+    y_position: 30
+  10:
+    path: "logo.png"
+    suggest_in_command: false
+    symbol: "ツ"
+    scale_ratio: 80
+    y_position: -10
+  11:
+    path: "logo_left.png"
+    suggest_in_command: false
+    symbol: "醾"
+    scale_ratio: 50
+    y_position: 20
+  12:
+    path: "logo_right.png"
+    suggest_in_command: false
+    symbol: "趬"
+    scale_ratio: 50
+    y_position: 20
+  13:
+    path: "logo_left.png"
+    suggest_in_command: false
+    symbol: "啓"
+    scale_ratio: 80
+    y_position: 20
+  14:
+    path: "logo_right.png"
+    suggest_in_command: false
+    symbol: "駩"
+    scale_ratio: 80
+    y_position: 20
+minecraft_lang_overwrite:
+  pause_menu_overwrite:
+    entries:
+      "menu.game": "ぬ"
+      "menu.returnToGame": "&a点击返回 xxxx网络！"
+      "menu.disconnect": "&c点击离开 xxxxx网络！"
+      "multiplayer.downloadingTerrain": "ツ"
+    languages:
+      - ALL

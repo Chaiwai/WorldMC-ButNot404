@@ -1,0 +1,35 @@
+basic:
+  id: razor
+  name: 超锻造
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 在攻击时伤害大幅提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+#- CONFLICT_ENCHANT:sharpness
+#- CONFLICT_ENCHANT:smite
+#- CONFLICT_ENCHANT:bane_of_arthropods
+#- CONFLICT_ENCHANT:defusion
+#- CONFLICT_ENCHANT:ender_slayer
+#- CONFLICT_ENCHANT:introversion
+variables:
+  leveled:
+    damage-multiplier: :1+0.1*{level}
+  ordinary:
+    decrease-if-cooldown: true
+    disable-on-players: false

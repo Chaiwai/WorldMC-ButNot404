@@ -1,0 +1,10 @@
+cw_common:
+  绑定:
+    绑定uuid: "<cw_common.绑定.<绑定_enable>.绑定uuid>"
+    绑定名称: "<cw_common.绑定.<绑定_enable>.绑定名称>"
+    true:
+      绑定uuid: "<papi::player_uuid>"
+      绑定名称: "<papi::player_name>"
+    false:
+      绑定uuid: ""
+      绑定名称: "不受束缚"

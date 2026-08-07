@@ -1,0 +1,12 @@
+info:
+  namespace: cw_status
+categories:
+  head:
+    enabled: true
+    name: 头像
+    icon: player_head_gui_size_1
+    items:
+      - cw_status:player_head_gui_size_1
+      - cw_status:player_head_block_size_item_frame
+      - cw_status:player_head_hand_size_2
+      - cw_status:player_head_gui_size_4

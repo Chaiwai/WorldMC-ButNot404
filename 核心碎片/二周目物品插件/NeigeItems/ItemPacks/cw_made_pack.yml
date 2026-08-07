@@ -1,0 +1,58 @@
+cw_random:
+  Items:
+    - <test>
+  FancyDrop:
+    offset:
+      x: 0.1
+      y: 0.8
+    angle:
+      type: round
+  # 物品私有节点
+  sections:
+    test:
+      type: weight
+      values:
+        - 100::cwMade_items_1
+        - 10::cwMade_items_2
+        - 100::cwMade_items_3
+        # - 50::cwMade_items_4
+        # - 50::cwMade_items_5
+        # - 50::cwMade_items_6
+        # - 50::cwMade_items_7
+        - 10::cwMade_items_8
+        - 60::cwMade_items_9
+        - 10::cwMade_items_10
+        # - 50::cwMade_items_11
+        - 50::cwMade_items_12
+        - 10::cwMade_items_13
+        - 50::cwMade_items_14
+        - 50::cwMade_items_15
+        - 30::cwMade_items_16
+        - 30::cwMade_items_17
+        - 30::cwMade_items_18
+        # - 50::cwMade_items_19
+        # - 50::cwMade_items_20
+        # - 50::cwMade_items_21
+        # - 50::cwMade_items_22
+        - 5::cwMade_items_23
+        - 5::cwMade_items_24
+        - 60::cwMade_items_25
+        # - 50::cwMade_items_26
+        - 10::cwMade_items_27
+        # - 50::cwMade_items_28
+        - 100::cwMade_items_29
+        # - 50::cwMade_items_30
+        # - 50::cwMade_items_31
+        # - 50::cwMade_items_32
+        # - 50::cwMade_items_33
+        # - 50::cwMade_items_34
+        # - 50::cwMade_items_35
+        # - 50::cwMade_items_36
+        # - 50::cwMade_items_37
+        # - 50::cwMade_items_38
+        - 1::cwMade_items_39
+        - 1::cwMade_items_40
+        - 1::cwMade_items_41
+        - 1::cwMade_items_42
+        - 1::cwMade_items_43
+        - 1::cwMade_items_44

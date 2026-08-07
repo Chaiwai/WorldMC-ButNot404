@@ -1,0 +1,153 @@
+info:
+  namespace: "mctown"
+font_images:
+  mctown_title0:
+    path: "title/mctown_title0.png"
+    suggest_in_command: false
+    symbol: "筸"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_title1:
+    path: "title/mctown_title1.png"
+    suggest_in_command: false
+    symbol: "繑"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_title2:
+    path: "title/mctown_title2.png"
+    suggest_in_command: false
+    symbol: "潟"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_title3:
+    path: "title/mctown_title3.png"
+    suggest_in_command: false
+    scale_ratio: 10
+    y_position: 9
+
+  tag_worldmc:
+    path: "title/mctown_title4.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9
+
+  we_hua_tag:
+    path: "title/mctown_title5.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9
+
+  tag_shi:
+    path: "title/mctown_title6.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9
+
+  tag_xia:
+    path: "title/mctown_title7.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9
+
+  tag_gui:
+    path: "title/mctown_title8.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9
+
+  tag_zhu:
+    path: "title/mctown_title9.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9
+    
+  tag_xue:
+    path: "title/mctown_title10.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 8
+    
+  rank0:
+    path: "rank/rank0.png"
+    suggest_in_command: false
+    symbol: "⑳"
+    scale_ratio: 7
+    y_position: 7
+  rank1:
+    path: "rank/rank1.png"
+    suggest_in_command: false
+    symbol: "①"
+    scale_ratio: 7
+    y_position: 7
+  rank2:
+    path: "rank/rank2.png"
+    suggest_in_command: false
+    symbol: "②"
+    scale_ratio: 7
+    y_position: 7
+  rank3:
+    path: "rank/rank3.png"
+    suggest_in_command: false
+    symbol: "③"
+    scale_ratio: 7
+    y_position: 7
+  rank4:
+    path: "rank/rank4.png"
+    suggest_in_command: false
+    symbol: "④"
+    scale_ratio: 7
+    y_position: 7
+  rank5:
+    path: "rank/rank5.png"
+    suggest_in_command: false
+    symbol: "⑤"
+    scale_ratio: 7
+    y_position: 7
+  rank6:
+    path: "rank/rank6.png"
+    suggest_in_command: false
+    symbol: "⑥"
+    scale_ratio: 7
+    y_position: 7
+  rank7:
+    path: "rank/rank7.png"
+    suggest_in_command: false
+    symbol: "⑦"
+    scale_ratio: 7
+    y_position: 7
+  rank8:
+    path: "rank/rank8.png"
+    suggest_in_command: false
+    symbol: "⑧"
+    scale_ratio: 7
+    y_position: 7
+  rank9:
+    path: "rank/rank9.png"
+    suggest_in_command: false
+    symbol: "⑨"
+    scale_ratio: 7
+    y_position: 7
+
+
+  tag_xue1:
+    path: "title/mctown_title11.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 8
+  tag_xue2:
+    path: "title/mctown_title12.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 8

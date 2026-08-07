@@ -1,0 +1,126 @@
+# 自动生成的配置文件
+# 生成工具: create_items.py
+
+info:
+  namespace: cw_made_tool
+items:
+  adamantite_glaive:
+    display_name: "精金戟"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/adamantite_glaive
+  bone_javelin:
+    display_name: "骨标枪"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/bone_javelin
+  cobalt_naginata:
+    display_name: "钴薙刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/cobalt_naginata
+  dark_lance:
+    display_name: "暗黑骑枪"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/dark_lance
+  daybreak:
+    display_name: "破晓"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/daybreak
+  ghastly_glaive:
+    display_name: "幽灵戟"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/ghastly_glaive
+  gungnir:
+    display_name: "冈格尼尔"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/gungnir
+  inferno_fork:
+    display_name: "地狱火叉"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/inferno_fork
+  javelin:
+    display_name: "标枪"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/javelin
+  mushroom_spear:
+    display_name: "蘑菇矛"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/mushroom_spear
+  mythril_halberd:
+    display_name: "秘银戟"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/mythril_halberd
+  north_pole:
+    display_name: "北极矛"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/north_pole
+  orichalcum_halberd:
+    display_name: "山铜戟"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/orichalcum_halberd
+  palladium_pike:
+    display_name: "钯金长枪"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/palladium_pike
+  scourge_of_the_corruptor:
+    display_name: "腐化者灾厄"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/scourge_of_the_corruptor
+  spear:
+    display_name: "矛"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/spear
+  the_rotted_fork:
+    display_name: "腐化之叉"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/the_rotted_fork
+  titanium_trident:
+    display_name: "钛金戟"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/titanium_trident
+  tonbogiri:
+    display_name: "蜻蜓切"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/tonbogiri
+  trident1:
+    display_name: "三叉戟"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: trident/trident1

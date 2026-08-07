@@ -1,0 +1,115 @@
+cw_a:
+  护甲原版_id: <护甲id.<位置>.原版_id>
+  护甲ia_id: <护甲id.<位置>.ia_id>
+  护甲id:
+    头盔:
+      原版_id: helmet
+      ia_id: head
+    胸甲:
+      原版_id: chestplate
+      ia_id: chest
+    裤腿:
+      原版_id: leggings
+      ia_id: legs
+    靴子:
+      原版_id: boots
+      ia_id: feet
+  id对照表:
+    REDSTONE:
+      中文名: 红石
+      镶嵌名: redstone
+    EMERALD:
+      中文名: 绿宝石
+      镶嵌名: emerald
+    DIAMOND:
+      中文名: 钻石
+      镶嵌名: diamond
+    AMETHYST_SHARD:
+      中文名: 紫水晶碎片
+      镶嵌名: amethyst
+    QUARTZ:
+      中文名: 下界石英
+      镶嵌名: quartz
+    NETHERITE_INGOT:
+      中文名: 下界合金锭
+      镶嵌名: netherite
+    GOLD_INGOT:
+      中文名: 金锭
+      镶嵌名: gold
+    COPPER_INGOT:
+      中文名: 铜锭
+      镶嵌名: copper
+    IRON_INGOT:
+      中文名: 铁锭
+      镶嵌名: iron
+    LAPIS_LAZULI:
+      中文名: 青金石
+      镶嵌名: lapis
+    #盔甲纹饰
+    COAST_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 海岸
+      镶嵌名: coast
+
+    DUNE_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 沙丘
+      镶嵌名: dune
+
+    EYE_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 眼眸
+      镶嵌名: eye
+
+    FLOW_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 涡旋
+      镶嵌名: flow
+
+    HOST_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 宿主
+      镶嵌名: host
+
+    RAISER_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: raiser
+      镶嵌名: raiser
+
+    RIB_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 肋骨
+      镶嵌名: rib
+
+    SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 哨兵
+      镶嵌名: sentry
+
+    SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 塑造者
+      镶嵌名: shaper
+
+    SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 寂静
+      镶嵌名: silence
+
+    SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 猪鼻
+      镶嵌名: snout
+
+    SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 尖塔
+      镶嵌名: spire
+
+    TIDE_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 潮涌
+      镶嵌名: tide
+
+    VEX_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 恼鬼
+      镶嵌名: vex
+
+    WARD_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 守卫
+      镶嵌名: ward
+
+    WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 向导
+      镶嵌名: wayfinder
+
+    WILD_ARMOR_TRIM_SMITHING_TEMPLATE:
+      中文名: 荒野
+      镶嵌名: wild

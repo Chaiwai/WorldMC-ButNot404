@@ -1,0 +1,201 @@
+cw_s_钴剑:
+  right:
+    cooldown: 2000
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var inWater = player.isInRain()
+          var biome = player.getLocation().getBlock().getBiome().name();
+          // print("当前群系: " + biome);
+          // 检测玩家是否在海中
+          if (biome.indexOf("OCEAN") !== -1){
+            var messages = [
+              ":fuhao2: §a从此§d你便是海神!",
+              ":fuhao2: §a家的味道§d😋😋😋",
+              ":fuhao2: §d卡密",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+          // 检测玩家是否在雨中
+          if (inWater) {
+            var messages = [
+              ":fuhao2: §a不是海洋?§d但也足以!",
+              ":fuhao2: §a吃吃吃§d吃吃吃",
+              ":fuhao2: §d神",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+
+          var messages = [
+            ":fuhao1: §c你不在海域中!§e没有成为神的资格!",
+            ":fuhao1: §c雨.....§e救赎....",
+            ":fuhao1: §c成为神§e是有代价的",
+          ];
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          player.sendMessage(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "give-health: 1"
+      - "set-potion-effect: Strength 1 120"
+      - "set-potion-effect: conduit_power 1 120"
+      - "takeDamage: 100"
+      - "sound: entity.elder_guardian.curse 10 0.4"
+
+cw_s_钴戟:
+  right:
+    cooldown: 2000
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var inWater = player.isInRain()
+          var biome = player.getLocation().getBlock().getBiome().name();
+          // print("当前群系: " + biome);
+          // 检测玩家是否在海中
+          if (biome.indexOf("OCEAN") !== -1){
+            var messages = [
+              ":fuhao2: §a从此§d你便是海神!",
+              ":fuhao2: §a家的味道§d😋😋😋",
+              ":fuhao2: §d卡密",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+          // 检测玩家是否在雨中
+          if (inWater) {
+            var messages = [
+              ":fuhao2: §a不是海洋?§d但也足以!",
+              ":fuhao2: §a吃吃吃§d吃吃吃",
+              ":fuhao2: §d神",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+
+          var messages = [
+            ":fuhao1: §c你不在海域中!§e没有成为神的资格!",
+            ":fuhao1: §c雨.....§e救赎....",
+            ":fuhao1: §c成为神§e是有代价的",
+          ];
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          player.sendMessage(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "give-health: 1"
+      - "set-potion-effect: Strength 1 120"
+      - "set-potion-effect: conduit_power 1 120"
+      - "takeDamage: 100"
+      - "sound: entity.elder_guardian.curse 10 0.4"
+
+cw_s_钯金剑:
+  right:
+    cooldown: 2000
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var worldTime = player.getWorld().getTime();
+          var biome = player.getLocation().getBlock().getBiome().name();
+
+          if (worldTime >= 4000 && worldTime <= 8000) {
+            var messages = [
+              ":fuhao2: §a现在是" + worldTime + "tick?&e可以可以",
+              ":fuhao2: §a干旱地形§e我厌恶水!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+          if (biome.indexOf("DESERT") !== -1 ||
+              biome.indexOf("BADLANDS") !== -1 ||
+              biome.indexOf("MESA") !== -1) {
+            var messages = [
+              ":fuhao2: §a这里是? §b" + biome + " ! §e可以可以",
+              ":fuhao2: §a干旱地形§e我喜爱!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+
+          var messages = [
+            ":fuhao1: §c[ 6000tick§7, §e8000tick ]",
+            ":fuhao1: §c干旱地形§e我厌恶水!",
+            ":fuhao1: §c现在是" + worldTime + "§etick",
+            ":fuhao2: §an§eo",
+          ];
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          player.sendMessage(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "give-health: 1"
+      - "set-potion-effect: Strength 1 120"
+      - "set-potion-effect: night_vision 1 120"
+      - "takeDamage: 100"
+      - "sound: entity.elder_guardian.curse 10 0.4"
+
+cw_s_钯金戟:
+  right:
+    cooldown: 2000
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var worldTime = player.getWorld().getTime();
+          var biome = player.getLocation().getBlock().getBiome().name();
+
+          if (worldTime >= 4000 && worldTime <= 8000) {
+            var messages = [
+              ":fuhao2: §a现在是" + worldTime + "tick?&e可以可以",
+              ":fuhao2: §a干旱地形§e我厌恶水!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+          if (biome.indexOf("DESERT") !== -1 ||
+              biome.indexOf("BADLANDS") !== -1 ||
+              biome.indexOf("MESA") !== -1) {
+            var messages = [
+              ":fuhao2: §a这里是? §b" + biome + " ! §e可以可以",
+              ":fuhao2: §a干旱地形§e我喜爱!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+
+          var messages = [
+            ":fuhao1: §c[ 6000tick§7, §e8000tick ]",
+            ":fuhao1: §c干旱地形§e我厌恶水!",
+            ":fuhao1: §c现在是" + worldTime + "§etick",
+            ":fuhao2: §an§eo",
+          ];
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          player.sendMessage(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "give-health: 1"
+      - "set-potion-effect: Strength 1 120"
+      - "set-potion-effect: night_vision 1 120"
+      - "takeDamage: 100"
+      - "sound: entity.elder_guardian.curse 10 0.4"

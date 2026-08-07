@@ -1,0 +1,18 @@
+cw_head:
+  material: PLAYER_HEAD
+  mini-name: <!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>[</gray></!obfuscated></!bold></!strikethrough></!underlined></!italic><!italic><yellow>铸币大头</yellow></!italic><!italic><gray>]
+  mini-lore: []
+  components:
+    minecraft:custom_model_data:
+      floats:
+      - (Float) 10003.0
+    minecraft:profile:
+      name: XAY4
+      id:
+      - (Int) -1539420536
+      - (Int) 1006190523
+      - (Int) -1430964893
+      - (Int) 1694778444
+      properties:
+      - name: textures
+        value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJhZTU4MmZjNmYxMTU3MGRlM2MwMGZiYmMyMDNjMThmOTk4NDBlOGJjZjcyNDQ5MGJhMWNkNWZhODllZjQ3MyJ9fX0=

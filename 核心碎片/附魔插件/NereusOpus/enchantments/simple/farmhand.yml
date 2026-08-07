@@ -1,0 +1,29 @@
+basic:
+  id: farmhand
+  name: 耕作
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 一次可对一大批区域进行耕地操作
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- hoes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    disable-on-sneak: true
+    permission-check: true
+  leveled:
+    range: :1+{level}

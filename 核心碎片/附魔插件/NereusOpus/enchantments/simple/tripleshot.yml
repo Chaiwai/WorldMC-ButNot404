@@ -1,0 +1,30 @@
+basic:
+  id: tripleshot
+  name: 三言
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 一次射出的箭矢数量增加为三支并分散为扇形
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- bow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:succession
+- CONFLICT_ENCHANT:pentashot
+- CONFLICT_ENCHANT:buckshot
+variables:
+  ordinary:
+    angle: 10
+    chance: 100

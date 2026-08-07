@@ -1,0 +1,194 @@
+# 自动生成的UI图片配置文件
+info:
+  namespace: cw_items
+font_images:
+  404_title0:
+    path: ui/title/404_title0.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title1:
+    path: ui/title/404_title1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title11:
+    path: ui/title/404_title11.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title12:
+    path: ui/title/404_title12.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title13:
+    path: ui/title/404_title13.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title14:
+    path: ui/title/404_title14.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title15:
+    path: ui/title/404_title15.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title2:
+    path: ui/title/404_title2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title3:
+    path: ui/title/404_title3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title4:
+    path: ui/title/404_title4.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title5:
+    path: ui/title/404_title5.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title6:
+    path: ui/title/404_title6.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title7:
+    path: ui/title/404_title7.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title8:
+    path: ui/title/404_title8.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_title9:
+    path: ui/title/404_title9.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_vip0:
+    path: ui/title/404_vip0.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_vip1:
+    path: ui/title/404_vip1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_vip2:
+    path: ui/title/404_vip2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_vip3:
+    path: ui/title/404_vip3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  404_vip4:
+    path: ui/title/404_vip4.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+  rank0:
+    path: ui/title/rank0.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "⑳"
+  rank1:
+    path: ui/title/rank1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "①"
+  rank2:
+    path: ui/title/rank2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "②"
+  rank3:
+    path: ui/title/rank3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "③"
+  rank4:
+    path: ui/title/rank4.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "④"
+  rank5:
+    path: ui/title/rank5.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "⑤"
+  rank6:
+    path: ui/title/rank6.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "⑥"
+  rank7:
+    path: ui/title/rank7.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "⑦"
+  rank8:
+    path: ui/title/rank8.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "⑧"
+  rank9:
+    path: ui/title/rank9.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 7
+    y_position: 7
+    symbol: "⑨"

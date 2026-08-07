@@ -1,0 +1,33 @@
+basic:
+  id: warped_artifact
+  name: §c§o诡异
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 产生诡异森林粒子
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 皮肤
+targets:
+- pickaxes
+- swords
+- axes
+- elytra
+- boots
+- bow
+- crossbow
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    amount: 1

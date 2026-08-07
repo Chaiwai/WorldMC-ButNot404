@@ -1,0 +1,28 @@
+basic:
+  id: harmlessness_curse
+  name: 软弱诅咒
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 使剑或斧的攻击有概率无效
+alternative:
+  grindstoneable: false
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+  is-cursed: true
+rarity: 诅咒
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :15*{level}

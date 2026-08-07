@@ -1,0 +1,26 @@
+basic:
+  id: respirator
+  name: 过滤
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 受到龙息的伤害大幅降低
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- helmets
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1-0.25*{level}

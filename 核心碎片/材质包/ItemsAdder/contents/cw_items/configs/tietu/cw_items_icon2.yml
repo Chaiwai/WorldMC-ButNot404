@@ -1,0 +1,322 @@
+# 自动生成的UI图片配置文件
+info:
+  namespace: cw_items
+font_images:
+  armor:
+    path: ui/icon2/armor.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  attack_damage:
+    path: ui/icon2/attack_damage.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  attack_speed:
+    path: ui/icon2/attack_speed.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  bow:
+    path: ui/icon2/bow.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  cake:
+    path: ui/icon2/cake.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  cha:
+    path: ui/icon2/cha.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  click:
+    path: ui/icon2/click.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  compass2:
+    path: ui/icon2/compass2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  diamond_axe:
+    path: ui/icon2/diamond_axe.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  diamond_chestplate:
+    path: ui/icon2/diamond_chestplate.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  diamond_hoe:
+    path: ui/icon2/diamond_hoe.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  diamond_pickaxe:
+    path: ui/icon2/diamond_pickaxe.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  diamond_shovel:
+    path: ui/icon2/diamond_shovel.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  dodge:
+    path: ui/icon2/dodge.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  fishing_rod:
+    path: ui/icon2/fishing_rod.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  good:
+    path: ui/icon2/good.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  head_icon:
+    path: ui/icon2/head_icon.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  head_icon1:
+    path: ui/icon2/head_icon1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  head_icon3:
+    path: ui/icon2/head_icon3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  icontime:
+    path: ui/icon2/icontime.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  ingame_icon:
+    path: ui/icon2/ingame_icon.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  item_type:
+    path: ui/icon2/item_type.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  jianyi:
+    path: ui/icon2/jianyi.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  jobsss:
+    path: ui/icon2/jobsss.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  left_click:
+    path: ui/icon2/left_click.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  login:
+    path: ui/icon2/login.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  login1:
+    path: ui/icon2/login1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  map:
+    path: ui/icon2/map.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  night_vision:
+    path: ui/icon2/night_vision.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  npc:
+    path: ui/icon2/npc.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  party:
+    path: ui/icon2/party.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  qianming:
+    path: ui/icon2/qianming.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  qqqun:
+    path: ui/icon2/qqqun.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  rank_icon:
+    path: ui/icon2/rank_icon.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  right_click:
+    path: ui/icon2/right_click.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  scroll1:
+    path: ui/icon2/scroll1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  scroll2:
+    path: ui/icon2/scroll2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  scroll3:
+    path: ui/icon2/scroll3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  scroll4:
+    path: ui/icon2/scroll4.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  severip:
+    path: ui/icon2/severip.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  shift:
+    path: ui/icon2/shift.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  showitem:
+    path: ui/icon2/showitem.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  signin:
+    path: ui/icon2/signin.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  speech:
+    path: ui/icon2/speech.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  speech_2:
+    path: ui/icon2/speech_2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  speech_3:
+    path: ui/icon2/speech_3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  speech_4:
+    path: ui/icon2/speech_4.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  star:
+    path: ui/icon2/star.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  time:
+    path: ui/icon2/time.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  world_icon:
+    path: ui/icon2/world_icon.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  xx1:
+    path: ui/icon2/xx1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  xx2:
+    path: ui/icon2/xx2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  zaixian:
+    path: ui/icon2/zaixian.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9

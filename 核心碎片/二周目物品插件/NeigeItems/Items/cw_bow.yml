@@ -1,0 +1,43 @@
+cw_bow_0:
+  material: BOW
+  mini-name: <!italic><white>测试弓
+  mini-lore: []
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10000.0
+cw_bow_nu_0:
+  material: CROSSBOW
+  mini-name: <!italic><white>测试弩
+  mini-lore: []
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10000.0
+    minecraft:item_model: minecraft:bow
+    minecraft:damage: (Int) 5
+    minecraft:charged_projectiles:
+      - components:
+          minecraft:custom_model_data:
+            floats:
+              - (Float) 10077.0
+          minecraft:item_model: minecraft:paper
+          minecraft:custom_name: '{"color":"white","italic":false,"text":"坠落之星"}'
+          minecraft:custom_data:
+            NeigeItems:
+              data: "{}"
+              hashCode: (Int) 1546934805
+              id: cw_arrow_0
+          minecraft:intangible_projectile: {}
+        count: (Int) 1
+        id: minecraft:arrow
+
+cw_arrow_0:
+  material: ARROW
+  mini-name: <!italic><white>坠落之星
+  mini-lore: []
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10077.0
+    minecraft:item_model: minecraft:paper

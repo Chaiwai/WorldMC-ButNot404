@@ -1,0 +1,42 @@
+basic:
+  id: defusion
+  name: 拆弹
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 对爬行者的伤害提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- swords
+- axes
+- trident
+- bow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+#- CONFLICT_ENCHANT:sharpness
+#- CONFLICT_ENCHANT:bane_of_arthropods
+#- CONFLICT_ENCHANT:smite
+#- CONFLICT_ENCHANT:razor
+#- CONFLICT_ENCHANT:ender_slayer
+#- CONFLICT_ENCHANT:introversion
+#- CONFLICT_ENCHANT:serrated
+#- CONFLICT_ENCHANT:phantasm
+#- CONFLICT_ENCHANT:arachnid
+#- CONFLICT_ENCHANT:impaling
+#- CONFLICT_ENCHANT:power
+#- CONFLICT_ENCHANT:force
+#- CONFLICT_ENCHANT:slaughter
+variables:
+  leveled:
+    damage-multiplier: :1+0.5*{level}

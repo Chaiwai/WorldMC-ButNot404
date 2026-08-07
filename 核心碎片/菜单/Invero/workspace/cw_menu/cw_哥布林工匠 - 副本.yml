@@ -1,0 +1,30 @@
+title: "&2&l补签的意义"
+
+events:
+  post_open: sound entity.villager.ambient by 100 2
+  # close: sound entity.villager.yes by 100 2
+
+layout: |-
+  |       |
+  |     `头盔` |
+  |     `胸甲` |
+  |     `裤腿` |
+  |     `靴子` |
+
+items:
+  "头盔":
+    name:
+    material: "%checkitem_getinfo:39_mat:%"
+    customModelData: "%checkitem_getinfo:39_custommodeldata:%"
+  "胸甲":
+    name:
+    material: "%checkitem_getinfo:38_mat:%"
+    customModelData: "%checkitem_getinfo:38_custommodeldata:%"
+  "裤腿":
+    name:
+    material: "%checkitem_getinfo:37_mat:%"
+    customModelData: "%checkitem_getinfo:37_custommodeldata:%"
+  "靴子":
+    name:
+    material: "%checkitem_getinfo:36_mat:%"
+    customModelData: "%checkitem_getinfo:36_custommodeldata:%"

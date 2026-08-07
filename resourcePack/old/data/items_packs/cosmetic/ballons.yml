@@ -1,0 +1,163 @@
+info:
+  namespace: cosmetic
+items:
+  mctown_ballon_guirlande:
+    display_name: mctown_ballon_guirlande
+    permission: mctown_ballon_guirlande.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31001
+      model_path: ballons/mctown_ballon_guirlande
+  mctown_beach_ball_balloon:
+    display_name: mctown_beach_ball_balloon
+    permission: mctown_beach_ball_balloon.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31002
+      model_path: ballons/mctown_beach_ball_balloon
+  mctown_cloud_balloon:
+    display_name: mctown_cloud_balloon
+    permission: mctown_cloud_balloon.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31003
+      model_path: ballons/mctown_cloud_balloon
+  mctown_kite:
+    display_name: mctown_kite
+    permission: mctown_kite.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31004
+      model_path: ballons/mctown_kite
+  mctown_shark_balloon:
+    display_name: mctown_shark_balloon
+    permission: mctown_shark_balloon.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31005
+      model_path: ballons/mctown_shark_balloon
+  mctown_balloon_emoji_cold:
+    display_name: mctown_balloon_emoji_cold
+    permission: mctown_balloon_emoji_cold.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31006
+      model_path: ballons/mctown_balloon_emoji_cold
+  mctown_balloon_emoji_cry:
+    display_name: mctown_balloon_emoji_cry
+    permission: mctown_balloon_emoji_cry.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31007
+      model_path: ballons/mctown_balloon_emoji_cry
+  mctown_balloon_emoji_derp:
+    display_name: mctown_balloon_emoji_derp
+    permission: mctown_balloon_emoji_derp.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31008
+      model_path: ballons/mctown_balloon_emoji_derp
+  mctown_balloon_emoji_grin:
+    display_name: mctown_balloon_emoji_grin
+    permission: mctown_balloon_emoji_grin.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31009
+      model_path: ballons/mctown_balloon_emoji_grin
+  mctown_balloon_emoji_heart:
+    display_name: mctown_balloon_emoji_heart
+    permission: mctown_balloon_emoji_heart.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31010
+      model_path: ballons/mctown_balloon_emoji_heart
+  mctown_balloon_emoji_hot:
+    display_name: mctown_balloon_emoji_hot
+    permission: mctown_balloon_emoji_hot.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31011
+      model_path: ballons/mctown_balloon_emoji_hot
+  mctown_balloon_emoji_ill:
+    display_name: mctown_balloon_emoji_ill
+    permission: mctown_balloon_emoji_ill.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31012
+      model_path: ballons/mctown_balloon_emoji_ill
+  mctown_balloon_emoji_joy:
+    display_name: mctown_balloon_emoji_joy
+    permission: mctown_balloon_emoji_joy.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31013
+      model_path: ballons/mctown_balloon_emoji_joy
+  mctown_balloon_emoji_sad:
+    display_name: mctown_balloon_emoji_sad
+    permission: mctown_balloon_emoji_sad.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31014
+      model_path: ballons/mctown_balloon_emoji_sad
+  mctown_balloon_emoji_shocked:
+    display_name: mctown_balloon_emoji_shocked
+    permission: mctown_balloon_emoji_shocked.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31015
+      model_path: ballons/mctown_balloon_emoji_shocked
+  mctown_balloon_emoji_smile:
+    display_name: mctown_balloon_emoji_smile
+    permission: mctown_balloon_emoji_smile.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31016
+      model_path: ballons/mctown_balloon_emoji_smile
+  mctown_balloon_emoji_sweatsmile:
+    display_name: mctown_balloon_emoji_sweatsmile
+    permission: mctown_balloon_emoji_sweatsmile.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31017
+      model_path: ballons/mctown_balloon_emoji_sweatsmile
+  mctown_balloon_emoji_tongue:
+    display_name: mctown_balloon_emoji_tongue
+    permission: mctown_balloon_emoji_tongue.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31018
+      model_path: ballons/mctown_balloon_emoji_tongue
+  mctown_balloon_emoji_vile:
+    display_name: mctown_balloon_emoji_vile
+    permission: mctown_balloon_emoji_vile.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31019
+      model_path: ballons/mctown_balloon_emoji_vile
+  mctown_balloon_emoji_wink:
+    display_name: mctown_balloon_emoji_wink
+    permission: mctown_balloon_emoji_wink.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 31020
+      model_path: ballons/mctown_balloon_emoji_wink

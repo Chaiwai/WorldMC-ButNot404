@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/prismarine_shard"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"rpgitem:ia_auto_gen/wu_stick"},{"predicate":{"custom_model_data":10001},"model":"item/prismarine_shard"}]}

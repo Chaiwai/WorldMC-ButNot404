@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "cw_items:items/paper/off_hand/off_hand_2_2"
+    }
+}

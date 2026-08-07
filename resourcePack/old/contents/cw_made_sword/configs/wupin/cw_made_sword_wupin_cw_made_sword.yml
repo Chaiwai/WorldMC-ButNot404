@@ -1,0 +1,164 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "cw_made_sword" #[命名空间]**
+items: #[物品配置]**
+  cw_made_sword_cw_made_sword1:
+    display_name: "sword1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s1.png
+
+  cw_made_sword_cw_made_sword2:
+    display_name: "sword2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s2.png
+
+  cw_made_sword_cw_made_sword3:
+    display_name: "sword3"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s3.png
+
+  cw_made_sword_cw_made_sword4:
+    display_name: "sword4"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s4.png
+
+  cw_made_sword_cw_made_sword5:
+    display_name: "sword5"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s5.png
+
+  cw_made_sword_cw_made_sword6:
+    display_name: "sword6"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s6.png
+
+  cw_made_sword_cw_made_sword7:
+    display_name: "sword7"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s7.png
+
+  cw_made_sword_cw_made_sword8:
+    display_name: "sword8"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s8.png
+
+  cw_made_sword_cw_made_sword9:
+    display_name: "sword9"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s9.png
+
+  cw_made_sword_cw_made_sword10:
+    display_name: "sword10"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s10.png
+
+  cw_made_sword_cw_made_sword11:
+    display_name: "sword11"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s11.png
+
+  cw_made_sword_cw_made_sword12:
+    display_name: "sword12"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s12.png
+
+  cw_made_sword_cw_made_sword13:
+    display_name: "sword13"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s13.png
+
+  cw_made_sword_cw_made_sword14:
+    display_name: "sword14"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s14.png
+
+  cw_made_sword_cw_made_sword15:
+    display_name: "sword15"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s15.png
+
+  cw_made_sword_cw_made_sword16:
+    display_name: "sword16"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s16.png
+
+  cw_made_sword_cw_made_sword17:
+    display_name: "sword17"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s17.png
+
+  cw_made_sword_cw_made_sword18:
+    display_name: "sword18"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s18.png
+
+  cw_made_sword_cw_made_sword19:
+    display_name: "sword19"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s19.png
+
+  cw_made_sword_cw_made_sword20:
+    display_name: "sword20"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - sword/tr_s20.png

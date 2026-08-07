@@ -1,0 +1,124 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"inside": "block/composter_ready",
+		"particle": "block/composter_compost"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 14, 14],
+			"faces": {
+				"up": {"uv": [2, 2, 14, 14], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [5, 14, 4],
+			"to": [7, 15, 6],
+			"faces": {
+				"north": {"uv": [4, 4, 6, 5], "texture": "#inside"},
+				"east": {"uv": [4, 4, 6, 5], "texture": "#inside"},
+				"south": {"uv": [4, 4, 6, 5], "texture": "#inside"},
+				"west": {"uv": [4, 4, 6, 5], "texture": "#inside"},
+				"up": {"uv": [4, 4, 6, 6], "texture": "#inside"},
+				"down": {"uv": [4, 4, 6, 6], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [9, 14, 4],
+			"to": [11, 15, 6],
+			"faces": {
+				"north": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"up": {"uv": [9, 4, 11, 6], "texture": "#inside"},
+				"down": {"uv": [9, 4, 11, 6], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [7, 14, 6],
+			"to": [8, 15, 7],
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"down": {"uv": [9, 4, 10, 5], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [10, 14, 6],
+			"to": [11, 15, 7],
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"down": {"uv": [9, 4, 10, 5], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [9, 14, 10],
+			"to": [10, 15, 11],
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"down": {"uv": [9, 4, 10, 5], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [5, 14, 7],
+			"to": [6, 15, 8],
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"down": {"uv": [9, 4, 10, 5], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [4, 14, 9],
+			"to": [5, 15, 10],
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"down": {"uv": [9, 4, 10, 5], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [6, 15, 8],
+			"to": [7, 16, 9],
+			"faces": {
+				"north": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#inside"},
+				"down": {"uv": [9, 4, 10, 5], "texture": "#inside"}
+			}
+		},
+		{
+			"from": [5, 14, 8],
+			"to": [9, 15, 11],
+			"faces": {
+				"north": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"east": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"south": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"west": {"uv": [9, 4, 11, 5], "texture": "#inside"},
+				"up": {"uv": [5, 7, 9, 10], "texture": "#inside"},
+				"down": {"uv": [5, 7, 9, 10], "texture": "#inside"}
+			}
+		}
+	]
+}

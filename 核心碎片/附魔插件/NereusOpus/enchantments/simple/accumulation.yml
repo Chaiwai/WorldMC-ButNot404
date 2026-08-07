@@ -1,0 +1,28 @@
+basic:
+  id: accumulation
+  name: 蓄力
+  enable: true
+  max-level: 8
+display:
+  description:
+    general: 长时间不攻击状态下伤害提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1+{level}*0.05
+    duration: :160-10*{level}

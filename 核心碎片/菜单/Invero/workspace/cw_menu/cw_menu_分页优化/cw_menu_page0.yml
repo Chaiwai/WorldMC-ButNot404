@@ -1,0 +1,227 @@
+title: ":offset_-9::cw_menu1:"
+rows: 6
+
+activators:
+  shift_f: 500
+  command:
+    name: "cd"
+    permission: "menu.cd"
+
+events:
+  pre_open: sound entity_item_pickup by 1 0
+  close: sound entity_item_pickup by 1 1
+########################################
+#空
+check: &check
+  ia: check
+  name: "&7当前选择的菜单"
+  lore: |-
+    &f
+    &f&7再次点击返回主页面
+    &f
+    &f%img_left_click% &7点击返回
+    &f
+  action: |-
+    menu open cw_menu_page0
+nu: &nu
+  ia: cw_ui_1
+  name: "§x§F§F§0§0§0§0敬§x§F§F§0§0§0§0请§x§F§F§0§0§0§0期§x§F§F§0§0§0§0待"
+  lore: |-
+    &f
+    &f&7这个功能可能还没有上线~再等等吧
+    &f
+    &f&m%img_left_click% &7&m点击打开
+    &f
+########################################
+layout: |-
+  #####B##F
+  Hh#1#4#7#
+  hh#2#5#8#
+  ###3#6#9#
+  #########
+  `L1``L2``L3`#X#`R1``R2``R3`
+items:
+  B:
+    material: air
+  "H":
+    update: 2000
+    head: "{{player name}}"
+    name: "&f"
+    customModelData: 10001
+  "h":
+    texture:
+      source: ni
+      value: air
+  "1":
+    ia: life_crystal
+    name: "§x§F§F§3§0§C§9我的修为"
+    action: |-
+      menu open cw_menu_page4
+    lore: |-
+      &f
+      &f&7升级等级以解锁更多章节
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "2":
+    ia: off_hand_4_1
+    name: "§x§0§7§7§E§F§F每日签到"
+    action: command "signin gui" as player
+    lore: |-
+      &f
+      &f&7签到领取丰厚奖励!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "3":
+    ia: scroll
+    name: "§x§1§2§2§E§F§F每日任务"
+    action: command "plk open" as player
+    lore: |-
+      &f
+      &f&7追杀暮森获取丰厚奖励!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "4":
+    ia: homehome
+    name: "§x§F§F§0§0§0§0我的小镇"
+    action: command "plg open" as player
+    lore: |-
+      &f
+      &f&7小镇成员可以互相帮衬发展
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "5":
+    ia: off_hand_4_3
+    name: "§x§F§F§0§7§B§F传送功能"
+    action: |-
+      menu open cw_menu_page5
+    lore: |-
+      &f
+      &f&7你会爱上这个功能的!他真的很方便
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "6":
+    # ia: expired
+    # name: "§x§F§F§F§0§0§2在线奖励"
+    # action: command "cor" as op
+    # lore: |-
+    #   &f
+    #   &f&7每日保底领取&b200&f%img_point%
+    #   &f
+    #   &f%img_left_click% &7点击打开
+    #   &f
+    <<: *nu
+  "7":
+    ia: off_hand_4_2
+    name: "§x§6§F§9§9§F§F服务器活动"
+    action: |-
+      menu open cw_menu_page6
+    lore: |-
+      &f
+      &f&7不定期会更换活动~
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "8":
+    # ia: off_hand_3_16
+    # name: "§x§F§F§7§7§0§2副本挑战"
+    # action: command "warp rpg_spawn" as player
+    # lore: |-
+    #   &f
+    #   &f&c在你没有好装备前,最好不要碰!
+    #   &f
+    #   &f%img_left_click% &7点击打开
+    #   &f
+    <<: *nu
+  "9":
+    ia: rabbit3
+    name: "§x§8§7§F§F§E§E我的宠物"
+    action: |-
+      menu open cw_menu_page7
+    lore: |-
+      &f
+      &f&7用栓绳击败任意非boos生物即可领养!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "L1":
+    ia: gold_cog
+    name: "§x§F§B§E§C§0§5个人设置"
+    lore: |-
+      &f
+      &f&7一些有点好用的设置
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+    action: |-
+      menu open cw_menu_page1
+  "L2":
+    ia: category
+    name: "§x§3§5§E§7§F§B更多功能"
+    action: |-
+      menu open cw_menu_page2
+    lore: |-
+      &f
+      &f&7可以大大增强你的游戏体验!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "L3":
+    ia: bought
+    name: "§x§F§B§6§C§6§C商店大全"
+    action: |-
+      menu open cw_menu_page3
+    lore: |-
+      &f
+      &f&7运用商店会使你更轻松游玩!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "R1":
+    material: Enchanted_Book
+    name: "§x§F§B§0§2§A§B更多附魔"
+    action: command "nereusopus menu" as op
+    lore: |-
+      &f
+      &f&7服务器新增了300+附魔
+      &f
+      &f%img_left_click% &7点击查询
+      &f
+  "R2":
+    material: Knowledge_Book
+    name: "§x§0§5§F§F§8§2插件配方"
+    action: command 'recipes' as player
+    lore: |-
+      &f
+      &f&7服务器增加了大量&m原创&r&7配方
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "R3":
+    ia: clear
+    name: "§x§9§C§9§C§9§C垃圾桶"
+    action: command 'dispose' as player
+    lore: |-
+      &f
+      &f&7你会失去他们,真的很久!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "X":
+    ia: inventory
+    name: "&a主页面"
+    lore: |-
+      &7当前页面
+  "F":
+    ia: cancel
+    name: "§x§F§B§0§0§0§0关闭菜单"
+    lore: |-
+      &f
+      &f%img_left_click% &7点击关闭
+      &f
+    action: |-
+      menu close

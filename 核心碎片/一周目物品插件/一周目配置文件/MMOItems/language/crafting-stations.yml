@@ -1,0 +1,32 @@
+condition:
+  mana:
+    positive: '&a✔ 需要 #mana# Mana'
+    negative: '&c✖ 需要 #mana# Mana'
+  money:
+    positive: '&a✔ 需要 $#money#'
+    negative: '&c✖ 需要 $#money#'
+  level:
+    positive: '&a✔ 需要 等级 #level#'
+    negative: '&c✖ 需要 等级 #level#'
+  stamina:
+    positive: '&a✔ 需要 #stamina# Stamina'
+    negative: '&c✖ 需要 #stamina# Stamina'
+  permission:
+    positive: '&a✔ #display#'
+    negative: '&c✖ #display#'
+  placeholder:
+    positive: '&a✔ #display#'
+    negative: '&c✖ #display#'
+  class:
+    positive: '&a✔ Required Class: #class#'
+    negative: '&c✖ Required Class: #class#'
+  food:
+    positive: '&a✔ 需要 #food# Food'
+    negative: '&c✖ 需要 #food# Food'
+ingredient:
+  mmoitem:
+    positive: '&8✔ &7#amount# #level##item#'
+    negative: '&c✖ &7#amount# #level##item#'
+  vanilla:
+    positive: '&8✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'

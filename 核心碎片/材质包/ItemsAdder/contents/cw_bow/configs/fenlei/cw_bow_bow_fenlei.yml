@@ -1,0 +1,10 @@
+# 自动生成的弓分类配置文件
+info:
+  namespace: cw_bow
+categories:
+  bow:
+    enabled: true
+    icon: cw_bow:enderite_bow
+    name: cw_bow
+    items:
+    - cw_bow:enderite_bow

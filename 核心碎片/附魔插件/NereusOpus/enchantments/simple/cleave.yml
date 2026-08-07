@@ -1,0 +1,30 @@
+basic:
+  id: cleave
+  name: 碎星
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 伤害对手时溅射伤害至周围生物
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:carve
+variables:
+  leveled:
+    damage-splash-multiplier: :15*{level}
+    range: :{level}
+  ordinary:
+    require-full-charge: true

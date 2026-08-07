@@ -1,0 +1,27 @@
+basic:
+  id: dexterous
+  name: 瞬息
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 攻击速度提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    cooldown-decreased: :10*{level}

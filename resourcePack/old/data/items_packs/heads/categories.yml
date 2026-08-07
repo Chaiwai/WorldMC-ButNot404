@@ -1,0 +1,12 @@
+info:
+  namespace: heads
+categories:
+  heads:
+    enabled: true
+    name: 头像
+    icon: player_head_gui_size_1
+    items:
+      - heads:player_head_gui_size_1
+      - heads:player_head_block_size_item_frame
+      - heads:player_head_hand_size_2
+      - heads:player_head_gui_size_4

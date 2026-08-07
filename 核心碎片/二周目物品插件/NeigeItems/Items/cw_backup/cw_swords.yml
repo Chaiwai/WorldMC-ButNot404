@@ -1,0 +1,210 @@
+# cw_sword_tem_att:
+#   material: diamond_sword
+#   components:
+#     minecraft:custom_model_data:
+#       floats:
+#         - (Float) <datapack>
+#   name: "&r&f<name>"
+#   options:
+#   update:
+#     enable: true
+#     refresh:
+#       - test1
+#     rebuild:
+#       test2: test2
+#     protect:
+#       - Enchantments
+#       # - PublicBukkitValues
+#       - minecraft:custom_name
+#   nbt:
+#     PublicBukkitValues:
+#       itemsoulbind:soulbinduuid: <p_uuid>
+#     attribute_tag:
+#       # 攻击与防御类属性
+#       "物理伤害": "<att_attack>"
+#       "真实伤害": "<att_real_attack>"
+#       "暴击几率": "<att_crit>"
+#       "燃烧几率": "<att_fire>"
+#       "冰冻几率": "<att_frozen>"
+#       "雷击几率": "<att_lightning>"
+#       "吸血几率": "<att_vampire>"
+#       "护甲值": "<att_armor>"
+#       "物理防御": "<att_defense>"
+#       "闪避几率": "<att_dodge>"
+#       "反弹几率": "<att_reflection>"
+#       "箭伤免疫率": "<att_remote_immune>"
+#       "测试脚本属性": "<att_testAttribute>"
+
+#       # 更新类属性
+#       "生命力": "<update_health>"
+#       "移速加成": "<update_moving>"
+#       "百分比恢复": "<update_restore_ratio>"
+
+#       # 其他类属性
+#       "PVE伤害": "<other_pve_attack>"
+#       "PVP伤害": "<other_pvp_attack>"
+#       "暴伤抵抗": "<other_crit_damage_resist>"
+#       "暴击闪避": "<other_crit_dodge>"
+#       "暴伤倍率": "<other_crit_rate>"
+#       "暴击抵抗": "<other_crit_resist>"
+#       "燃烧伤害": "<other_fire_damage>"
+#       "冰冻强度": "<other_frozen_intensity>"
+#       "雷击伤害": "<other_lightning_damage>"
+#       "吸血闪避": "<other_vampire_dodge>"
+#       "吸血倍率": "<other_vampire_rate>"
+#       "吸血抵抗": "<other_vampire_resist>"
+#       "护甲穿透": "<other_see_through>"
+#       "破甲几率": "<other_sunder_armor>"
+#       "PVE防御": "<other_pve_defense>"
+#       "PVP防御": "<other_pvp_defense>"
+#       "命中几率": "<other_hit>"
+#       "反弹倍率": "<other_reflection_rate>"
+#       "蓄力加成": "<other_accumulate_addition>"
+#       "蓄力干扰": "<other_accumulate_disturb>"
+#       "经验加成": "<other_exp_addition>"
+#       "生命恢复": "<other_restore>"
+#       "盾牌格挡率": "<other_shield_block>"
+#       "破盾几率": "<other_break_shield>"
+#       "箭矢速度": "<other_shoot_speed>"
+#       "箭术精准": "<other_shoot_spread>"
+#       "箭矢穿透率": "<other_shoot_through>"
+#       "召唤强度": "<other_summon_intensity>"
+#       "装备类型": "<equipmentType>"
+#   lore:
+#     - ""
+#     - "<#CCCCCC>类型 &7: <type>"
+#     - "<#CCCCCC>品质 &7: <level>"
+#     - ""
+#     - "<#EEEEEE>简介 &7:"
+#     - "   <#DDDDDD><text>"
+#     - "&f物理伤害<att_attack>"
+#     # - "&f真实伤害<att_real_attack>"
+#     # - "&f暴击几率<att_crit>"
+#     # - "&f燃烧几率<att_fire>"
+#     # - "&f冰冻几率<att_frozen>"
+#     # - "&f雷击几率<att_lightning>"
+#     # - "&f吸血几率<att_vampire>"
+#     # - "&f护甲值<att_armor>"
+#     # - "&f物理防御<att_defense>"
+#     # - "&f闪避几率<att_dodge>"
+#     # - "&f反弹几率<att_reflection>"
+#     # - "&f箭伤免疫率<att_remote_immune>"
+#     # - "&f测试脚本属性<att_testAttribute>"
+#     # - "&f生命力<update_health>"
+#     # - "&f移速加成<update_moving>"
+#     # - "&f百分比恢复<update_restore_ratio>"
+#     # - "&fPVE伤害<other_pve_attack>"
+#     # - "&fPVP伤害<other_pvp_attack>"
+#     # - "&f暴伤抵抗<other_crit_damage_resist>"
+#     # - "&f暴击闪避<other_crit_dodge>"
+#     # - "&f暴伤倍率<other_crit_rate>"
+#     # - "&f暴击抵抗<other_crit_resist>"
+#     # - "&f燃烧伤害<other_fire_damage>"
+#     # - "&f冰冻强度<other_frozen_intensity>"
+#     # - "&f雷击伤害<other_lightning_damage>"
+#     # - "&f吸血闪避<other_vampire_dodge>"
+#     # - "&f吸血倍率<other_vampire_rate>"
+#     # - "&f吸血抵抗<other_vampire_resist>"
+#     # - "&f护甲穿透<other_see_through>"
+#     # - "&f破甲几率<other_sunder_armor>"
+#     # - "&fPVE防御<other_pve_defense>"
+#     # - "&fPVP防御<other_pvp_defense>"
+#     # - "&f命中几率<other_hit>"
+#     # - "&f反弹倍率<other_reflection_rate>"
+#     # - "&f蓄力加成<other_accumulate_addition>"
+#     # - "&f蓄力干扰<other_accumulate_disturb>"
+#     # - "&f经验加成<other_exp_addition>"
+#     # - "&f生命恢复<other_restore>"
+#     # - "&f盾牌格挡率<other_shield_block>"
+#     # - "&f破盾几率<other_break_shield>"
+#     # - "&f箭矢速度<other_shoot_speed>"
+#     # - "&f箭术精准<other_shoot_spread>"
+#     # - "&f箭矢穿透率<other_shoot_through>"
+#     # - "&f召唤强度<other_summon_intensity>"
+#     - "&f装备类型: <equipmentType>"
+#     - "&b灵魂绑定: <p_name>"
+#     - ""
+
+# cw_s0_0_att:
+#   inherit: cw_sword_tem_att
+#   sections:
+#     name: "天顶剑"
+#     datapack: 10155
+#     p_uuid: "<papi::player_uuid>"
+#     p_name: "<papi::player_name>"
+#     #类型
+#     equipmentType: "主手"
+#     # list:
+#     # - 双持
+#     # - 主手
+#     # - 副手
+#     # - 头盔
+#     # - 衣服
+#     # - 裤子
+#     # - 鞋子
+#     # ========== 攻击与防御属性 ==========
+#     type: "剑"
+#     level: "无情"
+#     text: "没有简介"
+#     att_attack: "2" #物理伤害
+#     # att_real_attack: "100" #真实伤害
+#     # att_crit: "100" #暴击几率
+#     # att_fire: "100" #燃烧几率
+#     # att_frozen: "100" #冰冻几率
+#     # att_lightning: "100" #雷击几率
+#     # att_vampire: "100" #吸血几率
+#     # att_armor: "100" #护甲值
+#     # att_defense: "100" #物理防御
+#     # att_dodge: "100" #闪避几率
+#     # att_reflection: "100" #反弹几率
+#     # att_remote_immune: "100" #箭伤免疫率
+#     # att_testAttribute: "100" #测试脚本属性
+
+#     # # ========== 更新类属性 ==========
+#     # update_health: "100" #(%) 生命力
+#     # update_moving: "100" #(%) 移速加成
+#     # update_restore_ratio: "100" #(%) 百分比恢复
+
+#     # # ========== 其他属性 ==========
+#     # other_pve_attack: "100" #PVE伤害
+#     # other_pvp_attack: "100" #PVP伤害
+#     # other_crit_damage_resist: "100" #(%) 暴伤抵抗
+#     # other_crit_dodge: "100" #(%) 暴击闪避
+#     # other_crit_rate: "100" #(%) 暴伤倍率
+#     # other_crit_resist: "100" #(%) 暴击抵抗
+#     # other_fire_damage: "100" #燃烧伤害
+#     # other_frozen_intensity: "100" #冰冻强度
+#     # other_lightning_damage: "100" #雷击伤害
+#     # other_vampire_dodge: "100" #(%) 吸血闪避
+#     # other_vampire_rate: "100" #(%) 吸血倍率
+#     # other_vampire_resist: "100" #(%) 吸血抵抗
+#     # other_see_through: "100" #(%) 护甲穿透
+#     # other_sunder_armor: "100" #(%) 破甲几率
+#     # other_pve_defense: "100" #PVE防御
+#     # other_pvp_defense: "100" #PVP防御
+#     # other_hit: "100" #(%) 命中几率
+#     # other_reflection_rate: "100" #(%) 反弹倍率
+#     # other_accumulate_addition: "100" #(%) 蓄力加成
+#     # other_accumulate_disturb: "100" #(%) 蓄力干扰
+#     # other_exp_addition: "100" #(%) 经验加成
+#     # other_restore: "100" #生命恢复
+#     # other_shield_block: "100" #(%) 盾牌格挡率
+#     # other_break_shield: "100" #(%) 破盾几率
+#     # other_shoot_speed: "100" #(%) 箭矢速度
+#     # other_shoot_spread: "100" #(%) 箭术精准
+#     # other_shoot_through: "100" #(%) 箭矢穿透率
+#     # other_summon_intensity: "100" #召唤强度
+
+#   # mini-lore:
+#   #   - ""
+#   #   - "&b灵魂绑定: <p_name>"
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>------- 宝石槽位 -------
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><red>◇ 攻击宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><blue>◇ 防御宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><yellow>◇ 元素宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><green>◇ 生命宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><gold>◇ 幸运宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>◇ 魔法宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_purple>◇ 特殊宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><aqua>◇ 速度宝石槽位
+#   #   - <!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>◇ 实用宝石槽位

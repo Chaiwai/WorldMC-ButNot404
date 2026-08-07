@@ -1,0 +1,1466 @@
+title: ":offset_-9::cw_menu1:"
+rows: 6
+
+# activators:
+#   command:
+#     name: "cd_old"
+#     permission: "menu.cd"
+
+events:
+  pre_open: sound entity_item_pickup by 1 0
+  close: sound entity_item_pickup by 1 1
+########################################
+close: &close
+  ia: cancel
+  name: "&{#fb0000}&l关&{#fc3202}&l闭&{#fc6303}&l菜&{#fd9505}&l单"
+  lore: |-
+    &f
+    &f%img_left_click% &7点击关闭
+    &f
+  action: |-
+    menu close
+check: &check
+  ia: check
+  name: "&7当前选择的菜单"
+  lore: |-
+    &f
+    &f&7再次点击返回主页面
+    &f
+    &f%img_left_click% &7点击返回
+    &f
+  action: |-
+    page set to 0
+    menu title to ":offset_-9::cw_menu1:"
+    sound entity_item_pickup by 1 0
+p0: &p0
+  ia: cancel
+  name: "&{#d1fb14}&l返&{#dce210}&l回&{#e7c80d}&l主&{#f2af09}&l页&{#fd9505}&l面"
+  lore: |-
+    &f
+    &f&7返回上一级目录
+    &f
+    &f%img_left_click% &7点击返回
+    &f
+  action: |-
+    page set to 0
+    menu title to ":offset_-9::cw_menu1:"
+    sound entity_item_pickup by 1 0
+p1: &p1
+  ia: gold_cog
+  name: "&{#fbec05}&l个&{#fcd008}&l人&{#fcb50c}&l设&{#fd990f}&l置"
+  lore: |-
+    &f
+    &f&7一些有点好用的设置
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+  action: |-
+    page set to 1
+    menu title to ":offset_-9::cw_menu2:"
+    sound entity_item_pickup by 1 0
+p2: &p2
+  ia: category
+  name: "&{#35e7fb}&l更&{#59e8fc}&l多&{#7ee8fc}&l功&{#a2e9fd}&l能"
+  action: |-
+    page set to 2
+    menu title to ":offset_-9::cw_menu2:"
+    sound entity_item_pickup by 1 0
+  lore: |-
+    &f
+    &f&7可以大大增强你的游戏体验!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+p3: &p3
+  ia: bought
+  name: "&{#fb6c6c}&l商&{#fc8e8e}&l店&{#fcb0b0}&l大&{#fdd2d2}&l全"
+  action: |-
+    page set to 3
+    menu title to ":offset_-9::cw_menu1:"
+    sound entity_item_pickup by 1 0
+  lore: |-
+    &f
+    &f&7运用商店会使你更轻松游玩!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+head: &head
+  update: 2000
+  head: "{{player name}}"
+  name: "&f"
+  customModelData: 10001
+h: &h
+  name: "&f"
+  ia: air
+
+ablili: &ablili
+  material: Enchanted_Book
+  name: "<gradient:#FB02AB:#7E86FD}更多附魔"
+  action: command "nereusopus menu" as op
+  lore: |-
+    &f
+    &f&7服务器新增了300+附魔
+    &f
+    &f%img_left_click% &7点击查询
+    &f
+
+recise: &recise
+  material: Knowledge_Book
+  name: "&{#05ff82}&l插&{#1bdc72}&l件&{#31ba62}&l配&{#479752}&l方"
+  action: command 'recipes' as player
+  lore: |-
+    &f
+    &f&7服务器增加了大量&m原创&r&7配方
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+
+dis: &dis
+  ia: clear
+  name: "&{#9c9c9c}&l垃&{#b8b8b8}&l圾&{#d4d4d4}&l桶"
+  action: command 'dispose' as player
+  lore: |-
+    &f
+    &f&7你会失去他们,真的很久!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+
+rank: &rank
+  ia: cw_made_items_cw_made_items_off_hand3_16
+  name: "&{#ff30c9}&l我&{#c630bf}&l的&{#8e30b5}&l历&{#5530ab}&l练"
+  action: |-
+    page set to 4
+    menu title to ":offset_-9::cw_menu1:"
+    sound entity_item_pickup by 1 0
+  lore: |-
+    &f
+    &f&7升级等级以解锁更多章节
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+sign: &sign
+  ia: cw_made_items_cw_made_items_item19
+  name: "&{#077eff}&l每&{#5aa9aa}&l日&{#acd455}&l签&{#ffff00}&l到"
+  action: command "signin gui" as player
+  lore: |-
+    &f
+    &f&7签到领取丰厚奖励!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+plk: &plk
+  ia: scroll
+  name: "&{#122eff}&l每&{#2c2eff}&l日&{#462eff}&l任&{#602eff}&l务"
+  action: command "plk open" as player
+  lore: |-
+    &f
+    &f&7追杀暮森获取丰厚奖励!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+plg: &plg
+  ia: homehome
+  name: "&{#ff0000}&l我&{#ff5000}&l的&{#ffa000}&l小&{#fff000}&l镇"
+  action: command "plg open" as player
+  lore: |-
+    &f
+    &f&7小镇成员可以互相帮衬发展
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+warp: &warp
+  ia: cw_made_move_cw_made_move1
+  name: "&{#ff07bf}&l传&{#fd45d4}&l送&{#fb84ea}&l功&{#f9c2ff}&l能"
+  action: |-
+    page set to 5
+    menu title to ":offset_-9::cw_menu1:"
+    sound entity_item_pickup by 1 0
+  lore: |-
+    &f
+    &f&7你会爱上这个功能的!他真的很方便
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+time: &time
+  ia: expired
+  name: "&{#fff002}&l在&{#ffa001}&l线&{#ff5001}&l奖&{#ff0000}&l励"
+  action: command "cor" as op
+  lore: |-
+    &f
+    &f&7每日保底领取&b200&f%img_points_icon%
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+party: &party
+  ia: cw_made_items_cw_made_items_box1
+  name: "&{#1f00ff}&l服&{#550dff}&l务&{#8b1bff}&l器&{#c128ff}&l活&{#f735ff}&l动"
+  action: |-
+    page set to 6
+    menu title to ":offset_-9::cw_menu1:"
+    sound entity_item_pickup by 1 0
+  lore: |-
+    &f
+    &f&7不定期会更换活动~
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+rpg: &rpg
+  ia: cw_made_items_cw_made_items_item11
+  name: "&{#ff7702}&l副&{#f735ff}&l本&{#00ff05}&l挑&{#000fff}&l战"
+  action: command "warp rpg_spawn" as player
+  lore: |-
+    &f
+    &f&c在你没有好装备前,最好不要碰!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+pet: &pet
+  ia: cw_made_items_cw_made_items_item41
+  name: "&{#87ffee}&l我&{#81ffae}&l的&{#7bff6e}&l宠&{#75ff2e}&l物"
+  action: |-
+    page set to 7
+    menu title to ":offset_-9::cw_menu2:"
+    sound entity_item_pickup by 1 0
+  lore: |-
+    &f
+    &f&7用栓绳击败任意非boos生物即可领养!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+# 设置
+plt: &plt
+  ia: mctown_title_card
+  name: "&{#ffedb5}&l我&{#f5f37b}&l的&{#ebf941}&l称&{#e1ff07}&l号"
+  action: command "plt open" as player
+  lore: |-
+    &f
+    &f&7设置一个炫酷的称号, 如何?
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+name: &name
+  ia: mctown_gmk
+  name: "&{#35d3ff}&l改&{#226aff}&l名&{#0f00ff}&l卡"
+  action: msg "制作中"
+  lore: |-
+    &f
+    &f&7明天再做
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+coi: &coi
+  ia: icon_search
+  name: "&{#35d3ff}&l防&{#49b2cf}&l盗&{#5c91a0}&l查&{#707070}&l询"
+  action: |-
+    msg ":fuhao2:&e开启查询模式"
+    msg "%img_left_click% &7左键方块查询方块放置记录"
+    msg "%img_right_click% &7右键方块查询容器变更记录"
+    msg "&7如需关闭再次点击该功能即可"
+    command "co i" as player
+    menu close
+  lore: |-
+    &f
+    &f&7被熊孩子拆家了?看看谁干的,上报给下雪!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+res: &res
+  material: Wood_Hoe
+  name: "&{#975f59}&l领&{#877461}&l地&{#788968}&l设&{#689e70}&l置"
+  action: command "res set" as player
+  lore: |-
+    &f
+    &f&7领地设置(后续&8应该&7会编写一个更智能的)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+en: &en
+  ia: woodcutter_select
+  name: "<gradient:#FB02AB:#7E86FD}附魔拆解(拆解台)"
+  lore: |-
+    &r&b&l分解大部分道具&c(测试中)
+    &r&7如果出现等级为0可能是数据库正在同步,等待片刻即可
+    &r&7需要玩家分解等级&e>=&b1000
+    &r&7&l分解等级＝(钓鱼等级+修理等级)/2
+    &r&7&l当前钓鱼等级: %mcmmo_fishing%
+    &r&7&l当前修理等级: %mcmmo_repair%
+    &r&7&l当前分解等级: %math_({mcmmo_fishing}+{mcmmo_repair})/2%
+    &r
+    &f%img_left_click% &7点击打开
+    &f
+  action:
+    all: #条件判定
+      - check papi "%math_({mcmmo_fishing}+{mcmmo_repair})/2%" >= "1000"
+    then: |- #满足执行
+      msg ":fuhao3: &a已为您打开分解菜单&c这项功能正在测试中,出现任何bug请及时反馈"
+      command "salvage" as op
+    else: |- #不满足执行
+      msg ":fuhao3: &c请继续修炼你的分解等级!"
+      msg ":fuhao3: &c当前分解等级: %math_({mcmmo_fishing}+{mcmmo_repair})/2%"
+unen: &unen
+  ia: cw_made_items_cw_made_items_off_hand4_11
+  name: "<gradient:#FB7676:#7E86FD}附魔祛除"
+  lore: |-
+    &f
+    &7点击后在聊天框内输入需要去除的附魔
+    &附魔名称需要&c完全一致&7!
+    &7此过程耗费&c1000&7金币
+    &f
+    &f%img_left_click% &7点击使用
+    &f
+  action:
+    all: #条件判定
+      - check papi "%vault_eco_balance%" >= "1000"
+    then: |- #满足执行
+      command "cmi money take %player_name% 1000" as console
+      menu open 去除附魔
+      sleep 0.1s
+    else: |- #不满足执行
+      menu close
+      msg ":fuhao1: &c你不满足条件！"
+#功能
+gn_1: &gn_1
+  material: minecraft:crafting_table
+  name: "&{#85ff78}&l随&{#9dff93}&l身&{#b4feae}&l工&{#ccfec9}&l作&{#e3fde4}&l台"
+  action: command "craft" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_vip%&7(&688888&f%img_mnoney%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_2: &gn_2
+  material: anvil
+  name: "&{#808080}&l随&{#a7a7a7}&l身&{#cecece}&l铁&{#f5f5f5}&l砧"
+  action: command "anvil" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_vip%&7(&688888&f%img_mnoney%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_3: &gn_3
+  material: :ender_chest
+  name: "&{#1919ff}&l随&{#3e17ff}&l身&{#6314fe}&l末&{#8712fe}&l影&{#ac0ffd}&l箱"
+  action: command "ec" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_vip%&7(&688888&f%img_mnoney%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_4: &gn_4
+  material: Smithing_table
+  name: "&{#404040}&l随&{#4c3030}&l身&{#582020}&l锻&{#641010}&l造&{#700000}&l台"
+  action: command "smithingtable" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_pro%&7(&b32800&f%img_points_icon%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_5: &gn_5
+  material: loom
+  name: "&{#e3d607}&l随&{#e6de26}&l身&{#e9e646}&l织&{#ebed65}&l布&{#eef584}&l机"
+  action: command "loom" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_pro%&7(&b32800&f%img_points_icon%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_6: &gn_6
+  material: cartography_table
+  name: "&{#1421e3}&l随&{#2556e7}&l身&{#368beb}&l制&{#47c0ee}&l图&{#58f5f2}&l台"
+  action: command "cartographytable" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_pro%&7(&b32800&f%img_points_icon%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_7: &gn_7
+  material: stonecutter
+  name: "&{#404040}&l随&{#676767}&l身&{#8e8e8e}&l切&{#b4b4b4}&l石&{#dbdbdb}&l机"
+  action: command "stonecutter" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_pro%&7(&b32800&f%img_points_icon%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_8: &gn_8
+  ia: cw_made_move_cw_made_move6
+  name: "&{#00b8ff}&l随&{#3db9ea}&l身&{#79bbd4}&l飞&{#b6bcbf}&l行"
+  action: command "fly" as player
+  lore: |-
+    &f
+    &f&7你需要拥有&f%img_pro%&7(&b32800&f%img_points_icon%)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+gn_9: &gn_9
+  ia: cw_made_items_tr_s16
+  name: "&{#646464}&l随&{#4e7447}&l身&{#388429}&l锻&{#22940c}&l造"
+  action: command "mi stations open sword" as op
+  lore: |-
+    &f
+    &f&7后续会逐渐简化合成配方
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+
+#商店
+shop1: &shop1
+  material: wheat
+  name: "<gradient:#FF7C0D:#AEFF1E}总作物回收"
+  action: command "shoppro open 农作物" as op
+  lore: |-
+    &f
+    &f&7海量廉价方块, 可联系服主添加更多
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+shop2: &shop2
+  material: bricks
+  name: "<gradient:#FF7C0D:#AEFF1E}建材商店"
+  action: command "shoppro open 建筑方块" as op
+  lore: |-
+    &f
+    &f&7冰冷的农作物回收为温暖的金币
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+shop3: &shop3
+  material: raw_iron
+  name: "<gradient:#FF7C0D:#AEFF1E}矿物回收"
+  action: command "shoppro open 矿物" as op
+  lore: |-
+    &f
+    &f&7冰冷的矿物回收为温暖的金币
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+shop4: &shop4
+  ia: auction111
+  name: "<gradient:#55FF42:#AEFF1E}交易市场"
+  action: command "ah" as player
+  lore: |-
+    &f
+    &f&7玩家可以在这里自由交易!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+shop5: &shop5
+  ia: mctown_title_card
+  name: "<gradient:#FFE41C:#AEFF1E}称号商店"
+  action: menu open 称号商店
+  lore: |-
+    &f
+    &f&7挑选一个炫酷的称号?
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+shop6: &shop6
+  ia: cw_made_items_cw_made_items_item7
+  name: "<gradient:#02A9FF:#6635FF}水晶商店"
+  action:
+  lore: |-
+    &f
+    &f&7可以用水晶购买一些道具&c(制作中)
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+shop7: &shop7
+  ia: cw_made_items_cw_made_items_item8
+  name: "<gradient:#02A9FF:#19FFDF}周卡商店"
+  action: |-
+    page set to 8
+    menu title to ":offset_-9::cw_menu2:"
+    sound entity_item_pickup by 1 0
+  lore: |-
+    &f
+    &f&7你可以获取海量水晶
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+zk1: &zk1
+  ia: cw_made_items_cw_made_items_item8
+  name: " &l&b水晶周卡 &7* &b7天"
+  lore: |-
+    &r
+    &r  &6消耗: &f水晶 &7* &f1000
+    &r  &b获得: 水晶&7 * &f200&7 * &f7 &7共计1400
+    &r  &f▸   &f%img_left_click% &l点击购买   &f◂
+    &r  &7当前剩余时长%luckperms_group_expiry_time_zk1%
+    &r
+  action:
+    all:
+      - check papi "%playerpoints_points%" >= "1000"
+    then: |-
+      command "points take %player_name% 1000" as console
+      command "lp user %player_name% parent addtemp zk1 1w accumulate" as console
+      msg ":fuhao3: &a激活成功！"
+      menu close
+    else: |-
+      msg ":fuhao1: &c水晶不足！"
+zk2: &zk2
+  ia: cw_made_items_cw_made_items_item10
+  name: " &l&b水晶周卡&6付费版 &7* &b7天"
+  lore: |-
+    &r
+    &r  &6消耗: &x&f&b&3&f&e&1&l无&x&c&6&3&8&e&a&l暇&x&9&2&3&2&f&4&l水&x&5&d&2&b&f&d&l晶 &7* &f6
+    &r  &b获得: 水晶*300*7 共计2100
+    &r  &f▸   &f%img_left_click% &l点击获取   &f◂
+    &r  &7当前剩余时长%luckperms_group_expiry_time_zk2%
+    &r
+  action:
+    all:
+      - check papi "%playercurrency_point_pro%" >= "6"
+    then: |-
+      command "ply give %player_name% point_pro -6 购买付费周卡" as console
+      command "lp user %player_name% parent addtemp zk2 1w accumulate" as console
+      msg ":fuhao3: &a激活成功！"
+      menu close
+    else: |-
+      msg ":fuhao1: &c水晶不足！"
+shop8: &shop8
+  ia: cw_made_items_cw_made_items_off_hand5_2
+  name: "<gradient:#FF57E7:#1717FF}特权商店"
+  action: menu open vipshop
+  lore: |-
+    &f
+    &f&7进阶你的头衔!
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+shop9: &shop9
+  ia: cw_made_move_cw_made_move7
+  name: "<gradient:#FF0000:#FF7F00:#FFFF00:#00FF00:#0000FF:#4B0082:#9400D3}赞助商店"
+  action: |-
+    sound entity_arrow_hit_player by 1 1
+    menu open cw_xpay
+  lore: |-
+    &f
+    &f&7=============================
+    &f&7服务器为爱发电, 不氪金完全可玩
+    &f&7=============================
+    &f&7但是如果你愿意赞助我, 非常欢迎!
+    &f&7你的每一份付出都会真投入到服务器中
+    &f&7=============================
+    &f&7我是不求人👍
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+#传送
+tp_spawn: &tp_spawn
+  ia: cw_made_items_cw_made_items_ui_6
+  name: "&{#ffff00}&l玩&{#fefc2f}&l家&{#fef95e}&l社&{#fdf68d}&l区"
+  action: command "spawn" as player
+  # action: command "cmi server spawn" as op
+  lore: |-
+    &f
+    &f&7通俗一点就是主城
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+  sub:
+    - rule: perm "server.spawn"
+      action: command "spawn" as player
+tp_sc1: &tp_sc1
+  ia: cw_made_items_cw_made_items_ui_2
+  name: "&{#00ff05}&l生&{#38fe3f}&l存&{#6ffe79}&l世&{#a7fdb3}&l界"
+  action: command "cmi server sc1" as op
+  lore: |-
+    &f
+    &f&7你可以在这里建造你的家&c别忘了圈地
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+tp_zy: &tp_zy
+  ia: cw_made_items_cw_made_items_ui_7
+  name: "&{#ff0000}&l资&{#fe2c2c}&l源&{#fe5757}&l世&{#fd8383}&l界"
+  action: command "cmi server zy" as op
+  lore: |-
+    &f
+    &f&7每周一刷新,刷新远古怪物,会掉落神秘道具
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+tp_p2: &tp_p2
+  ia: cw_made_items_cw_made_items_ui_5
+  name: "&{#ff5cd5}&l地&{#fe78d7}&l皮&{#fe95d9}&l世&{#fdb1db}&l界"
+  action: command "warp plot" as player
+  lore: |-
+    &f
+    &f&7你的第二家园, 非常安全👍
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+tp_rtp: &tp_rtp
+  material: Compass
+  name: "<gradient:#2EFF17:#5186FF}随机传送"
+  action: command "rtp" as player
+  lore: |-
+    &f
+    &f&7在你所在的世界随机传送
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+  sub:
+    - rule: perm "server.spawn"
+      action: sound entity_arrow_hit by 1 2
+      lore: |-
+        &f
+        &f&c此功能在主城被禁用!
+        &f
+        &f&m%img_left_click% &7&m点击打开
+        &f
+tp_rtp1: &tp_rtp1
+  ia: cw_made_items_cw_made_items_ui_2
+  name: "<gradient:#2EFF17:#5186FF}随机传送"
+  action: command "rtp %player_name% world" as player
+  lore: |-
+    &f
+    &f&7在主世界随机传送
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+  sub:
+    - rule: perm "server.spawn"
+      action: sound entity_arrow_hit by 1 2
+      lore: |-
+        &f
+        &f&c此功能在主城被禁用!
+        &f
+        &f&m%img_left_click% &7&m点击打开
+        &f
+tp_rtp2: &tp_rtp2
+  ia: cw_made_items_cw_made_items_ui_3
+  name: "<gradient:#2EFF17:#5186FF}随机传送"
+  action: command "rtp %player_name% world_nether" as player
+  lore: |-
+    &f
+    &f&7在地狱随机传送
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+  sub:
+    - rule: perm "server.spawn"
+      action: sound entity_arrow_hit by 1 2
+      lore: |-
+        &f
+        &f&c此功能在主城被禁用!
+        &f
+        &f&m%img_left_click% &7&m点击打开
+        &f
+tp_rtp3: &tp_rtp3
+  ia: cw_made_items_cw_made_items_ui_4
+  name: "<gradient:#2EFF17:#5186FF}随机传送"
+  action: command "rtp %player_name% world_the_end" as player
+  lore: |-
+    &f
+    &f&7在末地随机传送
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+  sub:
+    - rule: perm "server.spawn"
+      action: sound entity_arrow_hit by 1 2
+      lore: |-
+        &f
+        &f&c此功能在主城被禁用!
+        &f
+        &f&m%img_left_click% &7&m点击打开
+        &f
+tp_plw: &tp_plw
+  material: Oak_Sign
+  name: "<gradient:#FFB54F:#FFF88F}公共传送点"
+  action: command "plw open" as player
+  lore: |-
+    &f
+    &f&7点击打开传送列表
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+  sub:
+    - rule: perm "server.spawn"
+      action: sound entity_arrow_hit by 1 2
+      lore: |-
+        &f
+        &f&c此功能在主城被禁用!
+        &f
+        &f&m%img_left_click% &7&m点击打开
+        &f
+#rank
+rank_up: &rank_up
+  ia: cw_made_move_cw_made_move3
+  name: "<gradient:#00D6FF:#E81CFF}RANK等级提升"
+  action: menu open rank
+  lore: |-
+    &f
+    &f&c提升rank解锁更多特权&c菜单正在努力优化中..
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+level_up: &level_up
+  ia: cw_made_move_cw_made_move5
+  name: "<gradient:#FFF117:#33FF80}冒险等级提升&7:%math_0_{PlayerCurrency_level}+1%"
+  lore: |-
+    &r
+    &r&f&l经验值: %PlayerCurrency_level_xp%&7/&f%math_0_128*(({PlayerCurrency_level}+1)^1.1)%
+    &r&f&l暂时的经验还无法升级哦~
+    &r
+  action: sound entity_item_break by 1 2
+  sub:
+    - rule: check papi "%math_0_{PlayerCurrency_level_xp}-128*(({PlayerCurrency_level}+1)^1.1)%" >= "0"
+      name: "&6&l喜报,你可以升级了!"
+      lore: |-
+        &r  
+        &r    &f&l经验值: &6%PlayerCurrency_level_xp%&7/&f%math_0_128*(({PlayerCurrency_level}+1)^1.1)%
+        &r    &6&l点我升级!
+        &r
+      action: |-
+        menu close
+        command "ply take %player_name% level_xp %math_0_128*(({PlayerCurrency_level}+1)^1.1)%" as console
+        command "ply give %player_name% level 1" as console
+        msg ":fuhao3:升级成功!"
+        sleep 0.1s
+        menu open rank
+        msg ":fuhao4:成就系统正在制作中,后续可以领取奖励"
+        sound entity_player_levelup by 1 2
+mcmmo: &mcmmo
+  ia: cw_made_move_cw_made_move4
+  name: "<gradient:#084CFB:#72C5FD}mcMMO技能"
+  action: command "mmv open" as op
+  lore: |-
+    &f
+    &f&7一款老牌技能插件
+    &f
+    &f%img_left_click% &7点击查看
+    &f
+
+pet1: &pet1
+  ia: clear
+  name: "<gradient:#FB0707:#FDBBBB}丢弃你的宠物?"
+  lore: |-
+    &7他可是你的家人啊?你会失去他!真的很久
+    &f%img_left_click% &7点击丢弃
+  action:
+    all: #权限判定
+      - check papi "%mypet_has_pet%" == "yes"
+    then: |- #满足执行
+      menu close
+      command "petrelease" as player
+    else: |- #不满足执行
+      menu close
+      msg "&c你当前没有宠物!"
+pet2: &pet2
+  material: CHEST
+  customModelData: 9999
+  name: "&a宠物背包"
+  lore: |-
+    点击打开宠物背包
+  action:
+    all: #权限判定
+      - check papi "%mypet_has_pet%" == "yes"
+    then: |- #满足执行
+      menu close
+      command "petinventory" as player
+    else: |- #不满足执行
+      menu close
+      msg "&c你当前没有宠物!"
+pet3: &pet3
+  material: ENDER_CHEST
+  customModelData: 9999
+  name: "&a宠物仓库"
+  lore: |-
+    点击打开宠物仓库
+  action: |-
+    command "petswitch" as player
+pet4: &pet4
+  material: BEACON
+  customModelData: 9999
+  name: "&a宠物信标"
+  lore: |-
+    点击打开宠物信标
+  action:
+    all: #权限判定
+      - check papi "%mypet_has_pet%" == "yes"
+    then: |- #满足执行
+      menu close
+      command "petbeacon" as player
+    else: |- #不满足执行
+      menu close
+      msg "&c你当前没有宠物!"
+pet5: &pet5
+  material: stone_sword
+  name: "&6宠物行为切换"
+  lore: |-
+    点击切换宠物行为
+  flags:
+    - HIDE_ATTRIBUTES
+  action:
+    all: #权限判定
+      - check papi "%mypet_has_pet%" == "yes"
+    then: |- #满足执行
+      command "petbehaviour" as player
+    else: |- #不满足执行
+      menu close
+      msg "&c你当前没有宠物!"
+pet6: &pet6
+  material: barrier
+  name: "&6收回宠物"
+  lore: |-
+    点击收回宠物
+  action:
+    all: #权限判定
+      - check papi "%mypet_has_pet%" == "yes"
+    then: |- #满足执行
+      command "petsa" as player
+    else: |- #不满足执行
+      menu close
+      msg "&c你当前没有宠物!"
+pet7: &pet7
+  material: ender_crystal
+  name: "&6召唤宠物"
+  lore: |-
+    点击召唤宠物
+  action:
+    all: #权限判定
+      - check papi "%mypet_has_pet%" == "yes"
+    then: |- #满足执行
+      command "petc" as player
+    else: |- #不满足执行
+      menu close
+      msg "&c你当前没有宠物!"
+pet8: &pet8
+  material: nether_star
+  name: "&6复活宠物"
+  lore: |-
+    点击复活宠物
+  action:
+    all: #权限判定
+      - check papi "%mypet_has_pet%" == "yes"
+    then: |- #满足执行
+      command "petrespawn pay" as player
+    else: |- #不满足执行
+      menu close
+      msg "&c你当前没有宠物!"
+pet9: &pet9
+  material: writable_book
+  name: "&b宠物名字更改"
+  lore: |-
+    点击修改宠物名字
+  action:
+    catch: pet_name
+    cancel: ["cancel"]
+    beforeInput: |
+      tell "&a请在聊天栏输入你宠物的新名字"
+      tell "&7输入 &f'cancel' &7来取消操作"
+    afterInput:
+      if: all [
+        check papi "%mypet_has_pet%" == "yes"
+        ]
+      then: |-
+        command "petname {{&pet_name}}" as player
+        sleep 0.1s
+        menu close
+      else: |-
+        msg "&c你当前没有宠物!"
+        sleep 0.1s
+        menu close
+    onCancel: |
+      msg "&c你已取消当前操作"
+    onRepeat: |
+      tell "?"
+
+#补偿
+buchang: &buchang
+  ia: cw_made_items_cw_made_items_off_hand3_7
+  name: "&a你错过的补签卡"
+  lore: |-
+    &7你现在应该可以领取 &f%math_0_{playercurrency_level}*2%&7张 补签卡
+    &r &7>&a点击解锁&7<
+    &r
+  action: command "lp user %player_name% permission set bc.8_29 true" as console
+    command "signin retroactivecard give %math_0_{playercurrency_level}*2% %player_name%" as console
+    msg "&f:fuhao3:&r &7你被给予了神秘道具...."
+    sound ENTITY_PLAYER_LEVELUP by 1 1
+    menu close
+  sub:
+    - rule: perm "bc.8_29"
+      material: air
+      name: ""
+      lore: ""
+      action: ""
+
+#空
+nu: &nu
+  ia: cw_made_items_cw_made_items_ui_1
+  name: "&{#ff0000}&l敬&{#de0239}&l请&{#bc0572}&l期&{#9b07ab}&l待"
+  lore: |-
+    &f
+    &f&7这个功能可能还没有上线~再等等吧
+    &f
+    &f&m%img_left_click% &7&m点击打开
+    &f
+########################################
+panels:
+  #- layout: |-
+  #########
+  #  items:
+  #    '#': { material: gray stained glass pane }
+  - scale: [9, 6]
+    pages:
+      # 0常规
+      - layout: |-
+          ?####B##F
+          Hh#1#4#7#
+          hh#2#5#8#
+          ###3#6#9#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          B:
+            <<: *buchang
+          "?":
+            ia: quest21
+            name: "过时的菜单"
+            lore: |-
+              &f
+              &f你还想要使用那个&a眼&b花&c缭&d乱&f的菜单?
+              &f当然!这是被允许的
+              &f是在新菜单完善之前
+              &f
+              &f%img_left_click% &7点击打开
+              &f
+            action: menu open menu1
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *rank
+          "2":
+            <<: *sign
+          "3":
+            <<: *plk
+          "4":
+            <<: *plg
+          "5":
+            <<: *warp
+          "6":
+            <<: *time
+          "7":
+            <<: *party
+          "8":
+            <<: *rpg
+          "9":
+            <<: *pet
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            ia: inventory
+            name: "&a主页面"
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *close
+      # 1设置
+      - layout: |-
+          ########F
+          Hh#12345#
+          hh#6789a#
+          ###bcdef#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *plt
+          "2":
+            <<: *name
+          "3":
+            <<: *coi
+          "4":
+            <<: *res
+          "5":
+            <<: *en
+          "6":
+            <<: *unen
+          "7":
+            <<: *nu
+          "8":
+            <<: *nu
+          "9":
+            <<: *nu
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu
+          "L1":
+            <<: *check
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *p1
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *p0
+      # 2功能
+      - layout: |-
+          ########F
+          Hh#12345#
+          hh#6789a#
+          ###bcdef#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *gn_1
+          "2":
+            <<: *gn_2
+          "3":
+            <<: *gn_3
+          "4":
+            <<: *gn_4
+          "5":
+            <<: *gn_5
+          "6":
+            <<: *gn_6
+          "7":
+            <<: *gn_7
+          "8":
+            <<: *gn_8
+          "9":
+            <<: *gn_9
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *check
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *p2
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *p0
+      #3商店
+      - layout: |-
+          ########F
+          Hh#1#4#7#
+          hh#2#5#8#
+          ###3#6#9#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *shop1
+          "2":
+            <<: *shop2
+          "3":
+            <<: *shop3
+          "4":
+            <<: *shop4
+          "5":
+            <<: *shop5
+          "6":
+            <<: *shop6
+          "7":
+            <<: *shop7
+          "8":
+            <<: *shop8
+          "9":
+            <<: *shop9
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *check
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *p3
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *p0
+      #4rank
+      - layout: |-
+          ########F
+          Hh#1#4#7#
+          hh#2#5#8#
+          ###3#6#9#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *rank_up
+          "2":
+            <<: *level_up
+          "3":
+            <<: *mcmmo
+          "4":
+            <<: *nu
+          "5":
+            <<: *nu
+          "6":
+            <<: *nu
+          "7":
+            <<: *nu
+          "8":
+            <<: *nu
+          "9":
+            <<: *nu
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *rank
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *p0
+      # 5传送
+      - layout: |-
+          ########F
+          Hh#1#4#7#
+          hh#2#5#8#
+          ###3#6#9#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *tp_spawn
+          "2":
+            <<: *tp_sc1
+          "3":
+            <<: *tp_zy
+          "4":
+            <<: *tp_p2
+          "5":
+            <<: *tp_rtp
+          "6":
+            <<: *tp_plw
+          "7":
+            <<: *tp_rtp1
+          "8":
+            <<: *tp_rtp2
+          "9":
+            <<: *tp_rtp3
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *warp
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *p0
+      # 6服务器活动
+      - layout: |-
+          ########F
+          Hh#1#4#7#
+          hh#2#5#8#
+          ###3#6#9#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *nu
+          "2":
+            <<: *nu
+          "3":
+            <<: *nu
+          "4":
+            <<: *nu
+          "5":
+            <<: *nu
+          "6":
+            <<: *nu
+          "7":
+            <<: *nu
+          "8":
+            <<: *nu
+          "9":
+            <<: *nu
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *party
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *p0
+      # 7宠物
+      - layout: |-
+          ########F
+          Hh#12345#
+          hh#6789a#
+          ###bcdef#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *pet1
+          "2":
+            <<: *pet2
+          "3":
+            <<: *pet3
+          "4":
+            <<: *pet4
+          "5":
+            <<: *pet5
+          "6":
+            <<: *pet6
+          "7":
+            <<: *pet7
+          "8":
+            <<: *pet8
+          "9":
+            <<: *pet9
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *pet
+            lore: |-
+              &r
+              &r&7使用 &f拴绳 &7来击杀非boos级生物 即可抓捕
+              &r&7查看全部指令请输入/mypet
+              &r
+              &f%img_left_click% &7点击查询信息
+              &r
+            action:
+              all: #权限判定
+                - check papi "%mypet_has_pet%" == "yes"
+              then: |- #满足执行
+                menu close
+                command "petinfo" as player
+              else: |- #不满足执行
+                menu close
+                msg "&c你当前没有宠物!"
+          "F":
+            <<: *p0
+      #8.周卡
+      - layout: |-
+          ########F
+          Hh#12345#
+          hh#6789a#
+          ###bcdef#
+          #########
+          `L1``L2``L3`#X#`R1``R2``R3`
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "1":
+            <<: *zk1
+          "2":
+            <<: *zk2
+          "3":
+            <<: *nu
+          "4":
+            <<: *nu
+          "5":
+            <<: *nu
+          "6":
+            <<: *nu
+          "7":
+            <<: *nu
+          "8":
+            <<: *nu
+          "9":
+            <<: *nu
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu
+          "L1":
+            <<: *p1
+          "L2":
+            <<: *p2
+          "L3":
+            <<: *p3
+          "R1":
+            <<: *ablili
+          "R2":
+            <<: *recise
+          "R3":
+            <<: *dis
+          "X":
+            <<: *shop7
+            lore: |-
+              &7当前页面
+            action:
+          "F":
+            <<: *p0

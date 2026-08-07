@@ -1,0 +1,28 @@
+testSS:
+  material: NETHERITE_SWORD
+  nbt:
+    NeigeItems:
+      data: "{}"
+      hashCode: (Int) -578789684
+      id: testS
+    attribute_tag:
+      物理伤害: "100"
+      生命力: 10(%)
+  mini-lore: []
+  components:
+    minecraft:attribute_modifiers:
+      modifiers:
+        - amount: (Double) 1.0
+          id: minecraft:12972045-e462-470f-8438-79916d677725
+          type: minecraft:attack_speed
+          operation: add_value
+        - amount: (Double) 1.0
+          id: minecraft:2bb4bdcd-820c-4987-b576-5335956a8d91
+          type: minecraft:entity_interaction_range
+          operation: add_value
+        - amount: (Double) 1
+          id: minecraft:12972045-e462-470f-8438-79916d677725
+          type: minecraft:attack_speed
+          operation: add_value
+    minecraft:damage: (Int) 20
+    minecraft:max_damage: (Int) 10000

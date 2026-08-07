@@ -1,0 +1,134 @@
+# Name which will be displayed
+# when opening the station
+name: :offset_-36::blacksmith::offset_-36:(#page#/#max#)
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+  fill:
+    material: AIR
+  no-recipe:
+    material: STRUCTURE_VOID
+    name: '&a无'
+  no-queue-item:
+    material: STRUCTURE_VOID
+    name: '&a没有物品在队列中'
+
+# Station recipes
+recipes:
+  # ###########################分解碎片1###################################
+  r_c1_1:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp1
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=RZ1}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+  r_c1_2:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp1
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=RZ2}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+  r_c1_3:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp1
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=RZ3}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+  r_c1_4:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp1
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=RZ4}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+  
+  r_c2_1:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp2
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=LJ1}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+  r_c2_2:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp2
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=LJ2}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+  r_c2_3:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp2
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=LJ3}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+  r_c2_4:
+    output:
+      type: MISCELLANEOUS
+      id: armor_sp2
+      amount: 1
+    crafting-time: 1
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=ARMOR,id=LJ4}
+    - vanilla{type=anvil, amount=1, display="铁砧"}
+#  r_c3:
+#    output:
+#      type: MISCELLANEOUS
+#      id: armor_sp3
+#      amount: 1
+#    crafting-time: 1
+#    conditions:
+#      - "level{level=10}"
+#    ingredients:
+#      - mmoitem{type=ARMOR,id=RZ1}
+#      - vanilla{type=anvil, amount=1, display="铁砧"}

@@ -1,0 +1,326 @@
+info:
+  namespace: lzfurniture
+items:
+  plants_big_bonsai:
+    display_name: plants big bonsai
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_bonsai
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                   
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+
+  plants_big_bowhemp:
+    display_name: plants big bowhemp
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_bowhemp
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_big_cactus:
+    display_name: plants big cactus
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_cactus
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+       
+  plants_big_ficustree:
+    display_name: plants big ficustree
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_ficustree
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_big_fiddleleaffig:
+    display_name: plants big fiddleleaffig
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_fiddleleaffig
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_big_fir:
+    display_name: plants big fir
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_fir
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_big_monstera:
+    display_name: plants big monstera
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_monstera
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_big_sagopalm:
+    display_name: plants big sagopalm
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_big_sagopalm
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_bigbox_tulips:
+    display_name: plants bigbox tulips
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_bigbox_tulips
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_bigbox_violets:
+    display_name: pplants bigbox violets
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_bigbox_violets
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_box_tulips:
+    display_name: plants box tulips
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_box_tulips
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_box_violets:
+    display_name: plants box violets
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_box_violets
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_hanging_daisy:
+    display_name: plants hanging daisy
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_hanging_daisy
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_hanging_pothos:
+    display_name: plants hanging pothos
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_hanging_pothos
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_small_aralia:
+    display_name: plants small aralia
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_small_aralia
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        
+  plants_small_fir:
+    display_name: plants small fir
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_small_fir
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+  plants_small_tulip:
+    display_name: plants small tulip
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_small_tulip
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false        
+           
+  plants_small_violet:
+    display_name: plants small tulip
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_small_violet
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        small: false
+        solid: true                  
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false     
+          
+  plants_vines_flowering:
+    display_name: plants vines flowering
+    permission: plants
+    resource:
+      material: PAPER
+      generate: false
+      model_path: furniture/plants/plants_vines_flowering
+    behaviours:
+      furniture:
+        fixed_rotation: true         
+        solid: false
+        small: false
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+             
+

@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  silver:
+    type: armor
+    layer_1: armor/silver/layer_1
+    layer_2: armor/silver/layer_2
+items:
+  silver_boots:
+    name: silver_boots
+    resource:
+      generate: true
+      texture: items/silver/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:silver
+  silver_chestplate:
+    name: silver_chestplate
+    resource:
+      generate: true
+      texture: items/silver/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:silver
+  silver_helmet:
+    name: silver_helmet
+    resource:
+      generate: true
+      texture: items/silver/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:silver
+  silver_leggings:
+    name: silver_leggings
+    resource:
+      generate: true
+      texture: items/silver/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:silver

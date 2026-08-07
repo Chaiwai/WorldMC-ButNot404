@@ -1,0 +1,24 @@
+info:
+  namespace: cosmetic
+font_images:
+  cmenu:
+    path: "custom/menu/menu.png"
+    suggest_in_command: false
+    y_position: 45
+  cmenu2:
+    permission: "menu2.admin"
+    suggest_in_command: false
+    path: "custom/menu/menu2.png"
+    y_position: 59
+  trade:
+    permission: "trade.menu"
+    suggest_in_command: false
+    path: "custom/menu/trade.png"
+    y_position: 98
+  screen:
+    permission: "menu2.admin"
+    suggest_in_command: false
+    path: "custom/menu/screen.png"
+    y_position: 70
+    scale_ratio: 1500
+    symbol: "聺"

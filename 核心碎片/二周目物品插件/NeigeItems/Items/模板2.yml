@@ -1,0 +1,19 @@
+模板2:
+  material: NETHERITE_LEGGINGS
+  nbt:
+    itemsadder:
+      namespace: cw_armor
+      id: jade_leggings
+  mini-name: <!italic><white>jade_leggings
+  mini-lore: []
+  components:
+    minecraft:custom_model_data:
+      floats:
+      - (Float) 10005.0
+    minecraft:equippable:
+      slot: legs
+      asset_id: cw_armor:jade
+    minecraft:item_name: '{"color":"white","italic":false,"text":"jade_leggings"}'
+    minecraft:trim:
+      material: minecraft:amethyst
+      pattern: minecraft:tide

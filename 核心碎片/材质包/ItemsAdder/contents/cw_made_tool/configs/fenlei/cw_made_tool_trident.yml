@@ -1,0 +1,31 @@
+# 自动生成的分类配置文件
+# 生成工具: create_items.py
+
+info:
+  namespace: cw_made_tool
+categories:
+  trident:
+    enabled: true
+    icon: cw_made_tool:adamantite_glaive
+    name: trident
+    items:
+    - cw_made_tool:adamantite_glaive
+    - cw_made_tool:bone_javelin
+    - cw_made_tool:cobalt_naginata
+    - cw_made_tool:dark_lance
+    - cw_made_tool:daybreak
+    - cw_made_tool:ghastly_glaive
+    - cw_made_tool:gungnir
+    - cw_made_tool:inferno_fork
+    - cw_made_tool:javelin
+    - cw_made_tool:mushroom_spear
+    - cw_made_tool:mythril_halberd
+    - cw_made_tool:north_pole
+    - cw_made_tool:orichalcum_halberd
+    - cw_made_tool:palladium_pike
+    - cw_made_tool:scourge_of_the_corruptor
+    - cw_made_tool:spear
+    - cw_made_tool:the_rotted_fork
+    - cw_made_tool:titanium_trident
+    - cw_made_tool:tonbogiri
+    - cw_made_tool:trident1

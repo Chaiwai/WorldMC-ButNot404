@@ -1,0 +1,91 @@
+饰品_tem:
+  material: WARPED_FUNGUS_ON_A_STICK
+  name: "&r&f<物品名称>"
+  lore:
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  <物品简介>"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  冷却: <冷却> &7S"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  技能简介"
+    - "&r&f"
+    - "&r&f  槽位: <装备槽位>"
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) <物品贴图>
+    minecraft:item_model: minecraft:paper
+  sections:
+    #基础
+    物品名称: "饰品_测试"
+    物品贴图: 10260
+    物品材质: "netherite_sword"
+    物品简介: "速度I"
+    装备槽位: "&e饰品"
+    冷却: "/"
+
+饰品_速度1:
+  inherit: 饰品_tem
+  sections:
+    #基础
+    物品名称: "饰品_测试1"
+    物品贴图: 10260
+    物品材质: "netherite_sword"
+    物品简介: "速度I"
+    装备槽位: "&e饰品"
+    冷却: "/"
+
+饰品_跳跃1:
+  inherit: 饰品_tem
+  sections:
+    #基础
+    物品名称: "饰品_测试2"
+    物品贴图: 10261
+    物品材质: "netherite_sword"
+    物品简介: "跳跃提升1"
+    装备槽位: "&e饰品"
+    冷却: "/"
+
+饰品_急迫1:
+  inherit: 饰品_tem
+  sections:
+    #基础
+    物品名称: "饰品_测试3"
+    物品贴图: 10262
+    物品材质: "netherite_sword"
+    物品简介: "急迫1"
+    装备槽位: "&e饰品"
+    冷却: "/"
+
+饰品_太阳石:
+  inherit: 饰品_tem
+  sections:
+    #基础
+    物品名称: "太阳石"
+    物品贴图: 10277
+    物品简介: "白天时伤害提升"
+    装备槽位: "&e饰品"
+    冷却: "/"
+
+饰品_月亮石:
+  inherit: 饰品_tem
+  sections:
+    #基础
+    物品名称: "月亮石"
+    物品贴图: 10278
+    物品简介: "夜晚时伤害提升"
+    装备槽位: "&e饰品"
+    冷却: "/"
+
+饰品_天界石:
+  inherit: 饰品_tem
+  sections:
+    #基础
+    物品名称: "天界石"
+    物品贴图: 10279
+    物品简介: "伤害提升"
+    装备槽位: "&e饰品"
+    冷却: "/"

@@ -1,0 +1,503 @@
+title: "&0&l护甲的意义"
+
+events:
+  post_open:
+    # - command "ply set %player_name% page 38 开启菜单" as console
+    - context set player@menu_page to papi "%playercurrency_page%"
+    - icon by "护甲槽" update
+    - icon by "模板槽" update
+    - icon by "宝石槽" update
+    - sound entity.villager.ambient by 100 2
+  close: sound entity.villager.yes by 100 2
+#<锚点
+click_tem: &click_tem
+  name: "&6选择这个&d?"
+  lore: |-
+    &f
+    &f%img_left_click% 点击选择
+    &f
+
+护甲槽: &护甲槽
+  name: "护甲槽, %playercurrency_page%   aaa%checkitem_getinfo:{math_0_36+{{context get player@menu_page}}}_mat:%"
+  material: "%checkitem_getinfo:{{context get player@menu_page}}_mat:%"
+  customModelData: "%checkitem_getinfo:{{context get player@menu_page}}_custommodeldata:%"
+  action:
+    - icon by "护甲槽" update
+    - icon by "模板槽" update
+    - icon by "宝石槽" update
+#锚点>
+panels:
+  - scale: [9, 6]
+    pages:
+      # 常规
+      - layout: |-
+          |      |
+          |`模板槽`    `头盔_模板``头盔``头盔_镶嵌`
+          |  `护甲槽`  `胸甲_模板``胸甲``胸甲_镶嵌`
+          |`宝石槽`    `裤腿_模板``裤腿``裤腿_镶嵌`
+          |     `靴子_模板``靴子``靴子_镶嵌`
+          |      |
+
+        items:
+          "头盔":
+            name: "当前装备"
+            material: "%checkitem_getinfo:39_mat:%"
+            customModelData: "%checkitem_getinfo:39_custommodeldata:%"
+            sub:
+              - rule: check papi "%ni_data_get_39_id%" != "护甲"
+                material: barrier
+            action:
+              - command "ply set %player_name% page 39" as console
+              - context set player@menu_page to 39
+              - icon by "护甲槽" update
+              - icon by "模板槽" update
+              - icon by "宝石槽" update
+          "胸甲":
+            name: "当前装备"
+            material: "%checkitem_getinfo:38_mat:%"
+            customModelData: "%checkitem_getinfo:38_custommodeldata:%"
+            sub:
+              - rule: check papi "%ni_data_get_38_id%" != "护甲"
+                material: barrier
+            action:
+              - command "ply set %player_name% page 38" as console
+              - context set player@menu_page to 38
+              - icon by "护甲槽" update
+              - icon by "模板槽" update
+              - icon by "宝石槽" update
+          "裤腿":
+            name: "当前装备"
+            material: "%checkitem_getinfo:37_mat:%"
+            customModelData: "%checkitem_getinfo:37_custommodeldata:%"
+            sub:
+              - rule: check papi "%ni_data_get_37_id%" != "护甲"
+                material: barrier
+            action:
+              - command "ply set %player_name% page 37" as console
+              - context set player@menu_page to 37
+              - icon by "护甲槽" update
+              - icon by "模板槽" update
+              - icon by "宝石槽" update
+          "靴子":
+            name: "当前装备"
+            material: "%checkitem_getinfo:36_mat:%"
+            customModelData: "%checkitem_getinfo:36_custommodeldata:%"
+            lore:
+              - "%ni_data_get_36_id%"
+            sub:
+              - rule: check papi "%ni_data_get_36_id%" != "护甲"
+                material: barrier
+            action:
+              - command "ply set %player_name% page 36" as console
+              - context set player@menu_page to 36
+              - icon by "护甲槽" update
+              - icon by "模板槽" update
+              - icon by "宝石槽" update
+
+          "头盔_模板":
+            name: "当前模板"
+            material: "%ni_data_get_39_盔甲纹饰.模板%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_39_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+          "胸甲_模板":
+            name: "当前模板"
+            material: "%ni_data_get_38_盔甲纹饰.模板%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_38_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+          "裤腿_模板":
+            name: "当前模板"
+            material: "%ni_data_get_37_盔甲纹饰.模板%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_37_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+          "靴子_模板":
+            name: "当前模板"
+            material: "%ni_data_get_36_盔甲纹饰.模板%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_36_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+
+          "头盔_镶嵌":
+            name: "当前镶嵌"
+            material: "%ni_data_get_39_盔甲纹饰.镶嵌%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_39_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+          "胸甲_镶嵌":
+            name: "当前镶嵌"
+            material: "%ni_data_get_38_盔甲纹饰.镶嵌%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_38_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+          "裤腿_镶嵌":
+            name: "当前镶嵌"
+            material: "%ni_data_get_37_盔甲纹饰.镶嵌%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_37_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+          "靴子_镶嵌":
+            name: "当前镶嵌"
+            material: "%ni_data_get_36_盔甲纹饰.镶嵌%"
+            lore: |-
+              &r&F
+              &r&F&d>>  &e当前镶嵌  &d<<
+              &r&F
+            sub:
+              - rule: check papi "%ni_data_get_36_id%" != "护甲"
+                ia: cancel
+                lore: |-
+                  &r&f
+                  &r&f&c这里还什么都没有....
+                  &r&f
+          "护甲槽":
+            <<: *护甲槽
+          "模板槽":
+            name: "护甲槽"
+            material: "%ni_data_get_{{context get player@menu_page}}_盔甲纹饰.模板%"
+            action:
+              catch: input_text
+              cancel: ["cancel"]
+              beforeInput: |
+                tell "&a把需要修改的纹饰拿在手上后, 输入任何字符"
+                tell "&7输入 &f'cancel' &c来取消操作(不返还金币)"
+                command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.模板":"%checkitem_getinfo:mainhand_mat:%"}' as op
+              afterInput:
+                sleep 0.1s
+                tell "%playercurrency_page%"
+                tell """ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.模板":"%checkitem_getinfo:mainhand_mat:%"}"""
+                icon by "护甲槽" update
+                icon by "模板槽" update
+                icon by "宝石槽" update
+                # menu close
+              onCancel: |
+                title "&c你已取消当前操作" subtitle pass
+              onRepeat: |
+                tell "?"
+          "宝石槽":
+            name: "宝石槽"
+            material: "%ni_data_get_{{context get player@menu_page}}_盔甲纹饰.镶嵌%"
+            action: page set to 1
+      # 常规
+      - layout: |-
+          `a11``a12``a13``a14``a15``a16``a17``a18``a19`
+          `a21``a22``a23``a24``a25``a26``a27``a28``a29`
+          `a31``a32``a33``a34``a35``a36``a37``a38``a39`
+          `a41``a42``a43``a44``a45``a46``a47``a48``a49`
+          |  `back``护甲槽`   |
+          `a61``a62``a63``a64``a65``a66``a67``a68``a69`
+
+        items:
+          back:
+            ia: icon_back_orange
+            name: "返回"
+            lore: |-
+              &f
+              &f%img_left_click% 点击返回上一界面
+              &f
+            action: page set to 0
+          "a11":
+            <<: *click_tem
+            material: "COPPER_INGOT"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"COPPER_INGOT"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a12":
+            <<: *click_tem
+            material: "IRON_INGOT"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"IRON_INGOT"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a13":
+            <<: *click_tem
+            material: "LAPIS_LAZULI"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"LAPIS_LAZULI"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a14":
+            <<: *click_tem
+            material: "QUARTZ"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"QUARTZ"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a15":
+            <<: *click_tem
+            material: "AMETHYST_SHARD"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"AMETHYST_SHARD"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a16":
+            <<: *click_tem
+            material: "GOLD_INGOT"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"GOLD_INGOT"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a17":
+            <<: *click_tem
+            material: "DIAMOND"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"DIAMOND"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a18":
+            <<: *click_tem
+            material: "EMERALD"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"EMERALD"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "a19":
+            <<: *click_tem
+            material: "NETHERITE_INGOT"
+            action: |-
+              command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"NETHERITE_INGOT"}' as op
+              sound entity.player.levelup by 1 2
+              menu open cw_护甲升级1
+
+          "护甲槽":
+            <<: *护甲槽
+            name: "你当前选择的护甲"
+            lore: |-
+              &f
+              &f  你或许可以选择&e上方的材料&f进行镶嵌?
+              &f
+      - layout: |-
+                `a11``a12``a13``a14``a15``a16``a17``a18``a19`
+                `a21``a22``a23``a24``a25``a26``a27``a28``a29`
+                `a31``a32``a33``a34``a35``a36``a37``a38``a39`
+                `a41``a42``a43``a44``a45``a46``a47``a48``a49`
+                |  `back``护甲槽`   |
+                `a61``a62``a63``a64``a65``a66``a67``a68``a69`
+
+              items:
+                back:
+                  ia: icon_back_orange
+                  name: "返回"
+                  lore: |-
+                    &f
+                    &f%img_left_click% 点击返回上一界面
+                    &f
+                  action: page set to 0
+                "a11":
+                  <<: *click_tem
+                  material: "COAST_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"COAST_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a12":
+                  <<: *click_tem
+                  material: "DUNE_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"DUNE_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a13":
+                  <<: *click_tem
+                  material: "EYE_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"EYE_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a14":
+                  <<: *click_tem
+                  material: "HOST_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"HOST_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a15":
+                  <<: *click_tem
+                  material: "RAISER_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"RAISER_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a16":
+                  <<: *click_tem
+                  material: "RIB_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"RIB_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a17":
+                  <<: *click_tem
+                  material: "SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a18":
+                  <<: *click_tem
+                  material: "SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a19":
+                  <<: *click_tem
+                  material: "SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a21":
+                  <<: *click_tem
+                  material: "SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a22":
+                  <<: *click_tem
+                  material: "SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a23":
+                  <<: *click_tem
+                  material: "TIDE_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"TIDE_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a24":
+                  <<: *click_tem
+                  material: "VEX_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"VEX_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a25":
+                  <<: *click_tem
+                  material: "WARD_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"WARD_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a26":
+                  <<: *click_tem
+                  material: "WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a27":
+                  <<: *click_tem
+                  material: "WILD_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"WILD_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a28":
+                  <<: *click_tem
+                  material: "BOLT_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"BOLT_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "a29":
+                  <<: *click_tem
+                  material: "FLOW_ARMOR_TRIM_SMITHING_TEMPLATE"
+                  action: |-
+                    command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"FLOW_ARMOR_TRIM_SMITHING_TEMPLATE"}' as op
+                    sound entity.player.levelup by 1 2
+                    menu open cw_护甲升级1
+
+                "护甲槽":
+                  <<: *护甲槽
+                  name: "你当前选择的护甲"
+                  lore: |-
+                    &f
+                    &f  你或许可以选择&e上方的材料&f进行镶嵌?
+                    &f
+        # %ni_data_get_{math_0_36+{{context get player@menu_page}}}_盔甲纹饰.模板%

@@ -1,0 +1,27 @@
+basic:
+  id: replenish
+  name: 催生
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 在采集农作物时自动补种
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- hoes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    disable-on-sneak: true
+    blacklist: GLOW_BERRIES,BERRIES

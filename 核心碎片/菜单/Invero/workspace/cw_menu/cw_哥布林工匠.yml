@@ -1,0 +1,91 @@
+title: "&2&l补签的意义"
+
+events:
+  post_open: sound entity.villager.ambient by 100 2
+  # close: sound entity.villager.yes by 100 2
+
+layout: |-
+  |`N1``N2``N3``N4``N5``N6``N7`|
+  |   W  Q|
+  |       |
+
+items:
+  "N1":
+    texture:
+      source: ni
+      value: cw_p0_1 {"cw_s.锻造品质":"无"}
+  "N2":
+    texture:
+      source: ni
+      value: cw_p0_1 {"cw_s.锻造品质":"无"}
+    action: |-
+      tell "111111"
+      command "say 1" as op
+      sound block.anvil.use by 1 1
+  "N3":
+    texture:
+      source: ni
+      value: cw_s0_1 {"cw_s.锻造品质":"无"}
+  "N4":
+    texture:
+      source: ni
+      value: cw_tr_01 {"cw_s.锻造品质":"无"}
+  "N5":
+    texture:
+      source: ni
+      value: cw_p_110_end {"cw_s.锻造品质":"无"}
+  "N6":
+    texture:
+      source: ni
+      value: cw_p0_1 {"cw_s.锻造品质":"无"}
+  "N7":
+    texture:
+      source: ni
+      value: cw_p0_1 {"cw_s.锻造品质":"无"}
+  "W":
+    ia: soul3
+    name: "&a请把道具放在手上"
+    lore: |-
+      &r
+      &r &7>&a点击重铸&7<
+      &r
+    action: |-
+      command "ni editHand me refresh cw_s.锻造品质" as op
+      command "ni editHand me refresh 额外_攻击伤害" as op
+      command "ni editHand me refresh 额外_暴击几率" as op
+      command "ni editHand me refresh 额外_暴击增伤" as op
+      command "ni editHand me refresh 额外_横扫增伤" as op
+      command "ni editHand me refresh 额外_攻击伤害" as op
+      command "ni editHand me refresh 额外_攻击速度" as op
+      command "ni editHand me refresh 额外_攻击距离" as op
+      command "ni editHand me refresh 锻造显示" as op
+      command "papi parse me &e%ni_data_get_hand_cw_s.锻造品质%&b %ni_data_get_hand_物品名称%" as op
+      command 'ni editHand me rebuild {"锻造属性":"%ni_data_get_hand_锻造属性%"}' as op
+      command 'ni editHand me rebuild {"物品名称":"%ni_data_get_hand_物品名称%"}' as op
+      command 'ni editHand me rebuild {"基础属性.伤害":"%ni_data_get_hand_基础属性.伤害%"}' as op
+      sound block.anvil.use by 1 1
+      sleep 0.2s
+      command 'stopsound %player_name%' as console
+
+  "Q":
+    ia: soul3
+    name: "&a请把道具放在手上"
+    lore: |-
+      &r
+      &r &7>&a自选重铸&7<
+      &r
+    action: |-
+      command "ni editHand me rebuild {"cw_s.锻造品质":"无"}" as op
+      command "ni editHand me refresh 额外_攻击伤害" as op
+      command "ni editHand me refresh 额外_暴击几率" as op
+      command "ni editHand me refresh 额外_暴击增伤" as op
+      command "ni editHand me refresh 额外_横扫增伤" as op
+      command "ni editHand me refresh 额外_攻击伤害" as op
+      command "ni editHand me refresh 额外_攻击速度" as op
+      command "ni editHand me refresh 额外_攻击距离" as op
+      command "ni editHand me refresh 锻造显示" as op
+      command "papi parse me &e%ni_data_get_hand_cw_s.锻造品质%&b %ni_data_get_hand_物品名称%" as op
+      command 'ni editHand me rebuild {"锻造属性":"%ni_data_get_hand_锻造属性%"}' as op
+      sound block.anvil.use by 1 1
+      sleep 0.2s
+      command 'stopsound %player_name%' as console

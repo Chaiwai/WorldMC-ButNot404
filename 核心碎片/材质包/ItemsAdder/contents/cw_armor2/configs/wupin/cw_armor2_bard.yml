@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor2
+equipments:
+  bard:
+    type: armor
+    layer_1: armor/bard/layer_1
+    layer_2: armor/bard/layer_2
+items:
+  bard_boots:
+    name: bard_boots
+    resource:
+      generate: true
+      texture: items/bard/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor2:bard
+  bard_chestplate:
+    name: bard_chestplate
+    resource:
+      generate: true
+      texture: items/bard/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor2:bard
+  bard_helmet:
+    name: bard_helmet
+    resource:
+      generate: true
+      texture: items/bard/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor2:bard
+  bard_leggings:
+    name: bard_leggings
+    resource:
+      generate: true
+      texture: items/bard/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor2:bard

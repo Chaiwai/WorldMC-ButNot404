@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/amethyst_shard"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"ore:ia_auto_gen/my_ingot"},{"predicate":{"custom_model_data":10001},"model":"ore:enderite_ingot"},{"predicate":{"custom_model_data":10002},"model":"item/amethyst_shard"}]}

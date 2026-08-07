@@ -1,0 +1,24 @@
+饰品_天界石:
+  actions:
+    - "set-potion-effect: Strength 1 1"
+饰品_太阳石:
+  condition: |-
+    (function() {
+      var worldTime = player.getWorld().getTime();
+      if (worldTime >= 0 && worldTime <= 12000) {
+        return true;
+      }
+      return false;
+    })()
+  actions: "func: 饰品_天界石"
+
+饰品_月亮石:
+  condition: |-
+    (function() {
+      var worldTime = player.getWorld().getTime();
+      if (worldTime >= 12000 && worldTime <= 24000) {
+        return true;
+      }
+      return false;
+    })()
+  actions: "func: 饰品_天界石"

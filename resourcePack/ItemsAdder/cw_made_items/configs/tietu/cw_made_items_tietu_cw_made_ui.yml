@@ -1,0 +1,30 @@
+#**ItemsAdder-configs-贴图**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+font_images: #[贴图]**
+  cw_ui1: #[贴图的内部名]**
+    show_in_gui: false #[是否在/ia中显示该贴图]**
+    suggest_in_command: false
+    path: "img/menu/cw_menu1.png" #[贴图的路径]**
+    y_position: 15 #[贴图的上下偏移]**
+  cw_ui2:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "img/menu/cw_menu2.png"
+    y_position: 15
+  cw_ui3:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "img/menu/cw_menu3.png"
+    y_position: 15
+  cw_ui4:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "img/menu/cw_menu4.png"
+    y_position: 15
+  cw_ui5:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "img/menu/cw_menu5.png"
+    y_position: 15

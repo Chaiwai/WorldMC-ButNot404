@@ -1,0 +1,11 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_made_tool
+categories:
+  diamond_pickaxe:
+    enabled: true
+    icon: cw_made_tool:enderite0_pickaxe
+    name: no_model_diamond_pickaxe
+    items:
+    - cw_made_tool:enderite0_pickaxe
+    - cw_made_tool:enderite_pickaxe

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fences/misc/fence_side",
+  "textures": {
+    "texture": "minecraft:block/oak_fence"
+  }
+}

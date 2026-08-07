@@ -1,0 +1,3091 @@
+# 基础_伤害1:
+#   base:
+#     name: "&b基础 &7[&c伤害宝石&7]"
+#     material: EMERALD
+#     gem-color: "&b基础"
+#     gem-upgrade-scaling: SUBSEQUENT
+#     success-rate:
+#       base: 80
+#       scale: -1
+#       spread: .25
+#       max-spread: .25
+#     item-type-restriction:
+#       - SWORD
+#     attack-damage:
+#       base: 3.6
+#       scale: 1
+#       spread: .3
+#       max-spread: .5
+#     custom-model-data: 10015.0
+
+基础_伤害2:
+  base:
+    name: "&b基础 &7[&c伤害宝石&7]"
+    material: EMERALD
+    gem-color: "&b基础"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate:
+      base: 80
+      scale: -1
+      spread: 0.25
+      max-spread: 0.25
+    item-type-restriction:
+      - SWORD
+    attack-damage:
+      base: 2
+      scale: 1
+      spread: 0.3
+      max-spread: 0.5
+    custom-model-data: 10015.0
+    displayed-type: |
+      &f
+      &f &f &f2&e±&a50%
+      &f
+# 基础_物理1:
+#   base:
+#     name: "&b基础 &7[&c物理宝石&7]"
+#     material: EMERALD
+#     gem-color: "&b基础"
+#     gem-upgrade-scaling: SUBSEQUENT
+#     success-rate:
+#       base: 80
+#       scale: -1
+#       spread: .25
+#       max-spread: .25
+#     item-type-restriction:
+#       - SWORD
+#     physical-damage:
+#       base: 20
+#       scale: 1
+#       spread: .3
+#       max-spread: .5
+#     custom-model-data: 10016.0
+
+基础_物理2:
+  base:
+    name: "&b基础 &7[&c物理宝石&7]"
+    material: EMERALD
+    gem-color: "&b基础"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate:
+      base: 80
+      scale: -1
+      spread: 0.25
+      max-spread: 0.25
+    item-type-restriction:
+      - SWORD
+    physical-damage:
+      base: 25
+      scale: 1
+      spread: 0.3
+      max-spread: 0.5
+    custom-model-data: 10016.0
+    displayed-type: |
+      &f
+      &f &f &f25&e±&a50%
+      &f
+功能_暴击1:
+  base:
+    name: "&a功能 &7[&a暴击宝石&7]"
+    material: EMERALD
+    gem-color: "&a功能"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate:
+      base: 80
+      scale: -1
+      spread: 0.25
+      max-spread: 0.25
+    item-type-restriction:
+      - SWORD
+    critical-strike-chance:
+      base: 10
+      scale: 1
+      spread: 0.3
+      max-spread: 0.5
+    custom-model-data: 10017.0
+    displayed-type: |
+      &f
+      &f &f &f10&e±&a50%
+      &f
+功能_爆伤1:
+  base:
+    name: "&a功能 &7[&d爆伤宝石&7]"
+    material: EMERALD
+    gem-color: "&a功能"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate:
+      base: 80
+      scale: -1
+      spread: 0.25
+      max-spread: 0.25
+    item-type-restriction:
+      - SWORD
+    critical-strike-power:
+      base: 20
+      scale: 1
+      spread: 0.3
+      max-spread: 0.5
+    custom-model-data: 10018.0
+    displayed-type: |
+      &f
+      &f &f &f20&e±&a50%
+      &f
+功能_移速1:
+  base:
+    name: "&a功能 &7[&b移速宝石&7]"
+    material: EMERALD
+    gem-color: "&a功能"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate:
+      base: 80
+      scale: -1
+      spread: 0.25
+      max-spread: 0.25
+    item-type-restriction:
+      - SWORD
+    movement-speed:
+      base: 0.04
+      scale: 1
+      spread: 0.3
+      max-spread: 0.5
+    custom-model-data: 10019.0
+    displayed-type: |
+      &f
+      &f &f &f4&e±&a50%
+      &f
+功能_攻速1:
+  base:
+    name: "&a功能 &7[&b攻速宝石&7]"
+    material: EMERALD
+    gem-color: "&a功能"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate:
+      base: 80
+      scale: -1
+      spread: 0.25
+      max-spread: 0.25
+    item-type-restriction:
+      - SWORD
+    attack-speed:
+      base: 0.8
+      scale: 1
+      spread: 0.3
+      max-spread: 0.5
+    custom-model-data: 10020.0
+    displayed-type: |
+      &f
+      &f &f &f0.8&e±&a50%
+      &f
+元素_火1:
+  base:
+    material: EMERALD
+    name: "&e元素 &7[&c炽热宝石&7]"
+    gem-color: "&e元素"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 10
+    item-type-restriction:
+      - SWORD
+    displayed-type:
+      \n&f &f &f &f&f&f&f&f  元素伤害&7[&c火&7]&e:&a10&f\n &f &f &f &f&f&f&f&f
+      暴击效果&e:&c持续灼烧\n
+    element:
+      fire:
+        damage: 10
+    critical-strike-chance: 0.0
+    custom-model-data: 10022.0
+元素_冰1:
+  base:
+    material: EMERALD
+    name: "&e元素 &7[&b寒霜宝石&7]"
+    gem-color: "&e元素"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 10
+    item-type-restriction:
+      - SWORD
+    displayed-type:
+      \n&f &f &f &f&f&f&f&f  元素伤害&7[&b冰&7]&e:&a10&f\n &f &f &f &f&f&f&f&f
+      暴击效果&e:&b冰冻减速\n
+    element:
+      ice:
+        damage: 10
+    critical-strike-chance: 0.0
+    custom-model-data: 10023.0
+元素_草1:
+  base:
+    material: EMERALD
+    name: "&e元素 &7[&a自然宝石&7]"
+    gem-color: "&e元素"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 10
+    item-type-restriction:
+      - SWORD
+    displayed-type:
+      \n&f &f &f &f&f&f&f&f  元素伤害&7[&a草&7]&e:&a10&f\n &f &f &f &f&f&f&f&f
+      暴击效果&e:&a击飞\n
+    element:
+      earth:
+        damage: 10
+    critical-strike-chance: 0.0
+    custom-model-data: 10024.0
+元素_风1:
+  base:
+    material: EMERALD
+    name: "&e元素 &7[&3流岚宝石&7]"
+    gem-color: "&e元素"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 10
+    item-type-restriction:
+      - SWORD
+    displayed-type:
+      \n&f &f &f &f&f&f&f&f  元素伤害&7[&3风&7]&e:&a10&f\n &f &f &f &f&f&f&f&f
+      暴击效果&e:&3击退\n
+    element:
+      wind:
+        damage: 10
+    critical-strike-chance: 0.0
+    custom-model-data: 10025.0
+元素_暗1:
+  base:
+    material: EMERALD
+    name: "&e元素 &7[&d暗影宝石&7]"
+    gem-color: "&e元素"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 10
+    item-type-restriction:
+      - SWORD
+    displayed-type:
+      \n&f &f &f &f&f&f&f&f  元素伤害&7[&d冰&7]&e:&a10&f\n &f &f &f &f&f&f&f&f
+      暴击效果&e:&b减速\n
+    element:
+      water:
+        damage: 10
+    critical-strike-chance: 0.0
+    custom-model-data: 10026.0
+元素_光1:
+  base:
+    material: EMERALD
+    name: "&e元素 &7[&6耀光宝石&7]"
+    gem-color: "&e元素"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 10
+    item-type-restriction:
+      - SWORD
+    displayed-type:
+      \n&f &f &f &f&f&f&f&f  元素伤害&7[&6光&7]&e:&a10&f\n &f &f &f &f&f&f&f&f
+      暴击效果&e:&6额外元素伤害\n
+    element:
+      thunder:
+        damage: 10
+    critical-strike-chance: 0.0
+    custom-model-data: 10027.0
+##护甲
+能力1:
+  base:
+    name: "&b能力 &7[&c旺盛&7]"
+    material: EMERALD
+    gem-color: "&b能力"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - ARMOR
+    max-health: 0.5
+    custom-model-data: 10015.0
+能力2:
+  base:
+    name: "&b能力 &7[&b装甲&7]"
+    material: EMERALD
+    gem-color: "&b能力"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - ARMOR
+    defense: 1
+    custom-model-data: 10015.0
+能力3:
+  base:
+    name: "&b能力 &7[&b时速&7]"
+    material: EMERALD
+    gem-color: "&b能力"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - ARMOR
+    movement-speed: 0.01
+    custom-model-data: 10015.0
+能力4:
+  base:
+    name: "&b能力 &7[&e暴击&7]"
+    material: EMERALD
+    gem-color: "&b能力"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - ARMOR
+    critical-strike-chance: 1.25
+    custom-model-data: 10015.0
+能力5:
+  base:
+    name: "&b能力 &7[&e暴伤&7]"
+    material: EMERALD
+    gem-color: "&b能力"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - ARMOR
+    critical-strike-power: 12.5
+    custom-model-data: 10015.0
+能力6:
+  base:
+    name: "&b能力 &7[&8格挡&7]"
+    material: EMERALD
+    gem-color: "&b能力"
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - ARMOR
+    block-power: 12.5
+    block-rating: 3
+    block-cooJSown-reduction: 12.5
+    custom-model-data: 10015.0
+# 技能#############################
+技能1_1:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&c火&e] &7[&c暴风乱舞&7]"
+    gem-color: "&b技能&e[&c火&e]"
+    ability:
+      ability1:
+        type: FIRE_STORM
+        damage: 2.5
+        cooldown: 8
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &c暴风乱舞 [cd:8s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10022.0
+
+技能1_2:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&c火&e] &7[&c烈焰射线&7]"
+    gem-color: "&b技能&e[&c火&e]"
+    ability:
+      ability1:
+        type: FIREBALL
+        damage: 10
+        cooldown: 5
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &c烈焰射线 [cd:5s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10022.0
+
+技能1_3:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&c火&e] &7[&c神秘火球&7]"
+    gem-color: "&b技能&e[&c火&e]"
+    ability:
+      ability1:
+        type: FIRE_BALL
+        damage: 0
+        cooldown: 30
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &c神秘火球 [cd:30s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10022.0
+技能2_1:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&b冰&e] &7[&b冰羽射线&7]"
+    gem-color: "&b技能&e[&b冰&e]"
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        damage: 30.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &b冰羽射线 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10023.0
+技能2_2:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&b冰&e] &7[&b雪球射线&7]"
+    gem-color: "&b技能&e[&b冰&e]"
+    ability:
+      ability1:
+        type: BLIZZARD
+        damage: 1.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &b雪球射线 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10023.0
+技能2_3:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&b冰&e] &7[&b冰冻诅咒&7]"
+    gem-color: "&b技能&e[&b冰&e]"
+    ability:
+      ability1:
+        type: FREEZING_CURSE
+        damage: 40.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+        radius: 5.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &b冰冻诅咒 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10023.0
+技能3_1:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&a草&e] &7[&a自然之力&7]"
+    gem-color: "&b技能&e[&a草&e]"
+    ability:
+      ability1:
+        type: ETERNAL_FLAME
+        damage: 20
+        cooldown: 15.0
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10024.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a自然之力 [cd:15s] 绑定按键: &f㘠
+      &f
+技能3_2:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&a草&e] &7[&a助人为乐&7]"
+    gem-color: "&b技能&e[&a草&e]"
+    ability:
+      ability1:
+        type: GREATER_HEALINGS
+        damage: 20
+        cooldown: 15.0
+        mode: RIGHT_CLICK
+        heal: 20.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10024.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a助人为乐 [cd:15s] 绑定按键: &f㘠
+      &f
+技能3_3:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&a草&e] &7[&a后撤之步&7]"
+    gem-color: "&b技能&e[&a草&e]"
+    ability:
+      ability1:
+        type: BACKSTEP
+        damage: 20
+        cooldown: 5.0
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10024.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a后撤之步 [cd:5s] 绑定按键: &f㘠
+      &f
+技能4_1:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&3风&e] &7[&3凌风之斥&7]"
+    gem-color: "&b技能&e[&3风&e]"
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 10
+        cooldown: 10.0
+        radius: 3.0
+        knockback: 5.0
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10025.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &3凌风之斥 [cd:10s] 绑定按键: &f㘠
+      &f
+技能4_2:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&3风&e] &7[&3混乱之风&7]"
+    gem-color: "&b技能&e[&3风&e]"
+    ability:
+      ability1:
+        type: CONFUSE
+        damage: 10
+        cooldown: 10.0
+        mode: RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10025.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &3混乱之风 [cd:10s] 绑定按键: &f㘠
+      &f
+技能4_3:
+  base:
+    material: EMERALD
+    name: "&b技能&e[&3风&e] &7[&3顺风而行&7]"
+    gem-color: "&b技能&e[&3风&e]"
+    ability:
+      ability1:
+        type: SWIFTNESS
+        cooldown: 15.0
+        mode: RIGHT_CLICK
+        duration: 10.0
+        amplifier: 3.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10025.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &3顺风而行 [cd:15s] 绑定按键: &f㘠
+      &f
+秘技1_1:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&c火&e] &7[&c唐石迫击&7]"
+    gem-color: "&d秘技&e[&c火&e]"
+    ability:
+      ability1:
+        type: FIRE_METEOR
+        cooldown: 30.0
+        damage: 50
+        mode: SHIFT_RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &c唐石迫击 [cd:30s] 绑定按键: &f &7+ &f㘠
+      &f
+    custom-model-data: 10022.0
+
+秘技1_2:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&c火&e] &7[&c烈焰激光&7]"
+    gem-color: "&d秘技&e[&c火&e]"
+    ability:
+      ability1:
+        type: FIREBOLT
+        damage: 10
+        cooldown: 5
+        mode: SHIFT_RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &c烈焰激光 [cd:5s] &f &7+ &f㘠
+      &f
+    custom-model-data: 10022.0
+秘技1_3:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&c火&e] &7[&c天碍震星&7]"
+    gem-color: "&d秘技&e[&c火&e]"
+    ability:
+      ability1:
+        type: METEOR
+        damage: 1
+        cooldown: 60
+        mode: SHIFT_RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &c天碍震星 [cd:60s] &f &7+ &f㘠
+      &f
+    custom-model-data: 10022.0
+秘技2_1:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&c冰&e] &7[&b冰天雪地&7]"
+    gem-color: "&d秘技&e[&b冰&e]"
+    ability:
+      ability1:
+        type: ICE_SPIKES
+        cooldown: 30.0
+        damage: 10.0
+        slow: 5.0
+        mode: SHIFT_RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10023.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &b冰天雪地 [cd:30s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技2_2:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&c冰&e] &7[&b雪人炮台&7]"
+    gem-color: "&d秘技&e[&b冰&e]"
+    ability:
+      ability1:
+        type: SNOWMAN_TURRET
+        cooldown: 20.0
+        damage: 10.0
+        mode: SHIFT_RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10023.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &b雪人炮 [cd:20s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技2_3:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&c冰&e] &7[&b冰冻光环&7]"
+    gem-color: "&d秘技&e[&b冰&e]"
+    ability:
+      ability1:
+        type: FROZEN_AURA
+        cooldown: 20.0
+        damage: 10.0
+        slow: 5.0
+        mode: SHIFT_RIGHT_CLICK
+        amplifier: 3.0
+        radius: 5.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10023.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &b冰冻光环 [cd:20s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技3_1:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&a草&e] &7[&a下蛋别食&7]"
+    gem-color: "&d秘技&e[&a草&e]"
+    ability:
+      ability1:
+        type: EXPLOSIVE_TURKEY
+        cooldown: 15
+        damage: 30.0
+        knockback: 1.5
+        mode: SHIFT_RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10024.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &a下蛋别食 [cd:15s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技3_2:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&a草&e] &7[&a死亡标记&7]"
+    gem-color: "&d秘技&e[&a草&e]"
+    ability:
+      ability1:
+        type: DEATH_MARK
+        cooldown: 30
+        damage: 20.0
+        knockback: 1.5
+        mode: SHIFT_RIGHT_CLICK
+        amplifier: 5.0
+        duration: 10.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10024.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &a死亡标记 [cd:30s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技3_3:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&a草&e] &7[&a大治疗术&7]"
+    gem-color: "&d秘技&e[&a草&e]"
+    ability:
+      ability1:
+        type: GRAND_HEAL
+        cooldown: 20.0
+        damage: 30.0
+        knockback: 1.5
+        mode: SHIFT_RIGHT_CLICK
+        heal: 10.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10024.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &a大治疗术 [cd:15s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技4_1:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&3风&e] &7[&3凌风之缚&7]"
+    gem-color: "&d秘技&e[&3风&e]"
+    ability:
+      ability1:
+        type: BLACK_HOLE
+        cooldown: 30.0
+        radius: 5
+        duration: 2
+        mode: SHIFT_RIGHT_CLICK
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10025.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &3凌风之缚 [cd:30s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技4_2:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&3风&e] &7[&3闪电光束&7]"
+    gem-color: "&d秘技&e[&3风&e]"
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        cooldown: 20.0
+        mode: SHIFT_RIGHT_CLICK
+        damage: 20.0
+        radius: 7.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10025.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &3闪电光束 [cd:20s] 绑定按键: &f &7+ &f㘠
+      &f
+秘技4_3:
+  base:
+    material: EMERALD
+    name: "&d秘技&e[&3风&e] &7[&3附雷之刃&7]"
+    gem-color: "&d秘技&e[&3风&e]"
+    ability:
+      ability1:
+        type: EMPOWERED_ATTACK
+        cooldown: 10.0
+        radius: 5
+        duration: 2
+        mode: SHIFT_RIGHT_CLICK
+        ratio: 100.0
+        extra: 100.0
+    gem-upgrade-scaling: SUBSEQUENT
+    success-rate: 100
+    custom-model-data: 10025.0
+    item-type-restriction:
+      - SWORD
+    displayed-type: |
+      &f
+      &f &f &e[&d秘技&e] &3附雷之刃 [cd:10s] 绑定按键: &f &7+ &f㘠
+      &f
+# ####################
+# 技能_1:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a先祖之力&7]"
+#     ability:
+#       ability1:
+#         type: ANCESTRAL_POWER
+#         mode: RIGHT_CLICK
+
+技能_2:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a奥术冰雹&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ARCANE_HAIL
+        damage: 5.2
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a奥术冰雹 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_3:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a奥术飞弹&7]"
+#     ability:
+#       ability1:
+#         type: ARCANE_MISSILE
+#         mode: RIGHT_CLICK
+
+技能_4:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a奥术裂隙&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ARCANE_RIFT
+        damage: 6.8
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a奥术裂隙 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_5:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a阿斯加德之怒&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ASGARDIAN_FURY
+        damage: 7.5
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a阿斯加德之怒 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_6:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a刺客之刃&7]"
+#     ability:
+#       ability1:
+#         type: ASSASSINS_BLADE
+#         mode: RIGHT_CLICK
+
+# 技能_7:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a背刺&7]"
+#     ability:
+#       ability1:
+#         type: BACKSTAB
+#         mode: RIGHT_CLICK
+
+技能_8:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a后撤步&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BACKSTEP
+        damage: 3.2
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a后撤步 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_9:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a黑洞射击&7]"
+#     ability:
+#       ability1:
+#         type: BLACKHOLE_SHOT
+#         mode: RIGHT_CLICK
+
+技能_10:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a黑洞&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BLACK_HOLE
+        damage: 8.0
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a黑洞 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_11:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a刀锋之舞&7]"
+#     ability:
+#       ability1:
+#         type: BLADE_DANCE
+#         mode: RIGHT_CLICK
+
+技能_12:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a利刃斩击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BLADE_SLASH
+        damage: 4.5
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a利刃斩击 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_13:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a致盲&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BLIND
+        damage: 2.8
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a致盲 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_14:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a闪现&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BLINK
+        damage: 3.0
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a闪现 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_15:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a闪现(强化)&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BLINK_
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a闪现(强化) [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_16:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a暴风雪&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BLIZZARD
+        damage: 6.2
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a暴风雪 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_17:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a血浴&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BLOODBATH
+        damage: 5.8
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a血浴 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_18:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a弹跳火球&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BOUNCY_FIREBALL
+        damage: 4.7
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a弹跳火球 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_19:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a野蛮打击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BRUTAL_STRIKE
+        damage: 5.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a野蛮打击 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_20:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a兔兔模式&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BUNNY_MODE
+        damage: 3.2
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a兔兔模式 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_21:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a燃烧&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BURN
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a燃烧 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_22:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a灼热之手&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: BURNING_HANDS
+        damage: 4.2
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a灼热之手 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_23:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a链钩&7]"
+#     ability:
+#       ability1:
+#         type: CHAIN_HOOK
+#         mode: RIGHT_CLICK
+
+技能_24:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a冲锋&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CHARGE
+        damage: 4.8
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a冲锋 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_25:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a鸡魂&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CHICKEN_WRAITH
+        damage: 3.5
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a鸡魂 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_26:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a圆形斩击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 5.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a圆形斩击 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_27:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a连击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: COMBO_ATTACK
+        damage: 6.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a连击 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_28:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a混乱&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CONFUSE
+        damage: 3.0
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a混乱 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_29:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a污染&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CONTAMINATION
+        damage: 4.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a污染 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_30:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a控制&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CONTROL
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a控制 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_31:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a腐蚀&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CORROSION
+        damage: 4.2
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a腐蚀 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_32:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a腐化&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CORRUPT
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a腐化 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_33:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a腐化之牙&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CORRUPTED_FANGS
+        damage: 6.0
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a腐化之牙 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_34:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a诅咒光束&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: CURSED_BEAM
+        damage: 5.8
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a诅咒光束 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_35:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a飞刀投掷&7]"
+#     ability:
+#       ability1:
+#         type: DAGGER_THROW
+#         mode: RIGHT_CLICK
+
+# 技能_36:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a突进&7]"
+#     ability:
+#       ability1:
+#         type: DASH
+#         mode: RIGHT_CLICK
+
+# 技能_37:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a致命标枪&7]"
+#     ability:
+#       ability1:
+#         type: DEADLY_JAVELIN
+#         mode: RIGHT_CLICK
+
+技能_38:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a死亡标记&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: DEATH_MARK
+        damage: 7.0
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a死亡标记 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_39:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a重伤&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: DEEP_WOUND
+        damage: 6.5
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a重伤 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_40:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a龙之穿刺&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: DRAGON_PIERCER
+        damage: 7.5
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a龙之穿刺 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_41:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a地震&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: EARTHQUAKE
+        damage: 6.8
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a地震 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_42:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a强化攻击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: EMPOWERED_ATTACK
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a强化攻击 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_43:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a强化仆从&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: EMPOWER_MINIONS
+        damage: 4.8
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a强化仆从 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_44:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a永恒之火&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ETERNAL_FLAME
+        damage: 7.2
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a永恒之火 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_45:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a闪避&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: EVADE
+        damage: 3.0
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a闪避 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_46:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a爆炸火鸡&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: EXPLOSIVE_TURKEY
+        damage: 5.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a爆炸火鸡 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_47:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a火球&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FIREBALL
+        damage: 4.5
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a火球 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_48:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a火焰箭&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FIREBOLT
+        damage: 4.0
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a火焰箭 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_49:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a萤火虫&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FIREFLY
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a萤火虫 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_50:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a大火球&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FIRE_BALL
+        damage: 6.0
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a大火球 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_51:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a火焰狂战士&7]"
+#     ability:
+#       ability1:
+#         type: FIRE_BERSERKER
+#         mode: RIGHT_CLICK
+
+技能_52:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a火焰陨石&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FIRE_METEOR
+        damage: 7.0
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a火焰陨石 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_53:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a火焰之怒&7]"
+#     ability:
+#       ability1:
+#         type: FIRE_RAGE
+#         mode: RIGHT_CLICK
+
+技能_54:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a火焰风暴&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FIRE_STORM
+        damage: 6.5
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a火焰风暴 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_55:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a冻结&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FREEZE
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a冻结 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_56:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a冰冻诅咒&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FREEZING_CURSE
+        damage: 4.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a冰冻诅咒 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_57:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a青蛙模式&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FROG_MODE
+        damage: 3.2
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a青蛙模式 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_58:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a霜冻新星&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FROST_NOVA
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a霜冻新星 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_59:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a冰冻光环&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FROZEN_AURA
+        damage: 4.8
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a冰冻光环 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_60:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a隐秘打击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: FURTIVE_STRIKE
+        damage: 6.0
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a隐秘打击 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_61:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a大治疗术&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: GRAND_HEAL
+        damage: 3.0
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a大治疗术 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_62:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a重力助推&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: GRAVITATIONAL_BOOST
+        damage: 4.2
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a重力助推 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_63:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a强力治疗&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: GREATER_HEALINGS
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a强力治疗 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_64:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a重锤打击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HAMMER_STRIKE
+        damage: 6.5
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a重锤打击 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_65:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a战锤投掷&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HAMMER_THROW
+        damage: 5.8
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a战锤投掷 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_66:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a战锤投掷(MMOItems版)&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HAMMER_THROW_MMOITEMS
+        damage: 5.8
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a战锤投掷(MMOItems版) [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_67:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a闪亮战锤投掷&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HAMMER_THROW_SHINY
+        damage: 6.2
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a闪亮战锤投掷 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_68:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a闪亮战锤投掷(MMOItems版)&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HAMMER_THROW_SHINY_MMOITEMS
+        damage: 6.2
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a闪亮战锤投掷(MMOItems版) [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_69:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a治疗&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HEAL
+        damage: 2.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a治疗 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_70:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a治疗图腾&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HEALING_TOTEM
+        damage: 3.0
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a治疗图腾 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_71:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a治疗光束&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HEAL_BEAM
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a治疗光束 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_72:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a重型冲锋&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HEAVY_CHARGE
+        damage: 7.0
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a重型冲锋 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_73:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a大地震&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HOEARTHQUAKE
+        damage: 7.5
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a大地震 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_74:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a神圣飞弹&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: HOLY_MISSILE
+        damage: 5.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a神圣飞弹 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_75:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a人肉盾牌&7]"
+#     ability:
+#       ability1:
+#         type: HUMAN_SHIELD
+#         mode: RIGHT_CLICK
+
+# 技能_76:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a猎人专注&7]"
+#     ability:
+#       ability1:
+#         type: HUNTERS_FOCUS
+#         mode: RIGHT_CLICK
+
+技能_77:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a冰晶&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        damage: 4.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a冰晶 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_78:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a冰刺&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ICE_SPIKES
+        damage: 5.2
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a冰刺 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_79:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a点燃&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: IGNITE
+        damage: 4.0
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a点燃 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_80:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a化身&7]"
+#     ability:
+#       ability1:
+#         type: INCARNATION
+#         mode: RIGHT_CLICK
+
+技能_81:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a地狱火链&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: INFERNO_CHAINS
+        damage: 6.8
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a地狱火链 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_82:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a物品炸弹&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ITEM_BOMB
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a物品炸弹 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_83:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a物品投掷&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: ITEM_THROW
+        damage: 4.8
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a物品投掷 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_84:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a审判&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: JUDGEMENT
+        damage: 7.2
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a审判 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_85:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a跳跃&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: LEAP
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a跳跃 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_86:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a生命终结者&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: LIFE_ENDER
+        damage: 8.0
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a生命终结者 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_87:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a闪电光束&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        damage: 6.5
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a闪电光束 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_88:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a光之束&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: LIGHT_BEAM
+        damage: 5.8
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a光之束 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_89:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a光之突进&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: LIGHT_DASH
+        damage: 4.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a光之突进 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_90:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a魔法路径&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: MAGICAL_PATH
+        damage: 4.0
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a魔法路径 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_91:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a魔法护盾&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: MAGICAL_SHIELD
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a魔法护盾 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_92:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a岩浆裂隙&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: MAGMA_FISSURE
+        damage: 6.0
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a岩浆裂隙 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_93:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a陨石&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: METEOR
+        damage: 7.0
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a陨石 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_94:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a强力雷霆&7]"
+#     ability:
+#       ability1:
+#         type: MIGHTY_THUNDER
+#         mode: RIGHT_CLICK
+
+技能_95:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a小型爆炸&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: MINOR_EXPLOSION
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a小型爆炸 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_96:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a小型治疗&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: MINOR_HEALINGS
+        damage: 2.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a小型治疗 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_97:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a过载&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: OVERLOAD
+        damage: 7.5
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a过载 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_98:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a毒药&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: POISON
+        damage: 4.2
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a毒药 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_99:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a力量标记&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: POWER_MARK
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a力量标记 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_100:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a礼物投掷&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: PRESENT_THROW
+        damage: 4.0
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a礼物投掷 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_101:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a脉冲模式&7]"
+#     ability:
+#       ability1:
+#         type: PULSE_MODE
+#         mode: RIGHT_CLICK
+
+技能_102:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a快速射击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: QUICK_SHOT
+        damage: 4.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a快速射击 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_103:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a狂暴&7]"
+#     ability:
+#       ability1:
+#         type: RAMPAGE
+#         mode: RIGHT_CLICK
+
+技能_104:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a盟友再生&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: REGEN_ALLY
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a盟友再生 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_105:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a撤退&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: RETREAT
+        damage: 3.0
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a撤退 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_106:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a自我恢复&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SELF_RECOVERY
+        damage: 3.2
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a自我恢复 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_107:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a暗影面纱&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SHADOW_VEIL
+        damage: 4.8
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a暗影面纱 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_108:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a暗影行走&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SHADOW_WALK
+        damage: 4.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a暗影行走 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_109:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a护盾屏障&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SHIELD_BARRIER
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a护盾屏障 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_110:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a电击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SHOCK
+        damage: 4.2
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a电击 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_111:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a冲击波&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SHOCKWAVE
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a冲击波 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_112:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a潜影贝导弹&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SHULKER_MISSILE
+        damage: 6.0
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a潜影贝导弹 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_113:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a骷髅仆从&7]"
+#     ability:
+#       ability1:
+#         type: SKELETAL_MINION
+#         mode: RIGHT_CLICK
+
+技能_114:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a天降打击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SKY_SMASH
+        damage: 7.0
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a天降打击 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_115:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a减速&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SLOW
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a减速 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_116:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a惩戒&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SMITE
+        damage: 6.5
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a惩戒 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_117:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a雪人炮台&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SNOWMAN_TURRET
+        damage: 5.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a雪人炮台 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_118:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a闪耀&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SPARKLE
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a闪耀 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_119:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a法杖攻击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: STAFF_ATTACK
+        damage: 4.5
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a法杖攻击 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_120:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a星辰坠落&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: STARFALL
+        damage: 7.2
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a星辰坠落 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_121:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a眩晕&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: STUN
+        damage: 4.0
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a眩晕 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_122:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a迅捷&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: SWIFTNESS
+        damage: 3.2
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a迅捷 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_123:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a战术手雷&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: TACTICAL_GRENADE
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a战术手雷 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_124:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a定向火球&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: TARGETED_FIREBALL
+        damage: 5.8
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a定向火球 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_125:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a心灵传动&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: TELEKINESY
+        damage: 4.2
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a心灵传动 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_126:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a呕吐&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: THROW_UP
+        damage: 3.5
+        cooldown: 10
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a呕吐 [cd:10s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_127:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a突刺&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: THRUST
+        damage: 5.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a突刺 [cd:12s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_128:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a雷霆冲击波&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: THUNDER_SHOCKWAVE
+        damage: 6.8
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a雷霆冲击波 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_129:
+  base:
+    material: EMERALD
+    name: "&a雷霆猛击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: THUNDER_SMASH
+        damage: 7.0
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a雷霆猛击 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_130:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&aTNT投掷&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: TNT_THROW
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &aTNT投掷 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_131:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a图腾形态&7]"
+#     ability:
+#       ability1:
+#         type: TOTEM_FORM
+#         mode: RIGHT_CLICK
+
+技能_132:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a吸血&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: VAMPIRISM
+        damage: 5.2
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a吸血 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_133:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a虚空之箭&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: VOID_ARROW
+        damage: 6.0
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a虚空之箭 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_134:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a虚空之雨&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: VOID_RAIN
+        damage: 6.5
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a虚空之雨 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_135:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a虚空电击&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: VOID_ZAPPER
+        damage: 5.8
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a虚空电击 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_136:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a扭曲&7]"
+#     ability:
+#       ability1:
+#         type: WARP
+#         mode: RIGHT_CLICK
+
+技能_137:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a虚弱&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: WEAKEN
+        damage: 3.8
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a虚弱 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_138:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a目标虚弱&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: WEAKEN_TARGET
+        damage: 4.0
+        cooldown: 11
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a目标虚弱 [cd:11s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_139:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a永恒之轮&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: WHEEL_OF_ETERNAL_FLAME
+        damage: 7.5
+        cooldown: 15
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a永恒之轮 [cd:15s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+# 技能_140:
+#   base:
+#     material: EMERALD
+#     name: "&c技能 &7[&a鬼火&7]"
+#     ability:
+#       ability1:
+#         type: WILL_O_WISPS
+#         mode: RIGHT_CLICK
+
+技能_141:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a风刃&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: WINDRAZOR
+        damage: 5.5
+        cooldown: 13
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a风刃 [cd:13s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0
+
+技能_142:
+  base:
+    material: EMERALD
+    name: "&c技能 &7[&a凋零&7]"
+    gem-color: "&c技能"
+    ability:
+      ability1:
+        type: WITHER
+        damage: 6.0
+        cooldown: 14
+        mode: RIGHT_CLICK
+    displayed-type: |
+      &f
+      &f &f &e[&c技能&e] &a凋零 [cd:14s] 绑定按键: &f㘠
+      &f
+    custom-model-data: 10021.0

@@ -1,0 +1,30 @@
+basic:
+  id: instability
+  name: 爆裂
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 射出的箭矢在落点产生爆炸冲击波
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 稀世
+targets:
+- bow
+- crossbow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    cause-fire: false
+    break-blocks: false
+  leveled:
+    power: :{level}*0.5

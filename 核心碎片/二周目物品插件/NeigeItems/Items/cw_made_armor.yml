@@ -1,0 +1,59 @@
+护甲:
+  material: NETHERITE_<cw_a.护甲原版_id>
+  nbt:
+    itemsadder:
+      namespace: cw_armor
+      id: jade_leggings
+  name: jade_leggings
+  mini-lore:
+    - "<!italic><white>1111"
+    - "<!italic><white>222"
+    - "<!italic><white>333"
+  lore: #藏东西
+    - "<id对照表.<盔甲纹饰.镶嵌>.中文名>"
+    - "<id对照表.<盔甲纹饰.模板>.中文名>"
+    - "<id>"
+
+  options:
+    update:
+      enable: true
+      refresh:
+        - material
+        - lore
+      protect-components:
+        - minecraft:custom_name
+        - components.minecraft:enchantments
+        - components.minecraft:damage
+  globalsections:
+    - cw_a.yml
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10005.0
+    minecraft:equippable:
+      slot: <cw_a.护甲ia_id>
+      asset_id: cw_armor:jade
+    minecraft:item_name: '{"color":"white","italic":false,"text":"jade_leggings"}'
+    minecraft:trim:
+      material: minecraft:<cw_a.id对照表.<盔甲纹饰.镶嵌>.镶嵌名>
+      pattern: minecraft:<cw_a.id对照表.<盔甲纹饰.模板>.镶嵌名>
+
+  sections:
+    id: "护甲"
+    盔甲纹饰:
+      镶嵌: NETHERITE_INGOT
+      模板: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+    位置: 头盔
+    护甲id:
+      头盔:
+        原版_id: helmet
+        ia_id: head
+      胸甲:
+        原版_id: chestplate
+        ia_id: chest
+      裤腿:
+        原版_id: leggings
+        ia_id: legs
+      靴子:
+        原版_id: boots
+        ia_id: feet

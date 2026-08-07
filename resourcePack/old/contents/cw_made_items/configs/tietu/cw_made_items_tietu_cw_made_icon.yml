@@ -1,0 +1,45 @@
+#**ItemsAdder-configs-贴图**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+font_images: #[贴图]**
+  cw_money: #[贴图的内部名]**
+    path: "img/icon/money.png" #[贴图的路径]**
+    scale_ratio: 9 #[贴图的大小]**
+    y_position: 8 #[贴图的上下偏移]**
+  cw_point:
+    path: "img/icon/point.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_point_pro:
+    path: "img/icon/point_pro.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_level:
+    path: "img/icon/level.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_level_xp:
+    path: "img/icon/level_xp.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_kill:
+    path: "img/icon/kill.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_coin0:
+    path: "coin/c_0.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_coin1:
+    path: "coin/c_1.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_coin2:
+    path: "coin/c_2.png"
+    scale_ratio: 9
+    y_position: 8
+  cw_coin3:
+    path: "coin/c_3.png"
+    scale_ratio: 9
+    y_position: 8

@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor2
+equipments:
+  assassin:
+    type: armor
+    layer_1: armor/assassin/layer_1
+    layer_2: armor/assassin/layer_2
+items:
+  assassin_boots:
+    name: assassin_boots
+    resource:
+      generate: true
+      texture: items/assassin/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor2:assassin
+  assassin_chestplate:
+    name: assassin_chestplate
+    resource:
+      generate: true
+      texture: items/assassin/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor2:assassin
+  assassin_helmet:
+    name: assassin_helmet
+    resource:
+      generate: true
+      texture: items/assassin/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor2:assassin
+  assassin_leggings:
+    name: assassin_leggings
+    resource:
+      generate: true
+      texture: items/assassin/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor2:assassin

@@ -1,0 +1,8 @@
+HS1:
+  base:
+    material: BAKED_POTATO
+    custom-model-data: 10000.0
+    name: 香蕉拳
+    lore:
+    - '&7吃了吗？没吃吃我一肘'
+    attack-damage: 114.0

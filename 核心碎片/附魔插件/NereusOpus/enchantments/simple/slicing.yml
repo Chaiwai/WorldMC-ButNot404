@@ -1,0 +1,27 @@
+basic:
+  id: slicing
+  name: 刀鞘
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 飞行时每秒对周围生物造成一定伤害
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- elytra
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-splash: :{level}
+    range: :0.5*{level}

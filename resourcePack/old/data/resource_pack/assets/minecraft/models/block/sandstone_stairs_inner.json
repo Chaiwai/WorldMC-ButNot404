@@ -1,0 +1,45 @@
+{
+	"credit": "Created by @JamieProbably on Twitter",
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"1": "block/sandstone_bottom",
+		"2": "block/sandstone_top",
+		"3": "block/sandstone_slab",
+		"particle": "block/sandstone_slab"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#3", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#3"},
+				"up": {"uv": [8, 0, 16, 16], "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 8, 8],
+			"to": [8, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#3"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#3", "cullface": "west"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#2", "cullface": "up"}
+			}
+		}
+	]
+}

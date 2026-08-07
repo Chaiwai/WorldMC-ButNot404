@@ -1,0 +1,42 @@
+#**ItemsAdder-configs-分类**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+categories: #[分类]**
+  cw_made_items_box: #[分类的内部名]**
+    enabled: true #[是否启用该分类]**
+    icon: "cw_made_items:cw_made_items_cw_made_items_box1" #[GUI分类显示的图标]**
+    name: "宝藏袋" #[GUI分类显示的图标名称]**
+    items: #[打包]**
+      - "cw_made_items:cw_made_items_cw_made_items_box1"
+      - "cw_made_items:cw_made_items_cw_made_items_box2"
+      - "cw_made_items:cw_made_items_cw_made_items_box3"
+      - "cw_made_items:cw_made_items_cw_made_items_box4"
+      - "cw_made_items:cw_made_items_cw_made_items_box5"
+      - "cw_made_items:cw_made_items_cw_made_items_box6"
+      - "cw_made_items:cw_made_items_cw_made_items_box7"
+      - "cw_made_items:cw_made_items_cw_made_items_box8"
+      - "cw_made_items:cw_made_items_cw_made_items_box9"
+      - "cw_made_items:cw_made_items_cw_made_items_box10"
+      - "cw_made_items:cw_made_items_cw_made_items_box11"
+      - "cw_made_items:cw_made_items_cw_made_items_box12"
+      - "cw_made_items:cw_made_items_cw_made_items_box13"
+      - "cw_made_items:cw_made_items_cw_made_items_box14"
+      - "cw_made_items:cw_made_items_cw_made_items_box15"
+      - "cw_made_items:cw_made_items_cw_made_items_box16"
+      - "cw_made_items:cw_made_items_cw_made_items_box17"
+      - "cw_made_items:cw_made_items_cw_made_items_box18"
+  cw_made_items_coins: #[分类的内部名]**
+    enabled: true #[是否启用该分类]**
+    icon: "cw_made_items:cw_made_items_coin3" #[GUI分类显示的图标]**
+    name: "货币" #[GUI分类显示的图标名称]**
+    items: #[打包]**
+      - "cw_made_items:cw_made_items_coin0"
+      - "cw_made_items:cw_made_items_coin1"
+      - "cw_made_items:cw_made_items_coin2"
+      - "cw_made_items:cw_made_items_coin3"
+      - "cw_made_items:cw_made_items_slime_coin0"
+      - "cw_made_items:cw_made_items_slime_coin1"
+      - "cw_made_items:cw_made_items_slime_coin2"
+      - "cw_made_items:cw_made_items_slime_coin3"
+#[打包物品内容]**

@@ -1,0 +1,82 @@
+info:
+  namespace: cw_status
+items:
+  jobs_0:
+    enabled: true
+    display_name: "0"
+    resource:
+      generate: false
+      model_path: jobs/jobs_0
+      material: paper
+
+  jobs_1:
+    enabled: true
+    display_name: "1"
+    resource:
+      generate: false
+      model_path: jobs/jobs_1
+      material: paper
+
+  jobs_2:
+    enabled: true
+    display_name: "2"
+    resource:
+      generate: false
+      model_path: jobs/jobs_2
+      material: paper
+
+  jobs_3:
+    enabled: true
+    display_name: "3"
+    resource:
+      generate: false
+      model_path: jobs/jobs_3
+      material: paper
+
+  jobs_4:
+    enabled: true
+    display_name: "4"
+    resource:
+      generate: false
+      model_path: jobs/jobs_4
+      material: paper
+
+  jobs_5:
+    enabled: true
+    display_name: "5"
+    resource:
+      generate: false
+      model_path: jobs/jobs_5
+      material: paper
+
+  jobs_6:
+    enabled: true
+    display_name: "6"
+    resource:
+      generate: false
+      model_path: jobs/jobs_6
+      material: paper
+
+  jobs_7:
+    enabled: true
+    display_name: "7"
+    resource:
+      generate: false
+      model_path: jobs/jobs_7
+      material: paper
+
+  jobs_8:
+    enabled: true
+    display_name: "8"
+    resource:
+      generate: false
+      model_path: jobs/jobs_8
+      material: paper
+
+  jobs_9:
+    enabled: true
+    display_name: "9"
+    resource:
+      generate: false
+      model_path: jobs/jobs_9
+      material: paper

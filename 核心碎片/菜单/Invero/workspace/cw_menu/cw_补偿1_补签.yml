@@ -1,0 +1,35 @@
+title: "&2&l补签的意义"
+
+events:
+  post_open: sound BLOCK_ENCHANTMENT_TABLE_USE by 1 2
+  close: sound BLOCK_ENCHANTMENT_TABLE_USE by 1 1
+
+layout: |-
+  |       |
+  |   W   |
+  |       |
+
+items:
+  "W":
+    ia: cw_made_items_cw_made_items_off_hand3_7
+    name: "&a你错过的补签卡"
+    lore: |-
+      &7你现在应该可以领取 &f%math_0_{playercurrency_level}*2%&7张 补签卡
+      &r &7>&a点击解锁&7<
+      &r
+    action:
+      command "lp user %player_name% permission set bc.8_29 true" as console
+      command "signin retroactivecard give %math_0_{playercurrency_level}*2% %player_name%" as console
+      msg "&f:fuhao3:&r &7你被给予了神秘道具...."
+      sound ENTITY_PLAYER_LEVELUP by 1 1
+      menu close
+    sub:
+      - rule: perm "bc.8_29"
+        ia: icon_cancel
+        lore: |-
+          &r
+          &r &7>&7已领取&7<
+          &r
+        action: msg "&f:fuhao1:&r &7拒绝了你的请求...."
+          sound block_anvil_place by 1 1
+          menu close

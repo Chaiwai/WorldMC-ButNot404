@@ -1,0 +1,27 @@
+basic:
+  id: spring
+  name: 飘逸
+  enable: false
+  max-level: 3
+display:
+  description:
+    general: 跳跃距离和高度提升
+alternative:
+  grindstoneable: false
+  is-tradeable: false
+  is-treasure: false
+  is-discoverable: false
+rarity: 稀世
+targets:
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    velocity-y: 0.5
+    velocity-xz: 0.5

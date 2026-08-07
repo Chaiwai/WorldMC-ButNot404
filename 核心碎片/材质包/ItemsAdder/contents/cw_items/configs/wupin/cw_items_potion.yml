@@ -1,0 +1,136 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_items
+items:
+  ammo_reservation:
+    display_name: ammo_reservation
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/ammo_reservation
+  builder:
+    display_name: builder
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/builder
+  gravitation:
+    display_name: gravitation
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/gravitation
+  greater_healing:
+    display_name: greater_healing
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/greater_healing
+  greater_mana:
+    display_name: greater_mana
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/greater_mana
+  healing:
+    display_name: healing
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/healing
+  ironskin:
+    display_name: ironskin
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/ironskin
+  lesser_healing:
+    display_name: lesser_healing
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/lesser_healing
+  lesser_mana:
+    display_name: lesser_mana
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/lesser_mana
+  magic_power:
+    display_name: magic_power
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/magic_power
+  mana:
+    display_name: mana
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/mana
+  mining:
+    display_name: mining
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/mining
+  recall:
+    display_name: recall
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/recall
+  regeneration:
+    display_name: regeneration
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/regeneration
+  shine:
+    display_name: shine
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/shine
+  spelunker:
+    display_name: spelunker
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/spelunker
+  super_healing:
+    display_name: super_healing
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/super_healing
+  super_mana:
+    display_name: super_mana
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/super_mana
+  swiftness:
+    display_name: swiftness
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/swiftness
+  water:
+    display_name: water
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/water
+  water_walking:
+    display_name: water_walking
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/water_walking
+  wormhole:
+    display_name: wormhole
+    resource:
+      material: potion
+      generate: false
+      model_path: items/potion/tr_potion/wormhole

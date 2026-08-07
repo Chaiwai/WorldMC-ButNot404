@@ -1,0 +1,12 @@
+金币:
+  material: GOLD_NUGGET
+  name: <#fc6014>杀戮点
+  lore:
+    - "&<虚拟道具数量>"
+  options:
+    owner: <papi::player_name>
+    hide: true
+    color: RED
+  sections:
+    # 定义获取的金币数量
+    虚拟道具数量: 1

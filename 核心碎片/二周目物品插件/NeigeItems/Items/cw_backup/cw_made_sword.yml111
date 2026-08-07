@@ -1,0 +1,103 @@
+cw_sword_tem:
+  name: "&r&f<物品名称>"
+  material: <物品材质>
+  components:
+    minecraft:item_model: minecraft:netherite_sword
+    minecraft:max_damage: (Int) <fastcalc::<基础属性.耐久>+<基础属性.耐久>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.耐久.数值>>
+    minecraft:custom_model_data:
+      floats:
+        - (Float) <物品贴图>
+    minecraft:attribute_modifiers:
+      show_in_tooltip: (Byte) 0
+      modifiers:
+        - amount: (Double) 0.0
+          id: mmoitems:decoy
+          type: minecraft:attack_speed
+          operation: add_value
+  options:
+    update:
+      enable: true
+      protect-components:
+        - minecraft:custom_name
+        - minecraft:enchantments
+        - minecraft:damage
+
+  globalsections:
+    - cw_s.yml
+    - cw_common.yml
+  lore:
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  <物品简介>"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  伤害: &f<基础_攻击伤害>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.伤害.前缀><fastcalc::<基础_攻击伤害>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.伤害.数值>_2>&7)"
+    - "&r&f  攻速: &f<基础_攻击速度>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.攻速.前缀><fastcalc::<基础_攻击速度>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.攻速.数值>_2>&7)"
+    # - "&r&f  暴击: &f<基础_暴击几率>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.暴击.前缀><fastcalc::<基础_暴击几率>*+0.01*<额外_暴击几率>_2>&7)"
+    - "&r&f  暴击: &f<基础_暴击几率>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.暴击.前缀><cw_s.锻造属性.<cw_s.锻造品质>.暴击.数值>%&7)"
+    # - "&r&f  爆伤: &f<基础_暴击增伤>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.爆伤.前缀><fastcalc::<基础_暴击增伤>*+0.01*<额外_暴击增伤>_2>&7)"
+    # - "&r&f  横扫: &f<基础_横扫增伤>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.横扫.前缀><fastcalc::<基础_横扫增伤>*+0.01*<额外_横扫增伤>_2>&7)"
+    - "&r&f  大小: &f<基础_攻击距离>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.大小.前缀><fastcalc::<基础_攻击距离>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.大小.数值>_2>&7)"
+    - "&r&f  耐久: &f<基础属性.耐久>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.耐久.前缀><fastcalc::<基础属性.耐久>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.耐久.数值>>&7)"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  锻造品质: <cw_s.锻造品质>"
+    # - "<cw_s.锻造显示>"
+    - "&r&f"
+    - "&r&f  灵魂绑定: <cw_common.绑定.绑定名称>"
+  nbt:
+    PublicBukkitValues:
+      itemsoulbind:soulbinduuid: <cw_common.绑定.绑定uuid>
+    #mi
+    MMOITEMS_ITEM_TYPE: <Mi_GP> #必要!!
+    MMOITEMS_ITEM_ID: <Mi_ID> #必要!!
+    MMOITEMS_ATTACK_DAMAGE: (Double) <fastcalc::<基础_攻击伤害>*(1+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.伤害.数值>)_4>
+    # MMOITEMS_CRITICAL_STRIKE_CHANCE: (Double) <fastcalc::<基础_暴击几率>*(1+0.01*<额外_暴击几率>)_4>
+    MMOITEMS_CRITICAL_STRIKE_CHANCE: (Double) <fastcalc::<基础_暴击几率>+<cw_s.锻造属性.<cw_s.锻造品质>.暴击.数值>_4>
+    MMOITEMS_CRITICAL_STRIKE_POWER: (Double) <fastcalc::<基础_暴击增伤>*(1+0.01*0)_4>
+    MMOITEMS_BLUNT_RATING: (Double) <fastcalc::<基础_横扫增伤>*(1+0.01*0)_4>
+    MMOITEMS_ATTACK_SPEED: (Double) <fastcalc::<基础_攻击速度>*(1+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.攻速.数值>)_4>
+    MMOITEMS_ENTITY_INTERACTION_RANGE: (Double) <fastcalc::<基础_攻击距离>*(1+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.大小.数值>)-3_4>
+
+cw_tr_01:
+  inherit: cw_sword_tem
+  sections:
+    #基础
+    物品名称: "附魔剑"
+    物品贴图: 10024
+    物品材质: "netherite_sword"
+    物品简介: "这是一把刀13123"
+    绑定_enable: true #默认开启{"绑定.enable":"false"}
+    #属性
+    Mi_GP: "DAGGER"
+    Mi_ID: "TEST1"
+    基础属性:
+      耐久: 2048
+    基础_攻击伤害: 8
+    基础_暴击几率: 25
+    基础_暴击增伤: 0
+    基础_横扫增伤: 0
+
+    基础_攻击速度: 1.6
+    基础_攻击距离: 3
+cw_s0_1:
+  inherit: cw_sword_tem
+  sections:
+    #基础
+    物品名称: "泰拉棱镜"
+    物品贴图: 10063
+    物品材质: "netherite_sword"
+    物品简介: "这是一把刀13123"
+    绑定_enable: true #默认开启{"绑定.enable":"false"}
+    #属性
+    Mi_GP: "DAGGER"
+    Mi_ID: "TEST1"
+    基础属性:
+      耐久: 4096
+    基础_攻击伤害: 10
+    基础_暴击几率: 30
+    基础_暴击增伤: 0
+    基础_横扫增伤: 0
+
+    基础_攻击速度: 1.6
+    基础_攻击距离: 3

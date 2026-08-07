@@ -1,0 +1,26 @@
+basic:
+  id: reinforcement
+  name: 硬化
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 受到的伤害降低
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- elytra
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1-0.05*{level}

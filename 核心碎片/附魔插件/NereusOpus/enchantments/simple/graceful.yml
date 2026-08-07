@@ -1,0 +1,26 @@
+basic:
+  id: graceful
+  name: 乘云
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 从高处下落着陆前有概率获得缓降效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :25*{level}

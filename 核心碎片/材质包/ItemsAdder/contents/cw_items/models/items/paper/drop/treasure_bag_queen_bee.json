@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "cw_items:items/paper/drop/treasure_bag_queen_bee"
+    }
+}

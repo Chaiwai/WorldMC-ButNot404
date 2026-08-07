@@ -1,0 +1,151 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+items: #[物品配置]**
+  cw_made_items_tr_s1: #[物品的内部名]**
+    display_name: "tr_s1" #[物品显示名]**
+    resource: #[替换的原版物品ID]**
+      material: diamond_sword #[原版物品ID]**
+      generate: false #[图片与模型[3D模型]]**
+      model_path: sword/tr_s1 #[图片或模型路径[3D模型]]**
+  cw_made_items_tr_s2:
+    display_name: "tr_s2"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s2
+
+  cw_made_items_tr_s3:
+    display_name: "tr_s3"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s3
+
+  cw_made_items_tr_s4:
+    display_name: "tr_s4"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s4
+
+  cw_made_items_tr_s5:
+    display_name: "tr_s5"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s5
+
+  cw_made_items_tr_s6:
+    display_name: "tr_s6"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s6
+
+  cw_made_items_tr_s7:
+    display_name: "tr_s7"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s7
+
+  cw_made_items_tr_s8:
+    display_name: "tr_s8"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s8
+
+  cw_made_items_tr_s9:
+    display_name: "tr_s9"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s9
+
+  cw_made_items_tr_s10:
+    display_name: "tr_s10"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s10
+
+  cw_made_items_tr_s11:
+    display_name: "tr_s11"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s11
+
+  cw_made_items_tr_s12:
+    display_name: "tr_s12"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s12
+
+  cw_made_items_tr_s13:
+    display_name: "tr_s13"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s13
+
+  cw_made_items_tr_s14:
+    display_name: "tr_s14"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s14
+
+  cw_made_items_tr_s15:
+    display_name: "tr_s15"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s15
+
+  cw_made_items_tr_s16:
+    display_name: "tr_s16"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s16
+
+  cw_made_items_tr_s17:
+    display_name: "tr_s17"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s17
+
+  cw_made_items_tr_s18:
+    display_name: "tr_s18"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s18
+
+  cw_made_items_tr_s19:
+    display_name: "tr_s19"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s19
+
+  cw_made_items_tr_s20:
+    display_name: "tr_s20"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s20
+
+  #hat
+  cw_made_items_tr_s21:
+    display_name: "tr_s21"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sword/tr_s21

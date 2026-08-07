@@ -1,0 +1,11 @@
+金币:
+  pick:
+    cooldown: 0
+    sync:
+      - "console: ply give %player_name% kill <fastcalc::<data::虚拟道具数量>*<amount::>> &b拾取"
+      - "console: actionbarmsg %player_name% &e拾取了 &a<fastcalc::<data::虚拟道具数量>*<amount::>> &e杀戮点"
+      - "sound: entity.player.hurt_drown 1 2"
+      # - "giveMoney: <fastcalc::<data::金币数量>*<amount::>>"
+      # - "tell: §e[NI] §6恭喜你获得了 <fastcalc::<data::金币数量>*<amount::>> 金币"
+      # 移除物品
+      - "js: event.item.remove();event.setCancelled(true)"

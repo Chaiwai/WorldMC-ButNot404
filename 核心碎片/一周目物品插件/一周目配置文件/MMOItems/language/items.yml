@@ -1,0 +1,55 @@
+CONFIRM:
+  name: '&a确认'
+  lore: []
+FILL:
+  name: '&8'
+  lore: []
+PREVIOUS_PAGE:
+  name: '&a上一页'
+  lore: []
+NEXT_PAGE:
+  name: '&a下一页'
+  lore: []
+PREVIOUS_IN_QUEUE:
+  name: '&a上一页'
+  lore: []
+NEXT_IN_QUEUE:
+  name: '&a下一页'
+  lore: []
+BACK:
+  name: '&a返回'
+  lore: []
+CRAFTING_RECIPE_DISPLAY:
+  name: '&a&l锻造&f #name#'
+  lore:
+  - '{conditions}'
+  - '{conditions}&8需求:'
+  - '{crafting_time}'
+  - '{crafting_time}&7锻造耗时: &c#crafting-time#&7s'
+  - ''
+  - '&8所需物品:'
+  - '#ingredients#'
+  - ''
+  - '&e左键锻造!'
+  - '&e右键预览!'
+UPGRADING_RECIPE_DISPLAY:
+  name: '&e&lUpgrade&f #name#'
+  lore:
+  - '{conditions}'
+  - '{conditions}&8Conditions:'
+  - ''
+  - '&8Ingredients:'
+  - '#ingredients#'
+  - ''
+  - '&eLeft-Click to craft!'
+  - '&eRight-Click to preview!'
+QUEUE_ITEM_DISPLAY:
+  name: '&6&l锻造队列&f #name#'
+  lore:
+  - '{ready}&7&o物品已被成功锻造.'
+  - '{queue}&7&o物品正在锻造中.'
+  - '{queue}'
+  - '{queue}&7剩余时间: &c#left#'
+  - ''
+  - '{ready}&a点击领取!'
+  - '{queue}&c点击取消.'

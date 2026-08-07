@@ -1,0 +1,41 @@
+ARMOR_SP1:
+  base:
+    material: PAPER
+    name: '&b装备碎片&7(稀有)'
+    lore:
+    - '&7分解忍者系列装备获得'
+    custom-model-data: 6.0
+ARMOR_SP2:
+  base:
+    material: PAPER
+    name: '&d装备碎片&7(史诗)'
+    lore:
+    - '&7分解色彩系列装备获得'
+    custom-model-data: 8.0
+ARMOR_SP3:
+  base:
+    material: PAPER
+    name: '&6装备碎片&7(传奇)'
+    lore:
+    - '&7分解神话系列装备获得'
+    custom-model-data: 7.0
+ZW:
+  base:
+    material: PAPER
+    name: '&c&l占位'
+    lore:
+    - '&7似乎是无法获取的道具呢!'
+'&6IKUN头套':
+  base:
+    material: ITEM_FRAME
+    name: '&6Ikun头套'
+    custom-model-data: 10292.0
+    perm-effects:
+      Invisibility: 1.0
+    commands:
+      cmd0:
+        format: hat
+        delay: 0.0
+        op: true
+    lore:
+    - '&7拿在手上按右键可以化身为神秘鸽鸽'

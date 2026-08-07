@@ -1,0 +1,99 @@
+副手_牛黄:
+  # left:
+  #   cooldown: 0
+  #   consume:
+  #     amount: 0
+  #     condition: |-
+  #       (function() {
+  #         print("主手物品: " + player.getInventory().getItemInMainHand().getType().name())
+  #         return true;
+  #         }
+  #       })()
+  #   actions:
+  #     - "sound: entity.experience_orb.pickup 1 1"
+  #     - "actionbar: <#99ff99>玻璃颜色转换成功！消耗10能量"
+  #     # - "js: print(player.getInventory().getItemInOffHand().getDamage())"
+  #     # - "js: print(offHandItem().getType().getMaxDurability())"
+  damaged_offhand:
+    amount: 0
+    cooldown: 0
+    consume:
+      cooldown: 0
+      condition: |-
+        (function() {
+          var item = offHandItem();
+          var currentDamage = item.getDurability();
+          var maxDurability = item.getType().getMaxDurability();
+          var currentDurability = maxDurability - currentDamage;
+          var cause = event.getCause().name();
+          var damage = event.getFinalDamage();
+          if ((cause === "MAGIC" || cause === "POISON" ||
+            cause === "WITHER" || cause === "LIGHTNING") &&
+            damage >= 0.001 && damage <= 100) {
+            event.setDamage(0);
+            item.setDurability(Math.min(maxDurability, currentDamage - damage));
+            return false
+          }
+          if (currentDurability <= 0) {
+            return false
+          }
+
+          if (event instanceof Java.type("org.bukkit.event.entity.EntityDamageByEntityEvent")) {
+            
+            if(!(checkCooldown("副手:牛黄", 10000) <= 0)){
+              
+              var audience = Java.type("net.kyori.adventure.text.minimessage.MiniMessage").miniMessage();
+              var component = audience.deserialize("<!i><#ffffff> <#99ff99>牛黄 <#ffff99>冷却剩余 <#ff9999>" + (getCooldown("副手:牛黄") / 1000).toFixed(1) + "<#ffff99> 秒");
+              player.sendActionBar(component);
+              return false
+            }
+            var damager = event.getDamager();
+            
+            // 如果攻击者是投射物，获取发射者
+            if (damager instanceof Java.type("org.bukkit.entity.Projectile")) {
+              var shooter = damager.getShooter();
+              if (shooter instanceof Java.type("org.bukkit.entity.LivingEntity")) {
+                damager = shooter;
+              }
+            }
+            print(damager)
+            var PotionEffect = Java.type("org.bukkit.potion.PotionEffect");
+            var PotionEffectType = Java.type("org.bukkit.potion.PotionEffectType");
+
+            // 然后创建效果
+            
+            if (damager instanceof Java.type("org.bukkit.entity.LivingEntity")) {
+              // 正确的药水效果创建
+              var PotionEffect = Java.type("org.bukkit.potion.PotionEffect");
+              var PotionEffectType = Java.type("org.bukkit.potion.PotionEffectType");
+              
+              // 1. 凋零10 - 1秒（等级9）
+              damager.addPotionEffect(
+                new PotionEffect(
+                  PotionEffectType.WITHER,
+                  60,   // 1秒 = 20tick
+                  50     // 等级10（0=1级，9=10级）
+                )
+              );
+              
+              // 2. 虚弱2 - 3秒（等级1）
+              damager.addPotionEffect(
+                new PotionEffect(
+                  PotionEffectType.WEAKNESS,
+                  80,   // 3秒 = 60tick
+                  1     // 等级2（0=1级，1=2级）
+                )
+              );
+              
+            }
+            item.setDurability(Math.min(maxDurability, currentDamage + 1));
+
+          }
+
+          return false;
+        })()
+    actions:
+      - "tell: aaa"
+      - "addDamage: 1"
+      # - 'js: setCooldown("ni:副手_牛黄", 0)'
+    deny:

@@ -1,0 +1,114 @@
+{
+	"credit": "Created by @JamieProbably on Twitter",
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"name": "Left-hand post",
+			"from": [0, 2, 7],
+			"to": [2, 13, 9],
+			"faces": {
+				"north": {"uv": [13, 5, 15, 16], "texture": "#texture"},
+				"east": {"uv": [15, 5, 13, 16], "texture": "#texture"},
+				"south": {"uv": [13, 5, 15, 16], "texture": "#texture"},
+				"west": {"uv": [15, 5, 13, 16], "texture": "#texture", "cullface": "west"},
+				"up": {"uv": [12, 0, 14, 2], "texture": "#texture"},
+				"down": {"uv": [14, 0, 16, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Right-hand post",
+			"from": [14, 2, 7],
+			"to": [16, 13, 9],
+			"faces": {
+				"north": {"uv": [13, 5, 15, 16], "texture": "#texture"},
+				"east": {"uv": [13, 5, 15, 16], "texture": "#texture", "cullface": "east"},
+				"south": {"uv": [15, 5, 13, 16], "texture": "#texture"},
+				"west": {"uv": [15, 5, 13, 16], "texture": "#texture"},
+				"up": {"uv": [12, 0, 14, 2], "texture": "#texture"},
+				"down": {"uv": [14, 0, 16, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Inner vertical post of left-hand gate door",
+			"from": [0, 3, 13],
+			"to": [2, 12, 15],
+			"faces": {
+				"north": {"uv": [15, 7, 13, 16], "texture": "#texture"},
+				"east": {"uv": [13, 7, 15, 16], "texture": "#texture"},
+				"south": {"uv": [15, 7, 13, 16], "texture": "#texture"},
+				"west": {"uv": [13, 7, 15, 16], "texture": "#texture"},
+				"up": {"uv": [12, 0, 14, 2], "texture": "#texture"},
+				"down": {"uv": [16, 0, 14, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Inner vertical post of right-hand gate door",
+			"from": [14, 3, 13],
+			"to": [16, 12, 15],
+			"faces": {
+				"north": {"uv": [15, 7, 13, 16], "texture": "#texture"},
+				"east": {"uv": [13, 7, 15, 16], "texture": "#texture"},
+				"south": {"uv": [15, 7, 13, 16], "texture": "#texture"},
+				"west": {"uv": [13, 7, 15, 16], "texture": "#texture"},
+				"up": {"uv": [12, 0, 14, 2], "texture": "#texture"},
+				"down": {"uv": [16, 0, 14, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Upper horizontal bar of left-hand gate door",
+			"from": [0, 9, 9],
+			"to": [2, 12, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"east": {"uv": [8, 7, 12, 10], "texture": "#texture"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"west": {"uv": [12, 7, 8, 10], "texture": "#texture"},
+				"up": {"uv": [12, 8, 8, 6], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [8, 9, 12, 11], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Upper horizontal bar of left-hand gate door",
+			"from": [14, 9, 9],
+			"to": [16, 12, 13],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"east": {"uv": [8, 7, 12, 10], "texture": "#texture"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"west": {"uv": [12, 7, 8, 10], "texture": "#texture"},
+				"up": {"uv": [12, 6, 8, 8], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [8, 11, 12, 9], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Upper horizontal bar of left-hand gate door",
+			"from": [14, 3, 9],
+			"to": [16, 6, 13],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"east": {"uv": [9, 12, 13, 15], "texture": "#texture"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"west": {"uv": [13, 12, 9, 15], "texture": "#texture"},
+				"up": {"uv": [13, 11, 9, 13], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [9, 16, 13, 14], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Upper horizontal bar of left-hand gate door",
+			"from": [0, 3, 9],
+			"to": [2, 6, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"east": {"uv": [9, 12, 13, 15], "texture": "#texture"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#texture"},
+				"west": {"uv": [13, 12, 9, 15], "texture": "#texture"},
+				"up": {"uv": [13, 13, 9, 11], "rotation": 90, "texture": "#texture"},
+				"down": {"uv": [9, 14, 13, 16], "rotation": 90, "texture": "#texture"}
+			}
+		}
+	]
+}

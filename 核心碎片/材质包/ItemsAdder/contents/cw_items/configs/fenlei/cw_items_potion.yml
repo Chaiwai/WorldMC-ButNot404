@@ -1,0 +1,31 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_items
+categories:
+  tr_potion:
+    enabled: true
+    icon: cw_items:ammo_reservation
+    name: tr_potion
+    items:
+    - cw_items:ammo_reservation
+    - cw_items:builder
+    - cw_items:gravitation
+    - cw_items:greater_healing
+    - cw_items:greater_mana
+    - cw_items:healing
+    - cw_items:ironskin
+    - cw_items:lesser_healing
+    - cw_items:lesser_mana
+    - cw_items:magic_power
+    - cw_items:mana
+    - cw_items:mining
+    - cw_items:recall
+    - cw_items:regeneration
+    - cw_items:shine
+    - cw_items:spelunker
+    - cw_items:super_healing
+    - cw_items:super_mana
+    - cw_items:swiftness
+    - cw_items:water
+    - cw_items:water_walking
+    - cw_items:wormhole

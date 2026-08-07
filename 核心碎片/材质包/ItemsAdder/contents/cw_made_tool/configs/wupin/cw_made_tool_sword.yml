@@ -1,0 +1,462 @@
+# 自动生成的配置文件
+# 生成工具: create_items.py
+
+info:
+  namespace: cw_made_tool
+items:
+  adamantite_sword:
+    display_name: "精金剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/adamantite_sword
+  arkhalis:
+    display_name: "亚克哈利斯剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/arkhalis
+  ash_wood_sword:
+    display_name: "灰烬木剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/ash_wood_sword
+  beam_sword:
+    display_name: "光束剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/beam_sword
+  bee_keeper:
+    display_name: "养蜂人"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/bee_keeper
+  bladetongue:
+    display_name: "舌刃剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/bladetongue
+  blade_of_grass:
+    display_name: "草薙剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/blade_of_grass
+  bloody_machete:
+    display_name: "血染砍刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/bloody_machete
+  blood_butcherer:
+    display_name: "嗜血屠刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/blood_butcherer
+  bone_sword:
+    display_name: "骨剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/bone_sword
+  boreal_wood_sword:
+    display_name: "针叶木剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/boreal_wood_sword
+  brand_of_the_inferno:
+    display_name: "地狱烙印"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/brand_of_the_inferno
+  breaker_blade:
+    display_name: "破坏者之刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/breaker_blade
+  cactus_sword:
+    display_name: "仙人掌剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/cactus_sword
+  candy_cane_sword:
+    display_name: "糖果手杖剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/candy_cane_sword
+  chlorophyte_claymore:
+    display_name: "叶绿巨剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/chlorophyte_claymore
+  chlorophyte_saber:
+    display_name: "叶绿军刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/chlorophyte_saber
+  christmas_tree_sword:
+    display_name: "圣诞树剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/christmas_tree_sword
+  cobalt_sword:
+    display_name: "钴剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/cobalt_sword
+  copper_broadsword:
+    display_name: "铜阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/copper_broadsword
+  cutlass:
+    display_name: "弯刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/cutlass
+  death_sickle:
+    display_name: "死神镰刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/death_sickle
+  durendal:
+    display_name: "杜兰德尔"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/durendal
+  ebonwood_sword:
+    display_name: "乌木剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/ebonwood_sword
+  enchanted_sword:
+    display_name: "附魔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/enchanted_sword
+  excalibur:
+    display_name: "誓约胜利之剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/excalibur
+  exotic_scimitar:
+    display_name: "异域弯刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/exotic_scimitar
+  falcon_blade:
+    display_name: "猎鹰刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/falcon_blade
+  first_fractal:
+    display_name: "第一分形剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/first_fractal
+  flying_dragon:
+    display_name: "飞龙"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/flying_dragon
+  flymeal:
+    display_name: "蝇肉"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/flymeal
+  frostbrand:
+    display_name: "霜寒剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/frostbrand
+  gladius:
+    display_name: "罗马短剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/gladius
+  gold_broadsword:
+    display_name: "金阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/gold_broadsword
+  hallowed_jousting_lance:
+    display_name: "神圣骑枪"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/hallowed_jousting_lance
+  icemourne:
+    display_name: "冰哀剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/icemourne
+  ice_blade:
+    display_name: "冰刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/ice_blade
+  ice_sickle:
+    display_name: "冰镰刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/ice_sickle
+  influx_waver:
+    display_name: "潮涌波刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/influx_waver
+  iron_broadsword:
+    display_name: "铁阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/iron_broadsword
+  jousting_lance:
+    display_name: "骑枪"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/jousting_lance
+  katana:
+    display_name: "武士刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/katana
+  lead_broadsword:
+    display_name: "铅阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/lead_broadsword
+  light_bane:
+    display_name: "破晓之光"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/light_bane
+  meowmere:
+    display_name: "喵刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/meowmere
+  muramasa:
+    display_name: "村正"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/muramasa
+  mythril_sword:
+    display_name: "秘银剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/mythril_sword
+  night_edge:
+    display_name: "永夜之刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/night_edge
+  orichalcum_sword:
+    display_name: "山铜剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/orichalcum_sword
+  palladium_sword:
+    display_name: "钯金剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/palladium_sword
+  pearlwood_sword:
+    display_name: "珍珠木剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/pearlwood_sword
+  platinum_broadsword:
+    display_name: "铂金阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/platinum_broadsword
+  psycho_knife:
+    display_name: "狂怒匕首"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/psycho_knife
+  rich_mahogany_sword:
+    display_name: "红木剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/rich_mahogany_sword
+  scythe:
+    display_name: "镰刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/scythe
+  seedler:
+    display_name: "种子弯刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/seedler
+  silver_broadsword:
+    display_name: "银阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/silver_broadsword
+  sky_fracture:
+    display_name: "天空裂痕"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/sky_fracture
+  soul_scythe:
+    display_name: "灵魂镰刀"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/soul_scythe
+  starfury:
+    display_name: "星怒"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/starfury
+  starlight:
+    display_name: "星光"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/starlight
+  star_wrath:
+    display_name: "星怒之怒"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/star_wrath
+  terragrim:
+    display_name: "大地之怒"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/terragrim
+  terraprisma:
+    display_name: "大地棱镜"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/terraprisma
+  terra_blade:
+    display_name: "泰拉刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/terra_blade
+  the_horseman_blade:
+    display_name: "无头骑士之刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/the_horseman_blade
+  tin_broadsword:
+    display_name: "锡阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/tin_broadsword
+  titanium_sword:
+    display_name: "钛金剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/titanium_sword
+  tizona:
+    display_name: "提索纳剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/tizona
+  true_excalibur:
+    display_name: "真·誓约胜利之剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/true_excalibur
+  true_night_edge:
+    display_name: "真·永夜之刃"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/true_night_edge
+  tungsten_broadsword:
+    display_name: "钨阔剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/tungsten_broadsword
+  volcano:
+    display_name: "火山"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/volcano
+  wooden_sword:
+    display_name: "木剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/wooden_sword
+  zenith:
+    display_name: "天顶剑"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/zenith
+  zombie_arm:
+    display_name: "僵尸臂"
+    resource:
+      material: netherite_sword
+      generate: false
+      model_path: sword/zombie_arm

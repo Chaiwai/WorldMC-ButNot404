@@ -1,0 +1,10 @@
+击退:
+  material: NETHERITE_SWORD
+  mini-lore: []
+  components:
+    minecraft:attribute_modifiers:
+      modifiers:
+        - amount: (Double) 10.0
+          id: minecraft:1
+          type: minecraft:attack_knockback
+          operation: add_value

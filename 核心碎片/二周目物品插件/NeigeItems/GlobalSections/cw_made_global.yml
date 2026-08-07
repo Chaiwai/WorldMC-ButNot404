@@ -1,0 +1,5 @@
+cw_box_value:
+  type: weight
+  values:
+    - 5::cwMade_items_1
+    - 5::cwMade_items_2

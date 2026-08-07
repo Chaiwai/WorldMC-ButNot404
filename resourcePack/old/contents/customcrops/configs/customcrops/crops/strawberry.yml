@@ -1,0 +1,112 @@
+info:
+  namespace: customcrops
+items:
+#strawberry_seed
+  strawberry_seeds:
+    display_name: '草莓种子'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - strawberry/strawberry_seeds
+#strawberry
+  strawberry_1star:
+    enabled: true
+    display_name: '草莓'
+    resource:
+      generate: false
+      material: BAKED_POTATO
+      model_path: strawberry/strawberry
+    events:
+      eat:
+        feed:
+          amount: 1
+  strawberry_2star:
+    enabled: true
+    display_name: '草莓'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - strawberry/strawberry_silver
+    events:
+      eat:
+        feed:
+          amount: 1
+  strawberry_3star:
+    enabled: true
+    display_name: '草莓'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - strawberry/strawberry_gold
+    events:
+      eat:
+        feed:
+          amount: 1
+
+#strawberry_stage
+  strawberry_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: strawberry/strawberry_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  strawberry_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: strawberry/strawberry_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  strawberry_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: strawberry/strawberry_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+
+#strawberry_drop
+categories:
+  customcrops_strawberry:
+    enabled: true
+    icon: strawberry_1star
+    name: '草莓农作物'
+    items:
+      - customcrops:strawberry_seeds
+      - customcrops:strawberry_1star
+      - customcrops:strawberry_2star
+      - customcrops:strawberry_3star
+      - customcrops:strawberry_stage_1
+      - customcrops:strawberry_stage_2
+      - customcrops:strawberry_stage_3

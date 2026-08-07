@@ -1,0 +1,116 @@
+info:
+  namespace: mount_1
+items:
+  icon_dragon_desert:
+    display_name: "icon_dragon_desert"
+    permission: icon_dragon_desert
+    resource:
+      material: BRICK
+      model_id: 2500
+      generate: false
+      model_path: rpg_mount_model/icon_dragon_desert
+  icon_dragon_glacial:
+    display_name: "icon_dragon_glacial"
+    permission: icon_dragon_glacial
+    resource:
+      material: BRICK
+      model_id: 2501
+      generate: false
+      model_path: rpg_mount_model/icon_dragon_glacial
+  icon_dragon_nether:
+    display_name: "icon_dragon_nether"
+    permission: icon_dragon_nether
+    resource:
+      material: BRICK
+      model_id: 2502
+      generate: false
+      model_path: rpg_mount_model/icon_dragon_nether
+  icon_dragon_sculk:
+    display_name: "icon_dragon_sculk"
+    permission: icon_dragon_sculk
+    resource:
+      material: BRICK
+      model_id: 2503
+      generate: false
+      model_path: rpg_mount_model/icon_dragon_sculk
+  icon_lizard_aqua:
+    display_name: "icon_lizard_aqua"
+    permission: icon_lizard_aqua
+    resource:
+      material: BRICK
+      model_id: 2504
+      generate: false
+      model_path: rpg_mount_model/icon_lizard_aqua
+  icon_lizard_lava:
+    display_name: "icon_lizard_lava"
+    permission: icon_lizard_lava
+    resource:
+      material: BRICK
+      model_id: 2505
+      generate: false
+      model_path: rpg_mount_model/icon_lizard_lava
+  icon_manticore_aether:
+    display_name: "icon_manticore_aether"
+    permission: icon_manticore_aether
+    resource:
+      material: BRICK
+      model_id: 2506
+      generate: false
+      model_path: rpg_mount_model/icon_manticore_aether
+  icon_manticore_dusk:
+    display_name: "icon_manticore_dusk"
+    permission: icon_manticore_dusk
+    resource:
+      material: BRICK
+      model_id: 2507
+      generate: false
+      model_path: rpg_mount_model/icon_manticore_dusk
+  icon_manticore_soul:
+    display_name: "icon_manticore_soul"
+    permission: icon_manticore_soul
+    resource:
+      material: BRICK
+      model_id: 2508
+      generate: false
+      model_path: rpg_mount_model/icon_manticore_soul
+  icon_manticore_venom:
+    display_name: "icon_manticore_venom"
+    permission: icon_manticore_venom
+    resource:
+      material: BRICK
+      model_id: 2509
+      generate: false
+      model_path: rpg_mount_model/icon_manticore_venom
+  icon_panda:
+    display_name: "icon_panda"
+    permission: icon_panda
+    resource:
+      material: BRICK
+      model_id: 2510
+      generate: false
+      model_path: rpg_mount_model/icon_panda
+  icon_sabertooth_arctic:
+    display_name: "icon_sabertooth_arctic"
+    permission: icon_sabertooth_arctic
+    resource:
+      material: BRICK
+      model_id: 2511
+      generate: false
+      model_path: rpg_mount_model/icon_sabertooth_arctic
+  icon_sabertooth_midnight:
+    display_name: "icon_sabertooth_midnight"
+    permission: icon_sabertooth_midnight
+    resource:
+      material: BRICK
+      model_id: 2512
+      generate: false
+      model_path: rpg_mount_model/icon_sabertooth_midnight
+  icon_sabertooth_savanna:
+    display_name: "icon_sabertooth_savanna"
+    permission: icon_sabertooth_savanna
+    resource:
+      material: BRICK
+      model_id: 2513
+      generate: false
+      model_path: rpg_mount_model/icon_sabertooth_savanna
+# 102441732657651685279684

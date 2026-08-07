@@ -1,0 +1,24 @@
+air:
+  material: PAPER
+  nbt:
+    itemsadder:
+      namespace: cw_items
+      id: air
+  mini-lore: []
+  components:
+    minecraft:hide_tooltip: {}
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10388.0
+bg:
+  material: PAPER
+  nbt:
+    itemsadder:
+      namespace: cw_items
+      id: b0
+  mini-lore: []
+  components:
+    minecraft:hide_tooltip: {}
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10389.0

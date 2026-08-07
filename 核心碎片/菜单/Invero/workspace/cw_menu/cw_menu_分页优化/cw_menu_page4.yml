@@ -1,0 +1,211 @@
+title: ":offset_-9::cw_x:"
+rows: 6
+
+activators:
+  command:
+    name: "cd_test3"
+    permission: "menu.cd"
+
+events:
+  pre_open: sound entity_item_pickup by 1 0
+  close: sound entity_item_pickup by 1 1
+
+rank_up: &rank_up
+  ia: sou1
+  name: "&x&0&0&D&6&F&FRANK等级提升"
+  action: menu open rank
+  lore: |-
+    &f
+    &f&c提升rank解锁更多特权&c菜单正在努力优化中..
+    &f
+    &f%img_left_click% &7点击打开
+    &f
+level_up: &level_up
+  ia: soul2
+  name: "&x&F&F&F&1&1&7冒险等级提升&7:%math_0_{PlayerCurrency_level}+1%"
+  lore: |-
+    &r
+    &r&f&l经验值: %PlayerCurrency_level_xp%&7/&f%math_0_128*(({PlayerCurrency_level}+1)^1.1)%
+    &r&f&l暂时的经验还无法升级哦~
+    &r
+  action: sound entity_item_break by 1 2
+  sub:
+    - rule: check papi "%math_0_{PlayerCurrency_level_xp}-128*(({PlayerCurrency_level}+1)^1.1)%" >= "0"
+      name: "&6&l喜报,你可以升级了!"
+      lore: |-
+        &r  
+        &r    &f&l经验值: &6%PlayerCurrency_level_xp%&7/&f%math_0_128*(({PlayerCurrency_level}+1)^1.1)%
+        &r    &6&l点我升级!
+        &r
+      action: |-
+        menu close
+        command "ply take %player_name% level_xp %math_0_128*(({PlayerCurrency_level}+1)^1.1)%" as console
+        command "ply give %player_name% level 1" as console
+        msg ":fuhao3:升级成功!"
+        sleep 0.1s
+        menu open rank
+        msg ":fuhao4:成就系统正在制作中,后续可以领取奖励"
+        sound entity_player_levelup by 1 2
+mcmmo: &mcmmo
+  ia: soul3
+  name: "&x&#&0&8&4&C&F&BmcMMO技能"
+  action: command "mmv open" as op
+  lore: |-
+    &f
+    &f&7一款老牌技能插件
+    &f
+    &f%img_left_click% &7点击查看
+    &f
+att: &att
+  ia: soul4
+  lore: |-
+    &f
+    &f&7一款老牌属性插件
+    &f
+    &f%img_left_click% &7点击查看
+    &f
+  name: "测试中"
+  action: command "attributeplus stats"
+########################################
+check: &check
+  ia: check
+  name: "&7当前选择的菜单"
+  lore: |-
+    &f
+    &f&7再次点击返回主页面
+    &f
+    &f%img_left_click% &7点击返回
+    &f
+  action: |-
+    menu open cw_menu_page0
+#空
+nu: &nu
+  ia: cw_ui_1
+  name: "§x§F§F§0§0§0§0敬§x§F§F§0§0§0§0请§x§F§F§0§0§0§0期§x§F§F§0§0§0§0待"
+  lore: |-
+    &f
+    &f&7这个功能可能还没有上线~再等等吧
+    &f
+    &f&m%img_left_click% &7&m点击打开
+    &f
+########################################
+layout: |-
+  ###1#2##F
+  #########
+  #3##H##4#
+  #########
+  ###5#6###
+  `L1``L2``L3`#X#`R1``R2``R3`
+
+items:
+  "F":
+    ia: cancel
+    name: "§x§d§1§f§b§1§4返回主页面"
+    lore: |-
+      &f
+      &f&7返回上一级目录
+      &f
+      &f%img_left_click% &7点击返回
+      &f
+    action: |-
+      menu open cw_menu_page0
+
+  "#":
+    texture:
+      source: ni
+      value: bg
+  "H":
+    update: 2000
+    head: "{{player name}}"
+    name: "&f当前修为"
+    customModelData: 10000
+  "h":
+    texture:
+      source: ni
+      value: air
+  "1":
+    <<: *rank_up
+  "2":
+    <<: *level_up
+  "3":
+    <<: *mcmmo
+  "4":
+    <<: *att
+  "5":
+    ia: soul5
+  "6":
+    ia: soul6
+  "7":
+    <<: *nu
+  "8":
+    <<: *nu
+  "9":
+    <<: *nu
+  "L1":
+    ia: gold_cog
+    name: "§x§F§B§E§C§0§5个人设置"
+    lore: |-
+      &f
+      &f&7一些有点好用的设置
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+    action: |-
+      menu open cw_menu_page1
+  "L2":
+    ia: category
+    name: "§x§3§5§E§7§F§B更多功能"
+    action: |-
+      menu open cw_menu_page2
+    lore: |-
+      &f
+      &f&7可以大大增强你的游戏体验!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "L3":
+    ia: bought
+    name: "§x§F§B§6§C§6§C商店大全"
+    action: |-
+      menu open cw_menu_page3
+    lore: |-
+      &f
+      &f&7运用商店会使你更轻松游玩!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "R1":
+    material: Enchanted_Book
+    name: "§x§F§B§0§2§A§B更多附魔"
+    action: command "nereusopus menu" as op
+    lore: |-
+      &f
+      &f&7服务器新增了300+附魔
+      &f
+      &f%img_left_click% &7点击查询
+      &f
+  "R2":
+    material: Knowledge_Book
+    name: "§x§0§5§F§F§8§2插件配方"
+    action: command 'recipes' as player
+    lore: |-
+      &f
+      &f&7服务器增加了大量&m原创&r&7配方
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "R3":
+    ia: clear
+    name: "§x§9§C§9§C§9§C垃圾桶"
+    action: command 'dispose' as player
+    lore: |-
+      &f
+      &f&7你会失去他们,真的很久!
+      &f
+      &f%img_left_click% &7点击打开
+      &f
+  "X":
+    ia: life_crystal
+    name: "§x§F§F§3§0§C§9我的修为"
+    lore: |-
+      &7当前页面

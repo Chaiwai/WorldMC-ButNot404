@@ -1,0 +1,294 @@
+cw_tool_tem:
+  name: "&r&f<物品名称>"
+  material: <物品材质>
+  components:
+    minecraft:item_model: minecraft:netherite_pickaxe
+    minecraft:max_damage: (Int) <fastcalc::<基础属性.耐久>+<基础属性.耐久>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.耐久.数值>>
+    minecraft:custom_model_data:
+      floats:
+        - (Float) <物品贴图>
+    minecraft:attribute_modifiers:
+      show_in_tooltip: (Byte) 0
+      modifiers:
+        - amount: (Double) <fastcalc::<cw_s.锻造属性.<cw_s.锻造品质>.攻速.数值>/100_2> #挖掘速度 /100 %
+          id: minecraft:ab23552c-eb89-4012-9c6e-70f8ca30eed8
+          type: minecraft:block_break_speed
+          operation: add_multiplied_base
+        - amount: (Double) <fastcalc::<基础属性.大小>-3_2>
+          id: minecraft:7817a1c9-3d7e-4875-99fa-7e1bd6b897f4
+          type: minecraft:block_interaction_range
+          operation: add_value
+        - amount: (Double) <fastcalc::<cw_s.锻造属性.<cw_s.锻造品质>.大小.数值>/100_2>
+          id: minecraft:7817a1c9-3d7e-4875-99fa-7e1bd6b897f6
+          type: minecraft:block_interaction_range
+          operation: add_multiplied_base
+      minecraft:repair_cost: (Int) 1
+
+  options:
+    update:
+      enable: true
+      refresh:
+        - material
+        - lore
+      protect-components:
+        - minecraft:custom_name
+        - minecraft:enchantments
+        - minecraft:damage
+
+  globalsections:
+    - cw_s.yml
+    - cw_common.yml
+  lore:
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  <物品简介>"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  镐力: <基础属性.镐力>" #木镐60 加一级+10
+    - "&r&f  速度: <cw_s.锻造属性.<cw_s.锻造品质>.攻速.前缀><cw_s.锻造属性.<cw_s.锻造品质>.攻速.数值>%"
+    - "&r&f  大小: &f<基础属性.大小>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.大小.前缀><fastcalc::<基础属性.大小>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.大小.数值>_2>&7)"
+    - "&r&f  耐久: &f<基础属性.耐久>&7(&7<cw_s.锻造属性.<cw_s.锻造品质>.耐久.前缀><fastcalc::<基础属性.耐久>*+0.01*<cw_s.锻造属性.<cw_s.锻造品质>.耐久.数值>>&7)"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  锻造品质: <cw_s.锻造品质>"
+    - "&r&f"
+    - "&r&f  灵魂绑定: <cw_common.绑定.绑定名称>"
+  nbt:
+    itemsadder:
+      namespace: cw_made_tool
+      id: pickaxe_level_<属性.镐力> #-4木镐
+
+    PublicBukkitValues:
+      itemsoulbind:soulbinduuid: <cw_common.绑定.绑定uuid>
+cw_p0_1:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "镐铜"
+    物品贴图: 10006
+    物品材质: "iron_pickaxe"
+    物品简介: "这是一把稿子13123"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 80 # 60=木镐 110开始
+      大小: 3
+      耐久: 190
+
+cw_p_60_仙人掌:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "仙人镐"
+    物品贴图: 10002
+    物品材质: "wooden_pickaxe"
+    物品简介: "扎手..."
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 60 # 60=木镐 110开始
+      大小: 3
+      耐久: 59
+
+cw_p_70_骨头:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "骨镐"
+    物品贴图: 10001
+    物品材质: "golden_pickaxe"
+    物品简介: "我得跟你挑个刺"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 70 # 60=木镐 110开始
+      大小: 3
+      耐久: 250
+
+cw_p_110_end:
+  inherit: cw_tool_tem
+  components:
+    minecraft:item_model: minecraft:diamond_pickaxe
+  sections:
+    #基础
+    物品名称: "末影合金镐"
+    物品贴图: 10000
+    物品材质: "netherite_pickaxe"
+    物品简介: "初窥虚空，暂避灾厄"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 110 # 60=木镐 110开始
+      大小: 3
+      耐久: 2222
+
+cw_p_120_end_pro:
+  inherit: cw_tool_tem
+  components:
+    minecraft:item_model: minecraft:diamond_pickaxe
+  sections:
+    #基础
+    物品名称: "变异末影合金镐"
+    物品贴图: 10001
+    物品材质: "netherite_pickaxe"
+    物品简介: "深谙虚影，劫难如戏"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 120 # 60=木镐 110开始
+      大小: 3
+      耐久: 2444
+cw_p_130_猩红:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "死亡使者镐"
+    物品贴图: 10007
+    物品材质: "netherite_pickaxe"
+    物品简介: "血肉铸就，以血续锋"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 130 # 60=木镐 110开始
+      大小: 3
+      耐久: 64
+cw_p_130_腐化:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "梦魇镐"
+    物品贴图: 10015
+    物品材质: "netherite_pickaxe"
+    物品简介: "暗影为食，惧暗愈利"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 130 # 60=木镐 110开始
+      大小: 3
+      耐久: 2666
+cw_p_140_狱岩:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "熔岩镐"
+    物品贴图: 10012
+    物品材质: "netherite_pickaxe"
+    物品简介: "焚身取力，浴火不侵"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 140 # 60=木镐 110开始
+      大小: 3.5
+      耐久: 2900
+cw_p_160_钴:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "钴镐"
+    物品贴图: 10005
+    物品材质: "netherite_pickaxe"
+    物品简介: "潮神之赐，海恩永驻"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 160 # 60=木镐 110开始
+      大小: 3.5
+      耐久: 3000
+cw_p_170_钯金:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "钯金镐"
+    物品贴图: 10017
+    物品材质: "netherite_pickaxe"
+    物品简介: "荒原之髓，烈日炼锋"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 170 # 60=木镐 110开始
+      大小: 3.5
+      耐久: 3001
+cw_p_180_山铜:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "山铜镐"
+    物品贴图: 10016
+    物品材质: "netherite_pickaxe"
+    物品简介: "草原精魄，狂风塑形"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 180 # 60=木镐 110开始
+      大小: 3.6
+      耐久: 3200
+cw_p_190_秘银:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "秘银镐"
+    物品贴图: 10013
+    物品材质: "netherite_pickaxe"
+    物品简介: "寒域冰心，雪铸永恒"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 190 # 60=木镐 110开始
+      大小: 3.6
+      耐久: 3201
+cw_p_200_精金:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "精金镐"
+    物品贴图: 10000
+    物品材质: "netherite_pickaxe"
+    物品简介: "沙漠金魄，烈日熔锋"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 200 # 60=木镐 110开始
+      大小: 3.7
+      耐久: 3600
+cw_p_210_钛金:
+  inherit: cw_tool_tem
+  sections:
+    #基础
+    物品名称: "钛金镐"
+    物品贴图: 10026
+    物品材质: "netherite_pickaxe"
+    物品简介: "深穴暗晶，古菌共生"
+    绑定_enable: false #默认关闭{"绑定.enable":"true"}
+    #属性
+    属性:
+      镐力: <fastcalc::<基础属性.镐力>/10-10>
+    基础属性:
+      镐力: 200 # 60=木镐 110开始
+      大小: 3.7
+      耐久: 3601

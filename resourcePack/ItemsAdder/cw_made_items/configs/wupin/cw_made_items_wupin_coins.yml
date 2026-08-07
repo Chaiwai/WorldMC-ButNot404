@@ -1,0 +1,61 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+items: #[物品配置]**
+  cw_made_items_coin0: #[物品的内部名]**
+    display_name: "coin0" #[物品显示名]**
+    resource: #[替换的原版物品ID]**
+      material: emerald #[原版物品ID]**
+      generate: true #[图片或模型[2D图片]]**
+      textures: #[图片或模型路径]**
+        - coin/c_0.png #[图片或模型[2D图片]]**
+  cw_made_items_coin1:
+    display_name: "coin1"
+    resource:
+      material: emerald
+      generate: true
+      textures:
+        - coin/c_1.png
+  cw_made_items_coin2:
+    display_name: "coin2"
+    resource:
+      material: emerald
+      generate: true
+      textures:
+        - coin/c_2.png
+  cw_made_items_coin3:
+    display_name: "coin3"
+    resource:
+      material: emerald
+      generate: true
+      textures:
+        - coin/c_3.png
+  cw_made_items_slime_coin0:
+    display_name: "slime_coin0"
+    resource:
+      material: emerald
+      generate: true
+      textures:
+        - coin/c_slime_0.png
+  cw_made_items_slime_coin1:
+    display_name: "slime_coin1"
+    resource:
+      material: emerald
+      generate: true
+      textures:
+        - coin/c_slime_1.png
+  cw_made_items_slime_coin2:
+    display_name: "slime_coin2"
+    resource:
+      material: emerald
+      generate: true
+      textures:
+        - coin/c_slime_2.png
+  cw_made_items_slime_coin3:
+    display_name: "slime_coin3"
+    resource:
+      material: emerald
+      generate: true
+      textures:
+        - coin/c_slime_3.png

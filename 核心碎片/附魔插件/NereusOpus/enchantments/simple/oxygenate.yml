@@ -1,0 +1,29 @@
+basic:
+  id: oxygenate
+  name: 制氧大帝
+  enable: true
+  max-level: 10
+display:
+  description:
+    general: 在水中破坏方块时可以获得额外氧气-神
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- pickaxes
+- axes
+- shovels
+- hoes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    oxygen: :{level}

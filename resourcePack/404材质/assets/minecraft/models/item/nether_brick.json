@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/nether_brick"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"ore:shroomite_ingot"},{"predicate":{"custom_model_data":10001},"model":"item/nether_brick"}]}

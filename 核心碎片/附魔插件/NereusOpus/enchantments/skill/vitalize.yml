@@ -1,0 +1,34 @@
+basic:
+  id: vitalize
+  name: 急救
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: '§e右击§7将自身生命值恢复至满（冷却时间: §a180秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- swords
+- axes
+- pickaxes
+- shovels
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_PLAYER_LEVELUP
+    cooldown: 180
+params:
+  particle:
+    type: HEART
+    amount: 1

@@ -1,0 +1,66 @@
+info:
+  namespace: katana_set
+items:
+  katana_black:
+    display_name: Black Katana
+    permission: permission_model
+    lore:
+      - 'Dark Katana'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: katana_set/katana_black
+  katana_red:
+    display_name: Red Katana
+    permission: permission_model
+    lore:
+      - 'Red Katana'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: katana_set/katana_red
+  katana_orange:
+    display_name: Fire Katana
+    permission: permission_model
+    lore:
+      - 'Fire Katana'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: katana_set/katana_orange
+  katana_blue:
+    display_name: Blue Katana
+    permission: permission_model
+    lore:
+      - 'Blue Katana'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: katana_set/katana_blue
+  katana_purple:
+    display_name: Purple Katana
+    permission: permission_model
+    lore:
+      - 'Purple Katana'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: katana_set/katana_purple
+  katana_yellow:
+    display_name: Yellow Katana
+    permission: permission_model
+    lore:
+      - 'Yellow Katana'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: katana_set/katana_yellow
+  katana_green:
+    display_name: Green Katana
+    permission: permission_model
+    lore:
+      - 'Green Katana'
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: katana_set/katana_green

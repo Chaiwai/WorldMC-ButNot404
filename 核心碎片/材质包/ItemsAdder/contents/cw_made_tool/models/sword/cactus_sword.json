@@ -1,0 +1,119 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Made with Blockbench",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "cw_made_tool:auto/sword/cactus_sword"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -180,
+        90,
+        -155
+      ],
+      "translation": [
+        0,
+        8.25,
+        0
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        0.6
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        155.5
+      ],
+      "translation": [
+        -1.75,
+        -9.5,
+        0.5
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        0.6
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        169,
+        93,
+        -120
+      ],
+      "translation": [
+        7.25,
+        5.5,
+        -3
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        0.52
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -1,
+        -108,
+        -180
+      ],
+      "translation": [
+        2,
+        -1.75,
+        4.25
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        0.6
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -3.75,
+        0
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        1
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "translation": [
+        -11,
+        9.75,
+        -0.5
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ]
+    }
+  }
+}

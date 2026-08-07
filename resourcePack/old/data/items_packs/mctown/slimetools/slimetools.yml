@@ -1,0 +1,70 @@
+info:
+  namespace: "mctown"
+categories:
+  mctownslimetools:
+    enabled: true
+    icon: "mctown:slime_axe"
+    name: '史莱姆工具'
+    permission: "ia.menu.mctown"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:slime_axe
+      - mctown:slime_hoe
+      - mctown:slime_pickaxe
+      - mctown:slime_shield
+      - mctown:slime_shovel
+      - mctown:slime_sword
+items:
+  slime_axe:
+    display_name: "&2&l史莱姆斧头"
+    resource:
+      material: diamond_axe
+      generate: false
+      model_path: slimetools/slime_axe/0_green_axe
+  slime_hoe:
+    display_name: "&2&l史莱姆锄头"
+    resource:
+      material: diamond_hoe
+      generate: false
+      model_path: slimetools/slime_hoe/0_green_hoe
+  slime_pickaxe:
+    display_name: "&2&l史莱姆稿子"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: slimetools/slime_pickaxe/0_green_pickaxe
+  slime_shield:
+    display_name: "&2&l史莱姆盾牌"
+    resource:
+      material: shield
+      generate: false
+      model_path: slimetools/slime_shield/0_green_shield
+  slime_shovel:
+    display_name: "&2&l史莱姆铲子"
+    resource:
+      material: diamond_shovel
+      generate: false
+      model_path: slimetools/slime_shovel/0_green_shovel
+  slime_sword:
+    display_name: "&2&l史莱姆剑"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: slimetools/slime_sword/0_green_sword
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 

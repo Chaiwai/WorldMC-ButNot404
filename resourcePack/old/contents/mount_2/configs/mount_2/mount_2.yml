@@ -1,0 +1,124 @@
+info:
+  namespace: mount_2
+items:
+  icon_capybara:
+    display_name: "icon_capybara"
+    permission: icon_capybara
+    resource:
+      material: BRICK
+      model_id: 2520
+      generate: false
+      model_path: rpg_mount_2_model/icon_capybara
+  icon_horse_glacial:
+    display_name: "icon_horse_glacial"
+    permission: icon_horse_glacial
+    resource:
+      material: BRICK
+      model_id: 2521
+      generate: false
+      model_path: rpg_mount_2_model/icon_horse_glacial
+  icon_horse_magma:
+    display_name: "icon_horse_magma"
+    permission: icon_horse_magma
+    resource:
+      material: BRICK
+      model_id: 2522
+      generate: false
+      model_path: rpg_mount_2_model/icon_horse_magma
+  icon_horse_pegasus:
+    display_name: "icon_horse_pegasus"
+    permission: icon_horse_pegasus
+    resource:
+      material: BRICK
+      model_id: 2523
+      generate: false
+      model_path: rpg_mount_2_model/icon_horse_pegasus
+  icon_horse_spartan:
+    display_name: "icon_horse_spartan"
+    permission: icon_horse_spartan
+    resource:
+      material: BRICK
+      model_id: 2524
+      generate: false
+      model_path: rpg_mount_2_model/icon_horse_spartan
+  icon_horse_unicorn:
+    display_name: "icon_horse_unicorn"
+    permission: icon_horse_unicorn
+    resource:
+      material: BRICK
+      model_id: 2525
+      generate: false
+      model_path: rpg_mount_2_model/icon_horse_unicorn
+  icon_kitsune_demonic:
+    display_name: "icon_kitsune_demonic"
+    permission: icon_kitsune_demonic
+    resource:
+      material: BRICK
+      model_id: 2526
+      generate: false
+      model_path: rpg_mount_2_model/icon_kitsune_demonic
+  icon_kitsune_inferno:
+    display_name: "icon_kitsune_inferno"
+    permission: icon_kitsune_inferno
+    resource:
+      material: BRICK
+      model_id: 2527
+      generate: false
+      model_path: rpg_mount_2_model/icon_kitsune_inferno
+  icon_kitsune_normal:
+    display_name: "icon_kitsune_normal"
+    permission: icon_kitsune_normal
+    resource:
+      material: BRICK
+      model_id: 2528
+      generate: false
+      model_path: rpg_mount_2_model/icon_kitsune_normal
+  icon_phantom_ender:
+    display_name: "icon_phantom_ender"
+    permission: icon_phantom_ender
+    resource:
+      material: BRICK
+      model_id: 2529
+      generate: false
+      model_path: rpg_mount_2_model/icon_phantom_ender
+  icon_phantom_ghost:
+    display_name: "icon_phantom_ghost"
+    permission: icon_phantom_ghost
+    resource:
+      material: BRICK
+      model_id: 2530
+      generate: false
+      model_path: rpg_mount_2_model/icon_phantom_ghost
+  icon_phoenix_darkflame:
+    display_name: "icon_phoenix_darkflame"
+    permission: icon_phoenix_darkflame
+    resource:
+      material: BRICK
+      model_id: 2531
+      generate: false
+      model_path: rpg_mount_2_model/icon_phoenix_darkflame
+  icon_phoenix_flame:
+    display_name: "icon_phoenix_flame"
+    permission: icon_phoenix_flame
+    resource:
+      material: BRICK
+      model_id: 2532
+      generate: false
+      model_path: rpg_mount_2_model/icon_phoenix_flame
+  icon_phoenix_light:
+    display_name: "icon_phoenix_light"
+    permission: icon_phoenix_light
+    resource:
+      material: BRICK
+      model_id: 2533
+      generate: false
+      model_path: rpg_mount_2_model/icon_phoenix_light
+  icon_phoenix_thunder:
+    display_name: "icon_phoenix_thunder"
+    permission: icon_phoenix_thunder
+    resource:
+      material: BRICK
+      model_id: 2534
+      generate: false
+      model_path: rpg_mount_2_model/icon_phoenix_thunder
+# 196485347657651685279744

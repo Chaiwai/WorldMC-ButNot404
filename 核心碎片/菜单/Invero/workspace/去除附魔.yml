@@ -1,0 +1,39 @@
+title: "&0当前界面退出不返还金币!!!"
+rows: 3
+
+activators:
+layout: |-
+  #########
+  ####A####
+  #########
+
+tasks:
+  infoUpdate:
+    period: 20
+    run:
+      type: kether
+      value: |
+        icons update
+
+items:
+  "A":
+    ia: redpacket
+    name: "&d开始去除附魔"
+    lore: |-
+      &r
+      &r &7>&a点击领取&7<
+      &r
+    action:
+      catch: input_text
+      cancel: ["cancel"]
+      beforeInput: |
+        tell "&a首先将需要去除附魔的装备拿在手中"
+        tell "&b随后聊天栏输入需要去除的附魔"
+        tell "&7输入 &f'cancel' &c来取消操作(不返还金币)"
+      afterInput: sleep 0.1s
+        command "nereusopus enchant {{&input_text}} 0 %player_name%" as op
+        menu close
+      onCancel: |
+        title "&c你已取消当前操作" subtitle pass
+      onRepeat: |
+        tell "?"

@@ -1,0 +1,33 @@
+basic:
+  id: anger_artifact
+  name: §c§o怒火
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 村民愤怒时产生的粒子
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 皮肤
+targets:
+- pickaxes
+- swords
+- axes
+- elytra
+- bow
+- crossbow
+- trident
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    amount: 1

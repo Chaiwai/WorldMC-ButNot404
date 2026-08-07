@@ -1,0 +1,1583 @@
+ASSASSIN_BLADE:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2011.0
+    name: <gradient:#db000f:#1c0002:#db000f>Blade of Assassin
+    lore:
+      - <gradient:#db000f:#1c0002:#db000f>The blade of an Assassin
+    displayed-type: <gradient:#db000f:#1c0002:#db000f>Assassin
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BLADE_SLASH
+        mode: LEFT_CLICK
+        cooldown: 0.0
+      ability2:
+        type: DASH
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: DAGGER_THROW
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 3.0
+      ability4:
+        type: SHADOW_WALK
+        mode: SNEAK
+      ability5:
+        type: BLADE_DANCE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 5.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+ASSASSIN_BLADE_SHINY:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10056.0
+    name: "&x&c&d&0&0&0&e暗&x&d&e&4&5&2&8影&x&e&e&8&9&4&2弑&x&f&f&c&e&5&c刃"
+    lore:
+      - ""
+      - ""
+      - "  &f蕲    &x&c&d&0&0&0&e&l暗&x&d&e&4&5&2&8&l影&x&e&e&8&9&4&2&l步&x&f&f&c&e&5&c&l伐     &8[&7冷却:&f10.0s&8]"
+      - ""
+      - "             &f㶐 &7触发技能后施法者进入 &x&c&d&0&0&0&e暗&x&d&e&4&5&2&8影 &7状态"
+      - "             &7且拥有 &f隐身 &7与 &f速度 &7加成 并强化普通"
+      - "             &7攻击 但释放技能或攻击会提前退出状态"
+      - "       §f䕓"
+      - ""
+      - "  &f罴    &x&c&d&0&0&0&e&l暗&x&d&e&4&5&2&8&l影&x&e&e&8&9&4&2&l冲&x&f&f&c&e&5&c&l刺     &8[&7冷却:&f10.0s&8]"
+      - ""
+      - "             &f㵗 &7触发技能后向施法者前方"
+      - "             &7进行中距离冲刺 并对途中的"
+      - "             &7所有目标造成一定的 <#a72d00>固定伤害"
+      - "       §f䕓"
+      - ""
+      - "  &f愆    &x&c&d&0&0&0&e&l暗&x&d&e&4&5&2&8&l影&x&e&e&8&9&4&2&l飞&x&f&f&c&e&5&c&l刃     &8[&7冷却:&f15.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㵗 &7触发技能后向施法者指针处"
+      - "             &7释放三道远距离分散飞刃 击中目标后"
+      - "             &7造成一定的 <#a72d00>固定伤害"
+      - "       §f䕓"
+      - ""
+      - "  &f遪    &x&c&d&0&0&0&e&l暗&x&d&e&4&5&2&8&l影&x&e&e&8&9&4&2&l之&x&f&f&c&e&5&c&l舞     &8[&7冷却:&f60.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㒦 &7触发技能后在施法者前方"
+      - "             &7造成多次暗影斩击 若施法者周围有目标"
+      - "             &7则会瞬移至其身后 并造成 <#a72d00>固定伤害"
+    displayed-type:
+      \n&f &f &f &f &f 此,即是黑暗中那阴险而又惊悚的鬼影!\n&f &f &f 在深夜之中扼杀一切敌人!悄然无声,静谧无\n&f
+      &f &f 息,夺其性命!\n&f
+    attack-damage: 36.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BLADE_SLASH
+        mode: LEFT_CLICK
+        cooldown: 0.0
+      ability2:
+        type: DASH
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+      ability3:
+        type: DAGGER_THROW
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 15.0
+      ability4:
+        type: SHADOW_WALK
+        mode: SNEAK
+        cooldown: 10.0
+      ability5:
+        type: BLADE_DANCE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 60.0
+    disable-attack-passive: true
+    attack-speed: 1.5
+    disable-death-drop: true
+    critical-strike-chance: 5.2
+    critical-strike-power: 20.0
+    item-particles:
+      type: OFFSET
+      particle: FLAME
+
+MAGE0:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2021.0
+    name: "&x&8&6&0&0&f&f异&x&b&6&6&6&f&f界&x&e&7&c&c&f&f混&x&f&f&c&c&c&c元&x&f&f&6&6&6&6魔&x&f&f&0&0&0&0杖"
+    lore:
+      - ""
+      - ""
+      - "  &f龘    &x&f&f&0&0&0&0&l炎&x&f&f&2&2&2&2&l爆&x&f&f&4&4&4&4&l魔&x&f&f&6&6&6&6&l弹     &8[&7冷却:&f1.0s&8]"
+      - ""
+      - "             &f㒦 &7触发技能后向施法者指针方向"
+      - "             &7释放一颗炎爆弹 击中目标时爆裂"
+      - "             &7同时对周围的目标造成 <#a72d00>范围伤害"
+      - "       §f䕓"
+      - ""
+      - "  &f鑪    &x&0&0&a&c&f&f&l极&x&5&5&c&4&f&b&l冰&x&a&a&d&c&f&8&l突&x&f&f&f&4&f&4&l刺     &8[&7冷却:&f3.0s&8]"
+      - ""
+      - "             &f㵗 &7触发技能后向施法者前方"
+      - "             &7释放一道冰刺 并对轨迹上的"
+      - "             &7目标造成一定的 <#a72d00>固定伤害"
+      - "       §f䕓"
+      - ""
+      - "  &f鏗    &x&f&f&0&0&0&0&l狱&x&f&f&2&2&2&2&l链&x&f&f&4&4&4&4&l之&x&f&f&6&6&6&6&l怒     &8[&7冷却:&f30.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㒦 &7触发技能后在施法者指针处"
+      - "             &7从天召唤四道狱链扎入地面 短时间后"
+      - "             &7引起中范围的爆炸 并造成 <#a72d00>范围伤害"
+      - "       §f䕓"
+      - ""
+      - "  &f镳    &x&f&f&0&0&0&0&l天&x&f&f&2&2&2&2&l陨&x&f&f&4&4&4&4&l轰&x&f&f&6&6&6&6&l击     &8[&7冷却:&f60.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㵗 &7触发技能后在施法者前方"
+      - "             &7从天上召来一颗陨石 向下轰击地面后"
+      - "             &7引起中范围的爆炸 并造成 <#a72d00>范围伤害"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 凝之!源许元之界之力尔乎!混其元之力!\n&f &f &f 归其心一元!遂其成此杖!  释之!融许元之\n&f &f &f 界之力尔矣!涌其元之力!归其魄一元!遂其\n&f
+      &f &f 除敌者!\n&r
+    attack-damage: 9.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: FIRE_BALL
+        mode: LEFT_CLICK
+        damage: 3
+        duration: 3
+        cooldown: 1.0
+      ability3:
+        type: METEOR
+        mode: SHIFT_RIGHT_CLICK
+        damage: 6
+        duration: 5
+        cooldown: 60.0
+      ability4:
+        type: FROST_NOVA
+        damage: 4
+        cooldown: 3.0
+        mode: RIGHT_CLICK
+      ability6:
+        type: INFERNO_CHAINS
+        mode: SHIFT_LEFT_CLICK
+        damage: 10
+        duration: 5
+        cooldown: 30.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+MAGE_STAFF_SHINY:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2022.0
+    name: <gradient:#6ef0ff:#fffd9c:#6ef0ff>Shiny Staff of Mage
+    lore:
+      - <gradient:#6ef0ff:#fffd9c:#6ef0ff>The staff of a Mage
+    displayed-type: <gradient:#6ef0ff:#5e76ff:#6ef0ff>Mage
+    attack-damage: 6.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: FIRE_BALL
+        mode: LEFT_CLICK
+        damage: 3
+        duration: 3
+        cooldown: 1.0
+      ability2:
+        type: BLINK_
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: METEOR
+        mode: SHIFT_RIGHT_CLICK
+        damage: 6
+        duration: 5
+        cooldown: 4.0
+      ability4:
+        type: FROST_NOVA
+        damage: 4
+        mode: SNEAK
+      ability5:
+        type: ARCANE_MISSILE
+        damage: 3
+        mode: TIMER
+      ability6:
+        type: INFERNO_CHAINS
+        mode: SHIFT_LEFT_CLICK
+        damage: 10
+        duration: 5
+        cooldown: 6.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+ARCHER_BOW:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2019.0
+    name: <gradient:#30f060:#f05d30:#30f060>Bow of Archer
+    lore:
+      - <gradient:#30f060:#f05d30:#30f060>The bow of an Archer
+    displayed-type: <gradient:#30f060:#f05d30:#30f060>Archer
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: QUICK_SHOT
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 1.0
+      ability2:
+        type: BACKSTEP
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: DEADLY_JAVELIN
+        mode: SHIFT_RIGHT_CLICK
+        damage: 6
+        duration: 2
+        cooldown: 3.0
+      ability4:
+        type: WINDRAZOR
+        damage: 4
+        duration: 5
+        mode: SNEAK
+      ability5:
+        type: DRAGON_PIERCER
+        mode: SHIFT_LEFT_CLICK
+        damage: 15
+        duration: 4
+        cooldown: 7.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+ARCHER_BOW_SHINY:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2020.0
+    name: <gradient:#30f060:#fffc81:#30f060>Shiny Bow of Archer
+    lore:
+      - <gradient:#30f060:#fffc81:#30f060>The bow of an Archer
+    displayed-type: <gradient:#30f060:#f05d30:#30f060>Archer
+    attack-damage: 6.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: QUICK_SHOT
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 1.0
+      ability2:
+        type: BACKSTEP
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: DEADLY_JAVELIN
+        mode: SHIFT_RIGHT_CLICK
+        damage: 6
+        duration: 2
+        cooldown: 3.0
+      ability4:
+        type: WINDRAZOR
+        damage: 4
+        duration: 5
+        mode: SNEAK
+      ability5:
+        type: DRAGON_PIERCER
+        mode: SHIFT_LEFT_CLICK
+        damage: 15
+        duration: 4
+        cooldown: 7.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+THOR_HAMMER:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2007.0
+    name: <gradient:#e8d210:#22aee6:#e8d210>Hammer of Thor
+    lore:
+      - <gradient:#e8d210:#22aee6:#e8d210>A lightning hammer used by Thor
+    displayed-type: <gradient:#e8d210:#22aee6:#e8d210>Thunder
+    attack-damage: 4.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: HAMMER_STRIKE
+        mode: LEFT_CLICK
+      ability2:
+        type: HAMMER_THROW_MMOITEMS
+        mode: RIGHT_CLICK
+        cooldown: 3.0
+      ability3:
+        type: THUNDER_SHOCKWAVE
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 3.0
+      ability4:
+        type: ASGARDIAN_FURY
+        mode: SNEAK
+      ability5:
+        type: THUNDER_SMASH
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 7.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+THOR_HAMMER_SHINY:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2008.0
+    name: <gradient:#ffef99:#e8d210:#ffef99>Shiny Hammer of Thor
+    lore:
+      - <gradient:#ffef99:#e8d210:#ffef99>A lightning hammer used by Thor
+    displayed-type: <gradient:#e8d210:#22aee6:#e8d210>Thunder
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: HAMMER_STRIKE
+        mode: LEFT_CLICK
+      ability2:
+        type: HAMMER_THROW_SHINY_MMOITEMS
+        mode: RIGHT_CLICK
+        cooldown: 3.0
+      ability3:
+        type: THUNDER_SHOCKWAVE
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 3.0
+      ability4:
+        type: ASGARDIAN_FURY
+        mode: SNEAK
+      ability5:
+        type: THUNDER_SMASH
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 7.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+SHAMAN_SCEPTER:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2015.0
+    name: <gradient:#8df229:#fab712:#8df229>Scepter of Shaman
+    lore:
+      - <gradient:#8df229:#fab712:#8df229>The scepter of a Shaman
+    displayed-type: <gradient:#8df229:#fab712:#8df229>Shaman
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: LIGHT_BEAM
+        mode: LEFT_CLICK
+        cooldown: 2.0
+      ability2:
+        type: HEAL_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: TOTEM_FORM
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 1.0
+      ability4:
+        type: HEALING_TOTEM
+        mode: SNEAK
+      ability5:
+        type: ANCESTRAL_POWER
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 7.0
+      ability6:
+        type: SELF_RECOVERY
+        mode: TIMER
+        cooldown: 1.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+SHAMAN_SCEPTER1:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2015.0
+    name: "&x&6&c&f&b&0&c奥&x&7&9&f&b&1&b克&x&8&6&f&c&2&a王&x&9&3&f&c&3&9的&x&a&0&f&d&4&8权&x&a&d&f&d&5&7杖"
+    lore:
+      - ""
+      - ""
+      - "  &fと    &x&6&c&f&b&0&c&l圣&x&7&9&f&b&1&b&l愈&x&8&6&f&c&2&a&l图&x&9&3&f&c&3&9&l腾     &8[&7冷却:&f30.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㵗 &7触发技能后在施法者指针处"
+      - "             &7生成一个短时间治愈小范围玩家的图腾"
+      - "             &7在图腾范围内的玩家持续恢复 <#ff3400>生命值"
+      - ""
+      - "  &fん    &x&6&c&f&b&0&c&l圣&x&7&9&f&b&1&b&l罚&x&8&6&f&c&2&a&l之&x&9&3&f&c&3&9&l光     &8[&7冷却:&f60.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㒦 &7触发技能后在施法者的前方"
+      - "             &7形成一道巨型垂直激光 并持续向前"
+      - "             &7移动 对轨迹上的敌人造成 <#a72d00>范围伤害"
+      - "       §f䕓"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 噢!你感受到了吗?这是来自兽人王的\n&f &f &f 强大力量!这是统领兽人全族的力量!但?\n&f &f &f 你,能足以驾驭这份力量吗?\n&0奥克王的权杖
+    attack-damage:
+      base: 18.0
+      scale: 18.0
+      spread: 0.1
+      max-spread: 0.1
+    unbreakable: true
+    ability:
+      ability1:
+        type: LIGHT_BEAM
+        mode: LEFT_CLICK
+        cooldown: 2.0
+      ability2:
+        type: HEAL_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+      #      ability3:
+      #        type: TOTEM_FORM
+      #        mode: SHIFT_RIGHT_CLICK
+      #        cooldown: 30.0
+      ability4:
+        type: HEALING_TOTEM
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 30.0
+      ability5:
+        type: ANCESTRAL_POWER
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 60.0
+      ability6:
+        type: SELF_RECOVERY
+        mode: TIMER
+        cooldown: 1.0
+    max-durability: 1000.0
+    will-break: true
+    disable-attack-passive: true
+    attack-speed: 0.9
+    critical-strike-chance:
+      base: 3.0
+      scale: 3.0
+      spread: 0.1
+      max-spread: 0.1
+    critical-strike-power:
+      base: 5.0
+      scale: 5.0
+      spread: 0.1
+      max-spread: 0.1
+# kjczEnaWdzYHJnN0J1V3hzYrRlT1kEVOhXS61kMJRlT4VFVWZURklVR0AjRlBnThJUZux2M
+NECROMANCER_STAFF:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2013.0
+    name: <gradient:#2fccb2:#0fa2db:#2fccb2>Staff of Necromancer
+    lore:
+      - <gradient:#2fccb2:#0fa2db:#2fccb2>The staff of an Necromancer
+    displayed-type: <gradient:#2fccb2:#0fa2db:#2fccb2>Necromancer
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: ETERNAL_FLAME
+        mode: LEFT_CLICK
+        cooldown: 2.0
+      ability2:
+        type: WHEEL_OF_ETERNAL_FLAME
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+      ability3:
+        type: WILL_O_WISPS
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+      ability4:
+        type: EMPOWER_MINIONS
+        mode: SNEAK
+      ability5:
+        type: SKELETAL_MINION
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 15.0
+      ability6:
+        type: INCARNATION
+        mode: TIMER
+        cooldown: 80.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+NECROMANCER_STAFF_SHINY:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2014.0
+    name: <gradient:#2fccb2:#ffce5c:#2fccb2>亡灵巫师邪杖
+    lore:
+      - <gradient:#2fccb2:#ffce5c:#2fccb2>The staff of a Necromancer
+    displayed-type: <gradient:#2fccb2:#0fa2db:#2fccb2>Necromancer
+    attack-damage: 6.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: ETERNAL_FLAME
+        mode: LEFT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: WILL_O_WISPS
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        mana: 10.0
+      ability4:
+        type: EMPOWER_MINIONS
+        mode: SNEAK
+      ability5:
+        type: SKELETAL_MINION
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 15.0
+      ability6:
+        type: INCARNATION
+        mode: TIMER
+        cooldown: 80.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+NULL_BOW:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2009.0
+    name: <gradient:#c70fd4:#550680:#c70fd4>Bow of Null
+    lore:
+      - <gradient:#c70fd4:#550680:#c70fd4>An unknown bow used by Null
+    displayed-type: <gradient:#c70fd4:#550680:#c70fd4>Void
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: VOID_ARROW
+        mode: RIGHT_CLICK
+        cooldown: 1.0
+      ability2:
+        type: RETREAT
+        mode: LEFT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: BLACKHOLE_SHOT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 5.0
+      ability4:
+        type: VOID_RAIN
+        mode: SNEAK
+      ability5:
+        type: PULSE_MODE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+NULL_BOW_SHINY:
+  base:
+    material: PAPER
+    custom-model-data: 10293.0
+    name: "&x&5&8&0&0&f&f虚&x&7&1&0&0&f&f无&x&8&b&0&0&f&f魔&x&a&4&0&0&f&f杖"
+    lore:
+      - ""
+      - ""
+      - "  &fし    &x&5&8&0&0&f&f&l虚&x&7&1&0&0&f&f&l无&x&8&b&0&0&f&f&l诡&x&a&4&0&0&f&f&l弹     &8[&7冷却:&f1.0s&8]"
+      - ""
+      - "             &f㒦 &7触发技能后向施法者指针方向"
+      - "             &7释放一颗诡弹 击中目标时有概率"
+      - "             &7对其造成 <#a72d00>固定伤害"
+      - "       §f䕓"
+      - ""
+      - "  &fぱ    &x&5&8&0&0&f&f&l虚&x&7&1&0&0&f&f&l无&x&8&b&0&0&f&f&l黑&x&a&4&0&0&f&f&l洞     &8[&7冷却:&f30.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㒦 &7触发技能后向施法者指针处"
+      - "             &7抛出一枚飞弹 击中后产生一个虚无黑洞"
+      - "             &7其存在期间会吸引除施法者以外的目标"
+      - "       §f䕓"
+      - ""
+      - "  &fが    &x&5&8&0&0&f&f&l虚&x&7&1&0&0&f&f&l无&x&8&b&0&0&f&f&l回&x&a&4&0&0&f&f&l响     &8[&7冷却:&f60.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㵗 &7触发技能后施法者将进入 &x&5&8&0&0&f&f虚&x&7&1&0&0&f&f无 &7状态"
+      - "             &7期间施法者机动性大幅下降 但连续 &f㒦 &7可快速"
+      - "             &7释放声波攻击 且造成一定的 <#a72d00>固定伤害"
+    attack-damage: 23.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: VOID_ARROW
+        mode: LEFT_CLICK
+        cooldown: 1.0
+      ability4:
+        type: BLACKHOLE_SHOT
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 30.0
+      ability5:
+        type: PULSE_MODE
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 60.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+    displayed-type: \n&7 一件神秘的游戏武器，由虚空能量制成。\n&7 具有强大的魔力和破坏力\n&7
+
+DRAGON0:
+  base:
+    material: STONE_SWORD
+    name: "&x&e&8&f&f&0&0耀&x&f&0&e&9&0&1金&x&f&7&d&2&0&3战&x&f&f&b&c&0&4剑"
+    lore:
+      - ""
+      - ""
+      - "  &f爘    &x&e&8&f&f&0&0&l耀&x&f&0&e&9&0&1&l光&x&f&7&d&2&0&3&l跃&x&f&f&b&c&0&4&l动     &8[&7冷却:&f10.0s&8]"
+      - ""
+      - "             &f㵗 &7触发技能后向施法者指针位置"
+      - "             &7进行一个中段距离的跳跃 能够灵活"
+      - "             &7改变自身的位置"
+      - "       §f䕓"
+      - ""
+      - "  &f蔕    &x&e&8&f&f&0&0&l耀&x&f&0&e&9&0&1&l魂&x&f&7&d&2&0&3&l审&x&f&f&b&c&0&4&l判     &8[&7冷却:&f60.0s&8]"
+      - ""
+      - "             &f㶐 &7+ &f㒦 &7触发技能后向施法者指针位置"
+      - "             &7持续移动 并对道路上的敌人造成伤害"
+      - "             &7后飞跃至一定高度 召唤一把巨剑以向"
+      - "             &7下轰击 并会滞留一段时间 期间对大范"
+      - "             &7围内的敌人造成 <#a72d00>范围伤害"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 金色巨龙并非守护着什么世间珍宝...\n&f &f &f 而是曾与它一同抵抗邪恶的龙斗士之墓...\n&f &f &f 这把巨剑...就是斗士的遗物!\n&0耀金战剑
+    ability:
+      ability1:
+        type: BRUTAL_STRIKE
+        mode: LEFT_CLICK
+        cooldown: 0
+        damage: 5
+      ability2:
+        type: CHARGE
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+      ability5:
+        type: JUDGEMENT
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 60.0
+        damage: 8
+        duration: 5
+      ability6:
+        type: RAMPAGE
+        mode: DAMAGED
+        cooldown: 30.0
+        duration: 10
+    disable-attack-passive: true
+    attack-speed: 1.0
+    attack-damage:
+      base: 28.0
+      scale: 38.0
+      spread: 0.1
+      max-spread: 0.1
+    critical-strike-chance:
+      base: 10.0
+      scale: 5.0
+      spread: 0.1
+      max-spread: 0.1
+    critical-strike-power:
+      base: 10.0
+      scale: 10.0
+      spread: 0.1
+      max-spread: 0.1
+    item-particles:
+      type: OFFSET
+      particle: REDSTONE
+      color:
+        red: 255
+        green: 255
+        blue: 0
+    max-durability: 3000.0
+    will-break: true
+    custom-model-data: 2017.0
+
+WARRIOR_SWORD_SHINY:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2018.0
+    name: <gradient:#e8a01a:#fff5de:#e8a01a>Shiny Sword of Warrior
+    lore:
+      - <gradient:#e8a01a:#fff5de:#e8a01a>The sword of an Warrior
+    displayed-type: <gradient:#8df229:#fab712:#8df229>Warrior
+    attack-damage: 10000.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BRUTAL_STRIKE
+        mode: LEFT_CLICK
+        cooldown: 0
+        damage: 5
+      ability2:
+        type: CHARGE
+        mode: RIGHT_CLICK
+        cooldown: 4.0
+      ability3:
+        type: CHAIN_HOOK
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 4.0
+        damage: 3
+      ability4:
+        type: SHIELD_BARRIER
+        mode: SNEAK
+      ability5:
+        type: JUDGEMENT
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 15.0
+        damage: 8
+        duration: 5
+      ability6:
+        type: RAMPAGE
+        mode: DAMAGED
+        cooldown: 30.0
+        duration: 10
+    disable-attack-passive: true
+    attack-speed: 1.0
+HELLFIRE_SWORD:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10002.0
+    name: "&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a刃"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 刃身由邪恶的狱火魔晶铸造而成,刃柄\n&f &f &f 刻印着扭曲的地狱恶魔咒文,静谧地渗透\n&f &f &f 着周围的空气...
+SLIME_SWORD:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10087.0
+    name: "&2&l史莱姆剑"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 是的,一把由史莱姆构成的剑!黏糊糊~\n&f
+    enchants:
+      sharpness: 5.0
+      unbreaking: 3.0
+    attack-damage: 10.0
+    attack-speed: 1.0
+    critical-strike-chance:
+      base: 5.0
+      spread: 0.3
+      max-spread: 0.3
+    critical-strike-power:
+      base: 5.0
+      spread: 0.3
+      max-spread: 0.5
+    lore:
+      - ""
+      - "                 &7- 无技能 -"
+      - ""
+      - 䟟       §f䕑
+      - 䟟
+      - 䟟俇䖁
+      - 䟟                   §f䦭䦮
+      - 䟟
+      - 䟟       §f䕒
+      - 䟟
+      - 䟟      §f䧿 §a1-3 §x§c§f§c§b§c§2当前攻击提升
+      - 䟟       §f䕓
+    will-break: true
+    max-durability: 500.0
+SLIME_SHIELD:
+  base:
+    material: SHIELD
+    custom-model-data: 10000.0
+    name: "&2&l史莱姆盾"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 是的,一面由史莱姆构成的盾!黏糊糊~\n&f
+    enchants:
+      unbreaking: 3.0
+    max-durability: 500.0
+    will-break: true
+    damage-reduction:
+      base: 36.0
+      spread: 0.3
+      max-spread: 0.3
+      scale: 10.0
+ADMIN:
+  base:
+    material: WOODEN_SWORD
+    permission:
+      - op
+    critical-strike-chance: 100.0
+    critical-strike-power: 9999999.0
+    attack-damage: 1.0E23
+    dodge-rating: 99999.0
+    pvp-damage: 9.999999999999E12
+    parry-rating: 9.999999999999E12
+    parry-cooldown-reduction: 9.999999999999E12
+    dodge-cooldown-reduction: 9.999999999999E12
+    weapon-damage: 9.999999999999E12
+    unbreakable: true
+    damage-reduction: 9.999999999999E12
+    defense: 9.999999999999E12
+    physical-damage: 9.999999999999E12
+    magic-damage: 9.999999999999E12
+    projectile-damage: 9.999999999999E12
+    pvp-damage-reduction: 9.999999999999E12
+    armor: 9.999999999999E12
+    disable-death-drop: true
+    knockback-resistance: 9.999999999999E12
+    gem-sockets:
+      - "1"
+    ability:
+      ability1: {}
+LIGHTNING_BOLT:
+  base:
+    material: IRON_SWORD
+YSJ1:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10045.0
+YSJ2:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10046.0
+
+YSJ3:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10047.0
+    faction-damage-slime: 1000.0
+    lore:
+      - "&f"
+      - "&7这把武器似乎对某个&a黏黏的易燃生物&7有奇效?"
+    element:
+      fire:
+        damage: 30
+    attack-speed: 1.6
+    attack-damage: 8.0
+    critical-strike-chance: 100.0
+    fire: 15
+
+YSJ4:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10048.0
+
+YSJ5:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10049.0
+
+YSJ6:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10050.0
+S1_1:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10076.0
+    name: "&c灼锋 &b[&eI &e阶&b]"
+    attack-damage: 10.0
+    attack-speed: 1.6
+    critical-strike-chance: 12.5
+    critical-strike-power: 50.0
+    fire-damage-reduction: 100.0
+    faction-damage-slime: 400.0
+    displayed-type: |
+      &f
+      &f &f &f专治史莱姆、岩浆怪等黏糊生物的利器
+      &f
+    element:
+      fire:
+        damage: 15
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对某种&a黏黏的易燃生物&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &c🔥 &7: 15"
+S1_2:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10075.0
+    name: "&c灼锋 &b[&eII &e阶&b]"
+    attack-damage: 11.0
+    attack-speed: 1.6
+    critical-strike-chance: 15
+    critical-strike-power: 60.0
+    fire-damage-reduction: 100.0
+    faction-damage-slime: 400.0
+    displayed-type: |
+      &f
+      &f &f &f专治史莱姆、岩浆怪等黏糊生物的利器
+      &f
+    element:
+      fire:
+        damage: 15
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对某种&a黏黏的易燃生物&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &c🔥 &7: 15"
+      - "&f &f &e[技能1] &c暴风乱舞 [cd:8s] 绑定按键: &f㘠"
+      - "&f &f &e[技能2] &c唐石迫击 [cd:30s] 绑定按键: &f &7+ &f㘠"
+    ability:
+      ability1:
+        type: FIRE_STORM
+        damage: 2.5
+        cooldown: 8
+        mode: RIGHT_CLICK
+      ability2:
+        type: FIRE_METEOR
+        cooldown: 30.0
+        damage: 50
+        mode: SHIFT_RIGHT_CLICK
+S1_3:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10056.0
+    name: "&c灼锋 &b[&eIII &e阶&b]"
+    attack-damage: 12.0
+    attack-speed: 1.6
+    critical-strike-chance: 15
+    critical-strike-power: 60.0
+    fire-damage-reduction: 100.0
+    faction-damage-slime: 400.0
+    displayed-type: |
+      &f
+      &f &f &f专治史莱姆、岩浆怪等黏糊生物的利器
+      &f
+    element:
+      fire:
+        damage: 15
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对某种&a黏黏的易燃生物&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &c🔥 &7: 15"
+    gem-sockets:
+      - "&b技能&e[&c火&e]"
+      - "&d秘技&e[&c火&e]"
+S2_1:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10079.0
+    name: "&b霜痕 &b[&eI &e阶&b]"
+    attack-damage: 9.0
+    attack-speed: 1.8
+    critical-strike-chance: 12.5
+    critical-strike-power: 50.0
+    faction-damage-ember: 400.0
+    displayed-type: |
+      &f
+      &f &f &f剑刃覆盖着永不融化的寒霜
+      &f
+    element:
+      ice:
+        damage: 8
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&c火元素&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &b❄ &7: 8"
+S2_2:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10080.0
+    name: "&b霜痕 &b[&eII &e阶&b]"
+    attack-damage: 9.0
+    attack-speed: 1.8
+    critical-strike-chance: 12.5
+    critical-strike-power: 50.0
+    faction-damage-ember: 400.0
+    displayed-type: |
+      &f
+      &f &f &f剑刃覆盖着永不融化的寒霜
+      &f
+    element:
+      ice:
+        damage: 14
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&c火元素&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &b❄ &7: 14"
+      - "&f &f &e[技能1] &b冰羽射线 [cd:12s] 绑定按键: &f㘠"
+      - "&f &f &e[技能2] &b冰天雪地 [cd:30s] 绑定按键: &f &7+ &f㘠"
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        damage: 30.0
+        cooldown: 12
+        mode: RIGHT_CLICK
+      ability2:
+        type: ICE_SPIKES
+        cooldown: 30.0
+        damage: 10.0
+        mode: SHIFT_RIGHT_CLICK
+        slow: 5.0
+S2_3:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10066.0
+    name: "&b霜痕 &b[&eIII &e阶&b]"
+    attack-damage: 9.0
+    attack-speed: 1.8
+    critical-strike-chance: 12.5
+    critical-strike-power: 50.0
+    faction-damage-ember: 400.0
+    displayed-type: |
+      &f
+      &f &f &f剑刃覆盖着永不融化的寒霜
+      &f
+    element:
+      ice:
+        damage: 20
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&c火元素&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &b❄ &7: 20"
+    gem-sockets:
+      - "&b技能&e[&b冰&e]"
+      - "&d秘技&e[&b冰&e]"
+S3_1:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10085.0
+    name: "&a青藤 &b[&eI &e阶&b]"
+    attack-damage: 10.0
+    attack-speed: 1.0
+    critical-strike-chance: 10
+    critical-strike-power: 300
+    displayed-type: |
+      &f
+      &f &f &f剑身缠绕着生机勃勃的青藤，攻击时会释放微量毒素
+      &f
+    element:
+      earth:
+        damage: 10
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &a🌿 &7: 10"
+S3_2:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10086.0
+    name: "&a青藤 &b[&eII &e阶&b]"
+    attack-damage: 10.0
+    attack-speed: 1.0
+    critical-strike-chance: 12
+    critical-strike-power: 500
+    displayed-type: |
+      &f
+      &f &f &f剑身缠绕着生机勃勃的青藤，攻击时会释放微量毒素
+      &f
+    element:
+      earth:
+        damage: 10
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &a🌿 &7: 10"
+      - "&f &f &e[技能1] &a自然之力 [cd:15s] 绑定按键: &f㘠"
+      - "&f &f &e[技能2] &a下蛋别食 [cd:15s] 绑定按键: &f &7+ &f㘠"
+    ability:
+      ability1:
+        type: ETERNAL_FLAME
+        damage: 20
+        cooldown: 15.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: EXPLOSIVE_TURKEY
+        cooldown: 15
+        damage: 30.0
+        mode: SHIFT_RIGHT_CLICK
+        knockback: 1.5
+S3_3:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10057.0
+    name: "&a青藤 &b[&eIII &e阶&b]"
+    attack-damage: 10.0
+    attack-speed: 1.0
+    critical-strike-chance: 13
+    critical-strike-power: 550
+    displayed-type: |
+      &f
+      &f &f &f剑身缠绕着生机勃勃的青藤，攻击时会释放微量毒素
+      &f
+    element:
+      earth:
+        damage: 10
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &a🌿 &7: 10"
+    gem-sockets:
+      - "&b技能&e[&a草&e]"
+      - "&d秘技&e[&a草&e]"
+
+S4_1:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10083.0
+    name: "&3岚切 &b[&eI &e阶&b]"
+    attack-damage: 8
+    attack-speed: 3
+    movement-speed: 0.03
+    critical-strike-chance: 50.0
+    critical-strike-power: 50.0
+    displayed-type: |
+      &f
+      &f &f &f轻盈如风的长剑，挥舞时带起锐利的气流。攻击速度极快
+      &f
+    element:
+      wind:
+        damage: 10
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &3   &7: 10"
+S4_2:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10084.0
+    name: "&3岚切 &b[&eII &e阶&b]"
+    attack-damage: 8
+    attack-speed: 4
+    movement-speed: 0.04
+    critical-strike-chance: 50.0
+    critical-strike-power: 50.0
+    displayed-type: |
+      &f
+      &f &f &f轻盈如风的长剑，挥舞时带起锐利的气流。攻击速度极快
+      &f
+    element:
+      wind:
+        damage: 10
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &3🌀 &7: 10"
+      - "&f &f &e[技能1] &3凌风之斥 [cd:10s] 绑定按键: &f㘠"
+      - "&f &f &e[技能2] &3凌风之缚 [cd:30s] 绑定按键: &f &7+ &f㘠"
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 10
+        cooldown: 10.0
+        radius: 3.0
+        knockback: 5.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: BLACK_HOLE
+        cooldown: 30.0
+        radius: 5
+        duration: 2
+        mode: SHIFT_RIGHT_CLICK
+S4_3:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10053.0
+    name: "&3岚切 &b[&eIII &e阶&b]"
+    attack-damage: 8
+    attack-speed: 5
+    movement-speed: 0.05
+    critical-strike-chance: 50.0
+    critical-strike-power: 50.0
+    displayed-type: |
+      &f
+      &f &f &f轻盈如风的长剑，挥舞时带起锐利的气流。攻击速度极快
+      &f
+    element:
+      wind:
+        damage: 10
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &3🌀 &7: 10"
+    gem-sockets:
+      - "&b技能&e[&3风&e]"
+      - "&d秘技&e[&3风&e]"
+
+S5_1:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10068.0
+    name: "&d暗物质 &b[&eI &e阶&b]"
+    attack-damage: 0
+    attack-speed: 1.6
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    displayed-type: |
+      &f
+      &f &f &f纯粹的莫比乌斯燃料制成，每次攻击都会侵蚀目标的"存在概念"，被斩中的部位会产生时空凝滞
+      &f
+    element:
+      water:
+        damage: 30
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &1🌙 &d: 30"
+S5_2:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10070.0
+    name: "&d暗物质 &b[&eII &e阶&b]"
+    attack-damage: 0
+    attack-speed: 1.6
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    displayed-type: |
+      &f
+      &f &f &f纯粹的莫比乌斯燃料制成，每次攻击都会侵蚀目标的"存在概念"，被斩中的部位会产生时空凝滞
+      &f
+    element:
+      water:
+        damage: 40
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &d🌙 &7: 40"
+      - "&f &f &e[技能1] &d虚空之矢 [cd:5s] 绑定按键: &f㘠"
+      - "&f &f &e[效果1] &d凋零之触 [cd:10s] 绑定按键: &f䪆"
+    ability:
+      ability1:
+        type: VOID_ARROW
+        cooldown: 5.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: WITHER
+        cooldown: 10
+        amplifier: 5
+        duration: 5
+        mode: ATTACK
+S5_3:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10071.0
+    name: "&d暗物质 &b[&eIII &e阶&b]"
+    attack-damage: 0
+    attack-speed: 1.6
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    displayed-type: |
+      &f
+      &f &f &f纯粹的莫比乌斯燃料制成，每次攻击都会侵蚀目标的"存在概念"，被斩中的部位会产生时空凝滞
+      &f
+    element:
+      water:
+        damage: 50
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &d🌙 &7: 50"
+    gem-sockets:
+      - "&b技能&e[&d暗&e]"
+      - "&d秘技&e[&d暗&e]"
+    ability:
+      ability1:
+        type: VOID_ARROW
+        cooldown: 5.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: WITHER
+        cooldown: 10
+        amplifier: 5
+        duration: 5
+        mode: ATTACK
+S6_1:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10078.0
+    name: "&6以太光 &b[&eI &e阶&b]"
+    attack-damage: 0
+    attack-speed: 1.6
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    displayed-type: |
+      &f
+      &f &f &f纯粹的光元素结晶剑，斩击时会留下光痕，光恒会造成额外伤害
+      &f
+    element:
+      thunder:
+        damage: 30
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &6🔆 &7: 30"
+S6_2:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10077.0
+    name: "&6以太光 &b[&eII &e阶&b]"
+    attack-damage: 0
+    attack-speed: 1.6
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    displayed-type: |
+      &f
+      &f &f &f纯粹的光元素结晶剑，斩击时会留下光痕，光恒会造成额外伤害
+      &f
+    element:
+      thunder:
+        damage: 40
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &6🔆 &7: 40"
+      - "&f &f &e[技能1] &3凌风之斥 [cd:10s] 绑定按键: &f㘠"
+      - "&f &f &e[技能2] &3凌风之缚 [cd:30s] 绑定按键: &f &7+ &f㘠"
+S6_3:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10055.0
+    name: "&6以太光 &b[&eIII &e阶&b]"
+    attack-damage: 0
+    attack-speed: 1.6
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    displayed-type: |
+      &f
+      &f &f &f纯粹的光元素结晶剑，斩击时会留下光痕，光恒会造成额外伤害
+      &f
+    element:
+      thunder:
+        damage: 50
+    unbreakable: true
+    lore:
+      - "&f"
+      - "&f &f &7或许对&o[占位名称]&7会有奇效?&e[增幅效果:4x]"
+      - "&f &f &e[元素] &6🔆 &7: 50"
+    gem-sockets:
+      - "&b技能&e[&6光&e]"
+      - "&d秘技&e[&6光&e]"
+打刀new:
+  base:
+    material: DIAMOND_SWORD
+    displayed-type: |
+      &f
+      &f &f &f😭&l&b看力千万老玩家&r&f😭
+      &f
+    gem-sockets:
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&a功能"
+      - "&a功能"
+      - "&a功能"
+      - "&e元素"
+      - "&c技能"
+      - "&d秘技"
+    name: 打刀
+    attack-damage:
+      base: 1.0
+      scale: 1
+    attack-speed: 1.3
+    critical-strike-chance: -10.0
+    critical-strike-power: 100.0
+    custom-model-data: 10091.0
+打刀-淬:
+  base:
+    material: DIAMOND_SWORD
+    displayed-type: |
+      &f
+      &f &f &f经过熔炉烧制后打刀被淬上了不同的颜色
+      &f &f &f如果你想要特定的颜色,就得你自己来拿
+      &f
+    gem-sockets:
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&a功能"
+      - "&a功能"
+      - "&a功能"
+      - "&e元素"
+      - "&e元素"
+      - "&c技能"
+      - "&d秘技"
+    name: 打刀&e-&f淬&0色
+    attack-damage:base: 1.0
+    attack-speed: 1.3
+    critical-strike-chance: -10.0
+    critical-strike-power: 100.0
+    custom-model-data:
+      base: 10094.5
+      spread: .0002477
+      max-spread: .0002477
+打刀1:
+  base:
+    material: DIAMOND_SWORD
+    displayed-type: |
+      &f
+      &f &f &f😭&l&b看力千万老玩家&r&f😭
+      &f
+    gem-sockets:
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&e元素"
+      - "&e元素"
+      - "&c技能"
+      - "&d秘技"
+    name: 打刀&e[&c淬火&e]
+    attack-damage: 1.0
+    attack-speed: 1.3
+    custom-model-data: 10092.0
+
+打刀2:
+  base:
+    material: DIAMOND_SWORD &f &f &f &f😭&l&b看力千万老玩家&r&f😭 &f
+    gem-sockets:
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&e元素"
+      - "&e元素"
+      - "&c技能"
+      - "&d秘技"
+    name: 打刀&e[&b淬冰&e]
+    attack-damage: 1.0
+    attack-speed: 1.3
+    custom-model-data: 10094.0
+
+打刀3:
+  base:
+    material: DIAMOND_SWORD
+    displayed-type: |
+      &f
+      &f &f &f😭&l&b看力千万老玩家&r&f😭
+      &f
+    gem-sockets:
+      - "&b基础"
+      - "&e元素"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&c技能"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+      - "&d秘技"
+    name: 打刀&e[&a淬草&e]
+    attack-damage: 1.0
+    attack-speed: 1.3
+    custom-model-data: 10097.0
+
+打刀4:
+  base:
+    material: DIAMOND_SWORD
+    displayed-type: |
+      &f
+      &f &f &f😭&l&b看力千万老玩家&r&f😭
+      &f
+    gem-sockets:
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&e元素"
+      - "&e元素"
+      - "&c技能"
+      - "&d秘技"
+    name: 打刀&e[&3淬风&e]
+    attack-damage: 1.0
+    attack-speed: 1.3
+    custom-model-data: 10093.0
+
+打刀5:
+  base:
+    material: DIAMOND_SWORD
+    displayed-type: |
+      &f
+      &f &f &f😭&l&b看力千万老玩家&r&f😭
+      &f
+    gem-sockets:
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&e元素"
+      - "&e元素"
+      - "&c技能"
+      - "&d秘技"
+    name: 打刀&e[&d淬暗&e]
+    attack-damage: 1.0
+    attack-speed: 1.3
+    custom-model-data: 10095.0
+
+打刀6:
+  base:
+    material: DIAMOND_SWORD
+    displayed-type: |
+      &f
+      &f &f &f😭&l&b看力千万老玩家&r&f😭
+      &f
+    gem-sockets:
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&b基础"
+      - "&e元素"
+      - "&e元素"
+      - "&c技能"
+      - "&d秘技"
+    name: 打刀&e[&6淬光&e]
+    attack-damage: 1.0
+    attack-speed: 1.3
+    custom-model-data: 10096.0

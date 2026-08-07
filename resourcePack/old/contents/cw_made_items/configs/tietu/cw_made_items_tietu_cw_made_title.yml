@@ -1,0 +1,9 @@
+#**ItemsAdder-configs-贴图**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+font_images: #[贴图]**
+  cw_title1: #[贴图的内部名]**
+    path: "img/title/cw_title1.png" #[贴图的路径]**
+    scale_ratio: 10 #[贴图的大小]**
+    y_position: 9 #[贴图的上下偏移]**

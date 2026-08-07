@@ -1,0 +1,30 @@
+basic:
+  id: decay_curse
+  name: 腐烂诅咒
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 处于非手持状态时耐久度持续降低
+alternative:
+  grindstoneable: false
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+  is-cursed: true
+rarity: 诅咒
+targets:
+- all
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:repairing
+variables:
+  ordinary:
+    repeat-ticks: 100
+  leveled:
+    durability-decrease: :{level}

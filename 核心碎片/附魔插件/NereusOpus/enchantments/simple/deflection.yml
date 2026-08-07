@@ -1,0 +1,28 @@
+basic:
+  id: deflection
+  name: 偏光
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 反弹一部分抵挡的伤害并使盾牌进入冷却期
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- shield
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:sycophant
+variables:
+  leveled:
+    percent: :5*{level}
+    cooldown: :8-{level}

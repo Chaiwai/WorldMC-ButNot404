@@ -1,0 +1,26 @@
+basic:
+  id: fetching
+  name: 灵犀
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 使宠物狼击杀生物的掉落直接进入背包
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- helmets
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    avaliable-on-players: true

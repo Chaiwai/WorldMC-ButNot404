@@ -1,0 +1,31 @@
+basic:
+  id: buckshot
+  name: 火力
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 同时射出多支分散箭矢
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- bow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:succession
+- CONFLICT_ENCHANT:pentashot
+- CONFLICT_ENCHANT:tripleshot
+variables:
+  leveled:
+    amount: :2*{level}
+  ordinary:
+    spread: 0.2

@@ -1,0 +1,36 @@
+basic:
+  id: dynamite
+  name: 爆破
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: '§e右击§7可大范围破坏方块（冷却时间: §a360秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- pickaxes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_DRAGON_FIREBALL_EXPLODE
+    cooldown: 360
+    tick-per: 16
+    permission-check: true
+    hardness-check: bedrock,obisidian
+  leveled:
+    range: :1+{level}
+params:
+  particle:
+    type: EXPLOSION_HUGE
+    amount: 1

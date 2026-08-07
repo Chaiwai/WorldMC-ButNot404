@@ -1,0 +1,35 @@
+basic:
+  id: drill
+  name: 穿凿
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 挖掘时连同后方的方块
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- pickaxes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:lumberjack
+- CONFLICT_ENCHANT:blast_mining
+- CONFLICT_ENCHANT:vein
+variables:
+  ordinary:
+    disable-on-sneak: true
+    enable-sound: false
+    permission-check: true
+    hardness-check: bedrock,obisidian,ender_portal_frame
+    chance: 100
+  leveled:
+    range: :{level}

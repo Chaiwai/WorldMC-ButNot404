@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  amethyst:
+    type: armor
+    layer_1: armor/amethyst/layer_1
+    layer_2: armor/amethyst/layer_2
+items:
+  amethyst_boots:
+    name: amethyst_boots
+    resource:
+      generate: true
+      texture: items/amethyst/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:amethyst
+  amethyst_chestplate:
+    name: amethyst_chestplate
+    resource:
+      generate: true
+      texture: items/amethyst/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:amethyst
+  amethyst_helmet:
+    name: amethyst_helmet
+    resource:
+      generate: true
+      texture: items/amethyst/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:amethyst
+  amethyst_leggings:
+    name: amethyst_leggings
+    resource:
+      generate: true
+      texture: items/amethyst/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:amethyst

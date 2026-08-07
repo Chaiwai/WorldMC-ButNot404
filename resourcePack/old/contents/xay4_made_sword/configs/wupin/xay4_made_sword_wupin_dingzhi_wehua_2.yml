@@ -1,0 +1,29 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "xay4_made_sword" #[命名空间]**
+items: #[物品配置]**
+  xay4_made_sword_dingzhi_wehua_2: #[物品的内部名]**
+    display_name: "dingzhi_wehua_2" #[物品显示名]**
+    resource: #[替换的原版物品ID]**
+      model_id: 10089 #[自定义序列号]**
+      material: diamond_sword #[原版物品ID]**
+      generate: true #[图片或模型[2D图片]]**
+      textures: #[图片或模型路径]**
+        - dingzhi/dingzhi_we_hua2.png #[图片或模型[2D图片]]**
+  xay4_made_sword_dingzhi_wehua_3: #[物品的内部名]**
+    display_name: "dingzhi_wehua_3" #[物品显示名]**
+    resource: #[替换的原版物品ID]**
+      model_id: 10101 #[自定义序列号]**
+      material: diamond_sword #[原版物品ID]**
+      generate: true #[图片或模型[2D图片]]**
+      textures: #[图片或模型路径]**
+        - dingzhi/dingzhi_we_hua3.png #[图片或模型[2D图片]]**
+  xay4_made_sword_dingzhi_test: #[物品的内部名]**
+    display_name: "dingzhi_test" #[物品显示名]**
+    resource: #[替换的原版物品ID]**
+      model_id: 10102 #[自定义序列号]**
+      material: diamond_sword #[原版物品ID]**
+      generate: true #[图片或模型[2D图片]]**
+      textures: #[图片或模型路径]**
+        - dingzhi/dingzhi_test.png #[图片或模型[2D图片]]**

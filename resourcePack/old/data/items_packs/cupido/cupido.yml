@@ -1,0 +1,177 @@
+info:
+  namespace: 'cupido'
+font_images:
+
+  hearts1:
+    suggest_in_command: false
+    path: 'hearts/absorption/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts2:
+    suggest_in_command: false
+    path: 'hearts/absorption/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts3:
+    suggest_in_command: false
+    path: 'hearts/empty/0.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts4:
+    suggest_in_command: false
+    path: 'hearts/normal/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts5:
+    suggest_in_command: false
+    path: 'hearts/normal/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts6:
+    suggest_in_command: false
+    path: 'hearts/normal/overlay/0.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts7:
+    suggest_in_command: false
+    path: 'hearts/normal/overlay/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts8:
+    suggest_in_command: false
+    path: 'hearts/normal/overlay/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts9:
+    suggest_in_command: false
+    path: 'hearts/poison/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts10:
+    suggest_in_command: false
+    path: 'hearts/poison/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts11:
+    suggest_in_command: false
+    path: 'hearts/poison/overlay/0.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts12:
+    suggest_in_command: false
+    path: 'hearts/poison/overlay/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts13:
+    suggest_in_command: false
+    path: 'hearts/poison/overlay/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts14:
+    suggest_in_command: false
+    path: 'hearts/wither/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts15:
+    suggest_in_command: false
+    path: 'hearts/wither/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts16:
+    suggest_in_command: false
+    path: 'hearts/wither/overlay/0.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts17:
+    suggest_in_command: false
+    path: 'hearts/wither/overlay/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts18:
+    suggest_in_command: false
+    path: 'hearts/wither/overlay/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts19:
+    suggest_in_command: false
+    path: 'hearts/bubbles/0.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts20:
+    suggest_in_command: false
+    path: 'hearts/bubbles/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts21:
+    suggest_in_command: false
+    path: 'hearts/bubbles/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts22:
+    suggest_in_command: false
+    path: 'hearts/frozen/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts23:
+    suggest_in_command: false
+    path: 'hearts/frozen/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts24:
+    suggest_in_command: false
+    path: 'hearts/frozen/overlay/0.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts25:
+    suggest_in_command: false
+    path: 'hearts/frozen/overlay/0_5.png'
+    y_position: 8
+    scale_ratio: 9
+
+  hearts26:
+    suggest_in_command: false
+    path: 'hearts/frozen/overlay/1.png'
+    y_position: 8
+    scale_ratio: 9
+
+  bars1:
+    suggest_in_command: false
+    path: 'bars/frame.png'
+    y_position: 8
+    scale_ratio: 9
+
+  bars2:
+    suggest_in_command: false
+    path: 'bars/inner.png'
+    y_position: 8
+    scale_ratio: 9
+
+  bars3:
+    suggest_in_command: false
+    path: 'bars/background.png'
+    y_position: 8
+    scale_ratio: 9

@@ -1,0 +1,168 @@
+# 自动生成的配置文件
+# 生成工具: create_items.py
+
+info:
+  namespace: cw_made_tool
+items:
+  adamantite_waraxe:
+    display_name: adamantite_waraxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/adamantite_waraxe
+  axe_of_regrowth:
+    display_name: axe_of_regrowth
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/axe_of_regrowth
+  blood_lust_cluster:
+    display_name: blood_lust_cluster
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/blood_lust_cluster
+  chlorophyte_greataxe:
+    display_name: chlorophyte_greataxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/chlorophyte_greataxe
+  cobalt_waraxe:
+    display_name: cobalt_waraxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/cobalt_waraxe
+  copper_axe:
+    display_name: copper_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/copper_axe
+  gold_axe:
+    display_name: gold_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/gold_axe
+  haemorrhaxe:
+    display_name: haemorrhaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/haemorrhaxe
+  iron_axe:
+    display_name: iron_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/iron_axe
+  lead_axe:
+    display_name: lead_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/lead_axe
+  lucy_the_axe:
+    display_name: lucy_the_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/lucy_the_axe
+  meteor_hamaxe:
+    display_name: meteor_hamaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/meteor_hamaxe
+  molten_hamaxe:
+    display_name: molten_hamaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/molten_hamaxe
+  mythril_waraxe:
+    display_name: mythril_waraxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/mythril_waraxe
+  nebula_hamaxe:
+    display_name: nebula_hamaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/nebula_hamaxe
+  orichalcum_waraxe:
+    display_name: orichalcum_waraxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/orichalcum_waraxe
+  palladium_waraxe:
+    display_name: palladium_waraxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/palladium_waraxe
+  platinum_axe:
+    display_name: platinum_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/platinum_axe
+  silver_axe:
+    display_name: silver_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/silver_axe
+  solar_flare_hamaxe:
+    display_name: solar_flare_hamaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/solar_flare_hamaxe
+  spectre_hamaxe:
+    display_name: spectre_hamaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/spectre_hamaxe
+  stardust_hamaxe:
+    display_name: stardust_hamaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/stardust_hamaxe
+  tin_axe:
+    display_name: tin_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/tin_axe
+  titanium_waraxe:
+    display_name: titanium_waraxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/titanium_waraxe
+  tungsten_axe:
+    display_name: tungsten_axe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/tungsten_axe
+  vortex_hamaxe:
+    display_name: vortex_hamaxe
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/vortex_hamaxe
+  war_axe_of_the_night:
+    display_name: war_axe_of_the_night
+    resource:
+      material: netherite_axe
+      generate: false
+      model_path: axe/war_axe_of_the_night

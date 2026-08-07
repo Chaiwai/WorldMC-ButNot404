@@ -1,0 +1,38 @@
+# 自动生成的分类配置文件
+# 生成工具: create_items.py
+
+info:
+  namespace: cw_made_tool
+categories:
+  axe:
+    enabled: true
+    icon: cw_made_tool:adamantite_waraxe
+    name: axe
+    items:
+    - cw_made_tool:adamantite_waraxe
+    - cw_made_tool:axe_of_regrowth
+    - cw_made_tool:blood_lust_cluster
+    - cw_made_tool:chlorophyte_greataxe
+    - cw_made_tool:cobalt_waraxe
+    - cw_made_tool:copper_axe
+    - cw_made_tool:gold_axe
+    - cw_made_tool:haemorrhaxe
+    - cw_made_tool:iron_axe
+    - cw_made_tool:lead_axe
+    - cw_made_tool:lucy_the_axe
+    - cw_made_tool:meteor_hamaxe
+    - cw_made_tool:molten_hamaxe
+    - cw_made_tool:mythril_waraxe
+    - cw_made_tool:nebula_hamaxe
+    - cw_made_tool:orichalcum_waraxe
+    - cw_made_tool:palladium_waraxe
+    - cw_made_tool:platinum_axe
+    - cw_made_tool:silver_axe
+    - cw_made_tool:solar_flare_hamaxe
+    - cw_made_tool:spectre_hamaxe
+    - cw_made_tool:stardust_hamaxe
+    - cw_made_tool:tin_axe
+    - cw_made_tool:titanium_waraxe
+    - cw_made_tool:tungsten_axe
+    - cw_made_tool:vortex_hamaxe
+    - cw_made_tool:war_axe_of_the_night

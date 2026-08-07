@@ -1,0 +1,2260 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_items
+items:
+  c_0:
+    display_name: c_0
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_0
+  c_1:
+    display_name: c_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_1
+  c_2:
+    display_name: c_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_2
+  c_3:
+    display_name: c_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_3
+  c_slime_0:
+    display_name: c_slime_0
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_slime_0
+  c_slime_1:
+    display_name: c_slime_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_slime_1
+  c_slime_2:
+    display_name: c_slime_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_slime_2
+  c_slime_3:
+    display_name: c_slime_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/c_slime_3
+  rabbit0:
+    display_name: rabbit0
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/rabbit0
+  rabbit1:
+    display_name: rabbit1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/rabbit1
+  rabbit2:
+    display_name: rabbit2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/rabbit2
+  rabbit3:
+    display_name: rabbit3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/rabbit3
+  rabbit4:
+    display_name: rabbit4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/rabbit4
+  rabbit5:
+    display_name: rabbit5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/rabbit5
+  sou1:
+    display_name: sou1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/sou1
+  soul2:
+    display_name: soul2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/soul2
+  soul3:
+    display_name: soul3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/soul3
+  soul4:
+    display_name: soul4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/soul4
+  soul5:
+    display_name: soul5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/soul5
+  soul6:
+    display_name: soul6
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/coin/soul6
+  amber:
+    display_name: amber
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/amber
+  amethyst_gemcorn:
+    display_name: amethyst_gemcorn
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/amethyst_gemcorn
+  ancient_cloth:
+    display_name: ancient_cloth
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/ancient_cloth
+  ancient_horn:
+    display_name: ancient_horn
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/ancient_horn
+  antlion_mandible:
+    display_name: antlion_mandible
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/antlion_mandible
+  beetle_husk:
+    display_name: beetle_husk
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/beetle_husk
+  bee_wax:
+    display_name: bee_wax
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/bee_wax
+  bestiary_the_crimson:
+    display_name: bestiary_the_crimson
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/bestiary_the_crimson
+  black_fairy_dust:
+    display_name: black_fairy_dust
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/black_fairy_dust
+  black_lens:
+    display_name: black_lens
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/black_lens
+  black_thread:
+    display_name: black_thread
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/black_thread
+  bloody_tear:
+    display_name: bloody_tear
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/bloody_tear
+  bone_feather:
+    display_name: bone_feather
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/bone_feather
+  bone_key:
+    display_name: bone_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/bone_key
+  brain:
+    display_name: brain
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/brain
+  broken_hero_sword:
+    display_name: broken_hero_sword
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/broken_hero_sword
+  butterfly_dust:
+    display_name: butterfly_dust
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/butterfly_dust
+  cactus:
+    display_name: cactus
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/cactus
+  coral:
+    display_name: coral
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/coral
+  corruption_key:
+    display_name: corruption_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/corruption_key
+  corruption_key_mold:
+    display_name: corruption_key_mold
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/corruption_key_mold
+  cream_soda:
+    display_name: cream_soda
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/cream_soda
+  crimson_heart:
+    display_name: crimson_heart
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/crimson_heart
+  crimson_key:
+    display_name: crimson_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/crimson_key
+  crimson_key_mold:
+    display_name: crimson_key_mold
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/crimson_key_mold
+  crystal_shard:
+    display_name: crystal_shard
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/crystal_shard
+  cursed_flame:
+    display_name: cursed_flame
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/cursed_flame
+  cyan_dye:
+    display_name: cyan_dye
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/cyan_dye
+  cyan_husk:
+    display_name: cyan_husk
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/cyan_husk
+  dark_shard:
+    display_name: dark_shard
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dark_shard
+  deathweed:
+    display_name: deathweed
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/deathweed
+  desert_key:
+    display_name: desert_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/desert_key
+  desert_spirit_lamp:
+    display_name: desert_spirit_lamp
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/desert_spirit_lamp
+  djinn_curse:
+    display_name: djinn_curse
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/djinn_curse
+  dungeon_spirit:
+    display_name: dungeon_spirit
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dungeon_spirit
+  dye_black:
+    display_name: dye_black
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_black
+  dye_blue:
+    display_name: dye_blue
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_blue
+  dye_brown:
+    display_name: dye_brown
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_brown
+  dye_green:
+    display_name: dye_green
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_green
+  dye_orange:
+    display_name: dye_orange
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_orange
+  dye_pink:
+    display_name: dye_pink
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_pink
+  dye_red:
+    display_name: dye_red
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_red
+  dye_silver:
+    display_name: dye_silver
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_silver
+  dye_teal:
+    display_name: dye_teal
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_teal
+  dye_yellow:
+    display_name: dye_yellow
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/dye_yellow
+  ectoplasm:
+    display_name: ectoplasm
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/ectoplasm
+  empty_bullet:
+    display_name: empty_bullet
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/empty_bullet
+  empty_dropper:
+    display_name: empty_dropper
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/empty_dropper
+  explosive_powder:
+    display_name: explosive_powder
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/explosive_powder
+  fairy_bell:
+    display_name: fairy_bell
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fairy_bell
+  fallen_star:
+    display_name: fallen_star
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fallen_star
+  feather:
+    display_name: feather
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/feather
+  fire_feather:
+    display_name: fire_feather
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fire_feather
+  flinx_fur:
+    display_name: flinx_fur
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/flinx_fur
+  fragment_forbidden:
+    display_name: fragment_forbidden
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fragment_forbidden
+  fragment_nebula:
+    display_name: fragment_nebula
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fragment_nebula
+  fragment_solar:
+    display_name: fragment_solar
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fragment_solar
+  fragment_stardust:
+    display_name: fragment_stardust
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fragment_stardust
+  fragment_vortex:
+    display_name: fragment_vortex
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fragment_vortex
+  fried_egg:
+    display_name: fried_egg
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/fried_egg
+  frost_core:
+    display_name: frost_core
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/frost_core
+  frozen_key:
+    display_name: frozen_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/frozen_key
+  frozen_key_mold:
+    display_name: frozen_key_mold
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/frozen_key_mold
+  frozen_turtle_shell:
+    display_name: frozen_turtle_shell
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/frozen_turtle_shell
+  gel:
+    display_name: gel
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gel
+  gelatin_crystal:
+    display_name: gelatin_crystal
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gelatin_crystal
+  gem1:
+    display_name: gem1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gem1
+  gem2:
+    display_name: gem2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gem2
+  gem3:
+    display_name: gem3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gem3
+  gem4:
+    display_name: gem4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gem4
+  gem5:
+    display_name: gem5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gem5
+  giant_cursed_skull:
+    display_name: giant_cursed_skull
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/giant_cursed_skull
+  giant_harpy_feather:
+    display_name: giant_harpy_feather
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/giant_harpy_feather
+  glowing_mushroom:
+    display_name: glowing_mushroom
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/glowing_mushroom
+  gmk:
+    display_name: gmk
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gmk
+  goat_skull:
+    display_name: goat_skull
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/goat_skull
+  golden_key:
+    display_name: golden_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/golden_key
+  gold_dust:
+    display_name: gold_dust
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gold_dust
+  gold_squirrel:
+    display_name: gold_squirrel
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/gold_squirrel
+  green_mushroom:
+    display_name: green_mushroom
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/green_mushroom
+  green_thread:
+    display_name: green_thread
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/green_thread
+  hallowed_key:
+    display_name: hallowed_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/hallowed_key
+  hallowed_key_mold:
+    display_name: hallowed_key_mold
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/hallowed_key_mold
+  hell_butterfly:
+    display_name: hell_butterfly
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/hell_butterfly
+  ice_feather:
+    display_name: ice_feather
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/ice_feather
+  jungle_key:
+    display_name: jungle_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/jungle_key
+  jungle_key_mold:
+    display_name: jungle_key_mold
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/jungle_key_mold
+  jungle_spores:
+    display_name: jungle_spores
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/jungle_spores
+  king_slime_mask:
+    display_name: king_slime_mask
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/king_slime_mask
+  large_amethyst:
+    display_name: large_amethyst
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/large_amethyst
+  lavafly:
+    display_name: lavafly
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/lavafly
+  lchor:
+    display_name: lchor
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/lchor
+  lemon:
+    display_name: lemon
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/lemon
+  lens:
+    display_name: lens
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/lens
+  lightning_bug:
+    display_name: lightning_bug
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/lightning_bug
+  light_shard:
+    display_name: light_shard
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/light_shard
+  living_cursed_fire:
+    display_name: living_cursed_fire
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/living_cursed_fire
+  living_demon_fire:
+    display_name: living_demon_fire
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/living_demon_fire
+  living_fire_block:
+    display_name: living_fire_block
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/living_fire_block
+  living_frost_fire:
+    display_name: living_frost_fire
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/living_frost_fire
+  living_ichor:
+    display_name: living_ichor
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/living_ichor
+  lizard_egg:
+    display_name: lizard_egg
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/lizard_egg
+  magic_honey_dropper:
+    display_name: magic_honey_dropper
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/magic_honey_dropper
+  magic_lava_dropper:
+    display_name: magic_lava_dropper
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/magic_lava_dropper
+  magic_sand_dropper:
+    display_name: magic_sand_dropper
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/magic_sand_dropper
+  magic_water_dropper:
+    display_name: magic_water_dropper
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/magic_water_dropper
+  monster_meat:
+    display_name: monster_meat
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/monster_meat
+  moon_leech_clot:
+    display_name: moon_leech_clot
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/moon_leech_clot
+  nanites:
+    display_name: nanites
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/nanites
+  nb_copper:
+    display_name: nb_copper
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/nb_copper
+  orange_bloodroot:
+    display_name: orange_bloodroot
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/orange_bloodroot
+  ornate_shadow_key:
+    display_name: ornate_shadow_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/ornate_shadow_key
+  pearl_black:
+    display_name: pearl_black
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/pearl_black
+  pearl_galaxy:
+    display_name: pearl_galaxy
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/pearl_galaxy
+  pearl_pink:
+    display_name: pearl_pink
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/pearl_pink
+  pearl_white:
+    display_name: pearl_white
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/pearl_white
+  pink_gel:
+    display_name: pink_gel
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/pink_gel
+  pink_thread:
+    display_name: pink_thread
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/pink_thread
+  pixie_dust:
+    display_name: pixie_dust
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/pixie_dust
+  purple_thread:
+    display_name: purple_thread
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/purple_thread
+  queen_slime_mask:
+    display_name: queen_slime_mask
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/queen_slime_mask
+  regal_delicacy:
+    display_name: regal_delicacy
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/regal_delicacy
+  reinforced_echo_shard:
+    display_name: reinforced_echo_shard
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/reinforced_echo_shard
+  rxj:
+    display_name: rxj
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/rxj
+  seaweed:
+    display_name: seaweed
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/seaweed
+  seedling:
+    display_name: seedling
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/seedling
+  shadow_key:
+    display_name: shadow_key
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/shadow_key
+  shadow_orb:
+    display_name: shadow_orb
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/shadow_orb
+  shark_fin:
+    display_name: shark_fin
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/shark_fin
+  shark_kite:
+    display_name: shark_kite
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/shark_kite
+  silk:
+    display_name: silk
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/silk
+  sky_blue_flower:
+    display_name: sky_blue_flower
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/sky_blue_flower
+  slice_of_hell_cake:
+    display_name: slice_of_hell_cake
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/slice_of_hell_cake
+  smg:
+    display_name: smg
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/smg
+  solar_tablet:
+    display_name: solar_tablet
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/solar_tablet
+  spooky_twig:
+    display_name: spooky_twig
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/spooky_twig
+  stinger:
+    display_name: stinger
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/stinger
+  strange_glowing_mushroom:
+    display_name: strange_glowing_mushroom
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/strange_glowing_mushroom
+  sturdy_fossil:
+    display_name: sturdy_fossil
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/sturdy_fossil
+  sunflower:
+    display_name: sunflower
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/sunflower
+  suspicious_looking_eye:
+    display_name: suspicious_looking_eye
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/suspicious_looking_eye
+  tattered_cloth:
+    display_name: tattered_cloth
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/tattered_cloth
+  teal_mushroom:
+    display_name: teal_mushroom
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/teal_mushroom
+  tissue_sample:
+    display_name: tissue_sample
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/tissue_sample
+  treasure_bag_betsy:
+    display_name: treasure_bag_betsy
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_betsy
+  treasure_bag_brain_of_cthulhu:
+    display_name: treasure_bag_brain_of_cthulhu
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_brain_of_cthulhu
+  treasure_bag_dark_mage:
+    display_name: treasure_bag_dark_mage
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_dark_mage
+  treasure_bag_deerclops:
+    display_name: treasure_bag_deerclops
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_deerclops
+  treasure_bag_duke_fishron:
+    display_name: treasure_bag_duke_fishron
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_duke_fishron
+  treasure_bag_eater_of_worlds:
+    display_name: treasure_bag_eater_of_worlds
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_eater_of_worlds
+  treasure_bag_empress_of_light:
+    display_name: treasure_bag_empress_of_light
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_empress_of_light
+  treasure_bag_eye_of_cthulhu:
+    display_name: treasure_bag_eye_of_cthulhu
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_eye_of_cthulhu
+  treasure_bag_golem:
+    display_name: treasure_bag_golem
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_golem
+  treasure_bag_king_slime:
+    display_name: treasure_bag_king_slime
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_king_slime
+  treasure_bag_lunatic_cultist:
+    display_name: treasure_bag_lunatic_cultist
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_lunatic_cultist
+  treasure_bag_noon_kord:
+    display_name: treasure_bag_noon_kord
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_noon_kord
+  treasure_bag_ogre:
+    display_name: treasure_bag_ogre
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_ogre
+  treasure_bag_plantera:
+    display_name: treasure_bag_plantera
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_plantera
+  treasure_bag_queen_bee:
+    display_name: treasure_bag_queen_bee
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_queen_bee
+  treasure_bag_queen_slime:
+    display_name: treasure_bag_queen_slime
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_queen_slime
+  treasure_bag_skeletron:
+    display_name: treasure_bag_skeletron
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_skeletron
+  treasure_bag_skeletron_prime:
+    display_name: treasure_bag_skeletron_prime
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_skeletron_prime
+  treasure_bag_the_destroyer:
+    display_name: treasure_bag_the_destroyer
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_the_destroyer
+  treasure_bag_the_twins:
+    display_name: treasure_bag_the_twins
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_the_twins
+  treasure_bag_wall_of_flesh:
+    display_name: treasure_bag_wall_of_flesh
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/treasure_bag_wall_of_flesh
+  truffle_worm:
+    display_name: truffle_worm
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/truffle_worm
+  turtle_shell:
+    display_name: turtle_shell
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/turtle_shell
+  vertebra:
+    display_name: vertebra
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/vertebra
+  vicious_mushroom:
+    display_name: vicious_mushroom
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/vicious_mushroom
+  vile_mushroom:
+    display_name: vile_mushroom
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/vile_mushroom
+  vine:
+    display_name: vine
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/vine
+  violet_husk:
+    display_name: violet_husk
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/violet_husk
+  wolf_fang:
+    display_name: wolf_fang
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/wolf_fang
+  wu_stick:
+    display_name: wu_stick
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/drop/wu_stick
+  air:
+    display_name: air
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/air
+  auction111:
+    display_name: auction111
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/auction111
+  auction222:
+    display_name: auction222
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/auction222
+  back:
+    display_name: back
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/back
+  bought:
+    display_name: bought
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/bought
+  builder_select:
+    display_name: builder_select
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/builder_select
+  cancel:
+    display_name: cancel
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cancel
+  category:
+    display_name: category
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/category
+  cha:
+    display_name: cha
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cha
+  check:
+    display_name: check
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/check
+  clear:
+    display_name: clear
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/clear
+  coin1:
+    display_name: coin1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/coin1
+  confirm:
+    display_name: confirm
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/confirm
+  cross:
+    display_name: cross
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cross
+  crystal:
+    display_name: crystal
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/crystal
+  cw_kill:
+    display_name: cw_kill
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_kill
+  cw_level:
+    display_name: cw_level
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_level
+  cw_level_xp:
+    display_name: cw_level_xp
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_level_xp
+  cw_money:
+    display_name: cw_money
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_money
+  cw_point:
+    display_name: cw_point
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_point
+  cw_point_pro:
+    display_name: cw_point_pro
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_point_pro
+  cw_ui_1:
+    display_name: cw_ui_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_ui_1
+  cw_ui_2:
+    display_name: cw_ui_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_ui_2
+  cw_ui_3:
+    display_name: cw_ui_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_ui_3
+  cw_ui_4:
+    display_name: cw_ui_4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_ui_4
+  cw_ui_5:
+    display_name: cw_ui_5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_ui_5
+  cw_ui_6:
+    display_name: cw_ui_6
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_ui_6
+  cw_ui_7:
+    display_name: cw_ui_7
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/cw_ui_7
+  diamond_cog:
+    display_name: diamond_cog
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/diamond_cog
+  digger_select:
+    display_name: digger_select
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/digger_select
+  expired:
+    display_name: expired
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/expired
+  farmer_select:
+    display_name: farmer_select
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/farmer_select
+  fisherman_select:
+    display_name: fisherman_select
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/fisherman_select
+  gold_cog:
+    display_name: gold_cog
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/gold_cog
+  good:
+    display_name: good
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/good
+  home:
+    display_name: home
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/home
+  homehome:
+    display_name: homehome
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/homehome
+  hunter_select:
+    display_name: hunter_select
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/hunter_select
+  info:
+    display_name: info
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/info
+  inventory:
+    display_name: inventory
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/inventory
+  job02:
+    display_name: job02
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/job02
+  left_yellow:
+    display_name: left_yellow
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/left_yellow
+  mctown_quest_banner:
+    display_name: mctown_quest_banner
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/mctown_quest_banner
+  mctown_soap:
+    display_name: mctown_soap
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/mctown_soap
+  miner_select:
+    display_name: miner_select
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/miner_select
+  money_icon:
+    display_name: money_icon
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/money_icon
+  next:
+    display_name: next
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/next
+  ornamentsbag:
+    display_name: ornamentsbag
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/ornamentsbag
+  progress_green:
+    display_name: progress_green
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/progress_green
+  progress_red:
+    display_name: progress_red
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/progress_red
+  progress_yellow:
+    display_name: progress_yellow
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/progress_yellow
+  qiandao000:
+    display_name: qiandao000
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/qiandao000
+  qiandao111:
+    display_name: qiandao111
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/qiandao111
+  qiandao222:
+    display_name: qiandao222
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/qiandao222
+  qiandao333:
+    display_name: qiandao333
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/qiandao333
+  right_yellow:
+    display_name: right_yellow
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/right_yellow
+  scroll:
+    display_name: scroll
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/scroll
+  shang:
+    display_name: shang
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/shang
+  woodcutter_select:
+    display_name: woodcutter_select
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/woodcutter_select
+  xia:
+    display_name: xia
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/icon/xia
+  off_hand_1_1:
+    display_name: off_hand_1_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_1
+  off_hand_1_10:
+    display_name: off_hand_1_10
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_10
+  off_hand_1_11:
+    display_name: off_hand_1_11
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_11
+  off_hand_1_12:
+    display_name: off_hand_1_12
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_12
+  off_hand_1_13:
+    display_name: off_hand_1_13
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_13
+  off_hand_1_14:
+    display_name: off_hand_1_14
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_14
+  off_hand_1_2:
+    display_name: off_hand_1_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_2
+  off_hand_1_3:
+    display_name: off_hand_1_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_3
+  off_hand_1_4:
+    display_name: off_hand_1_4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_4
+  off_hand_1_5:
+    display_name: off_hand_1_5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_5
+  off_hand_1_6:
+    display_name: off_hand_1_6
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_6
+  off_hand_1_7:
+    display_name: off_hand_1_7
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_7
+  off_hand_1_8:
+    display_name: off_hand_1_8
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_8
+  off_hand_1_9:
+    display_name: off_hand_1_9
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_1_9
+  off_hand_2_1:
+    display_name: off_hand_2_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_2_1
+  off_hand_2_2:
+    display_name: off_hand_2_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_2_2
+  off_hand_2_3:
+    display_name: off_hand_2_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_2_3
+  off_hand_2_4:
+    display_name: off_hand_2_4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_2_4
+  off_hand_2_5:
+    display_name: off_hand_2_5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_2_5
+  off_hand_2_6:
+    display_name: off_hand_2_6
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_2_6
+  off_hand_2_7:
+    display_name: off_hand_2_7
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_2_7
+  off_hand_3_1:
+    display_name: off_hand_3_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_1
+  off_hand_3_10:
+    display_name: off_hand_3_10
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_10
+  off_hand_3_11:
+    display_name: off_hand_3_11
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_11
+  off_hand_3_12:
+    display_name: off_hand_3_12
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_12
+  off_hand_3_13:
+    display_name: off_hand_3_13
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_13
+  off_hand_3_14:
+    display_name: off_hand_3_14
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_14
+  off_hand_3_15:
+    display_name: off_hand_3_15
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_15
+  off_hand_3_16:
+    display_name: off_hand_3_16
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_16
+  off_hand_3_2:
+    display_name: off_hand_3_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_2
+  off_hand_3_3:
+    display_name: off_hand_3_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_3
+  off_hand_3_4:
+    display_name: off_hand_3_4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_4
+  off_hand_3_5:
+    display_name: off_hand_3_5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_5
+  off_hand_3_6:
+    display_name: off_hand_3_6
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_6
+  off_hand_3_7:
+    display_name: off_hand_3_7
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_7
+  off_hand_3_8:
+    display_name: off_hand_3_8
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_8
+  off_hand_3_9:
+    display_name: off_hand_3_9
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_3_9
+  off_hand_4_1:
+    display_name: off_hand_4_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_1
+  off_hand_4_10:
+    display_name: off_hand_4_10
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_10
+  off_hand_4_11:
+    display_name: off_hand_4_11
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_11
+  off_hand_4_12:
+    display_name: off_hand_4_12
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_12
+  off_hand_4_13:
+    display_name: off_hand_4_13
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_13
+  off_hand_4_14:
+    display_name: off_hand_4_14
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_14
+  off_hand_4_15:
+    display_name: off_hand_4_15
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_15
+  off_hand_4_16:
+    display_name: off_hand_4_16
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_16
+  off_hand_4_2:
+    display_name: off_hand_4_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_2
+  off_hand_4_3:
+    display_name: off_hand_4_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_3
+  off_hand_4_4:
+    display_name: off_hand_4_4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_4
+  off_hand_4_5:
+    display_name: off_hand_4_5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_5
+  off_hand_4_6:
+    display_name: off_hand_4_6
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_6
+  off_hand_4_7:
+    display_name: off_hand_4_7
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_7
+  off_hand_4_8:
+    display_name: off_hand_4_8
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_8
+  off_hand_4_9:
+    display_name: off_hand_4_9
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_4_9
+  off_hand_5_1:
+    display_name: off_hand_5_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_1
+  off_hand_5_2:
+    display_name: off_hand_5_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_2
+  off_hand_5_3:
+    display_name: off_hand_5_3
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_3
+  off_hand_5_4:
+    display_name: off_hand_5_4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_4
+  off_hand_5_5:
+    display_name: off_hand_5_5
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_5
+  off_hand_5_6:
+    display_name: off_hand_5_6
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_6
+  off_hand_5_7:
+    display_name: off_hand_5_7
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_7
+  off_hand_5_8:
+    display_name: off_hand_5_8
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/off_hand/off_hand_5_8
+  adamantite:
+    display_name: "精金矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 沙漠"
+      - "&7要求镐力: 180"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/adamantite
+  adamantite_ingot:
+    display_name: "精金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/adamantite_ingot
+  aquamarine:
+    display_name: "海蓝宝石"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 海洋/珊瑚礁"
+      - "&7要求镐力: 特殊"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/aquamarine
+  chlorophyte:
+    display_name: "叶绿矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 丛林"
+      - "&7要求镐力: 200"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/chlorophyte
+  chlorophyte_ingot:
+    display_name: "叶绿锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/chlorophyte_ingot
+  cobalt:
+    display_name: "钴矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 海洋"
+      - "&7要求镐力: 140"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/cobalt
+  cobalt_ingot:
+    display_name: "钴锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/cobalt_ingot
+  crimtane:
+    display_name: "猩红矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 绯红森林"
+      - "&7要求镐力: 120"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/crimtane
+  crimtane_ingot:
+    display_name: "猩红锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/crimtane_ingot
+  demonite:
+    display_name: "魔矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 沼泽"
+      - "&7要求镐力: 120"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/demonite
+  demonite_ingot:
+    display_name: "魔锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/demonite_ingot
+  enderite:
+    display_name: "末影合金矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 末地"
+      - "&7要求镐力: 100"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/enderite
+  enderite_ingot:
+    display_name: "末影合金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/enderite_ingot
+  gem:
+    display_name: "宝石"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 地下"
+      - "&7要求镐力: 特殊"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/gem
+  hallowed_ingot:
+    display_name: "神圣锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/hallowed_ingot
+  hellstone:
+    display_name: "狱岩矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 地狱"
+      - "&7要求镐力: 130"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/hellstone
+  hellstone_ingot:
+    display_name: "狱岩锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/hellstone_ingot
+  luminite:
+    display_name: "夜明矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 月亮"
+      - "&7要求镐力: 240"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/luminite
+  luminite_ingot:
+    display_name: "夜明锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/luminite_ingot
+  meteorite:
+    display_name: "陨石矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 陨石坑"
+      - "&7要求镐力: 110"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/meteorite
+  meteorite_ingot:
+    display_name: "陨石锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/meteorite_ingot
+  mythril:
+    display_name: "秘银矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 雪山"
+      - "&7要求镐力: 170"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/mythril
+  mythril_ingot:
+    display_name: "秘银锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/mythril_ingot
+  niter:
+    display_name: "硝石"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 沙漠"
+      - "&7要求镐力: 特殊"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/niter
+  orichalcum:
+    display_name: "山铜矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 热带草原"
+      - "&7要求镐力: 160"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/orichalcum
+  orichalcum_ingot:
+    display_name: "山铜锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/orichalcum_ingot
+  palladium:
+    display_name: "钯金矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 恶地"
+      - "&7要求镐力: 150"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/palladium
+  palladium_ingot:
+    display_name: "钯金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/palladium_ingot
+  platinum:
+    display_name: "铂金矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 主世界"
+      - "&7要求镐力: 90"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/platinum
+  platinum_ingot:
+    display_name: "铂金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/platinum_ingot
+  shroomite_ingot:
+    display_name: "蘑菇锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/shroomite_ingot
+  silver:
+    display_name: "银矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 主世界"
+      - "&7要求镐力: 70"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/silver
+  silver_ingot:
+    display_name: "银锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/silver_ingot
+  spectre_ingot:
+    display_name: "幽灵锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/spectre_ingot
+  titanium:
+    display_name: "钛金矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 深暗之域"
+      - "&7要求镐力: 190"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/titanium
+  titanium_ingot:
+    display_name: "钛金锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/titanium_ingot
+  tungsten:
+    display_name: "钨矿"
+    lore:
+      - "&7一种合成材料"
+      - "&7刷新群系: 主世界"
+      - "&7要求镐力: 80"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/tungsten
+  tungsten_ingot:
+    display_name: "钨锭"
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ore/tungsten_ingot
+  b0:
+    display_name: b0
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ui/b0
+  b4:
+    display_name: b4
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ui/b4
+  ui_tp_1:
+    display_name: ui_tp_1
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ui/ui_tp_1
+  ui_tp_2:
+    display_name: ui_tp_2
+    resource:
+      material: paper
+      generate: false
+      model_path: items/paper/ui/ui_tp_2

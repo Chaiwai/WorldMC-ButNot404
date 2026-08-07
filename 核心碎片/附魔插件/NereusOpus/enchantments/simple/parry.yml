@@ -1,0 +1,26 @@
+basic:
+  id: parry
+  name: 格挡
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 手持剑时受到的伤害降低
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1-0.1*{level}

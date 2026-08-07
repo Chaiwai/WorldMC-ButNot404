@@ -1,0 +1,17 @@
+info:
+  namespace: "mctown"
+items:
+  trade_allow:
+    display_name: trade_allow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - ui/icon/trade_allow.png
+  trade_deny:
+    display_name: trade_deny
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - ui/icon/trade_deny.png

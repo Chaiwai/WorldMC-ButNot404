@@ -1,0 +1,351 @@
+##################################################################
+# Note: This file is made for you to manager textures and models #
+# If you want to get ItemsAdder items in CustomFishing, you      #
+# should manually set "material: ItemsAdder:namespace:id " in    #
+# CustomFishing items' configuration.                            #
+# If you want ItemsAdder to have CustomFishing items' effects    #
+# You should add "nbt: {CustomFishing: {type: TYPE, id: ID}}"    #
+# (for items) or "{Totem: totem_id}" (for totems) in             #
+# ItemsAdder item configuration.                                 #
+##################################################################
+info:
+  namespace: customfishing
+items:
+############
+#   Fish   #
+############
+  radioactive_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/radioactive_fish
+      model_id: 50000
+  tuna_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/tuna_fish
+      model_id: 50001
+  tuna_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/tuna_fish_silver_star
+      model_id: 50002
+  tuna_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/tuna_fish_golden_star
+      model_id: 50003
+  pike_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pike_fish
+      model_id: 50004
+  pike_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pike_fish_silver_star
+      model_id: 50005
+  pike_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/pike_fish_golden_star
+      model_id: 50006
+  gold_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/gold_fish
+      model_id: 50007
+  gold_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/gold_fish_silver_star
+      model_id: 50008
+  gold_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/gold_fish_golden_star
+      model_id: 50009
+  perch_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/perch_fish
+      model_id: 50010
+  perch_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/perch_fish_silver_star
+      model_id: 50011
+  perch_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/perch_fish_golden_star
+      model_id: 50012
+  mullet_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/mullet_fish
+      model_id: 50013
+  mullet_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/mullet_fish_silver_star
+      model_id: 50014
+  mullet_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/mullet_fish_golden_star
+      model_id: 50015
+  sardine_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sardine_fish
+      model_id: 50016
+  sardine_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sardine_fish_silver_star
+      model_id: 50017
+  sardine_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sardine_fish_golden_star
+      model_id: 50018
+  carp_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/carp_fish
+      model_id: 50019
+  carp_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/carp_fish_silver_star
+      model_id: 50020
+  carp_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/carp_fish_golden_star
+      model_id: 50021
+  cat_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/cat_fish
+      model_id: 50022
+  cat_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/cat_fish_silver_star
+      model_id: 50023
+  cat_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/cat_fish_golden_star
+      model_id: 50024
+  octopus_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/octopus_fish
+      model_id: 50025
+  octopus_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/octopus_fish_silver_star
+      model_id: 50026
+  octopus_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/octopus_fish_golden_star
+      model_id: 50027
+  sunfish_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sunfish_fish
+      model_id: 50028
+  sunfish_fish_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sunfish_fish_silver_star
+      model_id: 50029
+  sunfish_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sunfish_fish_golden_star
+      model_id: 50030
+  red_spnapper_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/red_spnapper_fish
+      model_id: 50031
+  red_spnapper_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/red_spnapper_silver_star
+      model_id: 50032
+  red_spnapper_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/red_spnapper_fish_golden_star
+      model_id: 50033
+  salmon_void_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/salmon_void_fish
+      model_id: 50034
+  salmon_void_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/salmon_void_silver_star
+      model_id: 50035
+  salmon_void_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/salmon_void_fish_golden_star
+      model_id: 50036
+  woodskip_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/woodskip_fish
+      model_id: 50037
+  woodskip_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/woodskip_silver_star
+      model_id: 50038
+  woodskip_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/woodskip_fish_golden_star
+      model_id: 50039
+  sturgeon_fish:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sturgeon_fish
+      model_id: 50040
+  sturgeon_silver_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sturgeon_silver_star
+      model_id: 50041
+  sturgeon_fish_golden_star:
+    resource:
+      material: COD
+      generate: false
+      model_path: item/fish/sturgeon_fish_golden_star
+      model_id: 50042
+############
+#   Rod    #
+############
+  nature_fishing_cane:
+    nbt: '{CustomFishing:{type: rod, id: nature_fishing_cane}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/nature_fishing_rod
+      model_id: 50001
+  silver_fishing_rod:
+    nbt: '{CustomFishing:{type: rod, id: silver_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/silver_fishing_rod
+      model_id: 50002
+  golden_fishing_rod:
+    nbt: '{CustomFishing:{type: rod, id: golden_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/golden_fishing_rod
+      model_id: 50003
+  star_fishing_rod:
+    nbt: '{CustomFishing:{type: rod, id: star_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/rod/star_fishing_rod
+      model_id: 50004
+############
+#   Bait   #
+############
+  common_bait:
+    nbt: '{CustomFishing:{type: bait, id: common_bait}}'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bait/common_bait
+      model_id: 50001
+  magnet_bait:
+    nbt: '{CustomFishing:{type: bait, id: magnet_bait}}'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bait/magnet_bait
+      model_id: 50002
+  wild_bait:
+    nbt: '{CustomFishing:{type: bait, id: wild_bait}}'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/bait/wild_bait
+      model_id: 50003
+############
+#   Util   #
+############
+  fish_compass:
+    nbt: '{CustomFishing:{type: util, id: fishfinder}}'
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/util/fish_compass
+      model_id: 50000
+  water_effect:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/util/splash_water
+      model_id: 889 
+  lava_effect:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/util/splash_lava
+      model_id: 999

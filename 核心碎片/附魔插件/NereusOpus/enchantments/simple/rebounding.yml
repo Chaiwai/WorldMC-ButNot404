@@ -1,0 +1,29 @@
+basic:
+  id: rebounding
+  name: 反弹
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 在受到伤害时对攻击者施加击退效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    velocity: :0.1*{level}

@@ -1,0 +1,46 @@
+cw_bow_0:
+  shoot_bow:
+    cooldown: 0
+    actions:
+      - consume:
+        amount: 0
+        condition: |-
+          print("22")
+          false
+        actions:
+          - tell: "2"
+      - tell: "1"
+cw_bow_nu_0:
+  # shoot_bow:
+  #   cooldown: 0
+  #   actions:
+  #     - consume:
+  #       amount: 0
+  #       condition: |-
+  #         print("=== 弩的装填道具信息 ===")
+  #         false
+  #       actions:
+  #         - tell: "2"
+  #     - tell: "<papi::ni_nbt_get_hand_components.minecraft:charged_projectiles>"
+  #     - "js: print('=== 弩的装填道具信息 ===')"
+  #     - "js: print('======================')"
+  #     - "tell: '&6=== 弩的装填道具信息 ==='"
+  #     - "tell: '&7是否有装填道具: &f%ni_nbt_has_hand_itemTag%'"
+  #     - "tell: '&7装填道具数量: &f%ni_nbt_get_hand_charged_projectiles.size%'"
+  #     - "tell: '&7箭的ID: &f%ni_nbt_get_hand_charged_projectiles.0.id%'"
+  #     - "tell: '&7NeigeItems ID: &f%ni_nbt_get_hand_charged_projectiles.0.components.minecraft:custom_data.NeigeItems.id%'"
+  #     - "tell: '&6=== 弩的装填道具信息 ==='"
+  #     - "tell: '&7是否有装填道具: &f%ni_nbt_has_hand_charged_projectiles%'"
+  #     - "tell: '&7装填道具数量: &f%ni_nbt_check_hand_{charged_projectiles.size:0}%'"
+  #     - "tell: '&7箭的ID: &f%ni_nbt_check_hand_{charged_projectiles.0.id:无}%'"
+  #     - "tell: '&7NeigeItems ID: &f%ni_nbt_check_hand_{charged_projectiles.0.components.minecraft:custom_data.NeigeItems.id:无}%'"
+
+  # left:
+  #   actions:
+  #     - "tell: '&6=== 弩的装填道具信息 ==='"
+  #     - "tell: '&71: &f%ni_nbt_eval_hand_itemTag.getAsString()%'"
+cw_arrow_0:
+  # beclicked:
+  #   cooldown: 0
+  #   actions:
+  #     - "tell: <amount::>"

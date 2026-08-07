@@ -1,0 +1,46 @@
+# 自动生成的UI图片配置文件
+info:
+  namespace: cw_items
+font_images:
+  critical:
+    path: ui/icon3/critical.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  damage:
+    path: ui/icon3/damage.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  defense:
+    path: ui/icon3/defense.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  food:
+    path: ui/icon3/food.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  health:
+    path: ui/icon3/health.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  knockback:
+    path: ui/icon3/knockback.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9
+  luck:
+    path: ui/icon3/luck.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 10
+    y_position: 9

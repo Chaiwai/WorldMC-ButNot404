@@ -1,0 +1,337 @@
+cw_p_60_仙人掌:
+  break_block:
+    cooldown: 0.5
+    consume:
+      amount: 0
+    actions:
+      - "console: damage %player_name% 1"
+      - "give-saturation: 2"
+      - "sound: enchant.thorns.hit 10 10"
+cw_p_70_骨头:
+  break_block:
+    cooldown: 0
+    consume:
+      amount: 0
+    actions:
+      - "set-potion-effect: night_vision 1 60"
+      - "sound: minecraft:entity.skeleton.hurt 0.2 2"
+cw_p_110_end:
+  shift_right:
+    cooldown: 1000
+    consume:
+      cooldown: 1000
+      amount: 0
+    actions: "console: damage %player_name% 0.0625"
+
+  damaged_hand:
+    cooldown: 90000
+    consume:
+      cooldown: 90000
+      amount: 0
+      condition: |-
+        (function() {
+          var damage = event.getFinalDamage();
+          global.fdamaged = damage > 100 ? 0 : damage;
+          return true;
+        })()
+    actions:
+      - "give-health: <fastcalc::<fdamaged>>"
+      - "set-potion-effect: Invisibility 1 5"
+      - "set-potion-effect: speed 2 5"
+      - "sound: entity.enderman.hurt 1 1.5"
+      - "actionbar: <#FF99FF>触发末影闪避, 暂缓<#FFFF99> <fdamaged> <#FF99FF>点伤害"
+      - "delay: 100"
+      - "actionbar: <#FF99FF>末影闪避结束, 消耗<#FFFF99> <fastcalc::<fdamaged>> <#FF99FF>点耐久"
+      - "sound: entity.enderman.death 1 0.5"
+      - "addDamage: <fastcalc::<fdamaged>>"
+      - "take-health: <fastcalc::<fdamaged>>"
+
+cw_p_120_end_pro:
+  shift_right:
+    cooldown: 1000
+    consume:
+      cooldown: 1000
+      amount: 0
+    actions: "console: damage %player_name% 0.0625"
+
+  damaged_hand:
+    cooldown: 60000
+    consume:
+      cooldown: 60000
+      amount: 0
+      condition: |-
+        (function() {
+          var damage = event.getFinalDamage();
+          global.fdamagedpro = damage > 100 ? 0 : damage;
+          return true;
+        })()
+    actions:
+      - "give-health: <fastcalc::<fdamagedpro>>"
+      - "set-potion-effect: Invisibility 1 5"
+      - "set-potion-effect: speed 2 5"
+      - "sound: entity.enderman.hurt 1 1.5"
+      - "actionbar: <#FF99FF>触发末影闪避, 暂缓<#FFFF99> <fdamagedpro> <#FF99FF>点伤害"
+      - "delay: 100"
+      - "actionbar: <#FF99FF>末影闪避结束, 消耗<#FFFF99> <fastcalc::<fdamagedpro>> <#FF99FF>点耐久"
+      - "sound: entity.enderman.death 1 0.5"
+      - "addDamage: <fastcalc::<fdamagedpro>>"
+      - "take-health: <fastcalc::<fdamagedpro>*0.8>"
+
+cw_p_130_猩红:
+  break_block:
+    cooldown: 0
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var item = mainHandItem();
+          var currentDamage = item.getDurability();
+          var maxDurability = 64;
+          var currentDurability = maxDurability - currentDamage;
+          print(currentDurability)
+          if (currentDurability < 32) {
+              item.setDurability(Math.min(maxDurability, currentDamage - 2));
+              return true
+            }
+          var messages = [
+            "§f §c还不足以§e....",
+            "§f §c献祭仪式§e需要一定的条件",
+            "§f §c现在还§e不是时候",
+          ];
+          
+          // 生成随机索引
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          
+          // 发送随机消息
+          player.sendActionBar(messages[randomIndex]);
+          return false;
+        })()
+    actions:
+      - "take-health: 0.0625"
+      - "set-potion-effect: haste 2 10"
+      - "sound: block.lava.ambient 0.25 1.5"
+
+cw_p_130_腐化:
+  break_block:
+    cooldown: 0
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var item = mainHandItem();
+          var currentDamage = item.getDurability();
+          item.setDurability(currentDamage + player.getLocation().getBlock().getLightLevel() - 2);
+          if (player.getLocation().getBlock().getLightLevel() < 8) {
+              return true
+            }
+          
+          var messages = [
+            "§f §c我渴望黑暗!§e不!!!!!!",
+            "§f §c破损加快§e不是我想要的结果!!!!",
+            "§f §c我的弱点是?§e光明!",
+          ];
+          
+          // 生成随机索引
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          
+          // 发送随机消息
+          player.sendActionBar(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "set-potion-effect: haste 2 10"
+      - "set-potion-effect: darkness 1 60"
+      - "set-potion-effect: Night_Vision 1 60"
+      - "sound: entity.warden.ambient 0.25 1.5"
+
+cw_p_140_狱岩:
+  shift_right:
+    cooldown: 30000
+    consume:
+      cooldown: 30000
+      amount: 0
+    actions: "console: burn %player_name% 20"
+
+  damaged_hand:
+    cooldown: 0
+    consume:
+      #     print("====================================")
+      # print("伤害类型: " + event.getCause().name())
+      # print("伤害值: " + event.getFinalDamage())
+      # print("当前位置方块: " + player.getLocation().getBlock().getType().name())
+      # print("====================================")
+      condition: |-
+        (function() {
+
+          var cause = event.getCause().name();
+          var damage = event.getFinalDamage();
+          
+          if (cause == "LAVA" || cause == "FIRE" || cause == "FIRE_TICK" || cause == "HOT_FLOOR") {
+            var healAmount = damage * 1;
+            player.setHealth(Math.min(player.getMaxHealth(), player.getHealth() + healAmount));
+            return true
+          }
+          return false;
+        })()
+      amount: 0
+    actions:
+      - "takeDamage: 10"
+      - "set-potion-effect: speed 1 2"
+      - "set-potion-effect: jump_boost 2 2"
+      - "set-potion-effect: haste 2 10"
+      - "set-food: 18"
+
+cw_p_160_钴:
+  right:
+    cooldown: 2000
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var inWater = player.isInRain() 
+          var biome = player.getLocation().getBlock().getBiome().name();
+          // print("当前群系: " + biome);
+          // 检测玩家是否在海中
+          if (biome.indexOf("OCEAN") !== -1){
+            var messages = [
+              ":fuhao2: §a从此§d你便是海神!",
+              ":fuhao2: §a家的味道§d😋😋😋",
+              ":fuhao2: §d卡密",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+          // 检测玩家是否在雨中
+          if (inWater) {
+            var messages = [
+              ":fuhao2: §a不是海洋?§d但也足以!",
+              ":fuhao2: §a吃吃吃§d吃吃吃",
+              ":fuhao2: §d神",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+
+          var messages = [
+            ":fuhao1: §c你不在海域中!§e没有成为神的资格!",
+            ":fuhao1: §c雨.....§e救赎....",
+            ":fuhao1: §c成为神§e是有代价的",
+          ];
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          player.sendMessage(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "give-health: 1"
+      - "set-potion-effect: haste 2 120"
+      - "set-potion-effect: conduit_power 1 120"
+      - "takeDamage: 100"
+      - "sound: entity.elder_guardian.curse 10 0.4"
+
+cw_p_170_钯金:
+  right:
+    cooldown: 2000
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var worldTime = player.getWorld().getTime();
+          var biome = player.getLocation().getBlock().getBiome().name();
+
+          if (worldTime >= 4000 && worldTime <= 8000) {
+            var messages = [
+              ":fuhao2: §a现在是" + worldTime + "tick?&e可以可以",
+              ":fuhao2: §a干旱地形§e我厌恶水!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+          if (biome.indexOf("DESERT") !== -1 || 
+              biome.indexOf("BADLANDS") !== -1 ||
+              biome.indexOf("MESA") !== -1 ||
+              biome.indexOf("SAVANNA") !== -1) {
+            var messages = [
+              ":fuhao2: §a这里是? §b" + biome + " ! §e可以可以",
+              ":fuhao2: §a干旱地形§e我喜爱!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+
+          var messages = [
+            ":fuhao1: §c[ 6000tick§7, §e8000tick ]",
+            ":fuhao1: §c干旱地形§e我厌恶水!",
+            ":fuhao1: §c现在是" + worldTime + "§etick",
+            ":fuhao2: §an§eo",
+          ];
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          player.sendMessage(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "give-health: 1"
+      - "set-potion-effect: haste 2 120"
+      - "set-potion-effect: night_vision 1 120"
+      - "takeDamage: 100"
+      - "sound: entity.elder_guardian.curse 10 0.4"
+
+cw_p_180_山铜:
+  right:
+    cooldown: 2000
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          var worldTime = player.getWorld().getTime();
+          var biome = player.getLocation().getBlock().getBiome().name();
+
+          if (worldTime >= 5000 && worldTime <= 9000) {
+            var messages = [
+              ":fuhao2: §a现在是" + worldTime + "tick?&e可以可以",
+              ":fuhao2: §a干旱地形§e我厌恶水!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+          if (biome.indexOf("DESERT") !== -1 || 
+              biome.indexOf("BADLANDS") !== -1 ||
+              biome.indexOf("MESA") !== -1) {
+            var messages = [
+              ":fuhao2: §a这里是? §b" + biome + " ! §e可以可以",
+              ":fuhao2: §a干旱地形§e我喜爱!",
+              ":fuhao2: §ayes",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            player.sendMessage(messages[randomIndex]);
+            return true;
+          }
+
+          var messages = [
+            ":fuhao1: §c[ 5000tick§7, §e9000tick ]",
+            ":fuhao1: §c干旱地形§e我厌恶水!",
+            ":fuhao1: §c现在是" + worldTime + "§etick",
+            ":fuhao2: §an§eo",
+          ];
+          var randomIndex = Math.floor(Math.random() * messages.length);
+          player.sendMessage(messages[randomIndex]);
+          return false;
+
+        })()
+    actions:
+      - "give-health: 1.25"
+      - "set-potion-effect: haste 3 180"
+      - "set-potion-effect: night_vision 1 120"
+      - "takeDamage: 100"
+      - "sound: entity.elder_guardian.curse 10 0.4"
+cw_p_190_秘银:

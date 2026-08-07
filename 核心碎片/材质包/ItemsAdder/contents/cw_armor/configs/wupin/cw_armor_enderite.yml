@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  enderite:
+    type: armor
+    layer_1: armor/enderite/layer_1
+    layer_2: armor/enderite/layer_2
+items:
+  enderite_boots:
+    name: enderite_boots
+    resource:
+      generate: true
+      texture: items/enderite/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:enderite
+  enderite_chestplate:
+    name: enderite_chestplate
+    resource:
+      generate: true
+      texture: items/enderite/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:enderite
+  enderite_helmet:
+    name: enderite_helmet
+    resource:
+      generate: true
+      texture: items/enderite/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:enderite
+  enderite_leggings:
+    name: enderite_leggings
+    resource:
+      generate: true
+      texture: items/enderite/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:enderite

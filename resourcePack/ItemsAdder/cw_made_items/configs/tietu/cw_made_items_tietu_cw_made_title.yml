@@ -1,0 +1,154 @@
+#**ItemsAdder-configs-贴图**
+#===========================
+info:
+  namespace: "cw_made_items" #[命名空间]**
+font_images: #[贴图]**
+  #cw的称号
+  cw_title0: #[贴图的内部名]**
+    path: "img/title/cw_title0.png" #[贴图的路径]**
+    scale_ratio: 10 #[贴图的大小]**
+    y_position: 9 #[贴图的上下偏移]**
+    show_in_gui: true
+    suggest_in_command: false
+  cw_title1:
+    path: "img/title/cw_title1.png"
+    scale_ratio: 10
+    y_position: 9
+    show_in_gui: true
+    suggest_in_command: false
+  cw_title2:
+    path: "img/title/cw_title2.png"
+    scale_ratio: 10 #[贴图的大小]**
+    y_position: 9 #[贴图的上下偏移]**
+    show_in_gui: true
+    suggest_in_command: false
+  cw_title3:
+    path: "img/title/cw_title3.png"
+    scale_ratio: 10
+    y_position: 9
+    show_in_gui: true
+    suggest_in_command: false
+
+  #玩家的称号
+  p_title0:
+    path: "img/title/p_title0.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 10
+    y_position: 9
+  p_title1:
+    path: "img/title/p_title1.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 10
+    y_position: 8
+  p_title2:
+    path: "img/title/p_title2.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 10
+    y_position: 8
+  p_title3:
+    path: "img/title/p_title3.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 10
+    y_position: 8
+
+  #404的称号
+  404_title0:
+    path: "img/title/404_title0.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 7
+    y_position: 7
+  404_title1:
+    path: "img/title/404_title1.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 7
+    y_position: 7
+  404_title2:
+    path: "img/title/404_title2.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 7
+    y_position: 7
+  404_title3:
+    path: "img/title/404_title3.png"
+    show_in_gui: true
+    suggest_in_command: false
+    scale_ratio: 7
+    y_position: 7
+
+  #rank
+  rank0:
+    path: "img/rank/rank0.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "⑳"
+    scale_ratio: 7
+    y_position: 7
+  rank1:
+    path: "img/rank/rank1.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "①"
+    scale_ratio: 7
+    y_position: 7
+  rank2:
+    path: "img/rank/rank2.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "②"
+    scale_ratio: 7
+    y_position: 7
+  rank3:
+    path: "img/rank/rank3.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "③"
+    scale_ratio: 7
+    y_position: 7
+  rank4:
+    path: "img/rank/rank4.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "④"
+    scale_ratio: 7
+    y_position: 7
+  rank5:
+    path: "img/rank/rank5.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "⑤"
+    scale_ratio: 7
+    y_position: 7
+  rank6:
+    path: "img/rank/rank6.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "⑥"
+    scale_ratio: 7
+    y_position: 7
+  rank7:
+    path: "img/rank/rank7.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "⑦"
+    scale_ratio: 7
+    y_position: 7
+  rank8:
+    path: "img/rank/rank8.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "⑧"
+    scale_ratio: 7
+    y_position: 7
+  rank9:
+    path: "img/rank/rank9.png"
+    show_in_gui: true
+    suggest_in_command: false
+    symbol: "⑨"
+    scale_ratio: 7
+    y_position: 7

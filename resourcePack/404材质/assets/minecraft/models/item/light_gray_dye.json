@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/light_gray_dye"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"ore:ia_auto_gen/meteorite_ore"},{"predicate":{"custom_model_data":10001},"model":"ore:meteorite_ingot"},{"predicate":{"custom_model_data":10002},"model":"item/light_gray_dye"}]}

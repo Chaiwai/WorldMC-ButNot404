@@ -1,0 +1,66 @@
+info:
+  namespace: cw_status
+items:
+  mctown_pinion1:
+    enabled: true
+    display_name: "翅膀1"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion1
+      material: brick
+
+  mctown_pinion2:
+    enabled: true
+    display_name: "翅膀2"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion2
+      material: brick
+
+  mctown_pinion3:
+    enabled: true
+    display_name: "翅膀3"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion3
+      material: brick
+
+  mctown_pinion4:
+    enabled: true
+    display_name: "翅膀4"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion4
+      material: brick
+
+  mctown_pinion5:
+    enabled: true
+    display_name: "翅膀5"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion5
+      material: brick
+
+  mctown_pinion6:
+    enabled: true
+    display_name: "翅膀6"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion6
+      material: brick
+
+  mctown_pinion7:
+    enabled: true
+    display_name: "翅膀7"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion7
+      material: brick
+
+  mctown_pinion8:
+    enabled: true
+    display_name: "翅膀8"
+    resource:
+      generate: false
+      model_path: pinion/mctown_pinion8
+      material: brick

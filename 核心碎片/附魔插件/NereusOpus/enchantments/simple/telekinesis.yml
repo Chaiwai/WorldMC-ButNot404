@@ -1,0 +1,34 @@
+basic:
+  id: telekinesis
+  name: 心灵遥感
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 使掉落物和经验直接进入背包
+alternative:
+  grindstoneable: true
+  is-tradeable: false
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- pickaxes
+- axes
+- shovels
+- hoes
+- swords
+- bow
+- crossbow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    disable-on-players: true
+    check-radius: 2
+    check-delay: 1

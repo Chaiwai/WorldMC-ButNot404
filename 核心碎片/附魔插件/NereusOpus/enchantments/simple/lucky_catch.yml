@@ -1,0 +1,26 @@
+basic:
+  id: lucky_catch
+  name: 惊喜
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 在收钩时有概率一钩双鱼
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- rod
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :25*{level}

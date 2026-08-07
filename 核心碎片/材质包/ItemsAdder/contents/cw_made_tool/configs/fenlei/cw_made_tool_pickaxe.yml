@@ -1,0 +1,40 @@
+# 自动生成的分类配置文件
+# 生成工具: create_items.py
+
+info:
+  namespace: cw_made_tool
+categories:
+  pickaxe:
+    enabled: true
+    icon: cw_made_tool:adamantite_pickaxe
+    name: pickaxe
+    items:
+    - cw_made_tool:adamantite_pickaxe
+    - cw_made_tool:bone_pickaxe
+    - cw_made_tool:cactus_pickaxe
+    - cw_made_tool:candy_cane_pickaxe
+    - cw_made_tool:chlorophyte_pickaxe
+    - cw_made_tool:cobalt_pickaxe
+    - cw_made_tool:copper_pickaxe
+    - cw_made_tool:deathbringer_pickaxe
+    - cw_made_tool:fossil_pickaxe
+    - cw_made_tool:gold_pickaxe
+    - cw_made_tool:iron_pickaxe
+    - cw_made_tool:lead_pickaxe
+    - cw_made_tool:molten_pickaxe
+    - cw_made_tool:mythril_pickaxe
+    - cw_made_tool:nebula_pickaxe
+    - cw_made_tool:nightmare_pickaxe
+    - cw_made_tool:orichalcum_pickaxe
+    - cw_made_tool:palladium_pickaxe
+    - cw_made_tool:pickaxe_axe
+    - cw_made_tool:picksaw
+    - cw_made_tool:platinum_pickaxe
+    - cw_made_tool:silver_pickaxe
+    - cw_made_tool:solar_flare_pickaxe
+    - cw_made_tool:spectre_pickaxe
+    - cw_made_tool:stardust_pickaxe
+    - cw_made_tool:tin_pickaxe
+    - cw_made_tool:titanium_pickaxe
+    - cw_made_tool:tungsten_pickaxe
+    - cw_made_tool:vortex_pickaxe

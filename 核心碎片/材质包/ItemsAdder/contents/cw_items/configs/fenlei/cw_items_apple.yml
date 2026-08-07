@@ -1,0 +1,39 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_items
+categories:
+  tr_food:
+    enabled: true
+    icon: cw_items:apple
+    name: tr_food
+    items:
+    - cw_items:apple
+    - cw_items:apple_pie
+    - cw_items:bacon
+    - cw_items:banana
+    - cw_items:banana_split
+    - cw_items:carton_of_milk
+    - cw_items:cherry
+    - cw_items:coconut
+    - cw_items:coffee
+    - cw_items:dragon_fruit
+    - cw_items:grapefruit
+    - cw_items:grapes
+    - cw_items:hotdog
+    - cw_items:ice_cream
+    - cw_items:life_crystal
+    - cw_items:life_fruit
+    - cw_items:mana_crystal
+    - cw_items:mango
+    - cw_items:milkshake
+    - cw_items:mushroom
+    - cw_items:peach
+    - cw_items:pineapple
+    - cw_items:plum
+    - cw_items:potato_chips
+    - cw_items:pumpkin
+    - cw_items:rotten_chunk
+    - cw_items:royal_delight
+    - cw_items:shrimp_po_boy
+    - cw_items:steak
+    - cw_items:yellow_marigold

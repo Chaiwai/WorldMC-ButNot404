@@ -1,0 +1,219 @@
+title: ":offset_-9::cw_ui3:"
+rows: 6
+
+events:
+  pre_open: |-
+    sound entity_item_pickup by 1 1
+    context set cw_money to 1
+  close: sound entity_item_pickup by 1 2
+########################################
+p0: &p0
+  ia: cancel
+  name: "<gradient:#D1FB14:#FD9505>返回主页面</gradient>"
+  lore: |-
+    &f
+    &f&7返回上一级目录
+    &f
+    &f%img_left_click% &7点击返回
+    &f
+  action: |-
+    menu open cw_menu_page3
+pt0: &pt0
+  ia: cancel
+  name: "&7返回"
+  lore: |-
+    &r 
+    &f %img_left_click% &7点击返回上一级目录
+    &r
+  action: |-
+    page set to 0
+    menu title to ":offset_-9::cw_ui3:"
+    sound entity_item_pickup by 1 1
+pt1: &pt1
+  ia: cw_icon_point_pro
+  name: "自定义数量"
+  lore: |-
+    &r 
+    &f %img_left_click% &7点击选择
+    &r
+  action: |-
+    page set to 1
+    menu title to ":offset_-9::cw_ui4:"
+    sound entity_item_pickup by 1 1
+O: &O
+  ia: icon_left_blue
+  name: "&7上一页"
+  lore: |-
+    &r 
+    &f %img_left_click% &7点击查看上一页
+    &r
+N: &N
+  ia: icon_right_blue
+  name: "&7下一页"
+  lore: |-
+    &r 
+    &f %img_left_click% &7点击查看下一页
+    &r
+head: &head
+  update: 20
+  head: "{{player name}}"
+  name: "&f"
+  customModelData: 10010
+h: &h
+  name: "&f"
+  material: STRUCTURE_VOID
+
+#空
+nu: &nu
+  ia: cw_made_items_cw_made_items_ui_1
+  name: "<#ff0000>&l敬<#de0239>&l请<#bc0572>&l期<#9b07ab>&l待"
+  lore: |-
+    &f
+    &f&7这个功能可能还没有上线~再等等吧
+    &f
+    &f&m%img_left_click% &7&m点击打开
+    &f
+qr: &qr
+  ia: confirm
+  name: "&a确认"
+  lore: |-
+    &r 
+    &r &c请认真核对数量
+    &r <#FB4EED>当前选择数量 &7『 &e&l{{context get cw_money}} &7』
+    &r <#FB4EED>汇率  &7[&b 1 &7:&b1 &7]
+    &r 
+    &r &7按下 &f%img_shift% &7+&f %img_left_click% 确认
+    &r
+  action:
+    shift_left: |-
+      msg ":fuhao2:&e请选择你的支付方式"
+      command "xpay points {{context get cw_money}}"
+      msg "&e如果出现&7『 请求异常用户余额不足 &7』&e请联系服主"
+
+  ########################################
+
+panels:
+  - scale: [9, 6]
+    pages:
+      # 常规
+      - layout: |-
+          ########C
+          Hh#12345#
+          hh#6789a#
+          ###bcdef#
+          #########
+          O###X###N
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "O":
+            <<: *O
+          "N":
+            <<: *N
+          "X":
+            ia: cw_made_move_cw_made_move7
+            name: "<gradient:#FF0000:#FF7F00:#FFFF00:#00FF00:#0000FF:#4B0082:#9400D3>赞助商店</gradient>"
+            lore: |-
+              &7当前页面
+          "C":
+            <<: *p0
+          "1":
+            <<: *pt1
+          "2":
+            <<: *nu
+          "3":
+            <<: *nu
+          "4":
+            <<: *nu
+          "5":
+            <<: *nu
+          "6":
+            <<: *nu
+          "7":
+            <<: *nu
+          "8":
+            <<: *nu
+          "9":
+            <<: *nu
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu
+      - layout: |-
+          ########C
+          Hh##V####
+          hh#######
+          ###-#+#E#
+          #########
+          ####X####
+        items:
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "V":
+            ia: cw_icon_point_pro
+            name: "&x&f&b&3&f&e&1&l无&x&c&6&3&8&e&a&l暇&x&9&2&3&2&f&4&l水&x&5&d&2&b&f&d&l晶&a"
+            lore: |-
+              &r
+              &r <#FB4EED>当前选择数量 &7『 &e&l{{context get cw_money}} &7』
+              &r <#FB4EED>汇率  &7[&b 1 &7:&b1 &7]
+              &r
+          "X":
+            ia: cw_made_move_cw_made_move7
+            name: "<gradient:#FF0000:#FF7F00:#FFFF00:#00FF00:#0000FF:#4B0082:#9400D3>赞助商店</gradient>"
+            lore: |-
+              &7当前页面
+          "C":
+            <<: *pt0
+          "-":
+            ia: progress_red
+            name: "&c减少数量"
+            lore: |-
+              &r 
+              &r &f%img_left_click% &7左键点击&c&l -1
+              &r &f%img_right_click% &7右键点击&c&l -10
+              &r
+            action:
+              left: |-
+                context inc cw_money by -1
+              right: |-
+                context inc cw_money by -10
+              if: check papi "{{context get cw_money}}" <=0
+              then: |-
+                context set cw_money to 1
+                icon by V update
+                sound entity_item_pickup by 1 1
+
+          "+":
+            ia: progress_green
+            name: "&a增加数量"
+            lore: |-
+              &r 
+              &r &f%img_left_click% &7左键点击&a&l +1
+              &r &f%img_right_click% &7右键点击&a&l +10
+              &r
+            action:
+              left: |-
+                context inc cw_money by 1
+                icon by V update
+                icon by E update
+                sound entity_item_pickup by 1 1
+              right: |-
+                context inc cw_money by 10
+                icon by V update
+                icon by E update
+                sound entity_item_pickup by 1 1
+
+          "E":
+            <<: *qr

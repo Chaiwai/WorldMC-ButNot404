@@ -1,0 +1,6 @@
+BZ1:
+  base:
+    material: LEAD
+    attack-speed: 100.0
+    name: yu_ban加速器
+    attack-damage: 100.0

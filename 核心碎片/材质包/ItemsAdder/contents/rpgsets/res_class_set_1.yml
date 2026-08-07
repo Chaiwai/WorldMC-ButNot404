@@ -1,0 +1,39 @@
+##Nulledassets.net##
+info:
+  namespace: res_class_set_1
+armors_rendering:
+  assassin_armor:
+    color: "#344f58"
+    layer_1: assassin_layer_1
+    layer_2: assassin_layer_2
+    use_color: false
+  warrior_armor:
+    color: "#696d69"
+    layer_1: warrior_layer_1
+    layer_2: warrior_layer_2
+    use_color: false
+  archer_armor:
+    color: "#28562e"
+    layer_1: archer_layer_1
+    layer_2: archer_layer_2
+    use_color: false
+  mage_armor:
+    color: "#61c9db"
+    layer_1: mage_layer_1
+    layer_2: mage_layer_2
+    use_color: false
+items:
+  archer_bow:
+    display_name: "archer_bow"
+    permission: archer_bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: class_weapons/archer_bow
+  archer_arrow:
+    display_name: "archer_arrow"
+    permission: archer_arrow
+    resource:
+      material: ARROW
+      generate: false
+      model_path: class_weapons/archer_arrow

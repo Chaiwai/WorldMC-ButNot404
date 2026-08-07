@@ -1,0 +1,30 @@
+basic:
+  id: energizing
+  name: 活力
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 挖掘后获得急迫效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 稀世
+targets:
+- pickaxes
+- axes
+- shovels
+- hoes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    duration: :8*{level}
+    amplifier: :{level}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/shears"},"overrides":[{"predicate":{"custom_model_data":50000},"model":"customfishing:item/hook/delicate_hook"},{"predicate":{"custom_model_data":50001},"model":"item/shears"}]}

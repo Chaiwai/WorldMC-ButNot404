@@ -1,0 +1,29 @@
+basic:
+  id: succession
+  name: 迭累
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 一瞬间同时射出多支箭
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- bow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:tripleshot
+- CONFLICT_ENCHANT:pentashot
+- CONFLICT_ENCHANT:buckshot
+variables:
+  leveled:
+    amount: :{level}

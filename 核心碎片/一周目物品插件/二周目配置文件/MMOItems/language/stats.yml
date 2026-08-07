@@ -1,0 +1,181 @@
+# Weapon Stats
+attack-damage: '&3 &7➸ 攻击伤害: &f{value}'
+attack-speed: '&3 &7➸ 攻击速度: &f{value}'
+critical-strike-chance: '&3 &7■ 暴击几率: &f<plus>{value}%'
+critical-strike-power: '&3 &7■ 暴击强度: &f<plus>{value}%'
+skill-critical-strike-chance: '&3 &7■ 技能暴击几率: &f<plus>{value}%'
+skill-critical-strike-power: '&3 &7■ 技能暴击强度: &f<plus>{value}%'
+range: '&3 &7■ 射程: &f{value}' # 远程武器的战斗范围
+mana-cost: '&3 &7■ 消耗 &9{value} 魔力'
+stamina-cost: '&3 &7■ 消耗 &9{value} 耐力'
+arrow-velocity: '&3 &7■ 箭矢速度: &f{value}'
+blunt-power: '&3 &7■ 钝击强度: &f{value}'
+blunt-rating: '&3 &7■ 钝击评级: &f{value}%'
+two-handed: '&3 &7■ 双手武器'
+handworn: '&3 &7■ 手持'
+knockback: '&3 &7■ 击退: &f{value}'
+recoil: '&3 &7■ 后坐力: &f{value}%'
+note-weight: '&3 &7■ 音符重量: &f{value}'
+lifesteal: '&3 &7■ 生命偷取: &c+{value}%'
+spell-vampirism: '&3 &7■ 法术吸血: &c+{value}%'
+
+# Extra Damage
+pve-damage: '&3 &7■ PvE伤害: &f<plus>{value}%'
+pvp-damage: '&3 &7■ PvP伤害: &f<plus>{value}%'
+magic-damage: '&3 &7■ 魔法伤害: &f<plus>{value}%'
+weapon-damage: '&3 &7■ 武器伤害: &f<plus>{value}%'
+undead-damage: '&3 &7■ 亡灵伤害: &f<plus>{value}%'
+skill-damage: '&3 &7■ 技能伤害: &f<plus>{value}%'
+physical-damage: '&3 &7■ 物理伤害: &f<plus>{value}%'
+projectile-damage: '&3 &7■ 投射物伤害: &f<plus>{value}%'
+faction-damage-undead: '&3 &7■ 亡灵阵营伤害: &f<plus>{value}%'
+
+# Abilities (changed in MI 6.9.5)
+ability:
+  general-format: "&8| &7{trigger} &8|&e|&8| &7&l{ability}"
+  modifier-if-any: "\n" # 如果技能至少有一个修饰符，则附加到general-format
+  modifier-foreach: "&7{modifier}&8: &f{value}"
+  modifier-splitter: " &8&l|&7 "
+  modifiers-per-line: 3
+  ability-splitter:
+    enabled: true
+    format: ''
+
+# Armor Stats
+block-power: '&3 &7■ 格挡强度: &f<plus>{value}%'
+block-rating: '&3 &7■ 格挡评级: &f<plus>{value}%'
+block-cooldown-reduction: '&3 &7■ 格挡冷却缩减: &f<plus>{value}%'
+dodge-rating: '&3 &7■ 闪避评级: &f<plus>{value}%'
+dodge-cooldown-reduction: '&3 &7■ 闪避冷却缩减: &f<plus>{value}%'
+parry-rating: '&3 &7■ 招架评级: &f<plus>{value}%'
+parry-cooldown-reduction: '&3 &7■ 招架冷却缩减: &f<plus>{value}%'
+armor: '&3 &7✠ 护甲: &f<plus>{value}'
+armor-toughness: '&3 &7✠ 护甲韧性: &f<plus>{value}'
+knockback-resistance: '&3 &7✠ 击退抗性: &f<plus>{value}%'
+max-health: '&3 &7❤ 生命值:&c <plus>{value}'
+movement-speed: '&3 &7■ 移动速度: &f<plus>{value}'
+
+# Damage Reduction
+defense: '&3 &7■ 防御: &f<plus>{value}'
+damage-reduction: '&3 &7■ 伤害减免: &f<plus>{value}%'
+fall-damage-reduction: '&3 &7■ 摔落伤害减免: &f<plus>{value}%'
+fire-damage-reduction: '&3 &7■ 火焰伤害减免: &f<plus>{value}%'
+magic-damage-reduction: '&3 &7■ 魔法伤害减免: &f<plus>{value}%'
+projectile-damage-reduction: '&3 &7■ 投射物伤害减免: &f<plus>{value}%'
+physical-damage-reduction: '&3 &7■ 物理伤害减免: &f<plus>{value}%'
+pve-damage-reduction: '&3 &7■ PvE伤害减免: &f<plus>{value}%'
+pvp-damage-reduction: '&3 &7■ PvP伤害减免: &f<plus>{value}%'
+
+# RPG stats
+health-regeneration: '&3 &7■ 生命恢复: &f<plus>{value}'
+max-mana: '&3 &7■ 最大魔力: &f<plus>{value}'
+mana-regeneration: '&3 &7■ 魔力恢复: &f<plus>{value}'
+max-stamina: '&3 &7■ 最大耐力: &f<plus>{value}'
+stamina-regeneration: '&3 &7■ 耐力恢复: &f<plus>{value}'
+cooldown-reduction: '&3 &7■ 技能冷却缩减: &f<plus>{value}%'
+additional-experience: '&3 &7■ 额外经验: &f<plus>{value}%'
+additional-experience-alchemy: '&7■ 额外炼金经验: &f<plus>{value}%'
+additional-experience-enchanting: '&7■ 额外附魔经验: &f<plus>{value}%'
+additional-experience-farming: '&7■ 额外农业经验: &f<plus>{value}%'
+additional-experience-fishing: '&7■ 额外钓鱼经验: &f<plus>{value}%'
+additional-experience-mining: '&7■ 额外采矿经验: &f<plus>{value}%'
+additional-experience-smelting: '&7■ 额外冶炼经验: &f<plus>{value}%'
+additional-experience-smithing: '&7■ 额外锻造经验: &f<plus>{value}%'
+additional-experience-woodcutting: '&7■ 额外伐木经验: &f<plus>{value}%'
+
+# 1.20.2+ Attributes
+block-break-speed: '&3 &7■ 挖掘速度: &f<plus>{value}'
+block-interaction-range: '&3 &7■ 范围: &f<plus>{value}' # 与方块交互和挖掘的范围
+entity-interaction-range: '&3 &7■ 战斗范围: &f<plus>{value}'
+fall-damage-multiplier: '&3 &7■ 摔落伤害: &f<plus>{value}%'
+gravity: '&3 &7■ 重力强度: &f<plus>{value}%'
+jump-strength: '&3 &7■ 跳跃强度: &f<plus>{value}'
+max-absorption: '&3 &7■ 最大吸收: &f<plus>{value}'
+safe-fall-distance: '&3 &7■ 安全摔落距离: &f<plus>{value}'
+scale: '&3 &7■ 体型: &f<plus>{value}%'
+step-height: '&3 &7■ 平滑行走: &f<plus>{value}'
+burning-time: '&3 &7■ 燃烧时间: &f<plus>{value}%'
+explosion-knockback-resistance: '&3 &7■ 爆炸击退抗性: &f<plus>{value}%'
+mining-efficiency: '&3 &7■ 挖掘效率: &f<plus>{value}'
+movement-efficiency: '&3 &7■ 移动效率: &f<plus>{value}%'
+oxygen-bonus: '&3 &7■ 水下呼吸: &f<plus>{value}'
+sneaking-speed: '&3 &7■ 潜行速度: &f<plus>{value}%'
+submerged-mining-speed: '&3 &7■ 水下挖掘速度: &f<plus>{value}%'
+sweeping-damage-ratio: '&3 &7■ 横扫伤害: &f<plus>{value}%'
+water-movement-efficiency: '&3 &7■ 水下移动速度: &f<plus>{value}%'
+
+perm-effects: '&3 &7■ 永久 &f{effect}'
+commands: '&3 &7■ 命令: &f{format} &3 &7(&f{cooldown}&3 &7秒)'
+item-cooldown: '&3 &7■ &f{value}&3 &7秒冷却'
+arrow-potion-effects: '&3 &7■ 箭矢效果: &f{effect}'
+
+# 消耗品
+restore-health: '&3 &7■ 恢复 &f{value} &7生命值'
+restore-food: '&3 &7■ 恢复 &f{value} &7饱食度'
+restore-saturation: '&3 &7■ 恢复 &f{value} &7饱和度'
+restore-mana: '&3 &7■ 恢复 &f{value} &7魔力'
+restore-stamina: '&3 &7■ 恢复 &f{value} &7耐力'
+effects: '&3 &7■ 获得 &f{effect} &7效果，持续 &f{duration} &7秒'
+repair: '&3 &7■ 修复: &f{value}'
+repair-percent: '&3 &7■ 修复: &f{value}%'
+can-identify: '&3 &7■ 可以鉴定物品。'
+can-deconstruct: '&3 &7■ 可以分解有阶物品。'
+can-deskin: '&3 &7■ 可以移除皮肤物品的皮肤。'
+success-rate: '&3 &7■ 成功率: &a&l{value}%'
+max-consume: '&3 &7■ 剩余 &f{value} &7次使用'
+
+# 宝石
+gem-stone-lore: '&8&l[&2&l*&8&l] &a拖到物品上 &7来镶嵌!'
+gem-sockets:
+  empty: '&a◆ 空 {name} 宝石插槽'
+  filled: '&a◆ {name}'
+
+# 灵魂绑定
+soulbinding-chance: '&3 &7■ 有 &a{value}% &7几率绑定你的物品。'
+soulbound-break-chance: '&3 &7■ 有 &a{value}% &7几率打破灵魂绑定。'
+soulbound-level: '&3 &7■ 等级 &e{value} &7灵魂绑定'
+
+# 工具
+autosmelt: '&3 &7■ &f自动冶炼'
+bouncing-crack: '&3 &7■ &f弹跳裂纹'
+pickaxe-power: '&3 &7■ &f镐力: &a{value}'
+durability: '&7耐久度: {current} / {max}'
+
+# 通用
+item-type: '&c{type}'
+tier: '&3 &7阶位: {value}'
+required-class: '&3 &7{value} 物品'
+required-level: '&e需要等级 {value}'
+
+# MMOCore 属性
+required-dexterity: '&e需要 &c{value} &e敏捷'
+required-strength: '&e需要 &c{value} &e力量'
+required-intelligence: '&e需要 &c{value} &e智力'
+
+additional-dexterity: '&3 &7■ 额外敏捷: &f<plus>{value}'
+additional-strength: '&3 &7■ 额外力量: &f<plus>{value}'
+additional-intelligence: '&3 &7■ 额外智力: &f<plus>{value}'
+
+# MMOCore 专业
+profession-alchemy: '&e需要炼金等级 {value}'
+profession-enchanting: '&e需要附魔等级 {value}'
+profession-farming: '&e需要农业等级 {value}'
+profession-fishing: '&e需要钓鱼等级 {value}'
+profession-mining: '&e需要采矿等级 {value}'
+profession-smelting: '&e需要冶炼等级 {value}'
+profession-smithing: '&e需要锻造等级 {value}'
+profession-woodcutting: '&e需要伐木等级 {value}'
+
+# Heroes 属性
+required-secondary-hero-level: '&e需要第二英雄等级 {value}'
+
+# 元素属性格式
+element:
+  damage: '{color}{icon}&7 {value} {element} 伤害'
+  damage-percent: '{color}{icon}&7 +{value}% {element} 伤害'
+  defense: '{color}{icon}&7 {value} {element} 防御'
+  defense-percent: '{color}{icon}&7 +{value}% {element} 防御'
+  weakness: '{color}{icon}&7 {value}% {element} 弱点'
+
+# 自定义属性
+custom-myluck: '&3 &7■ 幸运: &f<plus>{value}'

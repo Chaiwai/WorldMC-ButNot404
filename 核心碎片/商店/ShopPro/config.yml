@@ -1,0 +1,14 @@
+# 请勿修改此项
+date: 20508
+# 启用mysql
+mysql:
+  enable: true
+  host: localhost
+  port: 3306
+  user: root
+  password:
+  database: shoppro
+# 出售/购买成功的声音
+the_voice_of_success: ""
+# 出售/购买失败的声音
+the_voice_of_failure: ""

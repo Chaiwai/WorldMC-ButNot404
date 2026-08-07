@@ -1,0 +1,35 @@
+basic:
+  id: self_realization
+  name: 自我
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: '§e右击§7消除所有DEBUFF（冷却时间: §a600秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+- axes
+- bow
+- crossbow
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_ENDERMAN_TELEPORT
+    cooldown: 360
+params:
+  particle:
+    type: END_ROD
+    amount: 2

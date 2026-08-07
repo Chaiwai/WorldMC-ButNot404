@@ -1,0 +1,60 @@
+fs:
+  material: BOW
+  mini-lore: []
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10016.0
+    minecraft:item_model: minecraft:apple
+    cw:kill_count:
+      floats:
+        - (Float) 0.0
+Nail:
+  material: iron_sword
+  name: "&r&f骨钉"
+  lore:
+    - "aaa"
+    - "<nbt::kill_count>"
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10009.0
+    minecraft:item_model: minecraft:netherite_sword
+
+fool_pickaxe:
+  material: netherite_pickaxe
+  name: "&r&f变异合金镐"
+  lore:
+    - "aaa"
+    - "<nbt::kill_count>"
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10001.0
+    minecraft:item_model: minecraft:diamond_pickaxe
+  # nbt:
+  #   kill_list: []
+  #   kill_count: 0
+charge_damage_test:
+  material: warped_fungus_on_a_stick
+  mini-name: <!italic><white>充能道具_受击
+  lore:
+    - "&r&7============="
+    - "&r&f释放: Damage"
+    - "&r&f释放cd: 0"
+    - "&r&f释放消耗: 10"
+    - "&r&f充能cd: 0s"
+    - "&r&7============="
+    - "&r&f类型: LAVA"
+    - "&r&f伤害: 0.01-100"
+    - "&r&f位置: LAVA_CAULDRON"
+    - "&r&f主手: 玻璃瓶"
+    - "&r&f水平(Yaw): [-180,180]"
+    - "&r&f垂直(Pitch): [-90,90]"
+    - "&r&7============="
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10310.0
+    minecraft:item_model: minecraft:paper
+    minecraft:damage: (Int) 100

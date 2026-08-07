@@ -1,0 +1,29 @@
+basic:
+  id: thrive
+  name: 旺盛
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 最大生命值提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    max-health-increase: :2*{level}

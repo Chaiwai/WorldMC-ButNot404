@@ -1,0 +1,2724 @@
+DRAGON_HELMET:
+  base:
+    material: DIAMOND_HELMET
+    max-durability: 5500.0
+    tier: EPIC
+    max-health: 4.0
+    armor-toughness: 3.0
+    magic-damage-reduction:
+      base: 3.0
+      spread: 0.05
+      max-spread: 0.17
+    armor: 3.5
+    element:
+      fire:
+        defense:
+          base: 5.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+      darkness:
+        defense:
+          base: 12.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+    name: §5§lDragon Helmet
+    enchants:
+      fire_protection: 4.0
+    lore:
+      - §c§oThis powerful armor is taken from
+      - §c§odragon scales.
+    required-level: 12.0
+    block-rating:
+      base: 4.0
+      scale: 0.075
+      spread: 0.02
+      max-spread: 0.08
+    gem-sockets:
+      - Magenta
+      - Black
+    set: DRAGON
+DRAGON_CHESTPLATE:
+  base:
+    material: DIAMOND_CHESTPLATE
+    max-durability: 6850.0
+    tier: EPIC
+    max-health: 10.0
+    armor-toughness: 3.0
+    magic-damage-reduction:
+      base: 8.0
+      spread: 0.05
+      max-spread: 0.17
+    armor: 7.0
+    element:
+      fire:
+        defense:
+          base: 18.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+      darkness:
+        defense:
+          base: 35.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+    name: §5§lDragon Chestplate
+    enchants:
+      fire_protection: 4.0
+    lore:
+      - §c§oThis powerful armor is taken from
+      - §c§odragon scales.
+    required-level: 12.0
+    block-rating:
+      base: 5.0
+      scale: 0.075
+      spread: 0.02
+      max-spread: 0.08
+    gem-sockets:
+      - Magenta
+      - Black
+    set: DRAGON
+DRAGON_LEGGINGS:
+  base:
+    material: DIAMOND_LEGGINGS
+    max-durability: 6150.0
+    tier: EPIC
+    max-health: 7.0
+    armor-toughness: 3.0
+    magic-damage-reduction:
+      base: 5.0
+      spread: 0.05
+      max-spread: 0.17
+    armor: 5.0
+    element:
+      fire:
+        defense:
+          base: 12.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+      darkness:
+        defense:
+          base: 22.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+    name: §5§lDragon Leggings
+    enchants:
+      fire_protection: 4.0
+    lore:
+      - §c§oThis powerful armor is taken from
+      - §c§odragon scales.
+    required-level: 12.0
+    block-rating:
+      base: 4.5
+      scale: 0.075
+      spread: 0.02
+      max-spread: 0.08
+    gem-sockets:
+      - Magenta
+      - Black
+    set: DRAGON
+DRAGON_BOOTS:
+  base:
+    material: DIAMOND_BOOTS
+    max-durability: 5500.0
+    tier: EPIC
+    max-health: 4.0
+    armor-toughness: 3.0
+    magic-damage-reduction:
+      base: 3.0
+      spread: 0.05
+      max-spread: 0.17
+    armor: 3.5
+    element:
+      fire:
+        defense:
+          base: 5.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+      darkness:
+        defense:
+          base: 12.0
+          scale: 0.0
+          spread: 0.07
+          max-spread: 0.2
+    name: §5§lDragon Boots
+    enchants:
+      fire_protection: 4.0
+    lore:
+      - §c§oThis powerful armor is taken from
+      - §c§odragon scales.
+    required-level: 12.0
+    block-rating:
+      base: 4.0
+      scale: 0.075
+      spread: 0.02
+      max-spread: 0.08
+    gem-sockets:
+      - Magenta
+      - Black
+    set: DRAGON
+SPELLCASTER_HELMET:
+  base:
+    material: LEATHER_HELMET
+    name: §dSpellcaster Helmet
+    lore:
+      - §d§lSuits very well for mages!
+    required-class:
+      - Mage
+    required-level: 1.0
+    block-power:
+      base: 10.0
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 7.0
+      spread: 0.1
+      max-spread: 0.2
+    tier: UNCOMMON
+    max-durability: 950.0
+    element:
+      water:
+        defense:
+          base: 5.0
+          scale: 0.0
+          spread: 0.2
+          max-spread: 0.3
+    max-mana: 6.0
+    magic-damage-reduction: 25.0
+    armor-toughness: 1.0
+    armor: 2.0
+    hide-dye: true
+    dye-color: 125 0 255
+    set: SPELLCASTER
+SPELLCASTER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: §dSpellcaster Chestplate
+    lore:
+      - §d§lSuits very well for mages!
+    required-class:
+      - Mage
+    required-level: 1.0
+    block-power:
+      base: 15.0
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 10.0
+      spread: 0.1
+      max-spread: 0.2
+    tier: UNCOMMON
+    max-durability: 1450.0
+    element:
+      water:
+        defense:
+          base: 10.0
+          scale: 0.0
+          spread: 0.2
+          max-spread: 0.3
+    max-mana: 6.0
+    magic-damage-reduction: 25.0
+    armor-toughness: 1.0
+    armor: 4.0
+    hide-dye: true
+    dye-color: 125 0 255
+    set: SPELLCASTER
+SPELLCASTER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: §dSpellcaster Leggings
+    lore:
+      - §d§lSuits very well for mages!
+    required-class:
+      - Mage
+    required-level: 1.0
+    block-power:
+      base: 12.0
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 8.5
+      spread: 0.1
+      max-spread: 0.2
+    tier: UNCOMMON
+    max-durability: 1450.0
+    element:
+      water:
+        defense:
+          base: 7.5
+          scale: 0.0
+          spread: 0.2
+          max-spread: 0.3
+    max-mana: 6.0
+    magic-damage-reduction: 25.0
+    armor-toughness: 1.0
+    armor: 3.0
+    hide-dye: true
+    dye-color: 125 0 255
+    set: SPELLCASTER
+SPELLCASTER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: §dSpellcaster Boots
+    lore:
+      - §d§lSuits very well for mages!
+    required-class:
+      - Mage
+    required-level: 1.0
+    block-power:
+      base: 10.0
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 7.0
+      spread: 0.1
+      max-spread: 0.2
+    tier: UNCOMMON
+    max-durability: 950.0
+    element:
+      water:
+        defense:
+          base: 5.0
+          scale: 0.0
+          spread: 0.2
+          max-spread: 0.3
+    max-mana: 6.0
+    magic-damage-reduction: 25.0
+    armor-toughness: 1.0
+    armor: 2.0
+    hide-dye: true
+    dye-color: 125 0 255
+    set: SPELLCASTER
+OMNIELEMENTAL_HELMET:
+  base:
+    material: LEATHER_HELMET
+    required-level: 15.0
+    lore:
+      - §bDon't limit yourself to one element.
+      - §cIt will be downgraded on death or
+      - §cupon breaking.
+      - §9Gives Night Vision when worn.
+    enchants:
+      luck_of_the_sea: 1.0
+    hide-enchants: true
+    name: §c§lO§6§lm§e§ln§a§li§2§lE§3§ll§9§le§b§lm§f§le§e§ln§a§lt§6§la§c§ll §c§lH§6§le§e§ll§a§lm§2§le§3§lt
+    armor-toughness: 2.5
+    armor: 4.5
+    max-durability: 1950.0
+    element:
+      fire:
+        defense: 100.0
+      earth:
+        defense: 100.0
+    block-power:
+      base: 10.0
+      scale: 0.05
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 8.0
+      scale: 0.1
+      spread: 0.1
+      max-spread: 0.2
+    magic-damage:
+      base: 10.0
+      scale: 0.15
+      spread: 0.2
+      max-spread: 0.3
+    dye-color: 255 255 0
+    break-downgrade: true
+    death-downgrade: true
+    death-downgrade-chance: 100.0
+    gem-sockets:
+      - Rainbow
+      - Rainbow
+    perm-effects:
+      NIGHT_VISION: 1.0
+    tier: VERY_RARE
+    max-health: 5.0
+OMNIELEMENTAL_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    required-level: 15.0
+    lore:
+      - §bDon't limit yourself to one element.
+      - §cIt will be downgraded on death or
+      - §cupon breaking.
+      - §9Gives Resistance I when worn.
+    enchants:
+      luck_of_the_sea: 1.0
+    hide-enchants: true
+    name: §c§lO§6§lm§e§ln§a§li§2§lE§3§ll§9§le§b§lm§f§le§e§ln§a§lt§6§la§c§ll §c§lC§6§lh§e§le§a§ls§2§lt§3§lp§9§ll§b§la§f§lt§e§le
+    armor-toughness: 2.5
+    armor: 9.5
+    max-durability: 3900.0
+    element:
+      ice:
+        defense: 100.0
+      water:
+        defense: 100.0
+    block-power:
+      base: 12.0
+      scale: 0.05
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 10.0
+      scale: 0.1
+      spread: 0.1
+      max-spread: 0.2
+    magic-damage:
+      base: 15.0
+      scale: 0.15
+      spread: 0.2
+      max-spread: 0.3
+    dye-color: 150 200 255
+    break-downgrade: true
+    death-downgrade: true
+    death-downgrade-chance: 100.0
+    gem-sockets:
+      - Rainbow
+      - Rainbow
+    perm-effects:
+      DAMAGE_RESISTANCE: 1.0
+    tier: VERY_RARE
+    max-health: 5.0
+OMNIELEMENTAL_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    required-level: 15.0
+    lore:
+      - §bDon't limit yourself to one element.
+      - §cIt will be downgraded on death or
+      - §cupon breaking.
+      - §9Gives Speed I when worn.
+    enchants:
+      luck_of_the_sea: 1.0
+    hide-enchants: true
+    name: §c§lO§6§lm§e§ln§a§li§2§lE§3§ll§9§le§b§lm§f§le§e§ln§a§lt§6§la§c§ll §c§lL§6§le§e§lg§a§lg§2§li§3§ln§b§lg§f§ls
+    armor-toughness: 2.5
+    armor: 7.0
+
+    element:
+      thunder:
+        defense: 100.0
+      wind:
+        defense: 100.0
+    block-power:
+      base: 10.5
+      scale: 0.05
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 8.5
+      scale: 0.1
+      spread: 0.1
+      max-spread: 0.2
+    magic-damage:
+      base: 12.0
+      scale: 0.15
+      spread: 0.2
+      max-spread: 0.3
+    dye-color: 180 180 0
+    break-downgrade: true
+    death-downgrade: true
+    death-downgrade-chance: 100.0
+    gem-sockets:
+      - Rainbow
+      - Rainbow
+    perm-effects:
+      SPEED: 1.0
+    tier: VERY_RARE
+    max-health: 5.0
+OMNIELEMENTAL_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    required-level: 15.0
+    lore:
+      - §bDon't limit yourself to one element.
+      - §cIt will be downgraded on death or
+      - §cupon breaking.
+      - §9Gives Jump Boost I when worn.
+    enchants:
+      luck_of_the_sea: 1.0
+    hide-enchants: true
+    name: §c§lO§6§lm§e§ln§a§li§2§lE§3§ll§9§le§b§lm§f§le§e§ln§a§lt§6§la§c§ll §c§lB§6§lo§e§lo§a§lt§2§ls
+    armor-toughness: 2.5
+    armor: 3.0
+    max-durability: 2150.0
+    element:
+      darkness:
+        defense: 100.0
+      lightness:
+        defense: 100.0
+    block-power:
+      base: 4.5
+      scale: 0.05
+      spread: 0.1
+      max-spread: 0.2
+    block-rating:
+      base: 5.5
+      scale: 0.1
+      spread: 0.1
+      max-spread: 0.2
+    magic-damage:
+      base: 8.0
+      scale: 0.15
+      spread: 0.2
+      max-spread: 0.3
+    dye-color: 160 160 160
+    break-downgrade: true
+    death-downgrade: true
+    death-downgrade-chance: 100.0
+    gem-sockets:
+      - Rainbow
+      - Rainbow
+    perm-effects:
+      JUMP: 1.0
+    tier: VERY_RARE
+    max-health: 5.0
+HELMET_OF_THE_SEA:
+  base:
+    material: LEATHER_HELMET
+    max-durability: 8000.0
+    attack-damage:
+      base: 6.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.3
+    required-level: 10.0
+    weapon-damage:
+      base: 10.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.25
+    magic-damage:
+      base: 10.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.25
+    physical-damage:
+      base: 15.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.25
+    cooldown-reduction:
+      base: 15.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.25
+    pve-damage:
+      base: 15.0
+      scale: 0.1
+      spread: 0.2
+      max-spread: 0.25
+    tier: RARE
+    dye-color: 120 120 255
+    name: §9Helmet of the Ocean
+    hide-dye: true
+    element:
+      water:
+        defense:
+          base: 25.0
+          scale: 0.0
+          spread: 0.2
+          max-spread: 0.4
+    amphibian: DAMP
+    perm-effects:
+      NIGHT_VISION: 1.0
+      WATER_BREATHING: 1.0
+    lore:
+      - §3Will only work when §9§lUNDERWATER§3.
+      - §3Gives §9Night Vision §3and §9Water Breathing§3.
+UNDEADSLAYER_HELMET:
+  base:
+    material: NETHERITE_HELMET
+    max-durability: 10500.0
+    tier: EPIC
+    armor-toughness: 2.5
+MOON_BOOTS:
+  base:
+    material: DIAMOND_BOOTS
+    lore:
+      - §bMoon boots will simulate being on the moon!
+      - §7Gives §3Jump Boost II§7 when worn.
+      - §cWill only work in "the end" biome.
+    max-durability: 2650.0
+    name: §b§lMoon Boots
+    tier: UNIQUE
+    armor-toughness: 1.5
+    armor: 3.0
+    fall-damage-reduction: 75.0
+    perm-effects:
+      JUMP: 2.0
+    required-biomes:
+      - the_end
+CONTROL_DEVICES:
+  base:
+    material: LEATHER_HELMET
+    max-durability: 15000.0
+    name: §d§lControl Devices
+    dye-color: 255 102 204
+    ability: {}
+    set: PSYCHIC
+    perm-effects:
+      DAMAGE_RESISTANCE: 2.0
+      SPEED: 2.0
+      REGENERATION: 2.0
+      FIRE_RESISTANCE: 1.0
+      INCREASE_DAMAGE: 2.0
+    required-class:
+      - Mage
+    lore:
+      - §7To keep your powers in check...
+    armor-toughness: 2.0
+    armor: 7.0
+    tier: MAGICAL
+    unbreakable: true
+UNDEAD_SLAYER_HELMET:
+  base:
+    material: NETHERITE_HELMET
+    required-level: 80.0
+    undead-damage: 15.0
+    set: UNDEADSLAYER
+    name: §cUndead Slayer Helmet
+    max-durability: 17500.0
+    physical-damage: 5.0
+    armor: 8.0
+    armor-toughness: 4.0
+    tier: MYTHICAL
+    knockback-resistance: 0.25
+    perm-effects:
+      NIGHT_VISION: 1.0
+    element:
+      darkness:
+        defense: 50.0
+      thunder:
+        defense: 25.0
+    lore:
+      - §cThey'll fear you.
+    damage-reduction: 5.0
+    physical-damage-reduction: 8.0
+    magic-damage-reduction: 20.0
+    pve-damage-reduction: 5.0
+    enchants:
+      smite: 3.0
+      protection: 4.0
+UNDEAD_SLAYER_CHESTPLATE:
+  base:
+    material: NETHERITE_CHESTPLATE
+    required-level: 80.0
+    undead-damage: 15.0
+    set: UNDEADSLAYER
+    name: §cUndead Slayer Chestplate
+    max-durability: 19800.0
+    physical-damage: 5.0
+    armor: 11.0
+    armor-toughness: 4.0
+    tier: MYTHICAL
+    knockback-resistance: 0.25
+    perm-effects:
+      FIRE_RESISTANCE: 1.0
+      REGENERATION: 1.0
+    element:
+      darkness:
+        defense: 80.0
+      thunder:
+        defense: 50.0
+    lore:
+      - §cThey'll fear you.
+    damage-reduction: 10.0
+    physical-damage-reduction: 15.0
+    magic-damage-reduction: 50.0
+    pve-damage-reduction: 10.0
+    enchants:
+      smite: 3.0
+      protection: 4.0
+UNDEAD_SLAYER_LEGGINGS:
+  base:
+    material: NETHERITE_LEGGINGS
+    undead-damage: 15.0
+    set: UNDEADSLAYER
+    name: §cUndead Slayer Leggings
+    max-durability: 18800.0
+    physical-damage: 5.0
+    armor: 10.0
+    armor-toughness: 4.0
+    tier: MYTHICAL
+    knockback-resistance: 0.25
+    perm-effects:
+      SPEED: 1.0
+    element:
+      darkness:
+        defense: 60.0
+      thunder:
+        defense: 30.0
+    lore:
+      - §cThey'll fear you.
+    damage-reduction: 8.0
+    physical-damage-reduction: 10.0
+    magic-damage-reduction: 30.0
+    pve-damage-reduction: 8.0
+    enchants:
+      smite: 3.0
+      protection: 4.0
+UNDEAD_SLAYER_BOOTS:
+  base:
+    material: NETHERITE_BOOTS
+    required-level: 80.0
+    undead-damage: 15.0
+    set: UNDEADSLAYER
+    name: §cUndead Slayer Boots
+    max-durability: 15500.0
+    physical-damage: 5.0
+    armor: 8.0
+    armor-toughness: 4.0
+    tier: MYTHICAL
+    knockback-resistance: 0.25
+    perm-effects:
+      JUMP: 1.0
+    element:
+      darkness:
+        defense: 50.0
+      thunder:
+        defense: 25.0
+    lore:
+      - §cThey'll fear you.
+    damage-reduction: 5.0
+    physical-damage-reduction: 8.0
+    magic-damage-reduction: 20.0
+    pve-damage-reduction: 5.0
+    enchants:
+      smite: 3.0
+      protection: 4.0
+MYTHRIL_CHAINMAIL:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    name: "&b--] &fMythril Chainmail &b[--"
+    block-power:
+      base: 60.0
+      spread: 0.048
+      max-spread: 0.14
+    block-rating:
+      base: 12.5
+      spread: 0.06
+      max-spread: 0.17
+    armor: 5
+    element:
+      ice:
+        defense: 8.0
+      earth:
+        defense: 6.4
+    gem-sockets:
+      - Red
+      - Blue
+    required-level: 4.0
+    tier: UNCOMMON
+STEEL_HELMET:
+  base:
+    material: IRON_HELMET
+    block-power:
+      base: 6.0
+      spread: 0.048
+      max-spread: 0.14
+    block-rating:
+      base: 6.5
+      spread: 0.0625
+      max-spread: 0.1875
+    required-level: 3.0
+    name: "&fSteel Helm"
+    armor: 2.5
+    lore:
+      - "&7Slightly better than an iron helmet."
+    tier: COMMON
+    knockback-resistance:
+      base: 0.02
+      spread: 0.11
+      max-spread: 0.33
+    gem-sockets:
+      - Green
+    set: STEEL
+    crafting:
+      shaped:
+        "1":
+          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+          - AIR AIR AIR
+        "2":
+          - AIR AIR AIR
+          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+STEEL_CHESTPLATE:
+  base:
+    material: IRON_CHESTPLATE
+    block-power:
+      base: 6.0
+      spread: 0.048
+      max-spread: 0.15
+    block-rating:
+      base: 6.5
+      spread: 0.0625
+      max-spread: 0.1875
+    required-level: 3.0
+    name: "&fSteel Chestplate"
+    armor: 6.5
+    lore:
+      - "&7Slightly better than an iron chestplate."
+    tier: COMMON
+    knockback-resistance:
+      base: 0.02
+      spread: 0.11
+      max-spread: 0.33
+    gem-sockets:
+      - Blue
+    set: STEEL
+    crafting:
+      shaped:
+        "1":
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+STEEL_LEGGINGS:
+  base:
+    material: IRON_LEGGINGS
+    block-power:
+      base: 6.0
+      spread: 0.048
+      max-spread: 0.14
+    block-rating:
+      base: 6.5
+      spread: 0.0625
+      max-spread: 0.1875
+    required-level: 3.0
+    name: "&fSteel Leggings"
+    armor: 5.5
+    lore:
+      - "&7Slightly better than iron leggings."
+    tier: COMMON
+    knockback-resistance:
+      base: 0.02
+      spread: 0.11
+      max-spread: 0.33
+    gem-sockets:
+      - Blue
+    set: STEEL
+    crafting:
+      shaped:
+        "1":
+          - MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+STEEL_BOOTS:
+  base:
+    material: IRON_BOOTS
+    block-power:
+      base: 6.0
+      spread: 0.048
+      max-spread: 0.14
+    block-rating:
+      base: 6.5
+      spread: 0.0625
+      max-spread: 0.1875
+    required-level: 3.0
+    name: "&fSteel Boots"
+    armor: 2.5
+    lore:
+      - "&7Slightly better than iron boots."
+    tier: COMMON
+    knockback-resistance:
+      base: 0.02
+      spread: 0.11
+      max-spread: 0.33
+    gem-sockets:
+      - Green
+    set: STEEL
+    crafting:
+      shaped:
+        "2":
+          - AIR AIR AIR
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+        "1":
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+          - MATERIAL.STEEL_INGOT AIR MATERIAL.STEEL_INGOT
+          - AIR AIR AIR
+CURSED_WITHER_SKULL:
+  base:
+    material: WITHER_SKELETON_SKULL
+    name: "&7Cursed Wither Skull"
+    required-level: 30.0
+    tier: UNIQUE
+    gem-sockets:
+      - Red
+      - Blue
+    armor: 3.0
+    armor-toughness: 2.0
+    perm-effects:
+      ABSORPTION: 1
+    lore:
+      - "&7Grants a permanent &62"
+      - "&6hearts &7absorption shield."
+    durability: 1.0
+    element:
+      thunder:
+        defense: 67.4
+      fire:
+        defense: 53.4
+    crafting:
+      shaped:
+        "1":
+          - BONE BONE BONE
+          - BONE MATERIAL.UNIQUE_WEAPON_ESSENCE BONE
+          - BONE BONE BONE
+HUGE_MOTHRON_WINGS:
+  base:
+    material: ELYTRA
+    max-durability: 5.0
+    two-handed: false
+    name: "&eHuge Mothron Wings"
+    tier: RARE
+    unbreakable: true
+    movement-speed: -0.03
+    will-break: false
+ARCANE_HELM:
+  base:
+    material: LEATHER_HELMET
+    name: "&5Arcane Helm"
+    tier: RARE
+    required-level: 4.0
+    max-mana: 10.0
+    dye-color: 100 100 255
+    armor: 2.0
+    magic-damage: 15.0
+    item-particles:
+      type: GALAXY
+      particle: SPELL_WITCH
+    set: ARCANE
+ARCANE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: "&5Arcane Tunic"
+    tier: RARE
+    required-level: 4.0
+    max-mana: 10.0
+    dye-color: 100 100 255
+    armor: 6.0
+    magic-damage: 15.0
+    ability:
+      on-hit:
+        type: WITHER
+        mode: DAMAGED
+        cooldown: 9.0
+        amplifier: 2.0
+    item-particles:
+      type: GALAXY
+      particle: SPELL_WITCH
+    lore:
+      - "&2Enemies trying to attack you"
+      - "&2will be violently inflicted a wither"
+      - "&2effect for a short period of time."
+    set: ARCANE
+ARCANE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: "&5Arcane Leggings"
+    tier: RARE
+    required-level: 4.0
+    max-mana: 10.0
+    dye-color: 100 100 255
+    armor: 5.0
+    magic-damage: 15.0
+    item-particles:
+      type: GALAXY
+      particle: SPELL_WITCH
+    gem-sockets:
+      - Blue
+      - Green
+    set: ARCANE
+ARCANE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: "&5Arcane Boots"
+    tier: RARE
+    required-level: 4.0
+    max-mana: 10.0
+    dye-color: 100 100 255
+    armor: 2.0
+    magic-damage: 15.0
+    item-particles:
+      type: GALAXY
+      particle: SPELL_WITCH
+    lore:
+      - "&2Greatly increases your"
+      - "&2fall damage reduction."
+    fall-damage-reduction:
+      base: 45.0
+      spread: 0.033
+      max-spread: 0.1
+    set: ARCANE
+GINGERBREAD_HELM:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 255 150 100
+    name: "&cGingerbread Helmet"
+    required-level: 2.0
+    lore:
+      - "&eEarned during X-Mas 2018!"
+    set: GINGERBREAD
+    parry-rating: 5.0
+    max-health: 2.0
+    armor: 2.0
+    item-particles:
+      type: OFFSET
+      particle: REDSTONE
+      color:
+        red: 255
+        green: 100
+        blue: 100
+GINGERBREAD_TUNIC:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 255 130 130
+    name: "&cGingerbread Tunic"
+    required-level: 2.0
+    lore:
+      - "&eEarned during X-Mas 2018!"
+    set: GINGERBREAD
+    parry-rating: 5.0
+    max-health: 2.0
+    armor: 6.0
+    item-particles:
+      type: OFFSET
+      particle: REDSTONE
+      color:
+        red: 255
+        green: 100
+        blue: 100
+GINGERBREAD_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 255 140 120
+    name: "&cGingerbread Leggings"
+    required-level: 2.0
+    lore:
+      - "&eEarned during X-Mas 2018!"
+    set: GINGERBREAD
+    parry-rating: 5.0
+    max-health: 2.0
+    armor: 5.0
+    item-particles:
+      type: OFFSET
+      particle: REDSTONE
+      color:
+        red: 255
+        green: 100
+        blue: 100
+GINGERBREAD_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 255 150 150
+    name: "&cGingerbread Boots"
+    required-level: 2.0
+    lore:
+      - "&eEarned during X-Mas 2018!"
+    set: GINGERBREAD
+    parry-rating: 5.0
+    max-health: 2.0
+    armor: 2.0
+    item-particles:
+      type: OFFSET
+      particle: REDSTONE
+      color:
+        red: 255
+        green: 100
+        blue: 100
+DEAD_PHARAOH_HELMET:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU1NWRmOTc5YWI3OTc0OWY4YjU1MWI0MjM5YTQ2OWFhNzY5ZDliNDYwNTBhYWJkOWY2ZDFjZWU1M2VkMzYifX19
+      uuid: 852deb36-af4a-412f-ac76-2b06dc123ed2
+    name: "&cDead Pharaoh Helmet"
+    disable-interaction: true
+    item-particles:
+      type: FIREFLIES
+      particle: SMOKE_NORMAL
+    fire-damage-reduction: 30.0
+    armor: 4.0
+    undead-damage: 30.0
+    lore:
+      - "&7This powerful forgotten helmet"
+      - "&7will greatly increase your power"
+      - "&7against undead creatures."
+    required-level: 9.0
+MOSSY_SKELETON_SKULL:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MzE0ZWFjMzQ0MTZjZTEwYWIyMmMyZTFjNGRjYjQ3MmEzZmViOThkNGUwNGQzZmJiYjg1YTlhNDcxYjE4In19fQ
+      uuid: f455a085-3f09-43ac-8be1-175204d1a6ad
+    name: "&8Mossy Skeleton Skull"
+    required-level: 6.0
+    armor: 3.5
+    knockback-resistance: 0.1
+    movement-speed: -0.01
+    disable-interaction: true
+SKELETON_CROWN:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM3OGQyMTAyZGI3NWYxYjM3NDRhNWU3ZTliYWNjZjg4ZmRhNGNjNDk3OWViYzBhODFiN2Q5ZWI1NzIxYzAifX19
+      uuid: ccb901e7-0919-463d-9bdd-ee9acae8e0e2
+    name: "&eSkeleton Crown"
+    required-level: 9.0
+    armor: 3.0
+    movement-speed: 0.01
+    ability:
+      ability1:
+        type: LIFE_ENDER
+        mode: DAMAGED
+        damage: 3.0
+        cooldown: 9.0
+    lore:
+      - "&7Every 9 seconds, summons a"
+      - "&cdeadly meteor&7 at your attacker,"
+      - "&7dealing &c4&7 damage while briefly"
+      - "&7knocking them away."
+    disable-interaction: true
+WYVERN_CAP:
+  base:
+    material: GOLDEN_HELMET
+    name: "&fWyvern Cap"
+    required-level: 10.0
+    hide-enchants: false
+    enchants:
+      unbreaking: 9
+    armor: 2.5
+    fall-damage-reduction: 70.0
+    perm-effects:
+      JUMP: 2
+    lore:
+      - "&7Grants permanent jump boost II"
+    crafting:
+      shaped:
+        "1":
+          - TOME.WYVERN_FEATHER TOME.WYVERN_SOUL TOME.WYVERN_FEATHER
+          - TOME.WYVERN_FEATHER AIR TOME.WYVERN_FEATHER
+          - AIR AIR AIR
+        "2":
+          - AIR AIR AIR
+          - TOME.WYVERN_FEATHER TOME.WYVERN_SOUL TOME.WYVERN_FEATHER
+          - TOME.WYVERN_FEATHER AIR TOME.WYVERN_FEATHER
+TRAVEL_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: §fTravel boots
+    movement-speed: 0.005
+    dye-color: 187 118 126
+    will-break: true
+    max-durability: 100.0
+    armor: 2.0
+    fall-damage-reduction: 5.0
+ORC1:
+  base:
+    material: LEATHER_HELMET
+    name: "&x&6&c&f&b&0&c奥&x&7&9&f&b&1&b克&x&8&6&f&c&2&a灾&x&9&3&f&c&3&9盔"
+    unbreakable: true
+    max-durability: 1000.0
+    armor: 3.0
+    enchants:
+      protection: 4
+      unbreaking: 3
+    hide-enchants: false
+    disable-enchanting: true
+    disable-repairing: true
+    custom-model-data: 93429.0
+    dye-color: 35 74 146
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 这是一个古老而又拥有神秘感的头盔.\n&f &f &f 其护目镜取兽人身之精华打造而成,令使\n&f &f &f 用者的视觉受到强化,以感知周围的危险.\n&0奥克灾盔
+    item-damage: 3000.0
+    block-power:
+      base: 30.0
+      scale: 30.0
+      spread: 0.1
+      max-spread: 0.1
+    block-rating:
+      base: 5.0
+      scale: 5.0
+      spread: 0.5
+      max-spread: 0.5
+    armor-toughness: 4
+ORC2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: "&x&6&c&f&b&0&c奥&x&7&9&f&b&1&b克&x&8&6&f&c&2&a灾&x&9&3&f&c&3&9甲"
+    max-durability: 1000.0
+    armor-toughness: 3.0
+    armor: 8.0
+    disable-repairing: true
+    disable-enchanting: true
+    enchants:
+      unbreaking: 3
+      protection: 4
+    block-power:
+      base: 30.0
+      scale: 30.0
+      spread: 0.1
+      max-spread: 0.1
+    block-rating:
+      base: 5.0
+      scale: 5.0
+      spread: 0.5
+      max-spread: 0.5
+    custom-model-data: 93429.0
+    dye-color: 35 74 146
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 内部采用精细处理过的兽人皮毛制作,\n&f &f &f 外部由经过综合强化的兽人骨打造,舒适\n&f &f &f 的内心,坚硬的外表,令使用者更具勇气!\n&0奥克灾甲
+ORC3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: "&x&6&c&f&b&0&c奥&x&7&9&f&b&1&b克&x&8&6&f&c&2&a灾&x&9&3&f&c&3&9护"
+    disable-repairing: true
+    disable-enchanting: true
+    armor: 6.0
+    enchants:
+      unbreaking: 3
+      protection: 4
+    block-power:
+      base: 30.0
+      scale: 30.0
+      spread: 0.1
+      max-spread: 0.1
+    block-rating:
+      base: 5.0
+      scale: 5.0
+      spread: 0.5
+      max-spread: 0.5
+    custom-model-data: 93429.0
+    dye-color: 35 74 146
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 内部面料充分融合了兽人的肌肉与皮\n&f &f &f 毛,且拥有自适应功能,能够与使用者的身\n&f &f &f 体相结合,同时强化机能,增强实力!\n
+      &0奥克灾护
+    max-durability: 1000.0
+    armor-toughness: 6.0
+ORC4:
+  base:
+    material: LEATHER_BOOTS
+    name: "&x&6&c&f&b&0&c奥&x&7&9&f&b&1&b克&x&8&6&f&c&2&a灾&x&9&3&f&c&3&9靴"
+    disable-repairing: true
+    disable-enchanting: true
+    max-durability: 1000.0
+    armor-toughness: 3.0
+    armor: 3.0
+    enchants:
+      unbreaking: 3
+      protection: 4
+    block-power:
+      base: 30.0
+      scale: 30.0
+      spread: 0.1
+      max-spread: 0.1
+    block-rating:
+      base: 5.0
+      scale: 5.0
+      spread: 0.5
+      max-spread: 0.5
+    custom-model-data: 93429.0
+    dye-color: 35 74 146
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 羽化处理后的兽人皮毛,比原先更加\n&f &f &f 轻盈舒适,令使用者能够随风而动.且在\n&f &f &f 外表附着兽人牙,出其不意予之痛击!\n&0奥克灾靴
+DRAGON1:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70001.0
+    name: "&x&e&8&f&f&0&0耀&x&f&0&e&9&0&1金&x&f&7&d&2&0&3战&x&f&f&b&c&0&4盔"
+    armor-toughness: 3.0
+    armor: 4.0
+    enchants:
+      unbreaking: 4
+      protection: 5.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 闪耀之光与金龙之魂萦绕在冠,使你感\n&f &f &f 受圣明之力所带来的祝福!无比灵敏的头\n&f &f &f 脑能在战斗中更为强悍!\n&0耀金战盔
+    block-power:
+      base: 30.0
+      scale: 10.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 10.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-rating:
+      base: 4.0
+      scale: 4.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-cooldown-reduction:
+      base: 5.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+
+    dye-color: 105 109 105
+DRAGON2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 70001.0
+    name: "&x&e&8&f&f&0&0耀&x&f&0&e&9&0&1金&x&f&7&d&2&0&3战&x&f&f&b&c&0&4甲"
+    armor-toughness: 3.0
+    armor: 9.0
+    enchants:
+      unbreaking: 4
+      protection: 5.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 远古而又坚硬不摧的金色巨龙之鳞造\n&f &f &f 就如此耀眼强力的甲胄!真正令人感慨的\n&f &f &f 安全感!巨龙之力贯彻于心!\n&0耀金战甲
+    block-power:
+      base: 30.0
+      scale: 10.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 10.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-rating:
+      base: 4.0
+      scale: 4.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-cooldown-reduction:
+      base: 5.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+
+    dye-color: 105 109 105
+DRAGON3:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 70001.0
+    name: "&x&e&8&f&f&0&0耀&x&f&0&e&9&0&1金&x&f&7&d&2&0&3战&x&f&f&b&c&0&4护"
+    armor-toughness: 3.0
+    armor: 7.0
+    enchants:
+      unbreaking: 4
+      protection: 5.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 金龙之魂与圣鹿之灵融合在护,感受金\n&f &f &f 龙的飞天神力与圣鹿的疾奔之劲吧!耀光\n&f &f &f 金魂,净邪之存!\n&0耀金战护
+    block-power:
+      base: 30.0
+      scale: 10.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 10.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-rating:
+      base: 4.0
+      scale: 4.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-cooldown-reduction:
+      base: 5.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+
+    dye-color: 105 109 105
+DRAGON4:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 70001.0
+    name: "&x&e&8&f&f&0&0耀&x&f&0&e&9&0&1金&x&f&7&d&2&0&3战&x&f&f&b&c&0&4靴"
+    armor-toughness: 3.0
+    armor: 4.0
+    enchants:
+      unbreaking: 4
+      protection: 5.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 感受天空...感受大地...置身于空...置身\n&f &f &f 于地...用双脚踏遍这世界,将耀金之光!带\n&f &f &f
+      给这世界!&7\n&0耀金战靴
+    block-power:
+      base: 30.0
+      scale: 10.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 10.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-rating:
+      base: 4.0
+      scale: 4.0
+      spread: 0.2
+      max-spread: 0.2
+    dodge-cooldown-reduction:
+      base: 5.0
+      scale: 5.0
+      spread: 0.2
+      max-spread: 0.2
+
+    dye-color: 105 109 105
+HELLFIRE_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 91302.0
+    name: "&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a盔"
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 戴上它...你就是深狱回响的倾听者...那\n&f &f &f 来自恶魔的惊悚之声...缠绕在你的耳边...\n&f &f &f
+      侵蚀你的意识...灌输着恶魔之力...
+    dye-color: 187 116 200
+HELLFIRE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 91302.0
+    name: "&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a甲"
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 注意!保护好心脏!恶魔...已经盯上你了!\n&f &f &f 而你...是否拥有一颗强大的心?足以抵御\n&f &f &f 来自恶魔的侵袭?忍受这狱火之痛?
+    dye-color: 187 116 200
+    armor: 10.0
+HELLFIRE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 91302.0
+    name: "&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a护"
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 感受到了吗?...这前所未有的牵扯力!它\n&f &f &f 们在扯着你的双腿!企图将你拖进地狱!不!\n&f &f &f 不...成为地狱中的恶鬼吧!
+    dye-color: 187 116 200
+HELLFIRE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 91302.0
+    name: "&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a靴"
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 生灵不欢迎你的到来...是你!带来死亡\n&f &f &f 的气息!这双恶魔之靴...燃烧着...怒吼着...\n&f &f &f
+      而所到之地...寸草不生!
+    dye-color: 187 116 200
+MYHEART_HELMET:
+  base:
+    material: IRON_HELMET
+    name: "&3初心者之盔"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f    源自内心的坚毅!初始心者之盔\n&f
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    max-durability: 500.0
+    will-break: true
+    block-power:
+      base: 15.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 1.5
+      spread: 0.2
+      max-spread: 0.2
+    lore:
+      - ""
+      - "                 &7- 无技能 -"
+      - ""
+      - 䟟       §f䕑
+      - 䟟
+      - 䟟俇䖀
+      - 䟟                   §f䦭䦮
+      - 䟟
+      - 䟟       §f䕒
+      - 䟟
+      - 䟟      §f䧾 §a+0.2 §x§c§f§c§b§c§2当前防御提升
+      - 䟟       §f䕓
+MYHEART_CHESTPLATE:
+  base:
+    material: IRON_CHESTPLATE
+    name: "&3初心者之甲"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f    源自内心的坚毅!初始心者之甲\n&f
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    max-durability: 500.0
+    will-break: true
+    block-power:
+      base: 15.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 1.5
+      spread: 0.2
+      max-spread: 0.2
+    lore:
+      - ""
+      - "                 &7- 无技能 -"
+      - ""
+      - 䟟       §f䕑
+      - 䟟
+      - 䟟俇䖀
+      - 䟟                   §f䦭䦮
+      - 䟟
+      - 䟟       §f䕒
+      - 䟟
+      - 䟟      §f䧾 §a+0.2 §x§c§f§c§b§c§2当前防御提升
+      - 䟟       §f䕓
+MYHEART_LEGGINGS:
+  base:
+    material: IRON_LEGGINGS
+    name: "&3初心者之护"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f    源自内心的坚毅!初始心者之护\n&f
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    max-durability: 500.0
+    will-break: true
+    block-power:
+      base: 15.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 1.5
+      spread: 0.2
+      max-spread: 0.2
+    lore:
+      - ""
+      - "                 &7- 无技能 -"
+      - ""
+      - 䟟       §f䕑
+      - 䟟
+      - 䟟俇䖀
+      - 䟟                   §f䦭䦮
+      - 䟟
+      - 䟟       §f䕒
+      - 䟟
+      - 䟟      §f䧾 §a+0.2 §x§c§f§c§b§c§2当前防御提升
+      - 䟟       §f䕓
+MYHEART_BOOTS:
+  base:
+    material: IRON_BOOTS
+    name: "&3初心者之靴"
+    displayed-type:
+      \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f    源自内心的坚毅!初始心者之靴\n&f
+    enchants:
+      unbreaking: 3
+      protection: 4.0
+    max-durability: 500.0
+    will-break: true
+    block-power:
+      base: 15.0
+      spread: 0.3
+      max-spread: 0.3
+    block-rating:
+      base: 1.5
+      spread: 0.2
+      max-spread: 0.2
+    lore:
+      - ""
+      - "                 &7- 无技能 -"
+      - ""
+      - 䟟       §f䕑
+      - 䟟
+      - 䟟俇䖀
+      - 䟟                   §f䦭䦮
+      - 䟟
+      - 䟟       §f䕒
+      - 䟟
+      - 䟟      §f䧾 §a+0.2 §x§c§f§c§b§c§2当前防御提升
+      - 䟟       §f䕓
+LEATHER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    permission:
+      - op
+    block-power: 9.999999999999E12
+    attack-damage: 9.999999999999E12
+    critical-strike-chance: 9.999999999999E12
+    critical-strike-power: 9.999999999999E12
+    skill-critical-strike-chance: 9.999999999999E12
+    skill-critical-strike-power: 9.999999999999E12
+    block-rating: 9.999999999999E12
+    block-cooldown-reduction: 9.999999999999E12
+    dodge-rating: 9.999999999999E12
+    dodge-cooldown-reduction: 9.999999999999E12
+    parry-rating: 9.999999999999E12
+    parry-cooldown-reduction: 9.999999999999E12
+    cooldown-reduction: 9.999999999999E12
+    pve-damage: 9.999999999999E12
+    pvp-damage: 9.999999999999E12
+    weapon-damage: 9.999999999999E12
+    skill-damage: 9.999999999999E12
+    projectile-damage: 9.999999999999E12
+    magic-damage: 9.999999999999E12
+    physical-damage: 9.999999999999E12
+    defense: 9.999999999999E12
+    damage-reduction: 9.999999999999E12
+    fall-damage-reduction: 9.999999999999E12
+    projectile-damage-reduction: 9.999999999999E12
+    physical-damage-reduction: 9.999999999999E12
+    fire-damage-reduction: 9.999999999999E12
+    magic-damage-reduction: 9.999999999999E12
+    pve-damage-reduction: 9.999999999999E12
+    pvp-damage-reduction: 9.999999999999E12
+    undead-damage: 9.999999999999E12
+    lifesteal: 9.999999999999E12
+    spell-vampirism: 9.999999999999E12
+    unbreakable: true
+    armor: 9.999999999999E12
+    armor-toughness: 9.999999999999E12
+    max-health: 300.0
+    max-mana: 9.999999999999E12
+    knockback-resistance: 9.999999999999E12
+    disable-death-drop: true
+    perm-effects:
+      NIGHT_VISION: 5.0
+"&6IKUN头套":
+  base:
+    material: ITEM_FRAME
+    name: "&6Ikun头套"
+    custom-model-data: 10292.0
+    perm-effects:
+      Invisibility: 1.0
+    commands:
+      cmd0:
+        format: hat
+        delay: 0.0
+        op: true
+    lore:
+      - "&7拿在手上按右键可以化身为神秘鸽鸽"
+
+a:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70003.0
+    name: 占位头盔
+    enchants:
+      unbreaking: 10
+      protection: 4.0
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 漆黑的头盔上刻有暗纹，能完美吸收
+      &f &f &f 月光反射。忍者必备的装备，让你在夜
+      &f &f &f 间行动时如同鬼魅般难以察觉！
+      &0忍者头盔
+    block-power: 1
+    attack-damage: 2
+    critical-strike-chance: 3
+    critical-strike-power: 4
+    skill-critical-strike-chance: 5
+    skill-critical-strike-power: 6
+    block-rating: 7
+    block-cooldown-reduction: 8
+    dodge-rating: 9
+    dodge-cooldown-reduction: 10
+    parry-rating: 11
+    parry-cooldown-reduction: 12
+    cooldown-reduction: 13
+    pve-damage: 14
+    pvp-damage: 15
+    weapon-damage: 16
+    skill-damage: 17
+    projectile-damage: 18
+    magic-damage: 19
+    physical-damage: 20
+    defense: 21
+    damage-reduction: 22
+    fall-damage-reduction: 23
+    projectile-damage-reduction: 24
+    physical-damage-reduction: 25
+    fire-damage-reduction: 26
+    magic-damage-reduction: 27
+    pve-damage-reduction: 28
+    pvp-damage-reduction: 29
+    undead-damage: 30
+    lifesteal: 31
+    spell-vampirism: 32
+    armor: 33
+    armor-toughness: 34
+    max-health: 35
+    max-mana: 36
+    knockback-resistance: 37
+
+    dye-color: 52 76 184
+b:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70003.0
+    name: 占位头盔
+    armor-toughness: 4.0
+    armor: 3.0
+    enchants:
+      unbreaking: 10
+      protection: 4.0
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 漆黑的头盔上刻有暗纹，能完美吸收
+      &f &f &f 月光反射。忍者必备的装备，让你在夜
+      &f &f &f 间行动时如同鬼魅般难以察觉！
+      &0忍者头盔
+    block-power: 1
+# 忍者套
+RZ1:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70000.0
+    name: 忍者头盔
+    armor-toughness: 1.0
+    armor: 3.0
+    # enchants:
+    #   protection: 4.0
+    movement-speed: 0.01
+    defense: 4
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 漆黑的头盔上刻有暗纹，能完美吸收
+      &f &f &f 月光反射。忍者必备的装备，让你在夜
+      &f &f &f 间行动时如同鬼魅般难以察觉！
+      &0忍者头盔
+    dye-color: 52 79 88
+
+RZ2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 70000.0
+    name: 忍者胸甲
+    armor-toughness: 1.0
+    armor: 8.0
+    # enchants:
+    #   protection: 4.0
+    movement-speed: 0.01
+    defense: 4
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 轻便却异常坚韧的胸甲，内衬特殊材
+      &f &f &f 料能吸收冲击力。即使被利刃击中也能
+      &f &f &f 将伤害降到最低！
+      &0忍者胸甲
+    # 所有战斗属性同上标准化...
+    dye-color: 52 79 88
+
+RZ3:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 70000.0
+    name: 忍者护腿
+    armor-toughness: 1.0
+    armor: 6.0
+    # enchants:
+    #   protection: 4.0
+    movement-speed: 0.01
+    defense: 4
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 特殊设计的护腿能让你在屋檐间跳跃
+      &f &f &f 时毫无声息。腿部肌肉得到完美支撑，
+      &f &f &f 即使从高处落下也能安然无恙！
+      &0忍者护腿
+    # 所有战斗属性同上标准化...
+    dye-color: 52 79 88
+
+RZ4:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 70000.0
+    name: 忍者之靴
+    armor-toughness: 1.0
+    armor: 3.0
+    # enchants:
+    #   protection: 4.0
+    movement-speed: 0.01
+    # pve-damage: 5
+    # pvp-damage: 5
+    defense: 4
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 分趾设计的靴底能让你在狭窄的屋檐
+      &f &f &f 上如履平地。特殊的消音材料让你行
+      &f &f &f 走时不会发出任何声响！
+      &0忍者之靴
+    dye-color: 52 79 88
+# 鎏金套
+LJ1:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70001.0
+    name: "&6鎏金头盔"
+    armor-toughness: 2.0
+    armor: 4.0
+    # enchants:
+    #   protection: 4.0
+    defense: 8.8
+    critical-strike-chance: 2.5
+    # critical-strike-power: 25
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 鎏金工艺打造的头盔，表面流转着
+      &f &f &f 暗金色纹路，提供卓越的防御力
+      &f &f &f 并小幅提升暴击几率
+      &0鎏金头盔
+    dye-color: 105 109 105
+
+LJ2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 70001.0
+    name: "&6鎏金胸甲"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 8.8
+    # critical-strike-chance: 2.5
+    critical-strike-power: 25
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 坚固的鎏金胸甲，能有效抵御
+      &f &f &f 各种攻击，同时增强穿戴者
+      &f &f &f 的暴击伤害能力
+      &0鎏金胸甲
+    dye-color: 105 109 105
+
+LJ3:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 70001.0
+    name: "&6鎏金护腿"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 8.8
+    critical-strike-chance: 2.5
+    # critical-strike-power: 25
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 轻便灵活的鎏金护腿，提供
+      &f &f &f 良好的防护并增加战斗中
+      &f &f &f 触发暴击的概率
+      &0鎏金护腿
+    dye-color: 105 109 105
+
+LJ4:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 70001.0
+    name: "&6鎏金之靴"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 8.8
+    # critical-strike-chance: 2.5
+    critical-strike-power: 25
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 鎏金战靴不仅保护双脚
+      &f &f &f 还能在攻击时略微提高
+      &f &f &f 暴击的伤害效果
+      &0鎏金之靴
+    dye-color: 105 109 105
+
+# 鎏金套2
+LJ1_2:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70001.0
+    name: "&6鎏金头盔 &e[&6★★&e]"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 9.2
+    critical-strike-chance: 2.5
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 鎏金工艺打造的头盔，表面流转着
+      &f &f &f 暗金色纹路，提供卓越的防御力
+      &f &f &f 并小幅提升暴击几率
+      &0鎏金头盔
+    dye-color: 105 109 105
+    gem-sockets:
+      - "&b能力"
+      - "&b能力"
+
+LJ2_2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 70001.0
+    name: "&6鎏金胸甲 &e[&6★★&e]"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 9.2
+    critical-strike-power: 25
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 坚固的鎏金胸甲，能有效抵御
+      &f &f &f 各种攻击，同时增强穿戴者
+      &f &f &f 的暴击伤害能力
+      &0鎏金胸甲
+    dye-color: 105 109 105
+    gem-sockets:
+      - "&b能力"
+      - "&b能力"
+
+LJ3_2:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 70001.0
+    name: "&6鎏金护腿 &e[&6★★&e]"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 9.2
+    critical-strike-chance: 2.5
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 轻便灵活的鎏金护腿，提供
+      &f &f &f 良好的防护并增加战斗中
+      &f &f &f 触发暴击的概率
+      &0鎏金护腿
+    dye-color: 105 109 105
+    gem-sockets:
+      - "&b能力"
+      - "&b能力"
+
+LJ4_2:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 70001.0
+    name: "&6鎏金之靴 &e[&6★★&e]"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 9.2
+    critical-strike-power: 25
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 鎏金战靴不仅保护双脚
+      &f &f &f 还能在攻击时略微提高
+      &f &f &f 暴击的伤害效果
+      &0鎏金之靴
+    dye-color: 105 109 105
+    gem-sockets:
+      - "&b能力"
+      - "&b能力"
+
+# 荒芜套
+HW1:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70002.0
+    name: "&2荒芜头盔"
+    armor-toughness: 2.0
+    armor: 4.0
+    # enchants:
+    #   protection: 4.0
+    defense: 1
+    lifesteal: 1
+    max-health: -2.5
+    movement-speed: -0.01
+    perm-effects:
+      REGENERATION: 1.0
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 荒芜能量凝聚的头盔，能持续
+      &f &f &f 恢复穿戴者的生命值，但这
+      &f &f &f 需要你付出相应的代价!
+      &0荒芜头盔
+    dye-color: 40 86 46
+
+HW2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 70002.0
+    name: "&2荒芜胸甲"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 5
+    lifesteal: 1
+    max-health: 5.0
+    # movement-speed: -0.001
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 荒芜之力灌注的胸甲，大幅
+      &f &f &f 提升生命上限，每次攻击
+      &f &f &f 都能窃取敌人生命力
+      &0荒芜胸甲
+    dye-color: 40 86 46
+
+HW3:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 70002.0
+    name: "&2荒芜护腿"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 5
+    lifesteal: 2
+    max-health: 2.5
+    # movement-speed: -0.001
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 缠绕着生命能量的护腿，
+      &f &f &f 增强你的生命力，攻击时
+      &f &f &f 可触发额外吸血
+      &0荒芜护腿
+    dye-color: 40 86 46
+
+HW4:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 70002.0
+    name: "&2荒芜之靴"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 5
+    lifesteal: 1
+    max-health: 5
+    movement-speed: 0.005
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 浸染荒芜之力的战靴，
+      &f &f &f 持续强化穿戴者的生命力，
+      &f &f &f 攻击时吸取敌人鲜血
+      &0荒芜之靴
+    dye-color: 40 86 46
+# 璃靛套
+LD1:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 70003.0
+    name: "&3璃靛头盔"
+    armor-toughness: 2.0
+    armor: 4.0
+    # enchants:
+    #   protection: 4.0
+    defense: 6
+    perm-effects:
+      NIGHT_VISION: 1.0
+      JUMP: 2.0
+      FAST_DIGGING: 2.0
+    movement-speed: 0.03
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 璃靛水晶锻造的头盔，赋予
+      &f &f &f 穿戴者急迫与夜视能力
+      &f &f &f 并显著提升跳跃高度
+      &0璃靛头盔
+    dye-color: 97 201 219
+
+LD2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 70003.0
+    name: "&3璃靛胸甲"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 6
+    movement-speed: 0.03
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 轻盈的璃靛胸甲，内嵌
+      &f &f &f 加速符文，大幅提升
+      &f &f &f 穿戴者的移动速度
+      &0璃靛胸甲
+    dye-color: 97 201 219
+
+LD3:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 70003.0
+    name: "&3璃靛护腿"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 6
+    movement-speed: 0.03
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 流线型璃靛护腿，减少
+      &f &f &f 空气阻力，使移动
+      &f &f &f 更加迅捷灵活
+      &0璃靛护腿
+    dye-color: 97 201 219
+
+LD4:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 70003.0
+    name: "&3璃靛之靴"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 6
+    movement-speed: 0.03
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 璃靛能量灌注的战靴
+      &f &f &f 使穿戴者获得超越常人的
+      &f &f &f 移动和跳跃能力
+      &0璃靛之靴
+    dye-color: 97 201 219
+# 龙鳞套
+LL1:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 91392.0
+    name: "&d龙鳞头盔"
+    armor-toughness: 2.0
+    armor: 4.0
+    # enchants:
+    #   protection: 4.0
+    defense: 7
+    # NIGHT_VISION: 1.0
+    # JUMP: 2.0
+    # FAST_DIGGING: 2.0
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 熔铸远古龙鳞制成的头盔
+      &f &f &f 呼吸间可喷吐炽热龙息
+      &f &f &f 焚烧一切胆敢靠近的敌人
+      &f &f &f &7伤害受到格斗等级影响
+      &f &f &f &7空手时会发挥它的全部作用
+      &0龙鳞头盔
+    dye-color: 194 127 205
+    ability:
+      # 龙之吐息
+      ability1:
+        type: BURNING_HANDS
+        cooldown: 10.0
+        damage: 3.0
+        duration: 1.0
+        mode: SHIFT_LEFT_CLICK
+    # #恐慌项链
+    # ability4:
+    #   type: SWIFTNESS
+    #   amplifier: 2.0
+    #   duration: 3.0
+    #   cooldown: 10.0
+    #   mode: DAMAGED_BY_ENTITY
+    # #弹受击
+    # ability5:
+    #   type: OVERLOAD
+    #   mode: DAMAGED_BY_ENTITY
+    #   cooldown: 30.0
+    #   damage: 10.0
+    #   radius: 5.0
+    amphibian: NORMAL
+
+LL2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 91392.0
+    name: "&d龙鳞胸甲"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 7
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 镶嵌龙晶的厚重胸甲\n&f &f &f 龙族威压使攻击者难以撼动你的身躯\n&f &f &f \n&0龙鳞胸甲\n"
+    dye-color: 194 127 205
+    knockback-resistance: 0.5
+    fire-damage-reduction: 100
+
+LL3:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 91392.0
+    name: "&d龙鳞护腿"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 7
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 缠绕雷电之力的腿甲\n&f &f &f 任何伤害都将招致龙族的天罚\n&f &f &f \n&0龙鳞护腿\n"
+    dye-color: 194 127 205
+    ability:
+      ability1:
+        type: SMITE
+        mode: DAMAGED_BY_ENTITY
+
+LL4:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 91392.0
+    name: "&d龙鳞之靴"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 7
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 灌注龙族迅捷之力的战靴
+      &f &f &f 瞬息间可撕裂空间突进
+      &f &f &f &7移动的速度与你的手速息息相关
+      &0龙鳞之靴
+    ability:
+      # 闪
+      ability1:
+        type: LIGHT_DASH
+        damage: 0.0
+        cooldown: 0.5
+        length: 0.01
+        mode: SNEAK
+
+    dye-color: 194 127 205
+# 龙鳞套2
+LL1_2:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 91392.0
+    name: "&d龙鳞头盔 &e[&d★★&e]"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 7.2
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 熔铸远古龙鳞制成的头盔
+      &f &f &f 呼吸间可喷吐炽热龙息
+      &f &f &f 焚烧一切胆敢靠近的敌人
+      &f &f &f &7伤害受到格斗等级影响
+      &f &f &f &7空手时会发挥它的全部作用
+      &0龙鳞头盔
+    dye-color: 194 127 205
+    ability:
+      ability1:
+        type: BURNING_HANDS
+        cooldown: 10.0
+        damage: 10.0
+        duration: 1.0
+        mode: SHIFT_LEFT_CLICK
+    amphibian: NORMAL
+    gem-sockets:
+      - "&b能力"
+    movement-speed: 0.01
+
+LL2_2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 91392.0
+    name: "&d龙鳞胸甲 &e[&d★★&e]"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 7.2
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 镶嵌龙晶的厚重胸甲使得它免疫火焰\n&f &f &f 龙族威压使攻击者难以撼动你的身躯\n&f &f &f \n&0龙鳞胸甲\
+      \n"
+    dye-color: 194 127 205
+    knockback-resistance: 0.5
+    perm-effects:
+      fire_resistance: 1.0
+    gem-sockets:
+      - "&b能力"
+    movement-speed: 0.01
+
+LL3_2:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 91392.0
+    name: "&d龙鳞护腿 &e[&d★★&e]"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 7.2
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 缠绕雷电之力的腿甲\n&f &f &f 任何伤害都将招致龙族的天罚\n&f &f &f \n&0龙鳞护腿\n"
+    dye-color: 194 127 205
+    ability:
+      ability1:
+        type: SMITE
+        mode: DAMAGED_BY_ENTITY
+    gem-sockets:
+      - "&b能力"
+    movement-speed: 0.01
+
+LL4_2:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 91392.0
+    name: "&d龙鳞之靴 &e[&d★★&e]"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 7.2
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 灌注龙族迅捷之力的战靴
+      &f &f &f 瞬息间可撕裂空间突进
+      &f &f &f &7移动的速度与你的手速息息相关
+      &0龙鳞之靴
+    ability:
+      ability1:
+        type: LIGHT_DASH
+        damage: 0.0
+        cooldown: 0.5
+        length: 0.01
+        mode: SNEAK
+
+    dye-color: 194 127 205
+    gem-sockets:
+      - "&b能力"
+    movement-speed: 0.01
+# 循声套
+JS1:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 96429.0
+    name: "&2循声头盔"
+    armor-toughness: 2.0
+    armor: 4.0
+    # enchants:
+    #   protection: 4.0
+    defense: 7
+    # NIGHT_VISION: 1.0
+    # JUMP: 2.0
+    # FAST_DIGGING: 2.0
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 穿戴者受到伤害时会激发战斗本能\n&f &f &f 呼获得短暂的速度爆发效果\n&f &f &f \n&0循声头盔\n"
+    dye-color: 99 118 152
+    ability:
+      ability1:
+        type: SWIFTNESS
+        amplifier: 3.0
+        duration: 10.0
+        cooldown: 10.0
+        mode: DAMAGED_BY_ENTITY
+
+    amphibian: NORMAL
+
+JS2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 96429.0
+    name: "&2循声胸甲"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 7
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 大幅增强抗击退能力
+      &f &f &f 牺牲灵活性换取毁灭性的暴击伤害
+      &f &f &f 攻击速度和移动速度显著降低
+      &f &f &f 缓慢恢复生命
+      &0循声胸甲
+    dye-color: 99 118 152
+    knockback-resistance: 1
+    attack-speed: -0.2
+    critical-strike-power: 200
+    movement-speed: -0.01
+    max-health: 6.0
+    perm-effects:
+      REGENERATION: 1.0
+
+JS3:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 96429.0
+    name: "&2循声护腿"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 7
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 受到攻击时释放环形冲击波
+      &f &f &f 对周围敌人造成震荡伤害
+      &f &f &f 重型护甲会明显减缓移动
+      &0循声护腿
+    dye-color: 99 118 152
+    ability:
+      ability1:
+        type: OVERLOAD
+        mode: DAMAGED_BY_ENTITY
+        cooldown: 20.0
+        damage: 10.0
+        radius: 5.0
+        stamina: 0.0
+    movement-speed: -0.01
+
+JS4:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 96429.0
+    name: "&2循声之靴"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 7
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 按住Shift+左键可发动强力跳跃\n&f &f &f 实现短距离的爆发性位移\n&f &f &f \n&0循声之靴\n" # 蹦
+    ability:
+      ability1:
+        type: Bunny_Mode
+        duration: 0.0
+        cooldown: 2
+        jump_force: 5
+        speed: 3.0
+        mode: SHIFT_LEFT_CLICK
+        jump-force: 3.0
+
+    dye-color: 99 118 152
+
+# 循声套2
+JS1_2:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 96429.0
+    name: "&2循声头盔 &e[&2★★&e]"
+    armor-toughness: 2.0
+    armor: 4.0
+    # enchants:
+    #   protection: 4.0
+    defense: 7.2
+    # NIGHT_VISION: 1.0
+    # JUMP: 2.0
+    # FAST_DIGGING: 2.0
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 穿戴者受到伤害时会激发战斗本能\n&f &f &f 呼获得短暂的速度爆发效果\n&f &f &f \n&0循声头盔\n"
+    dye-color: 99 118 152
+    ability:
+      ability1:
+        type: SWIFTNESS
+        amplifier: 3.0
+        duration: 10.0
+        cooldown: 10.0
+        mode: DAMAGED_BY_ENTITY
+
+    amphibian: NORMAL
+    gem-sockets:
+      - "&b能力"
+    critical-strike-chance: 2.5
+
+JS2_2:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 96429.0
+    name: "&2循声胸甲 &e[&2★★&e]"
+    armor-toughness: 2.0
+    armor: 8.0
+    defense: 7.2
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 大幅增强抗击退能力
+      &f &f &f 牺牲灵活性换取毁灭性的暴击伤害
+      &f &f &f 攻击速度和移动速度显著降低
+      &f &f &f 缓慢恢复生命
+      &0循声胸甲
+    dye-color: 99 118 152
+    knockback-resistance: 1
+    attack-speed: -0.2
+    critical-strike-power: 200
+    movement-speed: -0.01
+    max-health: 6.0
+    perm-effects:
+      REGENERATION: 1.0
+    gem-sockets:
+      - "&b能力"
+    critical-strike-chance: 2.5
+
+JS3_2:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 96429.0
+    name: "&2循声护腿 &e[&2★★&e]"
+    armor-toughness: 2.0
+    armor: 6.0
+    defense: 7.2
+    unbreakable: true
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎
+      &f &f &f &f 受到攻击时释放环形冲击波
+      &f &f &f 对周围敌人造成震荡伤害
+      &f &f &f 重型护甲会明显减缓移动
+      &0循声护腿
+    dye-color: 99 118 152
+    ability:
+      ability1:
+        type: OVERLOAD
+        mode: DAMAGED_BY_ENTITY
+        cooldown: 20.0
+        damage: 10.0
+        radius: 5.0
+        stamina: 0.0
+    movement-speed: -0.01
+    gem-sockets:
+      - "&b能力"
+    critical-strike-chance: 2.5
+
+JS4_2:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 96429.0
+    name: "&2循声之靴 &e[&2★★&e]"
+    armor-toughness: 2.0
+    armor: 4.0
+    defense: 7.2
+    unbreakable: true
+    displayed-type:
+      "&f\n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\
+      \n&f &f &f &f 按住Shift+左键可发动强力跳跃\n&f &f &f 实现短距离的爆发性位移\n&f &f &f \n&0循声之靴\n" # 蹦
+    ability:
+      ability1:
+        type: Bunny_Mode
+        duration: 0.0
+        cooldown: 2
+        jump_force: 5
+        speed: 3.0
+        mode: SHIFT_LEFT_CLICK
+        jump-force: 3.0
+
+    dye-color: 99 118 152
+    gem-sockets:
+      - "&b能力"
+    critical-strike-chance: 2.5
+
+ADMIN_HAT:
+  base:
+    material: BRICK
+    custom-model-data: 30122.0
+    name: "&b幽灵宠物"
+    critical-strike-chance: 100.0
+    block-power: 10000.0
+    block-rating: 10000.0
+    block-cooJSown-reduction: 100.0
+    dodge-cooJSown-reduction: 100.0
+    parry-rating: 100.0
+    parry-cooJSown-reduction: 100.0
+    defense: 1.0E9
+    cooJSown-reduction: 1.0E12
+    pve-damage-reduction: 1.0E7
+    pvp-damage-reduction: 1.0E7
+    perm-effects:
+      NIGHT_VISION: 1.0
+      Saturation: 1.0
+      FIRE_RESISTANCE: 1.0
+      SATURATION: 10.0
+      WATER_BREATHING: 10.0
+    enchants:
+      unbreaking: 10.0
+      preservation: 100.0
+      evasion: 1000000.0
+      extinguishing: 10000.0
+      incandescence: 1.0E8
+    attack-speed: 100.0
+    block-cooldown-reduction: 2.1E19
+    dodge-cooldown-reduction: 100000.0
+    skill-critical-strike-power: 1.0E8
+    parry-cooldown-reduction: 1.0E8
+    cooldown-reduction: 1000000.0
+    damage-reduction: 1.0E9
+    fall-damage-reduction: 1.0E8
+    projectile-damage-reduction: 1.0E8
+    physical-damage-reduction: 1.0E7
+    fire-damage-reduction: 1.0E8
+    magic-damage-reduction: 1.0E7
+    max-health: 20.0
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 0.0
+        cooldown: 0.0
+        knockback: 5.0
+        radius: 3.0
+        mode: DAMAGED_BY_ENTITY
+      ability2:
+        type: CONFUSE
+        mode: DAMAGED_BY_ENTITY
+        cooldown: 0.0
+    max-mana: 100.0
+    knockback-resistance: 1.0
+    hide-enchants: true
+# ============= 元素护甲套装 =============
+# 火元素（&c - 红）
+fire_helmet:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 255 85 85
+fire_chestplate:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 255 85 85
+fire_leggings:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 255 85 85
+fire_boots:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 255 85 85
+
+# 冰元素（&b - 浅蓝）
+ice_helmet:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 85 255 255
+ice_chestplate:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 85 255 255
+ice_leggings:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 85 255 255
+ice_boots:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 85 255 255
+
+# 草元素（&a - 亮绿）
+grass_helmet:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 85 255 85
+grass_chestplate:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 85 255 85
+grass_leggings:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 85 255 85
+grass_boots:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 85 255 85
+
+# 风元素（&3 - 深青）
+wind_helmet:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 0 170 170
+wind_chestplate:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 0 170 170
+wind_leggings:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 0 170 170
+wind_boots:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 0 170 170
+
+# 暗元素（&d - 粉紫）
+dark_helmet:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 255 85 255
+dark_chestplate:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 255 85 255
+dark_leggings:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 255 85 255
+dark_boots:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 255 85 255
+
+# 光元素（&6 - 金色）
+light_helmet:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 255 170 0
+light_chestplate:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 255 170 0
+light_leggings:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 255 170 0
+light_boots:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 255 170 0

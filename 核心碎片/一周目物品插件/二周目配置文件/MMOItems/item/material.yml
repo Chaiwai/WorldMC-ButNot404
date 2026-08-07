@@ -1,0 +1,393 @@
+PEP:
+  base:
+    material: PAPER
+    custom-model-data: 10450.0
+    name: '&x&3&d&b&6&a&1&l鎏&x&5&1&b&b&a&f&l钻&x&6&5&c&0&b&e&l宝&x&7&a&c&4&c&c&l箱&x&8&e&c&9&d&b&l钥&x&a&2&c&e&e&9&l匙'
+    displayed-type: ' §7\n§7     §f由数千年沉淀演化而成的深藏于世界\n&7   &f底层的稀有矿物 -- 鎏钻,制成用于打开\n   §f鎏钻宝箱的钥匙.快去揭开珍宝的面纱吧!\n'
+PEP2:
+  base:
+    material: PAPER
+    custom-model-data: 10448.0
+    name: '&x&e&c&f&b&2&3&l黑&x&c&a&d&5&2&0&l曜&x&a&8&a&f&1&d&l宝&x&8&5&8&a&1&9&l箱&x&6&3&6&4&1&6&l钥&x&4&1&3&e&1&3&l匙'
+    displayed-type: ' &7\n§7     §f由滚烫的熔岩与洁净的润水相互融合\n&7   &f而成的无比坚硬的黑曜石,制成用于打开\n   &f黑曜宝箱的钥匙.快去揭开珍宝的面纱吧!\n'
+
+PEP3:
+  base:
+    material: PAPER
+    custom-model-data: 10449.0
+    name: '&x&f&d&2&9&0&f&l猩&x&f&d&5&1&3&e&l红&x&f&d&7&9&6&c&l宝&x&f&d&a&0&9&b&l箱&x&f&d&c&8&c&9&l钥&x&f&d&f&0&f&8&l匙'
+    displayed-type: ' §7\n§7     §f由千百祸患猩红之血冷酷榨取提炼而\n&7   §f成的至黯邪湮的恶血精华,制成用于打开\n   &f猩红宝箱的钥匙.快去揭开珍宝的面纱吧!\n'
+MAPPLE:
+  base:
+    material: GOLDEN_APPLE
+    custom-model-data: 10000.0
+    displayed-type: ' §7\n§7     §f由世上最纯洁生灵所祝福的生命水晶\n&7   &f当生物食用后将会永久提高生命值上限\n&7   §f而为了避免贪婪不止,最多可食用
+      §a20 §f颗\n&f'
+    name: '&x&f&b&5&9&3&c生&x&f&c&4&5&4&2命&x&f&c&3&2&4&7水&x&f&d&1&e&4&d晶'
+KEY01:
+  base:
+    material: PAPER
+    custom-model-data: 10442.0
+    name: '&x&b&1&0&0&f&b神&x&7&e&4&8&c&1秘&x&4&c&9&1&8&6生&x&1&9&d&9&4&c机&x&2&4&f&d&2&8宝&x&6&d&f&c&1&b箱&x&b&6&f&c&0&d钥&x&f&f&f&b&0&0匙'
+    displayed-type: ' §7\n§7     §f一只源自深渊的神秘生物正在凝视你\n&7   &f你并未感到恐惧或是威胁,而是希世之珍\n&7   §f世间的宝藏...都在这儿...等你探寻...\n&f'
+FZ:
+  base:
+    material: PAPER
+    custom-model-data: 10444.0
+    name: '&x&0&0&f&b&d&4上&x&3&d&f&c&9&f海&x&7&9&f&c&6&a硫&x&b&6&f&d&3&5磺&x&f&2&f&d&0&0皂'
+    displayed-type: ' §7\n§7     §f一款源自老上海的历史悠久的洗化品\n&7   &f采用精细硫磺粉制造,温和洁爽,滋润肌肤\n&7   §f用于温泉给其他玩家搓澡.\n&f'
+RESIDENCE:
+  base:
+    material: CHEST
+    name: '&6免费领地'
+    displayed-type: ' §7\n§7     §f由冒险家提供的免费快速领地生成器\n&7   &f放置后创建一个规格为 &a50x50 &f的领地\n&7   §f快去生存世界创建你的领地吧!\n&f'
+cosmetic_token:
+  base:
+    material: PAPER
+    custom-model-data: 10458.0
+    name: '&x&f&b&9&b&4&3&l绚&x&f&c&9&4&5&b&l丽&x&f&c&8&c&7&3&l时&x&f&d&8&5&8&b&l装&x&f&d&7&d&a&3&l币'
+    displayed-type: ' §7\n§7     §f一枚炫彩耀目的时装币,用于兑换饰品\n&7   &f而你,也将会同这一般如此光鲜亮丽\n&f'
+PAPER:
+  base:
+    material: PAPER
+    custom-model-data: 43965.0
+    item-damage: 10461.0
+S1_CL_1:
+  base:
+    material: MAGMA_CREAM
+    name: '&c&l浓缩熔岩'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+S1_CL_2:
+  base:
+    material: HONEYCOMB
+    name: '&c&l熔岩格晶'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    enchants:
+      unbreaking: 10.0
+    hide-enchants: true
+S1_CL_3:
+  base:
+    material: NETHER_STAR
+    name: '&c&l熔岩&6&l核心'
+    displayed-type: |
+      &r
+      &7        &7可用于升级装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+SLIME_BLOCK:
+  base:
+    material: SLIME_BLOCK
+    enchants:
+      unbreaking: 10.0
+    name: 闪烁的粘液块
+    hide-enchants: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-interaction: true
+SLIME_GLASS:
+  base:
+    material: LIME_DYE
+    enchants:
+      unbreaking: 10.0
+    hide-enchants: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-interaction: true
+    name: 一罐粘液
+S2_CL_1:
+  base:
+    material: blue_ice
+    name: '&b&l浓缩冰!'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+S2_CL_2:
+  base:
+    material: Amethyst_Shard
+    name: '&b&l冰凝结晶'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    enchants:
+      unbreaking: 10.0
+    hide-enchants: true
+S2_CL_3:
+  base:
+    material: Heart_Of_The_Sea
+    name: '&b&l冰晶&6&l核心'
+    displayed-type: |
+      &r
+      &7        &7可用于升级装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+
+S3_CL_1:
+  base:
+    material: kelp
+    name: '&a&l草&7(一种植物)'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+S3_CL_2:
+  base:
+    material: Prismarine_Shard
+    name: '&a&l自然结晶'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    enchants:
+      unbreaking: 10.0
+    hide-enchants: true
+S3_CL_3:
+  base:
+    material: Music_Disc_Cat
+    name: '&a&l大地&6&l核心'
+    displayed-type: |
+      &r
+      &7        &7可用于升级装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+
+S4_CL_1:
+  base:
+    material: Feather
+    name: '&3&l&m轻灵之羽'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+S4_CL_2:
+  base:
+    material: Glow_Berries
+    name: '&3&l龙眼'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    enchants:
+      unbreaking: 10.0
+    hide-enchants: true
+S4_CL_3:
+  base:
+    material: Eye_Armor_Trim_Smithing_Template
+    name: '&3&l狂啸&6&l核心'
+    displayed-type: |
+      &r
+      &7        &7可用于升级装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+S_SJ1_1TO2:
+  base:
+    material: PAPER
+    name: '&e二专升级模板'
+    custom-model-data: 40001.0
+    displayed-type: |
+      &r
+      &7        &7适用: &c元素系列 &b[&eI &e阶&b]
+      &7        &7进化: &c元素系列 &b[&eII &e阶&b]
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+S_SJ1_2TO3:
+  base:
+    material: PAPER
+    name: '&e三专升级模板'
+    custom-model-data: 40002.0
+    displayed-type: |
+      &r
+      &7        &7适用: &c元素系列 &b[&eII &e阶&b]
+      &7        &7进化: &c元素系列 &b[&eIII &e阶&b]
+      &7        &7锻造时需要消耗大量经验:&a114&bLevel
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+S_SJ1_0TO1:
+  base:
+    material: PAPER
+    name: '&e打刀淬炼石'
+    custom-model-data: 2.0
+    displayed-type: |
+      &r
+      &7        &7适用: &c打刀 &b[&7无色&b]
+      &7        &7进化: &c打刀 &b[&e淬&0口&b]
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+
+SS1_CL_1:
+  base:
+    material: Clay_Ball
+    custom-model-data: 10010.0
+    name: '&c&l淬火元素'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+      &7        &7由于其蕴含大量能量
+      &7        &7升级三阶时需要在&d雷雨交加&7的&c风蚀热带草原&7使用
+      &7        &7tips:&7windswept_savanna
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+SS2_CL_1:
+  base:
+    material: Clay_Ball
+    custom-model-data: 10012.0
+    name: '&b&l淬冰元素'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+      &7        &7由于其蕴含大量能量
+      &7        &7升级三阶时需要在&d雷雨交加&7的&b冰刺地形&7使用
+      &7        &7tips:&7ice_spikes
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+SS3_CL_1:
+  base:
+    material: Clay_Ball
+    custom-model-data: 10011.0
+    name: '&a&l淬草元素'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+      &7        &7由于其蕴含大量能量
+      &7        &7升级三阶时需要在&d雷雨交加&7的&a繁茂洞穴&7使用
+      &7        &7tips:&7lush_caves
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+SS4_CL_1:
+  base:
+    material: Clay_Ball
+    custom-model-data: 10006.0
+    name: '&3&l淬风元素'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+      &7        &7由于其蕴含大量能量
+      &7        &7升级三阶时需要在&d雷雨交加&7的&3&3竹子丛林&7使用
+      &7        &7tips:&7bamboo_jungle
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+SS5_CL_1:
+  base:
+    material: Clay_Ball
+    custom-model-data: 10009.0
+    name: '&d&l淬暗元素'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+      &7        &7由于其蕴含大量能量
+      &7        &7升级三阶时需要在&d雷雨交加&7的&3&7占位名称&7使用
+      &7        &7tips:&7null
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+SS6_CL_1:
+  base:
+    material: Clay_Ball
+    custom-model-data: 10007.0
+    name: '&6&l淬光元素'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+      &7        &7由于其蕴含大量能量
+      &7        &7升级三阶时需要在&d雷雨交加&7的&3&7占位名称&7使用
+      &7        &7tips:&7null
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+ARMOR_CL_1:
+  base:
+    material: Clay_Ball
+    custom-model-data: 10008.0
+    name: '&d&l淬龙元素'
+    displayed-type: |
+      &r
+      &7        &7可用于制作装备
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+炼金煤炭:
+  base:
+    material: COAL
+    custom-model-data: 10000.0
+    name: 永恒燃料
+莫比乌斯燃料:
+  base:
+    material: COAL
+    custom-model-data: 10003.0
+    name: 炼金煤炭
+永恒燃料:
+  base:
+    material: COAL
+    custom-model-data: 10001.0
+    name: 莫比乌斯燃料
+暗物质:
+  base:
+    material: COAL
+    custom-model-data: 10004.0
+    name: 暗物质
+贤者之石:
+  base:
+    material: COAL
+    name: 贤者之石
+    custom-model-data: 10002.0
+    commands:
+      cmd0:
+        format: menu open 转化
+        delay: 0.0
+        op: true
+    displayed-type: |
+      &f
+      &f &f &f右键打开转化菜单
+      &f &f &f菜单会逐步完善(应该)
+      &f
+EMC256:
+  base:
+    material: REDSTONE
+    name: '&cEMC结晶&7(512)'
+中子素尘埃:
+  base:
+    material: PAPER
+    name: '&7中子素尘埃'
+    custom-model-data: 20001.0
+中子素颗粒:
+  base:
+    material: PAPER
+    name: '&7中子素颗粒'
+    custom-model-data: 20002.0
+中子锭:
+  base:
+    material: PAPER
+    name: '&7中子锭'
+    custom-model-data: 20003.0
+荣耀勋章:
+  base:
+    material: ITEM_FRAME
+    custom-model-data: 10051.0
+    name: '&e荣耀勋章'
+    disable-interaction: true

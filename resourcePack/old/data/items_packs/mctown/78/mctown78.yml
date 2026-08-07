@@ -1,0 +1,7 @@
+info:
+  namespace: "mctown"
+font_images:
+  mctown_quest:
+    path: "78/mctown_questui.png"
+    suggest_in_command: false
+    y_position: 13

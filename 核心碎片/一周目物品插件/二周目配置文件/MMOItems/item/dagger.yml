@@ -1,0 +1,100 @@
+'1':
+  base:
+    material: STONE_SWORD
+    critical-strike-chance: 100.0
+    critical-strike-power: 100.0
+    attack-damage: 10.0
+'2':
+  base:
+    material: STONE_SWORD
+    critical-strike-chance: 100.0
+    critical-strike-power: 200.0
+    attack-damage: 10.0
+    block-rating: 100.0
+    block-cooldown-reduction: 100.0
+'3':
+  base:
+    material: STONE_SWORD
+    ability:
+      ability1:
+        type: VOID_ARROW
+        mode: RIGHT_CLICK
+'&1寰宇支配之剑':
+  base:
+    material: STONE_SWORD
+    commands:
+      cmd0:
+        format: execute as %player_name% at @s anchored eyes run execute positioned
+          ^ ^ ^5 run execute as @e[limit=1,sort=nearest,distance=..5,name=!XAY4,name=!%player_name%]
+          at @s run tellraw @a ["", {"text":"[击杀] ","color":"red"}, {"selector":"@s"},
+          {"text":" 被 "}, {"selector":"%player_name%"}, {"text":" 击败了！"}]
+        delay: 0.0
+        op: true
+      cmd1:
+        format: execute as %player_name% at @s anchored eyes run execute positioned
+          ^ ^ ^5 run execute as @e[limit=1,sort=nearest,distance=..5,name=!XAY4,name=!%player_name%]
+          at @s run kill @s
+        delay: 0.0
+        op: true
+    name: '&a寰&b宇&c支&d配&e之&f剑'
+元素刀_0:
+  base:
+    material: STONE_SWORD
+    element:
+      fire:
+        damage: 10
+元素刀_1:
+  base:
+    material: STONE_SWORD
+    name: '&c火'
+    attack-damage: 1.0
+    element:
+      fire:
+        damage: 10
+    faction-damage-fire: 20000.0
+    faction-damage-<caster:
+      owner: {}
+元素刀_2:
+  base:
+    material: STONE_SWORD
+    name: '&b冰'
+    attack-damage: 1.0
+    element:
+      ice:
+        damage: 10
+元素刀_3:
+  base:
+    material: STONE_SWORD
+    name: '&a草'
+    attack-damage: 1.0
+    element:
+      earth:
+        damage: 10
+元素刀_4:
+  base:
+    material: STONE_SWORD
+    name: '&2风'
+    attack-damage: 1.0
+    element:
+      wind:
+        damage: 10
+元素刀_5:
+  base:
+    material: STONE_SWORD
+    name: '&d暗'
+    attack-damage: 1.0
+    element:
+      water:
+        damage: 10
+元素刀_6:
+  base:
+    material: STONE_SWORD
+    name: '&6光'
+    attack-damage: 1.0
+    element:
+      thunder:
+        damage: 10
+TEST1:
+  base:
+    material: STONE_SWORD
+    attack-speed: 2.0

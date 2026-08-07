@@ -1,0 +1,25 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_sword"
+    },
+    "overrides": [
+		{"predicate": {"custom_model_data":2007}, "model": "thor_model/thor_hammer"},
+		{"predicate": {"custom_model_data":2008}, "model": "thor_model/thor_hammer_shiny"},
+		{"predicate": {"custom_model_data":2009}, "model": "null_model/null_bow"},
+		{"predicate": {"custom_model_data":2010}, "model": "null_model/null_bow_shiny"},
+		{"predicate": {"custom_model_data":2011}, "model": "assassin_model/assassin_blade"},
+		{"predicate": {"custom_model_data":2012}, "model": "assassin_model/assassin_blade_shiny"},
+		{"predicate": {"custom_model_data":2013}, "model": "necromancer_model/necromancer_staff"},
+		{"predicate": {"custom_model_data":2014}, "model": "necromancer_model/necromancer_staff_shiny"},
+		{"predicate": {"custom_model_data":2015}, "model": "shaman_model/shaman_scepter"},
+		{"predicate": {"custom_model_data":2016}, "model": "shaman_model/shaman_scepter_shiny"},
+		{"predicate": {"custom_model_data":2017}, "model": "warrior_model/warrior_sword"},
+		{"predicate": {"custom_model_data":2018}, "model": "warrior_model/warrior_sword_shiny"},
+		{"predicate": {"custom_model_data":2019}, "model": "archer_model/archer_bow"},
+		{"predicate": {"custom_model_data":2020}, "model": "archer_model/archer_bow_shiny"},	
+		{"predicate": {"custom_model_data":2021}, "model": "mage_model/mage_staff"},
+		{"predicate": {"custom_model_data":2022}, "model": "mage_model/mage_staff_shiny"}
+
+    ]
+}

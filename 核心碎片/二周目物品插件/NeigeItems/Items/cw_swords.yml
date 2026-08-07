@@ -1,0 +1,44 @@
+cw_swords_tem:
+  material: <item>
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) <datapack>
+  name: "&r&f<name>"
+  lore:
+    - ""
+    - "<#CCCCCC>类型 &7: <type>"
+    - "<#CCCCCC>品质 &7: <level>"
+    - "<#CCCCCC>估价 &7: &6<money> &f<papi::img_mnoney>"
+    - ""
+    - "<#EEEEEE>简介 &7:"
+    - "   <#DDDDDD><text>"
+    - ""
+    - "&f<papi::img_shift> &7+ &f<papi::img_right_click> <#CCCCCC>转化为 &6<money> &f<papi::img_mnoney>"
+    - "&f<papi::img_shift> &7+ &f<papi::img_left_click> <#CCCCCC>转化为 &a<xp> <#cccccc>冒险经验"
+    - ""
+  nbt:
+    type: <type>
+    money: <money>
+    xp: <xp>
+  sections:
+    item: "paper"
+    datapack: 10003
+    name: "暂无名称"
+    type: "暂无类型"
+    level: "暂无品质"
+    money: 0
+    xp: 0
+    text: "暂无简介"
+
+cwMade_sword_1:
+  inherit: cw_swords_tem
+  sections:
+    item: "ghast_tear"
+    datapack: 10035
+    name: "毒刺"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "用于制造装备"

@@ -1,0 +1,340 @@
+info:
+  namespace: "mctown"
+font_images:
+
+  guild1:
+    path: "ui/guild1.png"
+    suggest_in_command: false
+    y_position: 13
+  garden1:
+    path: "ui/garden.png"
+    suggest_in_command: false
+    y_position: 47
+  seedshop:
+    path: "ui/seedshop.png"
+    suggest_in_command: false
+    y_position: 15
+  guild2:
+    path: "ui/guild2.png"
+    suggest_in_command: false
+    y_position: 13
+  fj:
+    path: "ui/fj.png"
+    suggest_in_command: false
+    y_position: 68
+  mctownboss1:
+    path: "ui/mctownboss1.png"
+    suggest_in_command: false
+    y_position: 15
+  blacksmith:
+    path: "ui/blacksmith.png"
+    suggest_in_command: false
+    y_position: 13
+  menu2:
+    path: "ui/menu2.png"
+    suggest_in_command: false
+    y_position: 15
+  mctownboss2:
+    path: "ui/mctownboss2.png"
+    suggest_in_command: false
+    y_position: 15
+  mctownboss3:
+    path: "ui/mctownboss3.png"
+    suggest_in_command: false
+    y_position: 15
+  mctownboss4:
+    path: "ui/mctownboss4.png"
+    suggest_in_command: false
+    y_position: 15
+  mctownboss5:
+    path: "ui/mctownboss5.png"
+    suggest_in_command: false
+    y_position: 15
+  mctownboss6:
+    path: "ui/mctownboss6.png"
+    suggest_in_command: false
+    y_position: 15
+  mctowncrates1:
+    path: "ui/mctowncrates1.png"
+    scale_ratio: 255
+    y_position: 45
+  trmenu:
+    path: "ui/trmenu.png"
+    suggest_in_command: false
+    y_position: 15
+  qi:
+    path: "ui/qi.png"
+    suggest_in_command: false
+    y_position: 50
+  trmenu1:
+    path: "ui/trmenu1.png"
+    suggest_in_command: false
+    y_position: 15
+  trmenu2:
+    path: "ui/trmenu2.png"
+    suggest_in_command: false
+    y_position: 15
+  trmenu3:
+    path: "ui/trmenu3.png"
+    suggest_in_command: false
+    y_position: 15
+  pvp:
+    path: "ui/pvp.png"
+    suggest_in_command: false
+    y_position: 15
+  settings:
+    path: "ui/settings.png"
+    suggest_in_command: false
+    y_position: 15
+  world:
+    path: "ui/world.png"
+    suggest_in_command: false
+    y_position: 15
+  world1:
+    path: "ui/world1.png"
+    suggest_in_command: false
+    y_position: 15
+  world2:
+    path: "ui/world2.png"
+    suggest_in_command: false
+    y_position: 15
+  world3:
+    path: "ui/world3.png"
+    suggest_in_command: false
+    y_position: 15
+  world4:
+    path: "ui/world4.png"
+    suggest_in_command: false
+    y_position: 15
+  qiandao:
+    path: "ui/qiandao.png"
+    suggest_in_command: false
+    y_position: 15
+  qiandao1:
+    path: "ui/qiandao1.png"
+    suggest_in_command: false
+    y_position: 15
+  auction:
+    path: "ui/auction.png"
+    suggest_in_command: false
+    y_position: 15
+  auction1:
+    path: "ui/auction1.png"
+    suggest_in_command: false
+    y_position: 15
+  auction2:
+    path: "ui/auction2.png"
+    suggest_in_command: false
+    y_position: 15
+  auction3:
+    path: "ui/auction3.png"
+    suggest_in_command: false
+    y_position: 51
+  issue:
+    path: "ui/issue.png"
+    suggest_in_command: false
+    y_position: 15
+  issue1:
+    path: "ui/issue1.png"
+    suggest_in_command: false
+    y_position: 15
+  issue2:
+    path: "ui/issue2.png"
+    suggest_in_command: false
+    y_position: 15
+  issue3:
+    path: "ui/issue3.png"
+    suggest_in_command: false
+    y_position: 15
+  jobs1:
+    path: "ui/jobs1.png"
+    suggest_in_command: false
+    y_position: 15
+  jobs2:
+    path: "ui/jobs2.png"
+    suggest_in_command: false
+    y_position: 15
+  jobs3:
+    path: "ui/jobs3.png"
+    suggest_in_command: false
+    y_position: 15
+  jobs4:
+    path: "ui/jobs4.png"
+    suggest_in_command: false
+    y_position: 15
+  jobs5:
+    path: "ui/jobs5.png"
+    suggest_in_command: false
+    y_position: 15
+  jobs6:
+    path: "ui/jobs6.png"
+    suggest_in_command: false
+    y_position: 15
+  jobs7:
+    path: "ui/jobs7.png"
+    suggest_in_command: false
+    y_position: 15
+  qianmingmenu:
+    path: "ui/qianmingmenu.png"
+    suggest_in_command: false
+    y_position: 15
+  xingbie:
+    path: "ui/xingbie.png"
+    suggest_in_command: false
+    y_position: 50
+  xingbie1:
+    path: "ui/xingbie1.png"
+    suggest_in_command: false
+    y_position: 50
+  xingbie2:
+    path: "ui/xingbie2.png"
+    suggest_in_command: false
+    y_position: 50
+  enchant:
+    path: "ui/enchant.png"
+    suggest_in_command: false
+    y_position: 15
+  vipshop:
+    path: "ui/vipshop.png"
+    suggest_in_command: false
+    y_position: 15
+  vipshop1:
+    path: "ui/vipshop1.png"
+    suggest_in_command: false
+    y_position: 15
+  key:
+    path: "ui/key.png"
+    suggest_in_command: false
+    y_position: 15
+  key1:
+    path: "ui/key1.png"
+    suggest_in_command: false
+    y_position: 15
+  pay:
+    path: "ui/pay.png"
+    suggest_in_command: false
+    y_position: 15
+  pay1:
+    path: "ui/pay1.png"
+    suggest_in_command: false
+    y_position: 15
+  pay2:
+    path: "ui/pay2.png"
+    suggest_in_command: false
+    y_position: 15
+  jobss1:
+    path: "ui/jobss1.png"
+    suggest_in_command: false
+    y_position: 15
+  job1:
+    path: "ui/job1.png"
+    suggest_in_command: false
+    y_position: 50
+  s1:
+    path: "ui/s1.png"
+    suggest_in_command: false
+    y_position: 30
+  s2:
+    path: "ui/s2.png"
+    suggest_in_command: false
+    y_position: 30
+  s3:
+    path: "ui/s3.png"
+    suggest_in_command: false
+    y_position: 30
+  job2:
+    path: "ui/job2.png"
+    suggest_in_command: false
+    y_position: 50
+  welcome:
+    path: "ui/welcome.png"
+    suggest_in_command: false
+    y_position: 15
+  dailyquests:
+    path: "ui/dailyquests.png"
+    suggest_in_command: false
+    y_position: 15
+  cuilian:
+    path: "ui/cuilian.png"
+    suggest_in_command: false
+    symbol: "䪇"
+    y_position: 68
+  server1:
+    path: "ui/server1.png"
+    suggest_in_command: false
+    y_position: 68
+  slotss:
+    path: "ui/slotss.png"
+    suggest_in_command: false
+    symbol: "㸂"
+    y_position: 35
+  quests_ui:
+    path: "ui/quests_ui.png"
+    suggest_in_command: false
+    symbol: "㺣"
+    y_position: 15
+  vipshop:
+    path: "ui/vipshop.png"
+    suggest_in_command: false
+    y_position: 15
+  fishshop:
+    path: "ui/fishshop.png"
+    suggest_in_command: false
+    symbol: "㢀"
+    y_position: 15
+  mineshop:
+    path: "ui/mineshop.png"
+    suggest_in_command: false
+    symbol: "㢁"
+    y_position: 15
+  cropshop:
+    path: "ui/cropshop.png"
+    suggest_in_command: false
+    symbol: "㢂"
+    y_position: 15
+  barshop:
+    path: "ui/barshop.png"
+    suggest_in_command: false
+    symbol: "㢃"
+    y_position: 15
+  buildshop:
+    path: "ui/buildshop.png"
+    suggest_in_command: false
+    y_position: 15
+  buildshop2:
+    path: "ui/buildshop2.png"
+    suggest_in_command: false
+    y_position: 15
+  onlinereward:
+    path: "ui/onlinereward.png"
+    suggest_in_command: false
+    y_position: 20
+  trash:
+    path: "ui/trash.png"
+    suggest_in_command: false
+    symbol: "䊰"
+    y_position: 15
+  signin:
+    path: "ui/signin.png"
+    suggest_in_command: false
+    y_position: 15
+  emote:
+    path: "ui/emote.png"
+    suggest_in_command: false
+    y_position: 15
+  pointsshop:
+    path: "ui/pointsshop.png"
+    suggest_in_command: false
+    y_position: 15
+  server2:
+    path: "ui/server2.png"
+    suggest_in_command: false
+    y_position: 15
+  pointsshop1:
+    path: "ui/pointsshop1.png"
+    suggest_in_command: false
+    y_position: 16
+  cw_menu:
+    path: "ui/cw_menu.png"
+    suggest_in_command: false
+    y_position: 15

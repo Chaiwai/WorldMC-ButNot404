@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor2
+equipments:
+  summoner:
+    type: armor
+    layer_1: armor/summoner/layer_1
+    layer_2: armor/summoner/layer_2
+items:
+  summoner_boots:
+    name: summoner_boots
+    resource:
+      generate: true
+      texture: items/summoner/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor2:summoner
+  summoner_chestplate:
+    name: summoner_chestplate
+    resource:
+      generate: true
+      texture: items/summoner/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor2:summoner
+  summoner_helmet:
+    name: summoner_helmet
+    resource:
+      generate: true
+      texture: items/summoner/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor2:summoner
+  summoner_leggings:
+    name: summoner_leggings
+    resource:
+      generate: true
+      texture: items/summoner/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor2:summoner

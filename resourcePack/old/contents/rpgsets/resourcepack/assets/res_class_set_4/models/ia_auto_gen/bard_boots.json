@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "item/empty", "layer1": "res_class_set_4:bard_boots" }
+}

@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  iridium:
+    type: armor
+    layer_1: armor/iridium/layer_1
+    layer_2: armor/iridium/layer_2
+items:
+  iridium_boots:
+    name: iridium_boots
+    resource:
+      generate: true
+      texture: items/iridium/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:iridium
+  iridium_chestplate:
+    name: iridium_chestplate
+    resource:
+      generate: true
+      texture: items/iridium/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:iridium
+  iridium_helmet:
+    name: iridium_helmet
+    resource:
+      generate: true
+      texture: items/iridium/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:iridium
+  iridium_leggings:
+    name: iridium_leggings
+    resource:
+      generate: true
+      texture: items/iridium/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:iridium

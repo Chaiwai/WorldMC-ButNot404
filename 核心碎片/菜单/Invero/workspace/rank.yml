@@ -1,0 +1,543 @@
+title: "副本传送"
+rows: 6
+activators:
+  command:
+    name: "rank"
+    permission: "menu.rank"
+
+########################################
+page_O: &page_O
+  material: paper
+  customModelData: 10340
+  name: "&a&l上一页"
+  # menu title to {{page get}}
+  action: |-
+    page previous
+page_N: &page_N
+  material: paper
+  customModelData: 10341
+  name: "&a&l下一页"
+  action: |-
+    page next
+
+up: &up
+  name: "&a&l当前冒险等级:%math_0_{PlayerCurrency_level}+1%"
+  lore: |-
+    &r    &f&l经验值: %PlayerCurrency_level_xp%&7/&f%math_0_128*(({PlayerCurrency_level}+1)^1.1)%
+    &r    &f&l暂时的经验还无法升级哦~
+  action: sound entity_item_break by 1 2
+  sub:
+    - rule: check papi "%math_0_{PlayerCurrency_level_xp}-128*(({PlayerCurrency_level}+1)^1.1)%" >= "0"
+      name: "&6&l喜报,你可以升级了!"
+      lore: |-
+        &r    &f&l经验值: &6%PlayerCurrency_level_xp%&7/&f%math_0_128*(({PlayerCurrency_level}+1)^1.1)%
+        &r    &6&l点我升级!
+      ia: arrow_up2
+      action: |-
+        menu close
+        command "ply take %player_name% level_xp %math_0_128*(({PlayerCurrency_level}+1)^1.1)%" as console
+        command "ply give %player_name% level 1" as console
+        msg ":fuhao3:升级成功!"
+        sleep 0.1s
+        menu open rank
+        msg ":fuhao4:成就系统正在制作中,后续可以领取奖励"
+        sound entity_player_levelup by 1 2
+
+rankup: &rankup
+  name: "&a&l你已经解锁目前的所有rank等级,感谢你的陪伴!"
+  lore: |-
+    &r    &f&l持续更新中...
+  sub:
+    - rule: perm "group.r9"
+      name: "&a&l你已经解锁目前的所有rank等级,感谢你的陪伴!"
+      lore: |-
+        &r    &f&l持续更新中...
+      action: |-
+        menu close
+    - rule: perm "group.r8"
+      name: "&r&c升级⑨你的进度太快了, 这里还在制作中请勿使用!!!!!以防吞物品"
+      lore: |-
+        &r    &f&lxxx
+      action: |-
+        menu close
+    - rule: perm "group.r7"
+      name: "&r&c升级⑧你的进度太快了, 这里还在制作中请勿使用!!!!!以防吞物品"
+      lore: |-
+        &r    &f&lxxx
+      action: |-
+        menu close
+    - rule: perm "group.r6"
+      name: "&r&c升级⑦你的进度太快了, 这里还在制作中请勿使用!!!!!以防吞物品"
+      lore: |-
+        &r    &f&lxxx
+      action: |-
+        menu close
+    - rule: perm "group.r5"
+      name: "&d一切都是维华的主意!!!!"
+      lore: |-
+        &r    &a&l当前等级 &e:&f ⑤
+        &r    &b&l下一等级 &e:&f ⑥
+        &r    &b&l领地价格&c4&a→&b4
+        &r    &7&l=======================
+        &r    &b&l解锁特权 &e:
+        &r    &b&l每日礼包
+        &r    &b&lmcmmo经验倍率*1.6
+        &r    &b&lhome数量&c10&a→&b11
+        &r    &b&l领地数量&c5&a→&b6
+        &r    &b&l领地价格&c4&a→&b3
+        &r    &7&l=======================
+        &r    &d&l升级条件 &e:
+        &r    &amcmmo战力&e>=&a4000&7[当前:&c%mcmmo_powerlevel%&7]
+        &r    &a锻造任意一把&d元素刀&b[&eIII 阶&b] &7详情配方见菜单第二页合成
+        &r    &a制作出&e"&a无&b尽&c锭&e"&a * 1&7(放在背包中即可, 不消耗)
+        &r    &a&7tips如果你忘记了无尽贪婪的意义, 可以寻找维华来帮助你完成这个任务
+        &r    &7&l=======================
+        &r    &d提交道具 &e:
+        &r    &d&f无尽催化剂&d * 1
+        &r    &7&l=======================
+        &r    &a点击消耗货币升级rank等级
+        &r    &f5000&f %img_mnoney%
+        &r    &f500 &f %img_points_icon%
+        &r    &f古老的金币 &e* &a 50
+        &r    &7&l=======================
+      action:
+        all:
+          - check papi "%mcmmo_powerlevel%" >= "4000"
+
+          - inventory check "minecraft:paper[name=古老的金币,model=10445]" amount 50
+
+          - check papi "%playerpoints_points%" >= "500"
+          - check papi "%vault_eco_balance%" >= "5000"
+          - inventory check "minecraft:blue_dye[model=10001]" amount 1
+          - inventory check "minecraft:green_dye[model=20003]" amount 1
+
+        then:
+          - any:
+              - inventory check "minecraft:diamond_sword[model=10056]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10053]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10066]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10057]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10071]" amount 1
+            then: |-
+              inventory take "minecraft:paper[name=古老的金币,model=10445]" amount 50
+              inventory take "minecraft:blue_dye[model=10001]" amount 1
+
+              command "money take %player_name% 5000" as console
+              command "points take %player_name% 500" as console
+
+              command "lp user %player_name% parent add r6" as console
+              command "trchat tellsimple * &a恭喜玩家&b%player_name%&a升级为&f⑥&a!" as console
+
+              sound ui_toast_challenge_complete by 1 1
+              msg ":fuhao1: &c你不满足条件！"
+            else: |-
+              menu close
+              msg ":fuhao1: &c你不满足条件！"
+        else: |-
+          menu close
+          msg ":fuhao1: &c你不满足条件！"
+    - rule: perm "group.r4"
+      name: "是时候该升级了!"
+      lore: |-
+        &r    &a&l当前等级 &e:&f ④
+        &r    &b&l下一等级 &e:&f ⑤
+        &r    &b&l领地价格&c4&a→&b4
+        &r    &7&l=======================
+        &r    &b&l解锁特权 &e:
+        &r    &b&l每日礼包
+        &r    &b&lmcmmo经验倍率*1.5
+        &r    &b&lhome数量&c9&a→&b10
+        &r    &b&l领地数量&c5&a→&b5
+        &r    &b&l领地价格&c4&a→&b4
+        &r    &7&l=======================
+        &r    &d&l升级条件 &e:
+        &r    &amcmmo战力&e>=&a3000&7[当前:&c%mcmmo_powerlevel%&7]
+        &r    &amcmmo挖矿&e>=&a600&7[当前:&c%mcmmo_mining%&7]
+        &r    &amcmmo剑术&e>=&a600&7[当前:&c%mcmmo_swords%&7]
+        &r    &amcmmo格斗&e>=&a300&7[当前:&c%mcmmo_unarmed%&7]
+        &r    &amcmmo钓鱼&e>=&a400&7[当前:&c%mcmmo_fishing%&7]
+        &r    &a锻造任意一把&d元素刀&b[&eII 阶&b] &7详情配方见菜单第二页合成
+        &r    &a解锁史莱姆副本传送点 &e当前是否完成?: %luckperms_has_permission_cw.tp.slime%
+        &r    &atips:菜单第二副本-传送副本大厅完成跑酷
+        &r    &7&l=======================
+        &r    &d提交道具 &e:
+        &r    &7&l=======================
+        &r    &a点击消耗货币升级rank等级
+        &r    &f4000&f %img_mnoney%
+        &r    &f400 &f %img_points_icon%
+        &r    &f古老的金币 &e* &a 40
+        &r    &7&l=======================
+      action:
+        all:
+          - check papi "%mcmmo_powerlevel%" >= "3000"
+          - check papi "%mcmmo_mining%" >= "600"
+          - check papi "%mcmmo_swords%" >= "600"
+          - check papi "%mcmmo_unarmed%" >= "300"
+          - check papi "%mcmmo_fishing%" >= "400"
+
+          - check papi "%luckperms_has_permission_cw.tp.slime%" == "yes"
+
+          - inventory check "minecraft:paper[name=古老的金币,model=10445]" amount 40
+
+          - check papi "%playerpoints_points%" >= "400"
+          - check papi "%vault_eco_balance%" >= "4000"
+
+        then:
+          - any:
+              - inventory check "minecraft:diamond_sword[model=10075]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10080]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10086]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10084]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10070]" amount 1
+            then: |-
+              inventory take "minecraft:paper[name=古老的金币,model=10445]" amount 40
+
+              command "money take %player_name% 4000" as console
+              command "points take %player_name% 400" as console
+
+              command "lp user %player_name% parent add r5" as console
+              command "trchat tellsimple * &a恭喜玩家&b%player_name%&a升级为&f⑤&a!" as console
+
+              sound ui_toast_challenge_complete by 1 1
+              msg ":fuhao1: &c你不满足条件！"
+            else: |-
+              menu close
+              msg ":fuhao1: &c你不满足条件！"
+        else: |-
+          menu close
+          msg ":fuhao1: &c你不满足条件！"
+    - rule: perm "group.r3"
+      name: "&r&b锻造元素刀!"
+      lore: |-
+        &r    &a&l当前等级 &e:&f ③
+        &r    &b&l下一等级 &e:&f ④
+        &r    &7&l=======================
+        &r    &b&l解锁特权 &e:
+        &r    &b&l每日礼包
+        &r    &b&lmcmmo经验倍率*1.4
+        &r    &b&lhome数量&c8&a→&b9
+        &r    &b&l领地数量&c4&a→&b5
+        &r    &b&l领地价格&c5&a→&b4
+        &r    &7&l=======================
+        &r    &d&l升级条件 &e:
+        &r    &amcmmo战力&e>=&a2000&7[当前:&c%mcmmo_powerlevel%&7]
+        &r    &amcmmo挖矿&e>=&a300&7[当前:&c%mcmmo_mining%&7]
+        &r    &amcmmo剑术&e>=&a500&7[当前:&c%mcmmo_swords%&7]
+        &r    &amcmmo格斗&e>=&a100&7[当前:&c%mcmmo_unarmed%&7]
+        &r    &amcmmo钓鱼&e>=&a100&7[当前:&c%mcmmo_fishing%&7]
+        &r    &a锻造任意一把&d元素刀&b[&eI 阶&b] &7详情配方见菜单第二页合成
+        &r    &7&l=======================
+        &r    &d提交道具 &e:
+        &r    &7&l=======================
+        &r    &a点击消耗货币升级rank等级
+        &r    &f3000&f %img_mnoney%
+        &r    &f300 &f %img_points_icon%
+        &r    &f古老的金币 &e* &a 30
+        &r    &7&l=======================
+      action:
+        all:
+          - check papi "%mcmmo_powerlevel%" >= "2000"
+          - check papi "%mcmmo_mining%" >= "300"
+          - check papi "%mcmmo_swords%" >= "500"
+          - check papi "%mcmmo_unarmed%" >= "100"
+          - check papi "%mcmmo_fishing%" >= "100"
+
+          - inventory check "minecraft:paper[name=古老的金币,model=10445]" amount 30
+
+          - check papi "%playerpoints_points%" >= "300"
+          - check papi "%vault_eco_balance%" >= "3000"
+
+        then:
+          - any:
+              - inventory check "minecraft:diamond_sword[model=10076]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10079]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10085]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10083]" amount 1
+              - inventory check "minecraft:diamond_sword[model=10068]" amount 1
+            then: |-
+              inventory take "minecraft:paper[name=古老的金币,model=10445]" amount 30
+
+              command "money take %player_name% 3000" as console
+              command "points take %player_name% 300" as console
+
+              command "lp user %player_name% parent add r4" as console
+              command "trchat tellsimple * &a恭喜玩家&b%player_name%&a升级为&f④&a!" as console
+
+              sound ui_toast_challenge_complete by 1 1
+              msg ":fuhao1: &c你不满足条件！"
+            else: |-
+              menu close
+              msg ":fuhao1: &c你不满足条件！"
+        else: |-
+          menu close
+          msg ":fuhao1: &c你不满足条件！"
+    - rule: perm "group.r2"
+      name: "&r&e装备!升级!?"
+      lore: |-
+        &r    &a&l当前等级 &e:&f ②
+        &r    &b&l下一等级 &e:&f ③
+        &r    &7&l=======================
+        &r    &b&l解锁特权 &e:
+        &r    &b&l每日礼包
+        &r    &b&lmcmmo经验倍率*1.3
+        &r    &b&lhome数量&c7&a→&b8
+        &r    &b&l领地数量&c4&a→&b4
+        &r    &b&l领地价格&c5&a→&b5
+        &r    &7&l=======================
+        &r    &d&l升级条件 &e:
+        &r    &amcmmo战力&e>=&a1100&7[当前:&c%mcmmo_powerlevel%&7]
+        &r    &amcmmo挖矿&e>=&a100&7[当前:&c%mcmmo_mining%&7]
+        &r    &amcmmo剑术&e>=&a300&7[当前:&c%mcmmo_swords%&7]
+        &r    &amcmmo格斗&e>=&a100&7[当前:&c%mcmmo_unarmed%&7]
+        &r    &amcmmo钓鱼&e>=&a50&7[当前:&c%mcmmo_fishing%&7]
+        &r    &a将忍者套分解为装备碎片 * 4&7(放在背包中)&7 tips: 在主城拆解大师处分解
+        &r    &7&l=======================
+        &r    &d提交道具 &e:
+        &r    &f空白基础宝石 * 32&7 tips: 在资源世界-末地挖矿获取
+        &r    &f空白元素宝石 * 16&7 tips: 在资源世界-主世界挖矿获取
+        &r    &7&l=======================
+        &r    &a点击消耗货币升级rank等级
+        &r    &f2000&f %img_mnoney%
+        &r    &f200 &f %img_points_icon%
+        &r    &f古老的金币 &e* &a 20
+        &r    &7&l=======================
+      action:
+        all: #条件判定
+          - check papi "%mcmmo_powerlevel%" >= "1100"
+          - check papi "%mcmmo_mining%" >= "100"
+          - check papi "%mcmmo_swords%" >= "300"
+          - check papi "%mcmmo_unarmed%" >= "100"
+          - check papi "%mcmmo_fishing%" >= "50"
+
+          - inventory check "minecraft:paper[name=古老的金币,model=10445]" amount 20
+          - inventory check "minecraft:paper[model=6]" amount 4
+          - inventory check "minecraft:emerald[model=10014]" amount 32
+          - inventory check "minecraft:emerald[model=20006]" amount 16
+
+          - check papi "%playerpoints_points%" >= "200"
+          - check papi "%vault_eco_balance%" >= "2000"
+        then: |- #满足执行
+          inventory take "minecraft:paper[name=古老的金币,model=10445]" amount 20
+          inventory take "minecraft:emerald[model=10014]" amount 32
+          inventory take "minecraft:emerald[model=20006]" amount 16
+
+          command "money take %player_name% 2000" as console
+          command "points take %player_name% 200" as console
+
+          command "lp user %player_name% parent add r3" as console
+          command "trchat tellsimple * &a恭喜玩家&b%player_name%&a升级为&f③&a!" as console
+
+          sound ui_toast_challenge_complete by 1 1
+          msg ":fuhao3: &a升级成功！"
+        else: |- #不满足执行
+          menu close
+          msg ":fuhao1: &c你不满足条件！"
+    - rule: perm "group.r1"
+      name: "&r&e冒险的开端?"
+      lore: |-
+        &r    &a&l当前等级 &e:&f ①
+        &r    &b&l下一等级 &e:&f ②
+        &r    &7&l=======================
+        &r    &b&l解锁特权 &e:
+        &r    &b&l每日礼包
+        &r    &b&lmcmmo经验倍率*1.2
+        &r    &b&lhome数量&c6&a→&b7
+        &r    &b&l领地数量&c3&a→&b4
+        &r    &b&l领地价格&c5&a→&b5
+        &r    &7&l=======================
+        &r    &d&l升级条件 &e:
+        &r    &amcmmo战力&e>=&a1100&7[当前:&c%mcmmo_powerlevel%&7]
+        &r    &amcmmo挖矿&e>=&a100&7[当前:&c%mcmmo_mining%&7]
+        &r    &amcmmo剑术&e>=&a300&7[当前:&c%mcmmo_swords%&7]
+        &r    &amcmmo格斗&e>=&a100&7[当前:&c%mcmmo_unarmed%&7]
+        &r    &amcmmo钓鱼&e>=&a50&7[当前:&c%mcmmo_fishing%&7]
+        &r    &a制作出一套忍者套&7(放在背包中)&7 tips: 在主城装备铁匠处锻造护甲
+        &r    &7&l=======================
+        &r    &d提交道具 &e:
+        &r    &f&l升级模板 &e* &a 1
+        &r    &7&l=======================
+        &r    &a点击消耗货币升级rank等级
+        &r    &f2000&f %img_mnoney%
+        &r    &f200 &f %img_points_icon%
+        &r    &f古老的金币 &e* &a 10
+        &r    &7&l=======================
+      action:
+        all: #条件判定
+          - check papi "%mcmmo_powerlevel%" >= "1100"
+          - check papi "%mcmmo_mining%" >= "100"
+          - check papi "%mcmmo_swords%" >= "300"
+          - check papi "%mcmmo_unarmed%" >= "100"
+          - check papi "%mcmmo_fishing%" >= "50"
+
+          - inventory check "minecraft:netherite_upgrade_smithing_template" amount 1
+
+          - inventory check "minecraft:paper[name=古老的金币,model=10445]" amount 10
+          - inventory check "minecraft:leather_helmet[model=70000]" amount 1
+          - inventory check "minecraft:leather_chestplate[model=70000]" amount 1
+          - inventory check "minecraft:leather_leggings[model=70000]" amount 1
+          - inventory check "minecraft:leather_boots[model=70000]" amount 1
+
+          - check papi "%playerpoints_points%" >= "200"
+          - check papi "%vault_eco_balance%" >= "2000"
+        then: |- #满足执行
+          inventory take "minecraft:netherite_upgrade_smithing_template" amount 1
+
+          inventory take "minecraft:paper[name=古老的金币,model=10445]" amount 10
+
+          command "money take %player_name% 2000" as console
+          command "points take %player_name% 200" as console
+
+          command "lp user %player_name% parent add r2" as console
+          command "trchat tellsimple * &a恭喜玩家&b%player_name%&a升级为&f②&a!" as console
+
+          sound ui_toast_challenge_complete by 1 1
+          msg ":fuhao3: &a升级成功！"
+        else: |- #不满足执行
+          menu close
+          msg ":fuhao1: &c你不满足条件！"
+    - rule: perm "group.default"
+      name: "&e欢迎来到worldmc!请先按照原版机制玩到中期后, 你便可以开始升级你的rank等级"
+      lore: |-
+        &r    &a&l当前等级 &e:&f ⑳
+        &r    &b&l下一等级 &e:&f ①
+        &r    &7&l=======================
+        &r    &b&l解锁特权 &e:
+        &r    &b&l每日礼包
+        &r    &b&lmcmmo经验倍率*1.1
+        &r    &b&lhome数量&c5&a→&b6
+        &r    &b&l领地数量&c3&a→&b3
+        &r    &b&l领地价格&c5&a→&b5
+        &r    &7&l=======================
+        &r    &d&l升级条件 &e:
+        &r    &a&l最大生命值&e>=&a21&7[当前:&c%player_max_health%&7]
+        &r    &a&lmcmmo战力&e>=&a1000&7[当前:&c%mcmmo_powerlevel%&7]
+        &r    &7&l=======================
+        &r    &d&l提交道具 &e:
+        &r    &f&l钻石 &e* &a 64
+        &r    &f&l下届合金 &e* &a 3
+        &r    &f&l升级模板 &e* &a 1
+        &r    &7&l=======================
+        &r    &a&l点击消耗货币升级rank等级
+        &r    &f&l1000&f %img_mnoney%
+        &r    &f&l100 &f %img_points_icon%
+        &r    &7&l=======================
+      action:
+        all: #条件判定
+          - check papi "%player_max_health%" >= "21"
+          - check papi "%mcmmo_powerlevel%" >= "1000"
+
+          - inventory check "minecraft:diamond" amount 64
+          - inventory check "minecraft:netherite_ingot" amount 3
+          - inventory check "minecraft:netherite_upgrade_smithing_template" amount 1
+
+          - check papi "%playerpoints_points%" >= "100"
+          - check papi "%vault_eco_balance%" >= "1000"
+        then: |- #满足执行
+          inventory take "minecraft:diamond" amount 64
+          inventory take "minecraft:netherite_ingot" amount 3
+          inventory take "minecraft:netherite_upgrade_smithing_template" amount 1
+
+          command "money take %player_name% 1000" as console
+          command "points take %player_name% 100" as console
+
+          command "lp user %player_name% parent add r1" as console
+          command "trchat tellsimple * &a恭喜玩家&b%player_name%&a升级为&f①&a!" as console
+
+          sound ui_toast_challenge_complete by 1 1
+          msg ":fuhao3: &a升级成功！"
+        else: |- #不满足执行
+          menu close
+          msg ":fuhao1: &c你不满足条件！"
+
+# TJ_b: &TJ_b
+#   name: "&7&l暂无需要提交道具"
+#   material: white_stained_glass_pane
+#   # lore: |-
+#   #   &r    &f&l持续更新中...
+#   sub:
+#     - rule: perm "group.r8"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+#     - rule: perm "group.r7"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+#     - rule: perm "group.r6"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+#     - rule: perm "group.r5"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+#     - rule: perm "group.r4"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+#     - rule: perm "group.r3"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+#     - rule: perm "group.r2"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+#     - rule: perm "group.r1"
+#       name: "&7暂无需要提交道具"
+#       action: |-
+#         menu close
+
+########################################
+
+panels:
+  #- layout: |-
+  #########
+  #  items:
+  #    '#': { material: gray stained glass pane }
+  - scale: [9, 6]
+    pages:
+      - layout: |-
+          #########
+          #a1~~~U~#
+          #11~~~~~#
+          #~B~C~D~#
+          #~E~F~G~#
+          #########
+        items:
+          "#":
+            name: |-
+              &r
+            material: black_stained_glass_pane
+          "~":
+            # name: |-
+            #   &r
+            # material: white_stained_glass_pane
+          "O":
+            <<: *page_O
+          "N":
+            <<: *page_N
+          "a":
+            <<: *rankup
+            head: "{{player name}}"
+            customModelData: 10010
+            name: "&f"
+          "1":
+            <<: *rankup
+            material: STRUCTURE_VOID
+            name: "&f"
+          "U":
+            material: Experience_Bottle
+            <<: *up
+          # "B":
+          #   <<: *TJ_b
+          # "C":
+          #   <<: *TJ_c
+          # "D":
+          #   <<: *TJ_d
+          # "E":
+          #   <<: *TJ_e
+          # "F":
+          #   <<: *TJ_f
+          # "G":
+          #   <<: *TJ_g

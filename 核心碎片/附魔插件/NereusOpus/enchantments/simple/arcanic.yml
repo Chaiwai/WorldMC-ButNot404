@@ -1,0 +1,29 @@
+basic:
+  id: arcanic
+  name: 无缝
+  enable: true
+  max-level: 5
+display:
+  description:
+    general: 有概率免疫药水伤害
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :8*{level}

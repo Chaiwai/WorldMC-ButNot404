@@ -1,0 +1,125 @@
+# 自动生成的矿石配置文件
+info:
+  namespace: cw_blocks
+worlds_populators:
+  #精金
+  adamantite:
+    block: cw_blocks:adamantite
+    worlds:
+      - world
+    replaceable_blocks:
+      - STONE
+      - DIRT
+      - ANDESITE
+      - GRANITE
+      - COBBLESTONE
+      - GRAVEL
+      - DEEPSLATE
+    biomes:
+      - DESERT
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -63
+    vein_blocks: 6
+    chunk_veins: 1
+  #蓝
+  aquamarine:
+    block: cw_blocks:aquamarine
+    worlds:
+      # - world
+    replaceable_blocks:
+      - STONE
+      - DIRT
+      - ANDESITE
+      - GRANITE
+      - COBBLESTONE
+      - GRAVEL
+      - DEEPSLATE
+    biomes:
+      # - DESERT
+    chunk_chance: 40.0
+    max_height: 0
+    min_height: -63
+    vein_blocks: 6
+    chunk_veins: 1
+  #叶绿
+  chlorophyte:
+    block: cw_blocks:chlorophyte
+    worlds:
+      - world
+    replaceable_blocks:
+      - STONE
+      - DIRT
+      - ANDESITE
+      - GRANITE
+      - COBBLESTONE
+      - GRAVEL
+      - DEEPSLATE
+    biomes:
+      - JUNGLE
+      - BAMBOO_JUNGLE
+      - SPARSE_JUNGLE
+    chunk_chance: 40.0
+    max_height: 0
+    min_height: -63
+    vein_blocks: 6
+    chunk_veins: 1
+  #钴
+  cobalt:
+    block: cw_blocks:cobalt
+    worlds:
+      - world
+    replaceable_blocks:
+      - STONE
+      - DIRT
+      - ANDESITE
+      - GRANITE
+      - COBBLESTONE
+      - GRAVEL
+      - DEEPSLATE
+    biomes:
+      - OCEAN
+      - DEEP_OCEAN
+      - FROZEN_OCEAN
+      - DEEP_FROZEN_OCEAN
+      - COLD_OCEAN
+      - DEEP_COLD_OCEAN
+      - LUKEWARM_OCEAN
+      - DEEP_LUKEWARM_OCEAN
+      - WARM_OCEAN
+      - DEEP_WARM_OCEAN
+    chunk_chance: 40.0
+    max_height: 0
+    min_height: -63
+    vein_blocks: 6
+    chunk_veins: 1
+  #猩红
+  crimtane:
+    block: cw_blocks:crimtane
+    worlds:
+      # - world
+    replaceable_blocks:
+      - STONE
+      - DIRT
+      - ANDESITE
+      - GRANITE
+      - COBBLESTONE
+      - GRAVEL
+      - DEEPSLATE
+    biomes:
+      # - OCEAN
+      # - DEEP_OCEAN
+      # - FROZEN_OCEAN
+      # - DEEP_FROZEN_OCEAN
+      # - COLD_OCEAN
+      # - DEEP_COLD_OCEAN
+      # - LUKEWARM_OCEAN
+      # - DEEP_LUKEWARM_OCEAN
+      # - WARM_OCEAN
+      # - DEEP_WARM_OCEAN
+    chunk_chance: 40.0
+    max_height: 0
+    min_height: -63
+    vein_blocks: 6
+    chunk_veins: 1
+    #

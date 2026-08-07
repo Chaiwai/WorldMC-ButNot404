@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  ruby:
+    type: armor
+    layer_1: armor/ruby/layer_1
+    layer_2: armor/ruby/layer_2
+items:
+  ruby_boots:
+    name: ruby_boots
+    resource:
+      generate: true
+      texture: items/ruby/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:ruby
+  ruby_chestplate:
+    name: ruby_chestplate
+    resource:
+      generate: true
+      texture: items/ruby/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:ruby
+  ruby_helmet:
+    name: ruby_helmet
+    resource:
+      generate: true
+      texture: items/ruby/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:ruby
+  ruby_leggings:
+    name: ruby_leggings
+    resource:
+      generate: true
+      texture: items/ruby/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:ruby

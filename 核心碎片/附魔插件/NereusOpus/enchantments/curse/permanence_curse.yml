@@ -1,0 +1,24 @@
+basic:
+  id: permanence_curse
+  name: 烙印诅咒
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 使物品在铁砧中无法被修改
+alternative:
+  grindstoneable: false
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+  is-cursed: true
+rarity: 诅咒
+targets:
+- all
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []

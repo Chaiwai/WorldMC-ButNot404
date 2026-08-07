@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/healing_flower"},"elements":[{"from":[-1.5720787,7.427292,5.1232],"to":[7.058321,7.427292,10.876801],"faces":{"up":{"uv":[4.0,1.0,2.5,0.0],"tintindex":0,"rotation":0,"texture":"#0"},"down":{"uv":[4.0,0.0,2.5,1.0],"tintindex":0,"rotation":0,"texture":"#0"}},"rotation":{"origin":[9.377529,5.6193624,8.5223055],"angle":-22.5,"axis":"z"}}]}

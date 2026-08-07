@@ -1,0 +1,660 @@
+Diablo:
+  # 用于生成装备等级
+  等级:
+    # 生成一个1-10之间, 符合正态分布的随机数
+    # 68.27%介于4-6
+    # 95.45%介于3-7
+    # 99.74%介于2-8
+    # 0.26%介于0-2或8-10
+    浮动:
+      type: gaussian
+      base: 5
+      spread: 0.2
+      maxSpread: 1
+      fixed: 0
+    # <Diablo.等级.浮动> 介于0-10之间
+    # 故而(<Diablo.等级.浮动>-5) 介于-5到5之间
+    # 即: <papi::player_level>+(<Diablo.等级.浮动>-5)
+    #     是以玩家等级为基础, 上浮或下压0-5级
+    # min: 0 选项确保等级不会出现负值
+    结果:
+      type: calculation
+      formula: <papi::player_level>+(<Diablo.等级.浮动>-5)
+      min: 0
+  # 用于处理不同等级物品的不同信息
+  等级信息:
+    耐久:
+      上限:
+        type: calculation
+        formula: <Diablo.等级.结果>*100
+        min: 100
+        max: 2000
+      文本: <Diablo.等级信息.耐久.上限>/<Diablo.等级信息.耐久.上限>
+    价格:
+      type: gaussian
+      base: <calculation::<Diablo.等级.结果>*100>
+      spread: 0.1
+      maxSpread: 0.3
+      fixed: 0
+      min: 50
+  # 用于生成装备品质
+  品质:
+    type: weight
+    values:
+      - 7::普通
+      - 8::魔法
+      - 5::稀有
+      - 2::传说
+  # 用于处理不同品质物品的不同信息
+  品质信息:
+    普通:
+      文本颜色: "§f"
+      掉落颜色: WHITE
+      前缀属性数量: 1
+      后缀属性数量: 1
+    魔法:
+      文本颜色: "§b"
+      掉落颜色: AQUA
+      前缀属性数量: 2
+      后缀属性数量: 2
+    稀有:
+      文本颜色: "§e"
+      掉落颜色: YELLOW
+      前缀属性数量: 3
+      后缀属性数量: 3
+    传说:
+      文本颜色: "§6"
+      掉落颜色: GOLD
+      前缀属性数量: 4
+      后缀属性数量: 4
+  # 权重节点, "::"前的数字代表权重
+  # 3*7+1*3=24, 故总权重为24
+  # 即: 开头为"3::"的物品有3/24, 即八分之一的出现几率
+  #     开头为"1::"的物品有1/24, 即二十四分之一的出现几率
+  类型:
+    type: weight
+    values:
+      - 3::长剑
+      - 3::斧子
+      - 3::短弓
+      - 3::头盔
+      - 3::胸甲
+      - 3::护腿
+      - 3::靴子
+      - 1::项链
+      - 1::戒指
+      - 1::护符
+  # 用于处理不同类型物品的不同信息
+  类型信息:
+    长剑:
+      部位: "主手"
+      材质:
+        type: weight
+        values:
+          - 7::WOODEN_SWORD
+          - 8::STONE_SWORD
+          - 6::GOLDEN_SWORD
+          - 5::IRON_SWORD
+          - 2::DIAMOND_SWORD
+      # 物品名与相应的物品材质一一对应
+      名称:
+        WOODEN_SWORD: 海盗剑
+        STONE_SWORD: 符文剑
+        GOLDEN_SWORD: 君王剑
+        IRON_SWORD: 骑士剑
+        DIAMOND_SWORD: 海啸之刃
+      基本属性:
+        # 属性数值以玩家等级*5为基础, 上浮或下压30%
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*5>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8物理攻击： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§4[红宝石槽]"
+        数量: <number::1_5>
+    斧子:
+      部位: "主手"
+      材质:
+        type: weight
+        values:
+          - 7::WOODEN_AXE
+          - 8::STONE_AXE
+          - 6::GOLDEN_AXE
+          - 5::IRON_AXE
+          - 2::DIAMOND_AXE
+      名称:
+        WOODEN_AXE: 厄运斧
+        STONE_AXE: 掠夺者之斧
+        GOLDEN_AXE: 宽刃斧
+        IRON_AXE: 灾星战斧
+        DIAMOND_AXE: 新月战斧
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*5>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8物理攻击： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§4[红宝石槽]"
+        数量: <number::1_5>
+    短弓:
+      部位: "主手"
+      材质: BOW
+      # 弓只有一个材质, 名称直接随机
+      名称:
+        BOW:
+          type: weight
+          values:
+            - 7::猎弓
+            - 8::复合弓
+            - 6::游侠弓
+            - 5::多重弓
+            - 2::鬼影弓
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*5>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8物理攻击： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§4[红宝石槽]"
+        数量: <number::1_5>
+    头盔:
+      部位: "头部"
+      材质:
+        type: weight
+        values:
+          - 8::LEATHER_HELMET
+          - 7::GOLDEN_HELMET
+          - 6::IRON_HELMET
+          - 4::CHAINMAIL_HELMET
+          - 2::DIAMOND_HELMET
+      名称:
+        LEATHER_HELMET: 皮帽
+        GOLDEN_HELMET: 皇冠
+        IRON_HELMET: 君王面具
+        CHAINMAIL_HELMET: 骑士头盔
+        DIAMOND_HELMET: 圣灵头冠
+      基本属性:
+        # 属性数值以玩家等级*3为基础, 上浮或下压30%
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*3>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8物理防御： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§a[绿宝石槽]"
+        数量: <number::1_5>
+    胸甲:
+      部位: "上装"
+      材质:
+        type: weight
+        values:
+          - 8::LEATHER_CHESTPLATE
+          - 7::GOLDEN_CHESTPLATE
+          - 6::IRON_CHESTPLATE
+          - 4::CHAINMAIL_CHESTPLATE
+          - 2::DIAMOND_CHESTPLATE
+      名称:
+        LEATHER_CHESTPLATE: 皮甲
+        GOLDEN_CHESTPLATE: 君王锁甲
+        IRON_CHESTPLATE: 骑士重甲
+        CHAINMAIL_CHESTPLATE: 锁子甲
+        DIAMOND_CHESTPLATE: 圣灵胸甲
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*3>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8物理防御： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§a[绿宝石槽]"
+        数量: <number::1_5>
+    护腿:
+      部位: "下装"
+      材质:
+        type: weight
+        values:
+          - 8::LEATHER_LEGGINGS
+          - 7::GOLDEN_LEGGINGS
+          - 6::IRON_LEGGINGS
+          - 4::CHAINMAIL_LEGGINGS
+          - 2::DIAMOND_LEGGINGS
+      名称:
+        LEATHER_LEGGINGS: 皮裤
+        GOLDEN_LEGGINGS: 君王护腿
+        IRON_LEGGINGS: 骑士护腿
+        CHAINMAIL_LEGGINGS: 锁甲护腿
+        DIAMOND_LEGGINGS: 圣灵护腿
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*3>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8物理防御： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§a[绿宝石槽]"
+        数量: <number::1_5>
+    靴子:
+      部位: "靴子"
+      材质:
+        type: weight
+        values:
+          - 8::LEATHER_BOOTS
+          - 7::GOLDEN_BOOTS
+          - 6::IRON_BOOTS
+          - 4::CHAINMAIL_BOOTS
+          - 2::DIAMOND_BOOTS
+      名称:
+        LEATHER_BOOTS: 皮靴
+        GOLDEN_BOOTS: 君王护胫
+        IRON_BOOTS: 骑士钢靴
+        CHAINMAIL_BOOTS: 步行靴
+        DIAMOND_BOOTS: 圣灵长靴
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*3>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8物理防御： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§a[绿宝石槽]"
+        数量: <number::1_5>
+    项链:
+      部位: "饰品"
+      材质: ENDER_EYE
+      # 使用strings节点, 三个名称出现概率相等
+      名称:
+        ENDER_EYE:
+          type: strings
+          values:
+            - 君王项链
+            - 永恒之恋
+            - 混沌之链
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*3>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8生命上限： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§a[绿宝石槽]"
+        数量: <number::1_3>
+    戒指:
+      部位: "饰品"
+      材质: ENDER_PEARL
+      名称:
+        ENDER_PEARL:
+          type: strings
+          values:
+            - 君王戒指
+            - 混沌指环
+            - 贪婪之戒
+            - 命运守护
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*3>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8生命上限： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§a[绿宝石槽]"
+        数量: <number::1_3>
+    护符:
+      部位: "饰品"
+      材质: NETHER_STAR
+      名称:
+        NETHER_STAR:
+          type: strings
+          values:
+            - 君王护符
+            - 地狱火护符
+            - 肯多的凝视
+            - 艾利之眼
+      基本属性:
+        数值:
+          type: gaussian
+          base: <calculation::<Diablo.等级.结果>*3>
+          spread: 0.1
+          maxSpread: 0.3
+          fixed: 0
+          min: 1
+        文本: "§8生命上限： §7<Diablo.类型信息.<Diablo.类型>.基本属性.数值>"
+      宝石槽:
+        文本: "§a[绿宝石槽]"
+        数量: <number::1_3>
+  # 用于生成装备前缀
+  前缀:
+    type: weightdeclare
+    # 生成的节点以此开头
+    # 比如Diablo.前缀.0
+    # 比如Diablo.前缀.1
+    key: Diablo.前缀
+    list:
+      # 权重加起来是21
+      # 所以1::开头的词缀有1/21的概率被选中
+      # 所以2::开头的词缀有2/21的概率被选中
+      - 1::强壮的
+      - 1::野性的
+      - 1::神奇的
+      - 1::凯旋的
+      - 1::刚毅的
+      - 1::不灭的
+      - 1::贪婪的
+      - 2::心灵的
+      - 2::结界的
+      - 2::尖牙的
+      - 2::创伤的
+      - 2::涌现的
+      - 2::寒冷的
+      - 2::炫目的
+    # 选取4条
+    amount: 4
+    # 是否打乱顺序
+    shuffled: true
+  # 用于处理不同前缀物品的不同信息
+  前缀信息:
+    强壮的:
+      属性: "§7力量"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    野性的:
+      属性: "§7敏捷"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    神奇的:
+      属性: "§7智力"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    凯旋的:
+      属性: "§7精神"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    刚毅的:
+      属性: "§7体质"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    不灭的:
+      属性: "§7生命恢复"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    贪婪的:
+      属性: "§7生命偷取"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    心灵的:
+      属性: "§7魔法上限"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    结界的:
+      属性: "§7元素抵抗"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    尖牙的:
+      属性: "§7暴击几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    创伤的:
+      属性: "§7暴击伤害"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*10>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    涌现的:
+      属性: "§7魔法回复"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    寒冷的:
+      属性: "§7冰冻几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    炫目的:
+      属性: "§7致盲几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+  # 前缀属性文本
+  前缀文本:
+    type: join
+    list:
+      - "§8<Diablo.前缀信息.<Diablo.前缀.0>.属性>： §7<Diablo.前缀信息.<Diablo.前缀.0>.数值>"
+      - "§8<Diablo.前缀信息.<Diablo.前缀.1>.属性>： §7<Diablo.前缀信息.<Diablo.前缀.1>.数值>"
+      - "§8<Diablo.前缀信息.<Diablo.前缀.2>.属性>： §7<Diablo.前缀信息.<Diablo.前缀.2>.数值>"
+      - "§8<Diablo.前缀信息.<Diablo.前缀.3>.属性>： §7<Diablo.前缀信息.<Diablo.前缀.3>.数值>"
+    separator: "\\n"
+    limit: <Diablo.品质信息.<Diablo.品质>.前缀属性数量>
+    prefix: '"'
+    postfix: '"'
+  # 用于生成装备后缀
+  后缀:
+    type: weightdeclare
+    # 生成的节点以此开头
+    # 比如Diablo.后缀.0
+    # 比如Diablo.后缀.1
+    key: Diablo.后缀
+    list:
+      # 权重加起来是13
+      # 所以1::开头的词缀有1/13的概率被选中
+      # 所以2::开头的词缀有2/13的概率被选中
+      - 1::星光之
+      - 1::毒蛇之
+      - 1::焚烧之
+      - 1::电鳗之
+      - 1::苦痛之
+      - 2::壁垒之
+      - 2::荆棘之
+      - 2::拦截之
+      - 2::戏耍之
+    # 选取4条
+    amount: 4
+    # 是否打乱顺序
+    shuffled: true
+  # 用于处理不同后缀物品的不同信息
+  后缀信息:
+    星光之:
+      属性: "§7魔法伤害"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    毒蛇之:
+      属性: "§7毒素几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    焚烧之:
+      属性: "§7火焰几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    电鳗之:
+      属性: "§7闪电几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    苦痛之:
+      属性: "§7撕裂几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    壁垒之:
+      属性: "§7物理防御"
+      数值:
+        type: gaussian
+        base: <calculation::<Diablo.等级.结果>*3>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+    荆棘之:
+      属性: "§7反弹几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    拦截之:
+      属性: "§7格挡几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+    戏耍之:
+      属性: "§7闪避几率"
+      数值:
+        type: gaussian
+        base: <Diablo.等级.结果>
+        spread: 0.1
+        maxSpread: 0.3
+        fixed: 0
+        min: 1
+        max: 50
+  # 后缀属性文本
+
+  后缀文本:
+    type: join
+    list:
+      - "§8<Diablo.后缀信息.<Diablo.后缀.0>.属性>： §7<Diablo.后缀信息.<Diablo.后缀.0>.数值>"
+      - "§8<Diablo.后缀信息.<Diablo.后缀.1>.属性>： §7<Diablo.后缀信息.<Diablo.后缀.1>.数值>"
+      - "§8<Diablo.后缀信息.<Diablo.后缀.2>.属性>： §7<Diablo.后缀信息.<Diablo.后缀.2>.数值>"
+      - "§8<Diablo.后缀信息.<Diablo.后缀.3>.属性>： §7<Diablo.后缀信息.<Diablo.后缀.3>.数值>"
+    separator: "\\n"
+    limit: <Diablo.品质信息.<Diablo.品质>.后缀属性数量>
+    prefix: '"'
+    postfix: '"'
+  # 用于生成装备宝石槽
+  宝石槽:
+    type: repeat
+    content: <Diablo.类型信息.<Diablo.类型>.宝石槽.文本>
+    repeat: <Diablo.类型信息.<Diablo.类型>.宝石槽.数量>
+    separator: "\\n"
+    prefix: '"'
+    postfix: '"'

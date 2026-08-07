@@ -1,0 +1,322 @@
+# 自动生成的配置文件
+# 生成工具: create_items.py
+
+info:
+  namespace: cw_made_tool
+items:
+  adamantite_pickaxe:
+    display_name: "精金镐"
+    lore:
+      - "&7镐力: 190"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/adamantite_pickaxe
+  bone_pickaxe:
+    display_name: "骨镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/bone_pickaxe
+  cactus_pickaxe:
+    display_name: "仙人掌镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/cactus_pickaxe
+  candy_cane_pickaxe:
+    display_name: "糖果手杖镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/candy_cane_pickaxe
+  chlorophyte_pickaxe:
+    display_name: "叶绿镐"
+    lore:
+      - "&7镐力: 210"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/chlorophyte_pickaxe
+  cobalt_pickaxe:
+    display_name: "钴镐"
+    lore:
+      - "&7镐力: 150"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/cobalt_pickaxe
+  copper_pickaxe:
+    display_name: "铜镐"
+    lore:
+      - "&7镐力: 80"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/copper_pickaxe
+  deathbringer_pickaxe:
+    display_name: "死亡使者镐"
+    lore:
+      - "&7镐力: 130"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/deathbringer_pickaxe
+  fossil_pickaxe:
+    display_name: "化石镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/fossil_pickaxe
+  gold_pickaxe:
+    display_name: "金镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/gold_pickaxe
+  iron_pickaxe:
+    display_name: "铁镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/iron_pickaxe
+  lead_pickaxe:
+    display_name: "铅镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/lead_pickaxe
+  molten_pickaxe:
+    display_name: "熔岩镐"
+    lore:
+      - "&7镐力: 140"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/molten_pickaxe
+  mythril_pickaxe:
+    display_name: "秘银镐"
+    lore:
+      - "&7镐力: 180"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/mythril_pickaxe
+  nebula_pickaxe:
+    display_name: "星云镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/nebula_pickaxe
+  nightmare_pickaxe:
+    display_name: "梦魇镐"
+    lore:
+      - "&7镐力: 130"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/nightmare_pickaxe
+  orichalcum_pickaxe:
+    display_name: "山铜镐"
+    lore:
+      - "&7镐力: 170"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/orichalcum_pickaxe
+  palladium_pickaxe:
+    display_name: "钯金镐"
+    lore:
+      - "&7镐力: 160"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/palladium_pickaxe
+  pickaxe_axe:
+    display_name: "镐斧"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/pickaxe_axe
+  picksaw:
+    display_name: "锯镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/picksaw
+  platinum_pickaxe:
+    display_name: "铂金镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/platinum_pickaxe
+  silver_pickaxe:
+    display_name: "银镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/silver_pickaxe
+  solar_flare_pickaxe:
+    display_name: "日耀镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/solar_flare_pickaxe
+  spectre_pickaxe:
+    display_name: "幽灵镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/spectre_pickaxe
+  stardust_pickaxe:
+    display_name: "星尘镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/stardust_pickaxe
+  tin_pickaxe:
+    display_name: "锡镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/tin_pickaxe
+  titanium_pickaxe:
+    display_name: "钛金镐"
+    lore:
+      - "&7镐力: 200"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/titanium_pickaxe
+  tungsten_pickaxe:
+    display_name: "钨金镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/tungsten_pickaxe
+  vortex_pickaxe:
+    display_name: "星璇镐"
+    resource:
+      material: netherite_pickaxe
+      generate: false
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_1:
+    display_name: "镐力110"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_2:
+    display_name: "镐力120"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_3:
+    display_name: "镐力130"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_4:
+    display_name: "镐力140"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_5:
+    display_name: "镐力150"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_6:
+    display_name: "镐力160"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_7:
+    display_name: "镐力170"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_8:
+    display_name: "镐力180"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_9:
+    display_name: "镐力190"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_10:
+    display_name: "镐力200"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_11:
+    display_name: "镐力210"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_12:
+    display_name: "镐力220"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_13:
+    display_name: "镐力230"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_14:
+    display_name: "镐力240"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe
+  pickaxe_level_15:
+    display_name: "镐力250"
+    lore:
+      - "&7泛指所有该镐力的镐子"
+      - "&7同等镐力镐子皆可合成"
+    resource:
+      material: netherite_pickaxe
+      model_path: pickaxe/vortex_pickaxe

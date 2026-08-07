@@ -1,0 +1,185 @@
+info:
+  namespace: mctown
+items:
+  archer_bow_spirit_1:
+    display_name: archer_bow_spirit_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22920
+      model_path: block/archer/archer_bow_spirit_1
+  archer_bow_spirit_2:
+    display_name: archer_bow_spirit_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22921
+      model_path: block/archer/archer_bow_spirit_2
+  archer_bow_spirit_3:
+    display_name: archer_bow_spirit_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22922
+      model_path: block/archer/archer_bow_spirit_3
+  archer_bow_spirit_4:
+    display_name: archer_bow_spirit_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22923
+      model_path: block/archer/archer_bow_spirit_4
+  archer_bow_spirit_dragon_1:
+    display_name: archer_bow_spirit_dragon_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22924
+      model_path: block/archer/archer_bow_spirit_dragon_1
+  archer_bow_spirit_dragon_2:
+    display_name: archer_bow_spirit_dragon_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22925
+      model_path: block/archer/archer_bow_spirit_dragon_2
+  archer_bow_spirit_dragon_3:
+    display_name: archer_bow_spirit_dragon_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22926
+      model_path: block/archer/archer_bow_spirit_dragon_3
+  archer_bow_spirit_dragon_4:
+    display_name: archer_bow_spirit_dragon_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22927
+      model_path: block/archer/archer_bow_spirit_dragon_4
+  backstep_1:
+    display_name: backstep_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22928
+      model_path: block/archer/backstep_1
+  backstep_2:
+    display_name: backstep_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22929
+      model_path: block/archer/backstep_2
+  backstep_3:
+    display_name: backstep_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22930
+      model_path: block/archer/backstep_3
+  backstep_4:
+    display_name: backstep_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22931
+      model_path: block/archer/backstep_4
+  backstep_5:
+    display_name: backstep_5
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22932
+      model_path: block/archer/backstep_5
+  dragon_arrow:
+    display_name: dragon_arrow
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22933
+      model_path: block/archer/dragon_arrow
+  dragon_spirit_1:
+    display_name: dragon_spirit_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22934
+      model_path: block/archer/dragon_spirit_1
+  dragon_spirit_2:
+    display_name: dragon_spirit_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22935
+      model_path: block/archer/dragon_spirit_2
+  dragon_spirit_3:
+    display_name: dragon_spirit_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22936
+      model_path: block/archer/dragon_spirit_3
+  dragon_spirit_4:
+    display_name: dragon_spirit_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22937
+      model_path: block/archer/dragon_spirit_4
+  dragon_spirit_open:
+    display_name: dragon_spirit_open
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22938
+      model_path: block/archer/dragon_spirit_open
+  hunters_focus_1:
+    display_name: hunters_focus_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22939
+      model_path: block/archer/hunters_focus_1
+  hunters_focus_2:
+    display_name: hunters_focus_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22940
+      model_path: block/archer/hunters_focus_2
+  hunters_focus_3:
+    display_name: hunters_focus_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22941
+      model_path: block/archer/hunters_focus_3
+  javelin:
+    display_name: javelin
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22942
+      model_path: block/archer/javelin
+  quick_shot:
+    display_name: quick_shot
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22943
+      model_path: block/archer/quick_shot
+  archer_bow:
+    display_name: archer_bow
+    resource:
+      material: iron_sword
+      generate: false
+      model_id: 22719
+      model_path: block/archer/archer_bow
+  archer_bow_shiny:
+    display_name: archer_bow_shiny
+    resource:
+      material: iron_sword
+      generate: false
+      model_id: 22720
+      model_path: block/archer/archer_bow_shiny

@@ -1,0 +1,28 @@
+basic:
+  id: splash
+  name: 水花
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 在落地处造成溅射伤害
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:wisdom
+variables:
+  leveled:
+    range: :{level}
+    damage-splash: :{level}

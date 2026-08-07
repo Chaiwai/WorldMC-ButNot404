@@ -1,0 +1,350 @@
+info:
+  namespace: mctown
+categories:
+  mctownicons:
+    enabled: true
+    icon: "mctown:gear"
+    name: '&x&c&f&c&b&c&2图标'
+    permission: "ia.menu.mctown.icons"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:arrow_down2
+      - mctown:arrow_left2
+      - mctown:arrow_right
+      - mctown:arrow_right2
+      - mctown:arrow_up
+      - mctown:arrow_up2
+      - mctown:boxed_arrow_down
+      - mctown:boxed_arrow_left
+      - mctown:boxed_arrow_right
+      - mctown:boxed_arrow_up
+      - mctown:curved_arrow_left
+      - mctown:curved_arrow_right
+      - mctown:equals
+      - mctown:exclamation
+      - mctown:gear
+      - mctown:gray_boxed_arrow_down
+      - mctown:gray_boxed_arrow_left
+      - mctown:gray_boxed_arrow_right
+      - mctown:gray_boxed_arrow_up
+      - mctown:gray_curved_arrow_left
+      - mctown:gray_curved_arrow_right
+      - mctown:list
+      - mctown:minus
+      - mctown:pause
+      - mctown:plus
+      - mctown:scroll_bottom
+      - mctown:scroll_bottom2
+      - mctown:scroll_left
+      - mctown:scroll_left2
+      - mctown:scroll_middle
+      - mctown:scroll_middle2
+      - mctown:scroll_middle3
+      - mctown:scroll_middle4
+      - mctown:scroll_right
+      - mctown:scroll_right2
+      - mctown:scroll_top
+      - mctown:scroll_top2
+      - mctown:volume_0
+      - mctown:volume_1
+      - mctown:volume_2
+      - mctown:volume_3
+      - mctown:wrench
+items:
+  arrow_down2:
+    display_name: arrow_down2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_down2.png
+  arrow_left2:
+    display_name: arrow_left2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_left2.png
+  arrow_right:
+    display_name: arrow_right
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_right.png
+  arrow_right2:
+    display_name: arrow_right2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_right2.png
+  arrow_up:
+    display_name: arrow_up
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_up.png   
+  arrow_up2:
+    display_name: arrow_up2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/arrow_up2.png  
+  boxed_arrow_down:
+    display_name: boxed_arrow_down
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/boxed_arrow_down.png  
+  boxed_arrow_left:
+    display_name: boxed_arrow_left
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/boxed_arrow_left.png  
+  boxed_arrow_right:
+    display_name: boxed_arrow_right
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/boxed_arrow_right.png 
+  boxed_arrow_up:
+    display_name: boxed_arrow_up
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/boxed_arrow_up.png
+  curved_arrow_left:
+    display_name: curved_arrow_left
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/curved_arrow_left.png
+  curved_arrow_right:
+    display_name: curved_arrow_right
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/curved_arrow_right.png
+  equals:
+    display_name: equals
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/equals.png
+  exclamation:
+    display_name: exclamation
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/exclamation.png
+  gear:
+    display_name: gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/gear.png
+  gray_boxed_arrow_down:
+    display_name: gray_boxed_arrow_down
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/gray_boxed_arrow_down.png
+  gray_boxed_arrow_left:
+    display_name: gray_boxed_arrow_left
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/gray_boxed_arrow_left.png
+  gray_boxed_arrow_right:
+    display_name: gray_boxed_arrow_right
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/gray_boxed_arrow_right.png
+  gray_boxed_arrow_up:
+    display_name: gray_boxed_arrow_up
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/gray_boxed_arrow_up.png
+  gray_curved_arrow_left:
+    display_name: gray_curved_arrow_left
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/gray_curved_arrow_left.png
+  gray_curved_arrow_right:
+    display_name: gray_curved_arrow_right
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/gray_curved_arrow_right.png
+  list:
+    display_name: list
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/list.png
+  minus:
+    display_name: minus
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/minus.png
+  pause:
+    display_name: pause
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/pause.png
+  plus:
+    display_name: plus
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/plus.png
+  scroll_bottom:
+    display_name: scroll_bottom
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_bottom.png
+  scroll_bottom2:
+    display_name: scroll_bottom2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_bottom2.png
+  scroll_left:
+    display_name: scroll_left
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_left
+  scroll_left2:
+    display_name: scroll_left2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_left2
+  scroll_middle:
+    display_name: scroll_middle
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_middle
+  scroll_middle2:
+    display_name: scroll_middle2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_middle2
+  scroll_middle3:
+    display_name: scroll_middle3
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_middle3
+  scroll_middle4:
+    display_name: scroll_middle4
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_middle4
+  scroll_right:
+    display_name: scroll_right
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_right
+  scroll_right2:
+    display_name: scroll_right2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_right2
+  scroll_top:
+    display_name: scroll_top
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_top
+  scroll_top2:
+    display_name: scroll_top2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/scroll_top2
+  volume_0:
+    display_name: volume_0
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/volume_0
+  volume_1:
+    display_name: volume_1
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/volume_1
+  volume_2:
+    display_name: volume_2
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/volume_2
+  volume_3:
+    display_name: volume_3
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/volume_3
+  wrench:
+    display_name: wrench
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - icons/wrench

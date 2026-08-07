@@ -1,0 +1,28 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_blocks
+categories:
+  ore:
+    enabled: true
+    icon: cw_blocks:adamantite
+    name: 矿石
+    items:
+    - cw_blocks:adamantite
+    - cw_blocks:aquamarine
+    - cw_blocks:chlorophyte
+    - cw_blocks:cobalt
+    - cw_blocks:crimtane
+    - cw_blocks:demonite
+    - cw_blocks:enderite
+    - cw_blocks:gem
+    - cw_blocks:hellstone
+    - cw_blocks:luminite
+    - cw_blocks:meteorite
+    - cw_blocks:mythril
+    - cw_blocks:niter
+    - cw_blocks:orichalcum
+    - cw_blocks:palladium
+    - cw_blocks:platinum
+    - cw_blocks:silver
+    - cw_blocks:titanium
+    - cw_blocks:tungsten

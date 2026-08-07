@@ -1,0 +1,110 @@
+info:
+  namespace: customcrops
+items:
+#lettuce_seed
+  lettuce_seeds:
+    display_name: '莴苣种子'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - lettuce/lettuce_seeds
+#lettuce
+  lettuce_1star:
+    enabled: true
+    display_name: '莴苣'
+    resource:
+      generate: false
+      material: BAKED_POTATO
+      model_path: lettuce/lettuce
+    events:
+      eat:
+        feed:
+          amount: 2
+  lettuce_2star:
+    enabled: true
+    display_name: '莴苣'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - lettuce/lettuce_silver
+    events:
+      eat:
+        feed:
+          amount: 2
+  lettuce_3star:
+    enabled: true
+    display_name: '莴苣'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - lettuce/lettuce_gold
+    events:
+      eat:
+        feed:
+          amount: 2
+
+#lettuce_stage
+  lettuce_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lettuce/lettuce_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lettuce_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lettuce/lettuce_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lettuce_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lettuce/lettuce_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+categories:
+  customcrops_lettuce:
+    enabled: true
+    icon: lettuce_1star
+    name: '莴苣农作物'
+    items:
+      - customcrops:lettuce_seeds
+      - customcrops:lettuce_1star
+      - customcrops:lettuce_2star
+      - customcrops:lettuce_3star
+      - customcrops:lettuce_stage_1
+      - customcrops:lettuce_stage_2
+      - customcrops:lettuce_stage_3

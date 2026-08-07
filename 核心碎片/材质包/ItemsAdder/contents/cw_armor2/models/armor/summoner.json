@@ -1,0 +1,9 @@
+{
+    "credit": "Made with Blockbench",
+    "textures": {
+        "0": "cw_armor2:armor/summoner/layer_1",
+        "particle": "cw_armor2:armor/summoner/layer_1"
+    },
+    "elements": [],
+    "display": {}
+}

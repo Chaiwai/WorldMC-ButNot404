@@ -1,0 +1,228 @@
+fs:
+  kill_hand:
+    # actions:
+    #   - "tell: &f111111"
+  # beclicked:
+  #   actions:
+  #     - "tell: &f111111"
+  damaged_offhand:
+    consume:
+      condition: |-
+        "getAttackerMobId() != null"
+        print("伤害类型: " + event.getCause().name())
+        print("伤害值: " + event.getFinalDamage())
+        print(player.getLocation().getBlock().getType().name())
+        print("主手物品: " + player.getInventory().getItemInMainHand().getType().name())
+        print("水平角度(Yaw): " + player.getLocation().getYaw())
+        print("垂直角度(Pitch): " + player.getLocation().getPitch())
+        true
+      amount: 0
+    actions:
+      - "tell: &f111111"
+      # - "js: player.setVelocity(player.getVelocity().setY(1.0))"
+Nail:
+  damage:
+    cooldown: 410
+    consume:
+      condition: |-
+        player.sendMessage("[80]Pitch: " + player.getLocation().getPitch())
+        player.getLocation().getPitch()>=80
+      amount: 0
+    actions:
+      - "tell: &f111111"
+      - "js: player.setVelocity(player.getVelocity().setY(0.7))"
+  # left:
+  #   cooldown: 1
+  #   actions:
+  #     - "tell: 名单<nbt::kill_list>"
+  #     - "tell: 数量<nbt::kill_count>"
+  kill_hand:
+    actions:
+      - "js: player.sendMessage(itemStack.getItemMeta().getDisplayName())"
+fool_pickaxe:
+  material: DIAMOND_PICKAXE
+  name: "&6随机变化镐"
+  lore:
+    - "&7挖掘金矿石时将其变为随机方块"
+    - "&e50%概率触发"
+
+  break_block:
+    cooldown: 1
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          if (event && event.getBlock) {
+            var blockType = event.getBlock().type.name();
+            // 精确检测所有矿物（使用正确的方块ID）
+            if (blockType == "GOLD_ORE" || 
+                blockType == "DEEPSLATE_GOLD_ORE" ||
+                blockType == "IRON_ORE" || 
+                blockType == "DEEPSLATE_IRON_ORE" ||
+                blockType == "DIAMOND_ORE" || 
+                blockType == "DEEPSLATE_DIAMOND_ORE" ||
+                blockType == "EMERALD_ORE" || 
+                blockType == "DEEPSLATE_EMERALD_ORE" ||
+                blockType == "COPPER_ORE" || 
+                blockType == "DEEPSLATE_COPPER_ORE" ||
+                blockType == "COAL_ORE" || 
+                blockType == "DEEPSLATE_COAL_ORE" ||
+                blockType == "LAPIS_ORE" || 
+                blockType == "DEEPSLATE_LAPIS_ORE" ||
+                blockType == "REDSTONE_ORE" || 
+                blockType == "DEEPSLATE_REDSTONE_ORE" ||
+                blockType == "NETHER_GOLD_ORE" ||
+                blockType == "NETHER_QUARTZ_ORE" ||
+                blockType == "ANCIENT_DEBRIS") {
+              // 50%概率检测
+              if (Math.random() < 0.01*parseFloat(parseItem("<papi::playercurrency_luck>"))) {
+                global.blockX = event.getBlock().x;
+                global.blockY = event.getBlock().y;
+                global.blockZ = event.getBlock().z;
+                return true;
+              }
+            }
+          }
+          return false;
+        })()
+      deny:
+        # - "tell: <#99ffff>这次没有触发效果！"
+    actions:
+      - "sound: entity.experience_orb.pickup 1 1"
+      - "console: setblock <blockX> <blockY> <blockZ> <strings::gold\\_ore_iron\\_ore_diamond\\_ore_emerald\\_ore_copper\\_ore_coal\\_ore_lapis\\_ore_redstone\\_ore_deepslate\\_gold\\_ore_deepslate\\_iron\\_ore_deepslate\\_diamond\\_ore_deepslate\\_emerald\\_ore_deepslate\\_copper\\_ore_deepslate\\_coal\\_ore_deepslate\\_lapis\\_ore_deepslate\\_redstone\\_ore_nether\\_gold\\_ore_nether\\_quartz\\_ore_ancient\\_debris>"
+
+      - "actionbar: <#66ff66>意外之喜&7[<#ffff66>当前LUCK:%playercurrency_luck%&7]"
+charge_damage_test:
+  left:
+    cooldown: 0
+    consume:
+      amount: 0
+      condition: |-
+        (function() {
+          // 检查是否点击了方块
+          if (event.getClickedBlock() == null) {
+            tell(':fuhao1: §x§f§f§6§6§6§6请点击一个方块！');
+            return false;
+          }
+          
+          var clickedBlock = event.getClickedBlock();
+          var blockType = clickedBlock.getType().name();
+          
+          // 检查耐久是否大于10
+          var item = mainHandItem();
+          var currentDamage = item.getDurability();
+          var maxDurability = item.getType().getMaxDurability();
+          var currentDurability = maxDurability - currentDamage;
+          
+          if (currentDurability > 10) {
+            // 玻璃转换逻辑
+            var nextType = null;
+            
+            switch(blockType) {
+              case "GLASS":
+                nextType = Material.WHITE_STAINED_GLASS;
+                break;
+              case "WHITE_STAINED_GLASS":
+                nextType = Material.ORANGE_STAINED_GLASS;
+                break;
+              case "ORANGE_STAINED_GLASS":
+                nextType = Material.MAGENTA_STAINED_GLASS;
+                break;
+              case "MAGENTA_STAINED_GLASS":
+                nextType = Material.LIGHT_BLUE_STAINED_GLASS;
+                break;
+              case "LIGHT_BLUE_STAINED_GLASS":
+                nextType = Material.YELLOW_STAINED_GLASS;
+                break;
+              case "YELLOW_STAINED_GLASS":
+                nextType = Material.LIME_STAINED_GLASS;
+                break;
+              case "LIME_STAINED_GLASS":
+                nextType = Material.PINK_STAINED_GLASS;
+                break;
+              case "PINK_STAINED_GLASS":
+                nextType = Material.GRAY_STAINED_GLASS;
+                break;
+              case "GRAY_STAINED_GLASS":
+                nextType = Material.LIGHT_GRAY_STAINED_GLASS;
+                break;
+              case "LIGHT_GRAY_STAINED_GLASS":
+                nextType = Material.CYAN_STAINED_GLASS;
+                break;
+              case "CYAN_STAINED_GLASS":
+                nextType = Material.PURPLE_STAINED_GLASS;
+                break;
+              case "PURPLE_STAINED_GLASS":
+                nextType = Material.BLUE_STAINED_GLASS;
+                break;
+              case "BLUE_STAINED_GLASS":
+                nextType = Material.BROWN_STAINED_GLASS;
+                break;
+              case "BROWN_STAINED_GLASS":
+                nextType = Material.GREEN_STAINED_GLASS;
+                break;
+              case "GREEN_STAINED_GLASS":
+                nextType = Material.RED_STAINED_GLASS;
+                break;
+              case "RED_STAINED_GLASS":
+                nextType = Material.BLACK_STAINED_GLASS;
+                break;
+              case "BLACK_STAINED_GLASS":
+                nextType = Material.TINTED_GLASS;
+                break;
+              case "TINTED_GLASS":
+                nextType = Material.GLASS;
+                break;
+              default:
+                // 无效方块
+                tell(':fuhao1: §x§f§f§6§6§6§6无效方块！只能对玻璃方块使用');
+                return false;
+            }
+            
+            if (nextType) {
+              // 转换方块
+              clickedBlock.setType(nextType);
+              print('将' + blockType + '转换为' + nextType.name());
+              
+              // 扣除10耐久
+              item.setDurability(Math.min(maxDurability, currentDamage + 10));
+              print('消耗10能量，执行技能');
+              return true;
+            }
+          } else {
+            tell(':fuhao1: §x§f§f§6§6§6§6能量不足！需要10点能量');
+            return false;
+          }
+        })()
+    actions:
+      - "sound: entity.experience_orb.pickup 1 1"
+      - "actionbar: <#99ff99>玻璃颜色转换成功！消耗10能量"
+      # - "js: print(player.getInventory().getItemInOffHand().getDamage())"
+      # - "js: print(offHandItem().getType().getMaxDurability())"
+  damaged_offhand:
+    cooldown: 0
+    consume:
+      condition: |-
+        (function() {
+          print("====================================")
+          print("伤害类型: " + event.getCause().name())
+          print("伤害值: " + event.getFinalDamage())
+          print("当前位置方块: " + player.getLocation().getBlock().getType().name())
+          print("主手物品: " + player.getInventory().getItemInMainHand().getType().name())
+          print("水平角度(Yaw): " + player.getLocation().getYaw())
+          print("垂直角度(Pitch): " + player.getLocation().getPitch())
+          print("====================================")
+          
+          if (event.getCause().name() == "LAVA" && 
+              event.getFinalDamage() >= 0.01 && event.getFinalDamage() <= 100 &&
+              player.getLocation().getBlock().getType().name() == "LAVA_CAULDRON" &&
+              player.getInventory().getItemInMainHand().getType().name() == "GLASS_BOTTLE" &&
+              player.getLocation().getYaw() >= -180 && player.getLocation().getYaw() <= 180 &&
+              player.getLocation().getPitch() >= -90 && player.getLocation().getPitch() <= 90) {
+            return true;
+          }
+          return false;
+        })()
+      amount: 0
+    actions:
+      - "takeDamage: 1"

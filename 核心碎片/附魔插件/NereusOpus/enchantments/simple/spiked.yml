@@ -1,0 +1,27 @@
+basic:
+  id: spiked
+  name: 扎刺
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 对被钩上的生物造成伤害
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- rod
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:harpoon
+variables:
+  leveled:
+    damage: :{level}

@@ -1,0 +1,206 @@
+title: ":offset_-9::cw_menu6:"
+rows: 6
+
+layout: |-
+  #########
+  #aaaaaaa#
+  #bbbbbbb#
+  #ccccccc#
+  #ddddddd#
+  #eeeeeee#
+
+events:
+  pre_open: sound entity_item_pickup by 1 0
+  close: sound entity_item_pickup by 1 1
+
+items:
+  "#":
+    texture:
+      source: ni
+      value: air
+  "a":
+    ia: air
+    name: "&r&f%img_404_vip0%"
+    lore: "&r&f12800%img_point% &7/ &f30%img_point_pro%"
+  "b":
+    ia: air
+    name: "&r&f%img_404_vip1%"
+    lore: "&r&f32800%img_point% &7/ &f128%img_point_pro%"
+  "c":
+    ia: air
+    name: "&r&f%img_404_vip2%"
+    lore: "&r&f64800%img_point% &7/ &f298%img_point_pro%"
+  "d":
+    ia: air
+    name: "&r&f%img_404_vip3%"
+    lore: "&r&f88800%img_point% &7/ &f328%img_point_pro%"
+  "e":
+    ia: air
+    name: "&r&f%img_404_vip4%"
+    lore: "&r&f128000%img_point% &7/ &f648%img_point_pro%"
+  # "a":
+  #   ia: air
+  #   name: "      &f%img_404_vip0% &x&c&f&c&b&c&2&l永久 &7( &12800 &f%img_point% &7)"
+  #   lore: |-
+  #     &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #     &r
+  #     &r &x&c&f&c&b&c&2&l享受待遇:
+  #     &r
+  #     &r    &x&c&f&c&b&c&2随身工作台 &7(&a/craft&7)
+  #     &r    &x&c&f&c&b&c&2随身末影箱 &7(&a/ec&7)
+  #     &r    &x&c&f&c&b&c&2随身铁砧 &7(&a/anvil&7)
+  #     &r    &x&c&f&c&b&c&2随身帽子 &7(&a/hat&7)
+  #     &r    &x&c&f&c&b&c&2每日礼包888金币
+  #     &r    &x&c&f&c&b&c&2home数量:10
+  #     &r    &x&c&f&c&b&c&2专属头衔
+  #     &r
+  #     &r      &f▸   &f%img_shift% &x&c&f&c&b&c&2&l+ &f%img_right_click% &x&c&f&c&b&c&2&l进行购买   &f◂
+  #     &r
+  #     &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #     &r
+  #   action:
+  #   all: #权限判定
+  #     - check papi "%playerpoints_points%" >= "12800"
+  #   then: |- #满足执行
+  #     menu close
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2恭喜玩家 &a%player_name% &x&c&f&c&b&c&2获得新称号 &f%img_mvp_1% %img_pro%"
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2更换显示称号成功."
+  #     command "points take %player_name% 32800" as console
+  #     command "lp user %player_name% parent add pro" as console
+  #     command "plt card create 12 0 1" as op
+  #     command "ecrates key give %player_name% k1 100" as op
+  #     command "ecrates key give %player_name% k2 10" as op
+  #     command "ecrates key give %player_name% k3 5" as op
+  #     sound ENTITY_ARROW_HIT
+  #   else: |- #不满足执行
+  #     menu close
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2操作中断，原因：您的水晶不足."
+
+  # "b":
+  #   material: paper
+  #   customModelData: 10049
+  #   name: "      &f%img_vipplus_1% %img_vipplus% &x&c&f&c&b&c&2&l1日&c(不可叠加) &7( &f8888 &f%img_mnoney% &7)"
+  #   lore: |-
+  #     &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #     &r
+  #     &r &x&c&f&c&b&c&2&l享受待遇:
+  #     &r
+  #     &r    &x&c&f&c&b&c&2随身飞行 &7(&a/fly&7)
+  #     &r    &x&c&f&c&b&c&c仅生存区可用!!!!
+  #     &r    &x&c&f&c&b&c&2该档位仅用于金币购买飞行权限(永久飞行请购买pro)
+  #     &r
+  #     &r      &f▸   &f%img_shift% &x&c&f&c&b&c&2&l+ &f%img_right_click% &x&c&f&c&b&c&2&l进行购买   &f◂
+  #     &r
+  #     &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #     &r
+  #   action:
+  #     all: #权限判定
+  #       - check papi "%vault_eco_balance_fixed%" >= "8888"
+  #     then: |- #满足执行
+  #       menu close
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2兑换成功."
+  #       command "money take %player_name% 8888" as console
+  #       command "lp user %player_name% parent addtemp vip++ 1d" as console
+  #       sound ENTITY_ARROW_HIT
+  #     else: |- #不满足执行
+  #       menu close
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2操作中断，原因：您的金币不足."
+
+  # "c":
+  #   material: paper
+  #   customModelData: 10049
+  #   name: "      &f%img_mvp_1% %img_pro% &x&c&f&c&b&c&2&l永久 &7( &f32800 &f%img_points_icon% &7)"
+  #   lore: |-
+  #     &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #     &r
+  #     &r &x&c&f&c&b&c&2&l享受待遇:
+  #     &r
+  #     &r    &x&c&f&c&b&c&2vip的所有权限
+  #     &r    &x&c&f&c&b&c&2新增了一些随身工作方块(具体/cmi [tab]查看)
+  #     &r    &x&c&f&c&b&c&2随身飞行 &7(&a/fly&7)
+  #     &r    &x&c&f&c&b&c&c仅生存区可用!!!!
+  #     &r    &x&c&f&c&b&c&2附魔概率*1.2
+  #     &r    &x&c&f&c&b&c&2home数量:100
+  #     &r    &x&c&f&c&b&c&2圈地数量:10
+  #     &r    &x&c&f&c&b&c&2圈地价格:0.01
+  #     &r    &x&c&f&c&b&c&2传送无吟唱
+  #     &r    &x&c&f&c&b&c&2每日礼包100金币
+  #     &r    &x&c&f&c&b&c&2专属头衔
+  #     &r    &x&c&f&c&b&c&2鎏钻宝箱钥匙*100
+  #     &r    &x&c&f&c&b&c&2黑曜宝箱钥匙*10
+  #     &r    &x&c&f&c&b&c&2猩红宝箱钥匙*5
+  #     &r
+  #     &r      &f▸   &f%img_shift% &x&c&f&c&b&c&2&l+ &f%img_right_click% &x&c&f&c&b&c&2&l进行购买   &f◂
+  #     &r
+  #     &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #     &r
+  #   action:
+  #     all: #权限判定
+  #       - check papi "%playerpoints_points%" >= "32800"
+  #     then: |- #满足执行
+  #       menu close
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2恭喜玩家 &a%player_name% &x&c&f&c&b&c&2获得新称号 &f%img_mvp_1% %img_pro%"
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2更换显示称号成功."
+  #       command "points take %player_name% 32800" as console
+  #       command "lp user %player_name% parent add pro" as console
+  #       command "plt card create 12 0 1" as op
+  #       command "ecrates key give %player_name% k1 100" as op
+  #       command "ecrates key give %player_name% k2 10" as op
+  #       command "ecrates key give %player_name% k3 5" as op
+  #       command "lp user %player_name% permission set huskhomes.max_homes.100" as console
+  #     else: |- #不满足执行
+  #       menu close
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #       msg "&f:fuhao1: &x&c&f&c&b&c&2操作中断，原因：您的水晶不足."
+
+  # "c":
+  # material: paper
+  # customModelData: 10049
+  # name: "      &f%img_mvp_1% %img_pro% &x&c&f&c&b&c&2&l永久 &7( &f32800 &f%img_points% &7)"
+  # lore: |-
+  #   &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #   &r
+  #   &r &x&c&f&c&b&c&2&l享受待遇:
+  #   &r
+  #   &r    &x&c&f&c&b&c&2vip的所有权限
+  #   &r    &x&c&f&c&b&c&2新增了一些随身工作方块(具体/cmi [tab]查看)
+  #   &r    &x&c&f&c&b&c&2随身飞行 &7(&a/fly&7)
+  #   &r    &x&c&f&c&b&c&c仅生存区可用!!!!
+  #   &r    &x&c&f&c&b&c&2附魔概率*1.2
+  #   &r    &x&c&f&c&b&c&2home数量:100
+  #   &r    &x&c&f&c&b&c&2圈地数量:10
+  #   &r    &x&c&f&c&b&c&2圈地价格:0.01
+  #   &r    &x&c&f&c&b&c&2传送无吟唱
+  #   &r    &x&c&f&c&b&c&2每日礼包100金币
+  #   &r    &x&c&f&c&b&c&2专属头衔
+  #   &r    &x&c&f&c&b&c&2鎏钻宝箱钥匙*100
+  #   &r    &x&c&f&c&b&c&2黑曜宝箱钥匙*10
+  #   &r    &x&c&f&c&b&c&2猩红宝箱钥匙*5
+  #   &r      &f▸   &f%img_shift% &x&c&f&c&b&c&2&l+ &f%img_right_click% &x&c&f&c&b&c&2&l进行购买   &f◂
+  #   &r
+  #   &r&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━
+  #   &r
+  # action:
+  #   all: #权限判定
+  #     - check papi "%playerpoints_points%" >= "32800"
+  #   then: |- #满足执行
+  #     menu close
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2恭喜玩家 &a%player_name% &x&c&f&c&b&c&2获得新称号 &f%img_mvp_1% %img_pro%"
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2更换显示称号成功."
+  #     command "points take %player_name% 32800" as console
+  #     command "lp user %player_name% parent add pro" as console
+  #     command "plt card create 12 0 1" as op
+  #     command "ecrates key give %player_name% k1 100" as op
+  #     command "ecrates key give %player_name% k2 10" as op
+  #     command "ecrates key give %player_name% k3 5" as op
+  #     sound ENTITY_ARROW_HIT
+  #   else: |- #不满足执行
+  #     menu close
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2请稍后，正在为您处理..."
+  #     msg "&f:fuhao1: &x&c&f&c&b&c&2操作中断，原因：您的水晶不足."

@@ -1,0 +1,31 @@
+basic:
+  id: frozen
+  name: 寒气
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 受到伤害时有概率使攻击者获得减速效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :3*{level}
+    duration: :20*{level}
+    amplifier: :{level}

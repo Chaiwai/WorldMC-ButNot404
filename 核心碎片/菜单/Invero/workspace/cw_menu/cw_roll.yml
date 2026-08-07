@@ -1,0 +1,52 @@
+title: "Scroll Foods~"
+
+# bindings:
+#   command: foods
+
+layout: |-
+  #########
+  #       #
+  <#######>
+box: &box
+  ia: cw_made_items_cw_made_items_box17
+box1: &box1
+  ia: cw_made_items_cw_made_items_box16
+
+items:
+  ">":
+    material: arrow
+    name: "&a下一项"
+    action: scroll right
+  "<":
+    material: arrow
+    name: "&a上一项"
+    action: scroll left
+
+scroll:
+  direction: horizontal
+  tail: -1
+  colums:
+    - <<: *box
+      name: "aaa"
+    - <<: *box
+      name: "bbb"
+    - <<: *box1
+      name: "ccc"
+    - <<: *box
+      name: "aaa"
+    - <<: *box1
+      name: "bbb"
+    - <<: *box
+      name: "ccc"
+    - <<: *box
+      name: "aaa"
+    - <<: *box1
+      name: "bbb"
+    - <<: *box
+      name: "ccc"
+    - <<: *box
+      name: "aaa"
+    - <<: *box
+      name: "bbb"
+    - <<: *box1
+      name: "ccc"

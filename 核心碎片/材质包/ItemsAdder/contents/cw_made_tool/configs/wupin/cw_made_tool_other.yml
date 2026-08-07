@@ -1,0 +1,386 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_made_tool
+items:
+  enderite0_axe:
+    display_name: "末影合金斧"
+    resource:
+      material: diamond_axe
+      generate: true
+      textures:
+        - other/minecraft/diamond/axe/enderite0_axe.png
+  enderite_axe:
+    display_name: "变异末影合金斧"
+    resource:
+      material: diamond_axe
+      generate: true
+      textures:
+        - other/minecraft/diamond/axe/enderite_axe.png
+  enderite_hoe:
+    display_name: "变异末影合金锄"
+    resource:
+      material: diamond_hoe
+      generate: true
+      textures:
+        - other/minecraft/diamond/hoe/enderite_hoe.png
+  warden_hoe:
+    display_name: "循声锄"
+    resource:
+      material: diamond_hoe
+      generate: true
+      textures:
+        - other/minecraft/diamond/hoe/warden_hoe.png
+  enderite0_pickaxe:
+    display_name: "末影合金镐"
+    lore:
+      - "&7镐力: 110"
+    resource:
+      material: diamond_pickaxe
+      generate: true
+      textures:
+        - other/minecraft/diamond/pickaxe/enderite0_pickaxe.png
+  enderite_pickaxe:
+    display_name: "变异末影合金镐"
+    lore:
+      - "&7镐力: 120"
+    resource:
+      material: diamond_pickaxe
+      generate: true
+      textures:
+        - other/minecraft/diamond/pickaxe/enderite_pickaxe.png
+  enderite_shovel:
+    display_name: "末影合金锹"
+    resource:
+      material: diamond_shovel
+      generate: true
+      textures:
+        - other/minecraft/diamond/shovel/enderite_shovel.png
+  warden_shovel:
+    display_name: "循声锹"
+    resource:
+      material: diamond_shovel
+      generate: true
+      textures:
+        - other/minecraft/diamond/shovel/warden_shovel.png
+  dingzhi_we_hua:
+    display_name: "定制威华"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/dingzhi_we_hua.png
+  dingzhi_we_hua2:
+    display_name: "定制威华2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/dingzhi_we_hua2.png
+  enderite0_sword:
+    display_name: "末影合金剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/enderite0_sword.png
+  enderite_sword:
+    display_name: "变异末影合金剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/enderite_sword.png
+  mctown_aspect_dragon:
+    display_name: "一周目特供_龙息之剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_aspect_dragon.png
+  mctown_aspect_sword:
+    display_name: "一周目特供_属性之剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_aspect_sword.png
+  mctown_aspect_sword_1:
+    display_name: "一周目特供_属性之剑_1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_aspect_sword_1.png
+  mctown_aspect_sword_2:
+    display_name: "一周目特供_属性之剑_2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_aspect_sword_2.png
+  mctown_aspect_void:
+    display_name: "一周目特供_虚空属性剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_aspect_void.png
+  mctown_aspect_void_1:
+    display_name: "一周目特供_虚空属性剑_1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_aspect_void_1.png
+  mctown_aspect_void_2:
+    display_name: "一周目特供_虚空属性剑_2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_aspect_void_2.png
+  mctown_astraea:
+    display_name: "一周目特供_阿斯特赖亚"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_astraea.png
+  mctown_astraea_1:
+    display_name: "一周目特供_阿斯特赖亚_1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_astraea_1.png
+  mctown_astraea_2:
+    display_name: "一周目特供_阿斯特赖亚_2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_astraea_2.png
+  mctown_hyperion:
+    display_name: "一周目特供_海柏利昂"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_hyperion.png
+  mctown_hyperion_1:
+    display_name: "一周目特供_海柏利昂_1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_hyperion_1.png
+  mctown_hyperion_2:
+    display_name: "一周目特供_海柏利昂_2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_hyperion_2.png
+  mctown_katana_tier_1:
+    display_name: "一周目特供_武士刀_1级"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_katana_tier_1.png
+  mctown_katana_tier_2:
+    display_name: "一周目特供_武士刀_2级"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_katana_tier_2.png
+  mctown_katana_tier_3:
+    display_name: "一周目特供_武士刀_3级"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_katana_tier_3.png
+  mctown_katana_tier_4:
+    display_name: "一周目特供_武士刀_4级"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_katana_tier_4.png
+  mctown_necromancer_sword:
+    display_name: "一周目特供_死灵法师剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_necromancer_sword.png
+  mctown_necromancer_sword_1:
+    display_name: "一周目特供_死灵法师剑_1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_necromancer_sword_1.png
+  mctown_necromancer_sword_2:
+    display_name: "一周目特供_死灵法师剑_2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_necromancer_sword_2.png
+  mctown_prismarine_blade:
+    display_name: "一周目特供_海晶石刃"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_prismarine_blade.png
+  mctown_scorpion_foil:
+    display_name: "一周目特供_蝎子箔剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_scorpion_foil.png
+  mctown_scylla:
+    display_name: "一周目特供_斯库拉"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_scylla.png
+  mctown_spirit_sword:
+    display_name: "一周目特供_灵魂之剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_spirit_sword.png
+  mctown_suit1_sword1:
+    display_name: "一周目特供_套装1_剑1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_suit1_sword1.png
+  mctown_suit1_sword2:
+    display_name: "一周目特供_套装1_剑2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_suit1_sword2.png
+  mctown_suit1_sword3:
+    display_name: "一周目特供_套装1_剑3"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_suit1_sword3.png
+  mctown_suit1_sword4:
+    display_name: "一周目特供_套装1_剑4"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_suit1_sword4.png
+  mctown_suit1_sword5:
+    display_name: "一周目特供_套装1_剑5"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_suit1_sword5.png
+  mctown_suit1_sword6:
+    display_name: "一周目特供_套装1_剑6"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_suit1_sword6.png
+  mctown_suit1_sword7:
+    display_name: "一周目特供_套装1_剑7"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_suit1_sword7.png
+  mctown_thick_scorpion_foil:
+    display_name: "一周目特供_厚重蝎子箔剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_thick_scorpion_foil.png
+  mctown_thick_tacticians_sword:
+    display_name: "一周目特供_厚重战术家剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_thick_tacticians_sword.png
+  mctown_valkyrie:
+    display_name: "一周目特供_女武神"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_valkyrie.png
+  mctown_vetala_sword_1:
+    display_name: "一周目特供_毗陀罗剑_1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_vetala_sword_1.png
+  mctown_vetala_sword_2:
+    display_name: "一周目特供_毗陀罗剑_2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_vetala_sword_2.png
+  mctown_vetala_sword_3:
+    display_name: "一周目特供_毗陀罗剑_3"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_vetala_sword_3.png
+  mctown_warped_aspect_sword:
+    display_name: "一周目特供_扭曲属性剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_warped_aspect_sword.png
+  mctown_wither_cloak_sword:
+    display_name: "一周目特供_凋零斗篷剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_wither_cloak_sword.png
+  mctown_wither_cloak_sword_1:
+    display_name: "一周目特供_凋零斗篷剑_1"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_wither_cloak_sword_1.png
+  mctown_wither_cloak_sword_2:
+    display_name: "一周目特供_凋零斗篷剑_2"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_wither_cloak_sword_2.png
+  mctown_yeti_sword:
+    display_name: "一周目特供_雪人剑"
+    resource:
+      material: diamond_sword
+      generate: true
+      textures:
+        - other/minecraft/diamond/sword/mctown_yeti_sword.png

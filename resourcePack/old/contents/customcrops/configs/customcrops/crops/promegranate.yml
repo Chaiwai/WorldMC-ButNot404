@@ -1,0 +1,146 @@
+info:
+  namespace: customcrops
+items:
+#promegranate_seed
+  promegranate_seeds:
+    display_name: '石榴种子'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - promegranate/promegranate_seeds
+#promegranate
+  promegranate_1star:
+    enabled: true
+    display_name: '石榴'
+    resource:
+      generate: false
+      material: BAKED_POTATO
+      model_path: promegranate/promegranate
+    events:
+      eat:
+        feed:
+          amount: 1
+  promegranate_2star:
+    enabled: true
+    display_name: '石榴'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - promegranate/promegranate_silver
+    events:
+      eat:
+        feed:
+          amount: 1
+  promegranate_3star:
+    enabled: true
+    display_name: '石榴'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - promegranate/promegranate_gold
+    events:
+      eat:
+        feed:
+          amount: 1
+
+#promegranate_stage
+  promegranate_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: promegranate/promegranate_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  promegranate_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: promegranate/promegranate_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  promegranate_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: promegranate/promegranate_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  promegranate_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: promegranate/promegranate_stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  promegranate_stage_5:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: promegranate/promegranate_stage_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+
+#promegranate_drop
+categories:
+  customcrops_promegranate:
+    enabled: true
+    icon: promegranate_1star
+    name: '石榴农作物'
+    items:
+      - customcrops:promegranate_seeds
+      - customcrops:promegranate_1star
+      - customcrops:promegranate_2star
+      - customcrops:promegranate_3star
+      - customcrops:promegranate_stage_1
+      - customcrops:promegranate_stage_2
+      - customcrops:promegranate_stage_3
+      - customcrops:promegranate_stage_4
+      - customcrops:promegranate_stage_5

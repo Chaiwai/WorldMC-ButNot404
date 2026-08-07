@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  warden:
+    type: armor
+    layer_1: armor/warden/layer_1
+    layer_2: armor/warden/layer_2
+items:
+  warden_boots:
+    name: warden_boots
+    resource:
+      generate: true
+      texture: items/warden/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:warden
+  warden_chestplate:
+    name: warden_chestplate
+    resource:
+      generate: true
+      texture: items/warden/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:warden
+  warden_helmet:
+    name: warden_helmet
+    resource:
+      generate: true
+      texture: items/warden/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:warden
+  warden_leggings:
+    name: warden_leggings
+    resource:
+      generate: true
+      texture: items/warden/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:warden

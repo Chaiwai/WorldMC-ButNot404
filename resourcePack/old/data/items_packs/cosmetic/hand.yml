@@ -1,0 +1,99 @@
+info:
+  namespace: cosmetic
+items:
+  mctown_easter_basket:
+    display_name: mctown_easter_basket
+    permission: mctown_easter_basket.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30300
+      model_path: hand/mctown_easter_basket
+  mctown_icecream:
+    display_name: mctown_icecream
+    permission: mctown_icecream.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30301
+      model_path: hand/mctown_icecream
+  mctown_megaphone:
+    display_name: mctown_megaphone
+    permission: mctown_megaphone.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30302
+      model_path: hand/mctown_megaphone
+  mctown_popsicle_blue:
+    display_name: mctown_popsicle_blue
+    permission: mctown_popsicle_blue.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30303
+      model_path: hand/mctown_popsicle_blue
+  mctown_summer_butterfly_net_blue:
+    display_name: mctown_summer_butterfly_net_blue
+    permission: mctown_summer_butterfly_net_blue.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30304
+      model_path: hand/mctown_summer_butterfly_net_blue
+  mctown_mecha_fist:
+    display_name: mctown_mecha_fist
+    permission: mctown_mecha_fist.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30305
+      model_path: hand/mctown_mecha_fist
+  mctown_mecha_sword:
+    display_name: mctown_mecha_sword
+    permission: mctown_mecha_sword.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30306
+      model_path: hand/mctown_mecha_sword
+  mctown_magic_book:
+    display_name: mctown_magic_book
+    permission: mctown_magic_book.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30307
+      model_path: hand/mctown_magic_book
+  mctown_royal_scepter:
+    display_name: mctown_royal_scepter
+    permission: mctown_royal_scepter.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30308
+      model_path: hand/mctown_royal_scepter
+  mctown_dog_rope:
+    display_name: mctown_dog_rope
+    permission: mctown_dog_rope.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30309
+      model_path: hand/mctown_dog_rope
+  mctown_dragon_claw:
+    display_name: mctown_dragon_claw
+    permission: mctown_dragon_claw.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30310
+      model_path: hand/mctown_dragon_claw
+  mctown_redpanda_claw:
+    display_name: mctown_redpanda_claw
+    permission: mctown_redpanda_claw.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30311
+      model_path: hand/mctown_redpanda_claw

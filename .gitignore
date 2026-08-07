@@ -1,0 +1,17 @@
+# ---------- 系统 / 编辑器 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# ---------- 日志 ----------
+*.log
+logs/
+
+# ---------- 运行时缓存(可再生,无需上传) ----------
+# ItemsAdder 缓存与玩家数据(含 ffmpeg.exe 等运行时文件,共 11MB+)
+核心碎片/材质包/ItemsAdder/storage/cache/
+核心碎片/材质包/ItemsAdder/storage/players/
+核心碎片/材质包/ItemsAdder/output/

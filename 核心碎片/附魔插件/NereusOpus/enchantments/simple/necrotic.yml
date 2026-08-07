@@ -1,0 +1,27 @@
+basic:
+  id: necrotic
+  name: 收割
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 击杀凋零骷髅时掉落头颅的概率提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:looting
+variables:
+  leveled:
+    chance: :3*{level}

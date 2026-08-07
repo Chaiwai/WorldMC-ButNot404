@@ -1,0 +1,256 @@
+title: "副本传送&c(暂时关闭!!!!正在更新中...)"
+rows: 6
+
+########################################
+page_O: &page_O
+  material: paper
+  customModelData: 10340
+  name: "&a&l上一页"
+  # menu title to {{page get}}
+  action: |-
+    page previous
+page_N: &page_N
+  material: paper
+  customModelData: 10341
+  name: "&a&l下一页"
+  action: |-
+    page next
+
+spawn: &spawn
+  material: soul_campfire
+  name: "&a&l主城"
+  action: |-
+    menu close
+    command "home XAY4.fb_dl %player_name%" as console
+fbspawn: &fbspawn
+  material: soul_campfire
+  name: "&a&l副本主城"
+  action: |-
+    menu close
+    command "home XAY4.fb_spawn %player_name%" as console
+
+slime: &slime
+  ia: question2
+  name: "&c&l尚未解锁"
+  lore: |-
+    &r&7或许我应该去&a副本主城&7附近寻找相关线索
+    &r    &f&l掉落物
+    &r    &a&l&kkkk&r&a   * &kk&r&a   &7&kkk&r&7%
+  sub:
+    - rule: perm "cw.tp.slime"
+      material: campfire
+      name: "&a&l粘液公主"
+      lore: |-
+        &r    &f&l掉落物
+        &r    &a&l古老的金币   * 1   &7100%
+        &r    &a&l古老的金币   * 1   &750%
+        &r    &a&l闪烁的粘液球 * 2   &7100%
+        &r    &a&l闪烁的粘液球 * 1   &750%
+        &r    &a&l闪烁的粘液球 * 1   &730%
+        &r    &a&l金币        * 500 &7100%
+        &r    &a&l金币        * 500 &750%
+      action: |-
+        menu close
+        command "home XAY4.fb_slime %player_name%" as console
+
+hana: &hana
+  ia: question2
+  name: "&c&l尚未解锁"
+  lore: |-
+    &r&7或许我应该去&a主城&r&7问问&a哈娜&7, 她或许知道些什么
+    &r    &f&l掉落物
+    &r    &a&l&kkkk&r&a   * &kk&r&a   &7&kkk&r&7%
+  sub:
+    - rule: perm "cw.tp.hana"
+      material: campfire
+      name: "&a&l哈娜"
+      lore: |-
+        &r    &f&l掉落物
+        &r    &a&l古老的金币   * 1   &7100%
+        &r    &a&l古老的金币   * 1   &750%
+        &r    &a&l断裂的鹿角   * 6   &7100%
+        &r    &a&l断裂的鹿角   * 2   &750%
+        &r    &a&l断裂的鹿角   * 1   &730%
+        &r    &a&l断裂的鹿角   * 1   &710%
+        &r    &a&l金币        * 800 &7100%
+        &r    &a&l金币        * 800 &750%
+      action: |-
+        menu close
+        command "home XAY4.fb_hana %player_name%" as console
+zsj: &zsj
+  ia: question2
+  name: "&c&l尚未解锁"
+  lore: |-
+    &r&7或许我应该去&a主城&r&7的&d紫水晶傀儡&7附近寻找相关线索
+    &r    &f&l掉落物
+    &r    &a&l&kkkk&r&a   * &kk&r&a   &7&kkk&r&7%
+  sub:
+    - rule: perm "cw.tp.zsj"
+      material: campfire
+      name: "&d&l紫水晶洞穴"
+      lore: |-
+        &r    &f&l掉落物
+        &r    &a&l古老的金币   * 2   &7100%
+        &r    &a&l古老的金币   * 1   &750%
+        &r    &a&l古老的金币   * 1   &730%
+        &r    &a&l奇异水晶   * 1     &7100%
+        &r    &a&l奇异水晶   * 1     &750%
+        &r    &a&l金币        * 1000 &7100%
+        &r    &a&l金币        * 1000 &750%
+      action: |-
+        menu close
+        command "home XAY4.fb_zsj %player_name%" as console
+hys: &hys
+  ia: question2
+  name: "&c&l尚未解锁"
+  lore: |-
+    &r&7或许我应该去&a主城&r&7的&6最高处&7附近寻找相关线索
+    &r    &f&l掉落物
+    &r    &a&l&kkkk&r&a   * &kk&r&a   &7&kkk&r&7%
+  sub:
+    - rule: perm "cw.tp.hys"
+      material: campfire
+      name: "&a&l火元素"
+      lore: |-
+        &r    &f&l掉落物
+        &r    &a&l古老的金币   * 2   &7100%
+        &r    &a&l古老的金币   * 1   &750%
+        &r    &a&l古老的金币   * 1   &730%
+        &r    &a&l古老的金币   * 1   &710%
+        &r    &a&l火焰精华   * 1     &7100%
+        &r    &a&l火焰精华   * 1     &750%
+        &r    &a&l烈焰核心   * 1     &7100%
+        &r    &a&l烈焰核心   * 1     &750%
+        &r    &a&l金币        * 1200 &7100%
+        &r    &a&l金币        * 1200 &750%
+      action: |-
+        menu close
+        command "home XAY4.fb_hys %player_name%" as console
+jsz: &jsz
+  ia: question2
+  name: "&c&l尚未解锁"
+  lore: |-
+    &r&7冒险等级到达3级解锁(后续可能会提升解锁条件)
+    &r    &f&l掉落物
+    &r    &a&l&kkkk&r&a   * &kk&r&a   &7&kkk&r&7%
+  sub:
+    - rule: check papi "%PlayerCurrency_level%" >= "3"
+      material: campfire
+      name: "&a&l突变坚守者"
+      lore: |-
+        &r    &f&l掉落物
+        &r    &a&l古老的金币   * 1   &7100%
+        &r    &a&l古老的金币   * 1   &750%
+        &r    &a&l荣耀勋章 * 1   &750%
+        &r    &a&l金币        * 500 &7100%
+        &r    &a&l金币        * 500 &750%
+      action: |-
+        menu close
+        command "home XAY4.fb_jsz %player_name%" as console
+
+test1: &test1
+  ia: question2
+  name: "&c&l尚未解锁"
+  lore: |-
+    &r    &f&l掉落物
+    &r    &a&l&kkkk&r&a   * &kk&r&a   &7&kkk&r&7%
+  sub:
+    - rule: perm "cw.tp.jsz"
+      material: campfire
+      name: "&a&l突变坚守者"
+      lore: |-
+        &r    &f&l掉落物
+        &r    &a&l古老的金币   * 1   &7100%
+        &r    &a&l古老的金币   * 1   &750%
+        &r    &a&l闪烁的粘液球 * 2   &7100%
+        &r    &a&l闪烁的粘液球 * 1   &750%
+        &r    &a&l闪烁的粘液球 * 1   &730%
+        &r    &a&l金币        * 500 &7100%
+        &r    &a&l金币        * 500 &750%
+      action: |-
+        menu close
+        command "execute at @s run tp ec3d2bad-ecbf-4028-9fa4-076e1fbb05c9" as console
+nu: &nu
+  material: barrier
+  name: "&a&l敬请期待"
+########################################
+
+panels:
+  #- layout: |-
+  #########
+  #  items:
+  #    '#': { material: gray stained glass pane }
+  - scale: [9, 6]
+    pages:
+      - layout: |-
+          #########
+          #~~~~~~~#
+          #~12345~#
+          #~67890~#
+          #O~~~~~N#
+          #########
+        items:
+          "T":
+            <<: *test1
+          "#":
+            name: |-
+              &r
+            material: black_stained_glass_pane
+          "~":
+            name: |-
+              &r
+            material: white_stained_glass_pane
+          "O":
+            <<: *page_O
+          "N":
+            <<: *page_N
+          "1":
+            <<: *spawn
+          "2":
+            # <<: *fbspawn
+            <<: *nu
+          "3":
+            # <<: *slime
+            <<: *nu
+          "4":
+            # <<: *hana
+            <<: *nu
+          "5":
+            # <<: *zsj
+            <<: *nu
+          "6":
+            # <<: *hys
+            <<: *nu
+          "7":
+            # <<: *jsz
+            <<: *nu
+          "8":
+            <<: *nu
+          "9":
+            <<: *nu
+          "0":
+            <<: *nu
+      - layout: |-
+          #########
+          #~~~~~~~#
+          #~12345~#
+          #~67890~#
+          #O~~~~~N#
+          #########
+        items:
+          "#":
+            name: |-
+              &r
+            material: black_stained_glass_pane
+          "~":
+            name: |-
+              &r
+            material: white_stained_glass_pane
+          "O":
+            <<: *page_O
+          "N":
+            <<: *page_N
+          "1":
+            <<: *nu
+          "2":
+            <<: *nu

@@ -1,0 +1,497 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "xay4_made_items" #[命名空间]**
+items: #[物品配置]**
+  xay4_made_items_coal1: #[物品的内部名]**
+    display_name: "coal1" #[物品显示名]**
+    resource: #[替换的原版物品ID]**
+      model_id: 20001 #[自定义序列号]**
+      material: coal #[原版物品ID]**
+      generate: true #[图片或模型[2D图片]]**
+      textures: #[图片或模型路径]**
+        - coal/coal1.png #[图片或模型[2D图片]]**
+    lore:
+      - "&7一种合成材料"
+      - "&7可用于镶嵌宝石"
+      - "&7世界：资源世界"
+      - "&7位置：主世界"
+      - "&7方块：[基础宝石矿, 富含-基础宝石矿]"
+      - "&7高度：y∈[-25,45]"
+
+  xay4_made_items_coal2:
+    display_name: "coal2"
+    resource:
+      model_id: 20002
+      material: coal
+      generate: true
+      textures:
+        - coal/coal2.png
+
+  xay4_made_items_coal3:
+    display_name: "coal3"
+    resource:
+      model_id: 20003
+      material: coal
+      generate: true
+      textures:
+        - coal/coal3.png
+
+  xay4_made_items_coal4:
+    display_name: "coal4"
+    resource:
+      model_id: 20004
+      material: coal
+      generate: true
+      textures:
+        - coal/coal4.png
+
+  xay4_made_items_coal5:
+    display_name: "coal5"
+    resource:
+      model_id: 20005
+      material: coal
+      generate: true
+      textures:
+        - coal/coal5.png
+
+  xay4_made_items_bs0: #[物品的内部名]**
+    display_name: "空白基础宝石" #[物品显示名]**
+    resource: #[替换的原版物品ID]**
+      model_id: 10000 #[自定义序列号]**
+      material: emerald #[原版物品ID]**
+      generate: true #[图片或模型[2D图片]]**
+      textures: #[图片或模型路径]**
+        - bs/bs0.png #[图片或模型[2D图片]]**
+    lore:
+      - "&7一种合成材料"
+      - "&7可用于镶嵌宝石"
+      - "&7世界：资源世界"
+      - "&7位置：末地"
+      - "&7方块：[基础宝石矿, 富含-基础宝石矿]"
+      - "&7高度：y∈[10,52]"
+
+  xay4_made_items_bs1:
+    display_name: "bs1"
+    resource:
+      model_id: 10001
+      material: emerald
+      generate: true
+      textures:
+        - bs/bs1.png
+
+  xay4_made_items_bs2:
+    display_name: "bs2"
+    resource:
+      model_id: 10002
+      material: emerald
+      generate: true
+      textures:
+        - bs/bs2.png
+
+  xay4_made_items_bs3:
+    display_name: "bs3"
+    resource:
+      model_id: 10003
+      material: emerald
+      generate: true
+      textures:
+        - bs/bs3.png
+
+  xay4_made_items_bs4:
+    display_name: "bs4"
+    resource:
+      model_id: 10004
+      material: emerald
+      generate: true
+      textures:
+        - bs/bs4.png
+
+  xay4_made_items_bs5:
+    display_name: "bs5"
+    resource:
+      model_id: 10005
+      material: emerald
+      generate: true
+      textures:
+        - bs/bs5.png
+
+  xay4_made_items_bs6:
+    display_name: "bs6"
+    resource:
+      model_id: 10006
+      material: emerald
+      generate: true
+      textures:
+        - bs/bs6.png
+
+  xay4_made_items_bs7:
+    display_name: "bs7"
+    resource:
+      model_id: 10007
+      material: emerald
+      generate: true
+      textures:
+        - bs/bs7.png
+
+  xay4_made_items_ys1:
+    display_name: "ys1"
+    resource:
+      model_id: 20001
+      material: emerald
+      generate: true
+      textures:
+        - bs/ys1.png
+
+  xay4_made_items_ys2:
+    display_name: "ys2"
+    resource:
+      model_id: 20002
+      material: emerald
+      generate: true
+      textures:
+        - bs/ys2.png
+
+  xay4_made_items_ys3:
+    display_name: "ys3"
+    resource:
+      model_id: 20003
+      material: emerald
+      generate: true
+      textures:
+        - bs/ys3.png
+
+  xay4_made_items_ys4:
+    display_name: "ys4"
+    resource:
+      model_id: 20004
+      material: emerald
+      generate: true
+      textures:
+        - bs/ys4.png
+
+  xay4_made_items_ys5:
+    display_name: "ys5"
+    resource:
+      model_id: 20005
+      material: emerald
+      generate: true
+      textures:
+        - bs/ys5.png
+
+  xay4_made_items_ys6:
+    display_name: "ys6"
+    resource:
+      model_id: 20006
+      material: emerald
+      generate: true
+      textures:
+        - bs/ys6.png
+
+  xay4_made_items_ys0:
+    display_name: "空白元素宝石"
+    resource:
+      model_id: 20006
+      material: emerald
+      generate: true
+      textures:
+        - bs/ys0.png
+
+  xay4_made_items_zz1:
+    display_name: "中子素尘埃"
+    resource:
+      model_id: 20001
+      material: paper
+      generate: true
+      textures:
+        - zz/zz1.png
+
+  xay4_made_items_zz2:
+    display_name: "中子素粒"
+    resource:
+      model_id: 20002
+      material: paper
+      generate: true
+      textures:
+        - zz/zz2.png
+
+  xay4_made_items_zz3:
+    display_name: "中子锭"
+    resource:
+      model_id: 20003
+      material: paper
+      generate: true
+      textures:
+        - zz/zz3.png
+
+  xay4_made_items_chj_1:
+    display_name: "无尽催化剂"
+    resource:
+      model_id: 10001
+      material: blue_dye
+      generate: true
+      textures:
+        - wjtl/chj_1.png
+    lore:
+      - "&7由一大堆催化剂合成"
+      - "&7工作方块: 任意高级工作台"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_2:
+    display_name: "绿宝石催化剂"
+    resource:
+      model_id: 10002
+      material: red_dye
+      generate: true
+      textures:
+        - wjtl/chj_2.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_3:
+    display_name: "钻石催化剂"
+    resource:
+      model_id: 10003
+      material: green_dye
+      generate: true
+      textures:
+        - wjtl/chj_3.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_4:
+    display_name: "金催化剂"
+    resource:
+      model_id: 10004
+      material: yellow_dye
+      generate: true
+      textures:
+        - wjtl/chj_4.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_5:
+    display_name: "铁催化剂"
+    resource:
+      model_id: 10005
+      material: purple_dye
+      generate: true
+      textures:
+        - wjtl/chj_5.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_6:
+    display_name: "铜催化剂"
+    resource:
+      model_id: 10006
+      material: cyan_dye
+      generate: true
+      textures:
+        - wjtl/chj_6.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_7:
+    display_name: "红石催化剂"
+    resource:
+      model_id: 10007
+      material: light_gray_dye
+      generate: true
+      textures:
+        - wjtl/chj_7.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_8:
+    display_name: "下界合金催化剂"
+    resource:
+      model_id: 10008
+      material: gray_dye
+      generate: true
+      textures:
+        - wjtl/chj_8.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_9:
+    display_name: "石英催化剂"
+    resource:
+      model_id: 10009
+      material: pink_dye
+      generate: true
+      textures:
+        - wjtl/chj_9.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_10:
+    display_name: "水晶催化剂"
+    resource:
+      model_id: 10010
+      material: lime_dye
+      generate: true
+      textures:
+        - wjtl/chj_10.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_11:
+    display_name: "煤炭催化剂"
+    resource:
+      model_id: 10011
+      material: orange_dye
+      generate: true
+      textures:
+        - wjtl/chj_11.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_12:
+    display_name: "烈焰催化剂"
+    resource:
+      model_id: 10012
+      material: magenta_dye
+      generate: true
+      textures:
+        - wjtl/chj_12.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_chj_13:
+    display_name: "循声催化剂"
+    resource:
+      model_id: 10013
+      material: black_dye
+      generate: true
+      textures:
+        - wjtl/chj_13.png
+    lore:
+      - "&7由一大堆矿物合成"
+      - "&7工作方块: 炼药锅+水+篝火"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_music:
+    display_name: "无尽唱片"
+    resource:
+      model_id: 10001
+      material: music_disc_pigstep
+      generate: true
+      textures:
+        - wjtl/music.png
+    lore:
+      - "&7由一大堆唱片与道具合成"
+      - "&7工作方块: 合金工作台"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_zsjg:
+    display_name: "钻石晶格"
+    resource:
+      model_id: 20001
+      material: green_dye
+      generate: true
+      textures:
+        - wjtl/zsjg.png
+    lore:
+      - "&7由钻石合成"
+      - "&7工作方块: 工作台"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_sjjzd:
+    display_name: "水晶矩阵锭"
+    resource:
+      model_id: 20002
+      material: green_dye
+      generate: true
+      textures:
+        - wjtl/sjjzd.png
+    lore:
+      - "&7由一些材料合成"
+      - "&7工作方块: 工作台"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"
+
+  xay4_made_items_wjd:
+    display_name: "&a无&b尽&d锭"
+    resource:
+      model_id: 20003
+      material: green_dye
+      generate: true
+      textures:
+        - wjtl/wjd.png
+    lore:
+      - "&7由大量材料合成"
+      - "&7工作方块: 合金工作台"
+      - "&7==================="
+      - "&7感谢we_hua的创作"
+      - "&7一切灵感来源都来自维华"
+      - "&7我认为你应该感谢他:)"

@@ -1,0 +1,559 @@
+cw_items_tem:
+  material: <item>
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) <datapack>
+
+  name: "&r&f<name>"
+  lore:
+    - ""
+    - "<#CCCCCC>类型 &7: <type>"
+    - "<#CCCCCC>品质 &7: <level>"
+    - "<#CCCCCC>估价 &7: &6<money> &f<papi::img_money>"
+    - ""
+    - "<#EEEEEE>简介 &7:"
+    - "   <#DDDDDD><text>"
+    - ""
+    - "&f<papi::img_shift> &7+ &f<papi::img_right_click> <#CCCCCC>转化为 &6<money> &f<papi::img_money>"
+    - "&f<papi::img_shift> &7+ &f<papi::img_left_click> <#CCCCCC>转化为 &a<xp> <#cccccc>&f<papi::img_level_xp>"
+    - ""
+  nbt:
+    type: <type>
+    money: <money>
+    xp: <xp>
+  sections:
+    item: "paper"
+    datapack: 10003
+    name: "暂无名称"
+    type: "暂无类型"
+    level: "暂无品质"
+    money: 0
+    xp: 0
+    text: "暂无简介"
+
+cwMade_items_1:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10163
+    name: "毒刺"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "用于制造装备"
+
+cwMade_items_2:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10103
+    name: "金钥匙"
+    type: "珍藏品"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "用于打开金箱子"
+
+cwMade_items_3:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10114
+    name: "孢子"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "用于制造装备"
+
+cwMade_items_4:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10085
+    name: "星璇碎片"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "用于制造装备"
+
+cwMade_items_5:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10082
+    name: "星云碎片"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "用于制造装备"
+
+cwMade_items_6:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10083
+    name: "日曜碎片"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "用于制造装备"
+
+cwMade_items_7:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10084
+    name: "星尘碎片"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "用于制造装备"
+
+cwMade_items_8:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10142
+    name: "铂金珍珠"
+    type: "收藏品"
+    level: "&b罕见"
+    money: 1000
+    xp: 128
+    text: "用于兑换道具"
+
+cwMade_items_9:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10139
+    name: "黑金珍珠"
+    type: "收藏品"
+    level: "&b罕见"
+    money: 1000
+    xp: 128
+    text: "用于兑换道具"
+
+cwMade_items_10:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10141
+    name: "粉金珍珠"
+    type: "收藏品"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "用于兑换道具"
+cwMade_items_11:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10140
+    name: "魔力珍珠"
+    type: "收藏品"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "用于兑换道具"
+
+cwMade_items_12:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10091
+    name: "凝胶"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "可用于制作装备"
+
+cwMade_items_13:
+  inherit: cw_items_tem
+  sections:
+    item: "apple"
+    datapack: 10014
+    name: "生命水晶"
+    type: "道具"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "制作中"
+
+cwMade_items_14:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10120
+    name: "晶状体"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "可用于制作装备"
+
+cwMade_items_15:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10031
+    name: "蚁狮上颚 "
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "可用于制作装备"
+
+cwMade_items_16:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10197
+    name: "藤蔓"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "可用于制作装备"
+
+cwMade_items_17:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10155
+    name: "鲨鱼鳍"
+    type: "材料"
+    level: "&b罕见"
+    money: 1000
+    xp: 128
+    text: "可用于制作装备"
+
+cwMade_items_18:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10168
+    name: "破布"
+    type: "材料"
+    level: "&b罕见"
+    money: 1000
+    xp: 128
+    text: "可用于制作装备"
+
+cwMade_items_19:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10313
+    name: "水晶球"
+    type: "召唤"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: 制作中"
+
+cwMade_items_20:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10145
+    name: "妖精尘"
+    type: "材料"
+    level: "&b罕见"
+    money: 1000
+    xp: 128
+    text: "可用于制作装备"
+
+cwMade_items_21:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10052
+    name: "水晶碎块"
+    type: "材料"
+    level: "&b罕见"
+    money: 1000
+    xp: 128
+    text: "可用于制作装备"
+
+cwMade_items_22:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10156
+    name: "鲨筝"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_23:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10056
+    name: "暗黑碎块"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_24:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10122
+    name: "光明碎块"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_25:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10170
+    name: "样本组织"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_26:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10194
+    name: "脊椎"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "可用于制作装备"
+
+cwMade_items_27:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10143
+    name: "粉色凝胶"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_28:
+  inherit: cw_items_tem
+  sections:
+    item: "apple"
+    datapack: 10016
+    name: "魔力水晶"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+
+cwMade_items_29:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10078
+    name: "羽毛"
+    type: "材料"
+    level: "普通"
+    money: 200
+    xp: 64
+    text: "可用于制作装备"
+
+cwMade_items_30:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10193
+    name: "龟壳"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_31:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10118
+    name: "灵液"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_32:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10119
+    name: "柠檬"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_33:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10162
+    name: "阴森木"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_34:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10196
+    name: "毒蘑菇"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_35:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10198
+    name: "甲虫外壳"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_36:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10081
+    name: "禁戒碎片"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "可用于制作装备"
+
+cwMade_items_37:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10161
+    name: "日耀碑牌碎片"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_38:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10152
+    name: "种"
+    type: "材料"
+    level: "&d史诗"
+    money: 2000
+    xp: 256
+    text: "可用于制作装备"
+
+cwMade_items_39:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10015
+    name: "黄玉兔"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "可用于制作装备"
+
+cwMade_items_40:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10016
+    name: "萨菲兔"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "可用于制作装备"
+
+cwMade_items_41:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10017
+    name: "翡翠兔"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "可用于制作装备"
+
+cwMade_items_42:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10018
+    name: "鲁比兔"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "可用于制作装备"
+
+cwMade_items_43:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10019
+    name: "钻石兔"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "可用于制作装备"
+
+cwMade_items_44:
+  inherit: cw_items_tem
+  sections:
+    item: "paper"
+    datapack: 10020
+    name: "琥珀兔"
+    type: "材料"
+    level: "&6传奇"
+    money: 5000
+    xp: 512
+    text: "可用于制作装备"

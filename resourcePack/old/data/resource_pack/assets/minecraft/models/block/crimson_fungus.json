@@ -1,0 +1,45 @@
+{
+	"credit": "Created by @JamieProbably on Twitter",
+	"parent": "minecraft:block/cross",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "block/crimson_fungus_3d",
+		"particle": "block/crimson_fungus"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 5, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 2.5], "texture": "#1"},
+				"east": {"uv": [1, 0, 0, 2.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 2.5], "texture": "#1"},
+				"west": {"uv": [1, 0, 0, 2.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 5, 3],
+			"to": [13, 8, 13],
+			"faces": {
+				"north": {"uv": [0, 2.5, 5, 4], "texture": "#1"},
+				"east": {"uv": [0, 2.5, 5, 4], "texture": "#1"},
+				"south": {"uv": [0, 2.5, 5, 4], "texture": "#1"},
+				"west": {"uv": [0, 2.5, 5, 4], "texture": "#1"},
+				"up": {"uv": [0, 4, 5, 9], "texture": "#1"},
+				"down": {"uv": [5, 4, 10, 9], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5, 8, 5],
+			"to": [11, 12, 11],
+			"faces": {
+				"north": {"uv": [3, 9, 0, 11], "texture": "#1"},
+				"east": {"uv": [0, 9, 3, 11], "texture": "#1"},
+				"south": {"uv": [3, 9, 0, 11], "texture": "#1"},
+				"west": {"uv": [0, 9, 3, 11], "texture": "#1"},
+				"up": {"uv": [0, 11, 3, 14], "texture": "#1"},
+				"down": {"uv": [3, 11, 6, 14], "texture": "#1"}
+			}
+		}
+	]
+}

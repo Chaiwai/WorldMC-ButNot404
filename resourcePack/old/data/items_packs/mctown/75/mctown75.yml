@@ -1,0 +1,29 @@
+info:
+  namespace: "mctown"
+font_images:
+
+  mctown_fisher:
+    path: "75/mctown_fisher.png"
+    suggest_in_command: false
+    y_position: 13
+  mctown_fishshopui:
+    path: "75/mctown_fishshopui.png"
+    suggest_in_command: false
+    y_position: 13
+
+items:
+  mctown_sign4:
+    display_name: mctown_sign4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: 75/mctown_sign4
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        small: false
+        solid: true                   
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false

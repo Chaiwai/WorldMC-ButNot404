@@ -1,0 +1,144 @@
+info:
+  namespace: customcrops
+items:
+#lemon_seed
+  lemon_seeds:
+    display_name: '柠檬种子'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - lemon/lemon_seeds
+#lemon
+  lemon_1star:
+    enabled: true
+    display_name: '柠檬'
+    resource:
+      generate: false
+      material: BAKED_POTATO
+      model_path: lemon/lemon
+    events:
+      eat:
+        feed:
+          amount: 2
+  lemon_2star:
+    enabled: true
+    display_name: '柠檬'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - lemon/lemon_silver
+    events:
+      eat:
+        feed:
+          amount: 2
+  lemon_3star:
+    enabled: true
+    display_name: '柠檬'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - lemon/lemon_gold
+    events:
+      eat:
+        feed:
+          amount: 2
+
+#lemon_stage
+  lemon_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lemon/lemon_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lemon_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lemon/lemon_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lemon_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lemon/lemon_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lemon_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lemon/lemon_stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  lemon_stage_5:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: lemon/lemon_stage_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+categories:
+  customcrops_lemon:
+    enabled: true
+    icon: lemon_1star
+    name: '柠檬农作物'
+    items:
+      - customcrops:lemon_seeds
+      - customcrops:lemon_1star
+      - customcrops:lemon_2star
+      - customcrops:lemon_3star
+      - customcrops:lemon_stage_1
+      - customcrops:lemon_stage_2
+      - customcrops:lemon_stage_3
+      - customcrops:lemon_stage_4
+      - customcrops:lemon_stage_5

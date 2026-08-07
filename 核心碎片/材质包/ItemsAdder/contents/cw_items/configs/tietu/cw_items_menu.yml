@@ -1,0 +1,69 @@
+# 自动生成的UI图片配置文件
+info:
+  namespace: cw_items
+font_images:
+  cw_menu:
+    path: ui/menu/cw_menu.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_menu1:
+    path: ui/menu/cw_menu1.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_menu2:
+    path: ui/menu/cw_menu2.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_menu3:
+    path: ui/menu/cw_menu3.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_menu4:
+    path: ui/menu/cw_menu4.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_menu5:
+    path: ui/menu/cw_menu5.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_menu6:
+    path: ui/menu/cw_menu6.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_menu_head:
+    path: ui/menu/cw_menu_head.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_x:
+    path: ui/menu/cw_x.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  cw_x_head:
+    path: ui/menu/cw_x_head.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  shop0:
+    path: ui/menu/shop0.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  shop1:
+    path: ui/menu/shop1.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15
+  shop2:
+    path: ui/menu/shop2.png
+    show_in_gui: false
+    suggest_in_command: false
+    y_position: 15

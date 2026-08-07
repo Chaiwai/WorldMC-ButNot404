@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"model","model":"item/black_dye"},"entries":[{"threshold":10000,"model":{"type":"model","model":"ore:chlorophyte"}},{"threshold":10001,"model":{"type":"model","model":"ore:chlorophyte_ingot"}},{"threshold":10002,"model":{"type":"model","model":"item/black_dye"}}]}}

@@ -1,0 +1,32 @@
+basic:
+  id: arborist
+  name: 收获
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 从树叶中获得更多木棍、苹果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- axes
+- shears
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:silk_touch
+params:
+  items:
+  - stick
+  - apple
+variables:
+  leveled:
+    chance: :5*{level}

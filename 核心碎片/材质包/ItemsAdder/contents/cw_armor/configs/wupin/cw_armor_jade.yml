@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  jade:
+    type: armor
+    layer_1: armor/jade/layer_1
+    layer_2: armor/jade/layer_2
+items:
+  jade_boots:
+    name: jade_boots
+    resource:
+      generate: true
+      texture: items/jade/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:jade
+  jade_chestplate:
+    name: jade_chestplate
+    resource:
+      generate: true
+      texture: items/jade/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:jade
+  jade_helmet:
+    name: jade_helmet
+    resource:
+      generate: true
+      texture: items/jade/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:jade
+  jade_leggings:
+    name: jade_leggings
+    resource:
+      generate: true
+      texture: items/jade/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:jade

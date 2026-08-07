@@ -1,0 +1,211 @@
+cw_sword_tem:
+  name: "&r&f<物品名称>"
+  material: <物品材质>
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) <物品贴图>
+    minecraft:attribute_modifiers:
+      show_in_tooltip: (Byte) 0
+      modifiers:
+        - amount: (Double) 0.0
+          id: mmoitems:decoy
+          type: minecraft:attack_speed
+          operation: add_value
+        - amount: (Double) 10.0
+          id: minecraft:attack_knockback
+          type: minecraft:attack_knockback
+          operation: add_value
+
+  options:
+    update:
+      enable: true
+      refresh:
+        - material
+        - lore
+      protect-components:
+        - minecraft:custom_name
+        - components.minecraft:enchantments
+  lore:
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  <物品简介>"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  伤害: &f<基础_攻击伤害>&7(&a+&7<额外_攻击伤害>&7)"
+    - "&r&f  攻速: &f<基础_攻击速度>&7(&a+&7<额外_攻击速度>&7)"
+    - "&r&f  暴击: &f<基础_暴击几率>&7(&a+&7<额外_暴击几率>&7)"
+    - "&r&f  爆伤: &f<基础_暴击增伤>&7(&a+&7<额外_暴击增伤>&7)"
+    - "&r&f  横扫: &f<基础_横扫增伤>&7(&a+&7<额外_横扫增伤>&7)"
+    - "&r&f  范围: &f<基础_攻击距离>&7(&a+&7<额外_攻击距离>&7)"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  元素: &f<元素名称.<元素属性>.数值> <元素名称.<元素属性>.名称>"
+    - "&r&f  灵魂绑定: <灵魂绑定>"
+  nbt:
+    PublicBukkitValues:
+      itemsoulbind:soulbinduuid: <灵魂绑定>
+    #mi
+    MMOITEMS_ITEM_TYPE: <Mi_GP> #必要!!
+    MMOITEMS_ITEM_ID: <Mi_ID> #必要!!
+    MMOITEMS_ATTACK_DAMAGE: (Double) <fastcalc::<基础_攻击伤害>+<额外_攻击伤害>>
+    MMOITEMS_CRITICAL_STRIKE_CHANCE: (Double) <fastcalc::<基础_暴击几率>+<额外_暴击几率>>
+    MMOITEMS_CRITICAL_STRIKE_POWER: (Double) <fastcalc::<基础_暴击增伤>+<额外_暴击增伤>>
+    MMOITEMS_BLUNT_RATING: (Double) <fastcalc::<基础_横扫增伤>+<额外_横扫增伤>>
+    MMOITEMS_ATTACK_SPEED: (Double) <fastcalc::<基础_攻击速度>+<额外_攻击速度>>
+    MMOITEMS_ENTITY_INTERACTION_RANGE: (Double) <fastcalc::<基础_攻击距离>+<额外_攻击距离>-3>
+    MMOITEMS_<元素属性>_DAMAGE: (Double) <元素名称.<元素属性>.数值>
+    # MMOITEMS_FIRE_DAMAGE: (Double) 1
+    # MMOITEMS_ICE_DAMAGE: (Double) 1
+    # MMOITEMS_EARTH_DAMAGE: (Double) 1
+    # MMOITEMS_WIND_DAMAGE: (Double) 1
+    # MMOITEMS_THUNDER_DAMAGE: (Double) 1
+    # MMOITEMS_WATER_DAMAGE: (Double) 1
+    # MMOITEMS_DARKNESS_DAMAGE: (Double) 1
+    # MMOITEMS_LIGHTNESS_DAMAGE: (Double) 1
+  # sections:
+  #   #原版
+  #   物品名称: "断裂英雄剑"
+  #   物品贴图: 10151
+  #   物品材质: "diamond_sword"
+  #   #Mi
+  #   Mi_GP: "DAGGER"
+  #   Mi_ID: "TEST1"
+  #   攻击伤害: 10
+  #   攻击速度: 20
+  #   暴击几率: 30
+  #   暴击增伤: 40
+  #   横扫增伤: 40
+  #   攻击距离: 3.5
+  #   灵魂绑定: "<papi::player_name>"
+
+cw_s0_0:
+  inherit: cw_sword_tem
+  sections:
+    name: "天顶剑"
+    datapack: 10155
+    p_uuid: "<papi::player_uuid>"
+    p_name: "<papi::player_name>"
+    #类型
+    equipmentType: "主手"
+    type: "剑"
+    level: "无情"
+    text: "没有简介"
+    att_attack: "2" #物理伤害
+
+cw_s0_1:
+  inherit: cw_sword_tem
+  sections:
+    #原版
+    物品名称: "泰拉棱镜"
+    物品贴图: 10063
+    物品材质: "netherite_sword"
+    物品简介: "这是一把刀111"
+    #Mi
+    Mi_GP: "DAGGER"
+    Mi_ID: "TEST1"
+    基础_攻击伤害: 10
+    基础_暴击几率: 30
+    基础_暴击增伤: 40
+    基础_横扫增伤: 40
+
+    基础_攻击速度: 1.6
+    基础_攻击距离: 3
+    #mi额外
+    额外_攻击伤害: <number::0_3>
+    额外_暴击几率: <number::0_3>
+    额外_暴击增伤: <number::0_3>
+    额外_横扫增伤: <number::0_3>
+
+    额外_攻击速度: 0
+    额外_攻击距离: 0
+
+    灵魂绑定: "<papi::player_name>"
+    元素属性:
+      type: weight
+      values:
+        - "5::FIRE"
+        - "5::ICE"
+        - "5::EARTH"
+        - "5::WIND"
+        - "5::THUNDER"
+        - "5::WATER"
+        - "5::DARKNESS"
+        - "5::LIGHTNESS"
+    元素名称:
+      FIRE:
+        名称: "&c🔥"
+        数值: <number::1_5>
+      ICE:
+        名称: "&b❄"
+        数值: <number::1_5>
+      EARTH:
+        名称: "&2₪"
+        数值: <number::1_5>
+      WIND:
+        名称: "&7🌊"
+        数值: <number::1_5>
+      THUNDER:
+        名称: "&e★"
+        数值: <number::1_5>
+      WATER:
+        名称: "&3🌊"
+        数值: <number::1_5>
+      DARKNESS:
+        名称: "&8☽"
+        数值: <number::1_5>
+      LIGHTNESS:
+        名称: "&f☀"
+        数值: <number::1_5>
+    锻造属性:
+    传奇:
+      伤害: 15
+      攻速: 10
+      击退: 15
+      暴击: 5
+      大小: 10
+    锋利:
+      伤害: 15
+    尖锐:
+      伤害: 10
+    凶残:
+      伤害: 10
+      击退: 10
+      大小: 10
+    危险:
+      伤害: 5
+      暴击: 2
+      大小: 5
+    巨大:
+      大小: 18
+    大:
+      大小: 12
+    轻:
+      攻速: 15
+      击退: -10
+    重:
+      攻速: -10
+      击退: 15
+    笨重:
+      伤害: 5
+      攻速: -15
+      击退: 10
+      大小: 10
+    微小:
+      大小: -18
+    小:
+      大小: -10
+    钝:
+      伤害: -15
+    可怕:
+      伤害: -15
+      击退: -15
+      大小: -13
+    倒霉:
+      攻速: -10
+      击退: -10
+      大小: -10
+    可耻:
+      伤害: -10
+      击退: -20
+      大小: 10

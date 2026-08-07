@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor2
+equipments:
+  mage:
+    type: armor
+    layer_1: armor/mage/layer_1
+    layer_2: armor/mage/layer_2
+items:
+  mage_boots:
+    name: mage_boots
+    resource:
+      generate: true
+      texture: items/mage/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor2:mage
+  mage_chestplate:
+    name: mage_chestplate
+    resource:
+      generate: true
+      texture: items/mage/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor2:mage
+  mage_helmet:
+    name: mage_helmet
+    resource:
+      generate: true
+      texture: items/mage/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor2:mage
+  mage_leggings:
+    name: mage_leggings
+    resource:
+      generate: true
+      texture: items/mage/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor2:mage

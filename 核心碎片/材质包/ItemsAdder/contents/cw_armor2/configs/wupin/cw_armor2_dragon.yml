@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor2
+equipments:
+  dragon:
+    type: armor
+    layer_1: armor/dragon/layer_1
+    layer_2: armor/dragon/layer_2
+items:
+  dragon_boots:
+    name: dragon_boots
+    resource:
+      generate: true
+      texture: items/dragon/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor2:dragon
+  dragon_chestplate:
+    name: dragon_chestplate
+    resource:
+      generate: true
+      texture: items/dragon/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor2:dragon
+  dragon_helmet:
+    name: dragon_helmet
+    resource:
+      generate: true
+      texture: items/dragon/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor2:dragon
+  dragon_leggings:
+    name: dragon_leggings
+    resource:
+      generate: true
+      texture: items/dragon/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor2:dragon

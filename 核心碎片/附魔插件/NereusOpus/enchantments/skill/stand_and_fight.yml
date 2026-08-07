@@ -1,0 +1,38 @@
+basic:
+  id: stand_and_fight
+  name: 背水
+  enable: true
+  max-level: 5
+display:
+  description:
+    general: '§e右击§7扣除一半当前血量，并获得速度与力量效果（冷却时间: §a360秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+- axes
+- bow
+- crossbow
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_ENDERMAN_TELEPORT
+    cooldown: 360
+    amplifier: 3
+  leveled:
+    duration: :200+{level}*40
+params:
+  particle:
+    type: FLAME
+    amount: 2

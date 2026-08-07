@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/magenta_dye"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"ore:palladium"},{"predicate":{"custom_model_data":10001},"model":"ore:palladium_ingot"},{"predicate":{"custom_model_data":10002},"model":"item/magenta_dye"}]}

@@ -1,0 +1,39 @@
+basic:
+  id: blast_mining
+  name: 立方
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 每次挖掘立方范围的方块
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 稀世
+targets:
+- pickaxes
+- shovels
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:drill
+- CONFLICT_ENCHANT:vein
+variables:
+  ordinary:
+    disable-on-sneak: true
+    enable-sound: false
+    permission-check: true
+    hardness-check: bedrock,obsidian
+    blacklist: SKELETON_SKULL,WITHER_SKELETON_SKULL,CREEPER_HEAD,CREEPER_WALL_HEAD,PIGLIN_HEAD,PIGLIN_WALL_HEAD,PLAYER_HEAD,PLAYER_WALL_HEAD,ZOMBIE_HEAD,ZOMBIE_WALL_HEAD
+    per-tick: 12
+    chance: 100
+  leveled:
+    range_x: :{level}+1
+    range_y: :{level}+1
+    range_z: :{level}+1

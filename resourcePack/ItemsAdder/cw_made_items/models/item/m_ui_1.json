@@ -1,0 +1,43 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "cw_made_items:img/icon/m_ui_1"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [90, -180, 0],
+      "translation": [2.75, 0, 5.25],
+      "scale": [0.1, 0.1, 0.1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [90, -180, 0],
+      "translation": [-2.75, 0, 5.25],
+      "scale": [0.1, 0.1, 0.1]
+    },
+    "firstperson_righthand": {
+      "translation": [-12, 14, 0],
+      "scale": [0.1, 0.1, 0.1]
+    },
+    "firstperson_lefthand": {
+      "translation": [-6.25, 14, 0],
+      "scale": [0.1, 0.1, 0.1]
+    },
+    "ground": {
+      "rotation": [90, -180, 0],
+      "translation": [16, -0.5, 16],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "gui": {
+      "translation": [-28.75, 44, 0]
+    },
+    "head": {
+      "rotation": [0, -180, 0],
+      "translation": [28.5, 60, 0]
+    },
+    "fixed": {
+      "rotation": [0, -180, 0],
+      "translation": [28, 27, 0]
+    }
+  }
+}

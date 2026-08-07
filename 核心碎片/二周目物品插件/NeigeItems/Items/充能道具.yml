@@ -1,0 +1,22 @@
+副手_牛黄:
+  material: warped_fungus_on_a_stick
+  mini-name: <!i><white>牛黄
+  lore:
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  吸收所有魔法类伤害并恢复耐久"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  冷却: 10 &7S"
+    - "&r&f  耐久: 100"
+    - "&r&f   "
+    - "&r&f"
+    - "&r&f  受到伤害时释放毒素"
+    - "&r&f"
+    - "&r&f  槽位: 副手"
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10292.0
+    minecraft:item_model: minecraft:paper
+    minecraft:damage: (Int) 100

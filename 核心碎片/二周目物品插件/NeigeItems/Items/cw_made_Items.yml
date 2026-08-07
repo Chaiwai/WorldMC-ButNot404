@@ -1,0 +1,113 @@
+cwMade_box_false:
+  material: paper
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10022
+  # 物品名
+  name: <#a435b8>&l暗<#9441b9>&l淡<#855eb9>&l光<#766db9>&l团
+  lore:
+    - ""
+    - "<#b9c5e4>您能从中够获得&6随机的奖励"
+    - "<#b9c5e4>从海量的奖励库中随机抽取"
+    - "<#d8b9e4>于光明的魂魄中提取幸运"
+    - ""
+    # - "<#CCFFFF>您需拥有&7:&e <need>&f<papi::img_money>"
+    - "<#CCFFFF>破译消耗&7:&e <number-1>&f<papi::img_money>"
+    - ""
+    - "<#b9e4d6>右键 &f<papi::img_right_click> <#b9e4d6>破译"
+    - ""
+  nbt:
+    money: "<number-1>"
+    need: "<need>"
+  sections:
+    need: 1000
+    number-1:
+      type: number
+      min: 500
+      max: 1000
+      fixed: 0
+
+cwMade_box_true:
+  material: paper
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10021
+  # 物品名
+  name: <#e879fd>&l幸<#d986fe>&l运<#ca93fe>&l光<#bba0ff>&l团
+  lore:
+    - ""
+    - "<#b9c5e4>您能从中够获得&6随机的奖励"
+    - "<#b9c5e4>从海量的奖励库中随机抽取"
+    - "<#d8b9e4>于光明的魂魄中提取幸运"
+    - ""
+    - "<#b9e4d6>右键 &f<papi::img_right_click> <#b9e4d6>开启"
+    - "<#b9e4d6>按下 &f<papi::img_shift> &7+ &f<papi::img_right_click> <#b9e4d6>开启 &d10 <#b9e4d6>个"
+    - ""
+
+cwMade_cd:
+  material: paper
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10304
+  # 物品名
+  name: <#084cfb>便<#3f84fc>携<#76bbfc>菜<#adf3fd>单
+  lore:
+    - ""
+    - "<#F5C1FB>服务器里所有常用功能都在这里"
+    # - "<#B630FB>服务器里所有常用功能都在这里"
+    - ""
+    - "<#CCFFFF>按下 &f<papi::img_right_click><#CCFFFF>   打开菜单"
+    - "<#646464>你也可以使用 &fShift&7 + &fF&7 打开菜单"
+    # - "<#CCFFFF>按下 &f<papi::img_shift> &7+ &f<papi::img_right_click><#CCFFFF> 开启 &d10 <#CCFFFF>个"
+    - ""
+
+cwMade_kill:
+  material: paper
+  name: <#fc6014>杀戮点
+  lore:
+    - "&<虚拟道具数量>"
+  options:
+    owner: <papi::player_name>
+    hide: true
+    color: RED
+  sections:
+    # 定义获取的金币数量
+    虚拟道具数量: 1
+  components:
+    minecraft:custom_model_data:
+      floats:
+        - (Float) 10215
+
+  # material: Amethyst_Shard
+  # components:
+  #   minecraft:custom_model_data:
+  #     floats:
+  #       - (Float) 10012
+  # name: <#fc6014>杀戮点
+  # options:
+  #   owner: <papi::player_name>
+  #   hide: true
+  #   color: RED
+  # sections:
+  #   # 定义获取的金币数量
+  #   虚拟道具数量: 1
+  # lore:
+  #   - ""
+  #   - "<#F5C1FB>我是杀戮点"
+  #   - "<#F5C1FB>我认为你应该使用了特殊手段将我放进背包了"
+  #   - "<#F5C1FB>无需担忧,仅需将我丢在地上重新拾取即可"
+  #   - "&<虚拟道具数量>"
+  # - "&7限时物品-到期时间-<js::ItemTime.js::main_<itemtime>>"
+  # sections:
+  #   itemtime: 60
+
+cw_test0:
+  material: paper
+  name: 钩锁
+  lore:
+    - ""
+    - "&7按下&fQ&f键使用"
+    - ""

@@ -1,0 +1,515 @@
+info:
+  namespace: "mctown"
+font_images:
+  skill_logo:
+    path: "block/icon/skill_logo.png"
+    suggest_in_command: false
+    symbol: "㒨"
+    scale_ratio: 22
+    y_position: 10
+  skill_type:
+    path: "block/icon/skill_type.png"
+    suggest_in_command: false
+    symbol: "㒩"
+    scale_ratio: 7
+    y_position: 2
+  skill_logo2:
+    path: "block/icon/skill_logo2.png"
+    suggest_in_command: false
+    symbol: "㒥"
+    scale_ratio: 15
+    y_position: 6
+  skill_type2:
+    path: "block/icon/skill_type.png"
+    suggest_in_command: false
+    symbol: "㒤"
+    scale_ratio: 7
+    y_position: 2
+  skill_logo3:
+    path: "block/icon/skill_logo3.png"
+    suggest_in_command: false
+    symbol: "㒡"
+    scale_ratio: 22
+    y_position: 14
+  skill_type3:
+    path: "block/icon/skill_type.png"
+    suggest_in_command: false
+    symbol: "㒠"
+    scale_ratio: 7
+    y_position: 7
+  skill_001:
+    path: "block/icon/skill_001.png"
+    suggest_in_command: false
+    symbol: "㒪"
+    y_position: 8
+  skill_002:
+    path: "block/icon/skill_002.png"
+    suggest_in_command: false
+    symbol: "㵚"
+    y_position: 8
+  skill_003:
+    path: "block/icon/skill_003.png"
+    suggest_in_command: false
+    symbol: "㶗"
+    y_position: 8
+  skill_004:
+    path: "block/icon/skill_004.png"
+    suggest_in_command: false
+    symbol: "㶔"
+    y_position: 8
+  skill_005:
+    path: "block/icon/skill_005.png"
+    suggest_in_command: false
+    symbol: "㶓"
+    y_position: 8
+  skill_006:
+    path: "block/icon/skill_006.png"
+    suggest_in_command: false
+    symbol: "㣆"
+    y_position: 8
+  icon_arcane_missile_e:
+    path: "skills/icon_arcane_missile_e.png"
+    suggest_in_command: false
+    symbol: "缵"
+    y_position: 8
+  icon_asgardian_fury_e:
+    path: "skills/icon_asgardian_fury_e.png"
+    suggest_in_command: false
+    symbol: "爨"
+    y_position: 8
+  icon_blackhole_shot:
+    path: "skills/icon_blackhole_shot.png"
+    suggest_in_command: false
+    symbol: "廴"
+    y_position: 8
+  icon_blink_e:
+    path: "skills/icon_blink_e.png"
+    suggest_in_command: false
+    symbol: "齉"
+    y_position: 8
+  icon_fireball_e:
+    path: "skills/icon_fireball_e.png"
+    suggest_in_command: false
+    symbol: "龘"
+    y_position: 8
+  icon_frost_nova_e:
+    path: "skills/icon_frost_nova_e.png"
+    suggest_in_command: false
+    symbol: "鑪"
+    y_position: 8
+
+  icon_gravitational_boost:
+    path: "skills/icon_gravitational_boost.png"
+    suggest_in_command: false
+    symbol: "鑰"
+    y_position: 8
+
+  icon_shadow_walk:
+    path: "skills/icon_shadow_walk.png"
+    suggest_in_command: false
+    symbol: "蕲"
+    y_position: 8
+  icon_dash:
+    path: "skills/icon_dash.png"
+    suggest_in_command: false
+    symbol: "罴"
+    y_position: 8
+  icon_dagger_throw:
+    path: "skills/icon_dagger_throw.png"
+    suggest_in_command: false
+    symbol: "愆"
+    y_position: 8
+  icon_blade_dance_e:
+    path: "skills/icon_blade_dance_e.png"
+    suggest_in_command: false
+    symbol: "遪"
+    y_position: 8
+
+  icon_inferno_chains_e:
+    path: "skills/icon_inferno_chains_e.png"
+    suggest_in_command: false
+    symbol: "鏗"
+    y_position: 8
+
+  icon_meteor_e:
+    path: "skills/icon_meteor_e.png"
+    suggest_in_command: false
+    symbol: "镳"
+    y_position: 8
+  icon_pulse_mode_e:
+    path: "skills/icon_pulse_mode_e.png"
+    suggest_in_command: false
+    symbol: "镬"
+    y_position: 8
+
+  icon_retreat_e:
+    path: "skills/icon_retreat_e.png"
+    suggest_in_command: false
+    symbol: "镚"
+    y_position: 8
+
+  icon_thunder_shockwave_e:
+    path: "skills/icon_thunder_shockwave_e.png"
+    suggest_in_command: false
+    symbol: "镌"
+    y_position: 8
+
+  icon_void_arrow_e:
+    path: "skills/icon_void_arrow_e.png"
+    suggest_in_command: false
+    symbol: "鬣"
+    y_position: 8
+
+  icon_void_rain_e:
+    path: "skills/icon_void_rain_e.png"
+    suggest_in_command: false
+    symbol: "饕"
+    y_position: 8
+
+
+
+
+
+  skill_left_click:
+    path: "block/icon/skill_left_click.png"
+    suggest_in_command: false
+    symbol: "㒦"
+    scale_ratio: 9
+    y_position: 8
+  skill_right_click:
+    path: "block/icon/skill_right_click.png"
+    suggest_in_command: false
+    symbol: "㵗"
+    scale_ratio: 9
+    y_position: 8
+  skill_shift:
+    path: "block/icon/skill_shift.png"
+    suggest_in_command: false
+    symbol: "㶐"
+    scale_ratio: 9
+    y_position: 8
+  mmoitem_title_1:
+    path: "block/icon/mmoitem_title_1.png"
+    suggest_in_command: false
+    symbol: "䕔"
+    scale_ratio: 12
+    y_position: 2
+  mmoitem_title_2:
+    path: "block/icon/mmoitem_title_2.png"
+    suggest_in_command: false
+    symbol: "䕕"
+    scale_ratio: 12
+    y_position: 12
+  mmoitem_title_3:
+    path: "block/icon/mmoitem_title_3.png"
+    suggest_in_command: false
+    symbol: "䕖"
+    scale_ratio: 12
+    y_position: 2
+    
+    
+#技能banner
+  skill_banner:
+    path: "block/icon/skill_banner.png"
+    suggest_in_command: false
+    symbol: "㒟"
+    scale_ratio: 22
+    y_position: 14
+  skill_banner2:
+    path: "block/icon/skill_banner2.png"
+    suggest_in_command: false
+    symbol: "㶖"
+    scale_ratio: 25
+    y_position: 25
+  skill_banner3:
+    path: "block/icon/skill_banner3.png"
+    suggest_in_command: false
+    symbol: "㶁"
+    scale_ratio: 25
+    y_position: 25
+  skill_banner4:
+    path: "block/icon/skill_banner4.png"
+    suggest_in_command: false
+    symbol: "㣓"
+    scale_ratio: 25
+    y_position: 25
+    
+#技能图标
+  skill_damage_speed:
+    path: "block/icon/skill_damage_speed.png"
+    suggest_in_command: false
+    symbol: "㒣"
+    scale_ratio: 9
+    y_position: 7
+  skill_damage:
+    path: "block/icon/skill_damage.png"
+    suggest_in_command: false
+    symbol: "㒢"
+    scale_ratio: 9
+    y_position: 7
+  skill_strike_chance:
+    path: "block/icon/skill_strike_chance.png"
+    suggest_in_command: false
+    symbol: "䊛"
+    scale_ratio: 9
+    y_position: 7
+  skill_strike_power:
+    path: "block/icon/skill_strike_power.png"
+    suggest_in_command: false
+    symbol: "䊜"
+    scale_ratio: 9
+    y_position: 7
+  skill_skill_strike_chance:
+    path: "block/icon/skill_skill_strike_chance.png"
+    suggest_in_command: false
+    symbol: "䊧"
+    scale_ratio: 9
+    y_position: 7
+  skill_skill_strike_power:
+    path: "block/icon/skill_skill_strike_power.png"
+    suggest_in_command: false
+    symbol: "䊥"
+    scale_ratio: 9
+    y_position: 7
+  skill_range:
+    path: "block/icon/skill_range.png"
+    suggest_in_command: false
+    symbol: "䊴"
+    scale_ratio: 9
+    y_position: 7
+  skill_mana_mana:
+    path: "block/icon/skill_mana_mana.png"
+    suggest_in_command: false
+    symbol: "䑁"
+    scale_ratio: 9
+    y_position: 7
+  skill_tili_tili:
+    path: "block/icon/skill_tili_tili.png"
+    suggest_in_command: false
+    symbol: "䑂"
+    scale_ratio: 9
+    y_position: 7
+  skill_damage_bili:
+    path: "block/icon/skill_damage_bili.png"
+    suggest_in_command: false
+    symbol: "䑏"
+    scale_ratio: 9
+    y_position: 7
+  skill_damage_range:
+    path: "block/icon/skill_damage_range.png"
+    suggest_in_command: false
+    symbol: "䒏"
+    scale_ratio: 9
+    y_position: 7
+  skill_arrow_speed:
+    path: "block/icon/skill_arrow_speed.png"
+    suggest_in_command: false
+    symbol: "䒎"
+    scale_ratio: 9
+    y_position: 7
+
+  block_power:
+    path: "block/icon/block_power.png"
+    suggest_in_command: false
+    symbol: "만"
+    scale_ratio: 9
+    y_position: 7   
+  block_rating:
+    path: "block/icon/block_rating.png"
+    suggest_in_command: false
+    symbol: "오"
+    scale_ratio: 9
+    y_position: 7 
+  dodge_rating:
+    path: "block/icon/dodge_rating.png"
+    suggest_in_command: false
+    symbol: "그"
+    scale_ratio: 9
+    y_position: 7 
+
+  damage_reduction:
+    path: "block/icon/damage_reduction.png"
+    suggest_in_command: false
+    symbol: "중"
+    scale_ratio: 9
+    y_position: 7 
+
+  defense:
+    path: "block/icon/defense.png"
+    suggest_in_command: false
+    symbol: "놔"
+    scale_ratio: 9
+    y_position: 7
+
+
+
+  dodge_cooldown_reduction:
+    path: "block/icon/dodge_cooldown_reduction.png"
+    suggest_in_command: false
+    symbol: "정"
+    scale_ratio: 9
+    y_position: 7
+  fall_damage:
+    path: "block/icon/fall_damage.png"
+    suggest_in_command: false
+    symbol: "심"
+    scale_ratio: 9
+    y_position: 7
+  fire_damage:
+    path: "block/icon/fire_damage.png"
+    suggest_in_command: false
+    symbol: "한"
+    scale_ratio: 9
+    y_position: 7
+  movement_speed:
+    path: "block/icon/movement_speed.png"
+    suggest_in_command: false
+    symbol: "미"
+    scale_ratio: 9
+    y_position: 7
+
+
+  parry_cooldown:
+    path: "block/icon/parry_cooldown.png"
+    suggest_in_command: false
+    symbol: "망"
+    scale_ratio: 9
+    y_position: 7
+
+  parry_rating:
+    path: "block/icon/parry_rating.png"
+    suggest_in_command: false
+    symbol: "길"
+    scale_ratio: 9
+    y_position: 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  neg_shift_128:
+    path: "block/icon/null.png"
+    suggest_in_command: false
+    symbol: "ꐳ"
+    y_position: -32768
+    scale_ratio: -130
+  neg_shift_32:
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "ꐱ"
+    y_position: -32768
+    scale_ratio: -34
+  neg_shift_5:
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "䨺"
+    y_position: -32768
+    scale_ratio: -5
+  neg_shift_2:
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "䟟"
+    y_position: -32768
+    scale_ratio: -2
+  neg_shift_14:
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "俇"
+    y_position: -32768
+    scale_ratio: 7
+  neg_shift_63:
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "㰑"
+    y_position: -32768
+    scale_ratio: 73
+  neg_shift_512:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "ꐵ"
+    y_position: -32768
+    scale_ratio: -514
+  neg_shift_7:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "㰱"
+    y_position: -32768
+    scale_ratio: 7
+  neg_shift_131:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "㰰"
+    y_position: -32768
+    scale_ratio: 131
+  neg_shift_68:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/null.png"
+    symbol: "㰠"
+    y_position: -32768
+    scale_ratio: 68
+    
+    
+    
+    
+ #特殊gui
+  anvil_1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/anvil_1.png"
+    symbol: "㰒"
+    y_position: 58
+  cartography_1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/cartography_1.png"
+    symbol: "㰐"
+    y_position: 10
+  burning_1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/burning_1.png"
+    symbol: "㰲"
+    y_position: 13
+  brewing_1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/brewing_1.png"
+    symbol: "㲤"
+    y_position: 63
+  brewing_2:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/brewing_2.png"
+    symbol: "㳆"
+    y_position: 13
+  beacon_1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "block/icon/beacon_1.png"
+    symbol: "㳇"
+    y_position: 17
+    
+    
+    

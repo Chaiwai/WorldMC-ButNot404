@@ -1,0 +1,70 @@
+# 自动生成的UI图片配置文件
+info:
+  namespace: cw_items
+font_images:
+  fuhao1:
+    path: ui/icon1/fuhao1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  fuhao2:
+    path: ui/icon1/fuhao2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  fuhao3:
+    path: ui/icon1/fuhao3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  fuhao4:
+    path: ui/icon1/fuhao4.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  fuhao5:
+    path: ui/icon1/fuhao5.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  kill:
+    path: ui/icon1/kill.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  level:
+    path: ui/icon1/level.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  level_xp:
+    path: ui/icon1/level_xp.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  money:
+    path: ui/icon1/money.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  point:
+    path: ui/icon1/point.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8
+  point_pro:
+    path: ui/icon1/point_pro.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8

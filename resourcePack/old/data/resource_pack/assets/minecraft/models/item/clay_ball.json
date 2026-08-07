@@ -1,0 +1,34 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/clay_ball"
+    },
+	"overrides": [	
+		{"predicate": {"custom_model_data":2108}, "model": "assassin_model/assassin_dagger_a"},
+		{"predicate": {"custom_model_data":2109}, "model": "assassin_model/assassin_dash_1"},
+		{"predicate": {"custom_model_data":2110}, "model": "assassin_model/assassin_dash_2"},
+		{"predicate": {"custom_model_data":2111}, "model": "assassin_model/assassin_dash_3"},
+		{"predicate": {"custom_model_data":2112}, "model": "assassin_model/assassin_dash_4"},
+		{"predicate": {"custom_model_data":2113}, "model": "assassin_model/assassin_impact_1"},
+		{"predicate": {"custom_model_data":2114}, "model": "assassin_model/assassin_impact_2"},
+		{"predicate": {"custom_model_data":2115}, "model": "assassin_model/assassin_impact_3"},
+		{"predicate": {"custom_model_data":2116}, "model": "assassin_model/assassin_impact_4"},
+		{"predicate": {"custom_model_data":2117}, "model": "assassin_model/assassin_slash_1"},
+		{"predicate": {"custom_model_data":2118}, "model": "assassin_model/assassin_slash_2"},
+		{"predicate": {"custom_model_data":2119}, "model": "assassin_model/assassin_slash_3"},
+		{"predicate": {"custom_model_data":2120}, "model": "assassin_model/assassin_slash_4"},
+		{"predicate": {"custom_model_data":2121}, "model": "assassin_model/assassin_slash_5"},
+		{"predicate": {"custom_model_data":2122}, "model": "assassin_model/assassin_slash_6"},
+		{"predicate": {"custom_model_data":2123}, "model": "assassin_model/assassin_spin_1"},
+		{"predicate": {"custom_model_data":2124}, "model": "assassin_model/assassin_spin_2"},
+		{"predicate": {"custom_model_data":2125}, "model": "assassin_model/assassin_spin_3"},
+		{"predicate": {"custom_model_data":2126}, "model": "assassin_model/assassin_spin_4"},
+		{"predicate": {"custom_model_data":2127}, "model": "assassin_model/assassin_spin_5"},
+		{"predicate": {"custom_model_data":2128}, "model": "assassin_model/assassin_spin_6"},
+		{"predicate": {"custom_model_data":2129}, "model": "assassin_model/assassin_x_1"},
+		{"predicate": {"custom_model_data":2130}, "model": "assassin_model/assassin_x_2"},
+		{"predicate": {"custom_model_data":2131}, "model": "assassin_model/assassin_x_3"},
+		{"predicate": {"custom_model_data":2132}, "model": "assassin_model/assassin_x_4"},
+		{"predicate": {"custom_model_data":2133}, "model": "assassin_model/assassin_x_5"}
+    ]
+}

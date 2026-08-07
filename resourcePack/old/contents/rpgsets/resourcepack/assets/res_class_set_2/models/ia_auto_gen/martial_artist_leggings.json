@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer1": "res_class_set_2:martial_artist_leggings"
+	}
+}

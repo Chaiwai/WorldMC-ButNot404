@@ -1,0 +1,282 @@
+EXP1:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFkNTY4ZTE2YmU2Yzc5ZDY3NGY5N2FjMWU5NDlmOGE4ZjAzZTM4MzdiNmYwYjU2YTUzOWJmYzMzN2YxZWJkIn19fQ==
+      uuid: 701aa558-c1b0-4eb7-81e4-79b1af25283c
+    name: "&x&4&6&f&b&7&2&l经&x&4&4&f&c&8&4&l验&x&4&3&f&c&9&5&l果&x&4&1&f&d&a&7&l实"
+    commands:
+      cmd0:
+        format: cmi exp %player_name% 20l
+        delay: 0.0
+        console: true
+    displayed-type: \n\n     &f㵗 &7右键食用后,增加&x&4&6&f&b&7&22&x&4&4&f&c&8&d0&x&4&1&f&d&a&7级&7经验\n&7
+EXP2:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk5YWQ3YTA0MzE2OTI5OTRiNmM0MTJjN2VhZmI5ZTBmYzQ5OTc1MjQwYjczYTI3ZDI0ZWQ3OTcwMzVmYjg5NCJ9fX0=
+      uuid: 701aa558-c1b0-4eb7-81e4-79b1af25283c
+    name: "&x&4&6&f&b&7&2&l经&x&4&4&f&c&8&4&l验&x&4&3&f&c&9&5&l果&x&4&1&f&d&a&7&l实"
+    commands:
+      cmd0:
+        format: cmi exp %player_name% 40l
+        delay: 0.0
+        console: true
+    displayed-type: \n\n     &f㵗 &7右键食用后,增加&x&4&6&f&b&7&24&x&4&4&f&c&8&d0&x&4&1&f&d&a&7级&7经验\n&7
+SHARP_FLINT:
+  base:
+    material: FLINT
+    name: "&fSharp Flint"
+    tier: COMMON
+    repair: 20.0
+MWST:
+  base:
+    material: CARROT
+    name: "&a&l霉味"
+    custom-model-data: 1001.0
+    restore-food: 20.0
+    restore-saturation: 20.0
+    restore-mana: 100.0
+    restore-stamina: 100.0
+    restore-health: 100.0
+    commands:
+      cmd0:
+        format: effect clear
+        delay: 0.0
+        op: true
+FIRE_WORK:
+  base:
+    material: FIREWORK_ROCKET
+    name: "&6推进器"
+    commands:
+      cmd0:
+        format: mi ability FIREFLY
+        delay: 0.0
+        op: true
+"&B改名卡":
+  base:
+    material: PAPER
+    name: "&b改名卡"
+    custom-model-data: 10306.0
+    commands:
+      cmd0:
+        format: menu open 改名卡
+        delay: 0.0
+        op: true
+水晶CDK:
+  base:
+    material: PAPER
+    name: "&d璀璨水晶cdk&7(100)"
+    commands:
+      cmd0:
+        format: points give %player_name% 100
+        delay: 0.0
+        op: true
+    displayed-type: |
+      &f
+      &f &f     &71r:100&f㝹
+      &f &f     &7请勿乱花水晶,水晶可用来升级头衔等级
+      &f
+      &f
+    custom-model-data: 27.0
+金币CDK:
+  base:
+    material: PAPER
+    name: "&6金币cdk&7(1000)"
+    commands:
+      cmd0:
+        format: money give %player_name% 1000
+        delay: 0.0
+        op: true
+    displayed-type: |
+      &f
+      &f &f     &7右键使用&f㘏
+      &f
+    custom-model-data: 27.0
+ZYFS:
+  base:
+    material: BOOK
+    ability:
+      ability1:
+        type: HEALING_TOTEM
+        cooldown: 30.0
+        mode: RIGHT_CLICK
+    name: "&a&l治愈宝典"
+神秘大奖:
+  base:
+    material: MUD
+    custom-model-data: 114514.0
+    name: "&d&l&ka&6&l神秘大奖&d&l&ka"
+    displayed-type: |
+      &f
+      &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0&c请不要尝试把我放在主手/副手 并右键
+卸嵌宝石:
+  base:
+    material: GRINDSTONE
+    displayed-type: |
+      &f
+      &f &f &f包卸不包装:)
+      &f &f &c请慎重考虑
+      &f
+    name: 卸嵌宝石
+    random-unsocket: 1.0
+    inedible: true
+    enchants:
+      unbreaking: 10.0
+    hide-enchants: true
+r_book1_1:
+  base:
+    material: PAPER
+    custom-model-data: 18.0
+    name: 随机附魔书&e[&7普通&e]
+    commands:
+      cmd0:
+        format: spe random 普通 随机
+        delay: 0.0
+        op: true
+r_book2_1:
+  base:
+    material: PAPER
+    custom-model-data: 19.0
+    name: 随机附魔书&e[&a罕见&e]
+    commands:
+      cmd0:
+        format: spe random 罕见 随机
+        delay: 0.0
+        op: true
+r_book3_1:
+  base:
+    material: PAPER
+    custom-model-data: 20.0
+    name: 随机附魔书&e[&b精良&e]
+    commands:
+      cmd0:
+        format: spe random 精良 随机
+        delay: 0.0
+        op: true
+r_book4_1:
+  base:
+    material: PAPER
+    custom-model-data: 23.0
+    name: 随机附魔书&e[&d史诗&e]
+    commands:
+      cmd0:
+        format: spe random 史诗 随机
+        delay: 0.0
+        op: true
+r_book5_1:
+  base:
+    material: PAPER
+    custom-model-data: 21.0
+    name: 随机附魔书&e[&e稀世&e]
+    commands:
+      cmd0:
+        format: spe random 稀世 随机
+        delay: 0.0
+        op: true
+r_book6_1:
+  base:
+    material: PAPER
+    custom-model-data: 22.0
+    name: 随机附魔书&e[&6传奇&e]
+    commands:
+      cmd0:
+        format: spe random 传奇 随机
+        delay: 0.0
+        op: true
+r_book7_1:
+  base:
+    material: PAPER
+    custom-model-data: 24.0
+    name: 随机附魔书&e[&c皮肤&e]
+    commands:
+      cmd0:
+        format: spe random 皮肤 随机
+        delay: 0.0
+        op: true
+r_book8_1:
+  base:
+    material: PAPER
+    custom-model-data: 22.0
+    name: 随机附魔书&e[&c诅咒&e]
+    commands:
+      cmd0:
+        format: spe random 诅咒 随机
+        delay: 0.0
+        op: true
+道具珊瑚:
+  base:
+    material: HORN_CORAL
+    enchants:
+      unbreaking: 10.0
+    hide-enchants: true
+    name: "&e道具珊瑚cdk"
+    commands:
+      cmd0:
+        format: ply give %player_name% ec3 8
+        delay: 0.0
+        op: true
+    displayed-type: |
+      &f
+      &f &f     &7右键点击获得8道具积分
+      &f &f     &c仅在主城可用
+      &f &f     &8&m并非是我懒得做同步
+      &f
+      &f
+    custom-model-data: 666.0
+洞穴探险药水:
+  base:
+    material: GOLDEN_PICKAXE
+    name: "&e洞穴探险药水"
+    enchants:
+      xray: 3.0
+    hide-enchants: true
+    commands:
+      cmd0:
+        format: mi take CONSUMABLE 洞穴探险药水 %player_name% 1
+        delay: 0.0
+        op: true
+级八体验卡:
+  base:
+    material: APPLE
+    name: 级八体验卡&7(1min)
+    commands:
+      cmd0:
+        format: lp user %player_name% parent addtemp r8 1m
+        delay: 0.0
+        console: true
+CHIKEN:
+  base:
+    material: ITEM_FRAME
+    name: "&e甜甜花酿鸡"
+    custom-model-data: 10082.0
+    disable-interaction: true
+    restore-food: 6.0
+    restore-health: 24.0
+    restore-saturation: 10.0
+    displayed-type: |
+      &f
+      &f唯华的特色料理。
+      &f看似「黑暗」的荆棘让人不知从何下手，
+      &f经过一番折腾去除装饰，试着品尝时，
+      &f香嫩的鸡肉竟然爆发出了惊人的美味。
+      &f你的神情尽数落在唯华眼里，她似乎对你的反应很满意。
+      &f
+we_hua_food1:
+  base:
+    material: BRICK
+    name: "&c彩&e虹&b炒&a饭"
+    custom-model-data: 30217.0
+    disable-interaction: true
+    restore-food: -66.6
+    restore-health: -66.6
+    restore-saturation: -66.6
+    displayed-type: |
+      &f
+      &f唯华的特色料理。
+      &f看似「黑暗」的荆棘让人不知从何下手，
+      &f经过一番折腾去除装饰，试着品尝时，
+      &f香嫩的炒饭竟然爆发出了惊人的美味。
+      &f你的神情尽数落在唯华眼里，她似乎对你的反应很满意。
+      &f

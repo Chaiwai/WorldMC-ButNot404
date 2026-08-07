@@ -1,0 +1,299 @@
+title: ":offset_-9::cw_ui3:"
+
+events:
+  pre_open:
+    - context set max_shop1 to 88
+    - if: check context get 'player@day' != papi "%server_time_D%"
+      then: |-
+        context set 'player@day' to papi "%server_time_D%"
+        command "ply set %player_name% shop1 %math_3_floor(random()*{{context get max_shop1}})% 每日刷新" as console
+        context set 'player@tq_shop1' to 5
+        context set 'player@tq_shop1_sx' to 3
+        tell '新的一天{{context get player@day}}'
+        tell '新的一天{{context get player@tq_shop1}}'
+        tell '商品1: %playercurrency_shop1%'
+        sound entity_item_pickup by 1 1
+        sleep 0.1s
+        menu open cw_特权商店
+      else: |-
+        sound entity_item_pickup by 1 1
+        tell 旧的一天
+  close: sound entity_item_pickup by 1 2
+########################################
+p0: &p0
+  ia: cancel
+  name: "<gradient:#D1FB14:#FD9505>返回主页面</gradient>"
+  lore: |-
+    &f
+    &f&7返回上一级目录
+    &f
+    &f%img_left_click% &7点击返回
+    &f
+  action: |-
+    menu open cw_menu
+pt0: &pt0
+  ia: cancel
+  name: "&7返回"
+  lore: |-
+    &r 
+    &f %img_left_click% &7点击返回上一级目录
+    &r
+  action: |-
+    page set to 0
+    menu title to ":offset_-9::cw_ui3:"
+    sound entity_item_pickup by 1 1
+head: &head
+  update: 20
+  head: "{{player name}}"
+  name: "&f"
+  customModelData: 10010
+h: &h
+  name: "&f"
+  material: STRUCTURE_VOID
+#特权商店
+w0: &w0
+  texture:
+    source: ni
+    value: cwMade_items_1
+w1: &w1
+  texture:
+    source: ni
+    value: cwMade_items_3
+w2: &w2
+  texture:
+    source: ni
+    value: cwMade_items_29
+w3: &w3
+  texture:
+    source: ni
+    value: cwMade_items_12
+w4: &w4
+  texture:
+    source: ni
+    value: cwMade_items_14
+w5: &w5
+  texture:
+    source: ni
+    value: cwMade_items_15
+w6: &w6
+  texture:
+    source: ni
+    value: cwMade_items_16
+w7: &w7
+  texture:
+    source: ni
+    value: cwMade_items_17
+w8: &w8
+  texture:
+    source: ni
+    value: cwMade_items_18
+w9: &w9
+  texture:
+    source: ni
+    value: cwMade_items_2
+w10: &w10
+  texture:
+    source: ni
+    value: cwMade_items_8
+w11: &w11
+  texture:
+    source: ni
+    value: cwMade_items_9
+w12: &w12
+  texture:
+    source: ni
+    value: cwMade_items_10
+w13: &w13
+  texture:
+    source: ni
+    value: cwMade_items_13
+w14: &w14
+  texture:
+    source: ni
+    value: cwMade_items_27
+w15: &w15
+  texture:
+    source: ni
+    value: cwMade_items_23
+w16: &w16
+  texture:
+    source: ni
+    value: cwMade_items_24
+w17: &w17
+  texture:
+    source: ni
+    value: cwMade_items_39
+w18: &w18
+  texture:
+    source: ni
+    value: cwMade_items_40
+w19: &w19
+  texture:
+    source: ni
+    value: cwMade_items_41
+w20: &w20
+  texture:
+    source: ni
+    value: cwMade_items_42
+w21: &w21
+  texture:
+    source: ni
+    value: cwMade_items_43
+w22: &w22
+  texture:
+    source: ni
+    value: cwMade_items_44
+#空
+nu: &nu
+  ia: cw_made_items_cw_made_items_ui_1
+  name: "<#ff0000>&l敬<#de0239>&l请<#bc0572>&l期<#9b07ab>&l待"
+  lore: |-
+    &f
+    &f&7这个功能可能还没有上线~再等等吧
+    &f
+    &f&m%img_left_click% &7&m点击打开
+    &f
+  ########################################
+
+panels:
+  - scale: [9, 6]
+    pages:
+      # 常规
+      - layout: |-
+          ########C
+          Hh#12345#
+          hh#6789a#
+          ###bcdef#
+          ########T
+          O###X###N
+        items:
+          "T":
+            material: AIR
+            sub:
+              if: perm "aaa"
+              material: arrow
+              name: "op功能"
+              action: |-
+                context set 'player@day' to 0
+                tell "重置完成"
+                menu close
+          "H":
+            <<: *head
+          "h":
+            <<: *h
+          "O":
+            <<: *nu
+          "N":
+            <<: *nu
+          "X":
+            <<: *nu
+          "C":
+            <<: *p0
+          "1":
+            material: barrier
+            action:
+              left: tell '%playercurrency_shop1%'
+                tell 'left'
+              drop:
+                - if: all [ '{{context get player@tq_shop1_sx}}' >= 0 ]
+                  then: tell '成功'
+                  else: tell '次数不足'
+                - case: "%math_0_{{context get player@tq_shop1_sx}}%"
+                  when:
+                    "= 0": "tell '=0%math_{{context get player@tq_shop1_sx}}%'"
+                    "= 1": "tell '=1%math_{{context get player@tq_shop1_sx}}%'"
+                    "= 2": "tell '=2%math_{{context get player@tq_shop1_sx}}%'"
+                    "= 3": "tell '=3%math_{{context get player@tq_shop1_sx}}%'"
+                  else: |-
+                    context dec player@tq_shop1_sx by 1
+                    command "ply set %player_name% shop1 %math_3_floor(random()*{{context get max_shop1}})% 每日刷新" as console
+                    sleep 0.1s
+                    menu open cw_特权商店
+
+            lore: |-
+              &r
+              &r<gradient:#FFC9C9:#DECCFF>每日特惠(每日0:00刷新)</gradient>
+              &r<gradient:#A6A6A6:#454545:#A6A6A6>===============</gradient>
+              &r<#CCCCCC>物品售价 &7: &6150 &f%img_mnoney%
+              &r<#CCCCCC>购买次数 &7: <#ccfec9>{{context get player@tq_shop1}}
+              &r<#CD9EFF>刷新次数 &7: <#ccfec9>{{context get player@tq_shop1_sx}}
+              &r<gradient:#A6A6A6:#454545:#A6A6A6>===============</gradient>
+              &r&7 按下 &f%img_left_click% <#ffffff>&7 购买 &61 &f个
+              &r&7 按下 <#75FF91>q键 &7刷新当前商品
+              &r<gradient:#A6A6A6:#454545:#A6A6A6>===============</gradient>
+              &r
+            sub:
+              - if: check papi "%playercurrency_shop1%" <= 14.29
+                <<: *w0
+              - if: check papi "%playercurrency_shop1%" <= 28.58
+                <<: *w1
+              - if: check papi "%playercurrency_shop1%" <= 42.87
+                <<: *w2
+              - if: check papi "%playercurrency_shop1%" <= 50.01
+                <<: *w3
+              - if: check papi "%playercurrency_shop1%" <= 57.15
+                <<: *w4
+              - if: check papi "%playercurrency_shop1%" <= 64.29
+                <<: *w5
+              - if: check papi "%playercurrency_shop1%" <= 68.58
+                <<: *w6
+              - if: check papi "%playercurrency_shop1%" <= 72.87
+                <<: *w7
+              - if: check papi "%playercurrency_shop1%" <= 77.16
+                <<: *w8
+              - if: check papi "%playercurrency_shop1%" <= 78.59
+                <<: *w9
+              - if: check papi "%playercurrency_shop1%" <= 80.02
+                <<: *w10
+              - if: check papi "%playercurrency_shop1%" <= 81.45
+                <<: *w11
+              - if: check papi "%playercurrency_shop1%" <= 82.88
+                <<: *w12
+              - if: check papi "%playercurrency_shop1%" <= 84.31
+                <<: *w13
+              - if: check papi "%playercurrency_shop1%" <= 85.74
+                <<: *w14
+              - if: check papi "%playercurrency_shop1%" <= 86.45
+                <<: *w15
+              - if: check papi "%playercurrency_shop1%" <= 87.16
+                <<: *w16
+              - if: check papi "%playercurrency_shop1%" <= 87.30
+                <<: *w17
+              - if: check papi "%playercurrency_shop1%" <= 87.44
+                <<: *w18
+              - if: check papi "%playercurrency_shop1%" <= 87.58
+                <<: *w19
+              - if: check papi "%playercurrency_shop1%" <= 87.72
+                <<: *w20
+              - if: check papi "%playercurrency_shop1%" <= 87.86
+                <<: *w21
+              - if: check papi "%playercurrency_shop1%" <= 88.00
+                <<: *w22
+          "2":
+            <<: *nu
+          "3":
+            <<: *nu
+          "4":
+            <<: *nu
+          "5":
+            <<: *nu
+          "6":
+            <<: *nu
+          "7":
+            <<: *nu
+          "8":
+            <<: *nu
+          "9":
+            <<: *nu
+          "a":
+            <<: *nu
+          "b":
+            <<: *nu
+          "c":
+            <<: *nu
+          "d":
+            <<: *nu
+          "e":
+            <<: *nu
+          "f":
+            <<: *nu

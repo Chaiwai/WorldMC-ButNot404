@@ -1,0 +1,17 @@
+info:
+  namespace: ia_various_configs
+minecraft_lang_overwrite:
+  esc_menu_texts:
+    entries:
+      "menu.returnToGame": "返回服务器"
+      "menu.disconnect": "退出服务器"
+      "container.inventory": " "
+      "container.repair": "修复和命名 㰑&f㰒"
+      "container.cartography_table": ":offset_2:制图台 㰑㰑&f㰐"
+      "container.furnace": ":offset_151:熔炉:offset_75:&f㰲"
+      "container.blast_furnace": ":offset_151:高炉:offset_75:&f㰲"
+      "container.smoker": ":offset_151:烟熏炉:offset_75:&f㰲"
+      "container.brewing": "§f㲤:offset_83:&8酿造台:offset_83:§f㳆:offset_58:"
+      "block.minecraft.beacon.primary": "§f㳇:offset_71:§r主效果:offset_145:"
+    languages:
+      - ALL

@@ -1,0 +1,16 @@
+cw_swords_tem:
+  shift_right:
+    consume:
+      amount: 1
+    actions:
+      - "console: eco give %player_name% <nbt::money> 转化为<nbt::money>&f%img_mnoney%"
+  shift_left:
+    consume:
+      amount: 1
+    actions:
+      - "console: ply give %player_name% level_xp <nbt::xp> 物品转化"
+cwMade_sword_1:
+  shift_right:
+    actions:
+      - "tell: test1"
+      - "castSkill: 暴风雪"

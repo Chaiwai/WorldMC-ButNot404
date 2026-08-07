@@ -1,0 +1,32 @@
+basic:
+  id: towering
+  name: 屹立
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 在血量较高时受到伤害增加，在血量较低时受到伤害减少
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+params:
+  health-judging-line: (0.4+0.05*level)*maxBlood
+variables:
+  leveled:
+    high-damage-multiplier: :1+0.0375*{level}
+    low-damage-multiplier: :1-0.075*{level}

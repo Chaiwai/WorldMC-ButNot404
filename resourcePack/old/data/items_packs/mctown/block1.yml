@@ -1,0 +1,470 @@
+info:
+  namespace: mctown
+items:
+  touming:
+    display_name: touming
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/touming.png
+  key:
+    display_name: key01
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/key01.png
+  coin1:
+    display_name: 古老的金币
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/coin1.png
+  scroll:
+    display_name: 任务卷轴
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/scroll.png
+  crystal:
+    display_name: 符印
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/crystal.png
+  blank:
+    display_name: blank
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 43960
+      textures:
+      - block/blank.png
+  afk:
+    display_name: afk
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/afk.png
+  ornamentsbag:
+    display_name: ornamentsbag
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/ornamentsbag 
+  redpacket1:
+    display_name: redpacket1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/redpacket1
+  redpacket2:
+    display_name: redpacket2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/redpacket2
+  redpacket3:
+    display_name: redpacket3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/redpacket3
+  offline:
+    display_name: offline
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/offline.png
+  auction111:
+    display_name: auction111
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/auction111.png
+  auction222:
+    display_name: auction222
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/auction222.png
+  money_icon:
+    display_name: money_icon
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/money_icon.png
+  online:
+    display_name: online
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/online.png
+  miner_select:
+    display_name: miner_select
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/miner_select.png   
+  hunter_select:
+    display_name: hunter_select
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/hunter_select.png  
+  builder_select:
+    display_name: builder_select
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/builder_select.png  
+  fisherman_select:
+    display_name: fisherman_select
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/fisherman_select.png  
+  farmer_select:
+    display_name: farmer_select
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/farmer_select.png 
+  digger_select:
+    display_name: digger_select
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/digger_select.png
+  woodcutter_select:
+    display_name: woodcutter_select
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/woodcutter_select.png
+  back:
+    display_name: back
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/back.png
+  check:
+    display_name: check
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/check.png
+  confirm:
+    display_name: confirm
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/confirm.png
+  cancel:
+    display_name: cancel
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/cancel.png
+  clear:
+    display_name: clear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/clear.png
+  right_yellow:
+    display_name: right_yellow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/right_yellow.png
+  left_yellow:
+    display_name: left_yellow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/left_yellow.png
+  expired:
+    display_name: expired
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/expired.png
+  category:
+    display_name: category
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/category.png
+  homehome:
+    display_name: homehome
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/homehome.png
+  inventory:
+    display_name: inventory
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/inventory.png
+  bought:
+    display_name: bought
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/bought.png
+  cross:
+    display_name: cross
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/cross.png
+  homeblock:
+    display_name: home
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/home.png
+  info:
+    display_name: info
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/info.png
+  next:
+    display_name: next
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/next.png
+  diamond_cog:
+    display_name: diamond_cog
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/diamond_cog.png
+  gold_cog:
+    display_name: gold_cog
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/gold_cog.png
+  shang:
+    display_name: shang
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/shang.png
+  xia:
+    display_name: xia
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/xia.png
+  qiandao111:
+    display_name: qiandao111
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/qiandao111.png
+  qiandao222:
+    display_name: qiandao222
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/qiandao222.png
+  qiandao333:
+    display_name: qiandao333
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/qiandao333.png
+  progress_red:
+    display_name: progress_red
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/progress_red.png
+  progress_yellow:
+    display_name: progress_yellow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/progress_yellow.png
+  progress_green:
+    display_name: progress_green
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/progress_green.png
+  dailyquests1:
+    display_name: dailyquests1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/dailyquests1
+  jobss:
+    display_name: jobss
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobss
+  jobs_0:
+    display_name: jobs_0
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_0
+  jobs_1:
+    display_name: jobs_1
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_1
+  jobs_2:
+    display_name: jobs_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_2
+  jobs_3:
+    display_name: jobs_3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_3
+  jobs_4:
+    display_name: jobs_4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_4
+  jobs_5:
+    display_name: jobs_5
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_5
+  jobs_6:
+    display_name: jobs_6
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_6
+  jobs_7:
+    display_name: jobs_7
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_7
+  jobs_8:
+    display_name: jobs_8
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_8
+  jobs_9:
+    display_name: jobs_9
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_9
+  jobs_left:
+    display_name: jobs_left
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_left
+  jobs_middle:
+    display_name: jobs_middle
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_middle
+  jobs_right:
+    display_name: jobs_right
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/jobs_right
+  off_scoreboard:
+    display_name: off_scoreboard
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/off_scoreboard
+  job01:
+    display_name: job01
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/job01
+  job02:
+    display_name: job02
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/job02
+  menu_button:
+    display_name: menu_button
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/menu_button
+  emoteblock:
+    display_name: emoteblock
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/emoteblock
+  quest21:
+    display_name: quest1
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/mctown_quest_banner.png

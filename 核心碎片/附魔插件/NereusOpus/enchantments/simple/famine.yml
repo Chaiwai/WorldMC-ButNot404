@@ -1,0 +1,30 @@
+basic:
+  id: famine
+  name: 啜食
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 在攻击时有概率使对手获得饥饿效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    require-full-charge: true
+  leveled:
+    chance: :3*{level}
+    duration: :40*{level}
+    amplifier: :0.5+{level}/2

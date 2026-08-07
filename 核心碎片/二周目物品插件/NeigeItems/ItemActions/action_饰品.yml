@@ -1,0 +1,110 @@
+饰品_tem:
+  tick_35:
+    tick: 18
+    actions:
+      - "set-potion-effect: SPEED 1 1"
+饰品_速度1:
+  tick_32:
+    tick: 18
+    actions:
+      - "set-potion-effect: SPEED 1 1"
+  tick_33:
+    tick: 18
+    actions:
+      - "set-potion-effect: SPEED 1 1"
+  tick_34:
+    tick: 18
+    actions:
+      - "set-potion-effect: SPEED 1 1"
+  tick_35:
+    tick: 18
+    actions:
+      - "set-potion-effect: SPEED 1 1"
+饰品_跳跃1:
+  tick_32:
+    tick: 18
+    actions:
+      - "set-potion-effect: jump_boost 1 1"
+  tick_33:
+    tick: 18
+    actions:
+      - "set-potion-effect: jump_boost 1 1"
+  tick_34:
+    tick: 18
+    actions:
+      - "set-potion-effect: jump_boost 1 1"
+  tick_35:
+    tick: 18
+    actions:
+      - "set-potion-effect: jump_boost 1 1"
+饰品_急迫1:
+  tick_32:
+    tick: 18
+    actions:
+      - "set-potion-effect: haste 1 1"
+  tick_33:
+    tick: 18
+    actions:
+      - "set-potion-effect: haste 1 1"
+  tick_34:
+    tick: 18
+    actions:
+      - "set-potion-effect: haste 1 1"
+  tick_35:
+    tick: 18
+    actions:
+      - "set-potion-effect: haste 1 1"
+
+饰品_太阳石:
+  tick_32:
+    tick: 18
+    actions:
+      - "func: 饰品_太阳石"
+  tick_33:
+    tick: 18
+    actions:
+      - "func: 饰品_太阳石"
+  tick_34:
+    tick: 18
+    actions:
+      - "func: 饰品_太阳石"
+  tick_35:
+    tick: 18
+    actions:
+      - "func: 饰品_太阳石"
+
+饰品_月亮石:
+  tick_32:
+    tick: 18
+    actions:
+      - "func: 饰品_月亮石"
+  tick_33:
+    tick: 18
+    actions:
+      - "func: 饰品_月亮石"
+  tick_34:
+    tick: 18
+    actions:
+      - "func: 饰品_月亮石"
+  tick_35:
+    tick: 18
+    actions:
+      - "func: 饰品_月亮石"
+
+饰品_天界石:
+  tick_32:
+    tick: 18
+    actions:
+      - "func: 饰品_天界石"
+  tick_33:
+    tick: 18
+    actions:
+      - "func: 饰品_天界石"
+  tick_34:
+    tick: 18
+    actions:
+      - "func: 饰品_天界石"
+  tick_35:
+    tick: 18
+    actions:
+      - "func: 饰品_天界石"

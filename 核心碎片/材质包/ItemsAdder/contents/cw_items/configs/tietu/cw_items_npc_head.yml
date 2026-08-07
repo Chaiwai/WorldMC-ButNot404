@@ -1,0 +1,184 @@
+# 自动生成的UI图片配置文件
+info:
+  namespace: cw_items
+font_images:
+  bee:
+    path: ui/npc_head/bee.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_1:
+    path: ui/npc_head/cw_npc_1.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_10:
+    path: ui/npc_head/cw_npc_10.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_2:
+    path: ui/npc_head/cw_npc_2.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_3:
+    path: ui/npc_head/cw_npc_3.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_4:
+    path: ui/npc_head/cw_npc_4.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_5:
+    path: ui/npc_head/cw_npc_5.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_6:
+    path: ui/npc_head/cw_npc_6.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_7:
+    path: ui/npc_head/cw_npc_7.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_8:
+    path: ui/npc_head/cw_npc_8.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  cw_npc_9:
+    path: ui/npc_head/cw_npc_9.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  mctown_farmer:
+    path: ui/npc_head/mctown_farmer.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_anni:
+    path: ui/npc_head/npc_anni.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_bill:
+    path: ui/npc_head/npc_bill.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_chef:
+    path: ui/npc_head/npc_chef.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_dlk:
+    path: ui/npc_head/npc_dlk.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_guarda:
+    path: ui/npc_head/npc_guarda.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_guardb:
+    path: ui/npc_head/npc_guardb.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_hana:
+    path: ui/npc_head/npc_hana.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_jaden:
+    path: ui/npc_head/npc_jaden.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_jb:
+    path: ui/npc_head/npc_jb.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_jianzhu:
+    path: ui/npc_head/npc_jianzhu.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_kuangwu:
+    path: ui/npc_head/npc_kuangwu.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_liulang:
+    path: ui/npc_head/npc_liulang.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_louis_sleep:
+    path: ui/npc_head/npc_louis_sleep.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_louis_weak:
+    path: ui/npc_head/npc_louis_weak.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_maoxianjia:
+    path: ui/npc_head/npc_maoxianjia.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_monk:
+    path: ui/npc_head/npc_monk.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_nongzuowu:
+    path: ui/npc_head/npc_nongzuowu.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_shiping:
+    path: ui/npc_head/npc_shiping.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_shopper:
+    path: ui/npc_head/npc_shopper.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_slime:
+    path: ui/npc_head/npc_slime.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_thiner:
+    path: ui/npc_head/npc_thiner.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_tj:
+    path: ui/npc_head/npc_tj.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  npc_witch:
+    path: ui/npc_head/npc_witch.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8
+  speech:
+    path: ui/npc_head/speech.png
+    show_in_gui: true
+    suggest_in_command: true
+    y_position: 8

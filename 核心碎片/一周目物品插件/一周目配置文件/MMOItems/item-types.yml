@@ -1,0 +1,553 @@
+# 默认的物品类型。这些不能被移除。它们
+# 可以被用作'父类'来创建新的物品类型
+# 这将会像另一个物品类型一样表现。父类
+# 在/language/item_type.yml生成他们自己的配置文件
+# 每种物品类型都有其未识别物品的模板。
+# 如果你不指定一个像默认的SWORD物品类型，
+# 它将使用默认的（未翻译的）英文模板。
+# 当使用/mmoitems命令时作为参考
+SWORD:
+    # display参数用于在物品浏览器和配方列表中显示物品
+    # 当你移动工作台时。你可以使用耐久度来自定义纹理。
+    # 在1.14中，耐久度被CustomModelData替代。
+    display: IRON_SWORD:0
+    # 在物品描述中显示的名称。
+    name: "剑"
+    # 未识别物品的模板。
+    unident-item:
+        name: "&f#prefix#未识别的剑"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    # 物品类型的作用
+    on-attack: slashing_attack_effect
+DAGGER:
+    display: STONE_SWORD
+    name: "匕首"
+    unident-item:
+        name: "&f#prefix#未识别的匕首"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: piercing_attack_effect
+SPEAR:
+    display: TRIDENT
+    name: "矛"
+    unident-item:
+        name: "&f#prefix#未识别的矛"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: piercing_attack_effect
+HAMMER:
+    display: IRON_AXE
+    name: "锤"
+    unident-item:
+        name: "&f#prefix#未识别的锤"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: blunt_attack_effect
+GAUNTLET:
+    display: IRON_SHOVEL
+    name: "护手"
+    unident-item:
+        name: "&f#prefix#未识别的护手"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: blunt_attack_effect
+    on-entity-interact: gauntlet_special_attack
+WHIP:
+    display: LEAD
+    name: "鞭子"
+    unident-item:
+        name: "&f#prefix#未识别的鞭子"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+    on-left-click: whip_attack
+    on-attack: slashing_attack_effect
+STAFF:
+    display: DIAMOND_HOE
+    name: "法杖"
+    unident-item:
+        name: "&f#prefix#未识别的法杖"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+    on-left-click: staff_default
+    attack-cooldown-key: "staff"
+    on-entity-interact: staff_special_attack # 特殊动作当右键点击实体
+BOW:
+    display: BOW
+    name: "弓"
+    unident-item:
+        name: "&f#prefix#未识别的弓"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+CROSSBOW:
+    display: WOODEN_PICKAXE
+    name: "弩"
+    unident-item:
+        name: "&f#prefix#未识别的弩"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+    on-right-click: crossbow_attack
+MUSKET:
+    display: IRON_HORSE_ARMOR
+    name: "火枪"
+    unident-item:
+        name: "&f#prefix#未识别的火枪"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+    # Lutes and muskets attack effects are hardcoded as
+    # of MI 6.10 and cannot be modified at the moment.
+LUTE:
+    display: NAME_TAG
+    name: "琵琶"
+    unident-item:
+        name: "&f#prefix#未识别的琵琶"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+    # Lutes and muskets attack effects are hardcoded as
+    # of MI 6.10 and cannot be modified at the moment.
+# Applies stats in both hands
+CATALYST:
+    display: PRISMARINE_SHARD
+    name: "催化剂"
+    unident-item:
+        name: "&f#prefix#未识别的催化剂"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+# Applies stats in offhand only
+OFF_CATALYST:
+    display: PRISMARINE_CRYSTALS
+    name: "催化剂 (副手)"
+    unident-item:
+        name: "&f#prefix#未识别的催化剂"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+# Applies stats in mainhand only
+MAIN_CATALYST:
+    display: PRISMARINE_CRYSTALS
+    name: "催化剂 (主手)"
+    unident-item:
+        name: "&f#prefix#未识别的催化剂"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+ORNAMENT:
+    display: GOLD_NUGGET
+    name: "饰品"
+    unident-item:
+        name: "&f#prefix#未识别的饰品"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+ACCESSORY:
+    display: DIAMOND
+    name: "配饰"
+    unident-item:
+        name: "&f#prefix#未识别的配饰"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+ARMOR:
+    display: IRON_CHESTPLATE
+    name: "护甲"
+    unident-item:
+        name: "&f#prefix#未识别的护甲"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+TOOL:
+    display: IRON_PICKAXE
+    name: "工具"
+    unident-item:
+        name: "&f#prefix#未识别的工具"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+CONSUMABLE:
+    display: APPLE
+    name: "消耗品"
+    unident-item:
+        name: "&f#prefix#未识别的消耗品"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+MISCELLANEOUS:
+    display: WATER_BUCKET
+    name: "杂物"
+    unident-item:
+        name: "&f#prefix#未识别的杂物"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+SKIN:
+    display: LEATHER
+    name: "皮肤"
+    unident-item:
+        name: "&f#prefix#未识别的皮肤"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+GEM_STONE:
+    display: EMERALD
+    name: "宝石"
+    unident-item:
+        name: "&f#prefix#未识别的宝石"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+BLOCK:
+    display: STONE:0
+    name: "方块"
+    unident-item:
+        name: "&f#prefix#未识别的方块"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+# 默认子类型
+GREATSWORD:
+    display: DIAMOND_SWORD
+    name: "双手剑"
+    parent: "SWORD"
+    unident-item:
+        name: "&f#prefix#未识别的双手剑"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: slashing_attack_effect
+LONG_SWORD:
+    display: STONE_SWORD
+    name: "长剑"
+    parent: "SWORD"
+    unident-item:
+        name: "&f#prefix#未识别的长剑"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: slashing_attack_effect
+KATANA:
+    display: IRON_SWORD
+    name: "武士刀"
+    parent: "SWORD"
+    unident-item:
+        name: "&f#prefix#未识别的武士刀"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: slashing_attack_effect
+THRUSTING_SWORD:
+    display: GOLDEN_SWORD
+    name: "刺剑"
+    parent: "DAGGER"
+    unident-item:
+        name: "&f#prefix#未识别的刺剑"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: piercing_attack_effect
+AXE:
+    display: STONE_AXE
+    name: "斧"
+    parent: "SWORD"
+    unident-item:
+        name: "&f#prefix#未识别的斧"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: slashing_attack_effect
+GREATAXE:
+    display: DIAMOND_AXE
+    name: "双手斧"
+    parent: "SWORD"
+    unident-item:
+        name: "&f#prefix#未识别的双手斧"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: slashing_attack_effect
+HALBERD:
+    display: IRON_AXE
+    name: "戟"
+    parent: "SWORD"
+    unident-item:
+        name: "&f#prefix#未识别的戟"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: blunt_attack_effect
+LANCE:
+    display: STICK
+    name: "长矛"
+    parent: "SPEAR"
+    unident-item:
+        name: "&f#prefix#未识别的长矛"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: piercing_attack_effect
+GREATHAMMER:
+    display: DIAMOND_AXE
+    name: "双手锤"
+    parent: "HAMMER"
+    unident-item:
+        name: "&f#prefix#未识别的双手锤"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: blunt_attack_effect
+GREATSTAFF:
+    display: DIAMOND_HOE
+    name: "大法杖"
+    parent: "HAMMER"
+    unident-item:
+        name: "&f#prefix#未识别的大法杖"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: blunt_attack_effect
+STAVE:
+    display: IRON_HOE
+    name: "棍"
+    parent: "HAMMER"
+    unident-item:
+        name: "&f#prefix#未识别的棍"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    on-attack: blunt_attack_effect
+TOME:
+    display: BOOK
+    name: "卷轴"
+    parent: "CATALYST"
+    unident-item:
+        name: "&f#prefix#未识别的卷轴"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+TALISMAN:
+    display: TOTEM_OF_UNDYING
+    name: "护符"
+    parent: "CATALYST"
+    unident-item:
+        name: "&f#prefix#未识别的护符"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+WAND:
+    display: STICK
+    name: "魔杖"
+    parent: "STAFF"
+    unident-item:
+        name: "&f#prefix#未识别的魔杖"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+    on-left-click: staff_default
+    attack-cooldown-key: "staff"
+    on-entity-interact: staff_special_attack # 特殊动作当右键点击实体
+GREATBOW:
+    display: BOW
+    name: "重型弓"
+    parent: "BOW"
+    unident-item:
+        name: "&f#prefix#未识别的重型弓"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+    disable-melee-attacks: true
+SHIELD:
+    display: SHIELD
+    name: "盾"
+    parent: CATALYST
+    unident-item:
+        name: "&f#prefix#未识别的盾"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"
+MATERIAL:
+    display: PAPER
+    name: "材料"
+    parent: "MISCELLANEOUS"
+    unident-item:
+        name: "&f#prefix#未识别的材料"
+        lore:
+            - "&7这个物品未被识别。我必须"
+            - "&7找到一种方法来识别它！"
+            - "{tier}"
+            - "{tier}&8物品信息："
+            - "{range}&8- &7等级范围：&e#range#"
+            - "{tier}&8- &7物品等级：#prefix##tier#"

@@ -1,0 +1,20 @@
+info:
+    namespace: playbox_cherryblossomfurniture
+categories:
+    playbox_cherryblossomfurniture:
+        enabled: true
+        skip_if_already: false
+        icon: "cherryblossomfurniture_flowerpot"
+        name: "Cherry Blossom Furniture"
+        permission: cherryblossomfurniture.permission
+        items:
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_basket"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_chair"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_flowerpot"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_kotatsu"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_lamp"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_leaves"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_pond"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_roomdivider"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_sofa"
+            - "playbox_cherryblossomfurniture:cherryblossomfurniture_table"

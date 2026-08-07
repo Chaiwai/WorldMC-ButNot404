@@ -1,0 +1,146 @@
+##nulledassets##
+info:
+  namespace: res_class_set_3
+armors_rendering:
+  bard_armor:
+    color: '#1A428A'
+    layer_1: bard_layer_1
+    layer_2: bard_layer_2
+    use_color: false
+  druid_armor:
+    color: '#234A92'
+    layer_1: druid_layer_1
+    layer_2: druid_layer_2
+    use_color: false
+  gunner_armor:
+    color: '#6590DD'
+    layer_1: gunner_layer_1
+    layer_2: gunner_layer_2
+    use_color: false
+  summoner_armor:
+    color: '#637698'
+    layer_1: summoner_layer_1
+    layer_2: summoner_layer_2
+    use_color: false
+items:
+  bard_helmet:
+    resource:
+      model_id: 93339
+      generate: true
+      textures:
+      - bard_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: bard_armor
+  bard_chestplate:
+    resource:
+      model_id: 93339
+      generate: true
+      textures:
+      - bard_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: bard_armor
+  bard_leggings:
+    resource:
+      model_id: 93339
+      generate: true
+      textures:
+      - bard_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: bard_armor
+  bard_boots:
+    resource:
+      model_id: 93339
+      generate: true
+      textures:
+      - bard_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: bard_armor
+  druid_helmet:
+    resource:
+      model_id: 93429
+      generate: true
+      textures:
+      - druid_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: druid_armor
+  druid_chestplate:
+    resource:
+      model_id: 93429
+      generate: true
+      textures:
+      - druid_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: druid_armor
+  druid_leggings:
+    resource:
+      model_id: 93429
+      generate: true
+      textures:
+      - druid_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: druid_armor
+  druid_boots:
+    resource:
+      model_id: 93429
+      generate: true
+      textures:
+      - druid_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: druid_armor
+  summoner_helmet:
+    resource:
+      model_id: 96429
+      generate: true
+      textures:
+      - summoner_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: summoner_armor
+  summoner_chestplate:
+    resource:
+      model_id: 96429
+      generate: true
+      textures:
+      - summoner_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: summoner_armor
+  summoner_leggings:
+    resource:
+      model_id: 96429
+      generate: true
+      textures:
+      - summoner_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: summoner_armor
+  summoner_boots:
+    resource:
+      model_id: 96429
+      generate: true
+      textures:
+      - summoner_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: summoner_armor
+# RYhkX#qOtH7Wsnv+IkMWKpAo8RO4efLy9FnvFqf763MIKXU9/P1rGTR40gT/a3DkAG2Ysh

@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/diamond"},"overrides":[{"predicate":{"custom_model_data":11000},"model":"dragonstone_guardians:wings"},{"predicate":{"custom_model_data":11001},"model":"item/diamond"}]}

@@ -1,0 +1,26 @@
+basic:
+  id: goliath
+  name: 劣势转化
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 对比自己血量高的生物造成的伤害提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1+0.02*{level}

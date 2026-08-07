@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"model","model":"item/copper_ingot"},"entries":[{"threshold":10000,"model":{"type":"model","model":"rpgitem:ia_auto_gen/nb_copper"}},{"threshold":10001,"model":{"type":"model","model":"item/copper_ingot"}}]}}

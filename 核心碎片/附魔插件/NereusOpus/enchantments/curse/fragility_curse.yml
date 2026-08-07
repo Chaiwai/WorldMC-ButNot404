@@ -1,0 +1,28 @@
+basic:
+  id: fragility_curse
+  name: 脆弱诅咒
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 使物品被使用时额外扣除耐久度
+alternative:
+  grindstoneable: false
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+  is-cursed: true
+rarity: 诅咒
+targets:
+- all
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:unbreaking
+variables:
+  leveled:
+    durability-decrease-extra: :2*{level}

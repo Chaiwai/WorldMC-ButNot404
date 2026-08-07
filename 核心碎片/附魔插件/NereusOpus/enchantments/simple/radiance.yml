@@ -1,0 +1,28 @@
+basic:
+  id: radiance
+  name: 光辉
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 射出的箭矢落地附近的生物发光
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- bow
+- crossbow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    range: :1.25*{level}
+    duration: :30*{level}

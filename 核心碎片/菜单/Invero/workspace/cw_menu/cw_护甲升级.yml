@@ -1,0 +1,243 @@
+title: "&0&l护甲的意义"
+
+events:
+  post_open:
+    # - command "ply set %player_name% page 38 开启菜单" as console
+    - context set player@menu_page to papi "%playercurrency_page%"
+    - icon by "护甲槽" update
+    - icon by "模板槽" update
+    - icon by "宝石槽" update
+    - sound entity.villager.ambient by 100 2
+  close: sound entity.villager.yes by 100 2
+
+layout: |-
+  |      |
+  |`模板槽`    `头盔_模板``头盔``头盔_镶嵌`
+  |  `护甲槽`  `胸甲_模板``胸甲``胸甲_镶嵌`
+  |`宝石槽`    `裤腿_模板``裤腿``裤腿_镶嵌`
+  |     `靴子_模板``靴子``靴子_镶嵌`
+  |      |
+
+items:
+  "头盔":
+    name: "当前装备"
+    material: "%checkitem_getinfo:39_mat:%"
+    customModelData: "%checkitem_getinfo:39_custommodeldata:%"
+    sub:
+      - rule: check papi "%ni_data_get_39_id%" != "护甲"
+        material: barrier
+    action:
+      - command "ply set %player_name% page 39" as console
+      - context set player@menu_page to 39
+      - icon by "护甲槽" update
+      - icon by "模板槽" update
+      - icon by "宝石槽" update
+  "胸甲":
+    name: "当前装备"
+    material: "%checkitem_getinfo:38_mat:%"
+    customModelData: "%checkitem_getinfo:38_custommodeldata:%"
+    sub:
+      - rule: check papi "%ni_data_get_38_id%" != "护甲"
+        material: barrier
+    action:
+      - command "ply set %player_name% page 38" as console
+      - context set player@menu_page to 38
+      - icon by "护甲槽" update
+      - icon by "模板槽" update
+      - icon by "宝石槽" update
+  "裤腿":
+    name: "当前装备"
+    material: "%checkitem_getinfo:37_mat:%"
+    customModelData: "%checkitem_getinfo:37_custommodeldata:%"
+    sub:
+      - rule: check papi "%ni_data_get_37_id%" != "护甲"
+        material: barrier
+    action:
+      - command "ply set %player_name% page 37" as console
+      - context set player@menu_page to 37
+      - icon by "护甲槽" update
+      - icon by "模板槽" update
+      - icon by "宝石槽" update
+  "靴子":
+    name: "当前装备"
+    material: "%checkitem_getinfo:36_mat:%"
+    customModelData: "%checkitem_getinfo:36_custommodeldata:%"
+    lore:
+      - "%ni_data_get_36_id%"
+    sub:
+      - rule: check papi "%ni_data_get_36_id%" != "护甲"
+        material: barrier
+    action:
+      - command "ply set %player_name% page 36" as console
+      - context set player@menu_page to 36
+      - icon by "护甲槽" update
+      - icon by "模板槽" update
+      - icon by "宝石槽" update
+
+  "头盔_模板":
+    name: "当前模板"
+    material: "%ni_data_get_39_盔甲纹饰.模板%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_39_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+  "胸甲_模板":
+    name: "当前模板"
+    material: "%ni_data_get_38_盔甲纹饰.模板%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_38_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+  "裤腿_模板":
+    name: "当前模板"
+    material: "%ni_data_get_37_盔甲纹饰.模板%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_37_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+  "靴子_模板":
+    name: "当前模板"
+    material: "%ni_data_get_36_盔甲纹饰.模板%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_36_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+
+  "头盔_镶嵌":
+    name: "当前镶嵌"
+    material: "%ni_data_get_39_盔甲纹饰.镶嵌%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_39_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+  "胸甲_镶嵌":
+    name: "当前镶嵌"
+    material: "%ni_data_get_38_盔甲纹饰.镶嵌%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_38_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+  "裤腿_镶嵌":
+    name: "当前镶嵌"
+    material: "%ni_data_get_37_盔甲纹饰.镶嵌%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_37_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+  "靴子_镶嵌":
+    name: "当前镶嵌"
+    material: "%ni_data_get_36_盔甲纹饰.镶嵌%"
+    lore: |-
+      &r&F
+      &r&F&d>>  &e当前镶嵌  &d<<
+      &r&F
+    sub:
+      - rule: check papi "%ni_data_get_36_id%" != "护甲"
+        ia: cancel
+        lore: |-
+          &r&f
+          &r&f&c这里还什么都没有....
+          &r&f
+  "护甲槽":
+    name: "护甲槽, %playercurrency_page%   aaa%checkitem_getinfo:{math_0_36+{{context get player@menu_page}}}_mat:%"
+    material: "%checkitem_getinfo:{{context get player@menu_page}}_mat:%"
+    customModelData: "%checkitem_getinfo:{{context get player@menu_page}}_custommodeldata:%"
+    action:
+      - icon by "护甲槽" update
+      - icon by "模板槽" update
+      - icon by "宝石槽" update
+  "模板槽":
+    name: "护甲槽"
+    material: "%ni_data_get_{{context get player@menu_page}}_盔甲纹饰.模板%"
+    action:
+      catch: input_text
+      cancel: ["cancel"]
+      beforeInput: |
+        tell "&a把需要修改的纹饰拿在手上后, 输入任何字符"
+        tell "&7输入 &f'cancel' &c来取消操作(不返还金币)"
+        command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.模板":"%checkitem_getinfo:mainhand_mat:%"}' as op
+      afterInput:
+        sleep 0.1s
+        tell "%playercurrency_page%"
+        tell """ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.模板":"%checkitem_getinfo:mainhand_mat:%"}"""
+        icon by "护甲槽" update
+        icon by "模板槽" update
+        icon by "宝石槽" update
+        # menu close
+      onCancel: |
+        title "&c你已取消当前操作" subtitle pass
+      onRepeat: |
+        tell "?"
+  "宝石槽":
+    name: "宝石槽"
+    material: "%ni_data_get_{{context get player@menu_page}}_盔甲纹饰.镶嵌%"
+    action:
+      catch: input_text
+      cancel: ["cancel"]
+      beforeInput: |
+        tell "&a把需要修改的镶嵌宝石拿在手上后, 输入任何字符"
+        tell "&7输入 &f'cancel' &c来取消操作(不返还金币)"
+        command 'ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"%checkitem_getinfo:mainhand_mat:%"}' as op
+      afterInput:
+        sleep 0.1s
+        tell "%playercurrency_page%"
+        tell """ni editSlot %player_name% %playercurrency_page% rebuild {"盔甲纹饰.镶嵌":"%checkitem_getinfo:mainhand_mat:%"}"""
+        icon by "护甲槽" update
+        icon by "模板槽" update
+        icon by "宝石槽" update
+        # menu close
+      onCancel: |
+        title "&c你已取消当前操作" subtitle pass
+      onRepeat: |
+        tell "?"
+
+# %ni_data_get_{math_0_36+{{context get player@menu_page}}}_盔甲纹饰.模板%

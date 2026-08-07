@@ -1,0 +1,9 @@
+{
+    "credit": "Made with Blockbench",
+    "textures": {
+        "0": "cw_armor:armor/amethyst/layer_1",
+        "particle": "cw_armor:armor/amethyst/layer_1"
+    },
+    "elements": [],
+    "display": {}
+}

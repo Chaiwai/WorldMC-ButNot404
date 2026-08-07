@@ -1,0 +1,75 @@
+LRHF:
+  base:
+    material: EMERALD
+    name: '&b&l猎人护符'
+    attack-damage: 5.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 50.0
+    enchants:
+      unbreaking:
+        base: 5.0
+        scale: 5.0
+        spread: 0.0
+        max-spread: 0.0
+    hide-enchants: true
+QLZY:
+  base:
+    material: FEATHER
+    name: '&b&l轻灵之羽'
+    fall-damage-reduction: 100.0
+    disable-mcmmo-repair: true
+    movement-speed: 0.05
+    hide-enchants: true
+    enchants:
+      unbreaking: 5.0
+SDSY:
+  base:
+    material: NETHER_STAR
+    name: '&6&l名刀司命'
+    enchants:
+      unbreaking: 5.0
+    dodge-rating: 2.0
+    dodge-cooldown-reduction: 100.0
+    block-rating: 20.0
+    block-power: 50.0
+FS:
+  base:
+    material: PRISMARINE_CRYSTALS
+    cooldown-reduction: 100000.0
+    critical-strike-chance: 100.0
+SLIME_DUN:
+  base:
+    material: SHIELD
+    custom-model-data: 10000.0
+    name: '&a&l黏黏果冻'
+    defense: 20.0
+    attack-damage: -3.0
+    block-power: 80.0
+    block-rating: 25.0
+    movement-speed: -0.02
+    unbreakable: true
+    faction-damage-slime: -10000.0
+    displayed-type: |
+      &r
+      &7        &7 护主 V
+      &7        &7 我会尽一切努力保护主人"&7祂是这么说的
+      &7        &7 似乎并不是祂的第一人主人
+      &r
+'1':
+  base:
+    material: PRISMARINE_CRYSTALS
+    critical-strike-power: 500.0
+    critical-strike-chance: 100.0
+翅膀:
+  base:
+    material: BRICK
+    custom-model-data: 10001.0
+    name: '&d恶魔之翼'
+    ability:
+      ability1:
+        type: LIGHT_DASH
+        mode: SHIFT_RIGHT_CLICK
+        length: 0.01
+        cooldown: 0.0
+        damage: 3.0
+        stamina: 0.0

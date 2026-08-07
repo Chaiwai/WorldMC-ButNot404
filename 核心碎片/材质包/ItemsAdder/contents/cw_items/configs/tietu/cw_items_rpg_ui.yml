@@ -1,0 +1,22 @@
+# 自动生成的UI图片配置文件
+info:
+  namespace: cw_items
+font_images:
+  rpg_title_1:
+    path: ui/rpg_ui/rpg_title_1.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 15
+    y_position: 6
+  rpg_title_2:
+    path: ui/rpg_ui/rpg_title_2.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 15
+    y_position: 6
+  rpg_title_3:
+    path: ui/rpg_ui/rpg_title_3.png
+    show_in_gui: true
+    suggest_in_command: true
+    scale_ratio: 15
+    y_position: 6

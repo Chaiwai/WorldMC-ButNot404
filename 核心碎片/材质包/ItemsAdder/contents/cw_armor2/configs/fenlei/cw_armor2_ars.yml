@@ -1,0 +1,41 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_armor2
+categories:
+  cw_armor2:
+    enabled: true
+    name: cw_armor2
+    items:
+    - cw_armor2:archer_boots
+    - cw_armor2:archer_chestplate
+    - cw_armor2:archer_helmet
+    - cw_armor2:archer_leggings
+    - cw_armor2:assassin_boots
+    - cw_armor2:assassin_chestplate
+    - cw_armor2:assassin_helmet
+    - cw_armor2:assassin_leggings
+    - cw_armor2:bard_boots
+    - cw_armor2:bard_chestplate
+    - cw_armor2:bard_helmet
+    - cw_armor2:bard_leggings
+    - cw_armor2:dragon_boots
+    - cw_armor2:dragon_chestplate
+    - cw_armor2:dragon_helmet
+    - cw_armor2:dragon_leggings
+    - cw_armor2:mage_boots
+    - cw_armor2:mage_chestplate
+    - cw_armor2:mage_helmet
+    - cw_armor2:mage_leggings
+    - cw_armor2:necromancer_boots
+    - cw_armor2:necromancer_chestplate
+    - cw_armor2:necromancer_helmet
+    - cw_armor2:necromancer_leggings
+    - cw_armor2:summoner_boots
+    - cw_armor2:summoner_chestplate
+    - cw_armor2:summoner_helmet
+    - cw_armor2:summoner_leggings
+    - cw_armor2:warrior_boots
+    - cw_armor2:warrior_chestplate
+    - cw_armor2:warrior_helmet
+    - cw_armor2:warrior_leggings
+    icon: cw_armor2:archer_boots

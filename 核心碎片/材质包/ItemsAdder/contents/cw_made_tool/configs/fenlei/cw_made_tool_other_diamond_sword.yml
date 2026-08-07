@@ -1,0 +1,55 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_made_tool
+categories:
+  diamond_sword:
+    enabled: true
+    icon: cw_made_tool:dingzhi_we_hua
+    name: no_model_diamond_sword
+    items:
+    - cw_made_tool:dingzhi_we_hua
+    - cw_made_tool:dingzhi_we_hua2
+    - cw_made_tool:enderite0_sword
+    - cw_made_tool:enderite_sword
+    - cw_made_tool:mctown_aspect_dragon
+    - cw_made_tool:mctown_aspect_sword
+    - cw_made_tool:mctown_aspect_sword_1
+    - cw_made_tool:mctown_aspect_sword_2
+    - cw_made_tool:mctown_aspect_void
+    - cw_made_tool:mctown_aspect_void_1
+    - cw_made_tool:mctown_aspect_void_2
+    - cw_made_tool:mctown_astraea
+    - cw_made_tool:mctown_astraea_1
+    - cw_made_tool:mctown_astraea_2
+    - cw_made_tool:mctown_hyperion
+    - cw_made_tool:mctown_hyperion_1
+    - cw_made_tool:mctown_hyperion_2
+    - cw_made_tool:mctown_katana_tier_1
+    - cw_made_tool:mctown_katana_tier_2
+    - cw_made_tool:mctown_katana_tier_3
+    - cw_made_tool:mctown_katana_tier_4
+    - cw_made_tool:mctown_necromancer_sword
+    - cw_made_tool:mctown_necromancer_sword_1
+    - cw_made_tool:mctown_necromancer_sword_2
+    - cw_made_tool:mctown_prismarine_blade
+    - cw_made_tool:mctown_scorpion_foil
+    - cw_made_tool:mctown_scylla
+    - cw_made_tool:mctown_spirit_sword
+    - cw_made_tool:mctown_suit1_sword1
+    - cw_made_tool:mctown_suit1_sword2
+    - cw_made_tool:mctown_suit1_sword3
+    - cw_made_tool:mctown_suit1_sword4
+    - cw_made_tool:mctown_suit1_sword5
+    - cw_made_tool:mctown_suit1_sword6
+    - cw_made_tool:mctown_suit1_sword7
+    - cw_made_tool:mctown_thick_scorpion_foil
+    - cw_made_tool:mctown_thick_tacticians_sword
+    - cw_made_tool:mctown_valkyrie
+    - cw_made_tool:mctown_vetala_sword_1
+    - cw_made_tool:mctown_vetala_sword_2
+    - cw_made_tool:mctown_vetala_sword_3
+    - cw_made_tool:mctown_warped_aspect_sword
+    - cw_made_tool:mctown_wither_cloak_sword
+    - cw_made_tool:mctown_wither_cloak_sword_1
+    - cw_made_tool:mctown_wither_cloak_sword_2
+    - cw_made_tool:mctown_yeti_sword

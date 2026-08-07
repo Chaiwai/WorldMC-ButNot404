@@ -1,0 +1,41 @@
+# 自动生成的物品配置文件
+info:
+  namespace: cw_armor
+equipments:
+  amber:
+    type: armor
+    layer_1: armor/amber/layer_1
+    layer_2: armor/amber/layer_2
+items:
+  amber_boots:
+    name: amber_boots
+    resource:
+      generate: true
+      texture: items/amber/boots.png
+      material: NETHERITE_boots
+    equipment:
+      id: cw_armor:amber
+  amber_chestplate:
+    name: amber_chestplate
+    resource:
+      generate: true
+      texture: items/amber/chestplate.png
+      material: NETHERITE_chestplate
+    equipment:
+      id: cw_armor:amber
+  amber_helmet:
+    name: amber_helmet
+    resource:
+      generate: true
+      texture: items/amber/helmet.png
+      material: NETHERITE_helmet
+    equipment:
+      id: cw_armor:amber
+  amber_leggings:
+    name: amber_leggings
+    resource:
+      generate: true
+      texture: items/amber/leggings.png
+      material: NETHERITE_leggings
+    equipment:
+      id: cw_armor:amber

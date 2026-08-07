@@ -1,0 +1,24 @@
+#**ItemsAdder-configs-分类**
+#===========================
+info:
+  namespace: "cw_made_tool" #[命名空间]**
+categories: #[分类]**
+  cw_made_tool_sword: #[分类的内部名]**
+    enabled: true #[是否启用该分类]**
+    icon: "cw_made_tool:cw_made_tool_sword0" #[GUI分类显示的图标]**
+    name: "刀" #[GUI分类显示的图标名称]**
+    items: #[打包]**
+      - "cw_made_tool:cw_made_tool_sword0"
+  # cw_made_tool_pickaxe: #[分类的内部名]**
+  #   enabled: true #[是否启用该分类]**
+  #   icon: "cw_made_items:cw_made_items_coin3" #[GUI分类显示的图标]**
+  #   name: "镐]**
+  #     - "cw_made_items:cw_made_items_coin0"
+  #     - "cw_made_items:cw_made_items_coin1"
+  #     - "cw_made_items:cw_made_items_coin2"
+  #     - "cw_made_items:cw_made_items_coin3"
+  #     - "cw_made_items:cw_made_items_slime_coin0"
+  #     - "cw_made_items:cw_made_items_slime_coin1"
+  #     - "cw_made_items:cw_made_items_slime_coin2"
+  #     - "cw_made_items:cw_made_items_slime_coin3"
+#[打包物品内容]**

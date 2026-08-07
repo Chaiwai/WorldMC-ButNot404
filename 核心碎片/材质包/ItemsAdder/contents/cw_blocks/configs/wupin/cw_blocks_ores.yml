@@ -1,0 +1,858 @@
+# 自动生成的矿石配置文件
+info:
+  namespace: cw_blocks
+loots:
+  blocks:
+    adamantite:
+      type: cw_blocks:adamantite
+      items:
+        ruby:
+          item: cw_items:adamantite
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    aquamarine:
+      type: cw_blocks:aquamarine
+      items:
+        ruby:
+          item: cw_items:aquamarine
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    chlorophyte:
+      type: cw_blocks:chlorophyte
+      items:
+        ruby:
+          item: cw_items:chlorophyte
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    cobalt:
+      type: cw_blocks:cobalt
+      items:
+        ruby:
+          item: cw_items:cobalt
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    crimtane:
+      type: cw_blocks:crimtane
+      items:
+        ruby:
+          item: cw_items:crimtane
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    demonite:
+      type: cw_blocks:demonite
+      items:
+        ruby:
+          item: cw_items:demonite
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    enderite:
+      type: cw_blocks:enderite
+      items:
+        ruby:
+          item: cw_items:enderite
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    gem:
+      type: cw_blocks:gem
+      items:
+        ruby:
+          item: cw_items:gem
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    hellstone:
+      type: cw_blocks:hellstone
+      items:
+        ruby:
+          item: cw_items:hellstone
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    luminite:
+      type: cw_blocks:luminite
+      items:
+        ruby:
+          item: cw_items:luminite
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    meteorite:
+      type: cw_blocks:meteorite
+      items:
+        ruby:
+          item: cw_items:meteorite
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    mythril:
+      type: cw_blocks:mythril
+      items:
+        ruby:
+          item: cw_items:mythril
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    niter:
+      type: cw_blocks:niter
+      items:
+        ruby:
+          item: cw_items:niter
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    orichalcum:
+      type: cw_blocks:orichalcum
+      items:
+        ruby:
+          item: cw_items:orichalcum
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    palladium:
+      type: cw_blocks:palladium
+      items:
+        ruby:
+          item: cw_items:palladium
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    platinum:
+      type: cw_blocks:platinum
+      items:
+        ruby:
+          item: cw_items:platinum
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    silver:
+      type: cw_blocks:silver
+      items:
+        ruby:
+          item: cw_items:silver
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    titanium:
+      type: cw_blocks:titanium
+      items:
+        ruby:
+          item: cw_items:titanium
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+    tungsten:
+      type: cw_blocks:tungsten
+      items:
+        ruby:
+          item: cw_items:tungsten
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 1
+          max_amount: 3
+          chance: 100
+#矿物items
+items:
+  adamantite:
+    display_name: "精金矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 沙漠"
+      - "&7方块硬度: 180"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/adamantite.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  aquamarine:
+    display_name: "海蓝宝石"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系:???"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/aquamarine.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:stardust_pickaxe
+
+  chlorophyte:
+    display_name: "叶绿矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 丛林"
+      - "&7方块硬度: 200"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/chlorophyte.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  cobalt:
+    display_name: "钴矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 海洋"
+      - "&7方块硬度: 140"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/cobalt.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  crimtane:
+    display_name: "猩红矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 绯红森林"
+      - "&7方块硬度: 120"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/crimtane.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_2
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  demonite:
+    display_name: "魔矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 沼泽"
+      - "&7方块硬度: 120"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/demonite.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_2
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  enderite:
+    display_name: "末影合金矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 末地"
+      - "&7方块硬度: 100[下界合金]"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/enderite.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - NETHERITE_PICKAXE
+          - cw_made_tool:pickaxe_level_0
+          - cw_made_tool:pickaxe_level_1
+          - cw_made_tool:pickaxe_level_2
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  gem:
+    display_name: "宝石"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系:???"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/gem.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:stardust_pickaxe
+
+  hellstone:
+    display_name: "狱岩矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 玄武三角地形"
+      - "&7方块硬度: 130"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/hellstone.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  luminite:
+    display_name: "夜明矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系:???"
+      - "&7方块硬度: 240"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/luminite.png
+    specific_properties:
+      block:
+        hardness: 10
+        light_level: 15 #make block emit ligh
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  meteorite:
+    display_name: "陨石矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系:???"
+      - "&7方块硬度: 110"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/meteorite.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        light_level: 12 #make block emit ligh
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_1
+          - cw_made_tool:pickaxe_level_2
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  mythril:
+    display_name: "秘银矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 寒冷群系"
+      - "&7方块硬度: 170"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/mythril.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  niter:
+    display_name: "硝石"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系:???"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/niter.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:stardust_pickaxe
+
+  orichalcum:
+    display_name: "山铜矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 热带草原"
+      - "&7方块硬度: 160"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/orichalcum.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  palladium:
+    display_name: "钯金矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 恶地"
+      - "&7方块硬度: 150"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/palladium.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  platinum:
+    display_name: "铂金矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 主世界"
+      - "&7方块硬度: 90[钻石]"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/platinum.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - DIAMOND_PICKAXE
+          - cw_made_tool:pickaxe_level_-1
+          - NETHERITE_PICKAXE
+          - cw_made_tool:pickaxe_level_0
+          - cw_made_tool:pickaxe_level_1
+          - cw_made_tool:pickaxe_level_2
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  silver:
+    display_name: "银矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 主世界"
+      - "&7方块硬度: 70[石制]"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/silver.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - STONE_PICKAXE
+          - cw_made_tool:pickaxe_level_-3
+          - IRON_PICKAXE
+          - cw_made_tool:pickaxe_level_-2
+          - DIAMOND_PICKAXE
+          - cw_made_tool:pickaxe_level_-1
+          - NETHERITE_PICKAXE
+          - cw_made_tool:pickaxe_level_0
+          - cw_made_tool:pickaxe_level_1
+          - cw_made_tool:pickaxe_level_2
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  titanium:
+    display_name: "钛金矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 深暗之域"
+      - "&7方块硬度: 190"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/titanium.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15
+
+  tungsten:
+    display_name: "钨矿"
+    lore:
+      - "&7可从中获取矿物"
+      - "&7刷新群系: 主世界"
+      - "&7方块硬度: 80[铁制]"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - ore/tungsten.png
+    specific_properties:
+      block:
+        hardness: 10
+        no_explosion: true
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_whitelist:
+          - IRON_PICKAXE
+          - cw_made_tool:pickaxe_level_-2
+          - DIAMOND_PICKAXE
+          - cw_made_tool:pickaxe_level_-1
+          - NETHERITE_PICKAXE
+          - cw_made_tool:pickaxe_level_0
+          - cw_made_tool:pickaxe_level_1
+          - cw_made_tool:pickaxe_level_2
+          - cw_made_tool:pickaxe_level_3
+          - cw_made_tool:pickaxe_level_4
+          - cw_made_tool:pickaxe_level_5
+          - cw_made_tool:pickaxe_level_6
+          - cw_made_tool:pickaxe_level_7
+          - cw_made_tool:pickaxe_level_8
+          - cw_made_tool:pickaxe_level_9
+          - cw_made_tool:pickaxe_level_10
+          - cw_made_tool:pickaxe_level_11
+          - cw_made_tool:pickaxe_level_12
+          - cw_made_tool:pickaxe_level_13
+          - cw_made_tool:pickaxe_level_14
+          - cw_made_tool:pickaxe_level_15

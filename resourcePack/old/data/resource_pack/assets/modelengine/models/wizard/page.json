@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/wizard"},"elements":[{"from":[8.027675,8.317347,3.6195087],"to":[8.027675,15.317347,12.61951],"faces":{"east":{"uv":[5.75,2.0,6.875,2.875],"tintindex":0,"rotation":0,"texture":"#0"},"west":{"uv":[5.75,2.0,6.875,2.875],"tintindex":0,"rotation":0,"texture":"#0"}},"rotation":{"origin":[8.0,8.25,8.0],"angle":22.5,"axis":"z"}}]}

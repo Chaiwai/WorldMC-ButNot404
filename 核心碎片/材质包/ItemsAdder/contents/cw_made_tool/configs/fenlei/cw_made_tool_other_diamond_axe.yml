@@ -1,0 +1,11 @@
+# 自动生成的分类配置文件
+info:
+  namespace: cw_made_tool
+categories:
+  diamond_axe:
+    enabled: true
+    icon: cw_made_tool:enderite0_axe
+    name: no_model_diamond_axe
+    items:
+    - cw_made_tool:enderite0_axe
+    - cw_made_tool:enderite_axe

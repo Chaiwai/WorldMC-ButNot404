@@ -1,0 +1,17 @@
+info:
+  namespace: scosmetics
+items:
+  sintia_hat:
+    display_name: "&fsintia_hat"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: sintia_hat
+    behaviours:
+      hat: true
+  sintia_staff:
+    display_name: "&fsintia_staff"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: sintia_staff

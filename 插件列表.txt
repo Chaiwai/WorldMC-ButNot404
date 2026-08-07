@@ -1,0 +1,11 @@
+[19:02:53 INFO]: ℹ Server Plugins (74):
+[19:02:53 INFO]: Paper Plugins (5):
+[19:02:54 INFO]:  - EconomyShopGUI, HuskHomes, HuskSync, nightcore, PlugManX
+[19:02:54 INFO]: Bukkit Plugins (69):
+[19:02:54 INFO]:  - Aiyatsbus, ajLeaderboards, AuthMe, Citizens, CMI, CMILib, CompanionsPlus, CoreProtect, CtOnlineReward, CustomCrafting
+[19:02:54 INFO]:  CustomNameplates, DecentHolograms, eco, ExcellentCrates, GlobalMarketPlus, HuskHomesGUI, Interactions, Invero, ItemEdit, ItemsAdder
+[19:02:54 INFO]:  ItemSoulBind, Join-Leave, LagFixer, LiteBans, LiteSignIn, LoneLibs, LuckPerms, mcMMO, McMmoView, MMOItems
+[19:02:54 INFO]:  ModelEngine, Multiverse-Core, MyPet, MythicLib, MythicMobs, NBTAPI, NeigeItems, NereusOpus, NoBuildPlus, NoCheatPlus
+[19:02:54 INFO]:  packetevents, PlaceholderAPI, PlayerCurrency, PlayerGuild, PlayerPoints, PlayerTask, PlayerTitle, PlayerTop, PlayerWarp, PlotSquared
+[19:02:54 INFO]:  ProtocolLib, QuickShop-Hikari, RandomShop, Residence, ResidenceEnhance, SetMaxHealth, ShopPro, SkinsRestorer, TAB-Bridge, TrChat
+[19:02:54 INFO]:  Vault, ViaBackwards, ViaRewind, ViaVersion, WolfyUtilities, WorldEdit, WorldListTrashCan, XConomy, XMcPay
