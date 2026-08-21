@@ -1,0 +1,30 @@
+basic:
+  id: illusion_aspect
+  name: 致幻
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 在攻击时有概率使对手获得反胃+失明效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :3*{level}
+    duration: :120*{level}
+    amplifier: :{level}
+  ordinary:
+    require-full-charge: true

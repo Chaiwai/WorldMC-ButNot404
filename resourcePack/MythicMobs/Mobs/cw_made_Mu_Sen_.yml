@@ -1,0 +1,15 @@
+#**Mythicmobs生物实体生成**禁止删除本行**检测用**
+cw_made_Mu_Sen_:  #[实体名]***
+  Type: ZOMBIFIED_PIGLIN  #[种类=僵尸猪灵]***
+  Display: 'Mu_Sen_'  #[实体显示名]***
+  Health: 20  #[实体血量]***
+  Damage: 5  #[实体近战伤害]***
+  Armor: 20  #[护甲]***
+  Faction: cw_player  #[阵营名]***
+  Modules:  #[威胁度/受伤间隔]***
+    ThreatTable: true  #[威胁度]***
+#[威胁度/受伤间隔内容]***
+  Disguise: player Mu_Sen_ setDynamicName true  #[[伪装]伪装玩家+令实体显示它的显示名]***
+  KillMessages:  #[自定义击杀玩家信息]***
+  - '被Mu_Sen_解雇了!'  #[自定义击杀玩家信息]***
+#[自定义击杀玩家信息内容]***

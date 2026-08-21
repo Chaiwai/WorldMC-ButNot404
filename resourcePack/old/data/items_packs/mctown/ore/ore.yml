@@ -1,0 +1,275 @@
+info:
+  namespace: mctown
+categories:
+  ore1:
+    enabled: true
+    icon: "mctown:mctown_ore1"
+    name: '洛特系列'
+    permission: "ia.menu.mctown"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:mctown_ore1
+      - mctown:mctown_ore_mine1
+      - mctown:mctown_ore_axe1
+      - mctown:mctown_ore_bow1
+      - mctown:mctown_ore_hoe1
+      - mctown:mctown_ore_pickaxe1
+      - mctown:mctown_ore_shovel1
+      - mctown:mctown_ore_sword1
+      - mctown:mctown_ore2
+      - mctown:mctown_ore_mine2
+      - mctown:mctown_ore_axe2
+      - mctown:mctown_ore_bow2
+      - mctown:mctown_ore_hoe2
+      - mctown:mctown_ore_pickaxe2
+      - mctown:mctown_ore_shovel2
+      - mctown:mctown_ore_sword2
+      - mctown:mctown_ore3
+      - mctown:mctown_ore_mine3
+      - mctown:mctown_ore_axe3
+      - mctown:mctown_ore_bow3
+      - mctown:mctown_ore_hoe3
+      - mctown:mctown_ore_pickaxe3
+      - mctown:mctown_ore_shovel3
+      - mctown:mctown_ore_sword3
+items:
+  mctown_ore1:
+    display_name: "乌多坎原矿"
+    permission: mctown.ore.mctown_ore1
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_path: ore/1/mctown_ore1
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_ore_mine1:
+    display_name: "乌多坎矿石"
+    permission: mctown.ore.mctown_ore_mine1
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_path: ore/1/mctown_ore_mine1
+  mctown_ore_axe1:
+    display_name: "乌多坎斧"
+    permission: mctown.ore.mctown_ore_axe1
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures: 
+      - "ore/1/mctown_ore_axe1"
+  mctown_ore_bow1:
+    display_name: "乌多坎弓"
+    permission: mctown.ore.mctown_ore_bow1
+    resource:
+      material: BOW
+      generate: true
+      textures: 
+      - "ore/1/mctown_ore_bow1"
+  mctown_ore_hoe1:
+    display_name: "乌多坎锄"
+    permission: mctown.ore.mctown_ore_hoe1
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures: 
+      - "ore/1/mctown_ore_hoe1"
+  mctown_ore_pickaxe1:
+    display_name: "乌多坎镐"
+    permission: mctown.ore.mctown_ore_pickaxe1
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures: 
+      - "ore/1/mctown_ore_pickaxe1"
+  mctown_ore_shovel1:
+    display_name: "乌多坎锹"
+    permission: mctown.ore.mctown_ore_shovel1
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures: 
+      - "ore/1/mctown_ore_shovel1"
+  mctown_ore_sword1:
+    display_name: "乌多坎剑"
+    permission: mctown.ore.mctown_ore_sword1
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures: 
+      - "ore/1/mctown_ore_sword1"
+  mctown_ore2:
+    display_name: "末影乌多坎原矿"
+    permission: mctown.ore.mctown_ore2
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_path: ore/2/mctown_ore2
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_ore_mine2:
+    display_name: "末影乌多坎矿石"
+    permission: mctown.ore.mctown_ore_mine2
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_path: ore/2/mctown_ore_mine2
+  mctown_ore_axe2:
+    display_name: "末影乌多坎斧"
+    permission: mctown.ore.mctown_ore_axe2
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures: 
+      - "ore/2/mctown_ore_axe2"
+  mctown_ore_bow2:
+    display_name: "末影乌多坎弓"
+    permission: mctown.ore.mctown_ore_bow2
+    resource:
+      material: BOW
+      generate: true
+      textures: 
+      - "ore/2/mctown_ore_bow2"
+  mctown_ore_hoe2:
+    display_name: "末影乌多坎锄"
+    permission: mctown.ore.mctown_ore_hoe2
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures: 
+      - "ore/2/mctown_ore_hoe2"
+  mctown_ore_pickaxe2:
+    display_name: "末影乌多坎镐"
+    permission: mctown.ore.mctown_ore_pickaxe2
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures: 
+      - "ore/2/mctown_ore_pickaxe2"
+  mctown_ore_shovel2:
+    display_name: "末影乌多坎锹"
+    permission: mctown.ore.mctown_ore_shovel2
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures: 
+      - "ore/2/mctown_ore_shovel2"
+  mctown_ore_sword2:
+    display_name: "末影乌多坎剑"
+    permission: mctown.ore.mctown_ore_sword2
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures: 
+      - "ore/2/mctown_ore_sword2" 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  mctown_ore3:
+    display_name: "地狱乌多坎原矿"
+    permission: mctown.ore.mctown_ore3
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_path: ore/3/mctown_ore3
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_ore_mine3:
+    display_name: "地狱乌多坎矿石"
+    permission: mctown.ore.mctown_ore_mine3
+    resource:
+      material: BLAZE_POWDER
+      generate: false
+      model_path: ore/3/mctown_ore_mine3
+  mctown_ore_axe3:
+    display_name: "地狱乌多坎斧"
+    permission: mctown.ore.mctown_ore_axe3
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures: 
+      - "ore/3/mctown_ore_axe3"
+  mctown_ore_bow3:
+    display_name: "地狱乌多坎弓"
+    permission: mctown.ore.mctown_ore_bow3
+    resource:
+      material: BOW
+      generate: true
+      textures: 
+      - "ore/3/mctown_ore_bow3"
+  mctown_ore_hoe3:
+    display_name: "地狱乌多坎锄"
+    permission: mctown.ore.mctown_ore_hoe3
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures: 
+      - "ore/3/mctown_ore_hoe3"
+  mctown_ore_pickaxe3:
+    display_name: "地狱乌多坎镐"
+    permission: mctown.ore.mctown_ore_pickaxe3
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures: 
+      - "ore/3/mctown_ore_pickaxe3"
+  mctown_ore_shovel3:
+    display_name: "地狱乌多坎锹"
+    permission: mctown.ore.mctown_ore_shovel3
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures: 
+      - "ore/3/mctown_ore_shovel3"
+  mctown_ore_sword3:
+    display_name: "地狱乌多坎剑"
+    permission: mctown.ore.mctown_ore_sword3
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures: 
+      - "ore/3/mctown_ore_sword3" 

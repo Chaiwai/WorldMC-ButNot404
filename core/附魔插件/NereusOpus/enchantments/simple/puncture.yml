@@ -1,0 +1,26 @@
+basic:
+  id: puncture
+  name: 破甲
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 对壳类生物的伤害提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1+0.5*{level}

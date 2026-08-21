@@ -1,0 +1,210 @@
+info:
+  namespace: "mctown"
+font_images:
+  pvpanimation001:
+    path: "logo/pvp/pvpanimation001.png"
+    suggest_in_command: false
+    symbol: "䶵"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation002:
+    path: "logo/pvp/pvpanimation002.png"
+    suggest_in_command: false
+    symbol: "䶴"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation003:
+    path: "logo/pvp/pvpanimation003.png"
+    suggest_in_command: false
+    symbol: "䶳"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation004:
+    path: "logo/pvp/pvpanimation004.png"
+    suggest_in_command: false
+    symbol: "䶲"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation005:
+    path: "logo/pvp/pvpanimation005.png"
+    suggest_in_command: false
+    symbol: "䶱"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation006:
+    path: "logo/pvp/pvpanimation006.png"
+    suggest_in_command: false
+    symbol: "䶰"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation007:
+    path: "logo/pvp/pvpanimation007.png"
+    suggest_in_command: false
+    symbol: "䶯"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation008:
+    path: "logo/pvp/pvpanimation008.png"
+    suggest_in_command: false
+    symbol: "䶮"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation009:
+    path: "logo/pvp/pvpanimation009.png"
+    suggest_in_command: false
+    symbol: "䶭"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation010:
+    path: "logo/pvp/pvpanimation010.png"
+    suggest_in_command: false
+    symbol: "䶬"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation011:
+    path: "logo/pvp/pvpanimation011.png"
+    suggest_in_command: false
+    symbol: "䶫"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation012:
+    path: "logo/pvp/pvpanimation012.png"
+    suggest_in_command: false
+    symbol: "䶪"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation013:
+    path: "logo/pvp/pvpanimation013.png"
+    suggest_in_command: false
+    symbol: "䶩"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation014:
+    path: "logo/pvp/pvpanimation014.png"
+    suggest_in_command: false
+    symbol: "䶨"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation015:
+    path: "logo/pvp/pvpanimation015.png"
+    suggest_in_command: false
+    symbol: "䶧"
+    scale_ratio: 50
+    y_position: 30
+  pvpanimation016:
+    path: "logo/pvp/pvpanimation016.png"
+    suggest_in_command: false
+    symbol: "䶦"
+    scale_ratio: 50
+    y_position: 30
+    
+  pvptime:
+    path: "logo/pvp/pvptime.png"
+    suggest_in_command: false
+    symbol: "㓷"
+    scale_ratio: 10
+    y_position: -180
+  pvptime001:
+    path: "logo/pvp/pvptime001.png"
+    suggest_in_command: false
+    symbol: "䶢"
+    scale_ratio: 10
+    y_position: -180
+  pvptime002:
+    path: "logo/pvp/pvptime002.png"
+    suggest_in_command: false
+    symbol: "䶡"
+    scale_ratio: 10
+    y_position: -180
+  pvptime003:
+    path: "logo/pvp/pvptime003.png"
+    suggest_in_command: false
+    symbol: "䥃"
+    scale_ratio: 10
+    y_position: -180
+  pvptime004:
+    path: "logo/pvp/pvptime004.png"
+    suggest_in_command: false
+    symbol: "䥂"
+    scale_ratio: 10
+    y_position: -180
+  pvptime005:
+    path: "logo/pvp/pvptime005.png"
+    suggest_in_command: false
+    symbol: "䥁"
+    scale_ratio: 10
+    y_position: -180
+  pvptime006:
+    path: "logo/pvp/pvptime006.png"
+    suggest_in_command: false
+    symbol: "䥀"
+    scale_ratio: 10
+    y_position: -180
+  pvptime007:
+    path: "logo/pvp/pvptime007.png"
+    suggest_in_command: false
+    symbol: "䥐"
+    scale_ratio: 10
+    y_position: -180
+  pvptime008:
+    path: "logo/pvp/pvptime008.png"
+    suggest_in_command: false
+    symbol: "䥑"
+    scale_ratio: 10
+    y_position: -180
+  pvptime009:
+    path: "logo/pvp/pvptime009.png"
+    suggest_in_command: false
+    symbol: "䥒"
+    scale_ratio: 10
+    y_position: -180
+  pvptime010:
+    path: "logo/pvp/pvptime010.png"
+    suggest_in_command: false
+    symbol: "䥓"
+    scale_ratio: 10
+    y_position: -180
+  pvptime011:
+    path: "logo/pvp/pvptime011.png"
+    suggest_in_command: false
+    symbol: "䥔"
+    scale_ratio: 10
+    y_position: -180
+  pvptime012:
+    path: "logo/pvp/pvptime012.png"
+    suggest_in_command: false
+    symbol: "䥕"
+    scale_ratio: 10
+    y_position: -180
+  pvptime013:
+    path: "logo/pvp/pvptime013.png"
+    suggest_in_command: false
+    symbol: "䥖"
+    scale_ratio: 10
+    y_position: -180
+  pvptime014:
+    path: "logo/pvp/pvptime014.png"
+    suggest_in_command: false
+    symbol: "䥗"
+    scale_ratio: 10
+    y_position: -180
+  pvptime015:
+    path: "logo/pvp/pvptime014.png"
+    suggest_in_command: false
+    symbol: "䥘"
+    scale_ratio: 10
+    y_position: -180
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 

@@ -1,0 +1,43 @@
+info:
+  namespace: mctown
+items:
+  xingcuishi_logo_1_gem:
+    display_name: xingcuishi_logo_1_gem
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 40001
+      textures:
+      - xingcuishi/xingcuishi_logo_1_gem.png
+  xingcuishi_logo_2_gem:
+    display_name: xingcuishi_logo_2_gem
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 40002
+      textures:
+      - xingcuishi/xingcuishi_logo_2_gem.png
+  xingcuishi_logo_3_gem:
+    display_name: xingcuishi_logo_3_gem
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 40003
+      textures:
+      - xingcuishi/xingcuishi_logo_3_gem.png
+  xingcuishi_logo_4_gem:
+    display_name: xingcuishi_logo_4_gem
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 40004
+      textures:
+      - xingcuishi/xingcuishi_logo_4_gem.png
+  xingcuishi_logo_5_gem:
+    display_name: xingcuishi_logo_5_gem
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 40005
+      textures:
+      - xingcuishi/xingcuishi_logo_5_gem.png

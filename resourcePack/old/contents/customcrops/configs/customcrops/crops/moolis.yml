@@ -1,0 +1,112 @@
+info:
+  namespace: customcrops
+items:
+#moolis_seed
+  moolis_seeds:
+    display_name: '芜菁种子'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - moolis/moolis_seeds
+
+#moolis
+  moolis_1star:
+    enabled: true
+    display_name: '芜菁'
+    resource:
+      generate: false
+      material: BAKED_POTATO
+      model_path: moolis/moolis
+    events:
+      eat:
+        feed:
+          amount: 2
+  moolis_2star:
+    enabled: true
+    display_name: '芜菁'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - moolis/moolis_silver
+    events:
+      eat:
+        feed:
+          amount: 2
+  moolis_3star:
+    enabled: true
+    display_name: '芜菁'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - moolis/moolis_gold
+    events:
+      eat:
+        feed:
+          amount: 2
+
+#moolis_stage
+  moolis_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: moolis/moolis_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  moolis_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: moolis/moolis_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  moolis_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: moolis/moolis_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+
+categories:
+  customcrops_moolis:
+    enabled: true
+    icon: moolis_1star
+    name: '芜菁农作物'
+    items:
+      - customcrops:moolis_seeds
+      - customcrops:moolis_1star
+      - customcrops:moolis_2star
+      - customcrops:moolis_3star
+      - customcrops:moolis_stage_1
+      - customcrops:moolis_stage_2
+      - customcrops:moolis_stage_3

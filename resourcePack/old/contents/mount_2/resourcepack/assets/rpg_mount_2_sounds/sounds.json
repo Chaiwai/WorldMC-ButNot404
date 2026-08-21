@@ -1,0 +1,8 @@
+{
+  "samus.phoenix_dash": {
+    "category": "master",
+    "sounds": [
+      "mount_2:samus/rpg_mount_2/phoenix_dash"
+    ]
+  }
+}

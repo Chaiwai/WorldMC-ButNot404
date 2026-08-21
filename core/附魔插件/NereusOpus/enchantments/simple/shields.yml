@@ -1,0 +1,30 @@
+basic:
+  id: shields
+  name: 护盾
+  enable: true
+  max-level: 8
+display:
+  description:
+    general: 长时间不受伤害下一次可以减伤
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1-{level}*0.1
+    duration: :160-10*{level}

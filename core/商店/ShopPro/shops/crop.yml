@@ -1,0 +1,488 @@
+# 商店类型
+# buy 为出售商店
+# sell 为收购商店
+type: sell
+name: "农作物"
+title: ":offset_-8::shop0:"
+# 物品摆放顺序
+slots:
+  - "NNNNNNNNX"
+  - "NNNNABCDN"
+  - "NNNNEFGHN"
+  - "NNNNIJKON"
+  - "NNNNPRSTN"
+  - "NNNNNNNNN"
+items:
+  # N:
+  #   material: STRUCTURE_VOID
+  #   name: " "
+  #   lore:
+  #     - " "
+  #   # 是否为商品
+  #   is-commodity: false
+  # 普通物品收购示例
+  A:
+    material: WHEAT
+    name: " &x&f&b&f&a&b&5&l小麦"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  # itemsadder 物品收购示例
+  # 需要使用IA:前缀 中间为物品材质 后面为物品customData,如果是药水需要在添加一个 CustomPotionColor
+  B:
+    material: POTATO
+    name: " &x&f&b&f&a&b&5&l马铃薯"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  C:
+    material: SUGAR_CANE
+    name: " &x&f&b&f&a&b&5&l甘蔗"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  D:
+    material: NETHER_WART
+    name: " &x&f&b&f&a&b&5&l下界疣"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  E:
+    material: CARROT
+    name: " &x&f&b&f&a&b&5&l胡萝卜"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  F:
+    material: MELON_slice
+    name: " &x&f&b&f&a&b&5&l西瓜"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  G:
+    material: PUMPKIN
+    name: " &x&f&b&f&a&b&5&l南瓜"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  H:
+    material: CACTUS
+    name: " &x&f&b&f&a&b&5&l仙人掌"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  I:
+    material: BEETROOT
+    name: " &x&f&b&f&a&b&5&l甜菜根"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  # J:
+  #   material: "IA:APPLE:10030"
+  #   name: " &x&f&b&f&a&b&5&l火龙果"
+  #   # 每日限出售
+  #   limit: 900
+  #   # 每个玩家限出售
+  #   limit-player: 90
+  #   # 物品金额
+  #   price: 20
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+  #     - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+  #     - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2限售公示:"
+  #     - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+  #     - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+  #     - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+  #     - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+
+  # K:
+  #   material: "IA:APPLE:10031"
+  #   name: " &x&f&b&f&a&b&5&l火龙果(银星)"
+  #   # 每日限出售
+  #   limit: 300
+  #   # 每个玩家限出售
+  #   limit-player: 30
+  #   # 物品金额
+  #   price: 70
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+  #     - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+  #     - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2限售公示:"
+  #     - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+  #     - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+  #     - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+  #     - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+
+  # O:
+  #   material: "IA:APPLE:10032"
+  #   name: " &x&f&b&f&a&b&5&l火龙果(金星)"
+  #   # 每日限出售
+  #   limit: 100
+  #   # 每个玩家限出售
+  #   limit-player: 10
+  #   # 物品金额
+  #   price: 200
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+  #     - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+  #     - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2限售公示:"
+  #     - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+  #     - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+  #     - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+  #     - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  P:
+    material: Sweet_Berries
+    name: " &x&f&b&f&a&b&5&l甜浆果"
+    # 每日限出售
+    limit: 10000
+    # 每个玩家限出售
+    limit-player: 600
+    # 物品金额
+    price: 3
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+      - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+      - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+      - ""
+      - " &x&c&f&c&b&c&2限售公示:"
+      - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+      - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+      - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+      - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  # R:
+  #   material: "IA:APPLE:10027"
+  #   name: " &x&f&b&f&a&b&5&l辣椒"
+  #   # 每日限出售
+  #   limit: 900
+  #   # 每个玩家限出售
+  #   limit-player: 90
+  #   # 物品金额
+  #   price: 20
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+  #     - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+  #     - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2限售公示:"
+  #     - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+  #     - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+  #     - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+  #     - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+
+  # S:
+  #   material: "IA:APPLE:10028"
+  #   name: " &x&f&b&f&a&b&5&l辣椒(银星)"
+  #   # 每日限出售
+  #   limit: 300
+  #   # 每个玩家限出售
+  #   limit-player: 30
+  #   # 物品金额
+  #   price: 70
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+  #     - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+  #     - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2限售公示:"
+  #     - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+  #     - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+  #     - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+  #     - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+
+  # T:
+  #   material: "IA:APPLE:10029"
+  #   name: " &x&f&b&f&a&b&5&l辣椒(金星)"
+  #   # 每日限出售
+  #   limit: 100
+  #   # 每个玩家限出售
+  #   limit-player: 10
+  #   # 物品金额
+  #   price: 200
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2这里可以出售你背包里面的&a ${name}"
+  #     - " &x&c&f&c&b&c&2收购单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2出售 &a单个 &x&c&f&c&b&c&2获得 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2出售 &a一组 &x&c&f&c&b&c&2获得 &a${price64} &f%img_money%"
+  #     - " &f%img_shift% &x&c&f&c&b&c&2+ &f%img_right_click% &x&c&f&c&b&c&2出售 &a背包所有 &x&c&f&c&b&c&2获得 &a${priceAll} &f%img_money%"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2限售公示:"
+  #     - " &x&c&f&c&b&c&2每人限制出售: ${limit}"
+  #     - " &x&c&f&c&b&c&2全服限制出售: ${allLimit}"
+  #     - " &x&c&f&c&b&c&2您已出售: ${limit-player}"
+  #     - " &x&c&f&c&b&c&2全服剩余: ${limit-server}"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+
+  X:
+    material: "IA:PAPER:10206"
+    name: "§x§F§B§0§0§0§0关闭页面"
+    lore:
+      - "&f"
+      - "&f%img_left_click% &7点击关闭"
+      - "&f"
+    is-commodity: false
+    commands:
+      - "[console] menu open cw_menu_page3 %player%"

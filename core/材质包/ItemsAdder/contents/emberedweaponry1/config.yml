@@ -1,0 +1,55 @@
+info:
+  namespace: emberedweaponry1
+
+categories:
+  emberedweaponry1:
+    enabled: true
+    name: emberedweaponry1
+    items:
+      - emberedweaponry1:gravelord_greatsword
+      - emberedweaponry1:artorias_greatsword
+      - emberedweaponry1:quelaags_furysword
+      - emberedweaponry1:obsidian_greatsword
+      - emberedweaponry1:moonlight_greatsword
+
+items:
+  gravelord_greatsword:
+    enabled: true
+    display_name: "Carnifex Spineblade"
+    resource:
+      material: STONE_SWORD
+      model_id:
+      generate: false
+      model_path: emberedweaponry1/gravelord_greatsword
+  artorias_greatsword:
+    enabled: true
+    display_name: "Abyssal Flamekeeper"
+    resource:
+      material: STONE_SWORD
+      model_id:
+      generate: false
+      model_path: emberedweaponry1/artorias_greatsword
+  quelaags_furysword:
+    enabled: true
+    display_name: "Runic Rapture"
+    resource:
+      material: STONE_SWORD
+      model_id:
+      generate: false
+      model_path: emberedweaponry1/quelaags_furysword
+  obsidian_greatsword:
+    enabled: true
+    display_name: "Netherforge Cleaver"
+    resource:
+      material: STONE_SWORD
+      model_id:
+      generate: false
+      model_path: emberedweaponry1/obsidian_greatsword
+  moonlight_greatsword:
+    enabled: true
+    display_name: "Celestine Radiance"
+    resource:
+      material: STONE_SWORD
+      model_id:
+      generate: false
+      model_path: emberedweaponry1/moonlight_greatsword

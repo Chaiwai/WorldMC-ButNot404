@@ -1,0 +1,179 @@
+Bow001:
+  base:
+    material: BOW
+    custom-model-data: 2019.0
+    name: §f㒟
+    lore:
+    - ''
+    - '  &f㒪   <#ffd342>&l闪<#ffbe2c>&l烁<#ffaa16>&l律<#ff9500>&l动  &8[&7冷却:&f10.0s&8]'
+    - ''
+    - '             &f㒦 &7触发技能后在脚下快速'
+    - '             &7生成 <#ffd342>闪<#ffbe2c>烁<#ffaa16>律<#ff9500>动 &7进行躲闪'
+    - ''
+    displayed-type: §7\n§7       短小轻重的弓形让您更方便携带\n§7    这将为您带来更快的<#20d8d3> 移动速度 &7相对的\n§7  代价是它<#a72d00>
+      杀伤力 &7并不强 &7技能运用尤为重要§7\n§7
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BACKSTEP
+        mode: LEFT_CLICK
+        cooldown: 10.0
+        mana: 10.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+Bow002:
+  base:
+    material: STONE_SWORD
+    name: §f 㶖
+    lore:
+    - ''
+    - '  &f㵚    <#ffd342>&l万<#ffbe2c>&l箭<#ffaa16>&l齐<#ff9500>&l发     &8[&7冷却:&f10.0s&8]'
+    - ''
+    - '             &f㵗 &7触发技能后在施法者的周身形成'
+    - '             &7巨大的弩箭 可持续瞄准施法者周身'
+    - '             &7技能会朝施法者准心进行 <#a72d00>范围伤害'
+    - '       §f䕓'
+    - ''
+    - '  &f㶗    <#ffd342>&l狩<#ffbe2c>&l猎<#ffaa16>&l焦<#ff9500>&l点     &8[&7无冷却&8]'
+    - ''
+    - '             &7当您命中敌人三发箭矢 会触发技能'
+    - '             &7被动 <#ffd342>狩<#ffbe2c>猎<#ffaa16>焦<#ff9500>点 &7对目标造成短时间'
+    - '             <#465565>减速 &7施法者获得短时间 <#20d8d3>速度提升'
+    displayed-type: §7\n§7  体型较大的弓形让您不方便携带 这意味着您将拥有\n&7  更高的<#a72d00> 杀伤力 &7相对的代价是您行动起来会很
+      <#465565>缓慢\n&7  不过值得庆幸的是 这把弓与我们所认知的弓不一样\n&7  它并不需要进行蓄力 这将会使你的命中率大大提升\n&7
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: QUICK_SHOT
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 1.0
+      ability2:
+        type: WINDRAZOR
+        damage: 4
+        duration: 5
+        cooldown: 10.0
+        mode: RIGHT_CLICK
+    disable-attack-passive: true
+    attack-speed: 1.0
+Bow003:
+  base:
+    material: STONE_SWORD
+    name: §f 㶁
+    lore:
+    - ''
+    - '  &f㶔    <#ffd342>&l瞄<#ffbe2c>&l准<#ffaa16>&l靶<#ff9500>&l心     &8[&7冷却:&f10.0s&8]'
+    - ''
+    - '             &f㵗 &7+ &f㒦 &7施法者会向空中跃起一定高'
+    - '             &7度后 并在基本攻击中发射一连串的'
+    - '             &7箭矢攻击对其造成 <#a72d00>伤害 &7后坐力很小'
+    - '       §f䕓'
+    - ''
+    - '  &f㶓    <#ffd342>&l致<#ffbe2c>&l命<#ffaa16>&l长<#ff9500>&l矛     &8[&7冷却:&f10.0s&8]'
+    - ''
+    - '             &f㶐 &7+ &f㵗 &7施法者触发技能后会从身'
+    - '             &7后召唤出一把长矛 朝瞄准目标进行'
+    - '             &7投掷 在短时间内掉落并 &e击晕 &7目标'
+    displayed-type: §7\n §7 最为贴近人们所认知的弓形 各方面较为均衡没有明\n&7  显的短板 不需要蓄力即可射击 技能 <#20d8d3>冷却时间
+      &7较长\n&7  对于拥有者来说比较依赖操作进行对目标造成 <#a72d00>伤害\n&7
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: QUICK_SHOT
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 1.0
+      ability2:
+        type: BACKSTEP
+        mode: RIGHT_CLICK
+        cooldown: 2.0
+      ability3:
+        type: DEADLY_JAVELIN
+        mode: SHIFT_RIGHT_CLICK
+        damage: 6
+        duration: 2
+        cooldown: 3.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+Bow004:
+  base:
+    material: BOW
+    name: §f 㣓
+    lore:
+    - ''
+    - '  &f㣆    <#ffd342>&l龙<#ffbe2c>&l之<#ffaa16>&l吐<#ff9500>&l息     &8[&7冷却:&f10.0s&8]'
+    - ''
+    - '             &f㶐 &7+ &f㒦 &7施法者会在身后召唤出龙首'
+    - '             &7伴随龙首瞄准目标 向其目标释放致命'
+    - '             &7的穿刺箭 对其目标造成大量的 <#a72d00>伤害'
+    displayed-type: §7\n  §7全身用龙骨进行锻造打磨 坚不可摧的同时拥有极高\n&7  的 <#a72d00>杀伤力 &7但这也伴随着它能激发部分的龙之技能\n&7  触发技能的同时也不能长时间进行蓄力瞄准
+      对直线\n&7  距离目标造成 <#a72d00>高额伤害 &7缺陷是 <#20d8d3>冷却时间 &7较为漫长
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: DRAGON_PIERCER
+        mode: SHIFT_LEFT_CLICK
+        damage: 15
+        duration: 4
+        cooldown: 7.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+HELLFIRE_BOW:
+  base:
+    material: BOW
+    custom-model-data: 10002.0
+    name: '&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a弓'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 弓身由邪恶的狱火魔晶铸造而成,弓尾\n&f &f &f 各自雕刻着狰狞的恶魔项首,欲将地狱之\n&f &f &f 火喷涌整个世界!感受来自地狱的痛楚吧!
+'1':
+  base:
+    material: BOW
+    enchants:
+      aiming: 10.0
+      rapid: 300.0
+      collateral: 20.0
+      shockwave: 20.0
+弓_1:
+  base:
+    material: BOW
+    name: '&b冰霜之弓'
+    displayed-type: |
+      &f
+      &f &f &f&d效果&e:&b缓慢V
+      &f &f &f&b时长&e:0.5秒
+      &f
+    arrow-potion-effects:
+      SLOW:
+        duration: 0.5
+        amplifier: 5
+    attack-damage: 10.0
+    critical-strike-chance: 10.0
+    critical-strike-power: 150.0
+弓_2:
+  base:
+    material: BOW
+    name: '&3流髑之弓'
+    displayed-type: |
+      &f
+      &f &f &f&d效果&e:&b缓慢II
+      &f &f &f&b时长&e:5秒
+      &f
+    arrow-potion-effects:
+      SLOW:
+        duration: 3
+        amplifier: 2
+    attack-damage: 10.0
+    critical-strike-chance: 10.0
+    critical-strike-power: 150.0
+AAA:
+  base:
+    material: BOW
+    arrow-velocity: 5.0
+    arrow-potion-effects:
+      SLOW:
+        duration: 10.0
+        amplifier: 10

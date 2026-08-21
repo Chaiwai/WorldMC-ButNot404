@@ -1,0 +1,205 @@
+{
+  "wokin.arrow_shoot": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/arrow_shoot_1",
+	  "mctown:wokin/archer/arrow_shoot_2"
+    ]
+  },
+  "wokin.arrow_shoot_volley": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/arrow_shoot_volley"
+    ]
+  },
+  "wokin.backstep": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/backstep"
+    ]
+  },
+  "wokin.bow_spirit_summon": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/bow_spirit_summon"
+    ]
+  },
+  "wokin.dragon_arrow": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/dragon_arrow"
+    ]
+  },
+  "wokin.dragon_explode": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/dragon_explode"
+    ]
+  },
+  "wokin.dragon_growl": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/dragon_growl"
+    ]
+  },
+  "wokin.dragon_roar": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/dragon_roar"
+    ]
+  },
+  "wokin.hunters_focus": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/hunters_focus"
+    ]
+  },
+  "wokin.javelin_summon": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/javelin_summon"
+    ]
+  },
+  "wokin.javelin_throw2": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/javelin_throw2"
+    ]
+  },
+  "wokin.wind": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/archer/wind"
+    ]
+  },
+  "wokin.chain": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/chain"
+    ]
+  },
+  "wokin.chain_hit": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/chain_hit"
+    ]
+  },
+  "wokin.judgement_leap": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/judgement_leap"
+    ]
+  },
+  "wokin.judgement_shield_summon": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/judgement_shield_summon"
+    ]
+  },
+  "wokin.judgement_smash1": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/judgement_smash1"
+    ]
+  },
+  "wokin.judgement_smash2": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/judgement_smash2"
+    ]
+  },
+  "wokin.rampage": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/rampage"
+    ]
+  },
+  "wokin.shield_break": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/shield_break"
+    ]
+  },
+  "wokin.shield_summon": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/shield_summon"
+    ]
+  },
+  "wokin.warrior_charge": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/warrior_charge"
+    ]
+  },
+  "wokin.warrior_pierce": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/warrior_pierce"
+    ]
+  },
+  "wokin.whirlwind": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/whirlwind"
+    ]
+  },
+  "wokin.warrior_slash": {
+    "category": "master",
+    "sounds": [
+      "mctown:wokin/warrior/warrior_slash1",
+	  "mctown:wokin/warrior/warrior_slash2"
+    ]
+  },
+   "mctown.openredpacket":{
+		 "sounds": [
+			"mctown:wokin/other/openredpacket"
+		 ]
+	},
+   "mctown.spawn":{
+		 "sounds": [
+			"mctown:spawn/birds1",
+			"mctown:spawn/birds2",
+			"mctown:spawn/birds3",
+			"mctown:spawn/birds4",
+			"mctown:spawn/birds5",
+			"mctown:spawn/birds6",
+			"mctown:spawn/birds7"
+		 ]
+	},	
+  "magic.crate.idle": {
+    "category": "master",
+    "sounds": [
+      "minecraft:stereo/crates/magic_sound_idle"
+    ]
+  },
+  "magic.crate.open": {
+    "category": "master",
+    "sounds": [
+      "minecraft:stereo/crates/magic_open_crate"
+    ]
+  },
+  "magic.crate.open2": {
+    "category": "master",
+    "sounds": [
+      "minecraft:stereo/crates/magic_open_1"
+    ]
+  },
+  "mctown.voices_woman1": {
+    "category": "master",
+    "sounds": [
+     "mctown:voices/woman1/1",
+	   "mctown:voices/woman1/2",
+	   "mctown:voices/woman1/3",
+	   "mctown:voices/woman1/4"
+    ]}
+    ,
+    "sound.crate":{
+      "sounds":[
+         {
+            "name":"minecraft:stereo/crates/magic_open2",
+            "pitch":1.334,
+            "stream":true
+         }
+      ]
+}}

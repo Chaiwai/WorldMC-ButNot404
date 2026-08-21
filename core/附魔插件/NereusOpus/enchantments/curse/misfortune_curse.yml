@@ -1,0 +1,31 @@
+basic:
+  id: misfortune_curse
+  name: 霉运诅咒
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 使工具破坏方块时有概率不掉落
+alternative:
+  grindstoneable: false
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+  is-cursed: true
+rarity: 诅咒
+targets:
+- pickaxes
+- axes
+- hoes
+- shovels
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:fortune
+variables:
+  leveled:
+    chance: :15*{level}

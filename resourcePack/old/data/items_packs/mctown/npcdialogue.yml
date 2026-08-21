@@ -1,0 +1,238 @@
+info:
+  namespace: "mctown"
+font_images:
+  icon_void_rain:
+    path: "npcdialogue/icon_void_rain.png"
+    suggest_in_command: false
+    symbol: "ぱ"
+    y_position: 8
+
+  icon_pulse_mode:
+    path: "npcdialogue/icon_pulse_mode.png"
+    suggest_in_command: false
+    symbol: "が"
+    y_position: 8
+  icon_void_arrow:
+    path: "npcdialogue/icon_void_arrow.png"
+    suggest_in_command: false
+    symbol: "し"
+    y_position: 8
+  icon_ancestral_power:
+    path: "npcdialogue/icon_ancestral_power.png"
+    suggest_in_command: false
+    symbol: "ん"
+    y_position: 8
+  icon_healing_totem:
+    path: "npcdialogue/icon_healing_totem.png"
+    suggest_in_command: false
+    symbol: "と"
+    y_position: 8
+  icon_rampage:
+    path: "npcdialogue/icon_rampage.png"
+    suggest_in_command: false
+    symbol: "爘"
+    y_position: 8
+  icon_judgement:
+    path: "npcdialogue/icon_judgement.png"
+    suggest_in_command: false
+    symbol: "蔕"
+    y_position: 8
+  npc_hunter:
+    path: "npcdialogue/mctown_hunter.png"
+    suggest_in_command: false
+    symbol: "亸"
+    y_position: 9
+  npc_miner:
+    path: "npcdialogue/mctown_miner.png"
+    suggest_in_command: false
+    symbol: "哅"
+    y_position: 9
+  npc_farmer:
+    path: "npcdialogue/mctown_farmer.png"
+    suggest_in_command: false
+    symbol: "嘪"
+    y_position: 9
+  bee:
+    path: "npcdialogue/bee.png"
+    suggest_in_command: false
+    symbol: "錷"
+    y_position: 9
+  npc_anni:
+    path: "npcdialogue/npc_anni.png"
+    suggest_in_command: false
+    symbol: "㘎"
+    y_position: 9
+  npc_bill:
+    path: "npcdialogue/npc_bill.png"
+    suggest_in_command: false
+    symbol: "㘍"
+    y_position: 9
+  npc_chef:
+    path: "npcdialogue/npc_chef.png"
+    suggest_in_command: false
+    symbol: "㘌"
+    y_position: 9
+  npc_dlk:
+    path: "npcdialogue/npc_dlk.png"
+    suggest_in_command: false
+    symbol: "㘋"
+    y_position: 9
+  npc_guarda:
+    path: "npcdialogue/npc_guarda.png"
+    suggest_in_command: false
+    symbol: "㘊"
+    y_position: 9
+  npc_guardb:
+    path: "npcdialogue/npc_guardb.png"
+    suggest_in_command: false
+    symbol: "㘉"
+    y_position: 9
+  npc_hana:
+    path: "npcdialogue/npc_hana.png"
+    suggest_in_command: false
+    symbol: "㘈"
+    y_position: 9
+  npc_jaden:
+    path: "npcdialogue/npc_jaden.png"
+    suggest_in_command: false
+    symbol: "㘇"
+    y_position: 9
+  npc_jb:
+    path: "npcdialogue/npc_jb.png"
+    suggest_in_command: false
+    symbol: "㘆"
+    y_position: 9
+  npc_liulang:
+    path: "npcdialogue/npc_liulang.png"
+    suggest_in_command: false
+    symbol: "㘅"
+    y_position: 9
+  npc_louis_sleep:
+    path: "npcdialogue/npc_louis_sleep.png"
+    suggest_in_command: false
+    symbol: "㘄"
+    y_position: 9
+  npc_louis_weak:
+    path: "npcdialogue/npc_louis_weak.png"
+    suggest_in_command: false
+    symbol: "㘃"
+    y_position: 9
+  npc_maoxianjia:
+    path: "npcdialogue/npc_maoxianjia.png"
+    suggest_in_command: false
+    symbol: "㘂"
+    y_position: 9
+  npc_monk:
+    path: "npcdialogue/npc_monk.png"
+    suggest_in_command: false
+    symbol: "㘁"
+    y_position: 9
+  npc_shiping:
+    path: "npcdialogue/npc_shiping.png"
+    suggest_in_command: false
+    symbol: "㘀"
+    y_position: 9
+  npc_shopper:
+    path: "npcdialogue/npc_shopper.png"
+    suggest_in_command: false
+    symbol: "㗿"
+    y_position: 9
+  npc_slime:
+    path: "npcdialogue/npc_slime.png"
+    suggest_in_command: false
+    symbol: "㗾"
+    y_position: 9
+  npc_thiner:
+    path: "npcdialogue/npc_thiner.png"
+    suggest_in_command: false
+    symbol: "㗽"
+    y_position: 9
+  npc_tj:
+    path: "npcdialogue/npc_tj.png"
+    suggest_in_command: false
+    symbol: "㗼"
+    y_position: 9
+  npc_witch:
+    path: "npcdialogue/npc_witch.png"
+    suggest_in_command: false
+    symbol: "㗻"
+    y_position: 9
+  mctownlogo:
+    path: "npcdialogue/mctownlogo.png"
+    suggest_in_command: false
+    symbol: "瀭"
+    y_position: 9
+  npc_jianzhu:
+    path: "npcdialogue/npc_jianzhu.png"
+    suggest_in_command: false
+    symbol: "㶰"
+    y_position: 9
+  npc_kuangwu:
+    path: "npcdialogue/npc_kuangwu.png"
+    suggest_in_command: false
+    symbol: "㶱"
+    y_position: 9
+  npc_nongzuowu:
+    path: "npcdialogue/npc_nongzuowu.png"
+    suggest_in_command: false
+    symbol: "㶲"
+    y_position: 9
+  cw_npc_1:
+    path: "npcdialogue/cw_npc_1.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_2:
+    path: "npcdialogue/cw_npc_2.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_3:
+    path: "npcdialogue/cw_npc_3.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_4:
+    path: "npcdialogue/cw_npc_4.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_5:
+    path: "npcdialogue/cw_npc_5.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_6:
+    path: "npcdialogue/cw_npc_6.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_7:
+    path: "npcdialogue/cw_npc_7.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_8:
+    path: "npcdialogue/cw_npc_8.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_9:
+    path: "npcdialogue/cw_npc_9.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+
+  cw_npc_10:
+    path: "npcdialogue/cw_npc_10.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9

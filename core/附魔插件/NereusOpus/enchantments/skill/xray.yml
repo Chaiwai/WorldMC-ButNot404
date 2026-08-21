@@ -1,0 +1,69 @@
+basic:
+  id: xray
+  name: 透视
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: '§e右击§7可高亮周围的自定义矿物10秒（冷却时间: §a15秒§7）'
+alternative:
+  grindstoneable: false
+  is-tradeable: false
+  is-treasure: false
+  is-discoverable: false
+rarity: 稀世
+targets:
+- pickaxes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:blast_mining
+variables:
+  ordinary:
+    sound: ENTITY_ENDERMAN_TELEPORT
+    cooldown: 30
+    colored: true
+  leveled:
+    range: :10+{level}*2
+    duration: :200+{level}*0
+params:
+  particle:
+    type: TOTEM
+    amount: 2
+  blocks:
+    # MD5 ChatColor 16种颜色中的一种，大写
+    # 然后是方块ID
+    GOLD:
+    - NOTE_BLOCK
+#    BLACK:
+#    - COAL_ORE
+#    - DEEPSLATE_COAL_ORE
+#    GRAY:
+#    - IRON_ORE
+#    - DEEPSLATE_IRON_ORE
+#    GOLD:
+#    - NOTE_BLOCK
+#    - COPPER_ORE
+#    - DEEPSLATE_COPPER_ORE
+#    YELLOW:
+#    - GOLD_ORE
+#    - NETHER_GOLD_ORE
+#    - DEEPSLATE_GOLD_ORE
+#    RED:
+#    - REDSTONE_ORE
+#    - DEEPSLATE_REDSTONE_ORE
+#    BLUE:
+#    - LAPIS_ORE
+#    - DEEPSLATE_LAPIS_ORE
+#    DARK_RED:
+#    - ANCIENT_DEBRIS
+#    AQUA:
+#    - DIAMOND_ORE
+#    - DEEPSLATE_DIAMOND_ORE
+#    GREEN:
+#    - EMERALD_ORE
+#    - DEEPSLATE_EMERALD_ORE

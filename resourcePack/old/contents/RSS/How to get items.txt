@@ -1,0 +1,32 @@
+Hello! 
+
+
+Thanks for purchasing our product
+to get the modelled item in vanilla game
+
+/give @p bow{CustomModelData:10101}
+
+the CustomModelData will always start with 10101
+and the end is when you receive the item with the same model
+with the previous number.
+
+** some of packs has a recolored models
+   change the first digit number
+   like red color has 10101 model
+   the green color would have 20101 model **
+
+Here's the list of items that's possibly has in packs:
+iron_sword // for melee weapons(e.g.Sword,Spear)
+bow // for bows
+shield // for shields
+fishing_rod // for fishing rods
+crossbow // for crossbows
+paper // for cosmetics(e.g.Hat,Wings)
+pickaxe // for pickaxes
+axe // for axes
+shovel // for shovels
+hoe // for hoes
+
+appreciated from EliteCreatures!
+
+# 1799629413422451686930989

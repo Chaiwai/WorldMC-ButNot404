@@ -1,0 +1,26 @@
+basic:
+  id: defender
+  name: 明辨
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 防止伤害自己的宠物
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- bow
+- crossbow
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []

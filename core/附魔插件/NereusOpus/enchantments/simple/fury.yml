@@ -1,0 +1,29 @@
+basic:
+  id: fury
+  name: 规劝
+  enable: true
+  max-level: 5
+display:
+  description:
+    general: 在攻击时有概率号召附近的怪物攻击对手
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    only_player: true
+  leveled:
+    chance: :10*{level}
+    range: :2*{level}

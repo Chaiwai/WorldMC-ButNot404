@@ -1,0 +1,188 @@
+##nulledassets.net##
+##
+##
+info:
+  namespace: res_class_set_2
+armors_rendering:
+  dragon_armor:
+    color: '#C27FCD'
+    layer_1: dragon_warrior_layer_1
+    layer_2: dragon_warrior_layer_2
+    use_color: false
+  necromancer_armor:
+    color: '#BF7ECB'
+    layer_1: necromancer_layer_1
+    layer_2: necromancer_layer_2
+    use_color: false
+  martial_armor:
+    color: '#BB74C8'
+    layer_1: martial_artist_layer_1
+    layer_2: martial_artist_layer_2
+    use_color: false
+  shaman_armor:
+    color: '#94619E'
+    layer_1: shaman_layer_1
+    layer_2: shaman_layer_2
+    use_color: false
+items:
+  dragon_warrior_helmet:
+    resource:
+      model_id: 91392
+      generate: true
+      textures:
+      - dragon_warrior_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: dragon_armor
+  dragon_warrior_chestplate:
+    resource:
+      model_id: 91392
+      generate: true
+      textures:
+      - dragon_warrior_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: dragon_armor
+  dragon_warrior_leggings:
+    resource:
+      model_id: 91392
+      generate: true
+      textures:
+      - dragon_warrior_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: dragon_armor
+  dragon_warrior_boots:
+    resource:
+      model_id: 91392
+      generate: true
+      textures:
+      - dragon_warrior_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: dragon_armor
+  necromancer_helmet:
+    resource:
+      model_id: 91501
+      generate: true
+      textures:
+      - necromancer_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: necromancer_armor
+  necromancer_chestplate:
+    resource:
+      model_id: 91501
+      generate: true
+      textures:
+      - necromancer_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: necromancer_armor
+  necromancer_leggings:
+    resource:
+      model_id: 91501
+      generate: true
+      textures:
+      - necromancer_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: necromancer_armor
+  necromancer_boots:
+    resource:
+      model_id: 91501
+      generate: true
+      textures:
+      - necromancer_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: necromancer_armor
+  martial_artist_helmet:
+    resource:
+      model_id: 91302
+      generate: true
+      textures:
+      - martial_artist_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: martial_armor
+  martial_artist_chestplate:
+    resource:
+      model_id: 91302
+      generate: true
+      textures:
+      - martial_artist_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: martial_armor
+  martial_artist_leggings:
+    resource:
+      model_id: 91302
+      generate: true
+      textures:
+      - martial_artist_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: martial_armor
+  martial_artist_boots:
+    resource:
+      model_id: 91302
+      generate: true
+      textures:
+      - martial_artist_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: martial_armor
+  shaman_helmet:
+    resource:
+      model_id: 91503
+      generate: true
+      textures:
+      - shaman_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: shaman_armor
+  shaman_chestplate:
+    resource:
+      model_id: 91503
+      generate: true
+      textures:
+      - shaman_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: shaman_armor
+  shaman_leggings:
+    resource:
+      model_id: 91503
+      generate: true
+      textures:
+      - shaman_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: shaman_armor
+  shaman_boots:
+    resource:
+      model_id: 91503
+      generate: true
+      textures:
+      - shaman_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: shaman_armor
+# adrsW#NR02Nx6BxwYOElNbcigedyXs2UOrT8Kfeue1mOHOqLRDJe5l8uKulexhKoORxYbO

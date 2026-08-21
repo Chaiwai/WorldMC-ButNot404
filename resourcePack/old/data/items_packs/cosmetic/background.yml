@@ -1,0 +1,171 @@
+info:
+  namespace: cosmetic
+items:
+  mctown_bunny:
+    display_name: mctown_bunny
+    permission: mctown_bunny.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30201
+      model_path: background/mctown_bunny
+  mctown_easter_backpack:
+    display_name: mctown_easter_backpack
+    permission: mctown_easter_backpack.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30204
+      model_path: background/mctown_easter_backpack
+  mctown_pandaplush:
+    display_name: mctown_pandaplush
+    permission: mctown_pandaplush.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30208
+      model_path: background/mctown_pandaplush
+  mctown_plushie_unicorn:
+    display_name: mctown_plushie_unicorn
+    permission: mctown_plushie_unicorn.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30209
+      model_path: background/mctown_plushie_unicorn
+  mctown_nocsy_fruit_basket:
+    display_name: mctown_nocsy_fruit_basket
+    permission: mctown_nocsy_fruit_basket.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30217
+      model_path: background/mctown_nocsy_fruit_basket
+  mctown_nocsy_warrior_belt:
+    display_name: mctown_nocsy_warrior_belt
+    permission: mctown_nocsy_warrior_belt.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30218
+      model_path: background/mctown_nocsy_warrior_belt
+  mctown_sword:
+    display_name: mctown_sword
+    permission: mctown_sword.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30220
+      model_path: background/mctown_sword
+  mctown_wither:
+    display_name: mctown_wither
+    permission: mctown_wither.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30236
+      model_path: background/mctown_wither
+  mctown_traveler:
+    display_name: mctown_traveler
+    permission: mctown_traveler.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30227
+      model_path: background/mctown_traveler
+  mctown_tnt:
+    display_name: mctown_tnt
+    permission: mctown_tnt.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30228
+      model_path: background/mctown_tnt
+  mctown_spider:
+    display_name: mctown_spider
+    permission: mctown_spider.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30229
+      model_path: background/mctown_spider
+  mctown_redstone:
+    display_name: mctown_redstone
+    permission: mctown_redstone.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30230
+      model_path: background/mctown_redstone
+  mctown_quiver:
+    display_name: mctown_quiver
+    permission: mctown_quiver.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30231
+      model_path: background/mctown_quiver
+  mctown_panda_1:
+    display_name: mctown_panda_1
+    permission: mctown_panda_1.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30239
+      model_path: background/mctown_panda_1
+  mctown_leather:
+    display_name: mctown_leather
+    permission: mctown_leather.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30233
+      model_path: background/mctown_leather
+  mctown_dolphin:
+    display_name: mctown_dolphin
+    permission: mctown_dolphin.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30234
+      model_path: background/mctown_dolphin
+  mctown_bee:
+    display_name: mctown_bee
+    permission: mctown_bee.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30235
+      model_path: background/mctown_bee
+  mctown_royal_cloak:
+    display_name: mctown_royal_cloak
+    permission: mctown_royal_cloak.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30240
+      model_path: background/mctown_royal_cloak
+  mctown_dog_tail:
+    display_name: mctown_dog_tail
+    permission: mctown_dog_tail.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30241
+      model_path: background/mctown_dog_tail
+  mctown_dragon_wing:
+    display_name: mctown_dragon_wing
+    permission: mctown_dragon_wing.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30242
+      model_path: background/mctown_dragon_wing
+  mctown_redpanda_tail:
+    display_name: mctown_redpanda_tail
+    permission: mctown_redpanda_tail.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30243
+      model_path: background/mctown_redpanda_tail

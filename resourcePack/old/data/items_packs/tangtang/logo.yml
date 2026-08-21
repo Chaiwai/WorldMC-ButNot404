@@ -1,0 +1,43 @@
+info:
+  namespace: "tangtang"
+font_images:
+  logo001:
+    path: "logo.png"
+    suggest_in_command: false
+    symbol: "㺨"
+    scale_ratio: 56
+    y_position: 28
+
+    
+  gem:
+    path: "ruby_balance"
+    suggest_in_command: false
+    symbol: "纛"
+    scale_ratio: 9
+    y_position: 8
+
+  shinygem:
+    path: "ruby_shine_balance.png"
+    suggest_in_command: false
+    symbol: "馫"
+    scale_ratio: 9
+    y_position: 8
+    
+    
+    
+  web:
+    path: "icon_web.png"
+    suggest_in_command: false
+    symbol: "飝"
+    scale_ratio: 9
+    y_position: 8
+    
+    
+    
+  npc_daniel:
+    path: "npc_daniel.png"
+    suggest_in_command: false
+    symbol: "纚"
+    y_position: 9
+    
+ 

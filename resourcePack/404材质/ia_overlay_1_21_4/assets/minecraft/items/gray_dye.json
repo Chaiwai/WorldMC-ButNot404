@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"model":"item/gray_dye","type":"model"},"entries":[{"threshold":10000,"model":{"model":"ore:luminite","type":"model"}},{"threshold":10001,"model":{"model":"ore:luminite_ingot","type":"model"}},{"threshold":10002,"model":{"model":"item/gray_dye","type":"model"}}]}}

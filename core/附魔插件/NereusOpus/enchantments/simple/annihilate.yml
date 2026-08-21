@@ -1,0 +1,30 @@
+basic:
+  id: annihilate
+  name: 威慑
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 攻击时产生强力击退效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:knockback
+- CONFLICT_ENCHANT:tornado
+- CONFLICT_ENCHANT:grapple
+variables:
+  leveled:
+    velocity: :{level}*2.5

@@ -1,0 +1,111 @@
+info:
+  namespace: "mctown"
+font_images:
+  logo:
+    path: "logo/logo.png"
+    suggest_in_command: false
+    scale_ratio: 100
+    y_position: 22
+
+  tab:
+    path: "logo/background.png"
+    suggest_in_command: false
+    scale_ratio: 1000
+    y_position: 46
+  logo001:
+    path: "logo/logo001.png"
+    suggest_in_command: false
+    symbol: "㺨"
+    scale_ratio: 70
+    y_position: 44
+  logo002:
+    path: "logo/logo002.png"
+    suggest_in_command: false
+    symbol: "㺩"
+    scale_ratio: 60
+    y_position: 44
+  logo003:
+    path: "logo/logo003.png"
+    suggest_in_command: false
+    symbol: "㺪"
+    scale_ratio: 500
+    y_position: 44
+  logo004:
+    path: "logo/logo004.png"
+    suggest_in_command: false
+    symbol: "㺫"
+    scale_ratio: 200
+    y_position: 44
+  logo005:
+    path: "logo/logo005.png"
+    suggest_in_command: false
+    symbol: "㺬"
+    scale_ratio: 60
+    y_position: 44
+  logo006:
+    path: "logo/logo006.png"
+    suggest_in_command: false
+    symbol: "㺭"
+    scale_ratio: 60
+    y_position: 44
+  logo007:
+    path: "logo/logo007.png"
+    suggest_in_command: false
+    symbol: "㺮"
+    scale_ratio: 60
+    y_position: 44
+  logo008:
+    path: "logo/logo008.png"
+    suggest_in_command: false
+    symbol: "㺯"
+    scale_ratio: 60
+    y_position: 44
+  logo009:
+    path: "logo/logo009.png"
+    suggest_in_command: false
+    symbol: "㺰"
+    scale_ratio: 60
+    y_position: 44
+  logo010:
+    path: "logo/logo010.png"
+    suggest_in_command: false
+    symbol: "㺱"
+    scale_ratio: 60
+    y_position: 44
+  logo011:
+    path: "logo/logo011.png"
+    suggest_in_command: false
+    symbol: "㺲"
+    scale_ratio: 60
+    y_position: 44
+  logo012:
+    path: "logo/logo012.png"
+    suggest_in_command: false
+    symbol: "㔨"
+    scale_ratio: 60
+    y_position: 44
+  logo013:
+    path: "logo/logo013.png"
+    suggest_in_command: false
+    symbol: "㑸"
+    scale_ratio: 60
+    y_position: 44
+  logo014:
+    path: "logo/logo014.png"
+    suggest_in_command: false
+    symbol: "㒁"
+    scale_ratio: 60
+    y_position: 44
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 

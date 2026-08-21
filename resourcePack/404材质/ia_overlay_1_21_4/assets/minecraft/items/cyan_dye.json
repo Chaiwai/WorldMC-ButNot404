@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"model","model":"item/cyan_dye"},"entries":[{"threshold":10000,"model":{"type":"model","model":"ore:mythril"}},{"threshold":10001,"model":{"type":"model","model":"ore:ia_auto_gen/mythril_ingot"}},{"threshold":10002,"model":{"type":"model","model":"item/cyan_dye"}}]}}

@@ -1,0 +1,289 @@
+# 商店类型
+# buy 为出售商店
+# sell 为收购商店
+type: buy
+name: "建筑方块"
+title: ":offset_-8::shop2:"
+# 物品摆放顺序
+slots:
+  - "zzzzzzzzX"
+  - "zzzzABCDz"
+  - "zzzzEFGHz"
+  - "zzzzIJKLz"
+  - "zzzzMNOPz"
+  - "zzzzzzzzQ"
+items:
+  # z:
+  #   material: STRUCTURE_VOID
+  #   name: " "
+  #   lore:
+  #     - " "
+  #   # 是否为商品
+  #   is-commodity: false
+  # 普通物品收购示例
+  A:
+    material: COBBLESTONE
+    name: " &x&f&b&f&a&b&5&l圆石"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  # itemsadder 物品收购示例
+  # 需要使用IA:前缀 中间为物品材质 后面为物品customData,如果是药水需要在添加一个 CustomPotionColor
+  B:
+    material: ANDESITE
+    name: " &x&f&b&f&a&b&5&l安山岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  C:
+    material: DIORITE
+    name: " &x&f&b&f&a&b&5&l闪长岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  D:
+    material: GRANITE
+    name: " &x&f&b&f&a&b&5&l花岗岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  E:
+    material: SAND
+    name: " &x&f&b&f&a&b&5&l沙子"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  F:
+    material: SANDSTONE
+    name: " &x&f&b&f&a&b&5&l砂岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  G:
+    material: CHISELED_SANDSTONE
+    name: " &x&f&b&f&a&b&5&l錾制砂岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  H:
+    material: CUT_SANDSTONE
+    name: " &x&f&b&f&a&b&5&l切制砂岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  I:
+    material: SMOOTH_SANDSTONE
+    name: " &x&f&b&f&a&b&5&l平滑砂岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  J:
+    material: STONE
+    name: " &x&f&b&f&a&b&5&l石头"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  K:
+    material: POLISHED_ANDESITE
+    name: " &x&f&b&f&a&b&5&l磨制安山岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  L:
+    material: POLISHED_DIORITE
+    name: " &x&f&b&f&a&b&5&l磨制闪长岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  M:
+    material: POLISHED_GRANITE
+    name: " &x&f&b&f&a&b&5&l磨制花岗岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  N:
+    material: RED_SAND
+    name: " &x&f&b&f&a&b&5&l红沙"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  O:
+    material: RED_SANDSTONE
+    name: " &x&f&b&f&a&b&5&l红沙岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  P:
+    material: CHISELED_RED_SANDSTONE
+    name: " &x&f&b&f&a&b&5&l錾制红砂岩"
+    price: 0.1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  Q:
+    material: "IA:PAPER:10001"
+    name: "&f"
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - "      &f▸   &x&c&f&c&b&c&2&l下&x&d&e&d&c&d&6&l一&x&e&e&e&c&e&9&l页   &f◂"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+    is-commodity: false
+    commands:
+      - "[open] 建筑方块2"
+
+  X:
+    material: "IA:PAPER:10206"
+    name: "§x§F§B§0§0§0§0关闭页面"
+    lore:
+      - "&f"
+      - "&f%img_left_click% &7点击关闭"
+      - "&f"
+    is-commodity: false
+    commands:
+      - "[console] menu open cw_menu_page3 %player%"

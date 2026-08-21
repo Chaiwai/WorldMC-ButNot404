@@ -1,0 +1,150 @@
+info:
+  namespace: "mctown"
+font_images:
+  mmoitem_title_gem:
+    path: "716/mmoitem_title_gem.png"
+    suggest_in_command: false
+    scale_ratio: 12
+    symbol: "豨"    
+    y_position: 12
+  mctown_rubya1:
+    path: "townasset/ruby/rubya1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    symbol: "籡"
+    y_position: 8
+  mctown_rubyd5:
+    path: "townasset/ruby/rubyd5.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mctown_rubyd1:
+    path: "townasset/ruby/rubyd1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mctown_rubya2:
+    path: "townasset/ruby/rubya2.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mctown_rubya3:
+    path: "townasset/ruby/rubya3.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mctown_rubya4:
+    path: "townasset/ruby/rubya4.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mctown_rubya5:
+    path: "townasset/ruby/rubya5.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mctown_afd:
+    path: "716/mctown_afd.png"
+    suggest_in_command: false
+    symbol: "瓠"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_fjyf:
+    path: "716/mctown_fjyf.png"
+    suggest_in_command: false
+    symbol: "藚"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_ghjwj:
+    path: "716/mctown_ghjwj.png"
+    suggest_in_command: false
+    symbol: "纓"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_lyxc:
+    path: "716/mctown_lyxc.png"
+    suggest_in_command: false
+    symbol: "鬱"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_mmz:
+    path: "716/mctown_mmz.png"
+    suggest_in_command: false
+    symbol: "礬"
+    scale_ratio: 10
+    y_position: 9
+
+  mctown_sqxd:
+    path: "716/mctown_sqxd.png"
+    suggest_in_command: false
+    symbol: "鱻"
+    scale_ratio: 10
+    y_position: 9
+  mctown_cosmetic_shop:
+    path: "716/mctown_cosmetic_shop.png"
+    suggest_in_command: false
+    y_position: 47
+items:
+  mctown_title_card:
+    display_name: mctown_title_card
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10457
+      textures:
+      - 716/mctown_title_card.png
+
+  mctown_cosmetic_token:
+    display_name: mctown_cosmetic_token
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10458
+      textures:
+      - 716/mctown_cosmetic_token.png 
+  mctown_orc_essence:
+    display_name: "奥克精华"
+    lore:
+    - "&f"
+    - "&7通过分解奥克装备可得"
+    - "&f"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 43965
+      textures:
+      - 716/mctown_orc_essence.png 
+  mctown_bilibli:
+    display_name: mctown_bilibli
+    resource:
+      material: paper
+      generate: false
+      model_path: 716/mctown_bilibli
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+    events:
+      placed_armorstand:
+        interact:
+          execute_commands:
+            cmd1:
+              command: 'bilireward'
+              as_console: false
+              delay: 0
+          play_sound_1:
+            name: minecraft:block.note_block.iron_xylophone
+            delay: 0

@@ -1,0 +1,26 @@
+basic:
+  id: green_thumb
+  name: 培植
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 左击泥土可将其转换为草方块
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- hoes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    permission-check: true

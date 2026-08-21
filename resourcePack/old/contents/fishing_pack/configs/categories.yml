@@ -1,0 +1,64 @@
+info:
+  namespace: fishing_pack
+categories:
+  fishing_pack:
+    enabled: true
+    icon: fishing_pack:starfish
+    name: 'Fishing Pack'
+    items:
+      - fishing_pack:pearl
+      - fishing_pack:jellyfish
+      - fishing_pack:slimefish
+      - fishing_pack:bubblefish
+      - fishing_pack:trout
+      - fishing_pack:greenfish
+      - fishing_pack:coralfish
+      - fishing_pack:bream
+      - fishing_pack:antihas
+      - fishing_pack:icefish
+      - fishing_pack:chromis
+      - fishing_pack:blue_grenadier
+      - fishing_pack:rosy_barb
+      - fishing_pack:green_barb
+      - fishing_pack:gemfish
+      - fishing_pack:starfish
+      - fishing_pack:fish_bone
+      - fishing_pack:shrimp
+      - fishing_pack:tuna
+      - fishing_pack:eel
+      - fishing_pack:stingray
+      - fishing_pack:blazorb_jellyfish
+      - fishing_pack:lava_anthias
+      - fishing_pack:obsidianfish
+      - fishing_pack:fire_eel
+      - fishing_pack:magma_trout
+      - fishing_pack:molten_coralfish
+      - fishing_pack:warped_shrimp
+      - fishing_pack:crimson_bubblefish
+      - fishing_pack:blue_eel
+      - fishing_pack:anthias
+      - fishing_pack:sunfish
+      - fishing_pack:ice_fishing_rod
+      - fishing_pack:copper_fishing_rod
+      - fishing_pack:iron_fishing_rod
+      - fishing_pack:golden_fishing_rod
+      - fishing_pack:diamond_fishing_rod
+      - fishing_pack:netherite_fishing_rod
+      - fishing_pack:end_fishing_rod
+      - fishing_pack:sculk_fishing_rod
+      - fishing_pack:prismarine_fishing_rod
+      - fishing_pack:nether_fishing_rod
+      - fishing_pack:amethyst_fishing_rod
+      - fishing_pack:magma_fishing_rod
+      - fishing_pack:gemstone_fishing_rod
+      - fishing_pack:slime_fishing_rod
+      - fishing_pack:molten_fishing_rod
+      - fishing_pack:coral_fishing_rod
+      - fishing_pack:worm_bait
+      - fishing_pack:corn_bait
+      - fishing_pack:jellyfish_tentacle_bait
+      - fishing_pack:dough_balls_bait
+      - fishing_pack:common_fishing_bait
+      - fishing_pack:rare_fishing_bait
+      - fishing_pack:epic_fishing_bait
+      - fishing_pack:legendary_fishing_bait

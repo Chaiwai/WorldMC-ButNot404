@@ -1,0 +1,29 @@
+basic:
+  id: fire_affinity
+  name: 炽热
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 对燃烧的生物的伤害提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+- bow
+- crossbow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:water_affinity
+variables:
+  leveled:
+    damage-multiplier: :1+0.05*{level}

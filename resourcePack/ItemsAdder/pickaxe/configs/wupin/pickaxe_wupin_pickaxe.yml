@@ -1,0 +1,224 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "pickaxe" #[命名空间]**
+items:
+  # 镐类物品配置
+  pickaxe_adamantite_pickaxe:
+    display_name: "adamantite_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: adamantite_pickaxe
+
+  pickaxe_bone_pickaxe:
+    display_name: "bone_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: bone_pickaxe
+
+  pickaxe_cactus_pickaxe:
+    display_name: "cactus_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: cactus_pickaxe
+
+  pickaxe_candy_cane_pickaxe:
+    display_name: "candy_cane_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: candy_cane_pickaxe
+
+  pickaxe_chlorophyte_pickaxe:
+    display_name: "chlorophyte_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: chlorophyte_pickaxe
+
+  pickaxe_cobalt_pickaxe:
+    display_name: "cobalt_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: cobalt_pickaxe
+
+  pickaxe_copper_pickaxe:
+    display_name: "copper_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: copper_pickaxe
+
+  pickaxe_deathbringer_pickaxe:
+    display_name: "deathbringer_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: deathbringer_pickaxe
+
+  pickaxe_enderite0_pickaxe:
+    display_name: "enderite0_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: enderite0_pickaxe
+
+  pickaxe_enderite_pickaxe:
+    display_name: "enderite_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: enderite_pickaxe
+
+  pickaxe_fossil_pickaxe:
+    display_name: "fossil_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: fossil_pickaxe
+
+  pickaxe_gold_pickaxe:
+    display_name: "gold_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: gold_pickaxe
+
+  pickaxe_iron_pickaxe:
+    display_name: "iron_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: iron_pickaxe
+
+  pickaxe_lead_pickaxe:
+    display_name: "lead_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: lead_pickaxe
+
+  pickaxe_molten_pickaxe:
+    display_name: "molten_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: molten_pickaxe
+
+  pickaxe_mythril_pickaxe:
+    display_name: "mythril_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: mythril_pickaxe
+
+  pickaxe_nebula_pickaxe:
+    display_name: "nebula_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: nebula_pickaxe
+
+  pickaxe_nightmare_pickaxe:
+    display_name: "nightmare_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: nightmare_pickaxe
+
+  pickaxe_orichalcum_pickaxe:
+    display_name: "orichalcum_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: orichalcum_pickaxe
+
+  pickaxe_palladium_pickaxe:
+    display_name: "palladium_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: palladium_pickaxe
+
+  pickaxe_platinum_pickaxe:
+    display_name: "platinum_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: platinum_pickaxe
+
+  pickaxe_silver_pickaxe:
+    display_name: "silver_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: silver_pickaxe
+
+  pickaxe_tin_pickaxe:
+    display_name: "tin_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: tin_pickaxe
+
+  pickaxe_titanium_pickaxe:
+    display_name: "titanium_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: titanium_pickaxe
+
+  pickaxe_tungsten_pickaxe:
+    display_name: "tungsten_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: tungsten_pickaxe
+
+  # 特殊工具
+  pickaxe_pickaxe_axe:
+    display_name: "pickaxe_axe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: pickaxe_axe
+
+  pickaxe_picksaw:
+    display_name: "picksaw"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: picksaw
+
+  # 高级镐类
+  pickaxe_solar_flare_pickaxe:
+    display_name: "solar_flare_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: solar_flare_pickaxe
+
+  pickaxe_spectre_pickaxe:
+    display_name: "spectre_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: spectre_pickaxe
+
+  pickaxe_stardust_pickaxe:
+    display_name: "stardust_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: stardust_pickaxe
+
+  pickaxe_vortex_pickaxe:
+    display_name: "vortex_pickaxe"
+    resource:
+      material: diamond_pickaxe
+      generate: false
+      model_path: vortex_pickaxe

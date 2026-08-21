@@ -1,0 +1,25 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/egg"
+    },
+	"overrides": [	
+		{"predicate": {"custom_model_data":2091}, "model": "null_model/null_head"},
+		{"predicate": {"custom_model_data":2092}, "model": "null_model/void_arrow"},
+		{"predicate": {"custom_model_data":2093}, "model": "null_model/void_arrow_vertical"},
+		{"predicate": {"custom_model_data":2094}, "model": "null_model/void_blackhole_1"},
+		{"predicate": {"custom_model_data":2095}, "model": "null_model/void_blackhole_2"},
+		{"predicate": {"custom_model_data":2096}, "model": "null_model/void_blackhole_3"},
+		{"predicate": {"custom_model_data":2097}, "model": "null_model/void_blackhole_4"},
+		{"predicate": {"custom_model_data":2098}, "model": "null_model/void_circle_1"},
+		{"predicate": {"custom_model_data":2099}, "model": "null_model/void_circle_2"},
+		{"predicate": {"custom_model_data":2100}, "model": "null_model/void_circle_3"},
+		{"predicate": {"custom_model_data":2101}, "model": "null_model/void_circle_4"},
+		{"predicate": {"custom_model_data":2102}, "model": "null_model/void_missile"},
+		{"predicate": {"custom_model_data":2103}, "model": "null_model/void_portal_1"},
+		{"predicate": {"custom_model_data":2104}, "model": "null_model/void_portal_2"},
+		{"predicate": {"custom_model_data":2105}, "model": "null_model/void_portal_3"},
+		{"predicate": {"custom_model_data":2106}, "model": "null_model/void_portal_4"},
+		{"predicate": {"custom_model_data":2107}, "model": "null_model/void_pulse"}
+    ]
+}

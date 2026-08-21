@@ -1,0 +1,26 @@
+basic:
+  id: economical
+  name: 节能
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 使用烟花火箭加速时有概率不消耗
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- elytra
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :12.5*{level}

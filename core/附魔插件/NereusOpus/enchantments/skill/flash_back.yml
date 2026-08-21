@@ -1,0 +1,37 @@
+basic:
+  id: flash_back
+  name: 回溯
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: '§e右击§7在原地记录状态，一段时间后闪回到该位置与状态（冷却时间: §a360秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 稀世
+targets:
+- swords
+- axes
+- bow
+- crossbow
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_ENDERMAN_TELEPORT
+    cooldown: 360
+  leveled:
+    duration: :200-{level}*20
+params:
+  particle:
+    type: CRIT
+    amount: 2

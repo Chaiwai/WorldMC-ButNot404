@@ -1,0 +1,34 @@
+basic:
+  id: quake
+  name: 神罗天征
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: '§e右击§7对周边生物造成范围真实伤害（冷却时间: §a40秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_ENDER_DRAGON_GROWL
+    cooldown: 40
+  leveled:
+    damage: :3+{level}*2
+    range: :2+{level}
+params:
+  particle:
+    type: CRIT_MAGIC
+    amount: 2

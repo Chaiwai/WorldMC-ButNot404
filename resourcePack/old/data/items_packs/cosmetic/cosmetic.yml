@@ -1,0 +1,84 @@
+info:
+  namespace: cosmetic
+items:
+  hotdog:
+    display_name: hotdog
+    permission: hotdog.cosmetic
+    lore:
+    - '&f>>&6Free Magic Cosmetic'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/hotdog
+  balloon:
+    display_name: balloon
+    permission: ballon.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/ballon
+  magicstick:
+    display_name: Stick
+    permission: stick.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/stick
+  brush:
+    display_name: Brush
+    permission: brush.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/brush
+  color:
+    display_name: color
+    permission: brush2.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/tone
+  backpack:
+    display_name: backpack
+    permission: backpack.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/backpack
+  stand:
+    display_name: stand
+    permission: stand.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/stand
+  token:
+    display_name: token
+    permission: token.cosmetic
+    lore:
+    - ''
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/token
+  mexhat:
+    display_name: MexHat
+    permission: mex.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: custom/item/mexhat

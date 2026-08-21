@@ -1,0 +1,180 @@
+{
+  "flamental.idle": {
+    "sounds": [
+      {
+        "name": "flamental/flamental_idle",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_idle",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_idle",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ] 
+  },
+  "flamental.explosion": {
+    "sounds": [
+      {
+        "name": "flamental/flamental_explosion0",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_explosion1",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_explosion0",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_explosion1",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_explosion0",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+	  {
+        "name": "flamental/flamental_explosion1",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ] 
+  },
+  "flamental.hit": {
+    "sounds": [
+      {
+        "name": "flamental/flamental_hit0",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_hit1",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_hit0",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_hit1",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_hit0",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+	  {
+        "name": "flamental/flamental_hit1",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ] 
+  },
+  "flamental.impact": {
+    "sounds": [
+      {
+        "name": "flamental/flamental_impact",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_impact",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_impact",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ] 
+  },
+  "flamental.release": {
+    "sounds": [
+      {
+        "name": "flamental/flamental_release",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_release",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_release",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ] 
+  },
+  "flamental.chargeup": {
+    "sounds": [
+      {
+        "name": "flamental/flamental_chargeup",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      }
+    ] 
+  },
+  "flamental.charge": {
+    "sounds": [
+      {
+        "name": "flamental/flamental_charge",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1
+      },
+	  {
+        "name": "flamental/flamental_charge",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 1.1
+      },
+	  {
+        "name": "flamental/flamental_charge",
+		"stream": false,
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ] 
+  }
+}

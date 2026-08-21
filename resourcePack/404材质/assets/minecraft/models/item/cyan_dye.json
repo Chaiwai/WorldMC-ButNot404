@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/cyan_dye"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"ore:mythril"},{"predicate":{"custom_model_data":10001},"model":"ore:ia_auto_gen/mythril_ingot"},{"predicate":{"custom_model_data":10002},"model":"item/cyan_dye"}]}

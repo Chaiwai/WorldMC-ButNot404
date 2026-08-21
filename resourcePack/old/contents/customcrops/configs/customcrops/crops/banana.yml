@@ -1,0 +1,148 @@
+info:
+  namespace: customcrops
+items:
+#banana_seed
+  banana_seeds:
+    variant_of: tem_seed
+    display_name: '&f香蕉种子'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - banana/banana_seeds.png
+
+#banana
+  banana_1star:
+    enabled: true
+    display_name: '&f香蕉'
+    resource:
+      generate: false
+      material: BAKED_POTATO
+      model_path: banana/banana
+    events:
+      eat:
+        feed:
+          amount: 3
+  banana_2star:
+    enabled: true
+    display_name: '&香蕉-银'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - banana/banana_silver.png
+    events:
+      eat:
+        feed:
+          amount: 3
+  banana_3star:
+    enabled: true
+    display_name: '&f香蕉-金'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - banana/banana_gold.png
+    events:
+      eat:
+        feed:
+          amount: 3
+
+#banana_stage
+  banana_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: banana/banana_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  banana_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: banana/banana_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  banana_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: banana/banana_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  banana_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: banana/banana_stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  banana_stage_5:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: banana/banana_stage_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+
+#banana_drop
+categories:
+  customcrops_banana:
+    enabled: true
+    icon: banana_1star
+    name: 'banana'
+    items:
+      - customcrops:banana_seeds
+      - customcrops:banana_1star
+      - customcrops:banana_2star
+      - customcrops:banana_3star
+      - customcrops:banana_stage_1
+      - customcrops:banana_stage_2
+      - customcrops:banana_stage_3
+      - customcrops:banana_stage_4
+      - customcrops:banana_stage_5

@@ -1,0 +1,28 @@
+basic:
+  id: tectonic
+  name: 余震
+  enable: true
+  max-level: 2
+display:
+  description:
+    general: 受到摔落伤害时对周围的生物造成伤害
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:feather_falling
+variables:
+  leveled:
+    range: :2*{level}
+    damage-splash: :2*{level}

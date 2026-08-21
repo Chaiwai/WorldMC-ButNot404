@@ -1,0 +1,24 @@
+info:
+  namespace: "mctown"
+font_images:
+
+  mctownbilibili01:
+    path: "73/mctownbilibili01.png"
+    suggest_in_command: false
+    y_position: 13
+
+items:
+  like:
+    display_name: mctownlike
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - 73/mctownlike.png
+  mctownfollow:
+    display_name: mctownfollow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - 73/mctownfollow.png

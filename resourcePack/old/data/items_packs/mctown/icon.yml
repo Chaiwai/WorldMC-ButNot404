@@ -1,0 +1,407 @@
+info:
+  namespace: "mctown"
+font_images:
+  icon1:
+    path: "icon/world_icon.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  spawn:
+    path: "icon/spawn.png"
+    suggest_in_command: false
+    symbol: "δ"
+    scale_ratio: 10
+    y_position: 9
+  nether:
+    path: "icon/nether.png"
+    suggest_in_command: false
+    symbol: "ㆊ"
+    scale_ratio: 10
+    y_position: 9
+  survival:
+    path: "icon/survival.png"
+    suggest_in_command: false
+    symbol: "ㅯ"
+    scale_ratio: 10
+    y_position: 9
+  resource:
+    path: "icon/resource.png"
+    suggest_in_command: false
+    symbol: "酦"
+    scale_ratio: 10
+    y_position: 9
+  end:
+  end:
+    path: "icon/end.png"
+    suggest_in_command: false
+    symbol: "ㅫ"
+    scale_ratio: 10
+    y_position: 9
+  icon2:
+    path: "icon/head_icon.png"
+    suggest_in_command: false
+    symbol: "㚍"
+    scale_ratio: 9
+    y_position: 8
+  icon4:
+    path: "icon/head_icon1.png"
+    suggest_in_command: false
+    symbol: "㜞"
+    scale_ratio: 9
+    y_position: 8
+  icon5:
+    path: "icon/head_icon2.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  icon6:
+    path: "icon/head_icon3.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  icon3:
+    path: "icon/gem_icon.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  jianyi:
+    path: "icon/jianyi.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mnoney:
+    path: "icon/money_icon.png"
+    suggest_in_command: false
+    symbol: "㘏"
+    scale_ratio: 9
+    y_position: 8
+  points_icon:
+    path: "icon/points_icon.png"
+    suggest_in_command: false
+    symbol: "㝹"
+    scale_ratio: 9
+    y_position: 8
+  party:
+    path: "icon/party.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  token_icon:
+    path: "icon/token_icon.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  scoreboard:
+    path: "icon/scoreboard.png"
+    suggest_in_command: false
+    scale_ratio: 31
+    y_position: 30
+  sverip:
+    path: "icon/severip.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  qqqun:
+    path: "icon/qqqun.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  qianming:
+    path: "icon/qianming.png"
+    suggest_in_command: false
+    symbol: "㔬"
+    scale_ratio: 9
+    y_position: 8
+  map:
+    path: "icon/map.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  time:
+    path: "icon/time.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  good:
+    path: "icon/good.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  cha:
+    path: "icon/cha.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  fuhao1:
+    path: "icon/fuhao1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  fuhao2:
+    path: "icon/fuhao2.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  fuhao3:
+    path: "icon/fuhao3.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  fuhao4:
+    path: "icon/fuhao4.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  fuhao5:
+    path: "icon/fuhao5.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  login:
+    path: "icon/login.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  login1:
+    path: "icon/login1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  shift:
+    path: "icon/shift.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  right_click:
+    path: "icon/right_click.png"
+    suggest_in_command: false
+    symbol: "㘠"
+    scale_ratio: 9
+    y_position: 8
+  left_click:
+    path: "icon/left_click.png"
+    suggest_in_command: false
+    symbol: "䪆"
+    scale_ratio: 9
+    y_position: 8
+  jobsss:
+    path: "icon/jobsss.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank_icon:
+    path: "icon/rank_icon.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  speech:
+    path: "icon/speech.png"
+    suggest_in_command: false
+    symbol: "㥑"
+    scale_ratio: 9
+    y_position: 8
+  ingame_icon:
+    path: "icon/ingame_icon.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  ping_icon:
+    path: "icon/ping_icon.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  item_type:
+    path: "icon/skill/item_type.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  attack_damage:
+    path: "icon/skill/attack_damage.png"
+    suggest_in_command: false
+    symbol: "䧿"
+    scale_ratio: 9
+    y_position: 8
+  armor:
+    path: "icon/skill/armor.png"
+    suggest_in_command: false
+    symbol: "䧾"
+    scale_ratio: 9
+    y_position: 8
+  attack_speed:
+    path: "icon/skill/attack_speed.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  dodge:
+    path: "icon/skill/dodge.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+    symbol: "翍"
+  qqqunqun:
+    path: "icon/qqqunqun.png"
+    suggest_in_command: false
+    y_position: 8
+  qqwangzhan:
+    path: "icon/qqwangzhan.png"
+    suggest_in_command: false
+    y_position: 8
+  dailyquests2:
+    path: "icon/dailyquests2.png"
+    suggest_in_command: false
+    symbol: "㣈"
+    y_position: 8
+  night_vision:
+    path: "icon/night_vision.png"
+    suggest_in_command: false
+    symbol: "㝸"
+    scale_ratio: 9
+    y_position: 8
+  scroll1:
+    path: "icon/scroll1.png"
+    suggest_in_command: false
+    symbol: "㨇"
+    scale_ratio: 9
+    y_position: 8
+  scroll2:
+    path: "icon/scroll2.png"
+    suggest_in_command: false
+    symbol: "㨀"
+    scale_ratio: 9
+    y_position: 8
+  scroll3:
+    path: "icon/scroll3.png"
+    suggest_in_command: false
+    symbol: "㧿"
+    scale_ratio: 9
+    y_position: 8
+  scroll4:
+    path: "icon/scroll4.png"
+    suggest_in_command: false
+    symbol: "㘡"
+    scale_ratio: 9
+    y_position: 8
+  star:
+    path: "icon/star.png"
+    suggest_in_command: false
+    symbol: "㘑"
+    scale_ratio: 9
+    y_position: 8
+  npc:
+    path: "icon/npc/npc.png"
+    suggest_in_command: false
+    symbol: "奝"
+    scale_ratio: 9
+    y_position: 8
+  showitem:
+    path: "icon/showitem.png"
+    suggest_in_command: false
+    symbol: "䧡"
+    scale_ratio: 12
+    y_position: 9
+  zaixian:
+    path: "icon/zaixian.png"
+    suggest_in_command: false
+    symbol: "㗬"
+    scale_ratio: 9
+    y_position: 8
+  speech2:
+    path: "npcdialogue/speech.png"
+    suggest_in_command: false
+    symbol: "㸥"
+    y_position: 9  
+  compass1:
+    path: "icon/compass/compass1.png"
+    suggest_in_command: false
+    symbol: "㜀"
+    scale_ratio: 12
+    y_position: 8
+  compass2:
+    path: "icon/compass/compass3.png"
+    suggest_in_command: false
+    symbol: "㜁"
+    scale_ratio: 12
+    y_position: 8
+  compass3:
+    path: "icon/compass/compass3.png"
+    suggest_in_command: false
+    symbol: "㜂"
+    scale_ratio: 12
+    y_position: 8
+  compass4:
+    path: "icon/compass/compass4.png"
+    suggest_in_command: false
+    symbol: "㜃"
+    scale_ratio: 12
+    y_position: 8
+  compass5:
+    path: "icon/compass/compass5.png"
+    suggest_in_command: false
+    symbol: "㜄"
+    scale_ratio: 12
+    y_position: 8
+  compass6:
+    path: "icon/compass/compass6.png"
+    suggest_in_command: false
+    symbol: "㜅"
+    scale_ratio: 12
+    y_position: 8
+  compass7:
+    path: "icon/compass/compass7.png"
+    suggest_in_command: false
+    symbol: "㜆"
+    scale_ratio: 12
+    y_position: 8
+  compass8:
+    path: "icon/compass/compass8.png"
+    suggest_in_command: false
+    symbol: "㜇"
+    scale_ratio: 12
+    y_position: 8
+  icontime:
+    path: "icon/compass/icontime.png"
+    suggest_in_command: false
+    symbol: "㜈"
+    scale_ratio: 12
+    y_position: 8
+  signin_icon:
+    path: "icon/signin.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  bungeeserver_spawn:
+    path: "icon/bungeeserver_spawn.png"
+    suggest_in_command: false
+    symbol: "㟚"
+    scale_ratio: 9
+    y_position: 8
+  bungeeserver_sc:
+    path: "icon/bungeeserver_sc.png"
+    suggest_in_command: false
+    symbol: "㟛"
+    scale_ratio: 9
+    y_position: 8
+  bungeeserver_zy:
+    path: "icon/bungeeserver_zy.png"
+    suggest_in_command: false
+    symbol: "㟜"
+    scale_ratio: 9
+    y_position: 8
+  bungeeserver_gj:
+    path: "icon/bungeeserver_gj.png"
+    suggest_in_command: false
+    symbol: "㟞"
+    scale_ratio: 9
+    y_position: 8
+  rpg:
+    path: "icon/rpg.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9
+  plot:
+    path: "icon/plot.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 10
+    y_position: 9

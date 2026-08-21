@@ -1,0 +1,226 @@
+##Nulledassets.net##
+info:
+  namespace: res_class_set_1
+armors_rendering:
+  assassin_armor:
+    color: '#344f58'
+    layer_1: assassin_layer_1
+    layer_2: assassin_layer_2
+    use_color: false
+  warrior_armor:
+    color: '#696d69'
+    layer_1: warrior_layer_1
+    layer_2: warrior_layer_2
+    use_color: false
+  archer_armor:
+    color: '#28562e'
+    layer_1: archer_layer_1
+    layer_2: archer_layer_2
+    use_color: false
+  mage_armor:
+    color: '#61c9db'
+    layer_1: mage_layer_1
+    layer_2: mage_layer_2
+    use_color: false
+items:
+  assassin_blade:
+    display_name: "assassin_blade"
+    permission: assassin_blade
+    resource:
+      material: STONE_SWORD
+      model_id: 70000
+      generate: false
+      model_path: class_weapons/assassin_blade
+  warrior_sword:
+    display_name: "warrior_sword"
+    permission: warrior_sword
+    resource:
+      material: STONE_SWORD
+      model_id: 70001
+      generate: false
+      model_path: class_weapons/warrior_sword
+  archer_bow:
+    display_name: "archer_bow"
+    permission: archer_bow
+    resource:
+      material: BOW
+      model_id: 70002
+      generate: false
+      model_path: class_weapons/archer_bow
+  archer_arrow:
+    display_name: "archer_arrow"
+    permission: archer_arrow
+    resource:
+      material: ARROW
+      model_id: 70002
+      generate: false
+      model_path: class_weapons/archer_arrow
+  mage_staff:
+    display_name: "mage_staff"
+    permission: mage_staff
+    resource:
+      material: STONE_SWORD
+      model_id: 70003
+      generate: false
+      model_path: class_weapons/mage_staff
+  assassin_helmet:
+    resource:
+      model_id: 70000
+      generate: true
+      textures:
+      - assassin_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: assassin_armor
+  assassin_chestplate:
+    resource:
+      model_id: 70000
+      generate: true
+      textures:
+      - assassin_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: assassin_armor
+  assassin_leggings:
+    resource:
+      model_id: 70000
+      generate: true
+      textures:
+      - assassin_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: assassin_armor
+  assassin_boots:
+    resource:
+      model_id: 70000
+      generate: true
+      textures:
+      - assassin_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: assassin_armor
+  warrior_helmet:
+    resource:
+      model_id: 70001
+      generate: true
+      textures:
+      - warrior_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: warrior_armor
+  warrior_chestplate:
+    resource:
+      model_id: 70001
+      generate: true
+      textures:
+      - warrior_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: warrior_armor
+  warrior_leggings:
+    resource:
+      model_id: 70001
+      generate: true
+      textures:
+      - warrior_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: warrior_armor
+  warrior_boots:
+    resource:
+      model_id: 70001
+      generate: true
+      textures:
+      - warrior_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: warrior_armor
+  archer_helmet:
+    resource:
+      model_id: 70002
+      generate: true
+      textures:
+      - archer_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: archer_armor
+  archer_chestplate:
+    resource:
+      model_id: 70002
+      generate: true
+      textures:
+      - archer_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: archer_armor
+  archer_leggings:
+    resource:
+      model_id: 70002
+      generate: true
+      textures:
+      - archer_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: archer_armor
+  archer_boots:
+    resource:
+      model_id: 70002
+      generate: true
+      textures:
+      - archer_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: archer_armor
+  mage_helmet:
+    resource:
+      model_id: 70003
+      generate: true
+      textures:
+      - mage_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: mage_armor
+  mage_chestplate:
+    resource:
+      model_id: 70003
+      generate: true
+      textures:
+      - mage_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: mage_armor
+  mage_leggings:
+    resource:
+      model_id: 70003
+      generate: true
+      textures:
+      - mage_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: mage_armor
+  mage_boots:
+    resource:
+      model_id: 70003
+      generate: true
+      textures:
+      - mage_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: mage_armor
+# hdRMg#ya+RA3l63g6i6b25Tj4ZRzPezx+5BZSXe7vb8rcWb2xDQqjQyYmJmtz5twRwDK1K

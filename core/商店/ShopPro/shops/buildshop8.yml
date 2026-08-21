@@ -1,0 +1,299 @@
+# 商店类型
+# buy 为出售商店
+# sell 为收购商店
+type: buy
+name: "建筑方块8"
+title: ":offset_-8::shop2:"
+# 物品摆放顺序
+slots:
+  - "zzzzzzzzX"
+  - "zzzzABCDz"
+  - "zzzzEFGHz"
+  - "zzzzIJKLz"
+  - "zzzzMNOPR"
+  - "zzzzzzzzQ"
+items:
+  # z:
+  #   material: STRUCTURE_VOID
+  #   name: " "
+  #   lore:
+  #     - " "
+  #   # 是否为商品
+  #   is-commodity: false
+  # 普通物品收购示例
+  A:
+    material: calcite
+    name: " &x&f&b&f&a&b&5&l方解石"
+    price: 1
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  B:
+    material: crying_obsidian
+    name: " &x&f&b&f&a&b&5&l哭泣黑曜石"
+    price: 20
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  C:
+    material: sea_lantern
+    name: " &x&f&b&f&a&b&5&l海晶灯"
+    price: 10
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+      - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+      - ""
+      - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+      - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+  # D:
+  #   material: AZALEA_LEAVES
+  #   name: " &x&f&b&f&a&b&5&l树叶"
+  #   price: 0.1
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # E:
+  #   material: FLOWERING_AZALEA_LEAVES
+  #   name: " &x&f&b&f&a&b&5&l树叶"
+  #   price: 0.1
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # F:
+  #   material: CHERRY_LEAVES
+  #   name: " &x&f&b&f&a&b&5&l树叶"
+  #   price: 0.1
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # G:
+  #   material: ice
+  #   name: " &x&f&b&f&a&b&5&l冰"
+  #   price: 0.8
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # H:
+  #   material: pale_oak_log
+  #   name: " &x&f&b&f&a&b&5&l苍白木"
+  #   price: 6
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # I:
+  #   material: pale_oak_leaves
+  #   name: " &x&f&b&f&a&b&5&l苍白叶"
+  #   price: 0.12
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # J:
+  #   material: pale_moss_block
+  #   name: " &x&f&b&f&a&b&5&l苍白藓"
+  #   price: 1
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # K:
+  #   material: ochre_froglight
+  #   name: " &x&f&b&f&a&b&5&l蛙鸣灯"
+  #   price: 12
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # L:
+  #   material: verdant_froglight
+  #   name: " &x&f&b&f&a&b&5&l蛙鸣灯"
+  #   price: 12
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # M:
+  #   material: pearlescent_froglight
+  #   name: " &x&f&b&f&a&b&5&l蛙鸣灯"
+  #   price: 12
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # N:
+  #   material: prismarine_crystals
+  #   name: " &x&f&b&f&a&b&5&l海晶砂粒"
+  #   price: 1.2
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # O:
+  #   material: prismarine_shard
+  #   name: " &x&f&b&f&a&b&5&l海晶碎片"
+  #   price: 1
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # P:
+  #   material: clay_ball
+  #   name: " &x&f&b&f&a&b&5&l粘土球"
+  #   price: 0.1
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - " &x&c&f&c&b&c&2购买单价 &a${price} &f%img_money%"
+  #     - " &x&c&f&c&b&c&2你的余额 &a${money} &f%img_money%"
+  #     - ""
+  #     - " &f%img_left_click% &x&c&f&c&b&c&2购买 &a单个 &x&c&f&c&b&c&2需要 &a${price} &f%img_money%"
+  #     - " &f%img_right_click% &x&c&f&c&b&c&2购买 &a一组 &x&c&f&c&b&c&2需要 &a${price64} &f%img_money%"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  # Q:
+  #   material: "IA:PAPER:10001"
+  #   name: "&f"
+  #   lore:
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #     - "     &f▸   &x&c&f&c&b&c&2&l下一页   &f◂"
+  #     - ""
+  #     - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+  #     - ""
+  #   is-commodity: false
+  #   commands:
+  #     - "[open] 建筑方块9"
+  R:
+    material: "IA:PAPER:10000"
+    name: "&f"
+    lore:
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+      - "      &f▸   &x&c&f&c&b&c&2&l上&x&d&e&d&c&d&6&l一&x&e&e&e&c&e&9&l页   &f◂"
+      - ""
+      - "&x&1&a&2&2&2&9&m━&x&2&c&3&3&3&9&m━&x&3&f&4&4&4&8&m━&x&5&1&5&5&5&8&m━&x&6&3&6&6&6&7&m━&x&7&6&7&8&7&7&m━&x&8&8&8&9&8&7&m━&x&9&a&9&a&9&6&m━&x&a&c&a&b&a&6&m━&x&b&f&b&c&b&5&m━&x&d&1&c&d&c&5&m━&x&b&f&b&c&b&5&m━&x&a&c&a&b&a&6&m━&x&9&a&9&a&9&6&m━&x&8&8&8&9&8&7&m━&x&7&6&7&8&7&7&m━&x&6&3&6&6&6&7&m━&x&5&1&5&5&5&8&m━&x&3&f&4&4&4&8&m━&x&2&c&3&3&3&9&m━&x&1&a&2&2&2&9&m━"
+      - ""
+    is-commodity: false
+    commands:
+      - "[open] 建筑方块7"
+  X:
+    material: "IA:PAPER:10206"
+    name: "§x§F§B§0§0§0§0关闭页面"
+    lore:
+      - "&f"
+      - "&f%img_left_click% &7点击关闭"
+      - "&f"
+    is-commodity: false
+    commands:
+      - "[console] menu open cw_menu_page3 %player%"

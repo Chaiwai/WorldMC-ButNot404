@@ -1,0 +1,184 @@
+info:
+  namespace: mctown
+font_images:
+  mcmmogui_bar1:
+    path: "block/mcmmo/mcmmogui_bar1"
+    suggest_in_command: false
+    symbol: "㣇"
+    scale_ratio: 9
+    y_position: 8
+  mcmmogui_bar2:
+    path: "block/mcmmo/mcmmogui_bar2"
+    suggest_in_command: false
+    symbol: "㥖"
+    scale_ratio: 9
+    y_position: 8
+  mcmmo:
+    path: "block/mcmmo/mcmmo"
+    suggest_in_command: false
+    symbol: "㥕"
+    scale_ratio: 9
+    y_position: 8
+  mcmmogui:
+    path: "block/mcmmo/mcmmogui"
+    suggest_in_command: false
+    symbol: "㥔"
+    y_position: 15
+  mcmmogui1:
+    path: "block/mcmmo/mcmmogui1"
+    suggest_in_command: false
+    symbol: "㥓"
+    y_position: 15
+  mcmmogui2:
+    path: "block/mcmmo/mcmmogui2"
+    suggest_in_command: false
+    symbol: "㥒"
+    y_position: 15
+  mcmmogui3:
+    path: "block/mcmmo/mcmmogui3"
+    suggest_in_command: false
+    symbol: "㬒"
+    y_position: 15
+  mcmmogui4:
+    path: "block/mcmmo/mcmmogui4"
+    suggest_in_command: false
+    symbol: "㥐"
+    y_position: 15
+  mcmmogui5:
+    path: "block/mcmmo/mcmmogui5"
+    suggest_in_command: false
+    symbol: "㥏"
+    y_position: 15
+  mcmmogui6:
+    path: "block/mcmmo/mcmmogui6"
+    suggest_in_command: false
+    symbol: "㥎"
+    y_position: 15
+  mcmmogui7:
+    path: "block/mcmmo/mcmmogui7"
+    suggest_in_command: false
+    symbol: "㥌"
+    y_position: 15
+  mcmmogui8:
+    path: "block/mcmmo/mcmmogui8"
+    suggest_in_command: false
+    symbol: "㥋"
+    y_position: 15
+  mcmmogui9:
+    path: "block/mcmmo/mcmmogui9"
+    suggest_in_command: false
+    symbol: "㥊"
+    y_position: 15
+  mcmmogui10:
+    path: "block/mcmmo/mcmmogui10"
+    suggest_in_command: false
+    symbol: "㥈"
+    y_position: 15
+  mcmmogui11:
+    path: "block/mcmmo/mcmmogui11"
+    suggest_in_command: false
+    symbol: "㥇"
+    y_position: 15
+  mcmmogui12:
+    path: "block/mcmmo/mcmmogui12"
+    suggest_in_command: false
+    symbol: "㥆"
+    y_position: 15
+  mcmmogui13:
+    path: "block/mcmmo/mcmmogui13"
+    suggest_in_command: false
+    symbol: "㥅"
+    y_position: 15
+  mcmmogui14:
+    path: "block/mcmmo/mcmmogui14"
+    suggest_in_command: false
+    symbol: "㥄"
+    y_position: 15
+  mcmmogui15:
+    path: "block/mcmmo/mcmmogui15"
+    suggest_in_command: false
+    symbol: "㥃"
+    y_position: 15
+  mcmmogui16:
+    path: "block/mcmmo/mcmmogui16"
+    suggest_in_command: false
+    symbol: "㥂"
+    y_position: 15
+  redpacket:
+    path: "block/mcmmo/redpacket"
+    suggest_in_command: false
+    symbol: "㬑"
+    scale_ratio: 60
+    y_position: 5
+  redpacket3:
+    path: "block/redpacket4"
+    suggest_in_command: false
+    symbol: "㬐"
+    scale_ratio: 9
+    y_position: 8
+    
+    
+    
+    
+    
+    #####红包title
+  redpacket_title1:
+    path: "block/mcmmo/redpacket_title1"
+    suggest_in_command: false
+    symbol: "㹏"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title2:
+    path: "block/mcmmo/redpacket_title2"
+    suggest_in_command: false
+    symbol: "㹐"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title3:
+    path: "block/mcmmo/redpacket_title3"
+    suggest_in_command: false
+    symbol: "㹑"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title4:
+    path: "block/mcmmo/redpacket_title4"
+    suggest_in_command: false
+    symbol: "㹒"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title5:
+    path: "block/mcmmo/redpacket_title5"
+    suggest_in_command: false
+    symbol: "㹓"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title6:
+    path: "block/mcmmo/redpacket_title6"
+    suggest_in_command: false
+    symbol: "㹔"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title7:
+    path: "block/mcmmo/redpacket_title7"
+    suggest_in_command: false
+    symbol: "㹕"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title8:
+    path: "block/mcmmo/redpacket_title8"
+    suggest_in_command: false
+    symbol: "㹖"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title9:
+    path: "block/mcmmo/redpacket_title9"
+    suggest_in_command: false
+    symbol: "㹗"
+    scale_ratio: 40
+    y_position: 15
+  redpacket_title10:
+    path: "block/mcmmo/redpacket_title10"
+    suggest_in_command: false
+    symbol: "㹘"
+    scale_ratio: 40
+    y_position: 15

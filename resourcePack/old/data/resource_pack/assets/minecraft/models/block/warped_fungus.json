@@ -1,0 +1,39 @@
+{
+	"credit": "Created by @JamieProbably on Twitter",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "block/warped_fungus_3d"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 5, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 2.5], "texture": "#1"},
+				"east": {"uv": [1, 0, 0, 2.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 1, 2.5], "texture": "#1"},
+				"west": {"uv": [1, 0, 0, 2.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 5, 3],
+			"to": [13, 9, 13],
+			"faces": {
+				"north": {"uv": [0, 2.5, 5, 4.5], "texture": "#1"},
+				"east": {"uv": [0, 2.5, 5, 4.5], "texture": "#1"},
+				"south": {"uv": [0, 2.5, 5, 4.5], "texture": "#1"},
+				"west": {"uv": [0, 2.5, 5, 4.5], "texture": "#1"},
+				"up": {"uv": [0, 4.5, 5, 9.5], "texture": "#1"},
+				"down": {"uv": [5, 9.5, 10, 4.5], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

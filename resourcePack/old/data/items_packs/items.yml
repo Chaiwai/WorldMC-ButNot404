@@ -1,0 +1,283 @@
+info:
+  namespace: mctown
+items:
+  empty:
+    display_name: "Empty Slot"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 99
+      textures:
+        - custom/ae/items/empty
+
+  # ENCHANT ITEMS:
+
+  rename-feather:
+    display_name: "Rename Feather"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 1
+      textures:
+        - custom/ae/items/rename-feather
+
+  soul-gem:
+    display_name: "Soul Gem"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 2
+      textures:
+        - custom/ae/items/soul-gem
+
+  lucky-gem:
+    display_name: "Lucky Gem"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 3
+      textures:
+        - custom/ae/items/lucky-gem
+
+  secret-gem:
+    display_name: "Secret Gem"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 4
+      textures:
+        - custom/ae/items/secret-gem
+
+  randomization-gem:
+    display_name: "Randomization Gem"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 5
+      textures:
+        - custom/ae/items/randomization-gem
+
+  armor-orb:
+    display_name: "Armor Orb"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 6
+      textures:
+        - custom/ae/items/armor-orb
+
+  weapon-orb:
+    display_name: "Weapon Orb"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 7
+      textures:
+        - custom/ae/items/weapon-orb
+
+  tool-orb:
+    display_name: "Tool Orb"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 8
+      textures:
+        - custom/ae/items/tool-orb
+
+  kill-tracker:
+    display_name: "Kill Tracker"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9
+      textures:
+        - custom/ae/items/kill-tracker
+
+  mob-tracker:
+    display_name: "Mob Tracker"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10
+      textures:
+        - custom/ae/items/mob-tracker
+
+  block-tracker:
+    display_name: "Block Tracker"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 11
+      textures:
+        - custom/ae/items/block-tracker
+
+  protection-scroll:
+    display_name: "Protection Scroll"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 12
+      textures:
+        - custom/ae/items/protection-scroll
+
+  remove-scroll:
+    display_name: "Remove Scroll"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 13
+      textures:
+        - custom/ae/items/remove-scroll
+
+  slot-scroll:
+    display_name: "Slot Scroll"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 14
+      textures:
+        - custom/ae/items/slot-scroll
+
+  soulbound-scroll:
+    display_name: "Soulbound Scroll"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 15
+      textures:
+        - custom/ae/items/soulbound-scroll
+
+  transmog-scroll:
+    display_name: "Transmog Scroll"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 16
+      textures:
+        - custom/ae/items/transmog-scroll
+
+  soul-tracker:
+    display_name: "Soul Tracker"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 17
+      textures:
+        - custom/ae/items/soul-tracker
+
+  # RIHTCLICK BOOK
+
+
+  rc-simple:
+    display_name: "Rc Simple"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 18
+      textures:
+        - custom/ae/items/rc-simple
+
+  rc-unique:
+    display_name: "Rc Unique"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19
+      textures:
+        - custom/ae/items/rc-unique
+
+  rc-elite:
+    display_name: "Rc Elite"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 20
+      textures:
+        - custom/ae/items/rc-elite
+
+  rc-ultimate:
+    display_name: "Rc Ultimate"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 21
+      textures:
+        - custom/ae/items/rc-ultimate
+
+  rc-legendary:
+    display_name: "Rc Legendary"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 22
+      textures:
+        - custom/ae/items/rc-legendary
+
+  rc-fabled:
+    display_name: "Rc Fabled"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 23
+      textures:
+        - custom/ae/items/rc-fabled
+
+  rc-lethal:
+    display_name: "Rc Lethal"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 24
+      textures:
+        - custom/ae/items/rc-lethal
+  book:
+    display_name: "book"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - custom/ae/items/book
+  alchemist:
+    display_name: "Alchemist"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 25
+      textures:
+        - custom/ae/items/alchemist
+
+  question2:
+    display_name: "Question2"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - custom/ae/question2

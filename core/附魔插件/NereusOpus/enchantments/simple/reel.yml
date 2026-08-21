@@ -1,0 +1,26 @@
+basic:
+  id: reel
+  name: 拉扯
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 拉扯生物的力度提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- rod
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    velocity: :0.5*{level}

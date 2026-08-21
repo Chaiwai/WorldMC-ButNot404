@@ -1,0 +1,31 @@
+basic:
+  id: magnetic
+  name: 万象天引
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 自动吸引周围的物品和经验到背包
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    range: :{level}*2.5
+  ordinary:
+    repeat-ticks: 5
+    disable-on-sneak: true
+    only-on-sneak: false
+    softmode: false

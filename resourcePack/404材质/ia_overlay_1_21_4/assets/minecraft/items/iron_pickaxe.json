@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"model","model":"item/iron_pickaxe"},"entries":[{"threshold":10000,"model":{"type":"model","model":"pickaxe:tungsten_pickaxe"}},{"threshold":10001,"model":{"type":"model","model":"pickaxe:bone_pickaxe"}},{"threshold":10002,"model":{"type":"model","model":"item/iron_pickaxe"}}]}}

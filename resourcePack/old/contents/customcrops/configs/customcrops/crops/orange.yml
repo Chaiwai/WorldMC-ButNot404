@@ -1,0 +1,146 @@
+info:
+  namespace: customcrops
+items:
+#orange_seed
+  orange_seeds:
+    variant_of: tem_seed
+    display_name: '橘子种子'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - orange/orange_seeds
+#orange
+  orange_1star:
+    enabled: true
+    display_name: '橘子'
+    resource:
+      generate: false
+      material: BAKED_POTATO
+      model_path: orange/orange
+    events:
+      eat:
+        feed:
+          amount: 1
+  orange_2star:
+    enabled: true
+    display_name: '橘子'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - orange/orange_silver
+    events:
+      eat:
+        feed:
+          amount: 1
+  orange_3star:
+    enabled: true
+    display_name: '橘子'
+    resource:
+      generate: true
+      material: BAKED_POTATO
+      textures:
+      - orange/orange_gold
+    events:
+      eat:
+        feed:
+          amount: 1
+
+#orange_stage
+  orange_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: orange/orange_stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  orange_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: orange/orange_stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  orange_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: orange/orange_stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  orange_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: orange/orange_stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+  orange_stage_5:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: orange/orange_stage_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+        sound:
+          place:
+            name: block.azalea.place
+          break:
+            name: block.azalea.break
+
+categories:
+  customcrops_orange:
+    enabled: true
+    icon: orange_1star
+    name: '橘子农作物'
+    items:
+      - customcrops:orange_seeds
+      - customcrops:orange_1star
+      - customcrops:orange_2star
+      - customcrops:orange_3star
+      - customcrops:orange_stage_1
+      - customcrops:orange_stage_2
+      - customcrops:orange_stage_3
+      - customcrops:orange_stage_4
+      - customcrops:orange_stage_5

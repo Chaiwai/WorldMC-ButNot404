@@ -1,0 +1,9 @@
+info:
+  namespace: mctown
+items:
+  explosion_rare:
+    display_name: explosion_rare
+    resource:
+      material: PAPER
+      generate: false
+      model_path: gui_icons/explosion_rare

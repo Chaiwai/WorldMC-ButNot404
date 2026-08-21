@@ -1,0 +1,31 @@
+basic:
+  id: probation
+  name: 感化
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 受到攻击时有概率给感化攻击者，使其漂浮起来
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :4*{level}
+    duration: :40*{level}
+    amplifier: :{level}

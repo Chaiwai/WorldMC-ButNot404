@@ -1,0 +1,33 @@
+basic:
+  id: charge
+  name: 突袭
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: '§e右击§7将自己弹射至所指方向（冷却时间: §a40秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_FIREWORK_ROCKET_LAUNCH
+    cooldown: 40
+  leveled:
+    power: :0.8*{level}
+params:
+  particle:
+    type: SWEEP_ATTACK
+    amount: 2

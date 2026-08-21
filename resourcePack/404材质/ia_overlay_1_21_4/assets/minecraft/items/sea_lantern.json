@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"model","model":"block/sea_lantern"},"entries":[{"threshold":10000,"model":{"type":"model","model":"littlepandaset:chest"}},{"threshold":10001,"model":{"type":"model","model":"littlepandaset:chest_opening"}},{"threshold":10002,"model":{"type":"model","model":"item/sea_lantern"}}]}}

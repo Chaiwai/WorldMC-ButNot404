@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": { "layer0": "mctown:block/item/pinion/dingzhi_we_hua" }
+}

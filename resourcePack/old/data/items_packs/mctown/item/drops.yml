@@ -1,0 +1,252 @@
+info:
+  namespace: mctown
+items:
+  mctown_soap:
+     display_name: '肥皂'
+     resource:
+       generate: true
+       material: PAPER
+  #     model_id: 39555
+       textures:
+       - block/mctown_soap
+  qiandao000:
+    display_name: '  '
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10308
+      textures:
+      - block/qiandao000
+  mctown_life_crystal:
+    display_name: '生命水晶'
+    resource:
+      generate: true
+    #  model_id: 2
+      material: GOLDEN_APPLE
+      textures:
+      - block/mctown_life_crystal
+  drop1:
+    display_name: '暗影蝙蝠翅膀'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop1
+  drop2:
+    display_name: '锯齿鳞片'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop2
+
+  drop3:
+    display_name: '黄蜂卵'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop3
+
+  drop4:
+    display_name: '地狱犬牙齿'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop4
+
+
+  drop6:
+    display_name: '荧光翅膀'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop6
+
+  drop7:
+    display_name: '剧毒蜘蛛腿'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop7
+
+  drop8:
+    display_name: '科博达的角'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop8
+
+  drop9:
+    display_name: '科博达的尾巴'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop9
+
+  drop10:
+    display_name: '骷髅颅骨'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop10
+
+  drop11:
+    display_name: '炼药锅之魂'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop11
+
+  drop12:
+    display_name: '炼药锅碎片'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop12
+
+  drop13:
+    display_name: '烈焰核心'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop13
+
+  drop14:
+    display_name: '魔化狼利齿'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop14
+
+  drop15:
+    display_name: '青色欺诈狐绒毛'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop15
+
+  drop16:
+    display_name: '赤色欺诈狐绒毛'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop16
+
+  drop17:
+    display_name: '青苔鹅卵石'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop17
+
+  drop18:
+    display_name: '火焰精华'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop18
+  drop19:
+    display_name: '龙魂'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop19
+  drop20:
+    display_name: '龙鳞'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop20
+
+  drop21:
+    display_name: '断裂的鹿角'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop21
+  drop22:
+    display_name: '奇异水晶'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop22
+  drop23:
+    display_name: '一滩粘液'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_drop23
+  mctown_orc_bone:
+    display_name: '兽人骨头'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_orc_bone
+  mctown_orc_teeth:
+    display_name: '兽人牙齿'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_orc_teeth
+  mctown_orc_fur:
+    display_name: '兽人皮毛'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - block/mctown_orc_fur
+categories:
+  mctown_rpgdrops:
+    enabled: true
+    icon: drop14
+    name: 'rpg掉落物'
+    items:
+      - mctown:drop1
+      - mctown:drop2
+      - mctown:drop3
+      - mctown:drop4
+      - mctown:drop6
+      - mctown:drop7
+      - mctown:drop8
+      - mctown:drop9
+      - mctown:drop10
+      - mctown:drop11
+      - mctown:drop12
+      - mctown:drop13
+      - mctown:drop14
+      - mctown:drop15
+      - mctown:drop16
+      - mctown:drop17
+      - mctown:drop18
+      - mctown:drop19
+      - mctown:drop20
+      - mctown:drop21
+      - mctown:drop22
+      - mctown:drop23
+      - mctown:mctown_orc_bone
+      - mctown:mctown_orc_fur
+      - mctown:mctown_orc_teeth
+      - mctown:mctown_life_crystal
+      - mctown:mctown_soap

@@ -1,0 +1,152 @@
+# Name which will be displayed
+# when opening the station
+name: ":offset_-36::blacksmith::offset_-36:(#page#/#max#)"
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+  fill:
+    material: AIR
+  no-recipe:
+    material: STRUCTURE_VOID
+    name: "&a无"
+  no-queue-item:
+    material: STRUCTURE_VOID
+    name: "&a没有物品在队列中"
+
+# Station recipes
+recipes:
+  ############################二专###################################
+  s1to2_1:
+    output:
+      type: material
+      id: SS1_CL_1
+      amount: 1
+    crafting-time: 600
+    conditions:
+      - "level{level=10}"
+    ingredients:
+      - vanilla{type=END_CRYSTAL, amount=5, display="末影水晶"}
+      - vanilla{type=Pitcher_Pod, amount=5, display="瓶子草荚果"}
+      - vanilla{type=Sniffer_Egg, amount=1, display="嗅探兽蛋"}
+      - vanilla{type=Experience_Bottle, amount=10, display="经验瓶"}
+      - vanilla{type=Music_Disc_Pigstep, amount=1, display="猪灵唱片"}
+      - vanilla{type=Snout_Armor_Trim_Smithing_Template, amount=1, display="猪鼻模板"}
+      - vanilla{type="mm 古老的金币 ~", amount=32, display="古老的金币"}
+      - vanilla{type="mm 火焰精华 ~", amount=16, display="火焰精华"}
+      - vanilla{type="mm 烈焰核心 ~", amount=32, display="烈焰核心"}
+  s1to2_2:
+    output:
+      type: material
+      id: SS2_CL_1
+      amount: 1
+    crafting-time: 600
+    conditions:
+      - "level{level=10}"
+    ingredients:
+      - vanilla{type="mm 青苔鹅卵石 ~", amount=32, display="青苔鹅卵石"}
+      - vanilla{type="mm 骷髅颅骨 ~", amount=32, display="骷髅颅骨"}
+      - vanilla{type="mm 蝙蝠翅膀 ~", amount=1, display="暗影蝙蝠翅膀"}
+      - vanilla{type="mm 奇异水晶 ~", amount=8, display="奇异水晶"}
+      - vanilla{type="mm 断裂的鹿角 ~", amount=16, display="断裂的鹿角"}
+      - vanilla{type=Music_Disc_5, amount=1, display="古城唱片"}
+      - vanilla{type="mm 古老的金币 ~", amount=32, display="古老的金币"}
+      - vanilla{type=Experience_Bottle, amount=10, display="经验瓶"}
+      - vanilla{type=Rabbit_Foot, amount=4, display="兔子腿"}
+  s1to2_3:
+    output:
+      type: material
+      id: SS3_CL_1
+      amount: 1
+    crafting-time: 600
+    conditions:
+      - "level{level=10}"
+    ingredients:
+      - vanilla{type="mm 青苔鹅卵石 ~", amount=32, display="青苔鹅卵石"}
+      - vanilla{type="mm 骷髅颅骨 ~", amount=32, display="骷髅颅骨"}
+      - vanilla{type="mm 蝙蝠翅膀 ~", amount=1, display="暗影蝙蝠翅膀"}
+      - vanilla{type="mm 一滩粘液 ~", amount=16, display="一滩粘液"}
+      - vanilla{type="mm 闪烁的粘液球 ~", amount=32, display="闪烁的粘液球"}
+      - vanilla{type=Music_Disc_Relic, amount=1, display="樱花唱片"}
+      - vanilla{type="mm 古老的金币 ~", amount=32, display="古老的金币"}
+      - vanilla{type=Experience_Bottle, amount=10, display="经验瓶"}
+      - vanilla{type=Honey_Block, amount=4, display="蜂蜜块"}
+  s1to2_4:
+    output:
+      type: material
+      id: SS4_CL_1
+      amount: 1
+    crafting-time: 600
+    conditions:
+      - "level{level=10}"
+    ingredients:
+      - vanilla{type="mm 火焰精华 ~", amount=10, display="火焰精华"}
+      - vanilla{type="mm 锯齿鳞片 ~", amount=10, display="锯齿鳞片"}
+      - vanilla{type="mm 鸽鸽の毛♪ ~", amount=1, display="鸽鸽の毛♪"}
+      - mmoitem{type=CONSUMABLE, id=R_BOOK7_1,amount=10}
+      - mmoitem{type=CONSUMABLE, id=R_BOOK8_1,amount=10}
+      - vanilla{type=Music_Disc_11, amount=1, display="11号唱片"}
+      - vanilla{type="mm 古老的金币 ~", amount=32, display="古老的金币"}
+      - vanilla{type=Experience_Bottle, amount=10, display="经验瓶"}
+      - vanilla{type=Skull_Pottery_Sherd, amount=1, display="头颅陶片"}
+  s1to2_5:
+    output:
+      type: material
+      id: SS5_CL_1
+      amount: 1
+    crafting-time: 600
+    conditions:
+      - "level{level=10}"
+    ingredients:
+      - vanilla{type="mm 火焰精华 ~", amount=10, display="火焰精华"}
+      - vanilla{type="mm 锯齿鳞片 ~", amount=10, display="锯齿鳞片"}
+      - vanilla{type="mm 蝙蝠翅膀 ~", amount=1, display="蝙蝠翅膀"}
+      - mmoitem{type=MATERIAL,id=中子锭, amount=9}
+      - mmoitem{type=MATERIAL,id=暗物质, amount=4}
+      - vanilla{type=Disc_Fragment_5, amount=9, display="唱片碎片"}
+      - vanilla{type="mm 古老的金币 ~", amount=32, display="古老的金币"}
+      - vanilla{type=Experience_Bottle, amount=10, display="经验瓶"}
+      - vanilla{type=Heartbreak_Pottery_Sherd, amount=1, display="心碎陶片"}
+  s1to2_6:
+    output:
+      type: material
+      id: SS6_CL_1
+      amount: 1
+    crafting-time: 600
+    conditions:
+      - "level{level=10}"
+    ingredients:
+      - mmoitem{type=MISCELLANEOUS,id=ZW}
+  ARMOR_long:
+    output:
+      type: material
+      id: ARMOR_CL_1
+      amount: 1
+    crafting-time: 600
+    conditions:
+      - "level{level=10}"
+    ingredients:
+      - vanilla{type="mm 火焰精华 ~", amount=10, display="火焰精华"}
+      - vanilla{type="mm 锯齿鳞片 ~", amount=10, display="锯齿鳞片"}
+      - vanilla{type="mm 鸽鸽の毛♪ ~", amount=1, display="鸽鸽の毛♪"}
+      - vanilla{type="mm 龙鳞 ~", amount=1, display="龙鳞"}
+      - vanilla{type="mm 龙魂 ~", amount=1, display="龙魂"}
+      - vanilla{type=Music_Disc_Stal, amount=1, display="stal唱片"}
+      - vanilla{type="mm 古老的金币 ~", amount=32, display="古老的金币"}
+      - vanilla{type=Experience_Bottle, amount=10, display="经验瓶"}
+      - vanilla{type=Sheaf_Pottery_Sherd, amount=1, display="神秘陶片?"}

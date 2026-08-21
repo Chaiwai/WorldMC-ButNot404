@@ -1,0 +1,29 @@
+basic:
+  id: blind
+  name: 致盲
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 射出的箭矢有概率致盲命中对象
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- bow
+- crossbow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :{level}*3
+    duration: :{level}*40
+    amplifier: :{level}

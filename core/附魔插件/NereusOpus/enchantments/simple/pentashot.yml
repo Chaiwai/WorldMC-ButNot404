@@ -1,0 +1,31 @@
+basic:
+  id: pentashot
+  name: 五言
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 一次射出的箭矢数量增加为五支并分散为扇形
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- bow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:succession
+- CONFLICT_ENCHANT:tripleshot
+- CONFLICT_ENCHANT:buckshot
+variables:
+  ordinary:
+    angle: 7
+  leveled:
+    chance: :100*{level}

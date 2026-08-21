@@ -1,0 +1,26 @@
+basic:
+  id: hook
+  name: 牵引
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 使钩子的拉扯效果提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- rod
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    velocity: 0.5

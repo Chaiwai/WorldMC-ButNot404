@@ -1,0 +1,35 @@
+basic:
+  id: arachnid
+  name: 剿蛛
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 对蜘蛛的伤害提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- trident
+- bow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+#- CONFLICT_ENCHANT:serrated
+#- CONFLICT_ENCHANT:phantasm
+#- CONFLICT_ENCHANT:impaling
+#- CONFLICT_ENCHANT:power
+#- CONFLICT_ENCHANT:force
+#- CONFLICT_ENCHANT:slaughter
+#- CONFLICT_ENCHANT:boss_hunter
+#- CONFLICT_ENCHANT:cubism
+variables:
+  leveled:
+    damage-multiplier: :1+0.5*{level}

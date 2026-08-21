@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"model":"item/orange_dye","type":"model"},"entries":[{"threshold":10000,"model":{"model":"ore:titanium","type":"model"}},{"threshold":10001,"model":{"model":"ore:titanium_ingot","type":"model"}},{"threshold":10002,"model":{"model":"item/orange_dye","type":"model"}}]}}

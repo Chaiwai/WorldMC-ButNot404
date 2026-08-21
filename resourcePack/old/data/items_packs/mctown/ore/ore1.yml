@@ -1,0 +1,1041 @@
+info:
+  namespace: mctown
+categories:
+  mctownore:
+    enabled: true
+    icon: "mctown:mctown_amber_block"
+    name: "矿石和矿物"
+    permission: "ia.menu.mctown"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:mctown_amber_block
+      - mctown:mctown_amber_ingot
+      - mctown:mctown_amber_nugget
+      - mctown:mctown_amber_ore
+      - mctown:mctown_amber_shard
+      - mctown:mctown_amethyst
+      - mctown:mctown_amethyst_block
+      - mctown:mctown_amethyst_ingot
+      - mctown:mctown_amethyst_nugget
+      - mctown:mctown_amethyst_ore
+      - mctown:mctown_deepslate_amber_ore
+      - mctown:mctown_deepslate_amethyst_ore
+      - mctown:mctown_deepslate_iridium_ore
+      - mctown:mctown_deepslate_jade_ore
+      - mctown:mctown_deepslate_malachite_ore
+      - mctown:mctown_deepslate_mythril_ore
+      - mctown:mctown_deepslate_ruby_ore
+      - mctown:mctown_deepslate_silver_ore
+      - mctown:mctown_iridium
+      - mctown:mctown_iridium_block
+      - mctown:mctown_iridium_ingot
+      - mctown:mctown_iridium_nugget
+      - mctown:mctown_iridium_ore
+      - mctown:mctown_jade_block
+      - mctown:mctown_jade_ingot
+      - mctown:mctown_jade_nugget
+      - mctown:mctown_jade_ore
+      - mctown:mctown_malachite
+      - mctown:mctown_malachite_block
+      - mctown:mctown_malachite_ingot
+      - mctown:mctown_malachite_nugget
+      - mctown:mctown_malachite_ore
+      - mctown:mctown_mythril_block
+      - mctown:mctown_mythril_ingot
+      - mctown:mctown_mythril_nugget
+      - mctown:mctown_mythril_ore
+      - mctown:mctown_raw_amber_block
+      - mctown:mctown_raw_amethyst_block
+      - mctown:mctown_raw_iridium_block
+      - mctown:mctown_raw_jade
+      - mctown:mctown_raw_jade_block
+      - mctown:mctown_raw_malachite_block
+      - mctown:mctown_raw_mythril
+      - mctown:mctown_raw_mythril_block
+      - mctown:mctown_raw_ruby_block
+      - mctown:mctown_raw_silver_block
+      - mctown:mctown_ruby
+      - mctown:mctown_ruby_block
+      - mctown:mctown_ruby_ingot
+      - mctown:mctown_ruby_nugget
+      - mctown:mctown_ruby_ore
+      - mctown:mctown_silver
+      - mctown:mctown_silver_block
+      - mctown:mctown_silver_ingot
+      - mctown:mctown_silver_nugget
+      - mctown:mctown_silver_ore
+
+loots:
+  blocks:
+    mctown_ruby_ore:
+      type: mctown:mctown_ruby_ore
+      items:
+        mythril:
+          item: xay4_made_items:xay4_made_items_bs0
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+    mctown_amethyst_ore:
+      type: mctown:mctown_amethyst_ore
+      items:
+        mythril:
+          item: xay4_made_items:xay4_made_items_bs0
+          min_amount: 2
+          max_amount: 4
+          chance: 100
+    mctown_jade_ore:
+      type: mctown:mctown_jade_ore
+      items:
+        mythril:
+          item: xay4_made_items:xay4_made_items_ys0
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+items:
+  mctown_amber_block:
+    display_name: "mctown_amber_block"
+    permission: mctown.block.mctown_amber_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_amber_block.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_amber_ore:
+    display_name: "奇怪の基岩"
+    permission: mctown.block.mctown_amber_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_amber_ore.png
+        - ore/4/mctown_amber_ore.png
+        - ore/4/mctown_amber_ore.png
+        - ore/4/mctown_amber_ore.png
+        - ore/4/mctown_amber_ore.png
+        - ore/4/mctown_amber_ore.png
+    lore:
+      - "&7一种合成材料"
+      - "&7也可以用于建筑"
+      - "&7世界：资源世界"
+      - "&7位置：主世界"
+      - "&7高度：y=-63"
+    specific_properties:
+      block:
+        hardness: 200
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_amber_ingot:
+    display_name: mctown_amber_ingot
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_amber_ingot.png
+  mctown_amber_nugget:
+    display_name: mctown_amber_nugget
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_amber_nugget.png
+  mctown_amber_shard:
+    display_name: mctown_amber_shard
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_amber_shard.png
+  mctown_amethyst_block:
+    display_name: "紫石英块"
+    #   permission: mctown.block.mctown_amethyst_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_amethyst_block.png
+        - ore/4/mctown_amethyst_block.png
+        - ore/4/mctown_amethyst_block.png
+        - ore/4/mctown_amethyst_block.png
+        - ore/4/mctown_amethyst_block.png
+        - ore/4/mctown_amethyst_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_iridium_block:
+    display_name: "mctown_iridium_block"
+    permission: mctown.block.mctown_iridium_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_iridium_block.png
+        - ore/4/mctown_iridium_block.png
+        - ore/4/mctown_iridium_block.png
+        - ore/4/mctown_iridium_block.png
+        - ore/4/mctown_iridium_block.png
+        - ore/4/mctown_iridium_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_jade_block:
+    display_name: "mctown_jade_block"
+    permission: mctown.block.mctown_jade_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_jade_block.png
+        - ore/4/mctown_jade_block.png
+        - ore/4/mctown_jade_block.png
+        - ore/4/mctown_jade_block.png
+        - ore/4/mctown_jade_block.png
+        - ore/4/mctown_jade_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_malachite_block:
+    display_name: "mctown_malachite_block"
+    permission: mctown.block.mctown_malachite_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_malachite_block.png
+        - ore/4/mctown_malachite_block.png
+        - ore/4/mctown_malachite_block.png
+        - ore/4/mctown_malachite_block.png
+        - ore/4/mctown_malachite_block.png
+        - ore/4/mctown_malachite_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_mythril_block:
+    display_name: "mctown_mythril_block"
+    permission: mctown.block.mctown_mythril_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_mythril_block.png
+        - ore/4/mctown_mythril_block.png
+        - ore/4/mctown_mythril_block.png
+        - ore/4/mctown_mythril_block.png
+        - ore/4/mctown_mythril_block.png
+        - ore/4/mctown_mythril_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_amber_block:
+    display_name: "mctown_raw_amber_block"
+    permission: mctown.block.mctown_raw_amber_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_amber_block.png
+        - ore/4/mctown_raw_amber_block.png
+        - ore/4/mctown_raw_amber_block.png
+        - ore/4/mctown_raw_amber_block.png
+        - ore/4/mctown_raw_amber_block.png
+        - ore/4/mctown_raw_amber_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_amethyst_block:
+    display_name: "mctown_raw_amethyst_block"
+    permission: mctown.block.mctown_raw_amethyst_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_amethyst_block.png
+        - ore/4/mctown_raw_amethyst_block.png
+        - ore/4/mctown_raw_amethyst_block.png
+        - ore/4/mctown_raw_amethyst_block.png
+        - ore/4/mctown_raw_amethyst_block.png
+        - ore/4/mctown_raw_amethyst_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_iridium_block:
+    display_name: "mctown_raw_iridium_block"
+    permission: mctown.block.mctown_raw_iridium_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_iridium_block.png
+        - ore/4/mctown_raw_iridium_block.png
+        - ore/4/mctown_raw_iridium_block.png
+        - ore/4/mctown_raw_iridium_block.png
+        - ore/4/mctown_raw_iridium_block.png
+        - ore/4/mctown_raw_iridium_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_jade_block:
+    display_name: "mctown_raw_jade_block"
+    permission: mctown.block.mctown_raw_jade_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_jade_block.png
+        - ore/4/mctown_raw_jade_block.png
+        - ore/4/mctown_raw_jade_block.png
+        - ore/4/mctown_raw_jade_block.png
+        - ore/4/mctown_raw_jade_block.png
+        - ore/4/mctown_raw_jade_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_malachite_block:
+    display_name: "mctown_raw_malachite_block"
+    permission: mctown.block.mctown_raw_malachite_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_malachite_block.png
+        - ore/4/mctown_raw_malachite_block.png
+        - ore/4/mctown_raw_malachite_block.png
+        - ore/4/mctown_raw_malachite_block.png
+        - ore/4/mctown_raw_malachite_block.png
+        - ore/4/mctown_raw_malachite_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_mythril_block:
+    display_name: "mctown_raw_mythril_block"
+    permission: mctown.block.mctown_raw_mythril_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_mythril_block.png
+        - ore/4/mctown_raw_mythril_block.png
+        - ore/4/mctown_raw_mythril_block.png
+        - ore/4/mctown_raw_mythril_block.png
+        - ore/4/mctown_raw_mythril_block.png
+        - ore/4/mctown_raw_mythril_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_ruby_block:
+    display_name: "mctown_raw_ruby_block"
+    permission: mctown.block.mctown_raw_ruby_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_ruby_block.png
+        - ore/4/mctown_raw_ruby_block.png
+        - ore/4/mctown_raw_ruby_block.png
+        - ore/4/mctown_raw_ruby_block.png
+        - ore/4/mctown_raw_ruby_block.png
+        - ore/4/mctown_raw_ruby_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_raw_silver_block:
+    display_name: "mctown_raw_silver_block"
+    permission: mctown.block.mctown_raw_silver_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_raw_silver_block.png
+        - ore/4/mctown_raw_silver_block.png
+        - ore/4/mctown_raw_silver_block.png
+        - ore/4/mctown_raw_silver_block.png
+        - ore/4/mctown_raw_silver_block.png
+        - ore/4/mctown_raw_silver_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_ruby_block:
+    display_name: "红宝石块"
+    #   permission: mctown.block.mctown_ruby_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_ruby_block.png
+        - ore/4/mctown_ruby_block.png
+        - ore/4/mctown_ruby_block.png
+        - ore/4/mctown_ruby_block.png
+        - ore/4/mctown_ruby_block.png
+        - ore/4/mctown_ruby_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_silver_block:
+    display_name: "mctown_silver_block"
+    permission: mctown.block.mctown_silver_block
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_silver_block.png
+        - ore/4/mctown_silver_block.png
+        - ore/4/mctown_silver_block.png
+        - ore/4/mctown_silver_block.png
+        - ore/4/mctown_silver_block.png
+        - ore/4/mctown_silver_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+  mctown_amethyst_ore:
+    display_name: "富含-基础宝石矿"
+    permission: mctown.block.mctown_amethyst_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_amethyst_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_silver_ingot:
+    display_name: mctown_silver_ingot
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_silver_ingot.png
+  mctown_silver_nugget:
+    display_name: mctown_silver_nugget
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_silver_nugget.png
+  mctown_silver:
+    display_name: mctown_silver
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_silver.png
+  mctown_ruby:
+    display_name: "红宝石"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_ruby.png
+  mctown_ruby_ingot:
+    display_name: "红宝石锭"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_ruby_ingot.png
+  mctown_ruby_nugget:
+    display_name: "红宝石碎片"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_ruby_nugget.png
+  mctown_raw_jade:
+    display_name: mctown_raw_jade
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_raw_jade.png
+  mctown_raw_mythril:
+    display_name: mctown_raw_mythril
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_raw_mythril.png
+  mctown_mythril_ingot:
+    display_name: mctown_mythril_ingot
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_mythril_ingot.png
+  mctown_mythril_nugget:
+    display_name: mctown_mythril_nugget
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_mythril_nugget.png
+  mctown_malachite_ingot:
+    display_name: mctown_malachite_ingot
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_malachite_ingot.png
+  mctown_malachite_nugget:
+    display_name: mctown_malachite_nugget
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_malachite_nugget.png
+  mctown_jade_nugget:
+    display_name: mctown_jade_nugget
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_jade_nugget.png
+  mctown_jade_ingot:
+    display_name: mctown_jade_ingot
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_jade_ingot.png
+  mctown_malachite:
+    display_name: mctown_malachite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_malachite.png
+  mctown_amethyst_ingot:
+    display_name: "紫石英锭"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_amethyst_ingot.png
+  mctown_amethyst:
+    display_name: "紫石英"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_amethyst.png
+  mctown_amethyst_nugget:
+    display_name: "紫石英碎片"
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_amethyst_nugget.png
+  mctown_iridium:
+    display_name: mctown_iridium
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_iridium.png
+  mctown_iridium_ingot:
+    display_name: mctown_iridium_ingot
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_iridium_ingot.png
+  mctown_iridium_nugget:
+    display_name: mctown_iridium_nugget
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ore/4/mctown_iridium_nugget.png
+  mctown_deepslate_amber_ore:
+    display_name: "mctown_deepslate_amber_ore"
+    permission: mctown.block.mctown_deepslate_amber_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_amber_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_deepslate_amethyst_ore:
+    display_name: "mctown_deepslate_amethyst_ore"
+    permission: mctown.block.mctown_deepslate_amethyst_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_amethyst_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_deepslate_iridium_ore:
+    display_name: "mctown_deepslate_iridium_ore"
+    permission: mctown.block.mctown_deepslate_iridium_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_iridium_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_deepslate_jade_ore:
+    display_name: "元素宝石矿"
+    permission: mctown.block.mctown_deepslate_jade_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_jade_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_deepslate_malachite_ore:
+    display_name: "mctown_deepslate_malachite_ore"
+    permission: mctown.block.mctown_deepslate_malachite_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_malachite_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_deepslate_mythril_ore:
+    display_name: "mctown_deepslate_mythril_ore"
+    permission: mctown.block.mctown_deepslate_mythril_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_mythril_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_deepslate_ruby_ore:
+    display_name: "mctown_deepslate_ruby_ore"
+    permission: mctown.block.mctown_deepslate_ruby_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_ruby_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_deepslate_silver_ore:
+    display_name: "mctown_deepslate_silver_ore"
+    permission: mctown.block.mctown_deepslate_silver_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_deepslate_silver_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_iridium_ore:
+    display_name: "mctown_iridium_ore"
+    permission: mctown.block.mctown_iridium_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_iridium_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_jade_ore:
+    display_name: "元素宝石矿"
+    permission: mctown.block.mctown_jade_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_jade_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_malachite_ore:
+    display_name: "mctown_malachite_ore"
+    permission: mctown.block.mctown_malachite_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_malachite_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_mythril_ore:
+    display_name: "mctown_mythril_ore"
+    permission: mctown.block.mctown_mythril_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_mythril_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_ruby_ore:
+    display_name: "基础宝石矿"
+    permission: mctown.block.mctown_ruby_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_ruby_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mctown_silver_ore:
+    display_name: "mctown_silver_ore"
+    permission: mctown.block.mctown_silver_ore
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+        - ore/4/mctown_silver_ore.png
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+#worlds_populators:
+#  mctown_ruby_ore:
+#    block: mctown:mctown_ruby_ore
+#    worlds:
+#      - world
+#    replaceable_blocks:
+#      - STONE
+#      - DIRT
+#      - ANDESITE
+#      - GRANITE
+#      - COBBLESTONE
+#      - GRAVEL
+#    chunk_chance: 100.0
+#    max_height: 45
+#    min_height: 0
+#    vein_blocks: 6
+#    chunk_veins: 3
+#  mctown_amethyst_ore:
+#    block: mctown:mctown_amethyst_ore
+#    worlds:
+#      - world_the_end
+#    replaceable_blocks:
+#      - STONE
+#      - DIRT
+#      - ANDESITE
+#      - GRANITE
+#      - COBBLESTONE
+#      - GRAVEL
+#    chunk_chance: 85.0
+#    max_height: 35
+#    min_height: -25
+#    vein_blocks: 3
+#    chunk_veins: 3
+#  mctown_jade_ore:
+#    block: mctown:mctown_jade_ore
+#    worlds:
+#      - world_the_end
+#    replaceable_blocks:
+#      - END_STONE
+#      - DIRT
+#      - ANDESITE
+#      - GRANITE
+#      - COBBLESTONE
+#      - GRAVEL
+#    chunk_chance: 50.0
+#    max_height: 52
+#    min_height: 10
+#    vein_blocks: 3
+#    chunk_veins: 3
+  # mctown_amber_ore:
+  # block: mctown:mctown_amber_ore
+  # worlds:
+  # - world
+  # replaceable_blocks:
+  # - STONE
+  # - DIRT
+  # - ANDESITE
+  # - GRANITE
+  # - COBBLESTONE
+  # - GRAVEL
+  # chunk_chance: 75.0
+  # max_height: 30
+  # min_height: -100
+  # vein_blocks: 2
+  # chunk_veins: 1

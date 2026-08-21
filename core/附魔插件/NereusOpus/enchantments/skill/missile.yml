@@ -1,0 +1,34 @@
+basic:
+  id: missile
+  name: 咒怨
+  enable: false
+  max-level: 3
+display:
+  description:
+    general: '§e右击§7发射一颗凋零骷髅头（冷却时间: §a60秒§7）'
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 稀世
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    sound: ENTITY_WITHER_SHOOT
+    cooldown: 60
+  leveled:
+    velocity: :1.5+0.5*{level}
+params:
+  particle:
+    type: VILLAGER_ANGRY
+    amount: 1

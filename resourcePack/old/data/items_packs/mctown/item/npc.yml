@@ -1,0 +1,143 @@
+info:
+  namespace: mctown
+entities:
+  mctown_robot:
+    display_name: "mctown_robot"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_robot
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc1:
+    display_name: "mctown_npc1"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc1
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc2:
+    display_name: "mctown_npc2"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc2
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc3:
+    display_name: "mctown_npc3"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc3
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc4:
+    display_name: "mctown_npc4"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc4
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc5:
+    display_name: "mctown_npc5"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc5
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc6:
+    display_name: "mctown_npc6"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc6
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc7:
+    display_name: "mctown_npc7"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc7
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc8:
+    display_name: "mctown_npc8"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc8
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc9:
+    display_name: "mctown_npc9"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc9
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc10:
+    display_name: "mctown_npc10"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc10
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_npc11:
+    display_name: "mctown_npc11"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_npc11
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_miner:
+    display_name: " mctown_miner"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_miner
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60
+  mctown_farmer:
+    display_name: "mctown_farmer"
+    type: IRON_GOLEM
+    model_folder: entity/mctown_farmer
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 0.3
+      flying: 0
+    max_health: 60

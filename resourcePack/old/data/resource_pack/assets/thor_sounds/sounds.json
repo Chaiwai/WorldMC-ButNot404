@@ -1,0 +1,70 @@
+{
+  "samus.discharge": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/discharge"
+    ]
+  },
+  "samus.lightning": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/lightning"
+    ]
+  },
+  "samus.mjolnir_catch": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/mjolnir_catch"
+    ]
+  },
+  "samus.mjolnir_throw": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/mjolnir_throw"
+    ]
+  },
+  "samus.thor_enchant": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/thor_enchant"
+    ]
+  },
+  "samus.thor_hit": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/thor_hit_1",
+	  "samus/thor/thor_hit_2",
+	  "samus/thor/thor_hit_3"
+    ]
+  },
+  "samus.thunder_clap": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/thunder_clap"
+    ]
+  },
+  "samus.thunder_clap_big": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/thunder_clap_big"
+    ]
+  },
+  "samus.thunder_smash": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/thunder_smash"
+    ]
+  },
+  "samus.thunder_leap": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/thunder_leap"
+    ]
+  },
+  "samus.thunder_clap_medium": {
+    "category": "master",
+    "sounds": [
+      "samus/thor/thunder_clap_medium"
+    ]
+  }
+}

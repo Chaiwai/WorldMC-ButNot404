@@ -1,0 +1,211 @@
+# Name which will be displayed
+# when opening the station
+name: ":offset_-36::blacksmith::offset_-36:(#page#/#max#)"
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+  fill:
+    material: AIR
+  no-recipe:
+    material: STRUCTURE_VOID
+    name: "&a无"
+  no-queue-item:
+    material: STRUCTURE_VOID
+    name: "&a没有物品在队列中"
+
+# Station recipes
+recipes:
+  ############################ 有序道具分解系统 ############################
+  # 所有系列的_CL_1级道具（熔岩→冰霜→自然→风龙）
+  S1_CL_1_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S1_CL_1}
+
+  S2_CL_1_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S2_CL_1}
+
+  S3_CL_1_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S3_CL_1}
+
+  S4_CL_1_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S4_CL_1}
+
+  # 所有系列的_CL_2级道具（熔岩→冰霜→自然→风龙）
+  S1_CL_2_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S1_CL_2}
+
+  S2_CL_2_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S2_CL_2}
+
+  S3_CL_2_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S3_CL_2}
+
+  S4_CL_2_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 1
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S4_CL_2}
+
+  # 所有系列的_CL_3级道具（熔岩→冰霜→自然→风龙）
+  S1_CL_3_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 4
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S1_CL_3}
+
+  S2_CL_3_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 4
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S2_CL_3}
+
+  S3_CL_3_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 4
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S3_CL_3}
+
+  S4_CL_3_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 4
+    ingredients:
+      - mmoitem{type=MATERIAL,id=S4_CL_3}
+  rpg1_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 2
+    ingredients:
+      - vanilla{type="mm 青苔鹅卵石 ~", amount=1, display="青苔鹅卵石"}
+
+  rpg2_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 2
+    ingredients:
+      - vanilla{type="mm 骷髅颅骨 ~", amount=1, display="骷髅颅骨"}
+
+  rpg3_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 2
+    ingredients:
+      - vanilla{type="mm 火焰精华 ~", amount=1, display="火焰精华"}
+
+  rpg4_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 2
+    ingredients:
+      - vanilla{type="mm 锯齿鳞片 ~", amount=1, display="锯齿鳞片"}
+
+  fb1_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 2
+    ingredients:
+      - vanilla{type="mm 闪烁的粘液球 ~", amount=1, display="闪烁的粘液球"}
+
+  fb2_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 3
+    ingredients:
+      - vanilla{type="mm 一滩粘液 ~", amount=1, display="一滩粘液"}
+
+  fb3_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 2
+    ingredients:
+      - vanilla{type="mm 断裂的鹿角 ~", amount=1, display="断裂的鹿角"}
+
+  fb4_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 3
+    ingredients:
+      - vanilla{type="mm 奇异水晶 ~", amount=1, display="奇异水晶"}
+
+  fb5_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 3
+    ingredients:
+      - vanilla{type="mm 烈焰核心 ~", amount=1, display="烈焰核心"}
+
+  fb6_decompose:
+    output:
+      type: CONSUMABLE
+      id: 道具珊瑚
+      amount: 2
+    ingredients:
+      - vanilla{type="mm 古老的金币 ~", amount=1, display="古老的金币"}

@@ -1,0 +1,397 @@
+info:
+  namespace: fishing_pack
+items:
+  starfish:
+    display_name: "&fStarfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/starfish
+      model_id: 1134
+  pearl:
+    display_name: "&fPearl"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/pearl
+      model_id: 1133
+  jellyfish:
+    display_name: "&fJellyfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/jellyfish
+      model_id: 1135
+  slimefish:
+    display_name: "&fSlimefish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/slimefish
+      model_id: 1136
+  bubblefish:
+    display_name: "&fBubblefish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/bubblefish
+      model_id: 1137
+  trout:
+    display_name: "&fTrout"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/trout
+      model_id: 1138
+  greenfish:
+    display_name: "&fGreenfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/greenfish
+      model_id: 1139
+  coralfish:
+    display_name: "&fCoralfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/coralfish
+      model_id: 1140
+  bream:
+    display_name: "&fBream"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/bream
+      model_id: 1141
+  fish_bone:
+    display_name: "&fFish Bone"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/fish_bone
+      model_id: 1142
+  rosy_barb:
+    display_name: "&fRosy Barb"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/rosy_barb
+      model_id: 1143
+  tuna:
+    display_name: "&fTuna"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/tuna
+      model_id: 1144
+  gemfish:
+    display_name: "&fGemfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/gemfish
+      model_id: 1145
+  chromis:
+    display_name: "&fChromis"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/chromis
+      model_id: 1146
+  icefish:
+    display_name: "&fIcefish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/icefish
+      model_id: 1147
+  shrimp:
+    display_name: "&fShrimp"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/shrimp
+      model_id: 1148
+  blue_eel:
+    display_name: "&fBlue Eel"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/blue_eel
+      model_id: 1149
+  anthias:
+    display_name: "&fAnthias"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/anthias
+      model_id: 1151
+  green_barb:
+    display_name: "&fGreen Barb"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/green_barb
+      model_id: 1152
+  blue_grenadier:
+    display_name: "&fBlue Grenadier"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/blue_grenadier
+      model_id: 1153
+  sunfish:
+    display_name: "&fSunfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/sunfish
+      model_id: 1154
+  stingray:
+    display_name: "&fStingray"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/stingray
+      model_id: 1155
+  obsidianfish:
+    display_name: "&fObsidianfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/obsidianfish
+      model_id: 1172
+  magma_trout:
+    display_name: "&fMagma Trout"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/magma_trout
+      model_id: 1173
+  molten_coralfish:
+    display_name: "&fMolten Coralfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/molten_coralfish
+      model_id: 1174
+  blazorb_jellyfish:
+    display_name: "&fBlazorb Jellyfish"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/blazorb_jellyfish
+      model_id: 1175
+  lava_anthias:
+    display_name: "&fLava Anthias"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/lava_anthias
+      model_id: 1176
+  fire_eel:
+    display_name: "&fFire Eel"
+    resource:
+      material: cod
+      generate: false
+      model_path: item/fire_eel
+      model_id: 1177
+  warped_shrimp:
+    display_name: "&fWarped Shrimp"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/warped_shrimp
+      model_id: 1178
+  crimson_bubblefish:
+    display_name: "&fCrimson Bubblefish"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/crimson_bubblefish
+      model_id: 1179
+  ice_fishing_rod:
+    display_name: "&fIce Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: ice_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/ice_fishing_rod
+      model_id: 1156
+  copper_fishing_rod:
+    display_name: "&fCopper Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: copper_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/copper_fishing_rod
+      model_id: 1157
+  iron_fishing_rod:
+    display_name: "&fIron Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: iron_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/iron_fishing_rod
+      model_id: 1158
+  golden_fishing_rod:
+    display_name: "&fGolden Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: golden_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/golden_fishing_rod
+      model_id: 1159
+  diamond_fishing_rod:
+    display_name: "&fDiamond Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: diamond_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/diamond_fishing_rod
+      model_id: 1160
+  netherite_fishing_rod:
+    display_name: "&fNetherite Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: netherite_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/netherite_fishing_rod
+      model_id: 1161
+  end_fishing_rod:
+    display_name: "&fEnd Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: end_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/end_fishing_rod
+      model_id: 1162
+  sculk_fishing_rod:
+    display_name: "&fSculk Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: sculk_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/sculk_fishing_rod
+      model_id: 1163
+  prismarine_fishing_rod:
+    display_name: "&fPrismarine Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: prismarine_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/prismarine_fishing_rod
+      model_id: 1164
+  nether_fishing_rod:
+    display_name: "&fNether Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: nether_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/nether_fishing_rod
+      model_id: 1165
+  amethyst_fishing_rod:
+    display_name: "&fAmethyst Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: amethyst_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/amethyst_fishing_rod
+      model_id: 1166
+  magma_fishing_rod:
+    display_name: "&fMagma Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: magma_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/magma_fishing_rod
+      model_id: 1167
+  gemstone_fishing_rod:
+    display_name: "&fGemstone Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: gemstone_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/gemstone_fishing_rod
+      model_id: 1168
+  slime_fishing_rod:
+    display_name: "&fSlime Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: slime_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/slime_fishing_rod
+      model_id: 1169
+  molten_fishing_rod:
+    display_name: "&fMolten Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: molten_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/molten_fishing_rod
+      model_id: 1170
+  coral_fishing_rod:
+    display_name: "&fCoral Fishing Rod"
+    nbt: '{CustomFishing:{type: rod, id: coral_fishing_rod}}'
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: item/coral_fishing_rod
+      model_id: 1171
+  corn_bait:
+    display_name: "&fCorn Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/corn_bait
+      model_id: 1181
+  worm_bait:
+    display_name: "&fWorm Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/worm_bait
+      model_id: 1180
+  jellyfish_tentacle_bait:
+    display_name: "&fJellyfish Tentacle Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/jellyfish_tentacle_bait
+      model_id: 1182
+  dough_balls_bait:
+    display_name: "&fDough Balls Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/dough_balls_bait
+      model_id: 1183
+  common_fishing_bait:
+    display_name: "&fCommon Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/common_fishing_bait
+      model_id: 1184
+  rare_fishing_bait:
+    display_name: "&fRare Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/rare_fishing_bait
+      model_id: 1185
+  epic_fishing_bait:
+    display_name: "&fEpic Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/epic_fishing_bait
+      model_id: 1186
+  legendary_fishing_bait:
+    display_name: "&fLegendary Bait"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/legendary_fishing_bait
+      model_id: 1187

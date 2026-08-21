@@ -1,0 +1,32 @@
+{
+   "toro.ender_dragon.roar":{
+		 "sounds": [
+			"ender_dragon_sounds/roar"
+		 ]
+	},
+   "toro.ender_dragon.short_roar":{
+		 "sounds": [
+			"ender_dragon_sounds/short_roar"
+		 ]
+	},
+   "toro.ender_dragon.smash":{
+		 "sounds": [
+			"ender_dragon_sounds/smash"
+		 ]
+	},
+   "toro.ender_dragon.swing":{
+		 "sounds": [
+			"ender_dragon_sounds/swing"
+		 ]
+	},
+   "toro.ender_dragon.deep_woosh":{
+		 "sounds": [
+			"ender_dragon_sounds/deep_woosh"
+		 ]
+	},
+   "toro.ender_dragon.boss_kill":{
+		 "sounds": [
+			"ender_dragon_sounds/boss_kill"
+		 ]
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fences/misc/template_fence_gate_wall",
+  "textures": {
+    "texture": "minecraft:block/crimson_fence"
+  }
+}

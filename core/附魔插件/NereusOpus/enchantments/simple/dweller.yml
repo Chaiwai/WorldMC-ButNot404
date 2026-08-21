@@ -1,0 +1,27 @@
+basic:
+  id: dweller
+  name: 卫戍
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 对灾厄村民的伤害提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1+0.5*{level}

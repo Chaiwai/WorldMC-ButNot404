@@ -1,0 +1,3987 @@
+info:
+  namespace: mctown
+categories:
+  mctownfurniture_cs:
+    enabled: true
+    icon: "mctown:mctown_kuijia"
+    name: '装饰品雕像'
+    permission: "ia.menu.mctown"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:knight_statue
+      - mctown:knight_statue2
+      - mctown:mctown_kuijia
+      - mctown:mctown_kuijia2
+      - mctown:mctown_quest_board
+      - mctown:mctown_big_banner
+      - mctown:mctown_big_banner2
+      - mctown:survival_logo_left
+      - mctown:survival_logo_middle
+      - mctown:survival_logo_right
+      - mctown:mctown_bike
+      - mctown:mctown_bin
+      - mctown:mctown_board
+      - mctown:mctown_cauldron
+      - mctown:mctown_ceilingfan
+      - mctown:mctown_cone
+      - mctown:mctown_curtains
+      - mctown:mctown_dummy
+      - mctown:mctown_dummy_noarm
+      - mctown:mctown_firehydrant
+      - mctown:mctown_flowerpot1
+      - mctown:mctown_flowerpot2
+      - mctown:mctown_flowerpot3
+      - mctown:mctown_flowerpot4
+      - mctown:mctown_globe
+      - mctown:mctown_icecreamcart
+      - mctown:mctown_paintbucket
+      - mctown:mctown_roadsign
+      - mctown:mctown_small_sign
+      - mctown:mctown_lamppost_bottom
+      - mctown:mctown_lamppost_middle
+      - mctown:mctown_lamppost_top
+      - mctown:mctown_lamppost1
+      - mctown:mctown_allay_plushie
+      - mctown:mctown_axolotl_plushie
+      - mctown:mctown_bee_plushie
+      - mctown:mctown_frog_plushie
+      - mctown:mctown_rascal_plushie
+      - mctown:mctown_sniffer_plushie
+      - mctown:mctown_squid_plushie
+      - mctown:mctown_tuff_plushie_golem
+      - mctown:mctown_warden_plushie
+      - mctown:mctown_diaoxiang
+      - mctown:mctown_ditang
+      - mctown:mctown_earth
+      - mctown:mctown_medal
+      - mctown:mctown_shuijing
+      - mctown:mctown_sign
+      - mctown:mctown_statue_npc
+      - mctown:mctown_boards_1
+      - mctown:mctown_boards2
+      - mctown:mctown_construction_table
+      - mctown:mctown_icecream_sign
+      - mctown:mctown_dolphin
+      - mctown:mctown_water_pillar
+      - mctown:mctown_house_cart
+      - mctown:mctown_cosmetics_sign
+      - mctown:mctown_furniture_sign
+      - mctown:mctown_auction_sign
+      - mctown:mctown_baby_bear
+      - mctown:mctown_baby_bunny
+      - mctown:mctown_bun_bun
+      - mctown:mctown_papa_bear
+      - mctown:mctown_park_bench
+      - mctown:mctown_pile_of_gold
+      - mctown:mctown_potted_tree
+      - mctown:mctown_carpet_1
+      - mctown:mctown_carpet_2
+      - mctown:mctown_chair_1
+      - mctown:mctown_chair_2
+      - mctown:mctown_curtain_1
+      - mctown:mctown_curtain_2
+      - mctown:mctown_frame_1
+      - mctown:mctown_frame_2
+      - mctown:mctown_frame_3
+      - mctown:mctown_glasses_1
+      - mctown:mctown_glasses_2
+      - mctown:mctown_table_1
+      - mctown:mctown_table_2
+      - mctown:mctown_table_war
+      - mctown:mctown_vase_1
+      - mctown:mctown_vase_2
+      - mctown:mctown_vase_3
+      - mctown:mctown_vase_4
+      - mctown:mctown_chinalamp
+      - mctown:mctown_chinalamp2
+      - mctown:mctown_golden_brick
+      - mctown:mctown_golden_chair
+      - mctown:mctown_golden_smalltable
+      - mctown:mctown_golden_table
+      - mctown:mctown_kingcarpet
+      - mctown:mctown_kingpicture
+      - mctown:mctown_kingthrone
+      - mctown:mctown_light
+      - mctown:mctown_bunny_statue
+      - mctown:mctown_ceiling_coin
+      - mctown:mctown_cny_pillar
+      - mctown:mctown_decorated_lantern
+      - mctown:mctown_decorated_lanterns
+      - mctown:mctown_decorated_long_lantern
+      - mctown:mctown_decorated_tall_lantern
+      - mctown:mctown_firecrackers
+      - mctown:mctown_kumquats
+      - mctown:mctown_lantern
+      - mctown:mctown_lanterns
+      - mctown:mctown_long_lantern
+      - mctown:mctown_lucky_banner
+      - mctown:mctown_lucky_kumquats
+      - mctown:mctown_tall_lantern
+      - mctown:mctown_wall_coin
+      - mctown:fitting
+      - mctown:art_stand
+      - mctown:atm_machine
+      - mctown:awning
+      - mctown:base_atm_machine
+      - mctown:bench
+      - mctown:book_stack_1
+      - mctown:book_stack_med
+      - mctown:book_stack_tall
+      - mctown:bread_furniture
+      - mctown:cafe_chair
+      - mctown:cafe_menu
+      - mctown:cafe_plant
+      - mctown:cafe_stool
+      - mctown:cafe_sugar
+      - mctown:cafe_table
+      - mctown:ceiling_fan
+      - mctown:chair_fancy
+      - mctown:chandelier
+      - mctown:chandelier_fancy
+      - mctown:cheese_furniture
+      - mctown:closet
+      - mctown:cosmetic_crate
+      - mctown:couch
+      - mctown:couch_chair
+      - mctown:curtain
+      - mctown:desk_lamp
+      - mctown:fancy_jukebox
+      - mctown:gardening_shelf
+      - mctown:gardening_vases
+      - mctown:hanging_plant
+      - mctown:ice_cream_cart
+      - mctown:lamp_tall
+      - mctown:lemon_bee_plushie
+      - mctown:mannequin
+      - mctown:mirror
+      - mctown:modern_chandelier
+      - mctown:oriental_lamp
+      - mctown:paint_table
+      - mctown:piano_furniture
+      - mctown:plant_vase_1
+      - mctown:plant_vase_fancy
+      - mctown:quest_board
+      - mctown:record_player
+      - mctown:standard_chair
+      - mctown:step_ladder
+      - mctown:tombstone
+      - mctown:trash_can
+      - mctown:tv
+      - mctown:wall_plant
+      - mctown:wooden_desk
+      - mctown:wooden_shelf
+      - mctown:wooden_shelf_small
+      - mctown:wooden_stool
+      - mctown:wooden_table_1
+      - mctown:wooden_table_2
+      - mctown:wooden_table_3
+items:
+  knight_statue:
+    display_name: "knight_statue"
+    permission: mctown.statue.knight_statue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/knight_statue
+    behaviours:
+      furniture:
+        solid: true
+        small: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 3
+          length: 1
+          width: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  knight_statue2:
+    display_name: "knight_statue2"
+    permission: mctown.statue.knight_statue2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/knight_statue2
+    behaviours:
+      furniture:
+        solid: true
+        small: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 3
+          length: 1
+          width: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_kuijia:
+    display_name: "mctown_kuijia"
+    permission: mctown.statue.mctown_kuijia
+    resource:
+      material: ARMOR_STAND
+      generate: false
+      model_path: block/item/statue/mctown_kuijia
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 2
+          length: 1
+          width: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_kuijia2:
+    display_name: "mctown_kuijia2"
+    permission: mctown.statue.mctown_kuijia2
+    resource:
+      material: ARMOR_STAND
+      generate: false
+      model_path: block/item/statue/mctown_kuijia2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 2
+          length: 1
+          width: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_quest_board:
+    display_name: "mctown_quest_board"
+    permission: mctown.statue.mctown_quest_board
+    resource:
+      material: ARMOR_STAND
+      generate: false
+      model_path: block/item/statue/mctown_quest_board
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 3
+          length: 1
+          width: 3
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+    events:
+      placed_armorstand:
+        interact:
+          execute_commands:
+            cmd1:
+              command: 'invero menu open 每日任务领取 %cmi_user_nickname%'
+              as_console: true
+              delay: 0
+          play_sound_1:
+            name: minecraft:block.note_block.iron_xylophone
+            delay: 0
+  mctown_big_banner:
+    display_name: "mctown_big_banner"
+    permission: mctown.statue.mctown_big_banner
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_big_banner
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 3
+          length: 1
+          width: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_big_banner2:
+    display_name: "mctown_big_banner2"
+    permission: mctown.statue.mctown_big_banner2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_big_banner2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 3
+          length: 1
+          width: 1
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  survival_logo_left:
+    display_name: "survival_logo_left"
+    permission: mctown.statue.survival_logo_left
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/survival_logo_left
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  survival_logo_middle:
+    display_name: "survival_logo_middle"
+    permission: mctown.statue.survival_logo_middle
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/survival_logo_middle
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  survival_logo_right:
+    display_name: "survival_logo_right"
+    permission: mctown.statue.survival_logo_right
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/survival_logo_right
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_bike:
+    display_name: "mctown_bike"
+    permission: mctown.statue.mctown_bike
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_bike
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_bin:
+    display_name: "mctown_bin"
+    permission: mctown.statue.mctown_bin
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_bin
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_board:
+    display_name: "mctown_board"
+    permission: mctown.statue.mctown_board
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_board
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 3
+          length: 1
+          width: 3
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cauldron:
+    display_name: "mctown_cauldron"
+    permission: mctown.statue.mctown_cauldron
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_cauldron
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_ceilingfan:
+    display_name: "mctown_ceilingfan"
+    permission: mctown.statue.mctown_ceilingfan
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_ceilingfan
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cone:
+    display_name: "mctown_cone"
+    permission: mctown.statue.mctown_cone
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_cone
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains:
+    display_name: "mctown_curtains"
+    permission: mctown.statue.mctown_curtains
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_curtains
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_dummy:
+    display_name: "mctown_dummy"
+    permission: mctown.statue.mctown_dummy
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_dummy
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_dummy_noarm:
+    display_name: "mctown_dummy_noarm"
+    permission: mctown.statue.mctown_dummy_noarm
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_dummy_noarm
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_firehydrant:
+    display_name: "mctown_firehydrant"
+    permission: mctown.statue.mctown_firehydrant
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_firehydrant
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_flowerpot1:
+    display_name: "mctown_flowerpot1"
+    permission: mctown.statue.mctown_flowerpot1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_flowerpot1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_flowerpot2:
+    display_name: "mctown_flowerpot2"
+    permission: mctown.statue.mctown_flowerpot2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_flowerpot2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_flowerpot3:
+    display_name: "mctown_flowerpot3"
+    permission: mctown.statue.mctown_flowerpot3
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_flowerpot3
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_flowerpot4:
+    display_name: "mctown_flowerpot4"
+    permission: mctown.statue.mctown_flowerpot4
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_flowerpot4
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_globe:
+    display_name: "mctown_globe"
+    permission: mctown.statue.mctown_globe
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_globe
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_icecreamcart:
+    display_name: "mctown_icecreamcart"
+    permission: mctown.statue.mctown_icecreamcart
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_icecreamcart
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_paintbucket:
+    display_name: "mctown_paintbucket"
+    permission: mctown.statue.mctown_paintbucket
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_paintbucket
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_roadsign:
+    display_name: "mctown_roadsign"
+    permission: mctown.statue.mctown_roadsign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_roadsign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_small_sign:
+    display_name: "mctown_small_sign"
+    permission: mctown.statue.mctown_small_sign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_small_sign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lamppost_bottom:
+    display_name: "mctown_lamppost_bottom"
+    permission: mctown.statue.mctown_lamppost_bottom
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lamppost_bottom
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lamppost_middle:
+    display_name: "mctown_lamppost_middle"
+    permission: mctown.statue.mctown_lamppost_middle
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lamppost_middle
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lamppost_top:
+    display_name: "mctown_lamppost_top"
+    permission: mctown.statue.mctown_lamppost_top
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lamppost_top
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lamppost1:
+    display_name: "mctown_lamppost1"
+    permission: mctown.statue.mctown_lamppost1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lamppost1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_allay_plushie:
+    display_name: "mctown_allay_plushie"
+    permission: mctown.statue.mctown_allay_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_allay_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_axolotl_plushie:
+    display_name: "mctown_axolotl_plushie"
+    permission: mctown.statue.mctown_axolotl_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_axolotl_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_bee_plushie:
+    display_name: "mctown_bee_plushie"
+    permission: mctown.statue.mctown_bee_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_bee_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_frog_plushie:
+    display_name: "mctown_frog_plushie"
+    permission: mctown.statue.mctown_frog_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_frog_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_rascal_plushie:
+    display_name: "mctown_rascal_plushie"
+    permission: mctown.statue.mctown_rascal_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_rascal_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_sniffer_plushie:
+    display_name: "mctown_sniffer_plushie"
+    permission: mctown.statue.mctown_sniffer_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_sniffer_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_squid_plushie:
+    display_name: "mctown_squid_plushie"
+    permission: mctown.statue.mctown_squid_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_squid_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_tuff_plushie_golem:
+    display_name: "mctown_tuff_plushie_golem"
+    permission: mctown.statue.mctown_tuff_plushie_golem
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_tuff_plushie_golem
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_warden_plushie:
+    display_name: "mctown_warden_plushie"
+    permission: mctown.statue.mctown_warden_plushie
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_warden_plushie
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_diaoxiang:
+    display_name: "mctown_diaoxiang"
+    permission: mctown.statue.mctown_diaoxiang
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_diaoxiang
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_ditang:
+    display_name: "mctown_ditang"
+    permission: mctown.statue.mctown_ditang
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_ditang
+    behaviours:
+      furniture:
+        solid: false
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_earth:
+    display_name: "mctown_earth"
+    permission: mctown.statue.mctown_earth
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_earth
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_medal:
+    display_name: "mctown_medal"
+    permission: mctown.statue.mctown_medal
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_medal
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_shuijing:
+    display_name: "mctown_shuijing"
+    permission: mctown.statue.mctown_shuijing
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_shuijing
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_sign:
+    display_name: "mctown_sign"
+    permission: mctown.statue.mctown_sign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_sign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_statue_npc:
+    display_name: "mctown_statue_npc"
+    permission: mctown.statue.mctown_statue_npc
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_statue_npc
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_boards_1:
+    display_name: "mctown_boards_1"
+    permission: mctown.statue.mctown_boards_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_boards_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break  
+  mctown_boards2:
+    display_name: "mctown_boards2"
+    permission: mctown.statue.mctown_boards2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_boards2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break  
+  mctown_construction_table:
+    display_name: "mctown_construction_table"
+    permission: mctown.statue.mctown_construction_table
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_construction_table
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break 
+  mctown_icecream_sign:
+    display_name: "mctown_icecream_sign"
+    permission: mctown.statue.mctown_icecream_sign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_icecream_sign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_dolphin:
+    display_name: "mctown_dolphin"
+    permission: mctown.statue.mctown_dolphin
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_dolphin
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_water_pillar:
+    display_name: "mctown_water_pillar"
+    permission: mctown.statue.mctown_water_pillar
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_water_pillar
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_house_cart:
+    display_name: "mctown_house_cart"
+    permission: mctown.statue.mctown_house_cart
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_house_cart
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cosmetics_sign:
+    display_name: "mctown_cosmetics_sign"
+    permission: mctown.statue.mctown_cosmetics_sign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_cosmetics_sign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_furniture_sign:
+    display_name: "mctown_furniture_sign"
+    permission: mctown.statue.mctown_furniture_sign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_furniture_sign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_auction_sign:
+    display_name: "mctown_auction_sign"
+    permission: mctown.statue.mctown_auction_sign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_auction_sign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_baby_bear:
+    display_name: "mctown_baby_bear"
+    permission: mctown.statue.mctown_baby_bear
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_baby_bear
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_baby_bunny:
+    display_name: "mctown_baby_bunny"
+    permission: mctown.statue.mctown_baby_bunny
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_baby_bunny
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_bun_bun:
+    display_name: "mctown_bun_bun"
+    permission: mctown.statue.mctown_bun_bun
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_bun_bun
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_papa_bear:
+    display_name: "mctown_papa_bear"
+    permission: mctown.statue.mctown_papa_bear
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_papa_bear
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_park_bench:
+    display_name: "mctown_park_bench"
+    permission: mctown.statue.mctown_park_bench
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_park_bench
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_pile_of_gold:
+    display_name: "mctown_pile_of_gold"
+    permission: mctown.statue.mctown_pile_of_gold
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_pile_of_gold
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  fitting:
+    display_name: "fitting"
+    permission: mctown.statue.fitting
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/fitting
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_potted_tree:
+    display_name: "mctown_potted_tree"
+    permission: mctown.statue.mctown_potted_tree
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_potted_tree
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            #111
+  mctown_carpet_1:
+    display_name: "mctown_carpet_1"
+    permission: mctown.statue.mctown_carpet_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_carpet_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_carpet_2:
+    display_name: "mctown_carpet_2"
+    permission: mctown.statue.mctown_carpet_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_carpet_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_chair_1:
+    display_name: "mctown_chair_1"
+    permission: mctown.statue.mctown_chair_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_chair_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_chair_2:
+    display_name: "mctown_chair_2"
+    permission: mctown.statue.mctown_chair_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_chair_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtain_1:
+    display_name: "mctown_curtain_1"
+    permission: mctown.statue.mctown_curtain_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_curtain_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtain_2:
+    display_name: "mctown_curtain_2"
+    permission: mctown.statue.mctown_curtain_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_curtain_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_frame_1:
+    display_name: "mctown_frame_1"
+    permission: mctown.statue.mctown_frame_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_frame_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_frame_2:
+    display_name: "mctown_frame_2"
+    permission: mctown.statue.mctown_frame_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_frame_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_frame_3:
+    display_name: "mctown_frame_3"
+    permission: mctown.statue.mctown_frame_3
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_frame_3
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_glasses_1:
+    display_name: "mctown_glasses_1"
+    permission: mctown.statue.mctown_glasses_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_glasses_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_glasses_2:
+    display_name: "mctown_glasses_2"
+    permission: mctown.statue.mctown_glasses_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_glasses_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_table_1:
+    display_name: "mctown_table_1"
+    permission: mctown.statue.mctown_table_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_table_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_table_2:
+    display_name: "mctown_table_2"
+    permission: mctown.statue.mctown_table_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_table_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_table_war:
+    display_name: "mctown_table_war"
+    permission: mctown.statue.mctown_table_war
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_table_war
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_vase_1:
+    display_name: "mctown_vase_1"
+    permission: mctown.statue.mctown_vase_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_vase_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_vase_2:
+    display_name: "mctown_vase_2"
+    permission: mctown.statue.mctown_vase_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_vase_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_vase_3:
+    display_name: "mctown_vase_3"
+    permission: mctown.statue.mctown_vase_3
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_vase_3
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_vase_4:
+    display_name: "mctown_vase_4"
+    permission: mctown.statue.mctown_vase_4
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_vase_4
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_chinalamp:
+    display_name: "mctown_chinalamp"
+    permission: mctown.statue.mctown_chinalamp
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_chinalamp
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_chinalamp2:
+    display_name: "mctown_chinalamp2"
+    permission: mctown.statue.mctown_chinalamp2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_chinalamp2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_golden_brick:
+    display_name: "mctown_golden_brick"
+    permission: mctown.statue.mctown_golden_brick
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_golden_brick
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_golden_chair:
+    display_name: "mctown_golden_chair"
+    permission: mctown.statue.mctown_golden_chair
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_golden_chair
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_golden_smalltable:
+    display_name: "mctown_golden_smalltable"
+    permission: mctown.statue.mctown_golden_smalltable
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_golden_smalltable
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_golden_table:
+    display_name: "mctown_golden_table"
+    permission: mctown.statue.mctown_golden_table
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_golden_table
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_kingcarpet:
+    display_name: "mctown_kingcarpet"
+    permission: mctown.statue.mctown_kingcarpet
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_kingcarpet
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_kingpicture:
+    display_name: "mctown_kingpicture"
+    permission: mctown.statue.mctown_kingpicture
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_kingpicture
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_kingthrone:
+    display_name: "mctown_kingthrone"
+    permission: mctown.statue.mctown_kingthrone
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_kingthrone
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_light:
+    display_name: "mctown_light"
+    permission: mctown.statue.mctown_light
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_light
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            #222
+  mctown_bunny_statue:
+    display_name: "mctown_bunny_statue"
+    permission: mctown.statue.mctown_bunny_statue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_bunny_statue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_ceiling_coin:
+    display_name: "mctown_ceiling_coin"
+    permission: mctown.statue.mctown_ceiling_coin
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_ceiling_coin
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cny_pillar:
+    display_name: "mctown_cny_pillar"
+    permission: mctown.statue.mctown_cny_pillar
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_cny_pillar
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_decorated_lantern:
+    display_name: "mctown_decorated_lantern"
+    permission: mctown.statue.mctown_decorated_lantern
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_decorated_lantern
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_decorated_lanterns:
+    display_name: "mctown_decorated_lanterns"
+    permission: mctown.statue.mctown_decorated_lanterns
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_decorated_lanterns
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_decorated_long_lantern:
+    display_name: "mctown_decorated_long_lantern"
+    permission: mctown.statue.mctown_decorated_long_lantern
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_decorated_long_lantern
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_decorated_tall_lantern:
+    display_name: "mctown_decorated_tall_lantern"
+    permission: mctown.statue.mctown_decorated_tall_lantern
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_decorated_tall_lantern
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_firecrackers:
+    display_name: "mctown_firecrackers"
+    permission: mctown.statue.mctown_firecrackers
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_firecrackers
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_kumquats:
+    display_name: "mctown_kumquats"
+    permission: mctown.statue.mctown_kumquats
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_kumquats
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lantern:
+    display_name: "mctown_lantern"
+    permission: mctown.statue.mctown_lantern
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lantern
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lanterns:
+    display_name: "mctown_lanterns"
+    permission: mctown.statue.mctown_lanterns
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lanterns
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_long_lantern:
+    display_name: "mctown_long_lantern"
+    permission: mctown.statue.mctown_long_lantern
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_long_lantern
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lucky_banner:
+    display_name: "mctown_lucky_banner"
+    permission: mctown.statue.mctown_lucky_banner
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lucky_banner
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_lucky_kumquats:
+    display_name: "mctown_lucky_kumquats"
+    permission: mctown.statue.mctown_lucky_kumquats
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_lucky_kumquats
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_tall_lantern:
+    display_name: "mctown_tall_lantern"
+    permission: mctown.statue.mctown_tall_lantern
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_tall_lantern
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_wall_coin:
+    display_name: "mctown_wall_coin"
+    permission: mctown.statue.mctown_wall_coin
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/statue/mctown_wall_coin
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            #333
+  art_stand:
+    display_name: "art_stand"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/art_stand
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+            
+            
+  atm_machine:
+    display_name: "atm_machine"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/atm_machine
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  awning:
+    display_name: "awning"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/awning
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  base_atm_machine:
+    display_name: "base_atm_machine"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/base_atm_machine
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  bench:
+    display_name: "bench"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/bench
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+      furniture_sit:
+        sit_height: 0.65
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  book_stack_1:
+    display_name: "book_stack_1"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/book_stack_1
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  book_stack_med:
+    display_name: "book_stack_med"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/book_stack_med
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  book_stack_tall:
+    display_name: "book_stack_tall"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/book_stack_tall
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  bread_furniture:
+    display_name: "bread_furniture"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/bread_furniture
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cafe_chair:
+    display_name: "cafe_chair"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cafe_chair
+    behaviours:
+      furniture_sit:
+        sit_height: 0.65
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cafe_menu:
+    display_name: "cafe_menu"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cafe_menu
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cafe_plant:
+    display_name: "cafe_plant"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cafe_plant
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cafe_stool:
+    display_name: "cafe_stool"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cafe_stool
+    behaviours:
+      furniture_sit:
+        sit_height: 0.65
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cafe_sugar:
+    display_name: "cafe_sugar"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cafe_sugar
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cafe_table:
+    display_name: "cafe_table"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cafe_table
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  ceiling_fan:
+    display_name: "ceiling_fan"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/ceiling_fan
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  chair_fancy:
+    display_name: "chair_fancy"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/chair_fancy
+    behaviours:
+      furniture_sit:
+        sit_height: 0.65
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  chandelier:
+    display_name: "chandelier"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/chandelier
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  chandelier_fancy:
+    display_name: "chandelier_fancy"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/chandelier_fancy
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cheese_furniture:
+    display_name: "cheese_furniture"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cheese_furniture
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  closet:
+    display_name: "closet"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/closet
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  cosmetic_crate:
+    display_name: "cosmetic_crate"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/cosmetic_crate
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  couch:
+    display_name: "couch"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/couch
+    behaviours:
+      furniture_sit:
+        sit_height: 0.65
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  couch_chair:
+    display_name: "couch_chair"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/couch_chair
+    behaviours:
+      furniture_sit:
+        sit_height: 0.65
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  curtain:
+    display_name: "curtain"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/curtain
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  desk_lamp:
+    display_name: "desk_lamp"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/desk_lamp
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  fancy_jukebox:
+    display_name: "fancy_jukebox"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/fancy_jukebox
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  gardening_shelf:
+    display_name: "gardening_shelf"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/gardening_shelf
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  gardening_vases:
+    display_name: "gardening_vases"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/gardening_vases
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: false
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  hanging_plant:
+    display_name: "hanging_plant"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/hanging_plant
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  ice_cream_cart:
+    display_name: "ice_cream_cart"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/ice_cream_cart
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  lamp_tall:
+    display_name: "lamp_tall"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/lamp_tall
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  lemon_bee_plushie:
+    display_name: "lemon_bee_plushie"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/lemon_bee_plushie
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  mannequin:
+    display_name: "mannequin"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/mannequin
+    behaviours:
+      furniture:
+        small_hitbox: false
+        solid: true
+        fixed_rotation: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  mirror:
+    display_name: "mirror"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/mirror
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  modern_chandelier:
+    display_name: "modern_chandelier"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/modern_chandelier
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  oriental_lamp:
+    display_name: "oriental_lamp"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/oriental_lamp
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  paint_table:
+    display_name: "paint_table"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/paint_table
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  piano_furniture:
+    display_name: "piano_furniture"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/piano_furniture
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  plant_vase_1:
+    display_name: "plant_vase_1"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/plant_vase_1
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  plant_vase_fancy:
+    display_name: "plant_vase_fancy"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/plant_vase_fancy
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  quest_board:
+    display_name: "quest_board"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/quest_board
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  record_player:
+    display_name: "record_player"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/record_player
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  standard_chair:
+    display_name: "standard_chair"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/standard_chair
+    behaviours:
+      furniture_sit:
+        sit_height: 0.65
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+  step_ladder:
+    display_name: "step_ladder"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/step_ladder
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            
+            
+  tombstone:
+    display_name: "tombstone"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/tombstone
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  trash_can:
+    display_name: "trash_can"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/trash_can
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  bee:
+    display_name: "trash_can"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/bee
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  tv:
+    display_name: "tv"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/tv
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wall_plant:
+    display_name: "wall_plant"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/wall_plant
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wooden_desk:
+    display_name: "wooden_desk"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/wooden_desk
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wooden_shelf:
+    display_name: "wooden_shelf"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/wooden_shelf
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: false
+        solid: false
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wooden_shelf_small:
+    display_name: "wooden_shelf_small"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/step_ladder
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: false
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wooden_stool:
+    display_name: "wooden_stool"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/wooden_stool
+    behaviours:
+      furniture_sit:
+        sit_height: 0.65
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wooden_table_1:
+    display_name: "wooden_table_1"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/wooden_table_1
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wooden_table_2:
+    display_name: "wooden_table_2"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/wooden_table_2
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  wooden_table_3:
+    display_name: "wooden_table_3"
+    permission: mctown.statue
+    resource:
+      material: SUGAR
+      generate: false
+      model_path: block/item/statue/wooden_table_3
+    behaviours:
+      furniture:
+        entity: item_frame
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+        placeable_on:
+          floor: true
+          ceiling: true
+          walls: true
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break

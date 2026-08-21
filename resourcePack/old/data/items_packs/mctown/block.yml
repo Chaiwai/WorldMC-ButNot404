@@ -1,0 +1,630 @@
+info:
+  namespace: mctown
+categories:
+  mctownsuit:
+    enabled: true
+    icon: "mctown:mctown_00"
+    name: '装饰块'
+    permission: "ia.menu.mctown"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:mctown_00
+      - mctown:mctown_01
+      - mctown:mctown_02
+      - mctown:mctown_03
+      - mctown:mctown_04
+      - mctown:mctown_05
+      - mctown:mctown_06
+      - mctown:mctown_07
+      - mctown:mctown_08
+      - mctown:mctown_09
+      - mctown:mctown_010
+      - mctown:mctown_011
+      - mctown:mctown_012
+      - mctown:mctown_013
+      - mctown:mctown_014
+      - mctown:mctown_015
+      - mctown:mctown_016
+      - mctown:mctown_017
+      - mctown:mctown_018
+      - mctown:mctown_019
+      - mctown:mctown_020
+      - mctown:mctown_021
+      - mctown:mctown_022
+      - mctown:mctown_023
+      - mctown:mctown_024
+      - mctown:mctown_025
+      - mctown:mctown_026
+      - mctown:mctown_027
+items:
+  mctown_00:
+    display_name: "mctown_00"
+    permission: mctown.block.mctown_00
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_00.png
+      - block/block/mctown_00.png
+      - block/block/mctown_00.png
+      - block/block/mctown_00.png
+      - block/block/mctown_00.png
+      - block/block/mctown_00.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_01:
+    display_name: "mctown_01"
+    permission: mctown.block.mctown_01
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_01.png
+      - block/block/mctown_01.png
+      - block/block/mctown_01.png
+      - block/block/mctown_01.png
+      - block/block/mctown_01.png
+      - block/block/mctown_01.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_02:
+    display_name: "mctown_02"
+    permission: mctown.block.mctown_02
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_02.png
+      - block/block/mctown_02.png
+      - block/block/mctown_02.png
+      - block/block/mctown_02.png
+      - block/block/mctown_02.png
+      - block/block/mctown_02.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_03:
+    display_name: "mctown_03"
+    permission: mctown.block.mctown_03
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_03.png
+      - block/block/mctown_03.png
+      - block/block/mctown_03.png
+      - block/block/mctown_03.png
+      - block/block/mctown_03.png
+      - block/block/mctown_03.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_04:
+    display_name: "mctown_04"
+    permission: mctown.block.mctown_04
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_04.png
+      - block/block/mctown_04.png
+      - block/block/mctown_04.png
+      - block/block/mctown_04.png
+      - block/block/mctown_04.png
+      - block/block/mctown_04.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_05:
+    display_name: "mctown_05"
+    permission: mctown.block.mctown_05
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_05.png
+      - block/block/mctown_05.png
+      - block/block/mctown_05.png
+      - block/block/mctown_05.png
+      - block/block/mctown_05.png
+      - block/block/mctown_05.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_06:
+    display_name: "mctown_06"
+    permission: mctown.block.mctown_06
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_06.png
+      - block/block/mctown_06.png
+      - block/block/mctown_06.png
+      - block/block/mctown_06.png
+      - block/block/mctown_06.png
+      - block/block/mctown_06.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_07:
+    display_name: "mctown_07"
+    permission: mctown.block.mctown_07
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_07.png
+      - block/block/mctown_07.png
+      - block/block/mctown_07.png
+      - block/block/mctown_07.png
+      - block/block/mctown_07.png
+      - block/block/mctown_07.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_08:
+    display_name: "mctown_08"
+    permission: mctown.block.mctown_08
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_08.png
+      - block/block/mctown_08.png
+      - block/block/mctown_08.png
+      - block/block/mctown_08.png
+      - block/block/mctown_08.png
+      - block/block/mctown_08.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_09:
+    display_name: "mctown_09"
+    permission: mctown.block.mctown_09
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_09.png
+      - block/block/mctown_09.png
+      - block/block/mctown_09.png
+      - block/block/mctown_09.png
+      - block/block/mctown_09.png
+      - block/block/mctown_09.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_010:
+    display_name: "mctown_010"
+    permission: mctown.block.mctown_010
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_010.png
+      - block/block/mctown_010.png
+      - block/block/mctown_010.png
+      - block/block/mctown_010.png
+      - block/block/mctown_010.png
+      - block/block/mctown_010.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_011:
+    display_name: "mctown_011"
+    permission: mctown.block.mctown_011
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_011.png
+      - block/block/mctown_011.png
+      - block/block/mctown_011.png
+      - block/block/mctown_011.png
+      - block/block/mctown_011.png
+      - block/block/mctown_011.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_012:
+    display_name: "mctown_012"
+    permission: mctown.block.mctown_012
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_012.png
+      - block/block/mctown_012.png
+      - block/block/mctown_012.png
+      - block/block/mctown_012.png
+      - block/block/mctown_012.png
+      - block/block/mctown_012.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_013:
+    display_name: "mctown_013"
+    permission: mctown.block.mctown_013
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_013.png
+      - block/block/mctown_013.png
+      - block/block/mctown_013.png
+      - block/block/mctown_013.png
+      - block/block/mctown_013.png
+      - block/block/mctown_013.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_014:
+    display_name: "mctown_014"
+    permission: mctown.block.mctown_014
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_014.png
+      - block/block/mctown_014.png
+      - block/block/mctown_014.png
+      - block/block/mctown_014.png
+      - block/block/mctown_014.png
+      - block/block/mctown_014.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_015:
+    display_name: "mctown_015"
+    permission: mctown.block.mctown_015
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_015.png
+      - block/block/mctown_015.png
+      - block/block/mctown_015.png
+      - block/block/mctown_015.png
+      - block/block/mctown_015.png
+      - block/block/mctown_015.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_016:
+    display_name: "mctown_016"
+    permission: mctown.block.mctown_016
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_016.png
+      - block/block/mctown_016.png
+      - block/block/mctown_016.png
+      - block/block/mctown_016.png
+      - block/block/mctown_016.png
+      - block/block/mctown_016.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_017:
+    display_name: "mctown_017"
+    permission: mctown.block.mctown_017
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_017.png
+      - block/block/mctown_017.png
+      - block/block/mctown_017.png
+      - block/block/mctown_017.png
+      - block/block/mctown_017.png
+      - block/block/mctown_017.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_018:
+    display_name: "mctown_018"
+    permission: mctown.block.mctown_018
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_018.png
+      - block/block/mctown_018.png
+      - block/block/mctown_018.png
+      - block/block/mctown_018.png
+      - block/block/mctown_018.png
+      - block/block/mctown_018.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_019:
+    display_name: "mctown_019"
+    permission: mctown.block.mctown_019
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_019.png
+      - block/block/mctown_019.png
+      - block/block/mctown_019.png
+      - block/block/mctown_019.png
+      - block/block/mctown_019.png
+      - block/block/mctown_019.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_020:
+    display_name: "mctown_020"
+    permission: mctown.block.mctown_020
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_020.png
+      - block/block/mctown_020.png
+      - block/block/mctown_020.png
+      - block/block/mctown_020.png
+      - block/block/mctown_020.png
+      - block/block/mctown_020.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_021:
+    display_name: "mctown_021"
+    permission: mctown.block.mctown_021
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_021.png
+      - block/block/mctown_021.png
+      - block/block/mctown_021.png
+      - block/block/mctown_021.png
+      - block/block/mctown_021.png
+      - block/block/mctown_021.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_022:
+    display_name: "mctown_022"
+    permission: mctown.block.mctown_022
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_022.png
+      - block/block/mctown_022.png
+      - block/block/mctown_022.png
+      - block/block/mctown_022.png
+      - block/block/mctown_022.png
+      - block/block/mctown_022.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_023:
+    display_name: "mctown_023"
+    permission: mctown.block.mctown_023
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_023.png
+      - block/block/mctown_023.png
+      - block/block/mctown_023.png
+      - block/block/mctown_023.png
+      - block/block/mctown_023.png
+      - block/block/mctown_023.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_024:
+    display_name: "mctown_024"
+    permission: mctown.block.mctown_024
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_024.png
+      - block/block/mctown_024.png
+      - block/block/mctown_024.png
+      - block/block/mctown_024.png
+      - block/block/mctown_024.png
+      - block/block/mctown_024.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_025:
+    display_name: "mctown_025"
+    permission: mctown.block.mctown_025
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_025.png
+      - block/block/mctown_025.png
+      - block/block/mctown_025.png
+      - block/block/mctown_025.png
+      - block/block/mctown_025.png
+      - block/block/mctown_025.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_026:
+    display_name: "mctown_026"
+    permission: mctown.block.mctown_026
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_026.png
+      - block/block/mctown_026.png
+      - block/block/mctown_026.png
+      - block/block/mctown_026.png
+      - block/block/mctown_026.png
+      - block/block/mctown_026.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+  mctown_027:
+    display_name: "mctown_027"
+    permission: mctown.block.mctown_027
+    resource:
+      material: NOTE_BLOCK
+      generate: true
+      textures:
+      - block/block/mctown_027.png
+      - block/block/mctown_027.png
+      - block/block/mctown_027.png
+      - block/block/mctown_027.png
+      - block/block/mctown_027.png
+      - block/block/mctown_027.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe

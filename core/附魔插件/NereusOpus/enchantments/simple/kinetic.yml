@@ -1,0 +1,27 @@
+basic:
+  id: kinetic
+  name: 制动
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 受到碰撞的伤害降低
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- elytra
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:launch
+variables:
+  leveled:
+    damage-multiplier: :1-0.25*{level}

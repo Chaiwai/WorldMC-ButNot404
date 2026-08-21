@@ -1,0 +1,28 @@
+basic:
+  id: paralyze
+  name: 麻痹
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 抵挡伤害时有概率使攻击者获得挖掘疲劳效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- shield
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :3*{level}
+    duration: :20*{level}
+    amplifier: :{level}

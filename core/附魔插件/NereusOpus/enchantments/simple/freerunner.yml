@@ -1,0 +1,26 @@
+basic:
+  id: freerunner
+  name: 轻盈
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 受到摔落伤害时有概率免疫
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :25*{level}

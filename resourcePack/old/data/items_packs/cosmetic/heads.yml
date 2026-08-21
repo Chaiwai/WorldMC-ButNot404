@@ -1,0 +1,195 @@
+info:
+  namespace: cosmetic
+items:
+  mctown_crab_hat:
+    display_name: mctown_crab_hat
+    permission: mctown_crab_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30100
+      model_path: heads/mctown_crab_hat
+  mctown_jellyfish_cap:
+    display_name: mctown_jellyfish_cap
+    permission: mctown_jellyfish_cap.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30101
+      model_path: heads/mctown_jellyfish_cap
+  mctown_panda:
+    display_name: mctown_panda
+    permission: mctown_panda.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30102
+      model_path: heads/mctown_panda
+  mctown_ram_hat:
+    display_name: mctown_ram_hat
+    permission: mctown_ram_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30103
+      model_path: heads/mctown_ram_hat
+  mctown_shark_hat:
+    display_name: mctown_shark_hat
+    permission: mctown_shark_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30104
+      model_path: heads/mctown_shark_hat
+  mctown_spider_hat:
+    display_name: mctown_spider_hat
+    permission: mctown_spider_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30105
+      model_path: heads/mctown_spider_hat
+  mctown_summer_hat:
+    display_name: mctown_summer_hat
+    permission: mctown_summer_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30113
+      model_path: heads/mctown_summer_hat
+  mctown_crow:
+    display_name: mctown_crow
+    permission: mctown_crow.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30108
+      model_path: heads/mctown_crow
+  mctown_bunny_ears:
+    display_name: mctown_bunny_ears
+    permission: mctown_bunny_ears.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30109
+      model_path: heads/mctown_bunny_ears
+  mctown_halo:
+    display_name: mctown_halo
+    permission: mctown_halo.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30111
+      model_path: heads/mctown_halo
+  mctown_cat_hat:
+    display_name: mctown_cat_hat
+    permission: mctown_cat_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30112
+      model_path: heads/mctown_cat_hat
+  mctown_wither_king:
+    display_name: mctown_wither_king
+    permission: mctown_wither_king.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30114
+      model_path: heads/mctown_wither_king
+  mctown_soul:
+    display_name: mctown_soul
+    permission: mctown_soul.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30115
+      model_path: heads/mctown_soul
+  mctown_shark_hat_1:
+    display_name: mctown_shark_hat_1
+    permission: mctown_shark_hat_1.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30116
+      model_path: heads/mctown_shark_hat_1
+  mctown_parrot_red:
+    display_name: mctown_parrot_red
+    permission: mctown_parrot_red.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30117
+      model_path: heads/mctown_parrot_red
+  mctown_octopus_head:
+    display_name: mctown_octopus_head
+    permission: mctown_octopus_head.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30118
+      model_path: heads/mctown_octopus_head
+  mctown_lava_bucket:
+    display_name: mctown_lava_bucket
+    permission: mctown_lava_bucket.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30119
+      model_path: heads/mctown_lava_bucket
+  mctown_fox_hat:
+    display_name: mctown_fox_hat
+    permission: mctown_fox_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30120
+      model_path: heads/mctown_fox_hat
+  mctown_axolotl_hat:
+    display_name: mctown_axolotl_hat
+    permission: mctown_axolotl_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30121
+      model_path: heads/mctown_axolotl_hat
+  mctown_ghast:
+    display_name: mctown_ghast
+    permission: mctown_ghast.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30122
+      model_path: heads/mctown_ghast
+  mctown_royal_crown:
+    display_name: mctown_royal_crown
+    permission: mctown_royal_crown.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30123
+      model_path: heads/mctown_royal_crown
+  mctown_dog_hat:
+    display_name: mctown_dog_hat
+    permission: mctown_dog_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30124
+      model_path: heads/mctown_dog_hat
+  mctown_dragon_hat:
+    display_name: mctown_dragon_hat
+    permission: mctown_dragon_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30125
+      model_path: heads/mctown_dragon_hat
+  mctown_redpanda_hat:
+    display_name: mctown_redpanda_hat
+    permission: mctown_redpanda_hat.cosmetic
+    resource:
+      material: BRICK
+      generate: false
+      model_id: 30126
+      model_path: heads/mctown_redpanda_hat

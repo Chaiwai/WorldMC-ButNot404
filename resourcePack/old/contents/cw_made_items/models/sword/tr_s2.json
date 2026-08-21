@@ -1,0 +1,28 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "cw_made_items:sword/tr_s2"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [46, 90, 21],
+      "translation": [0, 7.25, 3.75],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-120.5, -87.25, 167.77],
+      "translation": [1.5, 7.5, 5],
+      "scale": [1.2, 1.2, 1.2]
+    },
+    "firstperson_righthand": {
+      "rotation": [46, 90, 21],
+      "translation": [0, 7.25, 3.75]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-180, -180, -180],
+      "translation": [4, 9, 1],
+      "scale": [0.1, 0.1, 0.1]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+basic:
+  id: transfuse
+  name: 点石成金
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 在挖掘石头时有概率掉落随机矿物
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- pickaxes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+#- CONFLICT_ENCHANT:stone_switcher
+#- CONFLICT_ENCHANT:silk_touch
+variables:
+  ordinary:
+    drops: diamond_ore,gold_ore,lapis_ore,redstone_ore,iron_ore
+    targets: stone,deepslate
+  leveled:
+    chance: :0.2*{level}

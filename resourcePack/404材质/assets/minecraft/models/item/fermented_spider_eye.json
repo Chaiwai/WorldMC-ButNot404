@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/fermented_spider_eye"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"rpgitem:ia_auto_gen/reinforced_echo_shard"},{"predicate":{"custom_model_data":10001},"model":"item/fermented_spider_eye"}]}

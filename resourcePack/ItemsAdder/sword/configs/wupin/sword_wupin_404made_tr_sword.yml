@@ -1,0 +1,550 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "sword"
+items:
+  sword_adamantite_sword:
+    display_name: "adamantite_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: adamantite_sword
+
+  sword_arkhalis:
+    display_name: "arkhalis"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: arkhalis
+
+  sword_ash_wood_sword:
+    display_name: "ash_wood_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: ash_wood_sword
+
+  sword_beam_sword:
+    display_name: "beam_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: beam_sword
+
+  sword_bee_keeper:
+    display_name: "bee_keeper"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: bee_keeper
+
+  sword_bladetongue:
+    display_name: "bladetongue"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: bladetongue
+
+  sword_blade_of_grass:
+    display_name: "blade_of_grass"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: blade_of_grass
+
+  sword_bloody_machete:
+    display_name: "bloody_machete"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: bloody_machete
+
+  sword_blood_butcherer:
+    display_name: "blood_butcherer"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: blood_butcherer
+
+  sword_bone_sword:
+    display_name: "bone_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: bone_sword
+
+  sword_boreal_wood_sword:
+    display_name: "boreal_wood_sword"
+    resource:
+      material: wooden_sword
+      generate: false
+      model: boreal_wood_sword
+
+  sword_brand_of_the_inferno:
+    display_name: "brand_of_the_inferno"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: brand_of_the_inferno
+
+  sword_breaker_blade:
+    display_name: "breaker_blade"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: breaker_blade
+
+  sword_cactus_sword:
+    display_name: "cactus_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: cactus_sword
+
+  sword_candy_cane_sword:
+    display_name: "candy_cane_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: candy_cane_sword
+
+  sword_chlorophyte_claymore:
+    display_name: "chlorophyte_claymore"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: chlorophyte_claymore
+
+  sword_chlorophyte_saber:
+    display_name: "chlorophyte_saber"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: chlorophyte_saber
+
+  sword_christmas_tree_sword:
+    display_name: "christmas_tree_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: christmas_tree_sword
+
+  sword_cobalt_sword:
+    display_name: "_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: cobalt_sword
+
+  sword_copper_broadsword:
+    display_name: "copper_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: copper_broadsword
+
+  sword_cutlass:
+    display_name: "cutlass"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: cutlass
+
+  sword_death_sickle:
+    display_name: "death_sickle"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: death_sickle
+
+  sword_durendal:
+    display_name: "durendal"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: durendal
+
+  sword_ebonwood_sword:
+    display_name: "ebonwood_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: ebonwood_sword
+
+  sword_enchanted_sword:
+    display_name: "enchanted_sw"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: enchanted_sword
+
+  sword_enderite0_sword:
+    display_name: "enderite0_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: enderite0_sword
+
+  sword_enderite_sword:
+    display_name: "enderite_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: enderite_sword
+
+  sword_excalibur:
+    display_name: "excalibur"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: excalibur
+
+  sword_exotic_scimitar:
+    display_name: "exotic_scimitar"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: exotic_scimitar
+
+  sword_falcon_blade:
+    display_name: "falcon_blade"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: falcon_blade
+
+  sword_first_fractal:
+    display_name: "first_fractal"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: first_fractal
+
+  sword_flying_dragon:
+    display_name: "flying_dragon"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: flying_dragon
+
+  sword_flymeal:
+    display_name: "flymeal"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: flymeal
+
+  sword_frostbrand:
+    display_name: "frostbrand"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: frostbrand
+
+  sword_gladius:
+    display_name: "gladius"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: gladius
+
+  sword_gold_broadsword:
+    display_name: "gold_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: gold_broadsword
+
+  sword_hallowed_jousting_lance:
+    display_name: "hallowed_jousting_lance"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: hallowed_jousting_lance
+
+  sword_icemourne:
+    display_name: "icemourne"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: icemourne
+
+  sword_ice_blade:
+    display_name: "ice_blade"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: ice_blade
+
+  sword_ice_sickle:
+    display_name: "ice_sickle"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: ice_sickle
+
+  sword_influx_waver:
+    display_name: "influx_waver"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: influx_waver
+
+  sword_iron_broadsword:
+    display_name: "iron_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: iron_broadsword
+
+  sword_jousting_l:
+    display_name: "jousting_lance"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: jousting_lance
+
+  sword_katana:
+    display_name: "katana"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: katana
+
+  sword_lead_broadsword:
+    display_name: "lead_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: lead_broadsword
+
+  sword_light_bane:
+    display_name: "light_bane"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: light_bane
+
+  sword_meowmere:
+    display_name: "meowmere"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: meowmere
+
+  sword_muramasa:
+    display_name: "muramasa"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: muramasa
+
+  sword_mythril_sword:
+    display_name: "mythril_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: mythril_sword
+
+  sword_night_edge:
+    display_name: "night_edge"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: night_edge
+
+  sword_orichalcum_sword:
+    display_name: "orichalcum_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: orichalcum_sword
+
+  sword_palladium_sword:
+    display_name: "palladium_sword"
+    resource:
+      material: diamond_sw
+      generate: false
+      model_path: palladium_sword
+
+  sword_pearlwood_sword:
+    display_name: "pearlwood_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: pearlwood_sword
+
+  sword_platinum_broadsword:
+    display_name: "platinum_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: platinum_broadsword
+
+  sword_psycho_knife:
+    display_name: "psycho_knife"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: psycho_knife
+
+  sword_rich_mahogany_sword:
+    display_name: "rich_mahogany_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: rich_mahogany_sword
+
+  sword_scythe:
+    display_name: "scythe"
+    resource:
+      material: diamond_hoe
+      generate: false
+      model_path: scy
+
+  sword_seedler:
+    display_name: "seedler"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: seedler
+
+  sword_silver_broadsword:
+    display_name: "silver_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: silver_broadsword
+
+  sword_sky_fracture:
+    display_name: "sky_fracture"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: sky_fracture
+
+  sword_soul_scythe:
+    display_name: "soul_scythe"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: soul_scythe
+
+  sword_starfury:
+    display_name: "starfury"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: starfury
+
+  sword_starlight:
+    display_name: "starlight"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: starlight
+
+  sword_star_wrath:
+    display_name: "star_wrath"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: star_wrath
+
+  sword_terragrim:
+    display_name: "terragrim"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: terragrim
+
+  sword_terraprisma:
+    display_name: "terraprisma"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: terraprisma
+
+  sword_terra_blade:
+    display_name: "terra_blade"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: terra_blade
+
+  sword_the_horseman_blade:
+    display_name: "the_horseman_blade"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: the_horseman_blade
+
+  sword_tin_broadsword:
+    display_name: "tin_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: tin_broadsword
+
+  sword_titanium_sword:
+    display_name: "titanium_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: titanium_sword
+
+  sword_tizona:
+    display_name: "tizona"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: tizona
+
+  sword_true_excalibur:
+    display_name: "true_excalibur"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: true_excalibur
+
+  sword_true_night_edge:
+    display_name: "true_night_edge"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: true_night_edge
+
+  sword_tungsten_broadsword:
+    display_name: "tungsten_broadsword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: tungsten_broadsword
+
+  sword_volcano:
+    display_name: "volcano"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: volcano
+
+  sword_wooden_sword:
+    display_name: "wooden_sword"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: wooden_sword
+
+  sword_zenith:
+    display_name: "zenith"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: zenith
+
+  sword_zombie_arm:
+    display_name: "zombie_arm"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: zombie_arm

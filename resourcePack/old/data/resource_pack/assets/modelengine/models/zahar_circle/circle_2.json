@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/zahar_circle"},"elements":[{"from":[-4.0,12.0,-4.0],"to":[20.0,12.0,20.0],"faces":{"up":{"uv":[14.5,15.5,8.5,9.5],"tintindex":0,"rotation":0,"texture":"#0"},"down":{"uv":[14.5,9.5,8.5,15.5],"tintindex":0,"rotation":0,"texture":"#0"}}}]}

@@ -1,0 +1,318 @@
+info:
+  namespace: mctown
+items:
+  warrior_slash_1:
+    display_name: warrior_slash_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22801
+      model_path: block/warrior/warrior_slash_1
+  warrior_slash_2:
+    display_name: warrior_slash_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22802
+      model_path: block/warrior/warrior_slash_2
+  warrior_slash_3:
+    display_name: warrior_slash_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22803
+      model_path: block/warrior/warrior_slash_3
+  warrior_slash_4:
+    display_name: warrior_slash_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22804
+      model_path: block/warrior/warrior_slash_4
+  warrior_slash_5:
+    display_name: warrior_slash_5
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22805
+      model_path: block/warrior/warrior_slash_5
+  warrior_slash_6:
+    display_name: warrior_slash_6
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22806
+      model_path: block/warrior/warrior_slash_6
+  warrior_slash_7:
+    display_name: warrior_slash_7
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22807
+      model_path: block/warrior/warrior_slash_7
+  whirlwind_1:
+    display_name: whirlwind_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22808
+      model_path: block/warrior/whirlwind_1
+  whirlwind_2:
+    display_name: whirlwind_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22809
+      model_path: block/warrior/whirlwind_2
+  whirlwind_3:
+    display_name: whirlwind_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22810
+      model_path: block/warrior/whirlwind_3
+  whirlwind_4:
+    display_name: whirlwind_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22811
+      model_path: block/warrior/whirlwind_4
+  whirlwind_5:
+    display_name: whirlwind_5
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22812
+      model_path: block/warrior/whirlwind_5
+  judgement_shield_1:
+    display_name: judgement_shield_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22813
+      model_path: block/warrior/judgement_shield_1
+  shield_barrier_1_broken:
+    display_name: shield_barrier_1_broken
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22814
+      model_path: block/warrior/shield_barrier_1_broken
+  shield_barrier_2_broken:
+    display_name: shield_barrier_2_broken
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22815
+      model_path: block/warrior/shield_barrier_2_broken
+  shield_barrier_3_broken:
+    display_name: shield_barrier_3_broken
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22816
+      model_path: block/warrior/shield_barrier_3_broken
+  judgement_shield_2:
+    display_name: judgement_shield_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22817
+      model_path: block/warrior/judgement_shield_2
+  judgement_shield_3:
+    display_name: judgement_shield_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22818
+      model_path: block/warrior/judgement_shield_3
+  judgement_shield_4:
+    display_name: judgement_shield_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22819
+      model_path: block/warrior/judgement_shield_4
+  chain_hook_1:
+    display_name: chain_hook_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21877
+      model_path: block/warrior/chain_hook_1
+  chain_hook_2:
+    display_name: chain_hook_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21878
+      model_path: block/warrior/chain_hook_2
+  chain_hook_3:
+    display_name: chain_hook_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21879
+      model_path: block/warrior/chain_hook_3
+  chain_hook_4:
+    display_name: chain_hook_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21880
+      model_path: block/warrior/chain_hook_4
+  chain_hook_5:
+    display_name: chain_hook_5
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21881
+      model_path: block/warrior/chain_hook_5
+  charge_1:
+    display_name: charge_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21882
+      model_path: block/warrior/charge_1
+  charge_2:
+    display_name: charge_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21883
+      model_path: block/warrior/charge_2
+  charge_3:
+    display_name: charge_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21884
+      model_path: block/warrior/charge_3
+  charge_4:
+    display_name: charge_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21885
+      model_path: block/warrior/charge_4
+  charge_5:
+    display_name: charge_5
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21886
+      model_path: block/warrior/charge_5
+  judgement_sword_1:
+    display_name: judgement_sword_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21887
+      model_path: block/warrior/judgement_sword_1
+  judgement_sword_2:
+    display_name: judgement_sword_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21888
+      model_path: block/warrior/judgement_sword_2
+  judgement_sword_3:
+    display_name: judgement_sword_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21889
+      model_path: block/warrior/judgement_sword_3
+  judgement_sword_4:
+    display_name: judgement_sword_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21890
+      model_path: block/warrior/judgement_sword_4
+  shield_barrier_1:
+    display_name: shield_barrier_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21891
+      model_path: block/warrior/shield_barrier_1
+  shield_barrier_2:
+    display_name: shield_barrier_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21892
+      model_path: block/warrior/shield_barrier_2
+  shield_barrier_3:
+    display_name: shield_barrier_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21893
+      model_path: block/warrior/shield_barrier_3
+  shield_barrier_4:
+    display_name: shield_barrier_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21894
+      model_path: block/warrior/shield_barrier_4
+  warrior_pierce_1:
+    display_name: warrior_pierce_1
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21895
+      model_path: block/warrior/warrior_pierce_1
+  warrior_pierce_2:
+    display_name: warrior_pierce_2
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21896
+      model_path: block/warrior/warrior_pierce_2
+  warrior_pierce_3:
+    display_name: warrior_pierce_3
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21897
+      model_path: block/warrior/warrior_pierce_3
+  warrior_pierce_4:
+    display_name: warrior_pierce_4
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21898
+      model_path: block/warrior/warrior_pierce_4
+  warrior_pierce_5:
+    display_name: warrior_pierce_5
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 21899
+      model_path: block/warrior/warrior_pierce_5
+  warrior_pierce_6:
+    display_name: warrior_pierce_6
+    resource:
+      material: blaze_powder
+      generate: false
+      model_id: 22800
+      model_path: block/warrior/warrior_pierce_6
+  warrior_sword:
+    display_name: warrior_sword
+    resource:
+      material: iron_sword
+      generate: false
+      model_id: 22717
+      model_path: block/warrior/warrior_sword
+  warrior_sword_shiny:
+    display_name: warrior_sword_shiny
+    resource:
+      material: iron_sword
+      generate: false
+      model_id: 22718
+      model_path: block/warrior/warrior_sword_shiny

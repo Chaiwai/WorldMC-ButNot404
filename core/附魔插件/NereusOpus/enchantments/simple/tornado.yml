@@ -1,0 +1,30 @@
+basic:
+  id: tornado
+  name: 击飞
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 在攻击时将对手击向空中
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:knockback
+- CONFLICT_ENCHANT:grapple
+- CONFLICT_ENCHANT:annihilate
+variables:
+  leveled:
+    velocity: :0.25*{level}

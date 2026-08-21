@@ -1,0 +1,27 @@
+basic:
+  id: impact
+  name: 过载
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 在攻击时有概率造成大量伤害
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- trident
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :3*{level}
+    damage-multiplier: :1+0.33*{level}

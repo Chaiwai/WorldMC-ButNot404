@@ -1,0 +1,31 @@
+basic:
+  id: lesion
+  name: 膏肓
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 在攻击时有概率使对手持续流血
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    require-full-charge: true
+    repeat-ticks: 20
+  leveled:
+    chance: :3*{level}
+    damage: :0.5*{level}
+    duration: :20*{level}

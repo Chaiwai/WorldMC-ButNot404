@@ -1,0 +1,29 @@
+basic:
+  id: supercritical
+  name: 会心
+  enable: true
+  max-level: 3
+display:
+  description:
+    general: 在攻击时有概率造成的伤害大幅提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 精良
+targets:
+- swords
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1+0.33*{level}
+    chance: :3*{level}
+  ordinary:
+    require-full-charge: true

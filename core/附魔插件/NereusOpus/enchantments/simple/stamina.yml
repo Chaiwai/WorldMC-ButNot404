@@ -1,0 +1,26 @@
+basic:
+  id: stamina
+  name: 耐性
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 奔跑时饱食损失降低
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :12.5*{level}

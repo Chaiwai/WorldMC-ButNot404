@@ -1,0 +1,79 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "cw_made_move" #[命名空间]**
+items: #[物品配置]**
+  cw_made_move_cw_made_move1:
+    display_name: "光明之魂"
+    custom_id: 10001
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: slime_ball
+      generate: true
+      textures:
+        - move_items/tr_move1.png
+  cw_made_move_cw_made_move2:
+    display_name: "暗影之魂"
+    custom_id: 10002
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: slime_ball
+      generate: true
+      textures:
+        - move_items/tr_move2.png
+  cw_made_move_cw_made_move3:
+    display_name: "恐惧之魂"
+    custom_id: 10003
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: slime_ball
+      generate: true
+      textures:
+        - move_items/tr_move3.png
+
+  cw_made_move_cw_made_move4:
+    display_name: "力量之魂"
+    custom_id: 10004
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: slime_ball
+      generate: true
+      textures:
+        - move_items/tr_move4.png
+
+  cw_made_move_cw_made_move5:
+    display_name: "视域之魂"
+    custom_id: 10005
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: slime_ball
+      generate: true
+      textures:
+        - move_items/tr_move5.png
+
+  cw_made_move_cw_made_move6:
+    display_name: "飞翔之魂"
+    custom_id: 10006
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: slime_ball
+      generate: true
+      textures:
+        - move_items/tr_move6.png
+
+  cw_made_move_cw_made_move7:
+    display_name: "坠落之星"
+    custom_id: 10007
+    lore:
+      - "&7一种合成材料"
+    resource:
+      material: slime_ball
+      generate: true
+      textures:
+        - move_items/tr_move7.png

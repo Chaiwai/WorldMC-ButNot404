@@ -1,0 +1,15 @@
+{
+	"block.minecraft.beacon.primary":"§f㳇§r主效果",
+	"container.blast_furnace":"高炉§f㰲",
+	"container.brewing":"§f㲤§8酿造台§f㳆",
+	"container.cartography_table":"制图台 㰑㰑§f㰐",
+	"container.furnace":"熔炉§f㰲",
+	"container.inventory":" ",
+	"container.repair":"修复和命名 㰑§f㰒",
+	"container.smoker":"烟熏炉§f㰲",
+	"item.color":"",
+	"item.dyed":"",
+	"menu.disconnect":"残忍离开",
+	"menu.returnToGame":"返回服务器",
+	"merchant.trades":""
+}

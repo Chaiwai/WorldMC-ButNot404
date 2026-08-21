@@ -1,0 +1,30 @@
+basic:
+  id: wood_switcher
+  name: 异生
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 砍伐木头时有概率掉落其他种类的木头
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 普通
+targets:
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:silk_touch
+variables:
+  ordinary:
+    drops: oak_log,birch_log,spruce_log,jungle_log,acacia_log,dark_oak_log
+    targets: oak_log,birch_log,spruce_log,jungle_log,acacia_log,dark_oak_log
+  leveled:
+    chance: :12.5*{level}

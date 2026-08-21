@@ -1,0 +1,30 @@
+basic:
+  id: lumberjack
+  name: 电锯
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 一次性砍伐大量木头
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:drill
+variables:
+  ordinary:
+    disable-on-sneak: true
+    targets: oak_wood,dark_oak_wood,acacia_wood,jungle_wood,birch_wood,crimson_stem,spruce_wood,warped_stem,oak_log,dark_oak_log,acacia_log,jungle_log,birch_log,spruce_log,crimson_stem,warped_stem,stripped_cherry_log,cherry_log,stripped_mangrove_log,mangrove_log,mushroom_stem,red_mushroom_block,brown_mushroom_block
+  leveled:
+    amount: :3*{level}

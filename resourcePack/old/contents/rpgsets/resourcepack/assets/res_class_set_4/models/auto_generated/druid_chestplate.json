@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "res_class_set_4:druid_chestplate",
+    "layer1": "res_class_set_4:druid_chestplate"
+  }
+}

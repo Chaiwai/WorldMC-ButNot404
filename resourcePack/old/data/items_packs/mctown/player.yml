@@ -1,0 +1,198 @@
+info:
+  namespace: "mctown"
+font_images:
+  player:
+    path: "player/player.png"
+    suggest_in_command: false
+    symbol: "め"
+    scale_ratio: 9
+    y_position: 8
+  player_1:
+    path: "player/player_1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  vip:
+    path: "player/vip.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  vip_1:
+    path: "player/vip_1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  vipplus:
+    path: "player/vipplus.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  vipplus_1:
+    path: "player/vipplus_1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mvp:
+    path: "player/mvp.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mvp_1:
+    path: "player/mvp_1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mvpplus:
+    path: "player/mvpplus.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mvpplus_1:
+    path: "player/mvpplus_1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  elite:
+    path: "player/elite.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  elite_1:
+    path: "player/elite_1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank1:
+    path: "player/rank1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank1:
+    path: "player/rank1.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank2:
+    path: "player/rank2.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank3:
+    path: "player/rank3.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank4:
+    path: "player/rank4.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank5:
+    path: "player/rank5.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank6:
+    path: "player/rank6.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank7:
+    path: "player/rank7.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank8:
+    path: "player/rank8.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank9:
+    path: "player/rank9.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rank10:
+    path: "player/rank10.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  server:
+    path: "player/server.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  afk:
+    path: "player/afk.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  common:
+    path: "player/common.png"
+    symbol: "㺧"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  cosmetic:
+    path: "player/cosmetic.png"
+    suggest_in_command: false
+    symbol: "㺤"
+    scale_ratio: 9
+    y_position: 8
+  epic:
+    path: "player/epic.png"
+    suggest_in_command: false
+    symbol: "㺦"
+    scale_ratio: 9
+    y_position: 8
+  legendary:
+    path: "player/legendary.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  limited:
+    path: "player/limited.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  mythical:
+    path: "player/mythical.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  paintable:
+    path: "player/paintable.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  rare:
+    path: "player/rare.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  uncommon:
+    path: "player/uncommon.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  hand:
+    path: "player/hand.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  head:
+    path: "player/head.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  background:
+    path: "player/background.png"
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  pro:
+    path: "player/pro.png"
+    suggest_in_command: false
+    symbol: ""
+    scale_ratio: 9
+    y_position: 8

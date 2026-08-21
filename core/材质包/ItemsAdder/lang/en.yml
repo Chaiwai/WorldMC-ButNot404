@@ -1,0 +1,246 @@
+# ─────────────────────────────────────────────────────────────
+# ✔ 通用错误与权限
+# ─────────────────────────────────────────────────────────────
+cannot-break-with-this-tool: <color:#ff4d4d><bold>✘</bold> 该方块需要更高级的工具破坏!</color>
+cannot-repair: <color:#ff4d4d><bold>✘</bold> 此物品无法修复。</color>
+cannot-set-durability: <color:#ff4d4d><bold>✘</bold> 耐久度无法更改。</color>
+set-durability-successfully: <color:#4dff4d><bold>✔</bold> 耐久度已更新。</color>
+repaired-successfully: <color:#4dff4d><bold>✔</bold> 物品已修复。</color>
+crafting-no-recipe: <color:#ffe14d><bold>!</bold> 此物品无可用合成配方。</color>
+
+no-craft-permission: <color:#ffe14d>!</color> 您缺少合成此物品的权限。
+no-permission: <color:#ff4d4d>✘ 您没有执行此命令的权限。</color>
+no-permission-detail: '<color:#ff4d4d>✘ 缺少权限: ''<color:#ffe14d>{permission}</color>''</color>'
+no-permission-short: <color:#ff4d4d>无权限。</color>
+wrong-command-usage: <color:#ff4d4d>✘ 命令用法不正确。</color>
+command-ingame-only: <color:#ff4d4d>✘ 该命令仅限于游戏内使用。</color>
+player-offline: <color:#ffe14d>!</color> 指定的玩家已离线。
+player-full-inventory: <color:#ff4d4d>✘ 背包已满。</color>
+player-not-found: <color:#ff4d4d>✘ 未找到玩家 '<color:#4dd2ff>{player}</color>'。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 物品操作与信息
+# ─────────────────────────────────────────────────────────────
+given-item: <color:#4dff4d><bold>✔</bold> 已将 '<color:#ffe14d>{item}</color>' 给予 '<color:#4dd2ff>{player}</color>'。</color>
+removed-item: <color:#ffe14d><bold>➖</bold> 已从 '<color:#4dd2ff>{player}</color>' 处移除 '<color:#ffe14d>{item}</color>'。</color>
+lost-item: <color:#ffe14d><bold>➖</bold> 丢失了 '<color:#ffe14d>{item}</color>'。</color>
+obtained-item: <color:#4dff4d><bold>✔</bold> 获得了 '<color:#ffe14d>{item}</color>'。</color>
+item-not-found: <color:#ff4d4d>✘ 物品 '<color:#4dd2ff>{item}</color>' 不存在。</color>
+
+items-count: '<aqua>物品总数: <color:#4dff4d>{count}</color></aqua>'
+lore-usages: '<gray>剩余使用次数: <white>{value}</white></gray>'
+custom-model-data: '<aqua>CustomModelData: <white>{value}</white></aqua>'
+name-config: <aqua>配置文件中的名称:</aqua>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 资源包处理
+# ─────────────────────────────────────────────────────────────
+resourcepack-error: <color:#ff4d4d>✘ 启用资源包时出错。请联系工作人员或禁用资源包。</color>
+resourcepack-error-failed-download: <color:#ff4d4d>✘ 下载失败。请检查您的客户端日志。</color>
+resourcepack-error-failed-reload: <color:#ff4d4d>✘ 无法重新加载/应用资源包 - 它可能不兼容或已损坏。</color>
+resourcepack-error-discarded: <color:#ff4d4d>✘ 客户端拒绝了资源包。</color>
+resourcepack-error-invalid-url: <color:#ff4d4d>✘ 资源包链接无效。请联系工作人员。</color>
+resourcepack-kick-declined: <color:#ff4d4d>✘ 您必须接受资源包 (服务器属性 → 提示 / 启用)。</color>
+
+resourcepack-apply-title: <gradient:#4dff4d:#4dd2ff><bold>正在应用资源包…</bold></gradient>
+resourcepack-apply-subtitle: <gradient:#ffe14d:#ff9900>请稍候。</gradient>
+resourcepack-popup-message: |
+  <gradient:#ffe14d:#ff9900>欢迎, <color:#4dd2ff>{player}</color>!</gradient>
+  <yellow>请接受资源包以解锁所有功能。
+  <gray>只需下载一次。</gray>
+resourcepack-not-ready: <yellow>资源包尚未准备就绪。</yellow>
+compressing-resourcepack: <color:#4dff4d>正在压缩资源包 …</color>
+resourcepack-uploaded-successfully: '<color:#4dff4d>资源包已上传: <color:#4dd2ff>{url}</color></color>'
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 冷却时间与计时器
+# ─────────────────────────────────────────────────────────────
+please-wait-events-cooldown: <gradient:#ff8c00:#ff2400>⌛ 请等待 <color:#4dd2ff>{interval}</color> 后再使用此物品</gradient>
+please-wait-command-cooldown: <gradient:#ff8c00:#ff2400>⌛ 请等待 <color:#4dd2ff>{interval}</color> 后再使用此命令。</gradient>
+cooldown-bossbar-title: <gradient:#ff8c00:#ff2400><bold>⌛ 冷却中</bold></gradient>
+interact-too-fast: <color:#ff4d4d>✘ 您交互得太快了。请慢一点。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 界面标题与按钮
+# ─────────────────────────────────────────────────────────────
+prefix: '<gradient:#ac52d4:#6c3484>ItemsAdder</gradient><color:#999999>)</color> '
+
+emoji-gui-title: <gradient:#00c3ff:#cc2bff><bold>表情列表</bold></gradient>
+ia-title-menu-categories: <gradient:#00c3ff:#cc2bff><bold>分类</bold></gradient>
+ia-title-crafting-view: <gradient:#ffffff:#bfbfbf>主菜单</gradient>
+ia-search-results: <white>搜索结果</white>
+ia-smeling: <white>熔炼</white>
+ia-smelting: <white>编辑物品</white>
+
+ia-button-search: <gray>搜索…</gray>
+ia-button-back: <white>← 返回</white>
+ia-button-next-page: <white>下一页 »</white>
+ia-button-previous-page: <white>« 上一页</white>
+ia-button-next-recipe: <white>下一个配方 »</white>
+ia-button-previous-recipe: <white>« 上一个配方</white>
+ia-button-get-item: <white>获取物品</white>
+ia-button-loot-blocks: <white>从方块掉落</white>
+ia-button-loot-mobs: <white>从生物掉落</white>
+ia-button-loot-fishing: <white>从钓鱼掉落</white>
+ia-button-vehicle-fuel-items: <yellow>燃料物品</yellow>
+ia-button-seed-result: <white>来自种子</white>
+ia-button-blocks-populators: <white>方块生成信息</white>
+ia-button-surface-decorators: <white>生成信息</white>
+ia-button-trees-populators: <white>生成信息</white>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 合成与铁砧
+# ─────────────────────────────────────────────────────────────
+iarecipe-wrong-usage: '<color:#ff4d4d>✘ 用法: <color:#ffe14d>/iarecipe &lt;物品&gt;</color> 或手持一个物品。</color>'
+iarecipe-no-custom-item: <color:#ff4d4d>✘ 这不是自定义物品。请手持一个或使用 <color:#ffe14d>/iarecipe &lt;物品&gt;</color></color>
+anvil-repair-info: <white>铁砧修复材料</white>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 数值与统计
+# ─────────────────────────────────────────────────────────────
+player-stat-value-read: '<yellow>数值: <color:#4dd2ff>{value}</color></yellow>'
+player-stat-value-write: <color:#4dff4d>✔ 数值已更新。</color>
+player-stat-value-write-bypass: <color:#ff4d4d>✘ 检测到绕过 - 数值未更改。</color>
+player-stat-value-write-bypass-self: <color:#ffe14d>绕过已激活，但数值已更改 (自身命令)。</color>
+player-stat-value-not-found: <color:#ff4d4d>✘ 未找到统计项 '<color:#4dd2ff>{value}</color>'。</color>
+player-stat-value-insufficient: <color:#ff4d4d>✘ '<color:#4dd2ff>{stat}</color>' 不足 - 需要 '<color:#ffe14d>{rule}</color>'。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 世界与方块交互
+# ─────────────────────────────────────────────────────────────
+rightclick-a-block: <yellow>右键点击您想要生成树木的表面。</yellow>
+spawned-tree: <color:#4dff4d>✔ 树木已生成。</color>
+spawned-tree-error: <color:#ff4d4d>✘ 无法在此处生成树木。</color>
+tree-not-found: <color:#ff4d4d>✘ 树木 '<color:#4dd2ff>{item}</color>' 不存在。</color>
+
+max-furnitures-vehicles-reached: <color:#ff4d4d>✘ 区块实体数量已达上限 (<color:#4dd2ff>{value}</color>)。请先移除一些实体。</color>
+tripwires-disabled: <color:#ff4d4d>✘ 此服务器已禁用绊线。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 液体与分析器
+# ─────────────────────────────────────────────────────────────
+liquid-analyzer-low-level: <yellow>液面过低。请检查源方块。</yellow>
+liquid-analyzer-no-liquid: <color:#ff4d4d>✘ 未检测到液体。</color>
+liquid-bucket-place-near-error: <color:#ff4d4d>✘ 另一个自定义液体距离太近 - 请选择其他位置。</color>
+liquid-not-completely-registered: <color:#极光4d4d>✘ 液体 '<color:#4dd2ff>{liquid}</color>' 未完全注册。请让管理员重启服务器。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 音乐与音效
+# ─────────────────────────────────────────────────────────────
+now-playing: '<white>♪ 正在播放: <gradient:#ffe14d:#ff4d4d>''{value}''</gradient></white>'
+played-totem-animation: <color:#4dff4d>✔ 已为 '<color:#4dd2ff>{player}</color>' 播放图腾动画 '<color:#ffe14d>{totem}</color>'。</color>
+played-sound: <color:#4d极光4d>✔ 已为 '<color:#4dd2ff>{player}</color>' 播放音效 '<color:#ffe14d>{sound}</color>'<gray> (如果可用)</gray>。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 文本与重命名 / 颜色
+# ─────────────────────────────────────────────────────────────
+renamed-successfully: <color:#4dff4d>✔ 物品已重命名。</极光color>
+cannot-rename: <color:#ff4d4d>✘ 此物品无法重命名。</color>
+not-colorable: <color:#ffe14d>!</color> 此材料无法染色。
+colored-successfully: <color:#4dff4d>✔ 颜色已应用。</color>
+invalid-hex-color: '<color:#ff4d4d>✘ 无效的十六进制颜色: ''<color:#4dd2ff>{color}</color>''。</color>'
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 实体与伪装
+# ─────────────────────────────────────────────────────────────
+unknown-entity: '<color:#ff4d4d>✘ 未知实体: ''<color:#4dd2ff>{entity}</color>''。</color>'
+unknown-emote: '<color:#ff4d4d>✘ 未知表情: ''<color:#4dd2ff>{emote}</color>''。</color>'
+disguise-failed: <color:#ff4d4d>✘ 伪装为 '<color:#4dd2ff>{entity}</color>' 失败。</color>
+undisguise-failed-player-not-digsuised: <color:#ff4d4d>✘ 玩家 '<color:#4dd2ff>{player}</color>' 并未进行伪装。</color>
+undisguised: <gray>您现已解除伪装。</gray>
+not-disguised: <yellow>您未进行伪装。</yellow>
+custom-entities-disabled: <color:#ff4d4d>✘ 自定义实体已在 '<color:#4dd2ff>config.yml</color>' 中被禁用。</color>
+emotes-disabled: <color:#ff4d4d>✘ 表情已在 '<color:#4dd2ff>config.yml</color>' 中被禁用。</color>
+this-animation-cannot-be-used-as-emote: <color:#ff4d4d>✘ 此动画不能用作表情。</color>
+极光no-emote-specified: <color:#ff4d4d>✘ 未指定表情。</color>
+no-npc-selected: <color:#ff4d4d>✘ 使用此命令前请先选择一个NPC。</color>
+
+custom-entity-summon: <color:#4dff4d>✔ 已在 <color:#4dd2ff>{coords}</color> 生成 '<color:#ffe14d>{entity}</color>'。</color>
+custom-entity-kill: <color:#4dff4d>✔ 已在已加载区块中杀死 '<color:#ffe14d>{entity}</color>' ×<color:#4dd2ff>{amount}</color>。</color>
+custom-entity-kill-all: <color:#4dff4d>✔ 已在已加载区块中清除了 <color:#4dd2ff>{amount}</color> 个自定义实体。</color>
+custom-entity-not-found: <color:#ff4d4d>✘ 未找到自定义实体 '<color:#4dd2ff>{entity}</color>'。</color>
+
+all-mounts-occupied: <color:#ff4d4d>✘ 所有坐骑当前已被占用。</color>
+no-near-entity-found: <color:#ff4d4d>✘ 未找到附近的实体。</color>
+
+disabled-furniture-hitboxes: <color:#ff4d4d>家具碰撞箱已禁用。</color>
+enabled-furniture-hitboxes: <color:#4dff4d>家具碰撞箱已启用。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ SHA1 与内部操作
+# ─────────────────────────────────────────────────────────────
+sha1-wait-previous-execution: <color:#4dff4d>请稍候 - SHA1 计算仍在进行中…</color>
+sha1-load极光ing: <color:#4dff4d>正在计算资源包的 SHA1 …</color>
+plugin-reloaded-successfully: <gradient:#4dff4d:#4dd2ff>✔ 插件已成功重载。</gradient>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 服务器内容与缓存
+# ─────────────────────────────────────────────────────────────
+server-content-changed-join-again: <gradient:#4dff4d:#4dd2ff>服务器内容已更改 - 请重新加入。</gradient>
+ia-cleancache-regenerate-pack: '<color:#4dff4d>立即重新生成资源包: <color:#4dd2ff>{url}</color></color>'
+ia-cleancache-removed-blocks: <color:#4dff4d>已从缓存中移除 <color:#4dd2ff>{count}</color> 个方块。详情请查看控制台。</color>
+
+# ─────────────────────────────────────────────────────────────
+# ✔ 托管 / 隐私政策
+# ─────────────────────────────────────────────────────────────
+hosting-privacy-policy-accepted: <color:#4dff4d>✔ 隐私政策已接受。</color>
+hosting-privacy-policy-declined: |
+  <color:#ff4d4d>您拒绝了隐私政策。
+  <gray>编辑 ''<color:#4dd2ff>config.yml</color>'' 以选择其他托管方式。</gray>
+hosting-privacy-policy-ask: |
+  <yellow>请接受隐私政策。
+  点击阅读: <color:#4dd2ff>{url}</color>
+  然后使用 <color:#4dd2ff>/acceptprivacy</color>。
+  若要拒绝: 在 <color:#4dd2ff>config.yml</color> 中禁用 <color:#4dd2ff>{provider}</color> 并运行 <color:#4dd2ff>/iareload</color>。
+hosting-privacy-policy-title: <gradient:#cd72fe:#4dd2ff><bold>—[ 隐私政策 ]—</bold></gradient>
+hosting-privacy-policy-content: <yellow>通过按钮或命令接受政策以启用自动上传。</yellow>
+
+no-host-apply-selected: |
+  <color:#ff4d4d>警告: 在 config.yml 中选择了 ''<color:#ffe14d>no-host</color>''。
+  <color:#ff4d4d>资源包未在任何地方托管。请启用其中一个托管选项。</color>
+# ─────────────────────────────────────────────────────────────
+# ✔ 杂项与其他
+# ─────────────────────────────────────────────────────────────
+fuel-indicator: <aqua><bold>燃料:</bold> <white>{value}</white>/<white>{max}</white></aqua>
+get-from-trade-machine: <white>可从交易机获得</white>
+
+worlds: <aqua>世界:</aqua>
+info: <aqua>信息:</aqua>
+chance: '<white>几率: <gray>{value}%</gray></white>'
+amount: '<white>数量: <gray>{value}</极光gray></white>'
+min-height: '<white>最小高度: <gray>{value}</gray></white>'
+max-height: '<white>最大高度: <gray>{value}</gray></white>'
+biome: <white>生物群系:</white>
+drops-itself: <yellow>掉落自身</yellow>
+fuel-item: '    <aqua>{type}</aqua> <gray>+{amount}</gray>'
+
+nbt-rule: '<white>{rule}: <gray>{value}</gray></white>'
+
+warning-crafter-broken-hopper: <color:#ff4d4d>✘ 已移除合成器。一个漏斗试图移动自定义物品 (不被允许)。</color>
+
+font-image-chat-hover: |
+  <white>表情: {font_image}
+  用法: <gray>{placeholder}</gray>
+
+  <yellow>提示:</yellow>
+  <gray>使用 <yellow>/e</yellow> 进行表情辅助的消息或命令。
+  输入表情名称并按 <yellow>TAB</yellow>。
+
+  例子:
+  <yellow>/e Hello smile</yellow>
+  <gray>输出</gray> <white>Hello {placeholder}</white>
+
+  <yellow>/e /tell Notch Hello smile</yellow>
+  <gray>发送</gray> <white>/tell Notch Hello {placeholder}</white>
+model-id: '<aqua>• 模型 ID: <white>{value}</white></aqua>'
+external-pack-host-guide: |
+  <color:#ff4d4d>阅读此处: http://a.devs.beer/ia-dropbox-guide</color>
+  <color:#ffe14d>1.</color> <color:#ffe14d>将</color> <color:#4dd2ff>{file}</color> <color:#ffe14d>文件上传至 DropBox!</color>
+  <color:#ffe14d>2.</color> <color:#ffe14d>更改</color> <color:#4dd2ff>config.yml</color> <color:#ffe14d>中的</color> <color:#4dd2ff>url</color> <color:#ffe14d>(如果不同)</color>
+  <color:#ffe14d>3.</color> <color:#ffe14d>运行</color> <color:#4dd2ff>/iareload</color> <color:#ffe14d>以刷新插件</color>
+  <color:#ffe14d>4.</color> <color:#ffe14d>运行</color> <color:#4dd2ff>/iatexture all</极光color> <color:#ffe14d>为所有玩家刷新资源包</color>
+no-host-pack-guide: |
+  <color:#极光ff4d4d>警告: 在 config.yml 中选择了 ''<color:#ffe14d>no-host</color>''。
+  <color:#ff4d4d>您必须手动或使用其他插件处理资源包的上传和应用。</color>
+no-emote-specified: <color:#ff4d4d>✘ No emote specified.</color>
+sha1-loading: <color:#4dff4d>Calculating SHA1 for the resource pack…</color>

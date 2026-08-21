@@ -1,0 +1,534 @@
+info:
+  namespace: mctown
+categories:
+  pinion:
+    enabled: true
+    icon: "mctown:mctown_pinion1"
+    name: "翅膀/进阶武器"
+    permission: "ia.menu.mctown"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:mctown_pinion1
+      - mctown:mctown_pinion2
+      - mctown:mctown_pinion3
+      - mctown:mctown_pinion4
+      - mctown:mctown_pinion5
+      - mctown:mctown_pinion6
+      - mctown:mctown_pinion7
+      - mctown:mctown_pinion8
+      - mctown:mctown_suit1_sword1
+      - mctown:mctown_suit1_sword2
+      - mctown:mctown_suit1_sword3
+      - mctown:mctown_suit1_sword4
+      - mctown:mctown_suit1_sword5
+      - mctown:mctown_suit1_sword6
+      - mctown:mctown_suit1_sword7
+      - mctown:mctown_aspect_dragon
+      - mctown:mctown_aspect_sword_1
+      - mctown:mctown_aspect_sword_2
+      - mctown:mctown_aspect_sword
+      - mctown:mctown_aspect_void_1
+      - mctown:mctown_aspect_void_2
+      - mctown:mctown_aspect_void
+      - mctown:mctown_astraea_1
+      - mctown:mctown_astraea_2
+      - mctown:mctown_astraea
+      - mctown:mctown_hyperion_1
+      - mctown:mctown_hyperion_2
+      - mctown:mctown_hyperion
+      - mctown:mctown_necromancer_sword_1
+      - mctown:mctown_necromancer_sword_2
+      - mctown:mctown_necromancer_sword
+      - mctown:mctown_prismarine_blade
+      - mctown:mctown_scorpion_foil
+      - mctown:mctown_scylla
+      - mctown:mctown_spirit_sword
+      - mctown:mctown_thick_scorpion_foil
+      - mctown:mctown_thick_tacticians_sword
+      - mctown:mctown_valkyrie
+      - mctown:mctown_warped_aspect_sword
+      - mctown:mctown_wither_cloak_sword_1
+      - mctown:mctown_wither_cloak_sword_2
+      - mctown:mctown_wither_cloak_sword
+      - mctown:mctown_yeti_sword
+      - mctown:mctown_katana_tier_1
+      - mctown:mctown_katana_tier_2
+      - mctown:mctown_katana_tier_3
+      - mctown:mctown_katana_tier_4
+      - mctown:mctown_vetala_sword_1
+      - mctown:mctown_vetala_sword_2
+      - mctown:mctown_vetala_sword_3
+      - mctown:mctown_smg
+      - mctown:mctown_gmk
+      - mctown:dingzhi_we_hua
+items:
+  mctown_pinion1:
+    display_name: "mctown_pinion1"
+    permission: mctown.pinion.mctown_pinion1
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion1
+    hat: true
+  mctown_pinion2:
+    display_name: "mctown_pinion2"
+    permission: mctown.pinion.mctown_pinion2
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion2
+    hat: true
+  mctown_pinion3:
+    display_name: "mctown_pinion3"
+    permission: mctown.pinion.mctown_pinion3
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion3
+    hat: true
+  mctown_pinion4:
+    display_name: "mctown_pinion4"
+    permission: mctown.pinion.mctown_pinion4
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion4
+    hat: true
+  mctown_pinion5:
+    display_name: "mctown_pinion5"
+    permission: mctown.pinion.mctown_pinion5
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion5
+    hat: true
+  mctown_pinion6:
+    display_name: "mctown_pinion6"
+    permission: mctown.pinion.mctown_pinion6
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion6
+    hat: true
+  mctown_pinion7:
+    display_name: "mctown_pinion7"
+    permission: mctown.pinion.mctown_pinion7
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion7
+    hat: true
+  mctown_pinion8:
+    display_name: "mctown_pinion8"
+    permission: mctown.pinion.mctown_pinion8
+    resource:
+      material: brick
+      generate: false
+      model_path: block/item/pinion/mctown_pinion8
+    hat: true
+  mctown_gmk:
+    display_name: "mctown_gmk"
+    permission: mctown.pinion.mctown_gmk
+    resource:
+      material: paper
+      generate: true
+      textures:
+        - block/item/pinion/gmk.png
+  mctown_smg:
+    display_name: "mctown_smg"
+    permission: mctown.pinion.mctown_smg
+    resource:
+      material: paper
+      generate: true
+      textures:
+        - block/item/pinion/smg.png
+
+  mctown_suit1_sword1:
+    display_name: mctown_suit1_sword1
+    permission: mctownsword.suit1.mctown_suit1_sword1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_suit1_sword1
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+        attackSpeed: 1.6
+
+  mctown_suit1_sword2:
+    display_name: mctown_suit1_sword2
+    permission: mctownsword.suit1.mctown_suit1_sword2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_suit1_sword2
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+        attackSpeed: 1.6
+
+  mctown_suit1_sword3:
+    display_name: mctown_suit1_sword3
+    permission: mctownsword.suit1.mctown_suit1_sword3
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_suit1_sword3
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+        attackSpeed: 1.6
+
+  mctown_suit1_sword4:
+    display_name: mctown_suit1_sword4
+    permission: mctownsword.suit1.mctown_suit1_sword4
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_suit1_sword4
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+        attackSpeed: 1.6
+
+  mctown_suit1_sword5:
+    display_name: mctown_suit1_sword5
+    permission: mctownsword.suit1.mctown_suit1_sword5
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_suit1_sword5
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+        attackSpeed: 1.6
+
+  mctown_suit1_sword6:
+    display_name: mctown_suit1_sword6
+    permission: mctownsword.suit1.mctown_suit1_sword6
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_suit1_sword6
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9.0
+        attackSpeed: 1.6
+
+  mctown_suit1_sword7:
+    display_name: mctown_suit1_sword7
+    permission: mctownsword.suit1.mctown_suit1_sword7
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_suit1_sword7
+
+  mctown_aspect_dragon:
+    display_name: mctown_aspect_dragon
+    permission: mctownsword.suit1.mctown_aspect_dragon
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_aspect_dragon
+
+  mctown_aspect_sword:
+    display_name: mctown_aspect_sword
+    permission: mctownsword.suit1.mctown_aspect_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_aspect_sword
+
+  mctown_aspect_void:
+    display_name: mctown_aspect_void
+    permission: mctownsword.suit1.mctown_aspect_void
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_aspect_void
+
+  mctown_astraea:
+    display_name: mctown_astraea
+    permission: mctownsword.suit1.mctown_astraea
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_astraea
+
+  mctown_hyperion:
+    display_name: mctown_hyperion
+    permission: mctownsword.suit1.mctown_hyperion
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_hyperion
+
+  mctown_necromancer_sword:
+    display_name: mctown_necromancer_sword
+    permission: mctownsword.suit1.mctown_necromancer_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_necromancer_sword
+
+  mctown_prismarine_blade:
+    display_name: mctown_prismarine_blade
+    permission: mctownsword.suit1.mctown_prismarine_blade
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_prismarine_blade
+
+  mctown_scorpion_foil:
+    display_name: mctown_scorpion_foil
+    permission: mctownsword.suit1.mctown_scorpion_foil
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_scorpion_foil
+
+  mctown_scylla:
+    display_name: mctown_scylla
+    permission: mctownsword.suit1.mctown_scylla
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_scylla
+
+  mctown_spirit_sword:
+    display_name: mctown_spirit_sword
+    permission: mctownsword.suit1.mctown_spirit_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_spirit_sword
+
+  mctown_thick_scorpion_foil:
+    display_name: mctown_thick_scorpion_foil
+    permission: mctownsword.suit1.mctown_thick_scorpion_foil
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_thick_scorpion_foil
+
+  mctown_thick_tacticians_sword:
+    display_name: mctown_thick_tacticians_sword
+    permission: mctownsword.suit1.mctown_thick_tacticians_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_thick_tacticians_sword
+
+  mctown_valkyrie:
+    display_name: mctown_valkyrie
+    permission: mctownsword.suit1.mctown_valkyrie
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_valkyrie
+
+  mctown_warped_aspect_sword:
+    display_name: mctown_warped_aspect_sword
+    permission: mctownsword.suit1.mctown_warped_aspect_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_warped_aspect_sword
+
+  mctown_wither_cloak_sword:
+    display_name: mctown_wither_cloak_sword
+    permission: mctownsword.suit1.mctown_wither_cloak_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_wither_cloak_sword
+
+  mctown_yeti_sword:
+    display_name: mctown_yeti_sword
+    permission: mctownsword.suit1.mctown_yeti_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_yeti_sword
+
+  #进阶升级武器
+
+  #编号01
+  mctown_katana_tier_1:
+    display_name: mctown_katana_tier_1
+    permission: mctownsword.suit1.mctown_katana_tier_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_katana_tier_1
+
+  mctown_katana_tier_2:
+    display_name: mctown_katana_tier_2
+    permission: mctownsword.suit1.mctown_katana_tier_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_katana_tier_2
+
+  mctown_katana_tier_3:
+    display_name: mctown_katana_tier_3
+    permission: mctownsword.suit1.mctown_katana_tier_3
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_katana_tier_3
+
+  mctown_katana_tier_4:
+    display_name: mctown_katana_tier_4
+    permission: mctownsword.suit1.mctown_katana_tier_4
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_katana_tier_4
+
+  #进阶升级武器
+
+  #编号02
+
+  mctown_vetala_sword_1:
+    display_name: mctown_vetala_sword_1
+    permission: mctownsword.suit1.mctown_vetala_sword_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_vetala_sword_1
+
+  mctown_vetala_sword_2:
+    display_name: mctown_vetala_sword_2
+    permission: mctownsword.suit1.mctown_vetala_sword_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_vetala_sword_2
+
+  mctown_vetala_sword_3:
+    display_name: mctown_vetala_sword_3
+    permission: mctownsword.suit1.mctown_vetala_sword_3
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_vetala_sword_3
+
+  mctown_hyperion_2:
+    display_name: mctown_hyperion_2
+    permission: mctownsword.suit1.mctown_hyperion_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_hyperion_2
+
+  mctown_hyperion_1:
+    display_name: mctown_hyperion_1
+    permission: mctownsword.suit1.mctown_hyperion_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_hyperion_1
+
+  mctown_astraea_2:
+    display_name: mctown_astraea_2
+    permission: mctownsword.suit1.mctown_astraea_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_astraea_2
+
+  mctown_astraea_1:
+    display_name: mctown_astraea_1
+    permission: mctownsword.suit1.mctown_astraea_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_astraea_1
+
+  mctown_wither_cloak_sword_1:
+    display_name: mctown_wither_cloak_sword_1
+    permission: mctownsword.suit1.mctown_wither_cloak_sword_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_wither_cloak_sword_1
+
+  mctown_wither_cloak_sword_2:
+    display_name: mctown_wither_cloak_sword_2
+    permission: mctownsword.suit1.mctown_wither_cloak_sword_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_wither_cloak_sword_2
+
+  mctown_aspect_void_1:
+    display_name: mctown_aspect_void_1
+    permission: mctownsword.suit1.mctown_aspect_void_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_aspect_void_1
+
+  mctown_aspect_void_2:
+    display_name: mctown_aspect_void_2
+    permission: mctownsword.suit1.mctown_aspect_void_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_aspect_void_2
+
+  mctown_aspect_sword_1:
+    display_name: mctown_aspect_sword_1
+    permission: mctownsword.suit1.mctown_aspect_sword_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_aspect_sword_1
+
+  mctown_aspect_sword_2:
+    display_name: mctown_aspect_sword_2
+    permission: mctownsword.suit1.mctown_aspect_sword_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_aspect_sword_2
+
+  mctown_necromancer_sword_1:
+    display_name: mctown_necromancer_sword_1
+    permission: mctownsword.suit1.mctown_necromancer_sword_1
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_necromancer_sword_1
+
+  mctown_necromancer_sword_2:
+    display_name: mctown_necromancer_sword_2
+    permission: mctownsword.suit1.mctown_necromancer_sword_2
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/mctown_necromancer_sword_2
+
+  dingzhi_we_hua:
+    display_name: dingzhi_we_hua
+    permission: mctownsword.suit1.dingzhi_we_hua
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: block/item/pinion/dingzhi_we_hua

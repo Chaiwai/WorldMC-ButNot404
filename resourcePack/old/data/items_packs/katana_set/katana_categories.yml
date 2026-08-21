@@ -1,0 +1,17 @@
+info:
+  namespace: katana_set
+categories:
+  katana_set:
+    enabled: true
+    skip_if_already: false
+    icon: "katana_set:katana_purple"
+    name: Katana Set
+    permission: ia.menu
+    items:
+      - "katana_set:katana_black"
+      - "katana_set:katana_red"
+      - "katana_set:katana_orange"
+      - "katana_set:katana_blue"
+      - "katana_set:katana_purple"
+      - "katana_set:katana_yellow"
+      - "katana_set:katana_green"

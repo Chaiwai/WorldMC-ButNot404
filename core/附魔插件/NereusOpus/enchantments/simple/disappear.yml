@@ -1,0 +1,31 @@
+basic:
+  id: disappear
+  name: 脱身
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 在低血量时获得隐身效果
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 罕见
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    min-health-percent: :0.05*{level}
+  ordinary:
+    repeat-ticks: 100

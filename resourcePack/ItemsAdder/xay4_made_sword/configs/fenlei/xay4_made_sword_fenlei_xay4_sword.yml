@@ -1,0 +1,12 @@
+#**ItemsAdder-configs-分类**
+#===========================
+info:
+  namespace: "xay4_made_sword"  #[命名空间]**
+categories:  #[分类]**
+  xay4_made_sword_xay4_sword:  #[分类的内部名]**
+    enabled: true  #[是否启用该分类]**
+    icon: "xay4_made_sword:xay4_sword"  #[GUI分类显示的图标]**
+    name: "xay4_sword"  #[GUI分类显示的图标名称]**
+    items:  #[打包]**
+      - "xay4_made_sword:xay4_sword"  #[打包物品]**
+#[打包物品内容]**

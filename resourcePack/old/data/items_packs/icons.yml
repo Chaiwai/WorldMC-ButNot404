@@ -1,0 +1,332 @@
+info:
+  namespace: mctown
+font_images:
+
+  space_split1:
+    symbol: "र"
+    suggest_in_command: false
+    y_position: -32768
+    scale_ratio: -3
+    path: custom/ae/space_split
+
+  space_split2:
+    symbol: "ऱ"
+    suggest_in_command: false
+    y_position: -32768
+    scale_ratio: -10 
+    path: custom/ae/space_split
+
+  space_split3:
+    symbol: "ल"
+    suggest_in_command: false
+    y_position: -32768
+    scale_ratio: -179
+    path: custom/ae/space_split
+
+  crossbow:
+    symbol: "ञ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/crossbow
+
+  shovel:
+    symbol: "ज"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/shovel
+
+  tier_unique:
+    symbol: "अ"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/tier_unique
+
+  prefix_success:
+    symbol: "ए"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 7
+    path: custom/ae/prefix_success
+
+  axe:
+    symbol: "च"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/axe
+
+  tinkerer-title:
+    symbol: "द"
+    suggest_in_command: false
+    y_position: 17
+    scale_ratio: 18
+    path: custom/ae/titles/tinkerer
+
+  soul_1:
+    symbol: "ऌ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/soul_1
+
+  soul_2:
+    symbol: "ऍ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/soul_2
+
+  tier_legendary:
+    symbol: "ई"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/tier_legendary
+
+  tier_ultimate:
+    symbol: "इ"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/tier_ultimate
+
+  leggings:
+    symbol: "ख"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/leggings
+
+  alchemist:
+    symbol: "ऒ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/alchemist
+
+  tinkerer-container:
+    symbol: "फ"
+    suggest_in_command: false
+    y_position: 19
+    scale_ratio: 256
+    path: custom/ae/containers/tinkerer
+
+  right-click:
+    symbol: "ऐ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/right-click
+
+  tinkerer:
+    symbol: "ओ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/tinkerer
+
+  left-click:
+    symbol: "ऑ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/left-click
+
+  enchanter-title:
+    symbol: "थ"
+    suggest_in_command: false
+    y_position: 17
+    scale_ratio: 18
+    path: custom/ae/titles/enchanter
+
+  elytra:
+    symbol: "ठ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/elytra
+
+  enchanter-container:
+    symbol: "प"
+    suggest_in_command: false
+    y_position: 19
+    scale_ratio: 256
+    path: custom/ae/containers/enchanter
+
+  hoe:
+    symbol: "छ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/hoe
+
+  shop-title:
+    symbol: "ऩ"
+    suggest_in_command: false
+    y_position: 17
+    scale_ratio: 18
+    path: custom/ae/titles/shop
+
+  shield:
+    symbol: "ण"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/shield
+
+  confirm:
+    symbol: "ब"
+    suggest_in_command: false
+    y_position: 19
+    scale_ratio: 256
+    path: custom/ae/containers/confirm
+
+  shop-icon:
+    symbol: "त"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/shop
+
+  pickaxe:
+    symbol: "ङ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/pickaxe
+
+  bow:
+    symbol: "झ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/bow
+
+  tier_fabled:
+    symbol: "उ"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/tier_fabled
+
+  confirm-action:
+    symbol: "ध"
+    suggest_in_command: false
+    y_position: 17
+    scale_ratio: 18
+    path: custom/ae/titles/confirm-action
+
+  alchemist-title:
+    symbol: "न"
+    suggest_in_command: false
+    y_position: 17
+    scale_ratio: 18
+    path: custom/ae/titles/alchemist
+
+  tier_elite:
+    symbol: "आ"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/tier_elite
+
+  prefix_error:
+    symbol: "ऎ"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 7
+    path: custom/ae/prefix_error
+
+  helmet:
+    symbol: "औ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/helmet
+
+  boots:
+    symbol: "ग"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/boots
+
+  tier_lethal:
+    symbol: "ऊ"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/tier_lethal
+
+  fishing_rod:
+    symbol: "ड"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/fishing_rod
+
+  trident:
+    symbol: "ट"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/trident
+
+  tier_simple:
+    symbol: "ऄ"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/tier_simple
+
+  question2:
+    symbol: "ऋ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/question2
+
+  food:
+    symbol: "ढ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/food
+
+  alchemist-container:
+    symbol: "भ"
+    suggest_in_command: false
+    y_position: 19
+    scale_ratio: 256
+    path: custom/ae/containers/alchemist
+
+  magical:
+    symbol: "य"
+    suggest_in_command: false
+    y_position: 7
+    scale_ratio: 14
+    path: custom/ae/labels/magical
+
+  sword:
+    symbol: "घ"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/sword
+
+  chestplate:
+    symbol: "क"
+    suggest_in_command: false
+    y_position: 8
+    scale_ratio: 11
+    path: custom/ae/types/chestplate
+
+  shop-container:
+    symbol: "म"
+    suggest_in_command: false
+    y_position: 19
+    scale_ratio: 256
+    path: custom/ae/containers/shop

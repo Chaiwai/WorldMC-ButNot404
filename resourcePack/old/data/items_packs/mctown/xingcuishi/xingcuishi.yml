@@ -1,0 +1,385 @@
+info:
+  namespace: "mctown"
+font_images:
+  xingcuishi_logo_1:
+    path: "xingcuishi/xingcuishi_logo_1.png"
+    suggest_in_command: false
+    symbol: "䟏"
+    scale_ratio: 22
+    y_position: 14
+  xingcuishi_logo_2:
+    path: "xingcuishi/xingcuishi_logo_2.png"
+    suggest_in_command: false
+    symbol: "䧕"
+    scale_ratio: 22
+    y_position: 14
+  xingcuishi_logo_3:
+    path: "xingcuishi/xingcuishi_logo_3.png"
+    suggest_in_command: false
+    symbol: "䧖"
+    scale_ratio: 22
+    y_position: 14
+  xingcuishi_logo_4:
+    path: "xingcuishi/xingcuishi_logo_4.png"
+    suggest_in_command: false
+    symbol: "䦊"
+    scale_ratio: 22
+    y_position: 14
+  xingcuishi_logo_5:
+    path: "xingcuishi/xingcuishi_logo_5.png"
+    suggest_in_command: false
+    symbol: "䦯"
+    scale_ratio: 9
+    y_position: 8
+  xingcuishi_lvl_1:
+    path: "block/jobs_1.png"
+    suggest_in_command: false
+    symbol: "䦮"
+    scale_ratio: 13
+    y_position: 9
+  xingcuishi_lvl_lv:
+    path: "xingcuishi/xingcuishi_lvl_lv.png"
+    suggest_in_command: false
+    symbol: "䦭"
+    scale_ratio: 7
+    y_position: 6
+  xingcuishi_1:
+    path: "xingcuishi/xingcuishi_1.png"
+    suggest_in_command: false
+    symbol: "䡀"
+    scale_ratio: 12
+    y_position: 8
+  xingcuishi_2:
+    path: "xingcuishi/xingcuishi_2.png"
+    suggest_in_command: false
+    symbol: "䡁"
+    scale_ratio: 12
+    y_position: 8
+  xingcuishi_3:
+    path: "xingcuishi/xingcuishi_3.png"
+    suggest_in_command: false
+    symbol: "䡂"
+    scale_ratio: 12
+    y_position: 8
+  xingcuishi_title:
+    path: "xingcuishi/xingcuishi_title.png"
+    suggest_in_command: false
+    symbol: "䕑"
+    scale_ratio: 12
+    y_position: 12
+  xingcuishi_title_1:
+    path: "xingcuishi/xingcuishi_title_1.png"
+    suggest_in_command: false
+    symbol: "䕒"
+    scale_ratio: 12
+    y_position: 8
+  xingcuishi_title_2:
+    path: "xingcuishi/xingcuishi_title_2.png"
+    suggest_in_command: false
+    symbol: "䕓"
+    scale_ratio: 12
+    y_position: 8
+    
+    
+    
+    
+  xingcuishi_lore_1:
+    path: "xingcuishi/lore/xingcuishi_lore_1.png"
+    suggest_in_command: false
+    symbol: "䦌"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_2:
+    path: "xingcuishi/lore/xingcuishi_lore_2.png"
+    suggest_in_command: false
+    symbol: "䖀"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_3:
+    path: "xingcuishi/lore/xingcuishi_lore_3.png"
+    suggest_in_command: false
+    symbol: "䖁"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_4:
+    path: "xingcuishi/lore/xingcuishi_lore_4.png"
+    suggest_in_command: false
+    symbol: "䖂"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_5:
+    path: "xingcuishi/lore/xingcuishi_lore_5.png"
+    suggest_in_command: false
+    symbol: "䖃"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_6:
+    path: "xingcuishi/lore/xingcuishi_lore_6.png"
+    suggest_in_command: false
+    symbol: "䖄"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_7:
+    path: "xingcuishi/lore/xingcuishi_lore_7.png"
+    suggest_in_command: false
+    symbol: "䖅"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_8:
+    path: "xingcuishi/lore/xingcuishi_lore_8.png"
+    suggest_in_command: false
+    symbol: "䖆"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_9:
+    path: "xingcuishi/lore/xingcuishi_lore_9.png"
+    suggest_in_command: false
+    symbol: "䖇"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_10:
+    path: "xingcuishi/lore/xingcuishi_lore_10.png"
+    suggest_in_command: false
+    symbol: "䖈"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_11:
+    path: "xingcuishi/lore/xingcuishi_lore_11.png"
+    suggest_in_command: false
+    symbol: "䖉"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_12:
+    path: "xingcuishi/lore/xingcuishi_lore_12.png"
+    suggest_in_command: false
+    symbol: "䖊"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_13:
+    path: "xingcuishi/lore/xingcuishi_lore_13.png"
+    suggest_in_command: false
+    symbol: "䖋"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_14:
+    path: "xingcuishi/lore/xingcuishi_lore_14.png"
+    suggest_in_command: false
+    symbol: "䖌"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_15:
+    path: "xingcuishi/lore/xingcuishi_lore_15.png"
+    suggest_in_command: false
+    symbol: "䖍"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_16:
+    path: "xingcuishi/lore/xingcuishi_lore_16.png"
+    suggest_in_command: false
+    symbol: "䖎"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_17:
+    path: "xingcuishi/lore/xingcuishi_lore_17.png"
+    suggest_in_command: false
+    symbol: "䖏"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_18:
+    path: "xingcuishi/lore/xingcuishi_lore_18.png"
+    suggest_in_command: false
+    symbol: "䕰"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_19:
+    path: "xingcuishi/lore/xingcuishi_lore_19.png"
+    suggest_in_command: false
+    symbol: "䕱"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_20:
+    path: "xingcuishi/lore/xingcuishi_lore_20.png"
+    suggest_in_command: false
+    symbol: "䕲"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_21:
+    path: "xingcuishi/lore/xingcuishi_lore_21.png"
+    suggest_in_command: false
+    symbol: "䕳"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_22:
+    path: "xingcuishi/lore/xingcuishi_lore_22.png"
+    suggest_in_command: false
+    symbol: "䕴"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_23:
+    path: "xingcuishi/lore/xingcuishi_lore_23.png"
+    suggest_in_command: false
+    symbol: "䕵"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_24:
+    path: "xingcuishi/lore/xingcuishi_lore_24.png"
+    suggest_in_command: false
+    symbol: "䕶"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_25:
+    path: "xingcuishi/lore/xingcuishi_lore_25.png"
+    suggest_in_command: false
+    symbol: "䕷"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_26:
+    path: "xingcuishi/lore/xingcuishi_lore_26.png"
+    suggest_in_command: false
+    symbol: "䕸"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_27:
+    path: "xingcuishi/lore/xingcuishi_lore_27.png"
+    suggest_in_command: false
+    symbol: "䕹"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_28:
+    path: "xingcuishi/lore/xingcuishi_lore_28.png"
+    suggest_in_command: false
+    symbol: "䕺"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_29:
+    path: "xingcuishi/lore/xingcuishi_lore_29.png"
+    suggest_in_command: false
+    symbol: "䕻"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_30:
+    path: "xingcuishi/lore/xingcuishi_lore_30.png"
+    suggest_in_command: false
+    symbol: "䕼"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_31:
+    path: "xingcuishi/lore/xingcuishi_lore_31.png"
+    suggest_in_command: false
+    symbol: "䕽"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_32:
+    path: "xingcuishi/lore/xingcuishi_lore_32.png"
+    suggest_in_command: false
+    symbol: "䕾"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_33:
+    path: "xingcuishi/lore/xingcuishi_lore_33.png"
+    suggest_in_command: false
+    symbol: "䕿"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_34:
+    path: "xingcuishi/lore/xingcuishi_lore_34.png"
+    suggest_in_command: false
+    symbol: "䕠"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_35:
+    path: "xingcuishi/lore/xingcuishi_lore_35.png"
+    suggest_in_command: false
+    symbol: "䕡"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_36:
+    path: "xingcuishi/lore/xingcuishi_lore_36.png"
+    suggest_in_command: false
+    symbol: "䕢"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_37:
+    path: "xingcuishi/lore/xingcuishi_lore_37.png"
+    suggest_in_command: false
+    symbol: "䕣"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_38:
+    path: "xingcuishi/lore/xingcuishi_lore_38.png"
+    suggest_in_command: false
+    symbol: "䕤"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_39:
+    path: "xingcuishi/lore/xingcuishi_lore_39.png"
+    suggest_in_command: false
+    symbol: "䕥"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_40:
+    path: "xingcuishi/lore/xingcuishi_lore_40.png"
+    suggest_in_command: false
+    symbol: "䕦"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_41:
+    path: "xingcuishi/lore/xingcuishi_lore_41.png"
+    suggest_in_command: false
+    symbol: "䕧"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_42:
+    path: "xingcuishi/lore/xingcuishi_lore_42.png"
+    suggest_in_command: false
+    symbol: "䕨"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_43:
+    path: "xingcuishi/lore/xingcuishi_lore_43.png"
+    suggest_in_command: false
+    symbol: "䕩"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_44:
+    path: "xingcuishi/lore/xingcuishi_lore_44.png"
+    suggest_in_command: false
+    symbol: "䕪"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_45:
+    path: "xingcuishi/lore/xingcuishi_lore_45.png"
+    suggest_in_command: false
+    symbol: "䕫"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_46:
+    path: "xingcuishi/lore/xingcuishi_lore_46.png"
+    suggest_in_command: false
+    symbol: "䕬"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_47:
+    path: "xingcuishi/lore/xingcuishi_lore_47.png"
+    suggest_in_command: false
+    symbol: "䕭"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_48:
+    path: "xingcuishi/lore/xingcuishi_lore_48.png"
+    suggest_in_command: false
+    symbol: "䕮"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_49:
+    path: "xingcuishi/lore/xingcuishi_lore_49.png"
+    suggest_in_command: false
+    symbol: "䕯"
+    scale_ratio: 16
+    y_position: 14
+  xingcuishi_lore_50:
+    path: "xingcuishi/lore/xingcuishi_lore_50.png"
+    suggest_in_command: false
+    symbol: "䕐"
+    scale_ratio: 16
+    y_position: 14

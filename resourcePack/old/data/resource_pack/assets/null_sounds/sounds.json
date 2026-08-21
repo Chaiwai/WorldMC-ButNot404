@@ -1,0 +1,50 @@
+{
+  "samus.void_arrow_shoot": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_arrow_shoot"
+    ]
+  },
+  "samus.void_blackhole": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_blackhole"
+    ]
+  },
+  "samus.void_blackhole_summon": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_blackhole_summon"
+    ]
+  },
+  "samus.void_missile": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_missile"
+    ]
+  },
+  "samus.void_pulse": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_pulse"
+    ]
+  },
+  "samus.void_rain_arrow": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_rain_arrow"
+    ]
+  },
+  "samus.void_rain_circle": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_rain_circle"
+    ]
+  },
+  "samus.void_teleport": {
+    "category": "master",
+    "sounds": [
+      "samus/null/void_teleport"
+    ]
+  }
+}

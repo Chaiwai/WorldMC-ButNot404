@@ -1,0 +1,514 @@
+# Name which will be displayed
+# when opening the station
+name: :offset_-36::blacksmith::offset_-36:(#page#/#max#)
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+  fill:
+    material: AIR
+  no-recipe:
+    material: STRUCTURE_VOID
+    name: '&a无'
+  no-queue-item:
+    material: STRUCTURE_VOID
+    name: '&a没有物品在队列中'
+
+# Station recipes
+recipes:
+  # ###########################忍者套###################################
+  r1:
+    output:
+      type: ARMOR
+      id: RZ1
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - vanilla{type=NETHERITE_HELMET, display="下界合金头盔"}
+    - vanilla{type=NETHERITE_UPGRADE_SMITHING_TEMPLATE, amount=5, display="升级模板"}
+    - vanilla{type=NETHERITE_INGOT, amount=5, display="下界合金锭"}
+    - vanilla{type=END_CRYSTAL, amount=5, display="末影水晶"}
+    - vanilla{type="mm 古老的金币 ~", amount=10, display="古老的金币"}
+  r2:
+    output:
+      type: ARMOR
+      id: RZ2
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - vanilla{type=NETHERITE_CHESTPLATE, display="下界合金胸甲"}
+    - vanilla{type=NETHERITE_UPGRADE_SMITHING_TEMPLATE, amount=5, display="升级模板"}
+    - vanilla{type=NETHERITE_INGOT, amount=5, display="下界合金锭"}
+    - vanilla{type=END_CRYSTAL, amount=5, display="末影水晶"}
+    - vanilla{type="mm 古老的金币 ~", amount=10, display="古老的金币"}
+  r3:
+    output:
+      type: ARMOR
+      id: RZ3
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - vanilla{type=NETHERITE_LEGGINGS, display="下界合金护腿"}
+    - vanilla{type=NETHERITE_UPGRADE_SMITHING_TEMPLATE, amount=5, display="升级模板"}
+    - vanilla{type=NETHERITE_INGOT, amount=5, display="下界合金锭"}
+    - vanilla{type=END_CRYSTAL, amount=5, display="末影水晶"}
+    - vanilla{type="mm 古老的金币 ~", amount=10, display="古老的金币"}
+  r4:
+    output:
+      type: ARMOR
+      id: RZ4
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - vanilla{type=NETHERITE_BOOTS, display="下界合金靴子"}
+    - vanilla{type=NETHERITE_UPGRADE_SMITHING_TEMPLATE, amount=5, display="升级模板"}
+    - vanilla{type=NETHERITE_INGOT, amount=5, display="下界合金锭"}
+    - vanilla{type=END_CRYSTAL, amount=5, display="末影水晶"}
+    - vanilla{type="mm 古老的金币 ~", amount=10, display="古老的金币"}
+  # ###########################荒芜套###################################
+  h1:
+    output:
+      type: ARMOR
+      id: HW1
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S3_CL_1}
+    - mmoitem{type=material,id=S3_CL_2}
+    - vanilla{type="mm 闪烁的粘液球 ~", amount=32, display="闪烁的粘液球"}
+    - vanilla{type="mm 一滩粘液 ~", amount=16, display="一滩粘液"}
+  h2:
+    output:
+      type: ARMOR
+      id: HW2
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S3_CL_1}
+    - mmoitem{type=material,id=S3_CL_2}
+    - vanilla{type="mm 闪烁的粘液球 ~", amount=32, display="闪烁的粘液球"}
+    - vanilla{type="mm 一滩粘液 ~", amount=16, display="一滩粘液"}
+  h3:
+    output:
+      type: ARMOR
+      id: HW3
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S3_CL_1}
+    - mmoitem{type=material,id=S3_CL_2}
+    - vanilla{type="mm 闪烁的粘液球 ~", amount=32, display="闪烁的粘液球"}
+    - vanilla{type="mm 一滩粘液 ~", amount=16, display="一滩粘液"}
+  h4:
+    output:
+      type: ARMOR
+      id: HW4
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S3_CL_1}
+    - mmoitem{type=material,id=S3_CL_2}
+    - vanilla{type="mm 闪烁的粘液球 ~", amount=32, display="闪烁的粘液球"}
+    - vanilla{type="mm 一滩粘液 ~", amount=16, display="一滩粘液"}
+  # ###########################璃靛套###################################
+  d1:
+    output:
+      type: ARMOR
+      id: LD1
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S2_CL_1}
+    - mmoitem{type=material,id=S2_CL_2}
+    - vanilla{type="mm 断裂的鹿角 ~", amount=16, display="断裂的鹿角"}
+  d2:
+    output:
+      type: ARMOR
+      id: LD2
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S2_CL_1}
+    - mmoitem{type=material,id=S2_CL_2}
+    - vanilla{type="mm 断裂的鹿角 ~", amount=16, display="断裂的鹿角"}
+  d3:
+    output:
+      type: ARMOR
+      id: LD3
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S2_CL_1}
+    - mmoitem{type=material,id=S2_CL_2}
+    - vanilla{type="mm 断裂的鹿角 ~", amount=16, display="断裂的鹿角"}
+  d4:
+    output:
+      type: ARMOR
+      id: LD4
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=material,id=S2_CL_1}
+    - mmoitem{type=material,id=S2_CL_2}
+    - vanilla{type="mm 断裂的鹿角 ~", amount=16, display="断裂的鹿角"}
+  # ###########################鎏金套###################################
+  l1:
+    output:
+      type: ARMOR
+      id: LJ1
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=MISCELLANEOUS,id=ZW}
+  l2:
+    output:
+      type: ARMOR
+      id: LJ2
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=MISCELLANEOUS,id=ZW}
+  l3:
+    output:
+      type: ARMOR
+      id: LJ3
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=MISCELLANEOUS,id=ZW}
+  l4:
+    output:
+      type: ARMOR
+      id: LJ4
+      amount: 1
+    crafting-time: 3
+    conditions:
+    - level{level=10}
+    ingredients:
+    - mmoitem{type=MISCELLANEOUS,id=ARMOR_SP1}
+    - mmoitem{type=MISCELLANEOUS,id=ZW}
+# ###########################初心者系列###################################
+# iron0:
+#   output:
+#     type: ARMOR
+#     id: MYHEART_HELMET
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type=IRON_HELMET,display="铁头盔"}
+#     - vanilla{type=IRON_INGOT,amount=64,display="铁锭"}
+#     - vanilla{type="mm 古老的金币 ~",amount=2}
+# iron1:
+#   output:
+#     type: ARMOR
+#     id: MYHEART_CHESTPLATE
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type=IRON_CHESTPLATE,display="铁胸甲"}
+#     - vanilla{type=IRON_INGOT,amount=64,display="铁锭"}
+#     - vanilla{type="mm 古老的金币 ~",amount=2}
+# iron2:
+#   output:
+#     type: ARMOR
+#     id: MYHEART_LEGGINGS
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type=IRON_LEGGINGS,display="铁护腿"}
+#     - vanilla{type=IRON_INGOT,amount=64,display="铁锭"}
+#     - vanilla{type="mm 古老的金币 ~",amount=2}
+# iron3:
+#   output:
+#     type: ARMOR
+#     id: MYHEART_BOOTS
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type=IRON_BOOTS,display="铁靴子"}
+#     - vanilla{type=IRON_INGOT,amount=64,display="铁锭"}
+#     - vanilla{type="mm 古老的金币 ~",amount=2}
+# #############################史莱姆系列 #########################################
+# slime0:
+#   output:
+#     type: SWORD
+#     id: SLIME_SWORD
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type="mm 一滩粘液 ~",amount=64}
+#     - vanilla{type="mm 闪烁的粘液球 ~",amount=14}
+#     - vanilla{type="mm 古老的金币 ~",amount=64}
+# slime1:
+#   output:
+#     type: SWORD
+#     id: SLIME_SHIELD
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type="mm 一滩粘液 ~",amount=2}
+#     - vanilla{type="mm 闪烁的粘液球 ~",amount=6}
+#     - vanilla{type="mm 古老的金币 ~",amount=2}
+# slime2:
+#   output:
+#     type: TOOL
+#     id: SLIME_PICKAXE
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type="mm 一滩粘液 ~",amount=3}
+#     - vanilla{type="mm 闪烁的粘液球 ~",amount=10}
+#     - vanilla{type="mm 古老的金币 ~",amount=3}
+# slime3:
+#   output:
+#     type: TOOL
+#     id: SLIME_SHOVEL
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type="mm 一滩粘液 ~",amount=1}
+#     - vanilla{type="mm 闪烁的粘液球 ~",amount=3}
+#     - vanilla{type="mm 古老的金币 ~",amount=2}
+# slime4:
+#   output:
+#     type: TOOL
+#     id: SLIME_AXE
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type="mm 一滩粘液 ~",amount=2}
+#     - vanilla{type="mm 闪烁的粘液球 ~",amount=8}
+#     - vanilla{type="mm 古老的金币 ~",amount=3}
+# slime5:
+#   output:
+#     type: TOOL
+#     id: SLIME_HOE
+#     amount: 1
+#   crafting-time: 300
+#   conditions:
+#     - "level{level=10}"
+#   ingredients:
+#     - vanilla{type="mm 一滩粘液 ~",amount=1}
+#     - vanilla{type="mm 闪烁的粘液球 ~",amount=2}
+#     - vanilla{type="mm 古老的金币 ~",amount=2}
+# ############################  奥克系列#############################################
+# orc0:
+#   output:
+#     type: SWORD
+#     id: SHAMAN_SCEPTER1
+#     amount: 1
+#   crafting-time: 600
+#   conditions:
+#     - "level{level=5}"
+#   ingredients:
+#     - vanilla{type="mm mctown_orc_bone ~",amount=64}
+#     - vanilla{type="mm 青苔鹅卵石 ~",amount=64}
+#     - vanilla{type="mm mctown_orc_teeth ~",amount=64}
+#     - vanilla{type="mm 古老的金币 ~",amount=24}
+# orc1:
+#   output:
+#     type: ARMOR
+#     id: ORC1
+#     amount: 1
+#   crafting-time: 600
+#   conditions:
+#     - "level{level=30}"
+#   ingredients:
+#     - vanilla{type="mm mctown_orc_bone ~",amount=24}
+#     - vanilla{type="mm 青苔鹅卵石 ~",amount=56}
+#     - vanilla{type="mm mctown_orc_teeth ~",amount=40}
+#     - vanilla{type="mm 古老的金币 ~",amount=16}
+#     - vanilla{type="mm mctown_orc_fur ~",amount=64}
+# orc2:
+#   output:
+#     type: ARMOR
+#     id: ORC2
+#     amount: 1
+#   crafting-time: 600
+#   conditions:
+#     - "level{level=30}"
+#   ingredients:
+#     - vanilla{type="mm mctown_orc_bone ~",amount=40}
+#     - vanilla{type="mm 青苔鹅卵石 ~",amount=48}
+#     - vanilla{type="mm mctown_orc_teeth ~",amount=56}
+#     - vanilla{type="mm 古老的金币 ~",amount=16}
+#     - vanilla{type="mm mctown_orc_fur ~",amount=64}
+# orc3:
+#   output:
+#     type: ARMOR
+#     id: ORC3
+#     amount: 1
+#   crafting-time: 600
+#   conditions:
+#     - "level{level=30}"
+#   ingredients:
+#     - vanilla{type="mm mctown_orc_bone ~",amount=32}
+#     - vanilla{type="mm 青苔鹅卵石 ~",amount=40}
+#     - vanilla{type="mm mctown_orc_teeth ~",amount=48}
+#     - vanilla{type="mm 古老的金币 ~",amount=16}
+#     - vanilla{type="mm mctown_orc_fur ~",amount=64}
+# orc4:
+#   output:
+#     type: ARMOR
+#     id: ORC4
+#     amount: 1
+#   crafting-time: 600
+#   conditions:
+#     - "level{level=30}"
+#   ingredients:
+#     - vanilla{type="mm mctown_orc_bone ~",amount=24}
+#     - vanilla{type="mm 青苔鹅卵石 ~",amount=24}
+#     - vanilla{type="mm mctown_orc_teeth ~",amount=32}
+#     - vanilla{type="mm 古老的金币 ~",amount=16}
+#     - vanilla{type="mm mctown_orc_fur ~",amount=64}
+
+# ############################  龙系列#############################################
+# dragon0:
+#   output:
+#     type: SWORD
+#     id: DRAGON0
+#     amount: 1
+#   crafting-time: 800
+#   conditions:
+#     - "level{level=50}"
+#   ingredients:
+#     - vanilla{type="mm 龙魂 ~",amount=64}
+#     - vanilla{type="mm 龙鳞 ~",amount=128}
+#     - vanilla{type="mm 断裂的鹿角 ~",amount=64}
+#     - vanilla{type="mm 地狱犬牙齿 ~",amount=128}
+#     - vanilla{type="mm 古老的金币 ~",amount=32}
+#     - vanilla{type="mm 奥克精华 ~",amount=3}
+# dragon1:
+#   output:
+#     type: ARMOR
+#     id: DRAGON1
+#     amount: 1
+#   crafting-time: 800
+#   conditions:
+#     - "level{level=50}"
+#   ingredients:
+#     - vanilla{type="mm 龙魂 ~",amount=32}
+#     - vanilla{type="mm 龙鳞 ~",amount=64}
+#     - vanilla{type="mm 断裂的鹿角 ~",amount=32}
+#     - vanilla{type="mm 地狱犬牙齿 ~",amount=64}
+#     - vanilla{type="mm 古老的金币 ~",amount=20}
+#     - vanilla{type="mm 奥克精华 ~",amount=2}
+# dragon2:
+#   output:
+#     type: ARMOR
+#     id: DRAGON2
+#     amount: 1
+#   crafting-time: 800
+#   conditions:
+#     - "level{level=50}"
+#   ingredients:
+#     - vanilla{type="mm 龙魂 ~",amount=32}
+#     - vanilla{type="mm 龙鳞 ~",amount=64}
+#     - vanilla{type="mm 断裂的鹿角 ~",amount=32}
+#     - vanilla{type="mm 地狱犬牙齿 ~",amount=64}
+#     - vanilla{type="mm 古老的金币 ~",amount=20}
+#     - vanilla{type="mm 奥克精华 ~",amount=2}
+# dragon3:
+#   output:
+#     type: ARMOR
+#     id: DRAGON3
+#     amount: 1
+#   crafting-time: 800
+#   conditions:
+#     - "level{level=50}"
+#   ingredients:
+#     - vanilla{type="mm 龙魂 ~",amount=32}
+#     - vanilla{type="mm 龙鳞 ~",amount=64}
+#     - vanilla{type="mm 断裂的鹿角 ~",amount=32}
+#     - vanilla{type="mm 地狱犬牙齿 ~",amount=64}
+#     - vanilla{type="mm 古老的金币 ~",amount=20}
+#     - vanilla{type="mm 奥克精华 ~",amount=2}
+# dragon4:
+#   output:
+#     type: ARMOR
+#     id: DRAGON4
+#     amount: 1
+#   crafting-time: 800
+#   conditions:
+#     - "level{level=50}"
+#   ingredients:
+#     - vanilla{type="mm 龙魂 ~",amount=32}
+#     - vanilla{type="mm 龙鳞 ~",amount=64}
+#     - vanilla{type="mm 断裂的鹿角 ~",amount=32}
+#     - vanilla{type="mm 地狱犬牙齿 ~",amount=64}
+#     - vanilla{type="mm 古老的金币 ~",amount=20}
+#     - vanilla{type="mm 奥克精华 ~",amount=2}

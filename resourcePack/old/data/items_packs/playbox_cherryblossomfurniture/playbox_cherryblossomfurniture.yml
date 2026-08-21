@@ -1,0 +1,244 @@
+info:
+    namespace: playbox_cherryblossomfurniture
+items:
+    cherryblossomfurniture_basket:
+        display_name: "Cherry Blossom Basket"
+        permission: playbox_cherryblossomfurniture.basket
+        resource:
+            material: PAPER
+            generate: false
+            model_path: basket
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_chair:
+        display_name: "Cherry Blossom Chair"
+        permission: cherryblossomfurniture.chair
+        resource:
+            material: PAPER
+            generate: false
+            model_path: chair
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_flowerpot:
+        display_name: "Cherry Blossom Flower Pot"
+        permission: cherryblossomfurniture.flowerpot
+        resource:
+            material: PAPER
+            generate: false
+            model_path: flowerpot
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_kotatsu:
+        display_name: "Cherry Blossom kotatsu"
+        permission: cherryblossomfurniture.kotatsu
+        resource:
+            material: PAPER
+            generate: false
+            model_path: kotatsu
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_lamp:
+        display_name: "Cherry Blossom Lamp"
+        permission: cherryblossomfurniture.lamp
+        resource:
+            material: PAPER
+            generate: false
+            model_path: lamp
+        behaviours:
+            furniture:
+                light_level: 13
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_leaves:
+        display_name: "Cherry Blossom Leaves"
+        permission: cherryblossomfurniture.leaves
+        resource:
+            material: PAPER
+            generate: false
+            model_path: leaves
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 0
+                    width: 0
+                    height: 0
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_pond:
+        display_name: "Cherry Blossom Pond"
+        permission: cherryblossomfurniture.pond
+        resource:
+            material: PAPER
+            generate: false
+            model_path: pond
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_roomdivider:
+        display_name: "Cherry Blossom Room Divider"
+        permission: cherryblossomfurniture.roomdivider
+        resource:
+            material: PAPER
+            generate: false
+            model_path: roomdivider
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_sofa:
+        display_name: "Cherry Blossom Sofa"
+        permission: cherryblossomfurniture.sofa
+        resource:
+            material: PAPER
+            generate: false
+            model_path: sofa
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false
+    cherryblossomfurniture_table:
+        display_name: "Cherry Blossom Table"
+        permission: cherryblossomfurniture.table
+        resource:
+            material: PAPER
+            generate: false
+            model_path: table
+        behaviours:
+            furniture:
+                solid: true
+                fixed_rotation: false
+                opposite_direction: true
+                entity: armor_stand
+                hitbox:
+                    length: 1
+                    width: 1
+                    height: 1
+                    length_offset: 0
+                    width_offset: 0
+                    height_offset: 0
+                placeable_on:
+                    floor: true
+                    ceiling: false
+                    walls: false              

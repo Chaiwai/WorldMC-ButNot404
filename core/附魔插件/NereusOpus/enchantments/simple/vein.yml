@@ -1,0 +1,31 @@
+basic:
+  id: vein
+  name: 脉络
+  enable: true
+  max-level: 6
+display:
+  description:
+    general: 在挖掘矿物时连锁破坏其周围的同种矿物
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- pickaxes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:drill
+- CONFLICT_ENCHANT:blast_mining
+variables:
+  ordinary:
+    disable-on-sneak: true
+    targets: deepslate_coal_ore,deepslate_iron_ore,deepslate_gold_ore,deepslate_diamond_ore,deepslate_emerald_ore,deepslate_redstone_ore,deepslate_lapis_ore,copper_ore,deepslate_copper_ore,coal_ore,iron_ore,gold_ore,ancient_debris,lapis_ore,diamond_ore,emerald_ore,redstone_ore,nether_quartz_ore,gilded_blackstone,nether_gold_ore,glowstone
+  leveled:
+    amount: :2*{level}

@@ -1,0 +1,145 @@
+#**ItemsAdder-configs-物品**
+#===========================
+info:
+  namespace: "trident" #[命名空间]**
+items: #[物品配置]**
+  # 长柄武器/矛类物品配置
+  trident_adamantite_glaive:
+    display_name: "adamantite_glaive"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: adamantite_glaive
+
+  trident_bone_javelin:
+    display_name: "bone_javelin"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: bone_javelin
+
+  trident_cobalt_naginata:
+    display_name: "cobalt_naginata"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: cobalt_naginata
+
+  trident_dark_lance:
+    display_name: "dark_lance"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: dark_lance
+
+  trident_daybreak:
+    display_name: "daybreak"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: daybreak
+
+  trident_ghastly_glaive:
+    display_name: "ghastly_glaive"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: ghastly_glaive
+
+  trident_gungnir:
+    display_name: "gungnir"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: gungnir
+
+  trident_inferno_fork:
+    display_name: "inferno_fork"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: inferno_fork
+
+  trident_javelin:
+    display_name: "javelin"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: javelin
+
+  trident_mushroom_spear:
+    display_name: "mushroom_spear"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: mushroom_spear
+
+  trident_mythril_halberd:
+    display_name: "mythril_halberd"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: mythril_halberd
+
+  trident_north_pole:
+    display_name: "north_pole"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: north_pole
+
+  trident_orichalcum_halberd:
+    display_name: "orichalcum_halberd"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: orichalcum_halberd
+
+  trident_palladium_pike:
+    display_name: "palladium_pike"
+    resource:
+      material: diamond_sword
+      generate: extreme
+      model_path: palladium_pike
+
+  trident_scourge_of_the_corruptor:
+    display_name: "scourge_of_the_corruptor"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: scourge_of_the_corruptor
+
+  trident_spear:
+    display_name: "spear"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: spear
+
+  trident_the_rotted_fork:
+    display_name: "the_rotted_fork"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: the_rotted_fork
+
+  trident_titanium_trident:
+    display_name: "titanium_trident"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: titanium_trident
+
+  trident_tonbogiri:
+    display_name: "tonbogiri"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: tonbogiri
+
+  trident_trident1:
+    display_name: "trident1"
+    resource:
+      material: diamond_sword
+      generate: false
+      model_path: trident1

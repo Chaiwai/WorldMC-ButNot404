@@ -1,0 +1,27 @@
+basic:
+  id: launch
+  name: 能源
+  enable: false
+  max-level: 4
+display:
+  description:
+    general: 在使用烟花火箭加速时获得的加速度提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- elytra
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:kinetic
+variables:
+  leveled:
+    velocity: :1+0.15*{level}

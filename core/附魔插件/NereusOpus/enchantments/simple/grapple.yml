@@ -1,0 +1,30 @@
+basic:
+  id: grapple
+  name: 迫近
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 在攻击时将对手拉近
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- swords
+- axes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:knockback
+- CONFLICT_ENCHANT:tornado
+- CONFLICT_ENCHANT:annihilate
+variables:
+  leveled:
+    velocity: :0.5*{level}

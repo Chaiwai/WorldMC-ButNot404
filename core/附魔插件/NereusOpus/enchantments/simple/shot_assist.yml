@@ -1,0 +1,29 @@
+basic:
+  id: shot_assist
+  name: 圆舞曲
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 射出的箭矢造成的伤害更高（护甲附魔）
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    damage-multiplier: :1+0.015*{level}

@@ -1,0 +1,31 @@
+basic:
+  id: calling_curse
+  name: 仇恶诅咒
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 使装备被穿戴时会激怒周围的怪物
+alternative:
+  grindstoneable: false
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+  is-cursed: true
+rarity: 诅咒
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  ordinary:
+    repeat-ticks: 100
+    range: 20

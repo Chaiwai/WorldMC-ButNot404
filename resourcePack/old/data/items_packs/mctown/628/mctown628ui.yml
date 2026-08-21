@@ -1,0 +1,8 @@
+info:
+  namespace: "mctown"
+font_images:
+
+  mctownpatron:
+    path: "628/mctownpatron.png"
+    suggest_in_command: false
+    y_position: 15

@@ -1,0 +1,28 @@
+basic:
+  id: infernal_touch
+  name: 地狱之触
+  enable: true
+  max-level: 1
+display:
+  description:
+    general: 自动烧炼挖掘掉落的矿物
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 传奇
+targets:
+- pickaxes
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations:
+- CONFLICT_ENCHANT:silk_touch
+- CONFLICT_ENCHANT:stone_switcher
+variables:
+  ordinary:
+    drop-xp: true

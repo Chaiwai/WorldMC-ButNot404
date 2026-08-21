@@ -1,0 +1,32 @@
+basic:
+  id: dejecting
+  name: 黯然
+  enable: true
+  max-level: 5
+display:
+  description:
+    general: 使得周围的生物获得缓慢II，盔甲会自动扣除耐久
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    range: :5+{level}*0.5
+    duration: :100+20*{level}
+  ordinary:
+    amplifier: 2

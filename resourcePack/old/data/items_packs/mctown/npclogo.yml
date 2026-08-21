@@ -1,0 +1,40 @@
+info:
+  namespace: "mctown"
+font_images:
+  npc_logo_1:
+    path: "icon/npc/npc_logo_1.png"
+    suggest_in_command: false
+    symbol: "䩷"
+    scale_ratio: 10
+    y_position: 8
+  npc_logo_2:
+    path: "icon/npc/npc_logo_2.png"
+    suggest_in_command: false
+    symbol: "䩸"
+    scale_ratio: 11
+    y_position: 9
+  npc_logo_3:
+    path: "icon/npc/npc_logo_3.png"
+    suggest_in_command: false
+    symbol: "㙶"
+    y_position: 9
+  npc_logo_4:
+    path: "icon/npc/npc_logo_4.png"
+    suggest_in_command: false
+    symbol: "㙷"
+    y_position: 9
+  npc_logo_5:
+    path: "icon/npc/npc_logo_5.png"
+    suggest_in_command: false
+    symbol: "㙸"
+    y_position: 9
+  npc_logo_6:
+    path: "icon/npc/npc_logo_6.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9
+  npc_logo_7:
+    path: "icon/npc/npc_logo_7.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 9

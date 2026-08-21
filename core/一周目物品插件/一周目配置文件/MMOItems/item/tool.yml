@@ -1,0 +1,173 @@
+蓝翔:
+  base:
+    material: DIAMOND_PICKAXE
+    name: '&x&4&4&7&4&f&5&l蓝&x&3&8&6&9&e&e&l翔&x&2&c&5&e&e&7&l挖&x&1&f&5&3&e&0&l掘&x&1&3&4&8&d&9&l机'
+    displayed-type: \n\n           &7蓝翔出品必属精品\n&7
+    enchants:
+      efficiency: 5.0
+      unbreaking: 3.0
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+超级蓝翔:
+  base:
+    material: NETHERITE_PICKAXE
+    name: '&x&d&7&f&5&2&e&l至&x&d&9&f&2&2&5&l臻 &f&l· &x&4&4&7&4&f&5&l蓝&x&3&8&6&9&e&e&l翔&x&2&c&5&e&e&7&l挖&x&1&f&5&3&e&0&l掘&x&1&3&4&8&d&9&l机'
+    displayed-type: \n\n           &7蓝翔出品必属精品\n           &7使用时附带粒子特效\n&7
+    enchants:
+      efficiency: 10.0
+      unbreaking: 10.0
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+HELLFIRE_PICKAXE:
+  base:
+    material: DIAMOND_PICKAXE
+    custom-model-data: 10002.0
+    name: '&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a镐'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 大肆破坏...吞噬这个世界!就用来自那\n&f &f &f 地狱深处的恶火!摧残!征服!结束这一切吧...
+HELLFIRE_AXE:
+  base:
+    material: DIAMOND_AXE
+    custom-model-data: 10002.0
+    name: '&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a斧'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 砍...砍...砍吧!没有一颗树能逃过一劫!\n&f &f &f 让所有的树木接受恶的洗礼吧!燃尽吧!
+HELLFIRE_HOE:
+  base:
+    material: DIAMOND_HOE
+    custom-model-data: 10002.0
+    name: '&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a锄'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 将来自地狱的恶魔之种...播撒在大地\n&f &f &f 之中吧!噩梦!将会侵袭这个世界...
+HELLFIRE_SHOVEL:
+  base:
+    material: DIAMOND_SHOVEL
+    custom-model-data: 10002.0
+    name: '&x&a&0&0&0&0&0狱&x&a&3&0&0&3&9火&x&a&7&0&0&7&1魔&x&a&a&0&0&a&a锹'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 它所铲下的每一个深坑...都是通往地\n&f &f &f 狱的捷径!也是一个个活墓地!
+SLIME_SHOVEL:
+  base:
+    material: DIAMOND_SHOVEL
+    custom-model-data: 10003.0
+    name: '&2&L史莱姆铲子'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 是的,一把由史莱姆构成的铲!黏糊糊~\n&f
+    enchants:
+      efficiency: 7.0
+      unbreaking: 10.0
+    max-durability: 500.0
+    will-break: true
+    movement-speed:
+      base: 0.003
+      spread: 0.1
+      max-spread: 0.1
+    fall-damage-reduction:
+      base: 5.0
+      spread: 0.5
+      max-spread: 0.5
+SLIME_PICKAXE:
+  base:
+    material: DIAMOND_PICKAXE
+    custom-model-data: 10003.0
+    name: '&2&L史莱姆镐子'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 是的,一柄由史莱姆构成的镐!黏糊糊~\n&f
+    enchants:
+      efficiency: 7.0
+    will-break: true
+    movement-speed: 0.03
+    fall-damage-reduction: 100.0
+    unbreakable: true
+SLIME_AXE:
+  base:
+    material: DIAMOND_AXE
+    custom-model-data: 10003.0
+    name: '&2&L史莱姆斧子'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 是的,一柄由史莱姆构成的斧!黏糊糊~\n&f
+    enchants:
+      efficiency: 7.0
+      unbreaking: 10.0
+    max-durability: 500.0
+    will-break: true
+    movement-speed:
+      base: 0.003
+      spread: 0.1
+      max-spread: 0.1
+    fall-damage-reduction:
+      base: 5.0
+      spread: 0.5
+      max-spread: 0.5
+    attack-damage: 8.0
+SLIME_HOE:
+  base:
+    material: DIAMOND_HOE
+    custom-model-data: 10003.0
+    name: '&2&L史莱姆锄头'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &0.&c⸎ 可分解 ⸎\n&f
+      &f &f &f &f 是的,一杆由史莱姆构成的锄!黏糊糊~\n&f
+    enchants:
+      fortune: 5.0
+      unbreaking: 10.0
+    max-durability: 500.0
+    will-break: true
+    movement-speed:
+      base: 0.003
+      spread: 0.1
+      max-spread: 0.1
+    fall-damage-reduction:
+      base: 5.0
+      spread: 0.5
+      max-spread: 0.5
+SUPERME_PICKAXE:
+  base:
+    material: DIAMOND_PICKAXE
+    # custom-model-data: 10003.0
+    name: '&3矿工之镐'
+    displayed-type: \n&f &f &f &f &f &f &f &f &f 㶐 &7+ &f㵗 &f可以将镐子上的附魔\n&f &f &f &f&f
+      在 &b精准采集 &f与 &b时运IV &f之间来回切换\n&f &f &f &f &f &f &f &f &f &f并且持有时获得 &e急迫I &f效果
+      \n&f
+    max-durability: 3000.0
+    will-break: true
+    perm-effects:
+      FAST_DIGGING: 1.0
+    custom-model-data: 1.0
+SUPERME_ROD:
+  base:
+    material: FISHING_ROD
+    # custom-model-data: 10003.0
+    name: '&b至臻钓竿'
+    displayed-type: \n&f &f &f &f &f &f &f 使用这把神奇的鱼竿能在上钩时\n&f &f &f &f 有概率获得 &b至臻点
+      &b㝹 &f但每天获得的\n&f &f &f &f 数量有一定的上限\n&f
+    max-durability: 3000.0
+    will-break: true
+HEALBOOK:
+  base:
+    material: BOOK
+    ability:
+      ability1:
+        type: GRAND_HEAL
+        mode: RIGHT_CLICK
+        heal: 10.0
+    name: '&d&l爱情宝典'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    hide-enchants: true
+    enchants:
+      unbreaking: 10.0
+'1':
+  base:
+    material: FISHING_ROD
+    enchants:
+      reel: 30.0
+      tornado: 30.0
+      annihilate: 30.0
+      hook: 30.0
+      grapple: 30.0

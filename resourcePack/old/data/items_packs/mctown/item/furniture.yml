@@ -1,0 +1,2484 @@
+info:
+  namespace: mctown
+categories:
+  mctownfurniture_cscs:
+    enabled: true
+    icon: "mctown:mctown_blacksmith_anvil"
+    name: "装饰品"
+    permission: "ia.menu.mctown"
+    font_image:
+      name: "z_iainternal:blank_menu"
+      x_position_pixels: -16
+    title_position_pixels: 0
+    items:
+      - mctown:mctown_chicken
+      - mctown:mctown_blacksmith_anvil
+      - mctown:mctown_blacksmith_carpet
+      - mctown:mctown_blacksmith_chair_double
+      - mctown:mctown_blacksmith_chair_single
+      - mctown:mctown_blacksmith_cupboard
+      - mctown:mctown_blacksmith_flag_red_white
+      - mctown:mctown_blacksmith_flag_red_white_hang
+      - mctown:mctown_blacksmith_furnace
+      - mctown:mctown_blacksmith_grindstone
+      - mctown:mctown_blacksmith_shopsign
+      - mctown:mctown_blacksmith_table_big
+      - mctown:mctown_blacksmith_table_mini
+      - mctown:mctown_blacksmith_toolrack
+      - mctown:mctown_blacksmith_weaponshelf
+      - mctown:mctown_blacksmith_sign1
+      - mctown:mctown_blacksmith_sign2
+      - mctown:mctown_book_stack_1
+      - mctown:mctown_book_stack_2
+      - mctown:mctown_book_stack_3
+      - mctown:mctown_spell_book
+      - mctown:mctown_bookshelf1
+      - mctown:mctown_bookshelf2
+      - mctown:mctown_brick_fireplace
+      - mctown:mctown_enchant_sign1
+      - mctown:mctown_enchant_sign2
+      - mctown:mctown_cook_bar
+      - mctown:mctown_cook_bar_table
+      - mctown:mctown_cook_bed
+      - mctown:mctown_cook_carpet
+      - mctown:mctown_cook_chair_one
+      - mctown:mctown_cook_chair_two
+      - mctown:mctown_cook_drink
+      - mctown:mctown_cook_food_bigmeat
+      - mctown:mctown_cook_food_eggbeacon
+      - mctown:mctown_cook_food_halffish
+      - mctown:mctown_cook_food_squidsashimi
+      - mctown:mctown_cook_food_squidsashimi_big
+      - mctown:mctown_cook_food_steak
+      - mctown:mctown_cook_grill_meat
+      - mctown:mctown_cook_sign
+      - mctown:mctown_cook_sign_flag
+      - mctown:mctown_cook_sign_top
+      - mctown:mctown_cook_table
+      - mctown:mctown_cook_table_big
+      - mctown:mctown_cook_table_cart
+      - mctown:mctown_cook_table_soup
+      - mctown:mctown_cook_table_soup_big
+      - mctown:mctown_blacksmith_tinkerer
+      - mctown:toffy_crate_cinder
+      - mctown:toffy_crate_viking
+      - mctown:toffy_crate_paladin
+      - mctown:toffy_key_cinder
+      - mctown:toffy_key_viking
+      - mctown:toffy_key_paladin
+      - mctown:mctown_dresser
+      - mctown:mctown_hanging_rack_green_purple
+      - mctown:mctown_hanging_rack_red_blue
+      - mctown:mctown_hanging_rack_tint
+      - mctown:mctown_mannequin
+      - mctown:mctown_mannequin_cheer
+      - mctown:mctown_mannequin_walking
+      - mctown:mctown_mirror_standing
+      - mctown:mctown_mirror_wall
+      - mctown:mctown_scissors
+      - mctown:mctown_shirt_blue
+      - mctown:mctown_shirt_green
+      - mctown:mctown_shirt_red
+      - mctown:mctown_shirt_tint
+      - mctown:mctown_sock_pile_blue
+      - mctown:mctown_sock_pile_green
+      - mctown:mctown_sock_pile_red
+      - mctown:mctown_thread_blue
+      - mctown:mctown_thread_purple
+      - mctown:mctown_thread_red
+      - mctown:mctown_thread_tint
+      - mctown:mctown_wardrobe
+      - mctown:mctown_curtains_2x_left_blue
+      - mctown:mctown_curtains_2x_left_green
+      - mctown:mctown_curtains_2x_left_red
+      - mctown:mctown_curtains_2x_left_tint
+      - mctown:mctown_curtains_2x_middle_blue
+      - mctown:mctown_curtains_2x_middle_green
+      - mctown:mctown_curtains_2x_middle_red
+      - mctown:mctown_curtains_2x_middle_tint
+      - mctown:mctown_curtains_2x_right_blue
+      - mctown:mctown_curtains_2x_right_green
+      - mctown:mctown_curtains_2x_right_red
+      - mctown:mctown_curtains_2x_right_tint
+      - mctown:mctown_curtains_2x_rod
+      - mctown:mctown_curtains_3x_left_blue
+      - mctown:mctown_curtains_3x_left_green
+      - mctown:mctown_curtains_3x_left_red
+      - mctown:mctown_curtains_3x_left_tint
+      - mctown:mctown_curtains_3x_middle_blue
+      - mctown:mctown_curtains_3x_middle_green
+      - mctown:mctown_curtains_3x_middle_red
+      - mctown:mctown_curtains_3x_middle_tint
+      - mctown:mctown_curtains_3x_right_blue
+      - mctown:mctown_curtains_3x_right_green
+      - mctown:mctown_curtains_3x_right_red
+      - mctown:mctown_curtains_3x_right_tint
+      - mctown:mctown_curtains_3x_rod
+      - mctown:mctown_cushion_bench_blue
+      - mctown:mctown_cushion_bench_green
+      - mctown:mctown_cushion_bench_red
+      - mctown:mctown_cushion_bench_tint
+      - mctown:mctown_cushion_chair_blue
+      - mctown:mctown_cushion_chair_green
+      - mctown:mctown_cushion_chair_red
+      - mctown:mctown_cushion_chair_tint
+      - mctown:mctown_cushion_stool_blue
+      - mctown:mctown_cushion_stool_green
+      - mctown:mctown_cushion_stool_red
+      - mctown:mctown_cushion_stool_tint
+      - mctown:mctown_cushion_stool_wide_blue
+      - mctown:mctown_cushion_stool_wide_green
+      - mctown:mctown_cushion_stool_wide_red
+      - mctown:mctown_cushion_stool_wide_tint
+items:
+  mctown_chicken:
+    display_name: "&x&f&b&c&8&6&4i&x&f&b&d&1&6&2K&x&f&c&d&a&6&0u&x&f&c&e&4&5&dn&x&f&d&e&d&5&b手&x&f&d&f&6&5&9办"
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_chicken
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_anvil:
+    display_name: "超级锻造台"
+    permission: mctown.furniture.mctown_blacksmith_anvil
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_anvil
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+    events:
+      placed_armorstand:
+        interact:
+          execute_commands:
+            the_first_command:
+              command: superworkbench
+              as_console: false
+  mctown_blacksmith_carpet:
+    display_name: "mctown_blacksmith_carpet"
+    permission: mctown.furniture.mctown_blacksmith_carpet
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_carpet
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_chair_double:
+    display_name: "mctown_blacksmith_chair_double"
+    permission: mctown.furniture.mctown_blacksmith_chair_double
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_chair_double
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_chair_single:
+    display_name: "mctown_blacksmith_chair_single"
+    permission: mctown.furniture.mctown_blacksmith_chair_single
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_chair_single
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_cupboard:
+    display_name: "mctown_blacksmith_cupboard"
+    permission: mctown.furniture.mctown_blacksmith_cupboard
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_cupboard
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_flag_red_white:
+    display_name: "mctown_blacksmith_flag_red_white"
+    permission: mctown.furniture.mctown_blacksmith_flag_red_white
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_flag_red_white
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_flag_red_white_hang:
+    display_name: "mctown_blacksmith_flag_red_white_hang"
+    permission: mctown.furniture.mctown_blacksmith_flag_red_white_hang
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_flag_red_white_hang
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_furnace:
+    display_name: "mctown_blacksmith_furnace"
+    permission: mctown.furniture.mctown_blacksmith_furnace
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_furnace
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_grindstone:
+    display_name: "mctown_blacksmith_grindstone"
+    permission: mctown.furniture.mctown_blacksmith_grindstone
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_grindstone
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_shopsign:
+    display_name: "mctown_blacksmith_shopsign"
+    permission: mctown.furniture.mctown_blacksmith_shopsign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_shopsign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_table_big:
+    display_name: "mctown_blacksmith_table_big"
+    permission: mctown.furniture.mctown_blacksmith_table_big
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_table_big
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_table_mini:
+    display_name: "mctown_blacksmith_table_mini"
+    permission: mctown.furniture.mctown_blacksmith_table_mini
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_table_mini
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_toolrack:
+    display_name: "mctown_blacksmith_toolrack"
+    permission: mctown.furniture.mctown_blacksmith_toolrack
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_toolrack
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_weaponshelf:
+    display_name: "mctown_blacksmith_weaponshelf"
+    permission: mctown.furniture.mctown_blacksmith_weaponshelf
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_weaponshelf
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_sign1:
+    display_name: "mctown_blacksmith_sign1"
+    permission: mctown.furniture.mctown_blacksmith_sign1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_sign1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_sign2:
+    display_name: "mctown_blacksmith_sign2"
+    permission: mctown.furniture.mctown_blacksmith_sign2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_sign2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_book_stack_1:
+    display_name: "mctown_book_stack_1"
+    permission: mctown.furniture.mctown_book_stack_1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_book_stack_1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_book_stack_2:
+    display_name: "mctown_book_stack_2"
+    permission: mctown.furniture.mctown_book_stack_2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_book_stack_2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_book_stack_3:
+    display_name: "mctown_book_stack_3"
+    permission: mctown.furniture.mctown_book_stack_3
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_book_stack_3
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_spell_book:
+    display_name: "mctown_spell_book"
+    permission: mctown.furniture.mctown_spell_book
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_spell_book
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_bookshelf1:
+    display_name: "mctown_bookshelf1"
+    permission: mctown.furniture.mctown_bookshelf1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_bookshelf1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_bookshelf2:
+    display_name: "mctown_bookshelf2"
+    permission: mctown.furniture.mctown_bookshelf2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_bookshelf2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_brick_fireplace:
+    display_name: "mctown_brick_fireplace"
+    permission: mctown.furniture.mctown_brick_fireplace
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_brick_fireplace
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_enchant_sign1:
+    display_name: "mctown_enchant_sign1"
+    permission: mctown.furniture.mctown_enchant_sign1
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_enchant_sign1
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_enchant_sign2:
+    display_name: "mctown_enchant_sign2"
+    permission: mctown.furniture.mctown_enchant_sign2
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_enchant_sign2
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+            #2222
+  mctown_cook_bar:
+    display_name: "mctown_cook_bar"
+    permission: mctown.furniture.mctown_cook_bar
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_bar
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_bar_table:
+    display_name: "mctown_cook_bar_table"
+    permission: mctown.furniture.mctown_cook_bar_table
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_bar_table
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_bed:
+    display_name: "mctown_cook_bed"
+    permission: mctown.furniture.mctown_cook_bed
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_bed
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_carpet:
+    display_name: "mctown_cook_carpet"
+    permission: mctown.furniture.mctown_cook_carpet
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_carpet
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_chair_one:
+    display_name: "mctown_cook_chair_one"
+    permission: mctown.furniture.mctown_cook_chair_one
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_chair_one
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_chair_two:
+    display_name: "mctown_cook_chair_two"
+    permission: mctown.furniture.mctown_cook_chair_two
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_chair_two
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_drink:
+    display_name: "mctown_cook_drink"
+    permission: mctown.furniture.mctown_cook_drink
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_drink
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_food_bigmeat:
+    display_name: "mctown_cook_food_bigmeat"
+    permission: mctown.furniture.mctown_cook_food_bigmeat
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_food_bigmeat
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_food_eggbeacon:
+    display_name: "mctown_cook_food_eggbeacon"
+    permission: mctown.furniture.mctown_cook_food_eggbeacon
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_food_eggbeacon
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_food_halffish:
+    display_name: "mctown_cook_food_halffish"
+    permission: mctown.furniture.mctown_cook_food_halffish
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_food_halffish
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_food_squidsashimi:
+    display_name: "mctown_cook_food_squidsashimi"
+    permission: mctown.furniture.mctown_cook_food_squidsashimi
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_food_squidsashimi
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_food_squidsashimi_big:
+    display_name: "mctown_cook_food_squidsashimi_big"
+    permission: mctown.furniture.mctown_cook_food_squidsashimi_big
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_food_squidsashimi_big
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_food_steak:
+    display_name: "mctown_cook_food_steak"
+    permission: mctown.furniture.mctown_cook_food_steak
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_food_steak
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_grill_meat:
+    display_name: "mctown_cook_grill_meat"
+    permission: mctown.furniture.mctown_cook_grill_meat
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_grill_meat
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_sign:
+    display_name: "mctown_cook_sign"
+    permission: mctown.furniture.mctown_cook_sign
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_sign
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_sign_flag:
+    display_name: "mctown_cook_sign_flag"
+    permission: mctown.furniture.mctown_cook_sign_flag
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_sign_flag
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_sign_top:
+    display_name: "mctown_cook_sign_top"
+    permission: mctown.furniture.mctown_cook_sign_top
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_sign_top
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_table:
+    display_name: "mctown_cook_table"
+    permission: mctown.furniture.mctown_cook_table
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_table
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_table_big:
+    display_name: "mctown_cook_table_big"
+    permission: mctown.furniture.mctown_cook_table_big
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_table_big
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_table_cart:
+    display_name: "mctown_cook_table_cart"
+    permission: mctown.furniture.mctown_cook_table_cart
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_table_cart
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_table_soup:
+    display_name: "mctown_cook_table_soup"
+    permission: mctown.furniture.mctown_cook_table_soup
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_table_soup
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cook_table_soup_big:
+    display_name: "mctown_cook_table_soup_big"
+    permission: mctown.furniture.mctown_cook_table_soup_big
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cook_table_soup_big
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_blacksmith_tinkerer:
+    display_name: "mctown_blacksmith_tinkerer"
+    permission: mctown.furniture.mctown_blacksmith_tinkerer
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_blacksmith_tinkerer
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  toffy_crate_cinder:
+    display_name: "toffy_crate_cinder"
+    permission: mctown.furniture.toffy_crate_cinder
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/toffy_crate_cinder
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  toffy_crate_viking:
+    display_name: "toffy_crate_viking"
+    permission: mctown.furniture.toffy_crate_viking
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/toffy_crate_viking
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  toffy_crate_paladin:
+    display_name: "toffy_crate_paladin"
+    permission: mctown.furniture.toffy_crate_paladin
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/toffy_crate_paladin
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  toffy_key_cinder:
+    display_name: "toffy_key_cinder"
+    permission: mctown.furniture.toffy_key_cinder
+    resource:
+      material: paper
+      generate: false
+      model_path: block/item/furniture/toffy_key_cinder
+  toffy_key_viking:
+    display_name: "toffy_key_viking"
+    permission: mctown.furniture.toffy_key_viking
+    resource:
+      material: paper
+      generate: false
+      model_path: block/item/furniture/toffy_key_viking
+  toffy_key_paladin:
+    display_name: "toffy_key_paladin"
+    permission: mctown.furniture.toffy_key_paladin
+    resource:
+      material: paper
+      generate: false
+      model_path: block/item/furniture/toffy_key_paladin
+  mctown_dresser:
+    display_name: "mctown_dresser"
+    permission: mctown.furniture.mctown_dresser
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_dresser
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  mctown_hanging_rack_green_purple:
+    display_name: "mctown_hanging_rack_green_purple"
+    permission: mctown.furniture.mctown_hanging_rack_green_purple
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_hanging_rack_green_purple
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  mctown_hanging_rack_red_blue:
+    display_name: "mctown_hanging_rack_red_blue"
+    permission: mctown.furniture.mctown_hanging_rack_red_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_hanging_rack_red_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  mctown_hanging_rack_tint:
+    display_name: "mctown_hanging_rack_tint"
+    permission: mctown.furniture.mctown_hanging_rack_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_hanging_rack_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  mctown_mannequin:
+    display_name: "mctown_mannequin"
+    permission: mctown.furniture.mctown_mannequin
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_mannequin
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  mctown_mannequin_cheer:
+    display_name: "mctown_mannequin_cheer"
+    permission: mctown.furniture.mctown_mannequin_cheer
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_mannequin_cheer
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  mctown_mannequin_walking:
+    display_name: "mctown_mannequin_walking"
+    permission: mctown.furniture.mctown_mannequin_walking
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_mannequin_walking
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_mirror_standing:
+    display_name: "mctown_mirror_standing"
+    permission: mctown.furniture.mctown_mirror_standing
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_mirror_standing
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_mirror_wall:
+    display_name: "mctown_mirror_wall"
+    permission: mctown.furniture.mctown_mirror_wall
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_mirror_wall
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_scissors:
+    display_name: "mctown_scissors"
+    permission: mctown.furniture.mctown_scissors
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_scissors
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_shirt_blue:
+    display_name: "mctown_shirt_blue"
+    permission: mctown.furniture.mctown_shirt_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_shirt_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_shirt_green:
+    display_name: "mctown_shirt_green"
+    permission: mctown.furniture.mctown_shirt_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_shirt_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_shirt_red:
+    display_name: "mctown_shirt_red"
+    permission: mctown.furniture.mctown_shirt_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_shirt_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_shirt_tint:
+    display_name: "mctown_shirt_tint"
+    permission: mctown.furniture.mctown_shirt_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_shirt_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_sock_pile_blue:
+    display_name: "mctown_sock_pile_blue"
+    permission: mctown.furniture.mctown_sock_pile_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_sock_pile_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_sock_pile_green:
+    display_name: "mctown_sock_pile_green"
+    permission: mctown.furniture.mctown_sock_pile_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_sock_pile_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_sock_pile_red:
+    display_name: "mctown_sock_pile_red"
+    permission: mctown.furniture.mctown_sock_pile_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_sock_pile_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_thread_blue:
+    display_name: "mctown_thread_blue"
+    permission: mctown.furniture.mctown_thread_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_thread_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_thread_purple:
+    display_name: "mctown_thread_purple"
+    permission: mctown.furniture.mctown_thread_purple
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_thread_purple
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_thread_red:
+    display_name: "mctown_thread_red"
+    permission: mctown.furniture.mctown_thread_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_thread_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_thread_tint:
+    display_name: "mctown_thread_tint"
+    permission: mctown.furniture.mctown_thread_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_thread_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_wardrobe:
+    display_name: "mctown_wardrobe"
+    permission: mctown.furniture.mctown_wardrobe
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_wardrobe
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  #分类
+  mctown_curtains_2x_left_blue:
+    display_name: "mctown_curtains_2x_left_blue"
+    permission: mctown.furniture.mctown_curtains_2x_left_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_left_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_left_green:
+    display_name: "mctown_curtains_2x_left_green"
+    permission: mctown.furniture.mctown_curtains_2x_left_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_left_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_left_red:
+    display_name: "mctown_curtains_2x_left_red"
+    permission: mctown.furniture.mctown_curtains_2x_left_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_left_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_left_tint:
+    display_name: "mctown_curtains_2x_left_tint"
+    permission: mctown.furniture.mctown_curtains_2x_left_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_left_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_middle_blue:
+    display_name: "mctown_curtains_2x_middle_blue"
+    permission: mctown.furniture.mctown_curtains_2x_middle_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_middle_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_middle_green:
+    display_name: "mctown_curtains_2x_middle_green"
+    permission: mctown.furniture.mctown_curtains_2x_middle_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_middle_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_middle_red:
+    display_name: "mctown_curtains_2x_middle_red"
+    permission: mctown.furniture.mctown_curtains_2x_middle_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_middle_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_middle_tint:
+    display_name: "mctown_curtains_2x_middle_tint"
+    permission: mctown.furniture.mctown_curtains_2x_middle_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_middle_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_right_blue:
+    display_name: "mctown_curtains_2x_right_blue"
+    permission: mctown.furniture.mctown_curtains_2x_right_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_right_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_right_green:
+    display_name: "mctown_curtains_2x_right_green"
+    permission: mctown.furniture.mctown_curtains_2x_right_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_right_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_right_red:
+    display_name: "mctown_curtains_2x_right_red"
+    permission: mctown.furniture.mctown_curtains_2x_right_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_right_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_right_tint:
+    display_name: "mctown_curtains_2x_right_tint"
+    permission: mctown.furniture.mctown_curtains_2x_right_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_right_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_2x_rod:
+    display_name: "mctown_curtains_2x_rod"
+    permission: mctown.furniture.mctown_curtains_2x_rod
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_2x_rod
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_left_blue:
+    display_name: "mctown_curtains_3x_left_blue"
+    permission: mctown.furniture.mctown_curtains_3x_left_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_left_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_left_green:
+    display_name: "mctown_curtains_3x_left_green"
+    permission: mctown.furniture.mctown_curtains_3x_left_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_left_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_left_red:
+    display_name: "mctown_curtains_3x_left_red"
+    permission: mctown.furniture.mctown_curtains_3x_left_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_left_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_left_tint:
+    display_name: "mctown_curtains_3x_left_tint"
+    permission: mctown.furniture.mctown_curtains_3x_left_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_left_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_middle_blue:
+    display_name: "mctown_curtains_3x_middle_blue"
+    permission: mctown.furniture.mctown_curtains_3x_middle_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_middle_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_middle_green:
+    display_name: "mctown_curtains_3x_middle_green"
+    permission: mctown.furniture.mctown_curtains_3x_middle_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_middle_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_middle_red:
+    display_name: "mctown_curtains_3x_middle_red"
+    permission: mctown.furniture.mctown_curtains_3x_middle_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_middle_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_middle_tint:
+    display_name: "mctown_curtains_3x_middle_tint"
+    permission: mctown.furniture.mctown_curtains_3x_middle_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_middle_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_right_blue:
+    display_name: "mctown_curtains_3x_right_blue"
+    permission: mctown.furniture.mctown_curtains_3x_right_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_right_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_right_green:
+    display_name: "mctown_curtains_3x_right_green"
+    permission: mctown.furniture.mctown_curtains_3x_right_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_right_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_right_red:
+    display_name: "mctown_curtains_3x_right_red"
+    permission: mctown.furniture.mctown_curtains_3x_right_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_right_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_right_tint:
+    display_name: "mctown_curtains_3x_right_tint"
+    permission: mctown.furniture.mctown_curtains_3x_right_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_right_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_curtains_3x_rod:
+    display_name: "mctown_curtains_3x_rod"
+    permission: mctown.furniture.mctown_curtains_3x_rod
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_curtains_3x_rod
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  #分类
+  mctown_cushion_bench_blue:
+    display_name: "mctown_cushion_bench_blue"
+    permission: mctown.furniture.mctown_cushion_bench_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_bench_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_bench_green:
+    display_name: "mctown_cushion_bench_green"
+    permission: mctown.furniture.mctown_cushion_bench_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_bench_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_bench_red:
+    display_name: "mctown_cushion_bench_red"
+    permission: mctown.furniture.mctown_cushion_bench_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_bench_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_bench_tint:
+    display_name: "mctown_cushion_bench_tint"
+    permission: mctown.furniture.mctown_cushion_bench_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_bench_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+
+  mctown_cushion_chair_blue:
+    display_name: "mctown_cushion_chair_blue"
+    permission: mctown.furniture.mctown_cushion_chair_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_chair_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_chair_green:
+    display_name: "mctown_cushion_chair_green"
+    permission: mctown.furniture.mctown_cushion_chair_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_chair_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_chair_red:
+    display_name: "mctown_cushion_chair_red"
+    permission: mctown.furniture.mctown_cushion_chair_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_chair_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_chair_tint:
+    display_name: "mctown_cushion_chair_tint"
+    permission: mctown.furniture.mctown_cushion_chair_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_chair_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_blue:
+    display_name: "mctown_cushion_stool_blue"
+    permission: mctown.furniture.mctown_cushion_stool_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_green:
+    display_name: "mctown_cushion_stool_green"
+    permission: mctown.furniture.mctown_cushion_stool_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_red:
+    display_name: "mctown_cushion_stool_red"
+    permission: mctown.furniture.mctown_cushion_stool_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_tint:
+    display_name: "mctown_cushion_stool_tint"
+    permission: mctown.furniture.mctown_cushion_stool_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_tint
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_wide_blue:
+    display_name: "mctown_cushion_stool_wide_blue"
+    permission: mctown.furniture.mctown_cushion_stool_wide_blue
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_wide_blue
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_wide_green:
+    display_name: "mctown_cushion_stool_wide_green"
+    permission: mctown.furniture.mctown_cushion_stool_wide_green
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_wide_green
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_wide_red:
+    display_name: "mctown_cushion_stool_wide_red"
+    permission: mctown.furniture.mctown_cushion_stool_wide_red
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_wide_red
+    behaviours:
+      furniture:
+        solid: true
+        small: false
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        sound:
+          place:
+            name: block.metal.fall
+          break:
+            name: block.metal.break
+  mctown_cushion_stool_wide_tint:
+    display_name: "mctown_cushion_stool_wide_tint"
+    permission: mctown.furniture.mctown_cushion_stool_wide_tint
+    resource:
+      material: item_frame
+      generate: false
+      model_path: block/item/furniture/mctown_cushion_stool_wide_tint
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame

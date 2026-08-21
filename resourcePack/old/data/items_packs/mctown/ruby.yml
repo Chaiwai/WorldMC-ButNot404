@@ -1,0 +1,337 @@
+info:
+  namespace: mctown
+items:
+  rubya1:
+    display_name: rubya1
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubya1
+    behaviours:
+      hat: false         
+
+
+  rubya2:
+    display_name: rubya2
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubya2
+    behaviours:
+      hat: false    
+
+  rubya3:
+    display_name: rubya3
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubya3
+    behaviours:
+      hat: false    
+
+  rubya4:
+    display_name: rubya4
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubya4
+    behaviours:
+      hat: false    
+      
+  rubya5:
+    display_name: rubya5
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubya5
+    behaviours:
+      hat: false    
+      
+  rubyd1:
+    display_name: rubyd1
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd1
+    behaviours:
+      hat: false    
+      
+  rubyd2:
+    display_name: rubyd2
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd2
+    behaviours:
+      hat: false    
+      
+  rubyd3:
+    display_name: rubyd3
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd3
+    behaviours:
+      hat: false    
+      
+      
+  rubyd4:
+    display_name: rubyd4
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd4
+    behaviours:
+      hat: false    
+      
+  rubyd5:
+    display_name: rubyd5
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd5
+    behaviours:
+      hat: false
+      
+  rubyd6:
+    display_name: rubyd6
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd6
+    behaviours:
+      hat: false    
+
+  rubyd7:
+    display_name: rubyd7
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd7
+    behaviours:
+      hat: false    
+
+  rubyd8:
+    display_name: rubyd8
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubyd8
+    behaviours:
+      hat: false    
+
+  rubystone:
+    display_name: rubystone
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubystone
+    behaviours:
+      hat: false    
+
+  rubystone2:
+    display_name: rubystone2
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/ruby/rubystone2
+    behaviours:
+      hat: false    
+      
+      
+  blacksmith_orb:
+    display_name: blacksmith_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/blacksmith_orb
+    behaviours:
+      hat: false
+  
+  
+  chef_orb:
+    display_name: chef_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/chef_orb
+    behaviours:
+      hat: false
+  digger_orb:
+    display_name: digger_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/digger_orb
+    behaviours:
+      hat: false
+  farmer_orb:
+    display_name: farmer_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/farmer_orb
+    behaviours:
+      hat: false
+  fisherman_orb:
+    display_name: fisherman_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/fisherman_orb
+    behaviours:
+      hat: false
+  hunter_orb:
+    display_name: hunter_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/hunter_orb
+    behaviours:
+      hat: false
+  lumberjack_orb:
+    display_name: lumberjack_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/lumberjack_orb
+    behaviours:
+      hat: false
+  miner_orb:
+    display_name: miner_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/miner_orb
+    behaviours:
+      hat: false
+
+  mystery_orb:
+    display_name: mystery_orb
+    permission: summerani
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/orbs/mystery_orb
+    behaviours:
+      hat: false
+ 
+
+
+
+ 
+  toffy_blackgem:
+    display_name: toffy_blackgem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_blackgem
+    behaviours:
+      hat: false
+      
+  toffy_bluegem:
+    display_name: toffy_bluegem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_bluegem
+    behaviours:
+      hat: false
+
+  toffy_browngem:
+    display_name: toffy_browngem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_browngem
+    behaviours:
+      hat: false
+  toffy_cyangem:
+    display_name: toffy_cyangem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_cyangem
+    behaviours:
+      hat: false
+  toffy_greengem:
+    display_name: toffy_greengem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_greengem
+    behaviours:
+      hat: false
+  toffy_orangegem:
+    display_name: toffy_orangegem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_orangegem
+    behaviours:
+      hat: false
+  toffy_purplegem:
+    display_name: toffy_purplegem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_purplegem
+    behaviours:
+      hat: false
+  toffy_redgem:
+    display_name: toffy_redgem
+    permission: toffy_redgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_redgem
+    behaviours:
+      hat: false
+  toffy_whitegem:
+    display_name: toffy_whitegem
+    permission: toffy_blackgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_whitegem
+    behaviours:
+      hat: false
+  toffy_yellowgem:
+    display_name: toffy_yellowgem
+    permission: toffy_yellowgem
+    resource:
+      material: clay_ball
+      generate: false
+      model_path: townasset/gems/toffy_yellowgem
+    behaviours:
+      hat: false          

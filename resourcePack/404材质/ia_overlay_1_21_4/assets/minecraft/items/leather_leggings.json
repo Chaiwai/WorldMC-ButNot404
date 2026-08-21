@@ -1,0 +1,1670 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "index": 0,
+    "fallback": {
+      "fallback": {
+        "type": "model",
+        "model": "item/leather_leggings",
+        "tints": [{ "type": "dye", "default": -6265536 }]
+      },
+      "type": "model",
+      "property": "trim_material",
+      "cases": [
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_quartz_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "quartz"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_iron_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "iron"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_netherite_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "netherite"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_redstone_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "redstone"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_copper_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "copper"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_gold_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "gold"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_emerald_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "emerald"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_diamond_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "diamond"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_lapis_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "lapis"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_amethyst_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "amethyst"
+        },
+        {
+          "model": {
+            "type": "model",
+            "model": "item/leather_leggings_resin_trim",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "when": "resin"
+        }
+      ],
+      "model": "item/leather_leggings",
+      "tints": [{ "type": "dye", "default": -6265536 }]
+    },
+    "entries": [
+      {
+        "threshold": 10000,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/enderite_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10001,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/mythril_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10002,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/amber_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10003,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/amethyst_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10004,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/malachite_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10005,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/ruby_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10006,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/warden_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10007,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/jade_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10008,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/silver_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10009,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "armor:ia_auto_gen/iridium_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10010,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "elitecreatures:conqueror_assortment/armor/leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10011,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "littlepandaset:ia_auto_gen/littlepandaleggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10012,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "elitecreatures:ia_auto_gen/runic_animated-leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10013,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "little_unicorn_set:ia_auto_gen/little_unicornleggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      },
+      {
+        "threshold": 10014,
+        "model": {
+          "fallback": {
+            "type": "model",
+            "model": "item/leather_leggings",
+            "tints": [{ "type": "dye", "default": -6265536 }]
+          },
+          "type": "model",
+          "property": "trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_quartz_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "quartz"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_iron_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "iron"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_netherite_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "netherite"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_redstone_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "redstone"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_copper_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "copper"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_gold_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "gold"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_emerald_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "emerald"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_diamond_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "diamond"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_lapis_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "lapis"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_amethyst_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "amethyst"
+            },
+            {
+              "model": {
+                "type": "model",
+                "model": "item/leather_leggings_resin_trim",
+                "tints": [{ "type": "dye", "default": -6265536 }]
+              },
+              "when": "resin"
+            }
+          ],
+          "model": "item/leather_leggings",
+          "tints": [{ "type": "dye", "default": -6265536 }]
+        }
+      }
+    ]
+  }
+}

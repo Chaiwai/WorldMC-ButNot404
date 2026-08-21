@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/necromancer"},"elements":[{"from":[8.0,-3.0,3.5],"to":[8.0,8.0,12.5],"faces":{"east":{"uv":[3.4395,0.627,3.998,1.3105],"tintindex":0,"rotation":0,"texture":"#0"},"west":{"uv":[3.998,0.627,3.4395,1.3105],"tintindex":0,"rotation":0,"texture":"#0"}}}]}

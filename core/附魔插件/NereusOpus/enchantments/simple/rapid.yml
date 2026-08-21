@@ -1,0 +1,29 @@
+basic:
+  id: rapid
+  name: 苍劲
+  enable: true
+  max-level: 8
+display:
+  description:
+    general: 射出的箭矢飞行速度提升
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- bow
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    velocity: :1+0.0625*{level}
+  ordinary:
+    delay: false
+    direct: false

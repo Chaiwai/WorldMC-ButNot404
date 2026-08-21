@@ -1,0 +1,29 @@
+basic:
+  id: extinguishing
+  name: 绝热
+  enable: true
+  max-level: 4
+display:
+  description:
+    general: 受到火焰伤害时有概率直接将身上的火焰扑灭
+alternative:
+  grindstoneable: true
+  is-tradeable: true
+  is-treasure: false
+  is-discoverable: true
+rarity: 史诗
+targets:
+- helmets
+- chestplates
+- leggings
+- boots
+# 暂不支持 limits 内这四项配置
+limits:
+  withLore: []
+  withoutLore: []
+  withName: ''
+  withoutName: ''
+limitations: []
+variables:
+  leveled:
+    chance: :10*{level}
